@@ -1,0 +1,34 @@
+
+.. _repmat():
+
+############
+``repmat()``
+############
+
+:Implemented by: :ref:`AnyFunRepMat`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunRepMat.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // repmat() with 2 arguments
+  repmat(Repeat:AnyIntVar, Value:AnyFloat) -> AnyFloat
+  repmat(Repeat:AnyIntVar, Value:AnyInt) -> AnyInt
+  repmat(Repeat:AnyIntVar, Value:AnyEnum) -> AnyEnum
+  repmat(Repeat:AnyIntVar, Value:AnyObjectPtr) -> AnyObjectPtr
+
+  // repmat() with 3 arguments
+  repmat(RepeatRows:AnyIntVar, RepeatCols:AnyIntVar, Value:AnyFloat) -> AnyFloat
+  repmat(RepeatRows:AnyIntVar, RepeatCols:AnyIntVar, Value:AnyInt) -> AnyInt
+  repmat(RepeatRows:AnyIntVar, RepeatCols:AnyIntVar, Value:AnyEnum) -> AnyEnum
+  repmat(RepeatRows:AnyIntVar, RepeatCols:AnyIntVar, Value:AnyObjectPtr) -> AnyObjectPtr

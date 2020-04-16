@@ -1,0 +1,32 @@
+
+.. _expect():
+
+############
+``expect()``
+############
+
+:Implemented by: :ref:`AnyFunExpect`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunExpect.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  expect(Arg:AnyInt) -> AnyInt
+  expect(Arg:AnyFloat) -> AnyFloat
+  expect(Arg:AnySwitch) -> AnySwitch
+  expect(Arg:AnyString) -> AnyString
+
+  // expect() with 2 arguments
+  expect(Arg:AnyInt, User message:AnyStringVar) -> AnyInt
+  expect(Arg:AnyFloat, User message:AnyStringVar) -> AnyFloat
+  expect(Arg:AnySwitch, User message:AnyStringVar) -> AnySwitch
+  expect(Arg:AnyString, User message:AnyStringVar) -> AnyString

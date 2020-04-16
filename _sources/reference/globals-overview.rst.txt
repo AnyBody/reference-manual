@@ -1,0 +1,27 @@
+*************************************
+Globals reference
+*************************************
+
+The following is a list of global constants and enumerations available.
+
+
+.. rst-class:: filter-table
+
+.. glossary::
+
+{% for token in anyscript_globals.values() %}
+    {{token.ObjectName}}
+        {%- if token.EnumFrom is defined %}
+        :Defined by: :ref:`{{token.EnumFrom}}`
+        {%- elif token.ClassName == "AnyEnumState"  %}
+        :Defined by: <hidden class>
+        {%- else %}
+        :Defined by: <builtin>
+        {%- endif %}
+
+        {{ token.Description | default(" ",true) | indent(width=8) }}
+
+
+
+{% endfor %}
+

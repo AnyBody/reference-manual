@@ -1,0 +1,31 @@
+
+.. _ObjSearchRecursive():
+
+########################
+``ObjSearchRecursive()``
+########################
+
+:Implemented by: :ref:`AnyFunObjSearchRecursive`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunObjSearchRecursive.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // ObjSearchRecursive() with 2 arguments
+  ObjSearchRecursive(RootName:AnyStringVar, ObjectSearchString:AnyStringVar) -> AnyObjectPtr
+
+  // ObjSearchRecursive() with 3 arguments
+  ObjSearchRecursive(RootName:AnyStringVar, ObjectSearchString:AnyStringVar, ClassName:AnyStringVar) -> AnyObjectPtr
+
+  // ObjSearchRecursive() with 4 arguments
+  ObjSearchRecursive(RootName:AnyStringVar, ObjectSearchString:AnyStringVar, ClassName:AnyStringVar, LevelsDown:AnyIntVar) -> AnyObjectPtr

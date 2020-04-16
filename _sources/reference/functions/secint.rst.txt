@@ -1,0 +1,28 @@
+
+.. _secint():
+
+############
+``secint()``
+############
+
+:Implemented by: :ref:`AnyFunVecSecInt`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunVecSecInt.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // secint() with 2 arguments
+  secint(Arg1:AnyFloat, Arg2:AnyFloat) -> AnyFloat
+  secint(Arg1:AnyFloat, Arg2:AnyInt) -> AnyFloat
+  secint(Arg1:AnyInt, Arg2:AnyInt) -> AnyFloat
+  secint(Arg1:AnyInt, Arg2:AnyFloat) -> AnyFloat

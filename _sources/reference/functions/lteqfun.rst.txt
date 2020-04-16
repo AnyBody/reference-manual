@@ -1,0 +1,28 @@
+
+.. _lteqfun():
+
+#############
+``lteqfun()``
+#############
+
+:Implemented by: :ref:`AnyFunLessThanEq`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunLessThanEq.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // lteqfun() with 2 arguments
+  lteqfun(Arg1:AnyFloat, Arg2:AnyFloat) -> AnyInt
+  lteqfun(Arg1:AnyInt, Arg2:AnyInt) -> AnyInt
+  lteqfun(Arg1:AnyFloat, Arg2:AnyInt) -> AnyInt
+  lteqfun(Arg1:AnyInt, Arg2:AnyFloat) -> AnyInt

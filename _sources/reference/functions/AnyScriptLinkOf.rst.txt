@@ -1,0 +1,36 @@
+
+.. _AnyScriptLinkOf():
+
+#####################
+``AnyScriptLinkOf()``
+#####################
+
+:Implemented by: :ref:`AnyFunAnyScriptLinkOf`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunAnyScriptLinkOf.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  AnyScriptLinkOf(Arg:AnyObjectPtr) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyFloat) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyInt) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyString) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyEnum) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyFile) -> AnyStringVar
+
+  // AnyScriptLinkOf() with 2 arguments
+  AnyScriptLinkOf(Arg:AnyObjectPtr, LinkText:AnyString) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyFloat, LinkText:AnyString) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyInt, LinkText:AnyString) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyString, LinkText:AnyString) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyEnum, LinkText:AnyString) -> AnyStringVar
+  AnyScriptLinkOf(Arg:AnyFile, LinkText:AnyString) -> AnyStringVar

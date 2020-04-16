@@ -1,0 +1,32 @@
+
+.. _strlink():
+
+#############
+``strlink()``
+#############
+
+:Implemented by: :ref:`AnyFunStringLink`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunStringLink.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  strlink(Arg:AnyString) -> AnyStringVar
+
+  // strlink() with 2 arguments
+  strlink(Arg:AnyString, LinkText:AnyString) -> AnyStringVar
+
+  // strlink() with 1 arguments
+  strlink(Arg:AnyFile) -> AnyStringVar
+
+  // strlink() with 2 arguments
+  strlink(Arg:AnyFile, LinkText:AnyString) -> AnyStringVar

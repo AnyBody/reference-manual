@@ -1,0 +1,28 @@
+
+.. _linspace():
+
+##############
+``linspace()``
+##############
+
+:Implemented by: :ref:`AnyFunLinspace`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunLinspace.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // linspace() with 3 arguments
+  linspace(StartVal:AnyFloat, StopVal:AnyFloat, ValCount:AnyIntVar) -> AnyVector
+  linspace(StartVal:AnyInt, StopVal:AnyInt, ValCount:AnyIntVar) -> AnyVector
+  linspace(StartVal:AnyFloat, StopVal:AnyInt, ValCount:AnyIntVar) -> AnyVector
+  linspace(StartVal:AnyInt, StopVal:AnyFloat, ValCount:AnyIntVar) -> AnyVector

@@ -1,0 +1,36 @@
+
+.. _iffun():
+
+###########
+``iffun()``
+###########
+
+:Implemented by: :ref:`AnyFunIf`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunIf.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // iffun() with 3 arguments
+  iffun(Condition:AnyFloat, Result1:AnyFloat, Result2:AnyFloat) -> AnyFloat
+  iffun(Condition:AnyFloat, Result1:AnyInt, Result2:AnyInt) -> AnyInt
+  iffun(Condition:AnyFloat, Result1:AnyString, Result2:AnyString) -> AnyString
+  iffun(Condition:AnyFloat, Result1:AnyEnum, Result2:AnyEnum) -> AnyEnum
+  iffun(Condition:AnyInt, Result1:AnyFloat, Result2:AnyFloat) -> AnyFloat
+  iffun(Condition:AnyInt, Result1:AnyInt, Result2:AnyInt) -> AnyInt
+  iffun(Condition:AnyInt, Result1:AnyString, Result2:AnyString) -> AnyString
+  iffun(Condition:AnyInt, Result1:AnyEnum, Result2:AnyEnum) -> AnyEnum
+  iffun(Condition:AnySwitch, Result1:AnyFloat, Result2:AnyFloat) -> AnyFloat
+  iffun(Condition:AnySwitch, Result1:AnyInt, Result2:AnyInt) -> AnyInt
+  iffun(Condition:AnySwitch, Result1:AnyString, Result2:AnyString) -> AnyString
+  iffun(Condition:AnySwitch, Result1:AnyEnum, Result2:AnyEnum) -> AnyEnum

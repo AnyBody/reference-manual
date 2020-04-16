@@ -1,0 +1,145 @@
+{% macro create_class_table() -%}
+
+.. role:: abstract
+.. role:: hidden
+.. role:: creatable
+
+
+.. list-table:: {{kwargs.get('caption', "")}}
+   :widths: 30 70
+   :header-rows: 1
+   :class: classtable
+
+   * - Class name
+     - Short description
+   {#- The two empty rows is a hack to ensure we can use the ..rst-class to label rows.
+       Without this the class would attach to the tbody element instead of the first row.
+    #}
+   * - _
+     - _
+   * - _
+     - _
+
+{%- set classes = varargs if varargs|length else anyscript_classes %}
+{%- for name in classes %}
+{%- if anyscript_classes[name].ClassType == "Hidden" %}{% continue %}{% endif %}
+
+       .. rst-class:: class-type-{{ anyscript_classes[name].ClassType|lower }}
+
+   * - :ref:`{{name}}`
+     - {{anyscript_classes[name].ShortDescription.strip()|truncate(50)}}
+{%- endfor %}
+{%- endmacro -%}
+
+
+
+*********************************
+**Class reference**
+*********************************
+
+
+In this section, we shall describe a number of basic and particularly
+important classes. Detailed description of these classes are naturally
+found in their own manual pages, but the description here serves to
+provide some overview of how the AnyScript™ language is designed. As you may
+discover many of these important classes are abstract base classes, so
+their importance actually comes from the role of defining core concepts
+in the language.
+
+
+Frequently used classes
+==========================
+
+
+.. rst-class:: html-toggle
+
+Basic  classes and datatypes
+-------------------------------
+Describes the classes that the whole data structure is founded on.
+
+{{create_class_table('AnyFolder','AnyStudy','AnyFloat','AnyInt','AnyVec3','AnyMat33', 'AnyVar')}}
+
+
+.. rst-class:: html-toggle
+
+Mechanical objects and forces
+------------------------------
+Contains descriptions of all objects that can be used in creating a
+mechanical model, hereunder a body model.
+
+{{create_class_table('AnyForce3D','AnySeg','AnyMuscle','AnyRefNode','AnyRefFrame')}}
+
+
+.. rst-class:: html-toggle
+
+Kinematic measures
+----------------------------
+AnyBody objects which measure the value of a user-specified DOF within the model.
+The special feature about kinematic measures is that you can drive them. In AnyBody, you can drive
+anything that you can measure, and this is really a unique facility. The concept was introduced
+as a way of describing dimensions in a kinematic model that you might want to get information about or control with drivers.
+
+A joint angle or a distance between two points are examples of kinematic measures.
+Joints can be understood as kinematic measures equipped with drivers. For example, a
+spherical joint is a distance between two points on two different segments that is driven to be zero.
+This means that, using kinematic measures, you can define types of joints that are not available as
+predefined objects in AnyScript.
+
+To read more see the `Kinematic Measures Tutorial <https://anyscript.org/tutorials/The_mechanical_elements/lesson4.html?highlight=kinematic%20measures>`_.
+
+{{create_class_table('AnyKinLinear','AnyKinRotational','AnyKinCoM')}}
+
+.. rst-class:: html-toggle
+
+Drivers
+------------------------
+These are AnyBody objects which constrain the value of a measure to a constant value or a mathematical function of time.
+Drivers essentially assemble and impart motion to your mechanisms.
+
+.. The goal here is to introduce the more generic driver classesand then incorportate different functions within.
+
+{{create_class_table('AnyKinDriver','AnyKinMotion')}}
+
+.. rst-class:: html-toggle
+
+Drawing
+--------------
+These are AnyBody objects that allow the user to visualize their model in the model view window.
+
+{{create_class_table('AnyDrawRefFrame','AnyDrawNode','AnyDrawSeg', 'AnyDrawSurf', 'AnyDrawMuscle')}}
+
+.. rst-class:: html-toggle
+
+Data input/output
+----------------------------
+AnyBody objects which allow for the input and output of various data types.
+
+{{create_class_table('AnyInputFile','AnyOutputFile','AnyInputC3D','AnyMechOutputFileForceExport')}}
+
+.. rst-class:: html-toggle
+
+All classes
+===================================
+
+.. raw:: html
+
+    <input type="text" class="filter-search-input" id="filter-table-input" onkeyup="filter_table()" placeholder="Search for classes...">
+
+..  <input type="checkbox" name="abstract" id="filter-table-abstract" > Show abstract classes<br>
+
+.. rst-class:: filter-table
+
+{{create_class_table()}}
+
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+
+   classes/Any*
+
+

@@ -1,0 +1,482 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>AnySurfCylinderFit &#8212; AnyScript Reference 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="../../_static/script/filter-class-list.js"></script>
+    <script type="text/javascript" src="../../_static/fa/all.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+    
+     
+        <script type="text/javascript" src="../../_static/jquery.cookie.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../../_static/cloud.base.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../../_static/cloud.js"></script>
+    
+
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="AnySurfEllipsoid" href="AnySurfEllipsoid.html" />
+    <link rel="prev" title="AnySurfCylinder" href="AnySurfCylinder.html" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head><body>
+    <div class="relbar-top">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../contents.html" title="Table Of Contents"
+             accesskey="C">toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnySurfEllipsoid.html" title="AnySurfEllipsoid"
+             accesskey="N">next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnySurfCylinder.html" title="AnySurfCylinder"
+             accesskey="P">previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li> 
+      </ul>
+    </div>
+    </div>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="anysurfcylinderfit">
+<span id="id1"></span><h1>AnySurfCylinderFit<a class="headerlink" href="#anysurfcylinderfit" title="Permalink to this headline">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Creatable</p>
+</dd>
+<dt class="field-even">Parent class</dt>
+<dd class="field-even"><p><a class="reference internal" href="AnySurfCylinder.html#anysurfcylinder"><span class="std std-ref">AnySurfCylinder</span></a></p>
+</dd>
+</dl>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>This class represents a parameterized cylinder surface fitted to a point cloud. The fitting method
+computes/defines origin, radii, and orientation of the cylinder based on the input parameters.</p>
+<p> </p>
+</div>
+<div class="section" id="required-initialization-members">
+<h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
+<!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="length">
+<span id="anysurfcylinderfit-length"></span><h3>Length<a class="headerlink" href="#length" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Length">
+<span id="anysurfcylinderfit-length" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Length</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Length" title="Permalink to this headline">¶</a>
+<span class="member-descr">Length of the cylinder.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+</div>
+<p>Length of the cylinder.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="points">
+<span id="anysurfcylinderfit-points"></span><h3>Points<a class="headerlink" href="#points" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Points">
+<span id="anysurfcylinderfit-points" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Points</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Points" title="Permalink to this headline">¶</a>
+<span class="member-descr">A pointcloud to fit a plane.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMatrix.html#anymatrix"><span class="std std-ref">AnyMatrix</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+</div>
+<p>A pointcloud to fit a plane.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="optional-initialization-members">
+<h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
+<!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="capratio">
+<span id="anysurfcylinderfit-capratio"></span><h3>CapRatio<a class="headerlink" href="#capratio" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="CapRatio">
+<span id="anysurfcylinderfit-capratio" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> CapRatio </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.1 </span><a class="headerlink" href="#CapRatio" title="Permalink to this headline">¶</a>
+<span class="member-descr">Ratio between the height of ellipsoidal caps on the ends and the radius.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.1</span></code></div>
+</div>
+<p>Ratio between the height of ellipsoidal caps on the ends and the radius.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="capratio2">
+<span id="anysurfcylinderfit-capratio2"></span><h3>CapRatio2<a class="headerlink" href="#capratio2" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="CapRatio2">
+<span id="anysurfcylinderfit-capratio2" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> CapRatio2 </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.1 </span><a class="headerlink" href="#CapRatio2" title="Permalink to this headline">¶</a>
+<span class="member-descr">Ratio between the height of the ellipsoid cap of the lower end (in -z...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.1</span></code></div>
+</div>
+<p>Ratio between the height of the ellipsoid cap of the lower end (in -z direction) and the radius. If not specified it is equal to CapRatio.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="fixeddirection">
+<span id="anysurfcylinderfit-fixeddirection"></span><h3>FixedDirection<a class="headerlink" href="#fixeddirection" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="FixedDirection">
+<span id="anysurfcylinderfit-fixeddirection" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> FixedDirection </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#FixedDirection" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="direction">
+<span id="anysurfcylinderfit-direction"></span><h3>Direction<a class="headerlink" href="#direction" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Direction">
+<span id="anysurfcylinderfit-direction" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Direction </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Direction" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
+<h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
+<!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="updconfig">
+<span id="anysurfcylinderfit-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
+<span id="anysurfcylinderfit-updconfig" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="upddesign">
+<span id="anysurfcylinderfit-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="UpdDesign">
+<span id="anysurfcylinderfit-upddesign" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
+<span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="updoutput">
+<span id="anysurfcylinderfit-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
+<span id="anysurfcylinderfit-updoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="t">
+<span id="anysurfcylinderfit-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="t">
+<span id="anysurfcylinderfit-t_" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#t" title="Permalink to this headline">¶</a>
+<span class="member-descr">Object-time variable.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
+</div>
+<p>Object-time variable.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="radius">
+<span id="anysurfcylinderfit-radius"></span><h3>Radius<a class="headerlink" href="#radius" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Radius">
+<span id="anysurfcylinderfit-radius" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Radius</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Radius" title="Permalink to this headline">¶</a>
+<span class="member-descr">Radius of the cylinder.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
+</div>
+<p>Radius of the cylinder.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="pointsprojection">
+<span id="anysurfcylinderfit-pointsprojection"></span><h3>PointsProjection<a class="headerlink" href="#pointsprojection" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="PointsProjection">
+<span id="anysurfcylinderfit-pointsprojection" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">PointsProjection</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PointsProjection" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMatrix.html#anymatrix"><span class="std std-ref">AnyMatrix</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="aeig">
+<span id="anysurfcylinderfit-aeig"></span><h3>AEig<a class="headerlink" href="#aeig" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="AEig">
+<span id="anysurfcylinderfit-aeig" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">AEig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AEig" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMat33.html#anymat33"><span class="std std-ref">AnyMat33</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}}</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="smean">
+<span id="anysurfcylinderfit-smean"></span><h3>sMean<a class="headerlink" href="#smean" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="sMean">
+<span id="anysurfcylinderfit-smean" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">sMean</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#sMean" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="srel">
+<span id="anysurfcylinderfit-srel"></span><h3>sRel<a class="headerlink" href="#srel" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="sRel">
+<span id="anysurfcylinderfit-srel" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">sRel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#sRel" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="arel">
+<span id="anysurfcylinderfit-arel"></span><h3>ARel<a class="headerlink" href="#arel" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="ARel">
+<span id="anysurfcylinderfit-arel" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">ARel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ARel" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMat33.html#anymat33"><span class="std std-ref">AnyMat33</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{{1.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">1.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0}}</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+        <p class="logo"><a href="../../index.html" title="index">
+          <img class="logo" src="../../_static/anyscript_maual.svg" alt="Logo"/>
+        </a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../../contents.html">Reference Manual</a></h3>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../class-overview.html"><strong>Class reference</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function-overview.html"><strong>Function reference</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../globals-overview.html">Globals reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../environment.html">Environment variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../errors/index.html">Errors, warnings and messages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Language</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../anyscript/language.html">AnyScript™ language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../anyscript/preprocessor.html">The preprocessor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../anyscript/inside-anybody.html">Inside the AnyBody Modeling System</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../demos/index.html">Demo examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    
+    
+        <div class="sidebar-toggle-group no-js">
+            
+            <button class="sidebar-toggle" id="sidebar-hide" title="Hide the sidebar menu">
+                 «
+                <span class="show-for-small">hide menu</span>
+                
+            </button>
+            <button class="sidebar-toggle" id="sidebar-show" title="Show the sidebar menu">
+                
+                <span class="show-for-small">menu</span>
+                <span class="hide-for-small">sidebar</span>
+                 »
+            </button>
+        </div>
+    
+      <div class="clearer"></div>
+    </div>
+    <div class="relbar-bottom">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../contents.html" title="Table Of Contents"
+             >toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnySurfEllipsoid.html" title="AnySurfEllipsoid"
+             >next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnySurfCylinder.html" title="AnySurfCylinder"
+             >previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li> 
+      </ul>
+    </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, AnyBody Technology A/S.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+    </div>
+    <!-- cloud_sptheme 1.4 -->
+  </body>
+</html>

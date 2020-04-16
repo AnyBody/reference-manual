@@ -1,0 +1,36 @@
+
+.. _AnyBodyLinkOf():
+
+###################
+``AnyBodyLinkOf()``
+###################
+
+:Implemented by: :ref:`AnyFunAnyBodyLinkOf`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunAnyBodyLinkOf.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  AnyBodyLinkOf(Arg:AnyObjectPtr) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyFloat) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyInt) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyString) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyEnum) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyFile) -> AnyStringVar
+
+  // AnyBodyLinkOf() with 2 arguments
+  AnyBodyLinkOf(Arg:AnyObjectPtr, LinkText:AnyString) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyFloat, LinkText:AnyString) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyInt, LinkText:AnyString) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyString, LinkText:AnyString) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyEnum, LinkText:AnyString) -> AnyStringVar
+  AnyBodyLinkOf(Arg:AnyFile, LinkText:AnyString) -> AnyStringVar

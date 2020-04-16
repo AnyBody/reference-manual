@@ -1,0 +1,1099 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>Globals reference &#8212; AnyScript Reference 0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/cloud.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/table_styling.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/script/filter-class-list.js"></script>
+    <script type="text/javascript" src="../_static/fa/all.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+    
+     
+        <script type="text/javascript" src="../_static/jquery.cookie.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../_static/cloud.base.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../_static/cloud.js"></script>
+    
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Environment variables" href="environment.html" />
+    <link rel="prev" title="Missing references" href="missing-references.html" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head><body>
+    <div class="relbar-top">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../contents.html" title="Table Of Contents"
+             accesskey="C">toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="environment.html" title="Environment variables"
+             accesskey="N">next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="missing-references.html" title="Missing references"
+             accesskey="P">previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+ 
+      </ul>
+    </div>
+    </div>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="globals-reference">
+<h1>Globals reference<a class="headerlink" href="#globals-reference" title="Permalink to this headline">¶</a></h1>
+<p>The following is a list of global constants and enumerations available.</p>
+<dl class="glossary">
+<dt id="term-none">None</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;builtin&gt;</p>
+</dd>
+</dl>
+<p>‘None’ indicates ‘No Object’. This is a special value-object for use in pointers (AnyObjectPtr) to indicate empty target, i.e., ‘No Object’.</p>
+</dd>
+<dt id="term-pi">pi</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;builtin&gt;</p>
+</dd>
+</dl>
+<p>Pi = 3.141592653589793238462…</p>
+</dd>
+<dt id="term-off">Off</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></p>
+</dd>
+</dl>
+<p>Off.</p>
+</dd>
+<dt id="term-on">On</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></p>
+</dd>
+</dl>
+<p>On.</p>
+</dd>
+<dt id="term-outputfun">OutputFun</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDesMeasureType.html#anydesmeasuretype"><span class="std std-ref">AnyDesMeasureType</span></a></p>
+</dd>
+</dl>
+<p>Simple output variable purely for monitoring the performance of the design.</p>
+</dd>
+<dt id="term-objectivefun">ObjectiveFun</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDesMeasureType.html#anydesmeasuretype"><span class="std std-ref">AnyDesMeasureType</span></a></p>
+</dd>
+</dl>
+<p>Objective function.</p>
+</dd>
+<dt id="term-equaltozero">EqualToZero</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyForceConstraintType.html#anyforceconstrainttype"><span class="std std-ref">AnyForceConstraintType</span></a></p>
+</dd>
+</dl>
+<p>Linear equality constraints, x=0.</p>
+</dd>
+<dt id="term-lessthanzero">LessThanZero</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDesMeasureType.html#anydesmeasuretype"><span class="std std-ref">AnyDesMeasureType</span></a></p>
+</dd>
+</dl>
+<p>Inequality constraint (less than zero).</p>
+</dd>
+<dt id="term-greaterthanzero">GreaterThanZero</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDesMeasureType.html#anydesmeasuretype"><span class="std std-ref">AnyDesMeasureType</span></a></p>
+</dd>
+</dl>
+<p>Inequality constraint (greater than zero).</p>
+</dd>
+<dt id="term-nonpositive">NonPositive</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyReacForceType.html#anyreacforcetype"><span class="std std-ref">AnyReacForceType</span></a></p>
+</dd>
+</dl>
+<p>Unilateral reaction force, fr&lt;=0.</p>
+</dd>
+<dt id="term-nonnegative">NonNegative</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyReacForceType.html#anyreacforcetype"><span class="std std-ref">AnyReacForceType</span></a></p>
+</dd>
+</dl>
+<p>Unilateral reaction force, fr&gt;=0.</p>
+</dd>
+<dt id="term-hard">Hard</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinEqType.html#anykineqtype"><span class="std std-ref">AnyKinEqType</span></a></p>
+</dd>
+</dl>
+<p>Hard kinematic constraint.</p>
+</dd>
+<dt id="term-soft">Soft</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinEqType.html#anykineqtype"><span class="std std-ref">AnyKinEqType</span></a></p>
+</dd>
+</dl>
+<p>Soft kinematic constraint.</p>
+</dd>
+<dt id="term-forcedep">ForceDep</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinEqType.html#anykineqtype"><span class="std std-ref">AnyKinEqType</span></a></p>
+</dd>
+</dl>
+<p>Force dependent kinematics state. It implies that the solver controls the kinematics depending on its ability.</p>
+</dd>
+<dt id="term-transitionstart">TransitionStart</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Function transition state.</p>
+</dd>
+<dt id="term-transitionend">TransitionEnd</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Function transition state.</p>
+</dd>
+<dt id="term-x">x</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyRefFrameAxis.html#anyrefframeaxis"><span class="std std-ref">AnyRefFrameAxis</span></a></p>
+</dd>
+</dl>
+<p>State that indicates the first axis, i.e., the x-axis.</p>
+</dd>
+<dt id="term-y">y</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyRefFrameAxis.html#anyrefframeaxis"><span class="std std-ref">AnyRefFrameAxis</span></a></p>
+</dd>
+</dl>
+<p>State that indicates the second axis, i.e., the y-axis.</p>
+</dd>
+<dt id="term-z">z</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyRefFrameAxis.html#anyrefframeaxis"><span class="std std-ref">AnyRefFrameAxis</span></a></p>
+</dd>
+</dl>
+<p>State that indicates the third axis, i.e., the z-axis.</p>
+</dd>
+<dt id="term-rotaxesangles">RotAxesAngles</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinRotationalType.html#anykinrotationaltype"><span class="std std-ref">AnyKinRotationalType</span></a></p>
+</dd>
+</dl>
+<p>3-D cardan angles, such as Euler or Bryant angles.</p>
+</dd>
+<dt id="term-rotvector">RotVector</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinRotationalType.html#anykinrotationaltype"><span class="std std-ref">AnyKinRotationalType</span></a></p>
+</dd>
+</dl>
+<p>Cartesian rotation vector.</p>
+</dd>
+<dt id="term-eulerparam">EulerParam</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinRotationalType.html#anykinrotationaltype"><span class="std std-ref">AnyKinRotationalType</span></a></p>
+</dd>
+</dl>
+<p>Euler parameters (also known as quaternions).</p>
+</dd>
+<dt id="term-planarangles">PlanarAngles</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinRotationalType.html#anykinrotationaltype"><span class="std std-ref">AnyKinRotationalType</span></a></p>
+</dd>
+</dl>
+<p>The magnitude of angle of a planar rotation. Two of three entries indicate the out-of-plane error of the rotation.</p>
+</dd>
+<dt id="term-dircosines">DirCosines</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinRotationalType.html#anykinrotationaltype"><span class="std std-ref">AnyKinRotationalType</span></a></p>
+</dd>
+</dl>
+<p>Directional cosines.</p>
+</dd>
+<dt id="term-cartesiancoord">CartesianCoord</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Translational coordinate state: Translations are given in terms of Cartesian coordinates. Used in AnyKinLinear.</p>
+</dd>
+<dt id="term-linelinedistance">LineLineDistance</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Translational coordinate state: Translations are given by distances between lines where the lines are the axes of the reference frames. Used in AnyKinLinear.</p>
+</dd>
+<dt id="term-sphericalcoord">SphericalCoord</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Translational coordinate state: Translations are given in terms of spherical coordinates. Used in AnyKinLinear.</p>
+</dd>
+<dt id="term-cylindricalcoord">CylindricalCoord</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Translational coordinate state: Translations are given in terms of cylindrical coordinates. Used in AnyKinLinear.</p>
+</dd>
+<dt id="term-spsolverfull">SPSolverFull</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Switch for full solver for wrapping problems. Used in AnyKinSPLine and AnyKinSPSheet.</p>
+</dd>
+<dt id="term-spsolvermodes">SPSolverModes</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Switch for modal solver for wrapping problems. Used in AnyKinSPLine and AnyKinSPSheet.</p>
+</dd>
+<dt id="term-constantvalue">ConstantValue</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyInterPolType.html#anyinterpoltype"><span class="std std-ref">AnyInterPolType</span></a></p>
+</dd>
+</dl>
+<p>Constant function.</p>
+</dd>
+<dt id="term-piecewiselinear">PiecewiseLinear</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyInterPolType.html#anyinterpoltype"><span class="std std-ref">AnyInterPolType</span></a></p>
+</dd>
+</dl>
+<p>Piecewise linear function.</p>
+</dd>
+<dt id="term-bezier">Bezier</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyInterPolType.html#anyinterpoltype"><span class="std std-ref">AnyInterPolType</span></a></p>
+</dd>
+</dl>
+<p>Bezier interpolation function.</p>
+</dd>
+<dt id="term-bspline">Bspline</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyInterPolType.html#anyinterpoltype"><span class="std std-ref">AnyInterPolType</span></a></p>
+</dd>
+</dl>
+<p>B-spline interpolation function.</p>
+</dd>
+<dt id="term-lowpass">LowPass</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyFilterType.html#anyfiltertype"><span class="std std-ref">AnyFilterType</span></a></p>
+</dd>
+</dl>
+<p>Lowpass filter</p>
+</dd>
+<dt id="term-highpass">HighPass</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyFilterType.html#anyfiltertype"><span class="std std-ref">AnyFilterType</span></a></p>
+</dd>
+</dl>
+<p>Highpass filter</p>
+</dd>
+<dt id="term-bandpass">BandPass</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyFilterType.html#anyfiltertype"><span class="std std-ref">AnyFilterType</span></a></p>
+</dd>
+</dl>
+<p>Bandpass filter</p>
+</dd>
+<dt id="term-bandstop">BandStop</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyFilterType.html#anyfiltertype"><span class="std std-ref">AnyFilterType</span></a></p>
+</dd>
+</dl>
+<p>Bandstop filter</p>
+</dd>
+<dt id="term-oncancel">OnCancel</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Event specifier for the ‘cancel’ event.</p>
+</dd>
+<dt id="term-onok">OnOK</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Event specifier for the ‘ok’ event.</p>
+</dd>
+<dt id="term-onmousedrag">OnMouseDrag</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Event specifier for the event of a mouse drag being finished.</p>
+</dd>
+<dt id="term-onmouserelease">OnMouseRelease</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+<p>Event specifier for the event of a mouse drag being finished and mouse button being released.</p>
+</dd>
+<dt id="term-origintopleft">OriginTopLeft</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-origintopright">OriginTopRight</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-originbottomleft">OriginBottomLeft</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-originbottomright">OriginBottomRight</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-origincenter">OriginCenter</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-prioritylow">PriorityLow</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-prioritynormal">PriorityNormal</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-priorityhigh">PriorityHigh</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-system">System</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;builtin&gt;</p>
+</dd>
+</dl>
+<p>System constants.</p>
+</dd>
+<dt id="term-decimalnumber">DecimalNumber</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumFloatNumberStyle.html#anyenumfloatnumberstyle"><span class="std std-ref">AnyEnumFloatNumberStyle</span></a></p>
+</dd>
+</dl>
+<p>Fixed decimal point.</p>
+</dd>
+<dt id="term-scientificnumber">ScientificNumber</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumFloatNumberStyle.html#anyenumfloatnumberstyle"><span class="std std-ref">AnyEnumFloatNumberStyle</span></a></p>
+</dd>
+</dl>
+<p>Scientific notation using ‘e’ to seperate the decimal and the exponential part.</p>
+</dd>
+<dt id="term-compactnumber">CompactNumber</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumFloatNumberStyle.html#anyenumfloatnumberstyle"><span class="std std-ref">AnyEnumFloatNumberStyle</span></a></p>
+</dd>
+</dl>
+<p>Automatic selection depending on which format is more compact.</p>
+</dd>
+<dt id="term-pointstylenone">PointStyleNone</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumPointMarkerStyle.html#anyenumpointmarkerstyle"><span class="std std-ref">AnyEnumPointMarkerStyle</span></a></p>
+</dd>
+</dl>
+<p>No marker.</p>
+</dd>
+<dt id="term-pointstylebox">PointStyleBox</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumPointMarkerStyle.html#anyenumpointmarkerstyle"><span class="std std-ref">AnyEnumPointMarkerStyle</span></a></p>
+</dd>
+</dl>
+<p>Box (cube) marker.</p>
+</dd>
+<dt id="term-pointstylesphere">PointStyleSphere</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumPointMarkerStyle.html#anyenumpointmarkerstyle"><span class="std std-ref">AnyEnumPointMarkerStyle</span></a></p>
+</dd>
+</dl>
+<p>Spherical marker.</p>
+</dd>
+<dt id="term-pointstylestar">PointStyleStar</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumPointMarkerStyle.html#anyenumpointmarkerstyle"><span class="std std-ref">AnyEnumPointMarkerStyle</span></a></p>
+</dd>
+</dl>
+<p>Simple star marker.</p>
+</dd>
+<dt id="term-pointstylecross">PointStyleCross</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumPointMarkerStyle.html#anyenumpointmarkerstyle"><span class="std std-ref">AnyEnumPointMarkerStyle</span></a></p>
+</dd>
+</dl>
+<p>Cross marker of three vertical and horizontal lines.</p>
+</dd>
+<dt id="term-pointstylecross2">PointStyleCross2</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumPointMarkerStyle.html#anyenumpointmarkerstyle"><span class="std std-ref">AnyEnumPointMarkerStyle</span></a></p>
+</dd>
+</dl>
+<p>Cross marker of four lines (diagonals of a cube).</p>
+</dd>
+<dt id="term-linestylenone">LineStyleNone</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLineStyle.html#anyenumlinestyle"><span class="std std-ref">AnyEnumLineStyle</span></a></p>
+</dd>
+</dl>
+<p>No line.</p>
+</dd>
+<dt id="term-linestylefull">LineStyleFull</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLineStyle.html#anyenumlinestyle"><span class="std std-ref">AnyEnumLineStyle</span></a></p>
+</dd>
+</dl>
+<p>Full line.</p>
+</dd>
+<dt id="term-linestylehidden">LineStyleHidden</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLineStyle.html#anyenumlinestyle"><span class="std std-ref">AnyEnumLineStyle</span></a></p>
+</dd>
+</dl>
+<p>Hidden line.</p>
+</dd>
+<dt id="term-line3dstylefull">Line3DStyleFull</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLine3DStyle.html#anyenumline3dstyle"><span class="std std-ref">AnyEnumLine3DStyle</span></a></p>
+</dd>
+</dl>
+<p>Full line.</p>
+</dd>
+<dt id="term-line3dcapstylevoid">Line3DCapStyleVoid</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLine3DCapStyle.html#anyenumline3dcapstyle"><span class="std std-ref">AnyEnumLine3DCapStyle</span></a></p>
+</dd>
+</dl>
+<p>This option will do nothing.</p>
+</dd>
+<dt id="term-line3dcapstylenone">Line3DCapStyleNone</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLine3DCapStyle.html#anyenumline3dcapstyle"><span class="std std-ref">AnyEnumLine3DCapStyle</span></a></p>
+</dd>
+</dl>
+<p>No visible cap at line end, but the line is nicely closed. Moreover, this can be used to make spaces in caps composed of multiple caps.</p>
+</dd>
+<dt id="term-line3dcapstyledisk">Line3DCapStyleDisk</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLine3DCapStyle.html#anyenumline3dcapstyle"><span class="std std-ref">AnyEnumLine3DCapStyle</span></a></p>
+</dd>
+</dl>
+<p>Thin disk as line cap.</p>
+</dd>
+<dt id="term-line3dcapstylecylinder">Line3DCapStyleCylinder</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLine3DCapStyle.html#anyenumline3dcapstyle"><span class="std std-ref">AnyEnumLine3DCapStyle</span></a></p>
+</dd>
+</dl>
+<p>Cylinder shaped line cap (or disk with thickness of half the cap length).</p>
+</dd>
+<dt id="term-line3dcapstyleellipsoid">Line3DCapStyleEllipsoid</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLine3DCapStyle.html#anyenumline3dcapstyle"><span class="std std-ref">AnyEnumLine3DCapStyle</span></a></p>
+</dd>
+</dl>
+<p>Ellipsoidal shaped cap.</p>
+</dd>
+<dt id="term-line3dcapstylearrow">Line3DCapStyleArrow</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumLine3DCapStyle.html#anyenumline3dcapstyle"><span class="std std-ref">AnyEnumLine3DCapStyle</span></a></p>
+</dd>
+</dl>
+<p>Arrow head.</p>
+</dd>
+<dt id="term-msg-message">MSG_Message</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMessageType.html#anyenummessagetype"><span class="std std-ref">AnyEnumMessageType</span></a></p>
+</dd>
+</dl>
+<p>Basic message type for purely informative, non-critical messages.</p>
+</dd>
+<dt id="term-msg-warning">MSG_Warning</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMessageType.html#anyenummessagetype"><span class="std std-ref">AnyEnumMessageType</span></a></p>
+</dd>
+</dl>
+<p>Warning message type.</p>
+</dd>
+<dt id="term-msg-error">MSG_Error</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMessageType.html#anyenummessagetype"><span class="std std-ref">AnyEnumMessageType</span></a></p>
+</dd>
+</dl>
+<p>Error message type.</p>
+</dd>
+<dt id="term-msg-errorfatal">MSG_ErrorFatal</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMessageType.html#anyenummessagetype"><span class="std std-ref">AnyEnumMessageType</span></a></p>
+</dd>
+</dl>
+<p>Fatal error message type.</p>
+</dd>
+<dt id="term-cartesianchart2d">CartesianChart2D</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyChartStyle.html#anychartstyle"><span class="std std-ref">AnyChartStyle</span></a></p>
+</dd>
+</dl>
+<p>2D Cartesian plot.</p>
+</dd>
+<dt id="term-cartesianchart3d">CartesianChart3D</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyChartStyle.html#anychartstyle"><span class="std std-ref">AnyChartStyle</span></a></p>
+</dd>
+</dl>
+<p>3D Cartesian plot.</p>
+</dd>
+<dt id="term-optsimplesearch">OptSimpleSearch</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumOptSolver.html#anyenumoptsolver"><span class="std std-ref">AnyEnumOptSolver</span></a></p>
+</dd>
+</dl>
+<p>Simple search algorithm.</p>
+</dd>
+<dt id="term-optfeasibledirsearch1">OptFeasibleDirSearch1</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumOptSolver.html#anyenumoptsolver"><span class="std std-ref">AnyEnumOptSolver</span></a></p>
+</dd>
+</dl>
+<p>Feasible directions search algorithm based on steepest descent direction approach.</p>
+</dd>
+<dt id="term-optfeasibledirsearch2">OptFeasibleDirSearch2</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumOptSolver.html#anyenumoptsolver"><span class="std std-ref">AnyEnumOptSolver</span></a></p>
+</dd>
+</dl>
+<p>Feasible directions search algorithm based on conjugate direction approach.</p>
+</dd>
+<dt id="term-optcomplexpenalty">OptComplexPenalty</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumOptSolver.html#anyenumoptsolver"><span class="std std-ref">AnyEnumOptSolver</span></a></p>
+</dd>
+</dl>
+<p>Search algorithm based on the complex approach where constraints are added to the objective function as penalty.</p>
+</dd>
+<dt id="term-cossin">CosSin</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumFourierSerieType.html#anyenumfourierserietype"><span class="std std-ref">AnyEnumFourierSerieType</span></a></p>
+</dd>
+</dl>
+<p>Mixed cosine and sine terms.</p>
+</dd>
+<dt id="term-cos">Cos</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumFourierSerieType.html#anyenumfourierserietype"><span class="std std-ref">AnyEnumFourierSerieType</span></a></p>
+</dd>
+</dl>
+<p>Cosine terms with phase shift.</p>
+</dd>
+<dt id="term-sin">Sin</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumFourierSerieType.html#anyenumfourierserietype"><span class="std std-ref">AnyEnumFourierSerieType</span></a></p>
+</dd>
+</dl>
+<p>Sine terms with phase shift.</p>
+</dd>
+<dt id="term-ode-rk12">ODE_RK12</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-ode-rk23">ODE_RK23</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-ode-rk4">ODE_RK4</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-ode-rk45f">ODE_RK45f</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-ode-rk45dp">ODE_RK45dp</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-ode-sg12">ODE_SG12</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-ode-radau5">ODE_RADAU5</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-newton-relax">NEWTON_RELAX</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-newton-gss">NEWTON_GSS</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-continuation1">CONTINUATION1</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-continuation2">CONTINUATION2</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-kinsoldeterminate">KinSolDeterminate</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinSolverType.html#anykinsolvertype"><span class="std std-ref">AnyKinSolverType</span></a></p>
+</dd>
+</dl>
+<p>Kinematic solver for determinate systems (2nd generation solver).</p>
+</dd>
+<dt id="term-kinsoloverdeterminate">KinSolOverDeterminate</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinSolverType.html#anykinsolvertype"><span class="std std-ref">AnyKinSolverType</span></a></p>
+</dd>
+</dl>
+<p>Kinematic solver for over-determinate systems. (2nd generation solver)</p>
+</dd>
+<dt id="term-kinsoloff">KinSolOff</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinSolverType.html#anykinsolvertype"><span class="std std-ref">AnyKinSolverType</span></a></p>
+</dd>
+</dl>
+<p>First generation kinematic solver for determinate systems. DEPRECATED / USE NOT RECOMMENDED ! (Only retained in the system for backwards compatibility).</p>
+</dd>
+<dt id="term-kinsoldeterminate2">KinSolDeterminate2</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinSolverType.html#anykinsolvertype"><span class="std std-ref">AnyKinSolverType</span></a></p>
+</dd>
+</dl>
+<p>Kinematic solver for determinate systems using over-determinate formulation (2nd generation solver, beta).</p>
+</dd>
+<dt id="term-kinsolsettingnotused">KinSolSettingNotUsed</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyKinSolverType.html#anykinsolvertype"><span class="std std-ref">AnyKinSolverType</span></a></p>
+</dd>
+</dl>
+</dd>
+<dt id="term-fdk-solver-newton">FDK_Solver_Newton</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-fdk-solver-complex">FDK_Solver_Complex</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-kin-sys-det1">KIN_SYS_DET1</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-kin-sys-det2">KIN_SYS_DET2</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-kin-sys-over-det1">KIN_SYS_OVER_DET1</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p>&lt;hidden class&gt;</p>
+</dd>
+</dl>
+</dd>
+<dt id="term-minmaxsimplex">MinMaxSimplex</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyMuscleRecruitmentSolver.html#anymusclerecruitmentsolver"><span class="std std-ref">AnyMuscleRecruitmentSolver</span></a></p>
+</dd>
+</dl>
+<p>Minimization of maximal muscle activity by the default simplex routine, which in this version is the same as for MinMaxOOSolSimplex.</p>
+</dd>
+<dt id="term-minmaxoosolsimplex">MinMaxOOSolSimplex</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyMuscleRecruitmentSolver.html#anymusclerecruitmentsolver"><span class="std std-ref">AnyMuscleRecruitmentSolver</span></a></p>
+</dd>
+</dl>
+<p>Minimization of maximal muscle activity by simplex routine from the OOSol library.</p>
+</dd>
+<dt id="term-minmaxoosolqp">MinMaxOOSolQP</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyMuscleRecruitmentSolver.html#anymusclerecruitmentsolver"><span class="std std-ref">AnyMuscleRecruitmentSolver</span></a></p>
+</dd>
+</dl>
+<p>Minimization of maximal muscle activity by a quadratic programming routine from the OOSol library.</p>
+</dd>
+<dt id="term-minmaxnrsimplex">MinMaxNRSimplex</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyMuscleRecruitmentSolver.html#anymusclerecruitmentsolver"><span class="std std-ref">AnyMuscleRecruitmentSolver</span></a></p>
+</dd>
+</dl>
+<p>Minimization of maximal muscle activity by simplex routine from Numerical Recipes.</p>
+</dd>
+<dt id="term-minmaxaqp">MinMaxAQP</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyMuscleRecruitmentSolver.html#anymusclerecruitmentsolver"><span class="std std-ref">AnyMuscleRecruitmentSolver</span></a></p>
+</dd>
+</dl>
+<p>Minimization of maximal muscle activity by a QP routine.</p>
+</dd>
+<dt id="term-mr-minmaxstrict">MR_MinMaxStrict</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentType.html#anyenummusclerecruitmenttype"><span class="std std-ref">AnyEnumMuscleRecruitmentType</span></a></p>
+</dd>
+</dl>
+<p>Min-Max criterion, i.e., the infinite norm in a strict sense.</p>
+</dd>
+<dt id="term-mr-minmaxaux">MR_MinMaxAux</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentType.html#anyenummusclerecruitmenttype"><span class="std std-ref">AnyEnumMuscleRecruitmentType</span></a></p>
+</dd>
+</dl>
+<p>Min-Max criterion supplemeted with auxillary linear and quadratic terms.</p>
+</dd>
+<dt id="term-mr-linear">MR_Linear</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentType.html#anyenummusclerecruitmenttype"><span class="std std-ref">AnyEnumMuscleRecruitmentType</span></a></p>
+</dd>
+</dl>
+<p>Linear criterion.</p>
+</dd>
+<dt id="term-mr-quadratic">MR_Quadratic</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentType.html#anyenummusclerecruitmenttype"><span class="std std-ref">AnyEnumMuscleRecruitmentType</span></a></p>
+</dd>
+</dl>
+<p>Quadratic criterion.</p>
+</dd>
+<dt id="term-mr-quadraticaux">MR_QuadraticAux</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentType.html#anyenummusclerecruitmenttype"><span class="std std-ref">AnyEnumMuscleRecruitmentType</span></a></p>
+</dd>
+</dl>
+<p>Quadratic criterion with an auxillary linear term.</p>
+</dd>
+<dt id="term-mr-polynomial">MR_Polynomial</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentType.html#anyenummusclerecruitmenttype"><span class="std std-ref">AnyEnumMuscleRecruitmentType</span></a></p>
+</dd>
+</dl>
+<p>A polynomial criteria with user specified power.</p>
+</dd>
+<dt id="term-mr-constant">MR_Constant</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentNormalizationType.html#anyenummusclerecruitmentnormalizationtype"><span class="std std-ref">AnyEnumMuscleRecruitmentNormalizationType</span></a></p>
+</dd>
+</dl>
+<p>Constant normalization denominator for all muscles.</p>
+</dd>
+<dt id="term-mr-currentstrength">MR_CurrentStrength</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentNormalizationType.html#anyenummusclerecruitmentnormalizationtype"><span class="std std-ref">AnyEnumMuscleRecruitmentNormalizationType</span></a></p>
+</dd>
+</dl>
+<p>The current muscle strength (e.g. including length-velocity relationships of the muscle models) of each muscle is used as normalization denominator.</p>
+</dd>
+<dt id="term-mr-nominalstrength">MR_NominalStrength</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumMuscleRecruitmentNormalizationType.html#anyenummusclerecruitmentnormalizationtype"><span class="std std-ref">AnyEnumMuscleRecruitmentNormalizationType</span></a></p>
+</dd>
+</dl>
+<p>The nominal muscle strength (F0 in the muscle models) of each muscle is used as normalization denominator.</p>
+</dd>
+<dt id="term-ms-sqlserver-2008">MS_SQLServer_2008</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDBType.html#anydbtype"><span class="std std-ref">AnyDBType</span></a></p>
+</dd>
+</dl>
+<p>Miscrosoft SQL Server 2008</p>
+</dd>
+<dt id="term-ms-sqlserver-2005">MS_SQLServer_2005</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDBType.html#anydbtype"><span class="std std-ref">AnyDBType</span></a></p>
+</dd>
+</dl>
+<p>Miscrosoft SQL Server 2005</p>
+</dd>
+<dt id="term-ms-sqlserver-2000">MS_SQLServer_2000</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDBType.html#anydbtype"><span class="std std-ref">AnyDBType</span></a></p>
+</dd>
+</dl>
+<p>Miscrosoft SQL Server 2000</p>
+</dd>
+<dt id="term-ms-access">MS_Access</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDBType.html#anydbtype"><span class="std std-ref">AnyDBType</span></a></p>
+</dd>
+</dl>
+<p>Miscrosoft Office Access</p>
+</dd>
+<dt id="term-mysql">MySQL</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDBType.html#anydbtype"><span class="std std-ref">AnyDBType</span></a></p>
+</dd>
+</dl>
+<p>My SQL</p>
+</dd>
+<dt id="term-oracle">Oracle</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDBType.html#anydbtype"><span class="std std-ref">AnyDBType</span></a></p>
+</dd>
+</dl>
+<p>Oracle</p>
+</dd>
+<dt id="term-oraclexe">OracleXE</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyDBType.html#anydbtype"><span class="std std-ref">AnyDBType</span></a></p>
+</dd>
+</dl>
+<p>Oracle XE</p>
+</dd>
+<dt id="term-rbf-biharmonic">RBF_Biharmonic</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumRBFFunType.html#anyenumrbffuntype"><span class="std std-ref">AnyEnumRBFFunType</span></a></p>
+</dd>
+</dl>
+<p>Biharmonic basis function.</p>
+</dd>
+<dt id="term-rbf-triharmonic">RBF_Triharmonic</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumRBFFunType.html#anyenumrbffuntype"><span class="std std-ref">AnyEnumRBFFunType</span></a></p>
+</dd>
+</dl>
+<p>Triharmonic basis function.</p>
+</dd>
+<dt id="term-rbf-thinplate">RBF_ThinPlate</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumRBFFunType.html#anyenumrbffuntype"><span class="std std-ref">AnyEnumRBFFunType</span></a></p>
+</dd>
+</dl>
+<p>Thin-plate basis function.</p>
+</dd>
+<dt id="term-rbf-gaussian">RBF_Gaussian</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumRBFFunType.html#anyenumrbffuntype"><span class="std std-ref">AnyEnumRBFFunType</span></a></p>
+</dd>
+</dl>
+<p>Gaussian basis function.</p>
+</dd>
+<dt id="term-rbf-multiquadratic">RBF_MultiQuadratic</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumRBFFunType.html#anyenumrbffuntype"><span class="std std-ref">AnyEnumRBFFunType</span></a></p>
+</dd>
+</dl>
+<p>Multi-Quadratic basis function.</p>
+</dd>
+<dt id="term-rbf-inversemultiquadratic">RBF_InverseMultiQuadratic</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumRBFFunType.html#anyenumrbffuntype"><span class="std std-ref">AnyEnumRBFFunType</span></a></p>
+</dd>
+</dl>
+<p>Multi-Quadratic basis function.</p>
+</dd>
+<dt id="term-bb-cartesian">BB_Cartesian</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumBoundingBoxType.html#anyenumboundingboxtype"><span class="std std-ref">AnyEnumBoundingBoxType</span></a></p>
+</dd>
+</dl>
+<p>Bounding box computed as Cartesian bounds.</p>
+</dd>
+<dt id="term-bb-principalaxes">BB_PrincipalAxes</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumBoundingBoxType.html#anyenumboundingboxtype"><span class="std std-ref">AnyEnumBoundingBoxType</span></a></p>
+</dd>
+</dl>
+<p>Bounding box computed in principal directions.</p>
+</dd>
+<dt id="term-vtk-landmark-rigidbody">VTK_LANDMARK_RIGIDBODY</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumVTKLandmarkTransformType.html#anyenumvtklandmarktransformtype"><span class="std std-ref">AnyEnumVTKLandmarkTransformType</span></a></p>
+</dd>
+</dl>
+<p>Rigid body registration.</p>
+</dd>
+<dt id="term-vtk-landmark-similarity">VTK_LANDMARK_SIMILARITY</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumVTKLandmarkTransformType.html#anyenumvtklandmarktransformtype"><span class="std std-ref">AnyEnumVTKLandmarkTransformType</span></a></p>
+</dd>
+</dl>
+<p>Registration with uniform scaling.</p>
+</dd>
+<dt id="term-vtk-landmark-affine">VTK_LANDMARK_AFFINE</dt><dd><dl class="field-list simple">
+<dt class="field-odd">Defined by</dt>
+<dd class="field-odd"><p><a class="reference internal" href="classes/AnyEnumVTKLandmarkTransformType.html#anyenumvtklandmarktransformtype"><span class="std std-ref">AnyEnumVTKLandmarkTransformType</span></a></p>
+</dd>
+</dl>
+<p>Registration with non-uniform scaling.</p>
+</dd>
+</dl>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+        <p class="logo"><a href="../index.html" title="index">
+          <img class="logo" src="../_static/anyscript_maual.svg" alt="Logo"/>
+        </a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../contents.html">Reference Manual</a></h3>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="class-overview.html"><strong>Class reference</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="function-overview.html"><strong>Function reference</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Globals reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="environment.html">Environment variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../errors/index.html">Errors, warnings and messages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Language</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../anyscript/language.html">AnyScript™ language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anyscript/preprocessor.html">The preprocessor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anyscript/inside-anybody.html">Inside the AnyBody Modeling System</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../demos/index.html">Demo examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    
+    
+        <div class="sidebar-toggle-group no-js">
+            
+            <button class="sidebar-toggle" id="sidebar-hide" title="Hide the sidebar menu">
+                 «
+                <span class="show-for-small">hide menu</span>
+                
+            </button>
+            <button class="sidebar-toggle" id="sidebar-show" title="Show the sidebar menu">
+                
+                <span class="show-for-small">menu</span>
+                <span class="hide-for-small">sidebar</span>
+                 »
+            </button>
+        </div>
+    
+      <div class="clearer"></div>
+    </div>
+    <div class="relbar-bottom">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../contents.html" title="Table Of Contents"
+             >toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="environment.html" title="Environment variables"
+             >next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="missing-references.html" title="Missing references"
+             >previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+ 
+      </ul>
+    </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, AnyBody Technology A/S.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+    </div>
+    <!-- cloud_sptheme 1.4 -->
+  </body>
+</html>

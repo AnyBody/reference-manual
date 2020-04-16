@@ -1,0 +1,32 @@
+
+.. _assert():
+
+############
+``assert()``
+############
+
+:Implemented by: :ref:`AnyFunAssert`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunAssert.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  assert(Arg:AnyInt) -> AnyInt
+  assert(Arg:AnyFloat) -> AnyFloat
+  assert(Arg:AnySwitch) -> AnySwitch
+  assert(Arg:AnyString) -> AnyString
+
+  // assert() with 2 arguments
+  assert(Arg:AnyInt, User message:AnyStringVar) -> AnyInt
+  assert(Arg:AnyFloat, User message:AnyStringVar) -> AnyFloat
+  assert(Arg:AnySwitch, User message:AnyStringVar) -> AnySwitch
+  assert(Arg:AnyString, User message:AnyStringVar) -> AnyString

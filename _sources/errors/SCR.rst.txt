@@ -1,0 +1,31 @@
+{% import "macros.jinja" as macros %}
+
+Kernel messages (``SCR``)
+######################################
+
+{{ anyscript_messages | selectattr("ID","equalto", "SCR") | list | map(attribute='Description') | first }}
+
+SCR.SCN
+****************************
+
+{{ anyscript_messages | selectattr("ID","equalto", "SCR.SCN") | list | map(attribute='Description') | first }}
+
+
+{{ macros.create_messages_entries("SCR.SCN", anyscript_messages) }}
+
+SCR.PRS
+****************************
+
+{{ anyscript_messages | selectattr("ID","equalto", "SCR.PRS") | list | map(attribute='Description') | first }}
+
+
+{{ macros.create_messages_entries("SCR.PRS", anyscript_messages) }}
+
+
+SCR.EXP
+****************************
+
+{{ anyscript_messages | selectattr("ID","equalto", "SCR.EXP") | list | map(attribute='Description') | first }}
+
+
+{{ macros.create_messages_entries("SCR.EXP", anyscript_messages) }}

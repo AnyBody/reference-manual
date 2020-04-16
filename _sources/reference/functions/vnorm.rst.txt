@@ -1,0 +1,30 @@
+
+.. _vnorm():
+
+###########
+``vnorm()``
+###########
+
+:Implemented by: :ref:`AnyFunVecVNorm`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunVecVNorm.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  vnorm(Arg:AnyFloat) -> AnyFloat
+  vnorm(Arg:AnyInt) -> AnyFloat
+
+  // vnorm() with 2 arguments
+  vnorm(Arg1:AnyFloat, Arg2:AnyVar) -> AnyFloat
+  vnorm(Arg1:AnyFloat, Arg2:AnyIntVar) -> AnyFloat
+  vnorm(Arg1:AnyInt, Arg2:AnyVar) -> AnyFloat
+  vnorm(Arg1:AnyInt, Arg2:AnyIntVar) -> AnyFloat

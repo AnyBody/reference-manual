@@ -1,0 +1,28 @@
+
+.. _div():
+
+#########
+``div()``
+#########
+
+:Implemented by: :ref:`AnyFunDiv`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunDiv.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // div() with 2 arguments
+  div(Arg1:AnyFloat, Arg2:AnyFloat) -> AnyFloat
+  div(Arg1:AnyFloat, Arg2:AnyInt) -> AnyFloat
+  div(Arg1:AnyInt, Arg2:AnyFloat) -> AnyFloat
+  div(Arg1:AnyInt, Arg2:AnyInt) -> AnyInt

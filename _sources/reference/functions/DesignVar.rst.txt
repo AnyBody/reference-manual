@@ -1,0 +1,28 @@
+
+.. _DesignVar():
+
+###############
+``DesignVar()``
+###############
+
+:Implemented by: :ref:`AnyFunDesignVar`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunDesignVar.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  DesignVar(Arg:AnyObjectPtr) -> AnyObjectPtr
+  DesignVar(Arg:AnyFloat) -> AnyFloat
+  DesignVar(Arg:AnyInt) -> AnyInt
+  DesignVar(Arg:AnyString) -> AnyString
+  DesignVar(Arg:AnyEnum) -> AnyEnum
+  DesignVar(Arg:AnyFile) -> AnyFile

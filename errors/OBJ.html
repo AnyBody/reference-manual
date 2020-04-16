@@ -1,0 +1,626 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>AnyScript Objects Messages (OBJ) &#8212; AnyScript Reference 0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/cloud.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/table_styling.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/script/filter-class-list.js"></script>
+    <script type="text/javascript" src="../_static/fa/all.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+    
+     
+        <script type="text/javascript" src="../_static/jquery.cookie.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../_static/cloud.base.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../_static/cloud.js"></script>
+    
+
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Demo examples" href="../demos/index.html" />
+    <link rel="prev" title="Kernel messages (SCR)" href="SCR.html" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head><body>
+    <div class="relbar-top">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../contents.html" title="Table Of Contents"
+             accesskey="C">toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="../demos/index.html" title="Demo examples"
+             accesskey="N">next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="SCR.html" title="Kernel messages (SCR)"
+             accesskey="P">previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Errors, warnings and messages</a> &#187;</li> 
+      </ul>
+    </div>
+    </div>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="anyscript-objects-messages-obj">
+<h1>AnyScript Objects Messages (<code class="docutils literal notranslate"><span class="pre">OBJ</span></code>)<a class="headerlink" href="#anyscript-objects-messages-obj" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="obj">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ</span></code><a class="headerlink" href="#obj" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj1">
+<span id="id1"></span><h3>OBJ1<a class="headerlink" href="#obj1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>‘Error message’ : incomplete C++ coded error</p>
+</dd>
+</dl>
+<p>This message is a general “object error” in which the full message text is varying from case to case and no further explanation is available here.</p>
+<blockquote>
+<div><p>Some of these messages are actually messages that has not been inserted into AnyBody’s standard message format with their own message ID and with additional explanations.  We appologize for these cases.</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj2">
+<span id="id2"></span><h3>OBJ2<a class="headerlink" href="#obj2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Obligatory initialization of member ‘ClassName’ ‘ObjectName’ is missing</p>
+</dd>
+</dl>
+<p>The object referred to in the error message requires initialization. It is a predefined member object and without this initialization the model cannot behave properly; loading the model is therefore terminated. To avoid this error make proper initialization, for instance in the object’s construction scope indicated by the file reference in the error message.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries odd section" id="obj3">
+<span id="id3"></span><h3>OBJ3<a class="headerlink" href="#obj3" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Member expectations are not satisfied :
+‘Expectation information’</p>
+</dd>
+</dl>
+<p>Some classes (folders only) may require certain objects to be declared inside them. For instance a drawing object may need one or more reference frames to attach the drawing to. This error occurs, if such “member expectation” are not satisfied.
+Notice that these expected members often could be made as AnyScript references to already existing objects, that have been declared in other parts of the model.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj4">
+<span id="id4"></span><h3>OBJ4<a class="headerlink" href="#obj4" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Wrong owner class for ‘ClassName’.  Accepted owner(s): ‘list of accepted owners’</p>
+</dd>
+</dl>
+<p>This error occurs in objects that requires a specific owner class, if this demand is not satisfied. To avoid this error, consider the folder in which you have declared ‘ObjectName’, it may be misplaced.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries odd section" id="obj5">
+<span id="id5"></span><h3>OBJ5<a class="headerlink" href="#obj5" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Numerical value of ‘ObjectName’ is out of range :  ‘Allowed Range’</p>
+</dd>
+</dl>
+<p>A value is outside the allowed range. This is typically a fatal error, but it may be send with lower severity. An additional message may indicate any actions taken to avoid severe problems, e.g. auotmatical adjustment of values.The ‘Allowed Range’ is specified by:</p>
+<blockquote>
+<div><p>Closed bounded interval limits: [min..max]
+Open bounded interval limits:   ]min..max[
+Unbounded upper limit:          ]min..max[
+Unbounded lower limit:          ]-Inf..max]</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj6">
+<span id="id6"></span><h3>OBJ6<a class="headerlink" href="#obj6" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Numerical value of ‘ObjectName’ is out of range :  ‘Allowed Range’</p>
+</dd>
+</dl>
+<p>A value is outside the allowed range. This is typically a fatal error, but it may be send with lower severity. An additional message may indicate any actions taken to avoid severe problems, e.g. auotmatical adjustment of values.The ‘Allowed Range’ is specified by:</p>
+<blockquote>
+<div><p>Closed bounded interval limits: [min..max]
+Open bounded interval limits:   ]min..max[
+Unbounded upper limit:          ]min..max[
+Unbounded lower limit:          ]-Inf..max]</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries odd section" id="obj7">
+<span id="id7"></span><h3>OBJ7<a class="headerlink" href="#obj7" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Important warning</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Initialization without effect :  ‘additional explanation’</p>
+</dd>
+</dl>
+<p>This message implies that a redundant initialization has taken place. The ‘additional explanation’ will explain the reason in the particular case. In rare cases, this message is an error-indicator, but typically it is just a warning.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj8">
+<span id="id8"></span><h3>OBJ8<a class="headerlink" href="#obj8" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Type restricted object-pointer has been linked with object ‘ObjectName’ of unacceptable class ‘ClassName’
+Allowed classes are: ‘ClassName’, …</p>
+</dd>
+</dl>
+<p>A object-pointer (AnyObjectPtr) objects may be type-restricted. In that case, this error occurs if the pointer get initilized with references to objects of classes not allowed:</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries odd section" id="obj9">
+<span id="id9"></span><h3>OBJ9<a class="headerlink" href="#obj9" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>AnyOperationMacro cannot be nested inside another AnyOperationMacro or AnyOperationSequence.</p>
+</dd>
+</dl>
+<p>Sorry - there is no detailed description or explanation related to this message.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj10">
+<span id="id10"></span><h3>OBJ10<a class="headerlink" href="#obj10" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>AnyOperationAssignment is trying to use not AnyValue for assignment:</p>
+</dd>
+</dl>
+<p>AnyOperationAssignment members Source and Target must contain pointers to AnyValue derived objects.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries odd section" id="obj11">
+<span id="id11"></span><h3>OBJ11<a class="headerlink" href="#obj11" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<p>Sorry - there is no detailed description or explanation related to this message.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj12">
+<span id="id12"></span><h3>OBJ12<a class="headerlink" href="#obj12" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<p>Sorry - there is no detailed description or explanation related to this message.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-file">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.FILE</span></code><a class="headerlink" href="#obj-file" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-file1">
+<span id="id13"></span><h3>OBJ.FILE1<a class="headerlink" href="#obj-file1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Problem with file :  ‘FileName(LineNo)’ :  ‘Additional explanation’</p>
+</dd>
+</dl>
+<p>This message is sent by AnyFile objects or other objects operating on files. This is a generic message that cover several different issues depending on the actual type of file and the situation. An ‘additional explanation’ will typically accompany the basic part of the message explaining the particular issue. For text files, references may include the line number of the error if applicable.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj-file2">
+<span id="id14"></span><h3>OBJ.FILE2<a class="headerlink" href="#obj-file2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Shell-execution failed :  ‘Shell execution error message’
+Command :            ‘FileName(LineNo)’ ‘argument-string’
+Working directory :  ‘FileName(LineNo)’</p>
+</dd>
+</dl>
+<p>This message is sent by shell execution operations when the execution fails. The ‘Shell execution error message’ contain the reason as recieved from the shell.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries odd section" id="obj-file3">
+<span id="id15"></span><h3>OBJ.FILE3<a class="headerlink" href="#obj-file3" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Important warning</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Deprecated file format :  ‘File format extension’ :  ‘Additional explanation message’</p>
+</dd>
+</dl>
+<p>This warning indicates that the specified file format is deprecated for this particular usage. Support for deprecated file formats may be removed in future versions of AnyBody.</p>
+<p>This message might only be sent once for a single model, even though multiple cases of the deprecated file format may be present in the model.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-cht">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.CHT</span></code><a class="headerlink" href="#obj-cht" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-cht1">
+<span id="id16"></span><h3>OBJ.CHT1<a class="headerlink" href="#obj-cht1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Invalid series selection  :  ‘Additional message with reason’</p>
+</dd>
+</dl>
+<p>This error is caused by a selection made while defining a data series for a chart object (AnyChart). This can either happen while loading a model with an AnyChart object declared in the AnyScript code, or while making series selections in the AnyChart View that uses an AnyChart object as a component.</p>
+<p>Look to the last part of the message for the reason in the particular case.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-operationreplay">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.OperationReplay</span></code><a class="headerlink" href="#obj-operationreplay" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-operationreplay1">
+<span id="id17"></span><h3>OBJ.OperationReplay1<a class="headerlink" href="#obj-operationreplay1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Replaying data failed in time step ‘integer’. Data is not ready.</p>
+</dd>
+</dl>
+<p>This error arise when the Replaying operations fail to copy data from the output data back to the model.
+The reason can be that an operation calculating the output has not been run prior to replay, or that loaded data in incomplete.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-mch">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.MCH</span></code><a class="headerlink" href="#obj-mch" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-mch1">
+<span id="id18"></span><h3>OBJ.MCH1<a class="headerlink" href="#obj-mch1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Mechanical system problem :  ‘Problem description’
+‘ClassName’ :  ‘ObjectName’</p>
+</dd>
+</dl>
+<p>This error message is send by mechanical studies when it cannot handle various objects in the model. This can be due to issues in the model or limitations in the solver/problem formulation the study can handle. The additional Problem Description provide more details on the particular issue and related objects in the model may be listed in the following lines.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-des">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.DES</span></code><a class="headerlink" href="#obj-des" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-des1">
+<span id="id19"></span><h3>OBJ.DES1<a class="headerlink" href="#obj-des1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Wrong initialization of ‘ClassName’ linking to value ‘ObjectName’ :
+‘additional message’</p>
+</dd>
+</dl>
+<p>An AnyVarRef can only be equal to a single, independent, scalar quantity. The reason is that a AnyVarRef also function as a link in the opposite direction of the normal initialization, i.e., an AnyVarRef can (during runtime) transfer values from itself to the AnyValue object it is linked to (its dependency) This is only possible if there is a one-to-one correspondence and the evaluation moments of left and right-hand side match completely. The dependency is typically created by an AnyScript initialization of the AnyVarRef with the depedency given by the left-hand side of the expression. but it can also be created internally, e.g. by an owner object of the AnyVarRef.</p>
+<blockquote>
+<div><p>Typical errors:</p>
+<ul class="simple">
+<li><p>The right-hand side is an expression of multiple other AnyValues.</p></li>
+<li><p>The right-hand side is an :ref`AnyValue` with multiple elements (without proper indicies to refer to a particular element).</p></li>
+<li><p>The right-hand side Evaluation Moment does not match the left-hand side .
+(This could cause unpredictable overwriting of values after they are updated by the AnyVarRef object and it is therefore not allowed.)</p></li>
+</ul>
+</div></blockquote>
+<p>Please see the reference page on the <a class="reference internal" href="../reference/classes/AnyVarRef.html#anyvarref"><span class="std std-ref">AnyVarRef</span></a> class for further details.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj-des2">
+<span id="id20"></span><h3>OBJ.DES2<a class="headerlink" href="#obj-des2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Optimization failed :  ‘additional message’</p>
+</dd>
+</dl>
+<p>When this error arise, the optimization process has broken down before convergence. This is typically due to some sort of numerical issue and the particular reason is therefore problem and solver dependent. It could be the optimization problem that does not behave well, or the solver or solver settings not being well-suited for the problem.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries odd section" id="obj-des3">
+<span id="id21"></span><h3>OBJ.DES3<a class="headerlink" href="#obj-des3" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Design initialization :  ‘additional message’</p>
+</dd>
+</dl>
+<p>This message accompanies issues occuring while manipulating design values, i.e., the values of design variable objects (class AnyDesVar). This can for instance be while loading design values from (or saving to) external files</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj-des4">
+<span id="id22"></span><h3>OBJ.DES4<a class="headerlink" href="#obj-des4" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Design variable bounds must be specified</p>
+</dd>
+</dl>
+<p>Some types design analysis may require the bounds (Min and Max) of the design variable to be specified by the user. These values may be bounding the parameter space to be analyzed or used for scaling the problem.
+This error message accompanies missing bound specification.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-anydata">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.ANYDATA</span></code><a class="headerlink" href="#obj-anydata" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-anydata1">
+<span id="id23"></span><h3>OBJ.ANYDATA1<a class="headerlink" href="#obj-anydata1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>ANYDATA file object :  ‘MessageString’</p>
+</dd>
+</dl>
+<p>ANYDATA format is an hdf(h5)-based binary file format. Errors and other important issues related to reading and writing this type of files are accompanied with this message. A detailed decription std::string explain the actual issue</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-c3d">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.C3D</span></code><a class="headerlink" href="#obj-c3d" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-c3d1">
+<span id="id24"></span><h3>OBJ.C3D1<a class="headerlink" href="#obj-c3d1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Model is kinetically indeterminate :  ‘additional message’</p>
+</dd>
+</dl>
+<p>This error implies that the model contains fewer unknown forces than equations and it is therefore not solvable.
+The additional message may provide further information about the particular problem.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-math">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.MATH</span></code><a class="headerlink" href="#obj-math" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-math1">
+<span id="id25"></span><h3>OBJ.MATH1<a class="headerlink" href="#obj-math1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Convergence failed :  ‘additional message’</p>
+</dd>
+</dl>
+<p>A numerical routine failed to converge. The “additional message” may provide more detail about the particular reason.</p>
+</div></blockquote>
+</div>
+<div class="html-toggle list-entries even section" id="obj-math2">
+<span id="id26"></span><h3>OBJ.MATH2<a class="headerlink" href="#obj-math2" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Solver setting error :  ‘additional message’</p>
+</dd>
+</dl>
+<p>Settings specified for the referred solver object are not functional. The “additional message” may provide more detail about the particular reason.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="obj-lib">
+<h2><code class="docutils literal notranslate"><span class="pre">OBJ.LIB</span></code><a class="headerlink" href="#obj-lib" title="Permalink to this headline">¶</a></h2>
+<div class="html-toggle list-entries odd section" id="obj-lib-oos1">
+<span id="id27"></span><h3>OBJ.LIB.OOS1<a class="headerlink" href="#obj-lib-oos1" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><dl class="field-list simple">
+<dt class="field-odd">Severity</dt>
+<dd class="field-odd"><p>Fatal error</p>
+</dd>
+<dt class="field-even">Error</dt>
+<dd class="field-even"><p>Unexpected exception in the library OOSol :
+OOSol exception : ‘exception description’.</p>
+</dd>
+</dl>
+<p>A routine in the OOSol library failed unexpectedly. The “exception description” may provide more detail about the particular reason.</p>
+<p>Such failures can be and is most typically due to wrong input to the library routines. This implies that the error could be in the calling AnyObject, either its body or its parameters.</p>
+<p>OOSol functionality is for instance used in AnyKinSPLine, whch is part of muscle wrapping functionality. This type of error, if send from a muscle object, can therefore indicate that the muscle wrapping setup is poor; for instance too few wrapping points on curve compared to the surface curvatures.</p>
+<div class="error-seealso admonition seealso">
+<p class="admonition-title">See also</p>
+<p><a class="reference external" href="https://github.com/AnyBody/support/wiki/Errors#OBJ.LIB.OOS1">AnyScript WIki for possible causes/resolution to this error</a>.</p>
+</div>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+        <p class="logo"><a href="../index.html" title="index">
+          <img class="logo" src="../_static/anyscript_maual.svg" alt="Logo"/>
+        </a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../contents.html">Reference Manual</a></h3>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../reference/class-overview.html"><strong>Class reference</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/function-overview.html"><strong>Function reference</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/globals-overview.html">Globals reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../reference/environment.html">Environment variables</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Errors, warnings and messages</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="SYS.html">System messages (<code class="docutils literal notranslate"><span class="pre">SYS</span></code>)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SCR.html">Kernel messages (<code class="docutils literal notranslate"><span class="pre">SCR</span></code>)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">AnyScript Objects Messages (<code class="docutils literal notranslate"><span class="pre">OBJ</span></code>)</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Language</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../anyscript/language.html">AnyScript™ language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anyscript/preprocessor.html">The preprocessor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anyscript/inside-anybody.html">Inside the AnyBody Modeling System</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../demos/index.html">Demo examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    
+    
+        <div class="sidebar-toggle-group no-js">
+            
+            <button class="sidebar-toggle" id="sidebar-hide" title="Hide the sidebar menu">
+                 «
+                <span class="show-for-small">hide menu</span>
+                
+            </button>
+            <button class="sidebar-toggle" id="sidebar-show" title="Show the sidebar menu">
+                
+                <span class="show-for-small">menu</span>
+                <span class="hide-for-small">sidebar</span>
+                 »
+            </button>
+        </div>
+    
+      <div class="clearer"></div>
+    </div>
+    <div class="relbar-bottom">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../contents.html" title="Table Of Contents"
+             >toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="../demos/index.html" title="Demo examples"
+             >next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="SCR.html" title="Kernel messages (SCR)"
+             >previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="index.html" >Errors, warnings and messages</a> &#187;</li> 
+      </ul>
+    </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, AnyBody Technology A/S.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+    </div>
+    <!-- cloud_sptheme 1.4 -->
+  </body>
+</html>

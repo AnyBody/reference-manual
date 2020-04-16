@@ -1,0 +1,28 @@
+
+.. _flatten():
+
+#############
+``flatten()``
+#############
+
+:Implemented by: :ref:`AnyFunArrayFlatten`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunArrayFlatten.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  flatten(Arg:AnyObjectPtr) -> AnyObjectPtr
+  flatten(Arg:AnyFloat) -> AnyFloat
+  flatten(Arg:AnyInt) -> AnyInt
+  flatten(Arg:AnyString) -> AnyString
+  flatten(Arg:AnyFile) -> AnyFile
+  flatten(Arg:AnyEnum) -> AnyEnum

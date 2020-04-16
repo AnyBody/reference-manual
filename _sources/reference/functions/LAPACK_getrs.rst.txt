@@ -1,0 +1,25 @@
+
+.. _LAPACK_getrs():
+
+##################
+``LAPACK_getrs()``
+##################
+
+:Implemented by: :ref:`AnyFunSolveGenEqSystem`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunSolveGenEqSystem.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // LAPACK_getrs() with 2 arguments
+  LAPACK_getrs(Amat:AnyMatrix, b:AnyFloat) -> AnyFloat

@@ -1,0 +1,1232 @@
+
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>AnyJoint &#8212; AnyScript Reference 0.1 documentation</title>
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
+    
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/language_data.js"></script>
+    <script type="text/javascript" src="../../_static/script/filter-class-list.js"></script>
+    <script type="text/javascript" src="../../_static/fa/all.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+    
+    
+     
+        <script type="text/javascript" src="../../_static/jquery.cookie.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../../_static/cloud.base.js"></script>
+    
+
+    
+     
+        <script type="text/javascript" src="../../_static/cloud.js"></script>
+    
+
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="AnyKinCoM" href="AnyKinCoM.html" />
+    <link rel="prev" title="AnyInterPolType" href="AnyInterPolType.html" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head><body>
+    <div class="relbar-top">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../contents.html" title="Table Of Contents"
+             accesskey="C">toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnyKinCoM.html" title="AnyKinCoM"
+             accesskey="N">next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnyInterPolType.html" title="AnyInterPolType"
+             accesskey="P">previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li> 
+      </ul>
+    </div>
+    </div>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="anyjoint">
+<span id="id1"></span><h1>AnyJoint<a class="headerlink" href="#anyjoint" title="Permalink to this headline">¶</a></h1>
+<dl class="field-list simple">
+<dt class="field-odd">Type</dt>
+<dd class="field-odd"><p>Abstract</p>
+</dd>
+<dt class="field-even">Parent class</dt>
+<dd class="field-even"><p><a class="reference internal" href="AnyKinMeasureOrg.html#anykinmeasureorg"><span class="std std-ref">AnyKinMeasureOrg</span></a></p>
+</dd>
+<dt class="field-odd">Child classes</dt>
+<dd class="field-odd"><p><a class="reference internal" href="AnyStdJoint.html#anystdjoint"><span class="std std-ref">AnyStdJoint</span></a></p>
+</dd>
+</dl>
+<div class="section" id="description">
+<h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
+<p>This class is the base class of all joints. A joint has,
+in  addition to the kinematic constraints and the associated reaction forces,
+a set of joint coordinates defined. The joint class is indeed a kinematic
+measure itself and it measures the joint coordinates.</p>
+<p> </p>
+<table class="colwidths-given plain docutils align-default" id="id2">
+<caption><span class="caption-text">Demo examples related to AnyJoint</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 75%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Demo</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference download internal" download="" href="../../_downloads/4119e81ed32fbaf553a81a25c6249a92/Demo.Arm2D.zip"><code class="xref download docutils literal notranslate"><span class="pre">Demo.Arm2D</span></code></a></p></td>
+<td><p>Simple planar arm model including 8 muscles.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference download internal" download="" href="../../_downloads/2acd92a3af3197a59637a5401a3ed332/Demo.SliderCrank2D.zip"><code class="xref download docutils literal notranslate"><span class="pre">Demo.SliderCrank2D</span></code></a></p></td>
+<td><p>Planar slider crank mechanism.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference download internal" download="" href="../../_downloads/228a241eb969c446448c0426873e01cc/Demo.SliderCrank3D.zip"><code class="xref download docutils literal notranslate"><span class="pre">Demo.SliderCrank3D</span></code></a></p></td>
+<td><p>Model of spatial slider-crank mechanism in 3D demonstrating…</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference download internal" download="" href="../../_downloads/78bf07e0b685554463c1896ec1362a92/Demo.SliderCrank3D_2.zip"><code class="xref download docutils literal notranslate"><span class="pre">Demo.SliderCrank3D_2</span></code></a></p></td>
+<td><p>Extension of the Demo.SliderCrank3D with an additional linkage.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="optional-initialization-members">
+<h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
+<!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="refframes">
+<span id="anyjoint-refframes"></span><h3>RefFrames<a class="headerlink" href="#refframes" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+<span id="anyjoint-refframes" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="surfaces">
+<span id="anyjoint-surfaces"></span><h3>Surfaces<a class="headerlink" href="#surfaces" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Surfaces">
+<span id="anyjoint-surfaces" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="kinmeasurearr">
+<span id="anyjoint-kinmeasurearr"></span><h3>KinMeasureArr<a class="headerlink" href="#kinmeasurearr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
+<span id="anyjoint-kinmeasurearr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="kinmeasureindexarr">
+<span id="anyjoint-kinmeasureindexarr"></span><h3>KinMeasureIndexArr<a class="headerlink" href="#kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
+<span id="anyjoint-kinmeasureindexarr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-refframes">
+<span id="anyjoint-constraints-refframes"></span><h3>Constraints.RefFrames<a class="headerlink" href="#constraints-refframes" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.RefFrames">
+<span id="anyjoint-constraints-refframes" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.RefFrames" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-surfaces">
+<span id="anyjoint-constraints-surfaces"></span><h3>Constraints.Surfaces<a class="headerlink" href="#constraints-surfaces" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Surfaces">
+<span id="anyjoint-constraints-surfaces" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Surfaces" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-ctype">
+<span id="anyjoint-constraints-ctype"></span><h3>Constraints.CType<a class="headerlink" href="#constraints-ctype" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.CType">
+<span id="anyjoint-constraints-ctype" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.CType </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.CType" title="Permalink to this headline">¶</a>
+<span class="member-descr">Constraint type specification that specify how the kinematic solver should...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyKinEqType.html#anykineqtype"><span class="std std-ref">AnyKinEqType</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Constraint type specification that specify how the kinematic solver should handle the constraint.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-weightfun">
+<span id="anyjoint-constraints-weightfun"></span><h3>Constraints.WeightFun<a class="headerlink" href="#constraints-weightfun" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.WeightFun">
+<span id="anyjoint-constraints-weightfun" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.WeightFun </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.WeightFun" title="Permalink to this headline">¶</a>
+<span class="member-descr">Kinematic weighting functions, i.e., time-functions (AnyParamFun) which...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-refframes">
+<span id="anyjoint-constraints-reaction-refframes"></span><h3>Constraints.Reaction.RefFrames<a class="headerlink" href="#constraints-reaction-refframes" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.RefFrames">
+<span id="anyjoint-constraints-reaction-refframes" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.RefFrames" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-surfaces">
+<span id="anyjoint-constraints-reaction-surfaces"></span><h3>Constraints.Reaction.Surfaces<a class="headerlink" href="#constraints-reaction-surfaces" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.Surfaces">
+<span id="anyjoint-constraints-reaction-surfaces" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.Surfaces" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-kinmeasurearr">
+<span id="anyjoint-constraints-reaction-kinmeasurearr"></span><h3>Constraints.Reaction.KinMeasureArr<a class="headerlink" href="#constraints-reaction-kinmeasurearr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.KinMeasureArr">
+<span id="anyjoint-constraints-reaction-kinmeasurearr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.KinMeasureArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-kinmeasureindexarr">
+<span id="anyjoint-constraints-reaction-kinmeasureindexarr"></span><h3>Constraints.Reaction.KinMeasureIndexArr<a class="headerlink" href="#constraints-reaction-kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.KinMeasureIndexArr">
+<span id="anyjoint-constraints-reaction-kinmeasureindexarr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-type">
+<span id="anyjoint-constraints-reaction-type"></span><h3>Constraints.Reaction.Type<a class="headerlink" href="#constraints-reaction-type" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.Type">
+<span id="anyjoint-constraints-reaction-type" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.Type" title="Permalink to this headline">¶</a>
+<span class="member-descr">Type specification of the reaction forces.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyReacForceType.html#anyreacforcetype"><span class="std std-ref">AnyReacForceType</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Type specification of the reaction forces.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
+<h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
+<!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="updconfig">
+<span id="anyjoint-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
+<span id="anyjoint-updconfig" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="upddesign">
+<span id="anyjoint-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="UpdDesign">
+<span id="anyjoint-upddesign" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
+<span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="updoutput">
+<span id="anyjoint-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
+<span id="anyjoint-updoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="t">
+<span id="anyjoint-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="t">
+<span id="anyjoint-t_" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#t" title="Permalink to this headline">¶</a>
+<span class="member-descr">Object-time variable.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
+</div>
+<p>Object-time variable.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="ndim">
+<span id="anyjoint-ndim"></span><h3>nDim<a class="headerlink" href="#ndim" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="nDim">
+<span id="anyjoint-ndim" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#nDim" title="Permalink to this headline">¶</a>
+<span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="refframeoutput">
+<span id="anyjoint-refframeoutput"></span><h3>RefFrameOutput<a class="headerlink" href="#refframeoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="RefFrameOutput">
+<span id="anyjoint-refframeoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFolder.html#anyfolder"><span class="std std-ref">AnyFolder</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="refframeoutput-refframearr">
+<span id="anyjoint-refframeoutput-refframearr"></span><h3>RefFrameOutput.RefFrameArr<a class="headerlink" href="#refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
+<span id="anyjoint-refframeoutput-refframearr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="refframeoutput-jacobians">
+<span id="anyjoint-refframeoutput-jacobians"></span><h3>RefFrameOutput.Jacobians<a class="headerlink" href="#refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
+<span id="anyjoint-refframeoutput-jacobians" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="pos">
+<span id="anyjoint-pos"></span><h3>Pos<a class="headerlink" href="#pos" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Pos">
+<span id="anyjoint-pos" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pos" title="Permalink to this headline">¶</a>
+<span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">PosVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The position vector, i.e., the current values of the measured quantity.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="vel">
+<span id="anyjoint-vel"></span><h3>Vel<a class="headerlink" href="#vel" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Vel">
+<span id="anyjoint-vel" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Vel" title="Permalink to this headline">¶</a>
+<span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The velocity vector, typically the time-derivative of Pos.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="acc">
+<span id="anyjoint-acc"></span><h3>Acc<a class="headerlink" href="#acc" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Acc">
+<span id="anyjoint-acc" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
+<span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">AccVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The acceleration vector, typically the time-derivative of Vel.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="measureorganizer">
+<span id="anyjoint-measureorganizer"></span><h3>MeasureOrganizer<a class="headerlink" href="#measureorganizer" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="MeasureOrganizer">
+<span id="anyjoint-measureorganizer" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">MeasureOrganizer</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#MeasureOrganizer" title="Permalink to this headline">¶</a>
+<span class="member-descr">List of indices of components from the assembled measures to be included in...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>List of indices of components from the assembled measures to be included in the new (organized) measure.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints">
+<span id="anyjoint-constraints"></span><h3>Constraints<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints">
+<span id="anyjoint-constraints" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints" title="Permalink to this headline">¶</a>
+<span class="member-descr">AnyKinEq measure that specifies the kinematic constraints of the joint.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyKinEq.html#anykineq"><span class="std std-ref">AnyKinEq</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>AnyKinEq measure that specifies the kinematic constraints of the joint.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-updconfig">
+<span id="anyjoint-constraints-updconfig"></span><h3>Constraints.UpdConfig<a class="headerlink" href="#constraints-updconfig" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.UpdConfig">
+<span id="anyjoint-constraints-updconfig" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.UpdConfig" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-upddesign">
+<span id="anyjoint-constraints-upddesign"></span><h3>Constraints.UpdDesign<a class="headerlink" href="#constraints-upddesign" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.UpdDesign">
+<span id="anyjoint-constraints-upddesign" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.UpdDesign" title="Permalink to this headline">¶</a>
+<span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-updoutput">
+<span id="anyjoint-constraints-updoutput"></span><h3>Constraints.UpdOutput<a class="headerlink" href="#constraints-updoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.UpdOutput">
+<span id="anyjoint-constraints-updoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.UpdOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-t">
+<span id="anyjoint-constraints-t"></span><h3>Constraints.t<a class="headerlink" href="#constraints-t" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.t">
+<span id="anyjoint-constraints-t" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.t" title="Permalink to this headline">¶</a>
+<span class="member-descr">Object-time variable.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
+</div>
+<p>Object-time variable.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-kinmeasurearr">
+<span id="anyjoint-constraints-kinmeasurearr"></span><h3>Constraints.KinMeasureArr<a class="headerlink" href="#constraints-kinmeasurearr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.KinMeasureArr">
+<span id="anyjoint-constraints-kinmeasurearr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.KinMeasureArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-kinmeasureindexarr">
+<span id="anyjoint-constraints-kinmeasureindexarr"></span><h3>Constraints.KinMeasureIndexArr<a class="headerlink" href="#constraints-kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.KinMeasureIndexArr">
+<span id="anyjoint-constraints-kinmeasureindexarr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-ndim">
+<span id="anyjoint-constraints-ndim"></span><h3>Constraints.nDim<a class="headerlink" href="#constraints-ndim" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.nDim">
+<span id="anyjoint-constraints-ndim" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.nDim" title="Permalink to this headline">¶</a>
+<span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-refframeoutput">
+<span id="anyjoint-constraints-refframeoutput"></span><h3>Constraints.RefFrameOutput<a class="headerlink" href="#constraints-refframeoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.RefFrameOutput">
+<span id="anyjoint-constraints-refframeoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.RefFrameOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFolder.html#anyfolder"><span class="std std-ref">AnyFolder</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-refframeoutput-refframearr">
+<span id="anyjoint-constraints-refframeoutput-refframearr"></span><h3>Constraints.RefFrameOutput.RefFrameArr<a class="headerlink" href="#constraints-refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.RefFrameOutput.RefFrameArr">
+<span id="anyjoint-constraints-refframeoutput-refframearr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-refframeoutput-jacobians">
+<span id="anyjoint-constraints-refframeoutput-jacobians"></span><h3>Constraints.RefFrameOutput.Jacobians<a class="headerlink" href="#constraints-refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.RefFrameOutput.Jacobians">
+<span id="anyjoint-constraints-refframeoutput-jacobians" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-pos">
+<span id="anyjoint-constraints-pos"></span><h3>Constraints.Pos<a class="headerlink" href="#constraints-pos" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Pos">
+<span id="anyjoint-constraints-pos" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Pos" title="Permalink to this headline">¶</a>
+<span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">PosVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The position vector, i.e., the current values of the measured quantity.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-vel">
+<span id="anyjoint-constraints-vel"></span><h3>Constraints.Vel<a class="headerlink" href="#constraints-vel" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Vel">
+<span id="anyjoint-constraints-vel" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Vel" title="Permalink to this headline">¶</a>
+<span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The velocity vector, typically the time-derivative of Pos.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-acc">
+<span id="anyjoint-constraints-acc"></span><h3>Constraints.Acc<a class="headerlink" href="#constraints-acc" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Acc">
+<span id="anyjoint-constraints-acc" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Acc" title="Permalink to this headline">¶</a>
+<span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">AccVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The acceleration vector, typically the time-derivative of Vel.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-measureorganizer">
+<span id="anyjoint-constraints-measureorganizer"></span><h3>Constraints.MeasureOrganizer<a class="headerlink" href="#constraints-measureorganizer" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.MeasureOrganizer">
+<span id="anyjoint-constraints-measureorganizer" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.MeasureOrganizer</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.MeasureOrganizer" title="Permalink to this headline">¶</a>
+<span class="member-descr">List of indices of components from the assembled measures to be included in...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>List of indices of components from the assembled measures to be included in the new (organized) measure.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction">
+<span id="anyjoint-constraints-reaction"></span><h3>Constraints.Reaction<a class="headerlink" href="#constraints-reaction" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction">
+<span id="anyjoint-constraints-reaction" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction" title="Permalink to this headline">¶</a>
+<span class="member-descr">Reaction forces associated with the constraints.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyReacForce.html#anyreacforce"><span class="std std-ref">AnyReacForce</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>Reaction forces associated with the constraints.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-updconfig">
+<span id="anyjoint-constraints-reaction-updconfig"></span><h3>Constraints.Reaction.UpdConfig<a class="headerlink" href="#constraints-reaction-updconfig" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.UpdConfig">
+<span id="anyjoint-constraints-reaction-updconfig" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.UpdConfig" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-upddesign">
+<span id="anyjoint-constraints-reaction-upddesign"></span><h3>Constraints.Reaction.UpdDesign<a class="headerlink" href="#constraints-reaction-upddesign" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.UpdDesign">
+<span id="anyjoint-constraints-reaction-upddesign" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.UpdDesign" title="Permalink to this headline">¶</a>
+<span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-updoutput">
+<span id="anyjoint-constraints-reaction-updoutput"></span><h3>Constraints.Reaction.UpdOutput<a class="headerlink" href="#constraints-reaction-updoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.UpdOutput">
+<span id="anyjoint-constraints-reaction-updoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.UpdOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-t">
+<span id="anyjoint-constraints-reaction-t"></span><h3>Constraints.Reaction.t<a class="headerlink" href="#constraints-reaction-t" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.t">
+<span id="anyjoint-constraints-reaction-t" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.t" title="Permalink to this headline">¶</a>
+<span class="member-descr">Object-time variable.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
+</div>
+<p>Object-time variable.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-ndim">
+<span id="anyjoint-constraints-reaction-ndim"></span><h3>Constraints.Reaction.nDim<a class="headerlink" href="#constraints-reaction-ndim" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.nDim">
+<span id="anyjoint-constraints-reaction-ndim" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.nDim" title="Permalink to this headline">¶</a>
+<span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-refframeoutput">
+<span id="anyjoint-constraints-reaction-refframeoutput"></span><h3>Constraints.Reaction.RefFrameOutput<a class="headerlink" href="#constraints-reaction-refframeoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.RefFrameOutput">
+<span id="anyjoint-constraints-reaction-refframeoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.RefFrameOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFolder.html#anyfolder"><span class="std std-ref">AnyFolder</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-refframeoutput-refframearr">
+<span id="anyjoint-constraints-reaction-refframeoutput-refframearr"></span><h3>Constraints.Reaction.RefFrameOutput.RefFrameArr<a class="headerlink" href="#constraints-reaction-refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.RefFrameOutput.RefFrameArr">
+<span id="anyjoint-constraints-reaction-refframeoutput-refframearr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-refframeoutput-jacobians">
+<span id="anyjoint-constraints-reaction-refframeoutput-jacobians"></span><h3>Constraints.Reaction.RefFrameOutput.Jacobians<a class="headerlink" href="#constraints-reaction-refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.RefFrameOutput.Jacobians">
+<span id="anyjoint-constraints-reaction-refframeoutput-jacobians" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-refframeoutput-f">
+<span id="anyjoint-constraints-reaction-refframeoutput-f"></span><h3>Constraints.Reaction.RefFrameOutput.F<a class="headerlink" href="#constraints-reaction-refframeoutput-f" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.RefFrameOutput.F">
+<span id="anyjoint-constraints-reaction-refframeoutput-f" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.RefFrameOutput.F" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-refframeoutput-m">
+<span id="anyjoint-constraints-reaction-refframeoutput-m"></span><h3>Constraints.Reaction.RefFrameOutput.M<a class="headerlink" href="#constraints-reaction-refframeoutput-m" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.RefFrameOutput.M">
+<span id="anyjoint-constraints-reaction-refframeoutput-m" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.RefFrameOutput.M" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-fin">
+<span id="anyjoint-constraints-reaction-fin"></span><h3>Constraints.Reaction.Fin<a class="headerlink" href="#constraints-reaction-fin" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.Fin">
+<span id="anyjoint-constraints-reaction-fin" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.Fin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.Fin" title="Permalink to this headline">¶</a>
+<span class="member-descr">The generalized force vector of input loads to the given type of analysis,...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ForceVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-fout">
+<span id="anyjoint-constraints-reaction-fout"></span><h3>Constraints.Reaction.Fout<a class="headerlink" href="#constraints-reaction-fout" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.Fout">
+<span id="anyjoint-constraints-reaction-fout" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.Fout</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.Fout" title="Permalink to this headline">¶</a>
+<span class="member-descr">The generalized force vector of outputs from the given type of analysis....</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-weightpos">
+<span id="anyjoint-constraints-weightpos"></span><h3>Constraints.WeightPos<a class="headerlink" href="#constraints-weightpos" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.WeightPos">
+<span id="anyjoint-constraints-weightpos" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.WeightPos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.WeightPos" title="Permalink to this headline">¶</a>
+<span class="member-descr">Current value of the kinematic weighting function.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Current value of the kinematic weighting function.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-weightvel">
+<span id="anyjoint-constraints-weightvel"></span><h3>Constraints.WeightVel<a class="headerlink" href="#constraints-weightvel" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Constraints.WeightVel">
+<span id="anyjoint-constraints-weightvel" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.WeightVel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.WeightVel" title="Permalink to this headline">¶</a>
+<span class="member-descr">Current time-derivative of the kinematic weighting function.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Current time-derivative of the kinematic weighting function.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-weightacc">
+<span id="anyjoint-constraints-weightacc"></span><h3>Constraints.WeightAcc<a class="headerlink" href="#constraints-weightacc" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Constraints.WeightAcc">
+<span id="anyjoint-constraints-weightacc" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Constraints.WeightAcc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.WeightAcc" title="Permalink to this headline">¶</a>
+<span class="member-descr">Current 2'nd order time-derivative of the kinematic weighting function.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Current 2’nd order time-derivative of the kinematic weighting function.</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+        <p class="logo"><a href="../../index.html" title="index">
+          <img class="logo" src="../../_static/anyscript_maual.svg" alt="Logo"/>
+        </a></p>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+<h3><a href="../../contents.html">Reference Manual</a></h3>
+<p class="caption"><span class="caption-text">API</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../class-overview.html"><strong>Class reference</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function-overview.html"><strong>Function reference</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../globals-overview.html">Globals reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../environment.html">Environment variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../errors/index.html">Errors, warnings and messages</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Language</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../anyscript/language.html">AnyScript™ language</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../anyscript/preprocessor.html">The preprocessor</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../anyscript/inside-anybody.html">Inside the AnyBody Modeling System</a></li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../demos/index.html">Demo examples</a></li>
+</ul>
+
+        </div>
+      </div>
+    
+    
+        <div class="sidebar-toggle-group no-js">
+            
+            <button class="sidebar-toggle" id="sidebar-hide" title="Hide the sidebar menu">
+                 «
+                <span class="show-for-small">hide menu</span>
+                
+            </button>
+            <button class="sidebar-toggle" id="sidebar-show" title="Show the sidebar menu">
+                
+                <span class="show-for-small">menu</span>
+                <span class="hide-for-small">sidebar</span>
+                 »
+            </button>
+        </div>
+    
+      <div class="clearer"></div>
+    </div>
+    <div class="relbar-bottom">
+        
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../contents.html" title="Table Of Contents"
+             >toc</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnyKinCoM.html" title="AnyKinCoM"
+             >next</a> &nbsp; &nbsp;</li>
+        <li class="right" >
+          <a href="AnyInterPolType.html" title="AnyInterPolType"
+             >previous</a> &nbsp; &nbsp;</li>
+    <li><a href="../../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li> 
+      </ul>
+    </div>
+    </div>
+
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2019, AnyBody Technology A/S.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+    </div>
+    <!-- cloud_sptheme 1.4 -->
+  </body>
+</html>

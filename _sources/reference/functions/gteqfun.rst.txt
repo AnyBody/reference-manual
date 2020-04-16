@@ -1,0 +1,28 @@
+
+.. _gteqfun():
+
+#############
+``gteqfun()``
+#############
+
+:Implemented by: :ref:`AnyFunGreaterThanEq`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunGreaterThanEq.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // gteqfun() with 2 arguments
+  gteqfun(Arg1:AnyFloat, Arg2:AnyFloat) -> AnyInt
+  gteqfun(Arg1:AnyInt, Arg2:AnyInt) -> AnyInt
+  gteqfun(Arg1:AnyFloat, Arg2:AnyInt) -> AnyInt
+  gteqfun(Arg1:AnyInt, Arg2:AnyFloat) -> AnyInt

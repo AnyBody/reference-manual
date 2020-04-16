@@ -1,0 +1,32 @@
+
+.. _warn():
+
+##########
+``warn()``
+##########
+
+:Implemented by: :ref:`AnyFunWarn`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunWarn.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  warn(Arg:AnyInt) -> AnyInt
+  warn(Arg:AnyFloat) -> AnyFloat
+  warn(Arg:AnySwitch) -> AnySwitch
+  warn(Arg:AnyString) -> AnyString
+
+  // warn() with 2 arguments
+  warn(Arg:AnyInt, User message:AnyStringVar) -> AnyInt
+  warn(Arg:AnyFloat, User message:AnyStringVar) -> AnyFloat
+  warn(Arg:AnySwitch, User message:AnyStringVar) -> AnySwitch
+  warn(Arg:AnyString, User message:AnyStringVar) -> AnyString

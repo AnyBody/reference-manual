@@ -1,0 +1,183 @@
+{% macro create_function_table() -%}
+.. list-table:: {{kwargs.get('caption', "")}}
+   :widths: 30 70
+   :header-rows: 1
+   :class: functiontable
+
+   * - Function name
+     - Description
+{%- set functions = varargs if varargs|length else anyscript_functions %}
+{%- for name in functions %}
+   * - :ref:`{{anyscript_functions[name].ObjectName}}()`
+     - {{anyscript_classes[anyscript_functions[name].ClassName].ShortDescription|truncate(50)}}
+{%- endfor %}
+{%- endmacro -%}
+
+
+*************************************
+**Function reference**
+*************************************
+
+
+Functions by category
+===============================
+
+.. rst-class:: html-toggle
+
+Math operators
+----------------------
+
+The most important simple math functions.
+
+{{create_function_table(
+    "sqrt", "exp", "abs", "log", "log10", "cross", "sin", "cos", "asin", "acos", "atan", "sinh", "cosh", "tanh", "round","ceil", "floor",
+    caption="Basic math"
+)}}
+
+
+{{create_function_table("pow", "mult", "div", caption="Elementwise math operators")}}
+
+.. rst-class:: html-toggle
+
+Array manipulations
+---------------------------
+
+Functions for array manipulation.
+
+{{create_function_table(
+     "sum", "mean", "prod", "max", "min", "argmax", "argmin", "vnorm",
+     caption="Array reduction functions"
+)}}
+
+
+
+{{create_function_table(
+    "NumElemOf", "DimOf", "SizesOf",
+    caption= "Array size and dimensions"
+ )}}
+
+
+
+.. rst-class:: html-toggle
+
+Array initialization
+------------------------------
+
+Functions for creating vectors and matrices
+
+
+{{create_function_table("arrcat", "flatten", "reshape", caption="Reshape or concatenations" )}}
+
+
+
+{{create_function_table(
+    "RotMat", "iarr", "farr", "zeros", "ones", "eye", "linspace", "smootherstep", "smoothramp", "repmat",
+    caption="Creating new arrays"
+)}}
+
+
+
+.. rst-class:: html-toggle
+
+Logic operators
+-----------------------
+
+List of functions for logic operations
+
+
+{{create_function_table("bool", "not", "andfun", "orfun", "iffun", "eqfun", "neqfun", "gtfun", "gteqfun", "ltfun", "lteqfun")}}
+
+
+.. rst-class:: html-toggle
+
+String operators
+----------------------------
+
+Function for string operations
+
+
+{{create_function_table("strval", "strformat", "strquote", caption="Basic string functions")}}
+
+
+.. rst-class:: html-toggle
+
+
+Search and model tree manipulations
+-------------------------------------
+
+{{create_function_table("FilePathNameOf", "FilePathCompleteOf", "strquote")}}
+
+
+
+.. This chapter contains the descriptions of the value classes of  and the
+.. expressions that are possible on these classes. The value classes are
+.. derived from the class AnyValue. They define the basic data types of ,
+.. such as floating point numbers, integers, strings etc.
+
+.. Values can be initialized by assignment statements, i.e., "<objectname>
+.. = <value>;". Depending on the data type such assignments can contain
+.. more or less complex expressions of other values in the model, i.e.
+.. "<objectname> = <expression>;". You cannot make references to AnyValues
+.. as you can to AnyFolders; expressions however provide a similar
+.. functionality for linking values to each other. Expressions on these
+.. values can be formed by means a standard set of mathematical operators
+.. and functions.
+
+.. Functions are, as other elements in , implemented as classes (derived
+.. from the base class AnyFunction). Such classes define a function, which
+.. is an entity that delivers a certain output value given certain input in
+.. a list of values (the argument list). For instance you will find the
+.. standard trigonometric functions sine and cosine implemented in the
+.. classes AnyFunSin and AnyFunCos.
+
+.. When you apply a function in an expression, you use an object for the
+.. given function class. Contrary to other objects,  accepts and require an
+.. argument list in parentheses after function object names when it appears
+.. in a right-hand side expression. The output value replaces the function
+.. objects in the expression during the evaluation. For instance you use an
+.. object called ’sin’, which is of the class AnyFunSin, when you want to
+.. get sine of a number. The function is evaluated whenever the expression,
+.. of which it is part, is evaluated.
+
+.. For standard functions, such as ’sin’ and ’cos’, the system has
+.. predefined objects with practical names placed in the Global scope.
+.. Therefore, you do not need to make declarations of the objects before
+.. using them in expressions. This makes standard functions available, as
+.. one would expect, simply by typing the function name followed by the
+.. argument list in parentheses. However, for other functions, typically
+.. more complex ones with various options, you must declare the function
+.. object manually similar to any other object in . Hereafter the function
+.. can be accessed using the name of the object with either absolute or
+.. relative naming principles.
+
+.. Functions can be polymorphic, which means that the a given function
+.. class (AnyFunction) can hold several actual functions that can be
+.. distinguished from each other by their parameter list. They all share
+.. the same function name, which is the name of the AnyFunction object. The
+.. actual functions are implemented in members of AnyFunction that are of
+.. the type AnyMonoFunction. Multiple AnyMonoFunctions in an AnyFunction
+.. provide polymorphism. From practical user point of view, these
+.. "MonoFunctions" do not have any significance and they are typically
+.. implemented as Hidden classes.
+
+
+All Functions
+========================================
+
+.. raw:: html
+
+    <input type="text" class="filter-search-input" id="filter-table-input" onkeyup="filter_table()" placeholder="Search for functions...">
+
+.. rst-class:: filter-table
+
+{{create_function_table()}}
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :hidden:
+
+
+   functions/*

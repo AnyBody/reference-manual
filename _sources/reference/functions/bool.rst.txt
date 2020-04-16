@@ -1,0 +1,27 @@
+
+.. _bool():
+
+##########
+``bool()``
+##########
+
+:Implemented by: :ref:`AnyFunBool`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunBool.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  bool(Arg:AnyFloat) -> AnyInt
+  bool(Arg:AnyInt) -> AnyInt
+  bool(Arg:AnySwitch) -> AnyInt
+  bool(Arg:AnyString) -> AnyInt
+  bool(Arg:AnyObjectPtr) -> AnyInt

@@ -1,0 +1,442 @@
+**********************************
+AnyScript™ language
+**********************************
+
+
+.. rubric:: Content
+
+* :doc:`Terminology tl;dr <terminology>`
+* :ref:`language-intro`
+
+
+.. toctree::
+    :maxdepth: 1
+    :hidden:
+
+    terminology
+
+
+.. _language-intro:
+
+Introduction
+--------------------------------------------------------------
+
+AnyScript™ is an object-oriented language with a fixed set of available data
+types (classes). This means that you cannot define your own types and you
+cannot, like in a programming language, write algorithms. An AnyScript™ file is
+purely consisting of definitions (declarations) of objects and the internal data
+structure in AnyBody maps these definitions completely.
+
+The following sections gives a brief introduction to the rules for writing an
+AnyScript™ file or files. In many ways AnyScript™ looks syntactically like C++ or Java and
+this is a deliberate choice.
+
+In fact, if you compare AnyScript™ to popular programming languages, you may find
+that it is very similar to JavaScript. The syntax is much the same, and
+AnyScript™ shares the property with (the first versions of) JavaScript that it works on a set of
+predefined classes and does not let the user define new classes. Some of
+the syntactic similarities are the use of braces to delimit different
+sections of the model from each other and the fact that each declaration
+is terminated by a semicolon. The main difference is that AnyScript™ does not
+contain any executable statements, so you cannot specify a sequence of
+events, i.e., write algorithms; AnyScript™ is purely declarative contrary to C++ and Java.
+
+
+The Main folder and scopes
+---------------------------
+As we have already mentioned briefly, the Main folder plays a special
+role as a container of the entire model. This means that a basic AnyScript™ file
+must contain a ``Main =`` statement:
+
+.. code:: AnyScriptDoc
+
+    Main = {
+     <model content>
+    };
+
+
+You could define all the objects of the model in one big pile inside the Main folder. This
+would create a very flat but also disorganized object tree. So users
+normally prefer to organize the objects of the model in subfolders
+according to some system.
+
+For instance, a folder could contain objects
+of similar types, or it could be a particular body part. The folder
+structure plays an important role for complex models of the entire body.
+It allows such models with many hundred element to be composed of
+body part models developed by different users. AnyFolder can be nested as
+much as you find practical for your model; AnyScript™ does not make any
+restrictions in this regard.
+
+.. note:: All statements in AnyScript™ end by a semicolon. We have this in
+    containing ``Main = { <model content> };`` statement and this is how all statements must end.
+
+It is also possible to include Main files from other files.
+In principle, this function is just like any other ``#include``\ -statement.
+However, in this situation the Main folder is considered a globally defined folder.
+Which implies that regardless of the scope in which this folder is opened,
+all additions to the folder will go to the top level folder. So wherever you include a Main file,
+the same thing happens, namely that you add all what is declared in the
+included Main file to your current model’s Main scope. This can indeed
+be confusing and takes some level of experience to master.
+It is not recommended to include other Main file from
+various arbitrary files in your model. Do it from the top level if
+needed, so that it is as transparent from the code as possible.
+
+.. note:: The Main file can only be included once; already at the
+   second attempt all member declared in the included Main file will
+   conflict with already existig object from the first inclusion.
+
+There is one nice application where it may be commendable to
+include a Main file from another Main file. This is if you are making
+extensions to an existing model, but you would like these extensions to
+stay separated from the existing code. For instance, you may be adding
+test facilities you only need temporarily or once in a while, and you do
+not want these facilites to influence the appearance of the model, which
+you may share with your coworkers. In this case you can make new Main
+file, include your common Main file, and then create your additions in the new
+file.
+
+Similarly, you can also use this functionality to combine two models, if
+they are properly designed for coexistence inside the Main scope. For
+this case however, it may be advisable to design the models each as separate
+building blocks (i.e. non-Main include files).
+
+Declarations
+--------------
+
+
+A declaration of an object is made by writing the class name followed by
+the name you want for the object.
+
+.. code:: AnyScriptDoc
+
+    <ClassName> <objectname> = <value>;
+
+The object name can consist of letters (case sensitive), digits (not as the first
+character) and underscores. The declaration defines (creates) a new object
+that did not exist before, i.e., a new instance of the class. The object
+declaration must also contain an initialization of the object’s value.
+This is done by an equality sign followed by an acceptable value for the
+given class. For folders, the <value> can be a scope
+containing multiple statements inside braces. As for value-objects, it can
+be simple values or expressions.
+
+.. code:: AnyScriptDoc
+
+    AnyFolder MyFolder = {}; //Empty folder
+    AnyVar MyVal = 1.0;
+
+Initializing objects
+-------------------------------------------------------
+
+Some objects are not declared directly in the script; they come into the
+model as predefined members of others, their owner. Most folder classes
+(except for :ref:`AnyFolder` and some other basic classes) have such predefined
+members, which are implicitly declared when you declare the owner.
+
+.. Some folders classes may contain other folders as members, which may contain
+.. other folders and so on, and in this way a simple declaration of an object
+.. with such a complex class can lead to a multiple levels and many
+.. properties in the resulting object tree.
+
+Some predefined object members can or need to be
+initialized with a statement similar to the declaration; in this case
+you should simply omit the class name, because the object already
+exists, i.e.:
+
+.. code:: AnyScriptDoc
+
+    "<objectname> = <value>;".
+
+All objects that hold values (:ref:`AnyValue`-derived) can only be initialized once
+from the script. Folders, however, can be initialized many times, because
+initializing the folder is actually the same as opening its scope and adding
+to it.
+
+The folder initialization looks like the following:
+
+.. code:: AnyScriptDoc
+
+    <foldername> = {
+        <content>
+    };"
+
+.. note:: Actually, the start of the AnyScript™ file, ``Main = {``, can
+    be regarded as merely an initialization of the ``Main`` folder.
+
+Multiple initializations of a folder allow you to add contents to folder
+from many places in your script. This is a very important feature when
+creating complex models that are composed of many building blocks
+
+.. , but
+.. it is beyond the scope of this section to explain the details. Please
+.. refer to the tutorials in the  documentation for futher treatment of
+.. this issue.
+
+The sequence of declarations of objects in AnyScript™ does in general not
+matter. This can be allowed due to the fact that you only declare
+objects, i.e., state the existence of them; you do not define sequences
+of events like in most programming languages. AnyScript™ will look for objects in
+the entire object tree if you refer to a existing object. This implies
+that you can declare an object in the bottom of your file and refer to
+it in the top.
+
+.. warning::
+    Some classes do however use the sequence of its members
+    to determine certain properties that may be use in subsequent
+    computations.
+
+    In such case, it is advisable to declare such sequence sensitive members
+    inside a single folder initialization scope because the sequence of the
+    members then becomes the same as the sequence in the code.
+
+
+
+.. _section:syntax.References and Expressions:
+
+References and Expressions
+--------------------------
+
+You can refer to objects by their names. Inside the scope of a given
+folder, the members’ names are unique, i.e., no two objects can have the
+same name.
+
+You can also refer to objects that are located in other
+folders. This can be accomplished in two ways: by absolute and by
+relative references.
+
+.. Both reference types are made by indicating the
+.. object’s owner in front of the object name and dots (``.``) are used as
+.. separators as customary in object-oriented programming.
+
+
+
+.. _syntax.absolute-ref:
+
+Absolute references
+    Absolute references are made by the so-called complete name of an
+    object. The complete name specifies all owners from the root, i.e. from
+    ``Main``, and to the object like for instance:
+
+    .. code-block:: AnyScriptDoc
+
+        Main.<foldername>.<subfoldername>.<objectname>
+
+    This absolute reference to an object is valid from any scope in model.
+
+.. _syntax.relative-ref:
+
+Relative references
+    A relative reference is however only valid from that particular scope
+    level. You can refer further down in the object tree from a given level
+    like the absolute reference refers down from the Global scope, for
+    instance ``<membername>.<sub-member>.<objectname>``.
+
+    You can also
+    refer up the model tree. A dot in front of the name indicates one level
+    up the tree, i.e., ``...<foldername>.<objectname>``  refers to the member
+    of a folder three levels up from the current scope.
+
+    .. code-block:: AnyScriptDoc
+
+        AnyFolder Folder 1 = {
+            AnyVar B = 2;
+        };
+
+        AnyFolder Folder2 = {
+            AnyFolder Subfolder1 = {
+                // A is assined the value of B.
+                // Use two dots to go up two scopes when refering to B
+                AnyVar A = ..Folder1.B; // Use two dot
+            };
+        };
+
+Absolute and relative references can be used on the left hand side of
+the equality sign in an initialization; however, the more common use is
+on the right hand side for specification of the value.
+
+All value objects
+(derived from :ref:`AnyValue`) can be initialized as equal to another value of
+the same type.
+
+..  Moreover, expressions using mathematical operators and
+.. functions are allowed to a certain degree, primarily for classes holding
+.. numerical values. Mathematical functions are objects of special function
+.. classes derived from the base class called AnyFunction. Therefore,
+.. expressions consist entirely of references to objects and/or direct
+.. values combined by operators.
+
+The reference ``&`` operator
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Folders cannot be initialized with another object. So you cannot copy everything
+from one folder to another by initializing one folder by another.
+
+However, you can create special referencing objects that refer to an existing folder
+(this is much like references in C++).
+
+Such references are made by objects of the class :ref:`AnyRefObject`, but they
+are not declared in the script by this class name; they are declared by a class name of the
+object you want to refer to and the so-called reference operator (``&``,
+like in C++).
+
+A reference object declaration looks like:
+
+.. code-block:: AnyScriptDoc
+
+  <Target Class Name> &<ref name> = <target name>;
+
+where ``<target name>`` is a folder object specified by either
+:ref:`absolute <syntax.absolute-ref>` or
+:ref:`relative referencing <syntax.relative-ref>`.
+
+What can the reference objects (or in short ’references’) be used
+for? Actually, they are a very important and powerful feature of AnyScript™. Many
+objects use other objects of particular classes, which they expect
+the user to declare as members. For instance many mechanical objects need
+their attachment points to be defined by declarations of reference
+frames inside the mechanical object. Often these points are already
+existing in other places in the model and here it is possible to simply
+make a reference object pointing to the real object. The real object
+exists only once, but through the reference object it appears to exist
+in two places. It cannot be emphasized enough that there is only one
+object and when its properties are changed, the changes will appear in
+the all places including the references.
+
+As stated above, a reference object is declared by
+the class name of the target object and the reference operator. However,
+the class specification does not have to be an exact match of the target
+object’s type. Any parent class of the target object is valid as
+reference type specification. It can be advantageous not to use exact
+class matches for reference and target, especially if you tend to change the
+class of the target or change the target to another object of another
+class. If all your possible target classes have a common base, this base
+class may be a more practical choice for type definition of your
+reference. There may however be restrictions on how general a base class
+you can choose, this depends on the function the reference object has.
+
+If you make a reference specified as an :ref:`AnyObject`, AnyScript™ can not resolve
+whether it is folder class, a value class, or some much more specific
+class. This means that you lose the information about the special
+features of a class, if you refer to it with a parent class as class
+specifier.
+
+
+Mathematical expression and operators
+-----------------------------------------------
+
+This section  contains the descriptions of the value classes of AnyScript and the
+expressions that are possible on these classes. The value classes are
+derived from the class :ref:`AnyValue`. They define the basic data types of AnyScript,
+such as floating point numbers, integers, strings etc.
+
+Values can be initialized by assignment statements, i.e., ``<objectname>
+= <value>;``. Depending on the data type such assignments can contain
+more or less complex expressions of other values in the model, i.e.
+``<objectname> = <expression>;``. You cannot make references to :ref:`AnyValue`\ s
+as you can to :ref:`AnyFolder`\ s; expressions however provide a similar
+functionality for linking values to each other. Expressions on these
+values can be formed by means a standard set of mathematical operators
+and functions.
+
+Functions are, as other elements in AnyScript, implemented as classes (derived
+from the base class :ref:`AnyFunction`). Such classes define a function, which
+is an entity that delivers a certain output value given certain input in
+a list of values (the argument list). For instance you will find the
+standard trigonometric functions sine and cosine implemented in the
+classes :ref:`AnyFunSin` and :ref:`AnyFunCos`.
+
+When you apply a function in an expression, you use an object for the
+given function class. Contrary to other objects, AnyScript accepts and require an
+argument list in parentheses after function object names when it appears
+in a right-hand side expression. The output value replaces the function
+objects in the expression during the evaluation. For instance you use an
+object called ``sin``, which is of the class :ref:`AnyFunSin`, when you want to
+get sine of a number. The function is evaluated whenever the expression,
+of which it is part, is evaluated.
+
+For standard functions, such as ``sin()`` and ``cos()``, the system has
+predefined objects with practical names placed in the Global scope.
+Therefore, you do not need to make declarations of the objects before
+using them in expressions. This makes standard functions available, as
+one would expect, simply by typing the function name followed by the
+argument list in parentheses. However, for other functions, typically
+more complex ones with various options, you must declare the function
+object manually similar to any other object in AnyScript. Hereafter the function
+can be accessed using the name of the object with either absolute or
+relative naming principles.
+
+Functions can be polymorphic, which means that the a given function
+class (:ref:`AnyFunction`) can hold several actual functions that can be
+distinguished from each other by their parameter list. They all share
+the same function name, which is the name of the :ref:`AnyFunction` object. The
+actual functions are implemented in members of :ref:`AnyFunction` that are of
+the type :ref:`AnyMonoFunction`. Multiple :ref:`AnyMonoFunction`\ s in an :ref:`AnyFunction`
+provide polymorphism. From practical user point of view, these
+"MonoFunctions" do not have any significance and they are typically
+implemented as Hidden classes.
+
+
+.. supports mathematical relationships between primarily numerical
+.. variables. Mathematical expressions can be formed using standard
+.. operators and a number of standard functions, please refer to following
+.. subsections. In principle, such "mathematical" expressions can also be
+.. applied to non-numerical value, i.e., they apply in priciple to all
+.. AnyValue, but not all operations and functions are allowed for all data
+.. types. There will be functions that apply to numerical values only and
+.. functions that e.g. apply to strings values only.
+
+Comments and model documentation
+-----------------------------------------------
+To make your AnyScript™ file more legible you can benefit from making comments and
+splitting your model into several files. Both can be realized by
+features adopted from the C++ language.
+
+Comments that are ignored by the AnyScript™ compiler can be made in two ways: An
+entire paragraph can be excluded from the compilation by bounding it
+with ``/*`` and ``*/``, and a single line can be excluded by a leading
+double slash, ``//``. The comment functionality can be used not only to
+write sensible messages to yourself or other readers of the code, but
+also to exclude parts of the code temporarily during development and
+testing of a model.
+
+From version 2.0 of AnyBody, comments starting with either ``/**`` or ``///`` have
+been given a special meaning. These will be treated as part of a special
+model documentation that is stored together with the model objects and
+made available to the users of the models without requiring them to read
+the AnyScript™ source code. From version 3.0, these comments are collected with
+other object specific information to form an Object Description
+function, which for instance can be accessed from all Model Trees in the
+AnyBody GUI.
+
+Comments using ``/**`` or ``///`` must be attached to an object in the
+script code. This is done by placing the comment right in front the
+initialization of the object. This is referred to as a prefixed
+Documentation Comment. Documentation Comments can also be postfixed, i.e.
+placed right after an object initialization, but this requires an
+additional ``<`` after the preceding mark, i.e., ``///<`` and ``/**<``. This
+is convenient when documenting "small" objects like variables and the
+like.
+
+A third method is convenient for "larger objects", i.e. folders. Folders
+can documented in the middle of the folder scope. We shall refer to this
+as scope-fixed Documentation Comments. A scope-fixed Documentation
+Comment is marked by adding an additional ``^`` after the preceding mark,
+i.e., ``///^`` and ``/**^``. This is convenient when documenting a section
+of code in the scope of an object, for instance from the inside of an
+``#include`` file used during initialization of the object. Inside the
+``#include`` file there will be no access to the start or end of the
+object’s scope, but still the contents of the file may be worth
+commenting on. This is particularly convenient if the ``#include`` file is
+used multiple time from different objects in the model, in which case it
+would require multiple identical Documentation Comments if they were
+made outside the include file, in the vicinity of the ``#include``\ -statement.
+
+Folders can be initialized several times and Documentation Comments can
+be made for each initialization. Multiple such comments are collected
+into one text, when presented in the AnyBody application. In the AnyBody
+GUI such collected presentations of Documentation Comments typically
+contains links to the code for each comments. This can be a powerful
+tool for navigating the AnyScript™ code of "large" objects being initialized in
+many places.

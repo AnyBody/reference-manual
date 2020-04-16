@@ -1,0 +1,353 @@
+*******************************************************
+The preprocessor
+*******************************************************
+
+Statements like ``#include``/``#define``/``#if`` are part of the AnyBody pre-processor.
+
+The preprocessor runs on the source files before AnyBody reads the files and compiles the model.
+Thus, the preprocessor statements are not part of the AnyScript language, and it is in fact very similar to
+`preprocessor <https://en.wikipedia.org/wiki/C_preprocessor>`_ used in the C programming language.
+
+.. note:: Since the preprocessor runs line by line, the order of directives matters.
+    This unlike the AnyScript language itself, where the order of declaration is not important.
+
+
+The pre-processor's role is the inclusion of other files (``#include``), macro expansion ``#define``, and
+conditional compilation ``#if``/``#else``. In addition the pre-processor adds few directives
+which are special to the AnyBody modeling system, like for example the ``#path`` and ``#class_template``.
+
+.. _preprocessor.include:
+
+Including files
+===============================
+The ``#include``\ -statement is a statement that takes the content of a
+file and inserts it at the location of the statement.
+
+.. code:: AnyScriptDoc
+
+  #include "filename.any"
+  //or
+  #include "<path-identifier>filename.any"
+
+
+Conditional code
+=======================================
+
+The ``#if`` directives togehter with ``#else`` or ``#endif`` can be used to
+select between blocks AnyScript™ code. The syntax is as follows:
+
+.. code:: AnyScriptDoc
+
+  #if <expression> <multi-line-code> #else <multi-line-code> #endif
+
+The ``#else`` clause is optional. A typical example from the model repository
+could look like the following:
+
+For example:
+
+.. code-block:: AnyScriptDoc
+
+    #if BM_LEG_RIGHT
+        // Evaluated if BM_LEG_RIGHT has a non zero value
+    #else
+        // Evaluated if BM_LEG_RIGHT has a zero value
+    #endif
+
+Other variants of the #if exists. These are:
+
+  * ``#ifdef <identifier>``: test if and identifier exists
+  * ``#ifndef <identifier>``: test if and identifier does *not* exists
+  * ``#ifpathexsists <path>``: test if file or directory exist
+  * ``#ifnpathexsists <path>``: test if file or directory does *not* exist
+
+
+Path/define statements
+=====================================
+The ``#define``\ -statement links a piece of code to an identifier. When
+the identifier is used later, it is substituted with the piece of code
+by the preprocessor.
+
+.. code-block:: AnyScriptDoc
+
+  #define <identifier> <single-line-code>
+
+  //For multi-line code use a backslash at the end of each line except the last.
+  #define <identifier> <multi-line-code>§\§
+       <multi-line-code-using-the-arguments>§\§
+       <multi-line-code-using-the-arguments>
+
+The ``#path``\ -statement allows to link a directory path to an identifier
+that subsequently can be used in ``#include``\ -statements as well as in
+other AnyScript™ expressions. It functions a bit like the ``#define``\ -statement,
+except that it does not take argument and the content is validated as
+an actual ``#path``\ -statement during model loading.
+
+.. code:: AnyScriptDoc
+
+  #path <identifier> "path":
+  #path <identifier> "<other-path-identfier>relative-path"
+
+
+.. note:: It is convention to write pre-processor identifiers in all uppercase to
+     emphasize that it is a macro, not a real function.
+
+
+Un-defining statements
+=================================
+
+Identifiers or macros created using ``#define`` can undefined again with
+the ``#undef <identifier>`` statement.
+
+Here is a common example using the ``#undef`` to redefine an existing identifier:
+
+.. code:: AnyScriptDoc
+
+  #ifdef BM_LEG_RIGHT
+    #undef BM_LEG_RIGHT
+    #define BM_LEG_RIGHT ON
+  #endif
+
+
+
+.. _code_macros:
+
+
+Code macros
+=====================================
+
+The ``#define`` statement can also be used with arguments, to
+create something like a function-like macro.
+
+In this case the declaration can't have any whitespace between the identifier and first  opening paranthesis.
+
+.. code-block:: AnyScriptDoc
+
+  #define <identifier>(<arg1>,<arg2>..) <single-line-code-using-the-arguments>
+
+Here is a simple example of a function-like macro:
+
+.. code-block:: AnyScriptDoc
+
+    #define DEG2RAD(x) ((x) * pi/180)
+
+This creates a degrees-to-radians function, which can be used by ``DEG2RAD(pi/2)``. It is
+expanded in-place in the code.
+
+The extra sets of parentheses in the expression are important to ensure the
+correct order operation when the code is expanded. For example:
+``2*DEG2RAD(pi+2)`` expands correctly to ``2*((pi+2) *pi/180)`` instead of
+``2*pi+2*pi/180``, which would give precedence to multiplication.
+
+
+.. seealso:: :ref:`Demo models <macro_demos>` showing the macro functionality.
+
+
+
+
+.. _class_templates:
+
+Class templates
+=======================================
+
+In addition to the fairly simple code elements adopted from C/C++, a number of
+special features exist in the AnyScript™ preprocesser. In particular, the
+concept of Class Templates.
+
+``#class_template``:
+    Class Template declaration specifier.
+
+A Class Template is an advanced form of code macros that upon usage, i.e. when
+expanded by the preprocessor, will work almost like declaration of a object of a
+built-in AnyScript™ class. A Class Template does, like a macro, have a name and
+this is used almost like built-in AnyScript™ class names during declaration of
+instances (instantiation) of a Class Template. The following section provides a
+more detailed description of Class Templates.
+
+
+.. code:: AnyScriptDoc
+
+  #class_template <identifier> (<arg_list>) { <multi-line-code> };
+
+where ``<arg_list>`` is a comma-separated list of optional arguments.
+Each argument in the list can have either of the following forms
+
+.. code:: AnyScriptDoc
+
+  <identifier>
+  <identifier>=<value>
+  <class_name>&<identifier>
+
+where ``<identifier>`` is the argument name, ``<value>`` is a default
+value, and ``<class_name>`` is a AnyScript™ class name. This implies that
+arguments can either be simple arguments, i.e., preprocessor
+values, or object references.
+
+.. #class_template:
+..    Class Template declaration specifier.
+
+.. .. code-block:: AnyScriptDoc
+
+..   #class_template <identifier> (<arg_list>) { <multi-line-code> };
+
+.. where <arg_list> is a comma-separated list of optional arguments.
+.. Each argument in the list can have either of the following forms
+
+.. .. code-block:: AnyScriptDoc
+
+..   <identifier>
+..   <identifier>=<value>
+..   <class_name>&<identifier>
+
+.. where <identifier> is the argument name, <value> is a default
+.. value, and <class_name> is a AnyScript™ class name. This implies that
+.. arguments can either be simple arguments, i.e., preprocessor
+.. values, or object references.
+
+``#default``:
+   The #default-specifier indicates that existing default values should
+   be maintained upon instantiation of a Class Template; please refer to
+   the ``#var``-specifier for further details on usage of the
+   #default-specifier.
+
+``#var``:
+   The ``#var``-specifier specifies that a value member in a Class Template
+   shall be treated as a member that can be initialized upon
+   instantiation of the Class Template by the user. The ``#var``-specifier
+   is placed before the declaration of a member value or before
+   initialization of existing members. The ``#var``-specifier is only
+   allowed inside the scope of a Class Template.
+
+.. code:: AnyScriptDoc
+
+  #var <identifier>;
+  #var <identifier> = <value>;
+  #var <identifier> = #default;
+
+where ``<identifier>`` is an existing member, i.e., a member that is
+declared implicitly as a default member of another object via its
+declaration.
+
+Initialization with ``#var`` specification provides a default value; this
+implies that initialization upon instantiation of the Class Template
+is optional (i.e. Optional-Initialization Member). The
+#default-specifier indicates that previously defined default values
+are still valid; this is only allowed for exisiting members that
+originally have default values, i.e., Optional-Initialization
+Members. Omitted initialization implies that no default value exist
+and therefore initialization upon instantiation is required (i.e.
+Obligatory-Initialization Member).
+
+The ``#var`` specification can also be used directly on declaration of
+new value members:
+
+.. code:: AnyScriptDoc
+
+   #var <class_name> <identifier>;
+   #var <class_name> <identifier> = <value>;
+
+where <class_name> is a valid name of a value-class, i.e., a class
+derived from AnyValue
+
+Notice that the "life" of preprocessor identifiers defined by #define
+and ``#path`` follows the sequence of the code so they exist after the
+statement appear, but not before, and only until undefined by ``#undef``.
+Only ``#define``\ -statements can be undefined.
+
+A ``#path``-statement creates an AnyScript™ variable with the same name as the ``#path``
+identifier in the global Path folder, and notice that this variable is
+accessible from all parts of the model, even from code before the
+``#path``-statement. This is the reason why ``#path`` variables cannot be
+undefined.
+
+Class Templates are in principle not real classes, like the AnyScript™ built-in
+classes, but they do indeed work almost like the real classes. Class
+Templates are on the contrary to built-in classes defined in the AnyScript™ code
+and can therefore be defined by the user. Since they are in fact handled
+by the AnyScript™ preprocesser as a form of advanced macro being expanded when the
+preprocesser parses the code, there are indeed some differences to real
+classes. However, the basic objective of Class Templates is indeed allow
+AnyScript™ users to making user-defined classes.
+
+In fact, the motivation behind introducing Class Templates in version
+4.0 of AnyBody was to provide a facility to nicely encapsulate lumps of code
+that is intended for systematic reuse. Previously, such code was
+typically placed in ``#include`` files, which could then be included in many
+places. However, this approach offers no interface definition of the
+information provided to the reused code from outside and therefore, it
+offers no systematic assistance in using the reused code correctly.
+Class Templates offers such interface definition and therefore a
+foundation for nicer encapsulation of the code block, in particular in a
+form that looks and feels like a normal class.
+
+Please notice the following about Class Templates:
+
+Class Templates
+   can only define a collection of objects. You cannot implement an
+   algorithmic functionality, like member functions, as you might expect
+   knowing other object-oriented programming language. Also at this
+   point, AnyScript™ is merely a declarative language.
+
+Instances of Class Templates
+   are in principle folder-object, i.e., object of class AnyFolder. This
+   AnyFolder will contain all the members that have been defined as
+   members in the Class Template.
+
+Member initialization control:
+   Class Templates offers encapsulation of the members, similar to the
+   functionality known from the normal built-in classes. All members are
+   accessible for instance from AnyBody Model Tree Views, but
+   initialization of the members from the script in controlled. Members
+   can be Denied-Access, Optional-Initialization, or
+   Obligatory-Initialization members, respectively. By default,
+   initialization is denied but using the #var-specifier initialization
+   can be allowed, please refer to the previous section for syntax
+   details. Existence of default values determines whether a member may
+   or must be initialized.
+
+Class Template argument
+   Class Templates can have template arguments, i.e., arguments used
+   during the instantion of the object. Since these argument are being
+   used by the preprocessor, they must resolvable by the preprocesser.
+   This put limits on what such arguments can hold; in principle it can
+   hold preprocesser values, i.e., values defined by #define-statements
+   or expressions hereof, just like the values allowed in #if-statements
+   and the like. In addition however, object references can be parsed
+   through the template argument list. Object references require type
+   declarations in the template argument list needed for argument
+   validation.
+
+   Arguments just holding preprocesser values do not require any type
+   specification, but such arguments can contain default values. Inside
+   the Class Template, this type of arguments can be regarded as
+   preprocesser identifiers as if they were created by
+   #define-statements in normal AnyScript™ code.
+
+Conditional code:
+   The template arguments can be used inside the Class Template to
+   control active paths of the code. This is done by preprocesser
+   #if-statements. This is powerful feature for building advanced
+   "user-defined classes" by means of Class Templates.
+
+Instantiation of Class Templates
+   (or declaration of Class Template objects) are in principle like
+   built-in classes, except that Class Template may need the template
+   arguments to be specified. This is in principle done like
+
+.. code:: AnyScriptDoc
+
+  <class_template_name> <identifier> (<identifier1>=<value>,...) = {
+  ...
+  <multi-line-code>
+  ...
+  };
+
+where <identifier> is the object name, and <identifier1> is a
+template argument name.
+
+Notice that template arguments can be listed in any sequence, not
+matching the Class Template definition, but you must specify the
+argument name in the list. This syntax has been chosen in order to
+accommodate very long argument list, where many (most) arguments have
+default values that often does not need modification. This is
+expected to be the case larger, advanced "classes" defined using
+Class Templates.

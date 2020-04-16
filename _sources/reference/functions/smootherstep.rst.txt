@@ -1,0 +1,28 @@
+
+.. _smootherstep():
+
+##################
+``smootherstep()``
+##################
+
+:Implemented by: :ref:`AnyFunSmootherstep`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunSmootherstep.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // smootherstep() with 3 arguments
+  smootherstep(Edge1:AnyFloat, Edge2:AnyFloat, Value:AnyFloat) -> AnyVector
+  smootherstep(Edge1:AnyInt, Edge2:AnyInt, Value:AnyFloat) -> AnyVector
+  smootherstep(Edge1:AnyInt, Edge2:AnyFloat, Value:AnyFloat) -> AnyVector
+  smootherstep(Edge1:AnyFloat, Edge2:AnyInt, Value:AnyFloat) -> AnyVector

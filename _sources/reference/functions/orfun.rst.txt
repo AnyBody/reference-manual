@@ -1,0 +1,29 @@
+
+.. _orfun():
+
+###########
+``orfun()``
+###########
+
+:Implemented by: :ref:`AnyFunOr`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunOr.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // orfun() with 2 arguments
+  orfun(Arg1:AnyFloat, Arg2:AnyFloat) -> AnyInt
+  orfun(Arg1:AnyInt, Arg2:AnyInt) -> AnyInt
+  orfun(Arg1:AnyFloat, Arg2:AnyInt) -> AnyInt
+  orfun(Arg1:AnyInt, Arg2:AnyFloat) -> AnyInt
+  orfun(Arg1:AnySwitch, Arg2:AnySwitch) -> AnyInt

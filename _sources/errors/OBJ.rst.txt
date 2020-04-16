@@ -1,0 +1,83 @@
+{% import "macros.jinja" as macros %}
+
+AnyScript Objects Messages (``OBJ``)
+######################################
+
+
+
+``OBJ``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ") | map(attribute='Description') | first }}
+
+
+{{ macros.create_messages_entries("OBJ", anyscript_messages) }}
+
+
+``OBJ.FILE``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.FILE")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.FILE", anyscript_messages) }}
+
+``OBJ.CHT``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.CHT")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.CHT", anyscript_messages) }}
+
+``OBJ.OperationReplay``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.OperationReplay")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.OperationReplay", anyscript_messages) }}
+
+
+``OBJ.MCH``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.MCH")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.MCH", anyscript_messages) }}
+
+``OBJ.DES``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.DES")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.DES", anyscript_messages) }}
+
+``OBJ.ANYDATA``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.ANYDATA")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.ANYDATA", anyscript_messages) }}
+
+
+``OBJ.C3D``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.C3D")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.C3D", anyscript_messages) }}
+
+
+``OBJ.MATH``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.MATH")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.MATH", anyscript_messages) }}
+
+
+``OBJ.LIB``
+*********************************
+
+{{ anyscript_messages|selectattr("ID","equalto", "OBJ.LIB")| list | map(attribute='Description') | first }}
+
+{{ macros.create_messages_entries("OBJ.LIB.OOS", anyscript_messages) }}
+

@@ -1,0 +1,36 @@
+
+.. _RotMat():
+
+############
+``RotMat()``
+############
+
+:Implemented by: :ref:`AnyFunRotMat`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunRotMat.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // RotMat() with 2 arguments
+  RotMat(Angle:AnyFloatVar, Axis:AnyEnum) -> AnyMat33
+  RotMat(Angle:AnyIntVar, Axis:AnyEnum) -> AnyMat33
+
+  // RotMat() with 3 arguments
+  RotMat(Pnt1:AnyInt, Pnt2:AnyInt, Pnt3:AnyInt) -> AnyMat33
+  RotMat(Pnt1:AnyInt, Pnt2:AnyInt, Pnt3:AnyVec3) -> AnyMat33
+  RotMat(Pnt1:AnyInt, Pnt2:AnyVec3, Pnt3:AnyInt) -> AnyMat33
+  RotMat(Pnt1:AnyInt, Pnt2:AnyVec3, Pnt3:AnyVec3) -> AnyMat33
+  RotMat(Pnt1:AnyVec3, Pnt2:AnyInt, Pnt3:AnyInt) -> AnyMat33
+  RotMat(Pnt1:AnyVec3, Pnt2:AnyInt, Pnt3:AnyVec3) -> AnyMat33
+  RotMat(Pnt1:AnyVec3, Pnt2:AnyVec3, Pnt3:AnyInt) -> AnyMat33
+  RotMat(Pnt1:AnyVec3, Pnt2:AnyVec3, Pnt3:AnyVec3) -> AnyMat33

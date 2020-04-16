@@ -1,0 +1,28 @@
+
+.. _NumElemOf():
+
+###############
+``NumElemOf()``
+###############
+
+:Implemented by: :ref:`AnyFunNumElemOf`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunNumElemOf.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+  NumElemOf(Arg:AnyObjectPtr) -> AnyIntVar
+  NumElemOf(Arg:AnyFloat) -> AnyIntVar
+  NumElemOf(Arg:AnyInt) -> AnyIntVar
+  NumElemOf(Arg:AnyString) -> AnyIntVar
+  NumElemOf(Arg:AnyEnum) -> AnyIntVar
+  NumElemOf(Arg:AnyFile) -> AnyIntVar

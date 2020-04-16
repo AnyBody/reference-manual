@@ -1,0 +1,25 @@
+
+.. _LAPACK_syevd():
+
+##################
+``LAPACK_syevd()``
+##################
+
+:Implemented by: :ref:`AnyFunSymEigenProblem`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunSymEigenProblem.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // LAPACK_syevd() with 3 arguments
+  LAPACK_syevd(Amat:AnyMatrix, jobz:AnyString, eval:AnyString) -> AnyFloat

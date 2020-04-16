@@ -1,0 +1,31 @@
+
+.. _neqfun():
+
+############
+``neqfun()``
+############
+
+:Implemented by: :ref:`AnyFunNotEq`
+
+
+**************
+Description
+**************
+
+.. include:: /class-descriptions/AnyFunNotEq.rst
+
+
+Call signature
+==================================
+
+.. code-block:: AnyScriptDoc
+
+
+  // neqfun() with 2 arguments
+  neqfun(Arg1:AnyFloat, Arg2:AnyFloat) -> AnyInt
+  neqfun(Arg1:AnyInt, Arg2:AnyInt) -> AnyInt
+  neqfun(Arg1:AnyFloat, Arg2:AnyInt) -> AnyInt
+  neqfun(Arg1:AnyInt, Arg2:AnyFloat) -> AnyInt
+  neqfun(Arg1:AnyString, Arg2:AnyString) -> AnyInt
+  neqfun(Arg1:AnyEnum, Arg2:AnyEnum) -> AnyInt
+  neqfun(Arg1:AnyObjectPtr, Arg2:AnyObjectPtr) -> AnyInt
