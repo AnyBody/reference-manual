@@ -249,88 +249,6 @@ Optional initialization members
     <!--
 ..
 
-.. _AnyShortestPathMuscle.RefFrames:
-
-RefFrames
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
-    <span id="anyshortestpathmuscle-refframes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyShortestPathMuscle.Surfaces:
-
-Surfaces
-===========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
-    <span id="anyshortestpathmuscle-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyShortestPathMuscle.MetabModel:
 
 MetabModel
@@ -372,88 +290,6 @@ MetabModel
     </div><!--
 ..
 
-.. _AnyShortestPathMuscle.SPLine.KinMeasureArr:
-
-SPLine.KinMeasureArr
-=======================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.KinMeasureArr">
-    <span id="anyshortestpathmuscle-spline-kinmeasurearr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine.KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#SPLine.KinMeasureArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyShortestPathMuscle.SPLine.KinMeasureIndexArr:
-
-SPLine.KinMeasureIndexArr
-============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.KinMeasureIndexArr">
-    <span id="anyshortestpathmuscle-spline-kinmeasureindexarr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine.KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#SPLine.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyShortestPathMuscle.SPLine.InitWrapPosVectors:
 
 SPLine.InitWrapPosVectors
@@ -466,7 +302,7 @@ SPLine.InitWrapPosVectors
 
     <div class="html-toggle member-entries even section collapsed" id="SPLine.InitWrapPosVectors">
     <span id="anyshortestpathmuscle-spline-initwrapposvectors" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine.InitWrapPosVectors </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#SPLine.InitWrapPosVectors" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine.InitWrapPosVectors </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SPLine.InitWrapPosVectors" title="Permalink to this headline">¶</a>
     <span class="member-descr">An array of 3-D vectors that specify the initial shape of the string. The...</span>
     </h3>
 
@@ -475,7 +311,7 @@ SPLine.InitWrapPosVectors
 
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
@@ -507,7 +343,7 @@ SPLine.InitWrapPosVecArr
 
     <div class="html-toggle member-entries odd section collapsed" id="SPLine.InitWrapPosVecArr">
     <span id="anyshortestpathmuscle-spline-initwrapposvecarr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine.InitWrapPosVecArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#SPLine.InitWrapPosVecArr" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine.InitWrapPosVecArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SPLine.InitWrapPosVecArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object pointer array that must collect pointers to the initial position...</span>
     </h3>
 
@@ -516,7 +352,7 @@ SPLine.InitWrapPosVecArr
 
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
@@ -1024,6 +860,88 @@ t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyShortestPathMuscle.RefFrames:
+
+RefFrames
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+    <span id="anyshortestpathmuscle-refframes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyShortestPathMuscle.Surfaces:
+
+Surfaces
+===========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
+    <span id="anyshortestpathmuscle-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -2582,6 +2500,88 @@ SPLine.Surfaces
 
 
     Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyShortestPathMuscle.SPLine.KinMeasureArr:
+
+SPLine.KinMeasureArr
+=======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.KinMeasureArr">
+    <span id="anyshortestpathmuscle-spline-kinmeasurearr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.KinMeasureArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyShortestPathMuscle.SPLine.KinMeasureIndexArr:
+
+SPLine.KinMeasureIndexArr
+============================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.KinMeasureIndexArr">
+    <span id="anyshortestpathmuscle-spline-kinmeasureindexarr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 

@@ -162,88 +162,6 @@ Optional initialization members
     <!--
 ..
 
-.. _AnyMuscleViaPoint.RefFrames:
-
-RefFrames
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
-    <span id="anymuscleviapoint-refframes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMuscleViaPoint.Surfaces:
-
-Surfaces
-===========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
-    <span id="anymuscleviapoint-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyMuscleViaPoint.MetabModel:
 
 MetabModel
@@ -270,129 +188,6 @@ MetabModel
 
 
     <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMuscleViaPoint.Line.Surfaces:
-
-Line.Surfaces
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Line.Surfaces">
-    <span id="anymuscleviapoint-line-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Line.Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMuscleViaPoint.Line.KinMeasureArr:
-
-Line.KinMeasureArr
-=====================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Line.KinMeasureArr">
-    <span id="anymuscleviapoint-line-kinmeasurearr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Line.KinMeasureArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMuscleViaPoint.Line.KinMeasureIndexArr:
-
-Line.KinMeasureIndexArr
-==========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Line.KinMeasureIndexArr">
-    <span id="anymuscleviapoint-line-kinmeasureindexarr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Line.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -566,6 +361,88 @@ t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleViaPoint.RefFrames:
+
+RefFrames
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+    <span id="anymuscleviapoint-refframes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleViaPoint.Surfaces:
+
+Surfaces
+===========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
+    <span id="anymuscleviapoint-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -2097,6 +1974,129 @@ Line.RefFrames
     </div><!--
 ..
 
+.. _AnyMuscleViaPoint.Line.Surfaces:
+
+Line.Surfaces
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.Surfaces">
+    <span id="anymuscleviapoint-line-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleViaPoint.Line.KinMeasureArr:
+
+Line.KinMeasureArr
+=====================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.KinMeasureArr">
+    <span id="anymuscleviapoint-line-kinmeasurearr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.KinMeasureArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleViaPoint.Line.KinMeasureIndexArr:
+
+Line.KinMeasureIndexArr
+==========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.KinMeasureIndexArr">
+    <span id="anymuscleviapoint-line-kinmeasureindexarr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyMuscleViaPoint.Line.nDim:
 
 Line.nDim
@@ -2107,7 +2107,7 @@ Line.nDim
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.nDim">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.nDim">
     <span id="anymuscleviapoint-line-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -2148,7 +2148,7 @@ Line.RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrameOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Line.RefFrameOutput">
     <span id="anymuscleviapoint-line-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -2189,7 +2189,7 @@ Line.RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrameOutput.RefFrameArr">
     <span id="anymuscleviapoint-line-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2230,7 +2230,7 @@ Line.RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries even section collapsed" id="Line.RefFrameOutput.Jacobians">
     <span id="anymuscleviapoint-line-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2271,7 +2271,7 @@ Line.Pos
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.Pos">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.Pos">
     <span id="anymuscleviapoint-line-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -2312,7 +2312,7 @@ Line.Vel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.Vel">
+    <div class="html-toggle member-entries even section collapsed" id="Line.Vel">
     <span id="anymuscleviapoint-line-vel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Vel" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -2353,7 +2353,7 @@ Line.Acc
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.Acc">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.Acc">
     <span id="anymuscleviapoint-line-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>

@@ -85,30 +85,48 @@
 <dt class="field-even">Parent class</dt>
 <dd class="field-even"><p><a class="reference internal" href="AnyKinMeasureCombBase.html#anykinmeasurecombbase"><span class="std std-ref">AnyKinMeasureCombBase</span></a></p>
 </dd>
+<dt class="field-odd">Child classes</dt>
+<dd class="field-odd"><p><a class="reference internal" href="AnyKinMeasureQuadComb.html#anykinmeasurequadcomb"><span class="std std-ref">AnyKinMeasureQuadComb</span></a></p>
+</dd>
 </dl>
 <div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This class is a composer of new kinematic measures as a linear combination of
-existing ones.
-To some extent, it is similar to AnyKinMeasureOrg, but the way it
-composes the new measure is different. Please refer also to AnyKinMeasureOrg for
-details of organizing kinematic measures.</p>
-<p>The linear combination is defined by a coefficient matrix, Coef, and constant
-terms in the vector Const. Each row in Coef and Const
-defines one component of
-the new kinematic measure. Each column of Coef contains the coefficients
+existing ones.</p>
+<p>To some extent, it is similar to <a class="reference internal" href="AnyKinMeasureOrg.html#anykinmeasureorg"><span class="std std-ref">AnyKinMeasureOrg</span></a>, but the way it
+composes the new measure is based on linear algebra.</p>
+<p>The linear combination is defined by a coefficient matrix, named <code class="docutils literal notranslate"><span class="pre">Coef</span></code>, and constant
+terms in the vector named <code class="docutils literal notranslate"><span class="pre">Const</span></code>. Each row in <code class="docutils literal notranslate"><span class="pre">Coef</span></code> and <code class="docutils literal notranslate"><span class="pre">Const</span></code> defines one component of
+the new kinematic measure. Each column of <code class="docutils literal notranslate"><span class="pre">Coef</span></code> contains the coefficients
 associated with one component of the existing measures that have been entered into
 this new measure (either directly or typically by references).</p>
-<p>By default the number of rows in Coef defines the number of elements in the new measue.
-However, the integer OutDim can alternatively be used to specify the directly.
-This is a patch to cases where Coef depends Evaluation Moments later than
-the configuration step and therefore is undefined during the configuration. For such cases,
-OutDim must be set, and the dimensions of Coef is validated against this setting.</p>
-<p>All the components of the entered measures (sub-measures) can be assembled into one
-vector as for AnyKinMeasureOrg. The firstly defined sub-measure occupies the first
-places of the vector and so on. The new measure is defined mathematically as the
-coefficient matrix, Coef, times this vector plus the constants in
-Const.</p>
+<div class="math notranslate nohighlight" id="equation-eq-anykinmeasurelincomb">
+<span class="eqno">(1)<a class="headerlink" href="#equation-eq-anykinmeasurelincomb" title="Permalink to this equation">¶</a></span>\[\underline{y} = \underline{\underline{A}} \underline{x} + \underline{b}\]</div>
+<p>where <span class="math notranslate nohighlight">\(\underline{\underline{A}}\)</span> is the coefficient matrix (i.e. <code class="docutils literal notranslate"><span class="pre">Coef</span></code>),
+and <span class="math notranslate nohighlight">\(\underline{b}\)</span> is the vector of constants (i.e. <code class="docutils literal notranslate"><span class="pre">Const</span></code>)</p>
+<p>All the components of the entered measures (also referred to as sub-measures) are
+assembled into one vector, called <span class="math notranslate nohighlight">\(\underline{x}\)</span> in the above expression, and
+<span class="math notranslate nohighlight">\(\underline{y}\)</span> is the vector of output measures.
+The assembly of inputs in <span class="math notranslate nohighlight">\(\underline{x}\)</span> is similar to class <a class="reference internal" href="AnyKinMeasureOrg.html#anykinmeasureorg"><span class="std std-ref">AnyKinMeasureOrg</span></a>.
+The firstly defined sub-measure occupies the first places of the vector and so on.
+Please refer to <a class="reference internal" href="AnyKinMeasureOrg.html#anykinmeasureorg"><span class="std std-ref">AnyKinMeasureOrg</span></a> for details of organizing/re-organizing kinematic measures.</p>
+<p>The integer <code class="docutils literal notranslate"><span class="pre">OutDim</span></code> is be used to specify the number of outputs (i.e. the length of <span class="math notranslate nohighlight">\(\underline{y}\)</span>),
+and all other specifications such as the dimensions of <code class="docutils literal notranslate"><span class="pre">Coef</span></code> and <code class="docutils literal notranslate"><span class="pre">Const</span></code> must match this.</p>
+<div class="section" id="time-varying-coefficients">
+<h3>Time-varying coefficients<a class="headerlink" href="#time-varying-coefficients" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference internal" href="#anykinmeasurelincomb"><span class="std std-ref">AnyKinMeasureLinComb</span></a> contains options to add explicit time-varying terms to the coefficient matrix
+(<span class="math notranslate nohighlight">\(\underline{\underline{A}}(t)\)</span>) and vector of constants (<span class="math notranslate nohighlight">\(\underline{b}(t)\)</span>).
+These time-varying terms are given by the optional members <code class="docutils literal notranslate"><span class="pre">CoefTimeFun</span></code> and <code class="docutils literal notranslate"><span class="pre">ConstTimeFun</span></code> for
+<span class="math notranslate nohighlight">\(\underline{\underline{A}}^+(t)\)</span> and <span class="math notranslate nohighlight">\(\underline{b}^+(t)\)</span>, respectively.
+They are both pointers to parameters-function-objects of class <a class="reference internal" href="AnyParamFun.html#anyparamfun"><span class="std std-ref">AnyParamFun</span></a> (or derived).
+The function that are referred to this way will be considered as time-function,
+and their output must match the dimensions of members <code class="docutils literal notranslate"><span class="pre">Coef</span></code> and <code class="docutils literal notranslate"><span class="pre">Const</span></code>, respectively.
+It must be noticed that these time varying terms, given by <code class="docutils literal notranslate"><span class="pre">CoefTimeFun</span></code> and <code class="docutils literal notranslate"><span class="pre">ConstTimeFun</span></code>,
+and the constant terms in <code class="docutils literal notranslate"><span class="pre">Coef</span></code> and <code class="docutils literal notranslate"><span class="pre">Const</span></code> are added before the linear combination is calculated
+(Equation :eq:’eq_AnyKinMeasureLinComb’).</p>
+<p>Please also notice that the linear combination is extended with quadratic terms in
+the derived class <a class="reference internal" href="AnyKinMeasureQuadComb.html#anykinmeasurequadcomb"><span class="std std-ref">AnyKinMeasureQuadComb</span></a>.</p>
+</div>
 <div class="section" id="example">
 <h3>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h3>
 <p>If we for instance assemble (include) two measures
@@ -117,17 +135,21 @@ with indices from 0 to 4. We can then define:</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="kt">AnyKinMeasureLinComb</span> <span class="n">ExampleMeasure</span> <span class="o">=</span> <span class="p">{</span>
     <span class="kt">AnyKinMeasure</span> <span class="o">&amp;</span><span class="n">ref1</span> <span class="o">=</span> <span class="p">..</span><span class="n">TwoComponentMeasure</span><span class="p">;</span>
     <span class="kt">AnyKinMeasure</span> <span class="o">&amp;</span><span class="n">ref2</span> <span class="o">=</span> <span class="p">..</span><span class="n">ThreeComponentMeasure</span><span class="p">;</span>
+    <span class="n">OutDim</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
     <span class="n">Coef</span> <span class="o">=</span> <span class="p">{</span>
         <span class="p">{</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">},</span>
-        <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">}</span>
+        <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">}</span>
     <span class="p">};</span>
-    <span class="n">Const</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">};</span>
-    <span class="n">nDim</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+    <span class="n">Const</span> <span class="o">=</span> <span class="p">{</span><span class="mi">10</span><span class="p">,</span> <span class="mi">20</span><span class="p">};</span>
 </pre></div>
 </div>
 <p>This yields a new measure with two components: the former is the
 difference between the components of the first sub-measure and the latter the
 sum of the components in the latter sub-measure.</p>
+<div class="math notranslate nohighlight">
+\[\begin{split}y[0] &amp;= x[0] - x[1] + 10 \\
+y[1] &amp;= x[2] + 2 x[3] + 3 x[4] + 20\end{split}\]</div>
+<p>For an example of time-varying coefficients, please see the enclosed example files.</p>
 <p> </p>
 <table class="colwidths-given plain docutils align-default" id="id2">
 <caption><span class="caption-text">Demo examples related to AnyKinMeasureLinComb</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
@@ -171,11 +193,28 @@ sum of the components in the latter sub-measure.</p>
 <div class="section" id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="coef">
+<!--<div class="section" id="outdim">
+<span id="anykinmeasurelincomb-outdim"></span><h3>OutDim<a class="headerlink" href="#outdim" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="OutDim">
+<span id="anykinmeasurelincomb-outdim" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">OutDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#OutDim" title="Permalink to this headline">¶</a>
+<span class="member-descr">Dimension of the output measure. The dimension of all coefficient matrices...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+</div>
+<p>Dimension of the output measure. The dimension of all coefficient matrices (named ‘Coef*’) and const vectors (named ‘Const*’) must match the the specified ‘OutDim’</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="coef">
 <span id="anykinmeasurelincomb-coef"></span><h3>Coef<a class="headerlink" href="#coef" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Coef">
+<div class="html-toggle member-entries even section collapsed" id="Coef">
 <span id="anykinmeasurelincomb-coef" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Coef</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Coef" title="Permalink to this headline">¶</a>
 <span class="member-descr">Matrix of coefficients for the linear combination. Each column corresponds...</span>
@@ -191,109 +230,19 @@ sum of the components in the latter sub-measure.</p>
 <div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="refframes">
-<span id="anykinmeasurelincomb-refframes"></span><h3>RefFrames<a class="headerlink" href="#refframes" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed" id="RefFrames">
-<span id="anykinmeasurelincomb-refframes" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title"> RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
-<span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
-</div>
-<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="surfaces">
-<span id="anykinmeasurelincomb-surfaces"></span><h3>Surfaces<a class="headerlink" href="#surfaces" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries even section collapsed" id="Surfaces">
-<span id="anykinmeasurelincomb-surfaces" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
-<span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
-</div>
-<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasurearr">
-<span id="anykinmeasurelincomb-kinmeasurearr"></span><h3>KinMeasureArr<a class="headerlink" href="#kinmeasurearr" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
-<span id="anykinmeasurelincomb-kinmeasurearr" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
-<span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
-</div>
-<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasureindexarr">
-<span id="anykinmeasurelincomb-kinmeasureindexarr"></span><h3>KinMeasureIndexArr<a class="headerlink" href="#kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
-<span id="anykinmeasurelincomb-kinmeasureindexarr" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
-<span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
-</div>
-<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="outdim">
-<span id="anykinmeasurelincomb-outdim"></span><h3>OutDim<a class="headerlink" href="#outdim" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed" id="OutDim">
-<span id="anykinmeasurelincomb-outdim" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title"> OutDim </span><span class="member-title-equal">=</span><span class="member-title-default"> 1 </span><a class="headerlink" href="#OutDim" title="Permalink to this headline">¶</a>
-<span class="member-descr">Dimension of the output measure. This optional setting can be used to...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1</span></code></div>
-</div>
-<p>Dimension of the output measure. This optional setting can be used to specify the dimension that alternatively is defined by the number of rows in Coef.</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="const">
+<!--<div class="section" id="const">
 <span id="anykinmeasurelincomb-const"></span><h3>Const<a class="headerlink" href="#const" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Const">
+<div class="html-toggle member-entries odd section collapsed" id="Const">
 <span id="anykinmeasurelincomb-const" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title"> Const </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Const" title="Permalink to this headline">¶</a>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Const </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Const" title="Permalink to this headline">¶</a>
 <span class="member-descr">Vector of constants.</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+<div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
 <p>Vector of constants.</p>
 </div></blockquote>
@@ -303,7 +252,7 @@ sum of the components in the latter sub-measure.</p>
 <span id="anykinmeasurelincomb-coeftimefun"></span><h3>CoefTimeFun<a class="headerlink" href="#coeftimefun" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="CoefTimeFun">
+<div class="html-toggle member-entries even section collapsed" id="CoefTimeFun">
 <span id="anykinmeasurelincomb-coeftimefun" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> CoefTimeFun </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#CoefTimeFun" title="Permalink to this headline">¶</a>
 <span class="member-descr">Pointer to a parameter function that provide any time-dependent component of...</span>
@@ -321,7 +270,7 @@ sum of the components in the latter sub-measure.</p>
 <span id="anykinmeasurelincomb-consttimefun"></span><h3>ConstTimeFun<a class="headerlink" href="#consttimefun" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="ConstTimeFun">
+<div class="html-toggle member-entries odd section collapsed" id="ConstTimeFun">
 <span id="anykinmeasurelincomb-consttimefun" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> ConstTimeFun </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#ConstTimeFun" title="Permalink to this headline">¶</a>
 <span class="member-descr">Pointer to a parameter function that provide any time-dependent component of...</span>
@@ -331,7 +280,7 @@ sum of the components in the latter sub-measure.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>Pointer to a parameter function that provide any time-dependent component of the ‘Const’ vector. The output of the function must have the number of elements as ‘Const’.</p>
+<p>Pointer to a parameter function that provide any time-dependent component of the ‘Const’ vector. The output of the function must have the same number of elements as ‘Const’.</p>
 </div></blockquote>
 </div>
 </div>
@@ -407,6 +356,78 @@ sum of the components in the latter sub-measure.</p>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
 <p>Object-time variable.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="refframes">
+<span id="anykinmeasurelincomb-refframes"></span><h3>RefFrames<a class="headerlink" href="#refframes" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+<span id="anykinmeasurelincomb-refframes" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="surfaces">
+<span id="anykinmeasurelincomb-surfaces"></span><h3>Surfaces<a class="headerlink" href="#surfaces" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="Surfaces">
+<span id="anykinmeasurelincomb-surfaces" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="kinmeasurearr">
+<span id="anykinmeasurelincomb-kinmeasurearr"></span><h3>KinMeasureArr<a class="headerlink" href="#kinmeasurearr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
+<span id="anykinmeasurelincomb-kinmeasurearr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="kinmeasureindexarr">
+<span id="anykinmeasurelincomb-kinmeasureindexarr"></span><h3>KinMeasureIndexArr<a class="headerlink" href="#kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
+<span id="anykinmeasurelincomb-kinmeasureindexarr" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
+</div>
+<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>

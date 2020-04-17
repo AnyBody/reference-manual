@@ -129,252 +129,6 @@ Optional initialization members
     <!--
 ..
 
-.. _AnyRevoluteJoint.RefFrames:
-
-RefFrames
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
-    <span id="anyrevolutejoint-refframes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Surfaces:
-
-Surfaces
-===========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
-    <span id="anyrevolutejoint-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.KinMeasureArr:
-
-KinMeasureArr
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
-    <span id="anyrevolutejoint-kinmeasurearr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.KinMeasureIndexArr:
-
-KinMeasureIndexArr
-=====================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
-    <span id="anyrevolutejoint-kinmeasureindexarr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.RefFrames:
-
-Constraints.RefFrames
-========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Constraints.RefFrames">
-    <span id="anyrevolutejoint-constraints-refframes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.RefFrames" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.Surfaces:
-
-Constraints.Surfaces
-=======================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Constraints.Surfaces">
-    <span id="anyrevolutejoint-constraints-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyRevoluteJoint.Constraints.CType:
 
 Constraints.CType
@@ -387,7 +141,7 @@ Constraints.CType
 
     <div class="html-toggle member-entries odd section collapsed" id="Constraints.CType">
     <span id="anyrevolutejoint-constraints-ctype" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.CType </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.CType" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.CType </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.CType" title="Permalink to this headline">¶</a>
     <span class="member-descr">Constraint type specification that specify how the kinematic solver should...</span>
     </h3>
 
@@ -396,7 +150,7 @@ Constraints.CType
 
     | **Class type:**  :ref:`AnyKinEqType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
@@ -428,7 +182,7 @@ Constraints.WeightFun
 
     <div class="html-toggle member-entries even section collapsed" id="Constraints.WeightFun">
     <span id="anyrevolutejoint-constraints-weightfun" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.WeightFun </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.WeightFun" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.WeightFun </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.WeightFun" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinematic weighting functions, i.e., time-functions (AnyParamFun) which...</span>
     </h3>
 
@@ -437,175 +191,11 @@ Constraints.WeightFun
 
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
     Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.Reaction.RefFrames:
-
-Constraints.Reaction.RefFrames
-=================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.RefFrames">
-    <span id="anyrevolutejoint-constraints-reaction-refframes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.RefFrames" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.Reaction.Surfaces:
-
-Constraints.Reaction.Surfaces
-================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.Surfaces">
-    <span id="anyrevolutejoint-constraints-reaction-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.Reaction.KinMeasureArr:
-
-Constraints.Reaction.KinMeasureArr
-=====================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.KinMeasureArr">
-    <span id="anyrevolutejoint-constraints-reaction-kinmeasurearr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.KinMeasureArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.Reaction.KinMeasureIndexArr:
-
-Constraints.Reaction.KinMeasureIndexArr
-==========================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.KinMeasureIndexArr">
-    <span id="anyrevolutejoint-constraints-reaction-kinmeasureindexarr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -633,7 +223,7 @@ Constraints.Reaction.Type
 
     <div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.Type">
     <span id="anyrevolutejoint-constraints-reaction-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Constraints.Reaction.Type" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.Reaction.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Type specification of the reaction forces.</span>
     </h3>
 
@@ -642,7 +232,7 @@ Constraints.Reaction.Type
 
     | **Class type:**  :ref:`AnyReacForceType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
@@ -943,6 +533,170 @@ t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.RefFrames:
+
+RefFrames
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+    <span id="anyrevolutejoint-refframes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.Surfaces:
+
+Surfaces
+===========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
+    <span id="anyrevolutejoint-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.KinMeasureArr:
+
+KinMeasureArr
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
+    <span id="anyrevolutejoint-kinmeasurearr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.KinMeasureIndexArr:
+
+KinMeasureIndexArr
+=====================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
+    <span id="anyrevolutejoint-kinmeasureindexarr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -1476,6 +1230,88 @@ Constraints.t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.Constraints.RefFrames:
+
+Constraints.RefFrames
+========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Constraints.RefFrames">
+    <span id="anyrevolutejoint-constraints-refframes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Constraints.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.RefFrames" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.Constraints.Surfaces:
+
+Constraints.Surfaces
+=======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Constraints.Surfaces">
+    <span id="anyrevolutejoint-constraints-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -2091,6 +1927,170 @@ Constraints.Reaction.t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.Constraints.Reaction.RefFrames:
+
+Constraints.Reaction.RefFrames
+=================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.RefFrames">
+    <span id="anyrevolutejoint-constraints-reaction-refframes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.RefFrames" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.Constraints.Reaction.Surfaces:
+
+Constraints.Reaction.Surfaces
+================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.Surfaces">
+    <span id="anyrevolutejoint-constraints-reaction-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.Constraints.Reaction.KinMeasureArr:
+
+Constraints.Reaction.KinMeasureArr
+=====================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Constraints.Reaction.KinMeasureArr">
+    <span id="anyrevolutejoint-constraints-reaction-kinmeasurearr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.KinMeasureArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRevoluteJoint.Constraints.Reaction.KinMeasureIndexArr:
+
+Constraints.Reaction.KinMeasureIndexArr
+==========================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Constraints.Reaction.KinMeasureIndexArr">
+    <span id="anyrevolutejoint-constraints-reaction-kinmeasureindexarr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Constraints.Reaction.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Constraints.Reaction.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 

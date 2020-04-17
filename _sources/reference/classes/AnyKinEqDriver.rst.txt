@@ -123,170 +123,6 @@ Optional initialization members
     <!--
 ..
 
-.. _AnyKinEqDriver.RefFrames:
-
-RefFrames
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
-    <span id="anykineqdriver-refframes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqDriver.Surfaces:
-
-Surfaces
-===========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
-    <span id="anykineqdriver-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqDriver.KinMeasureArr:
-
-KinMeasureArr
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
-    <span id="anykineqdriver-kinmeasurearr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqDriver.KinMeasureIndexArr:
-
-KinMeasureIndexArr
-=====================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
-    <span id="anykineqdriver-kinmeasureindexarr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyKinEqDriver.MeasureOrganizer:
 
 MeasureOrganizer
@@ -299,7 +135,7 @@ MeasureOrganizer
 
     <div class="html-toggle member-entries odd section collapsed" id="MeasureOrganizer">
     <span id="anykineqdriver-measureorganizer" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MeasureOrganizer </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#MeasureOrganizer" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> MeasureOrganizer </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#MeasureOrganizer" title="Permalink to this headline">¶</a>
     <span class="member-descr">List of indices of components from the assembled measures to be included in...</span>
     </h3>
 
@@ -308,7 +144,7 @@ MeasureOrganizer
 
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
@@ -340,7 +176,7 @@ CType
 
     <div class="html-toggle member-entries even section collapsed" id="CType">
     <span id="anykineqdriver-ctype" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> CType </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#CType" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> CType </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#CType" title="Permalink to this headline">¶</a>
     <span class="member-descr">Constraint type specification that specify how the kinematic solver should...</span>
     </h3>
 
@@ -349,7 +185,7 @@ CType
 
     | **Class type:**  :ref:`AnyKinEqType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
@@ -381,7 +217,7 @@ WeightFun
 
     <div class="html-toggle member-entries odd section collapsed" id="WeightFun">
     <span id="anykineqdriver-weightfun" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> WeightFun </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#WeightFun" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> WeightFun </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#WeightFun" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinematic weighting functions, i.e., time-functions (AnyParamFun) which...</span>
     </h3>
 
@@ -390,175 +226,11 @@ WeightFun
 
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
     Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqDriver.Reaction.RefFrames:
-
-Reaction.RefFrames
-=====================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrames">
-    <span id="anykineqdriver-reaction-refframes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.RefFrames </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Reaction.RefFrames" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqDriver.Reaction.Surfaces:
-
-Reaction.Surfaces
-====================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.Surfaces">
-    <span id="anykineqdriver-reaction-surfaces" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Reaction.Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqDriver.Reaction.KinMeasureArr:
-
-Reaction.KinMeasureArr
-=========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.KinMeasureArr">
-    <span id="anykineqdriver-reaction-kinmeasurearr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.KinMeasureArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Reaction.KinMeasureArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqDriver.Reaction.KinMeasureIndexArr:
-
-Reaction.KinMeasureIndexArr
-==============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.KinMeasureIndexArr">
-    <span id="anykineqdriver-reaction-kinmeasureindexarr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.KinMeasureIndexArr </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Reaction.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -586,7 +258,7 @@ Reaction.Type
 
     <div class="html-toggle member-entries even section collapsed" id="Reaction.Type">
     <span id="anykineqdriver-reaction-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> "Dependent" </span><a class="headerlink" href="#Reaction.Type" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Reaction.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Type specification of the reaction forces.</span>
     </h3>
 
@@ -595,7 +267,7 @@ Reaction.Type
 
     | **Class type:**  :ref:`AnyReacForceType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+    | **Default:** *Depends on other values*
 
 
 
@@ -773,6 +445,170 @@ t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.RefFrames:
+
+RefFrames
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+    <span id="anykineqdriver-refframes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.Surfaces:
+
+Surfaces
+===========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
+    <span id="anykineqdriver-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.KinMeasureArr:
+
+KinMeasureArr
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
+    <span id="anykineqdriver-kinmeasurearr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.KinMeasureIndexArr:
+
+KinMeasureIndexArr
+=====================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
+    <span id="anykineqdriver-kinmeasureindexarr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -1265,6 +1101,170 @@ Reaction.t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.Reaction.RefFrames:
+
+Reaction.RefFrames
+=====================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrames">
+    <span id="anykineqdriver-reaction-refframes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrames" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.Reaction.Surfaces:
+
+Reaction.Surfaces
+====================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.Surfaces">
+    <span id="anykineqdriver-reaction-surfaces" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.Surfaces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.Reaction.KinMeasureArr:
+
+Reaction.KinMeasureArr
+=========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.KinMeasureArr">
+    <span id="anykineqdriver-reaction-kinmeasurearr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.KinMeasureArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyKinEqDriver.Reaction.KinMeasureIndexArr:
+
+Reaction.KinMeasureIndexArr
+==============================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.KinMeasureIndexArr">
+    <span id="anykineqdriver-reaction-kinmeasureindexarr" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntArray`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
