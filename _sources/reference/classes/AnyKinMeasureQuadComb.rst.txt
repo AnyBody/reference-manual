@@ -83,7 +83,7 @@ AnyKinMeasure
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="AnyKinMeasure">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnyKinMeasure">
     <span id="anykinmeasurequadcomb-anykinmeasure" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyKinMeasure (0..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyKinMeasure" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinematic measures that should be used by this object.</span>
@@ -132,7 +132,7 @@ OutDim
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="OutDim">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="OutDim">
     <span id="anykinmeasurequadcomb-outdim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">OutDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#OutDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimension of the output measure. The dimension of all coefficient matrices...</span>
@@ -179,7 +179,7 @@ Coef
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Coef">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Coef">
     <span id="anykinmeasurequadcomb-coef" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Coef </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Coef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Matrix of coefficients for the linear combination. Each column corresponds...</span>
@@ -220,7 +220,7 @@ Const
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Const">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Const">
     <span id="anykinmeasurequadcomb-const" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Const </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Const" title="Permalink to this headline">¶</a>
     <span class="member-descr">Vector of constants.</span>
@@ -261,7 +261,7 @@ CoefTimeFun
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="CoefTimeFun">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="CoefTimeFun">
     <span id="anykinmeasurequadcomb-coeftimefun" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> CoefTimeFun </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#CoefTimeFun" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pointer to a parameter function that provide any time-dependent component of...</span>
@@ -302,7 +302,7 @@ ConstTimeFun
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="ConstTimeFun">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ConstTimeFun">
     <span id="anykinmeasurequadcomb-consttimefun" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ConstTimeFun </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#ConstTimeFun" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pointer to a parameter function that provide any time-dependent component of...</span>
@@ -343,7 +343,7 @@ CoefQuadTensor
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="CoefQuadTensor">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="CoefQuadTensor">
     <span id="anykinmeasurequadcomb-coefquadtensor" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> CoefQuadTensor </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#CoefQuadTensor" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coefficient tensor for the quadratic part. This is an array of square...</span>
@@ -384,7 +384,7 @@ CoefMeasureOrg
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="CoefMeasureOrg">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="CoefMeasureOrg">
     <span id="anykinmeasurequadcomb-coefmeasureorg" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> CoefMeasureOrg </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#CoefMeasureOrg" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coefficient matrix for the quadratic part. Each element of this matrix...</span>
@@ -396,6 +396,12 @@ CoefMeasureOrg
     | **Class type:**  :ref:`AnyIntArray2`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
+    .. deprecated::
+       This member was only available during beta testing and though still functional,
+        its it is recommended to use 'CoefQuadTensor'
+
+    
 
 
 
@@ -425,7 +431,7 @@ CoefMeasureScaleFactors
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="CoefMeasureScaleFactors">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="CoefMeasureScaleFactors">
     <span id="anykinmeasurequadcomb-coefmeasurescalefactors" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> CoefMeasureScaleFactors </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#CoefMeasureScaleFactors" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coefficient matrix of constant scaling factors that are multiplied with the...</span>
@@ -437,6 +443,12 @@ CoefMeasureScaleFactors
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
+    .. deprecated::
+       This member was only available during beta testing and though still functional,
+        its it is recommended to use 'CoefQuadTensor'
+
+    
 
 
 
@@ -474,7 +486,7 @@ UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
     <span id="anykinmeasurequadcomb-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -515,7 +527,7 @@ UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
     <span id="anykinmeasurequadcomb-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -556,7 +568,7 @@ UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
     <span id="anykinmeasurequadcomb-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -597,7 +609,7 @@ t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="t">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="t">
     <span id="anykinmeasurequadcomb-t_" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -638,7 +650,7 @@ RefFrames
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefFrames">
     <span id="anykinmeasurequadcomb-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -679,7 +691,7 @@ Surfaces
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Surfaces">
     <span id="anykinmeasurequadcomb-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -720,7 +732,7 @@ KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="KinMeasureArr">
     <span id="anykinmeasurequadcomb-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -761,7 +773,7 @@ KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="KinMeasureIndexArr">
     <span id="anykinmeasurequadcomb-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -802,7 +814,7 @@ nDim
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="nDim">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="nDim">
     <span id="anykinmeasurequadcomb-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -843,7 +855,7 @@ RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefFrameOutput">
     <span id="anykinmeasurequadcomb-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -884,7 +896,7 @@ RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefFrameOutput.RefFrameArr">
     <span id="anykinmeasurequadcomb-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -925,7 +937,7 @@ RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefFrameOutput.Jacobians">
     <span id="anykinmeasurequadcomb-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -966,7 +978,7 @@ Pos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Pos">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Pos">
     <span id="anykinmeasurequadcomb-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -1007,7 +1019,7 @@ Vel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Vel">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Vel">
     <span id="anykinmeasurequadcomb-vel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Vel" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -1048,7 +1060,7 @@ Acc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Acc">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Acc">
     <span id="anykinmeasurequadcomb-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>

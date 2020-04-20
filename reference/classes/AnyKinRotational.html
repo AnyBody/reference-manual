@@ -3,7 +3,7 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
   <head>
     <meta charset="utf-8" />
     <title>AnyKinRotational &#8212; AnyScript Reference 0.1 documentation</title>
@@ -13,29 +13,29 @@
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../../_static/jquery.js"></script>
-    <script type="text/javascript" src="../../_static/underscore.js"></script>
-    <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="../../_static/language_data.js"></script>
-    <script type="text/javascript" src="../../_static/script/filter-class-list.js"></script>
-    <script type="text/javascript" src="../../_static/fa/all.js"></script>
-    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/language_data.js"></script>
+    <script src="../../_static/script/filter-class-list.js"></script>
+    <script src="../../_static/fa/all.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
      
-        <script type="text/javascript" src="../../_static/jquery.cookie.js"></script>
+        <script src="../../_static/jquery.cookie.js"></script>
     
 
     
      
-        <script type="text/javascript" src="../../_static/cloud.base.js"></script>
+        <script src="../../_static/cloud.base.js"></script>
     
 
     
      
-        <script type="text/javascript" src="../../_static/cloud.js"></script>
+        <script src="../../_static/cloud.js"></script>
     
 
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -95,7 +95,7 @@ respect to another, frame ‘0’.</p>
 <p>Possible rotational quantities are determined by the member Type, which is an
 enum of <a class="reference internal" href="AnyKinRotationalType.html#anykinrotationaltype"><span class="std std-ref">AnyKinRotationalType</span></a>. This allows you to chose the following quantities
 as output:</p>
-<p>Cardan angles (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-rotaxesangles"><span class="xref std std-term">RotAxesAngles</span></a>):</p>
+<p>Cardan angles (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-RotAxesAngles"><span class="xref std std-term">RotAxesAngles</span></a>):</p>
 <blockquote>
 <div><p>Cardan angles measure a 3-D rotation by three angles of planar rotation
 about the reference system’s axes. One should be aware that the sequence
@@ -114,7 +114,7 @@ such positions it will be inaccurate. This problem is also known as
 “Gimbal Lock”.</p>
 </div></blockquote>
 <dl class="simple">
-<dt>Direction cosines (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-dircosines"><span class="xref std std-term">DirCosines</span></a>):</dt><dd><p>Direction cosine is the cosine of the angle between two axes,
+<dt>Direction cosines (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-DirCosines"><span class="xref std std-term">DirCosines</span></a>):</dt><dd><p>Direction cosine is the cosine of the angle between two axes,
 here the axes of the two frames of reference provide for the AnyKinRotational object.
 Direction cosine is equivalent to the dot product between the direction unit vector of axes.
 This implies that the direction cosines are in fact the elements of the relative rotational transformation matrix.
@@ -122,14 +122,14 @@ All nine different direction cosines can be calculated as output of this measure
 The member DirCosineAxes contains the specification of for which pairs of axis
 the output will be calculated. By default is all nine different components are included in the measure.</p>
 </dd>
-<dt>Cartesian rotation vector (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-rotvector"><span class="xref std std-term">RotVector</span></a>):</dt><dd><p>The Cartesian rotation vector measures a general 3-D orientation as
+<dt>Cartesian rotation vector (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-RotVector"><span class="xref std std-term">RotVector</span></a>):</dt><dd><p>The Cartesian rotation vector measures a general 3-D orientation as
 a single rotation about a given axis. The rotation vector is a geometric
 vector that is parallel with this axis of rotation and its length is equal
 to angle of rotation. In must be emphasized that the velocity of the
 rotation vector is not equal to the angular velocity vector, except in&lt;p&gt;
 the planar case where the axis of rotation is constant.</p>
 </dd>
-<dt>Euler parameters (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-eulerparam"><span class="xref std std-term">EulerParam</span></a>):</dt><dd><p>Euler parameters is a special form of quaternions, i.e., four parameters
+<dt>Euler parameters (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-EulerParam"><span class="xref std std-term">EulerParam</span></a>):</dt><dd><p>Euler parameters is a special form of quaternions, i.e., four parameters
 that uniquely specify any orientation. The presence of four parameters implies
 that they are not independent. Indeed they must honour the constraint that the
 vector of the four parameters must be a unit vector.
@@ -139,14 +139,14 @@ of the rotation. Driving all four Euler parameters requires the driver functions
 parameters constraint. This would lead to one redundant (but solvable) kinematic constraint.
 Standard kinematical solvers in AnyBody do however not handle this case nicely.</p>
 </dd>
-<dt>Euler parameters (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-planarangles"><span class="xref std std-term">PlanarAngles</span></a>):</dt><dd><p>‘PlanarAngles’ is an option specially targeting planar, or almost planar,
+<dt>Euler parameters (<a class="reference internal" href="#anykinrotational-type"><span class="std std-ref">Type</span></a> = <a class="reference internal" href="../globals-overview.html#term-PlanarAngles"><span class="xref std std-term">PlanarAngles</span></a>):</dt><dd><p>‘PlanarAngles’ is an option specially targeting planar, or almost planar,
 rotations. Is uses <a class="reference internal" href="#anykinrotational-axis1"><span class="std std-ref">Axis1</span></a> as specification of the plane of the motion. The
 first (of three) positions is the angle of rotation in this plane. The two other
 positions measure how much the two planes of rotation are not being parallel (as
 they are expected to be for a planar rotation). As measures of this error, the
 two Euler parameters (two of the latter three) are used as position output.</p>
 </dd>
-<dt>Angular velocity vector(<a class="reference internal" href="#anykinrotational-angvelonoff"><span class="std std-ref">AngVelOnOff</span></a> = <a class="reference internal" href="../globals-overview.html#term-on"><span class="xref std std-term">On</span></a>):</dt><dd><p>For any set of rotational coordinates (having three components), you can
+<dt>Angular velocity vector(<a class="reference internal" href="#anykinrotational-angvelonoff"><span class="std std-ref">AngVelOnOff</span></a> = <a class="reference internal" href="../globals-overview.html#term-On"><span class="xref std std-term">On</span></a>):</dt><dd><p>For any set of rotational coordinates (having three components), you can
 optionally to use the angular velocity vector as output for velocities and
 its derivatives for the accelerations. This can be used to define angular
 measures useful for making AnyForce objects that are equivalent to torques.
@@ -229,7 +229,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-anyrefframe"></span><h3>AnyRefFrame<a class="headerlink" href="#anyrefframe" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="AnyRefFrame">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnyRefFrame">
 <span id="anykinrotational-anyrefframe" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> AnyRefFrame (1..2) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyRefFrame" title="Permalink to this headline">¶</a>
 <span class="member-descr">The reference frames that are input for the measure.</span>
@@ -249,7 +249,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-type"></span><h3>Type<a class="headerlink" href="#type" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Type">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Type">
 <span id="anykinrotational-type" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Type</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Type" title="Permalink to this headline">¶</a>
 <span class="member-descr">Coordinate type specification.</span>
@@ -269,7 +269,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-axis1"></span><h3>Axis1<a class="headerlink" href="#axis1" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Axis1">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Axis1">
 <span id="anykinrotational-axis1" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Axis1 </span><span class="member-title-equal">=</span><span class="member-title-default"> z </span><a class="headerlink" href="#Axis1" title="Permalink to this headline">¶</a>
 <span class="member-descr">First axis of rotation for RotAxesAngles and primary axis of rotation...</span>
@@ -287,7 +287,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-axis2"></span><h3>Axis2<a class="headerlink" href="#axis2" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Axis2">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Axis2">
 <span id="anykinrotational-axis2" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Axis2 </span><span class="member-title-equal">=</span><span class="member-title-default"> y </span><a class="headerlink" href="#Axis2" title="Permalink to this headline">¶</a>
 <span class="member-descr">Second axis of rotation for RotAxesAngles.</span>
@@ -305,7 +305,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-axis3"></span><h3>Axis3<a class="headerlink" href="#axis3" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Axis3">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Axis3">
 <span id="anykinrotational-axis3" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Axis3 </span><span class="member-title-equal">=</span><span class="member-title-default"> x </span><a class="headerlink" href="#Axis3" title="Permalink to this headline">¶</a>
 <span class="member-descr">Third axis of rotation for RotAxesAngles.</span>
@@ -323,7 +323,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-dircosineaxes"></span><h3>DirCosineAxes<a class="headerlink" href="#dircosineaxes" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="DirCosineAxes">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DirCosineAxes">
 <span id="anykinrotational-dircosineaxes" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> DirCosineAxes </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DirCosineAxes" title="Permalink to this headline">¶</a>
 <span class="member-descr">Pairs of axes used for which directional cosine outputs are given when Type...</span>
@@ -337,29 +337,11 @@ equilibrium is ensured.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
-<div class="section" id="ref">
-<span id="anykinrotational-ref"></span><h3>Ref<a class="headerlink" href="#ref" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed" id="Ref">
-<span id="anykinrotational-ref" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title"> Ref </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Ref" title="Permalink to this headline">¶</a>
-<span class="member-descr">IMPORTANT: The functionality of 'Ref' has been removed, in order to avoid...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
-</div>
-<p>IMPORTANT: The functionality of ‘Ref’ has been removed, in order to avoid misunderstandings and confusion with ‘Ref’ in AnyKinLinear. Please modify your model to remove initialization of ‘Ref’. In future versions, ‘Ref’ will be removed entirely. Previous description of this member was: Integer numbers that specify the reference system in which geometric vectors are measured, e.g. the angular velocity vector. ‘-1’ is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
 <div class="section" id="angvelonoff">
 <span id="anykinrotational-angvelonoff"></span><h3>AngVelOnOff<a class="headerlink" href="#angvelonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="AngVelOnOff">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AngVelOnOff">
 <span id="anykinrotational-angvelonoff" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> AngVelOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#AngVelOnOff" title="Permalink to this headline">¶</a>
 <span class="member-descr">Switch for using angular velocity vector at velocity and acceleration level.</span>
@@ -377,7 +359,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-angvelglobal"></span><h3>AngVelGlobal<a class="headerlink" href="#angvelglobal" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="AngVelGlobal">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AngVelGlobal">
 <span id="anykinrotational-angvelglobal" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> AngVelGlobal </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#AngVelGlobal" title="Permalink to this headline">¶</a>
 <span class="member-descr">Switch for using angular velocity vector in global coordinates at velocity...</span>
@@ -389,6 +371,29 @@ equilibrium is ensured.</p>
 </div>
 <p>Switch for using angular velocity vector in global coordinates at velocity and acceleration level. This requires ‘AngVelOnOff = On’.</p>
 </div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="ref">
+<span id="anykinrotational-ref"></span><h3>Ref<a class="headerlink" href="#ref" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="Ref">
+<span id="anykinrotational-ref" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Ref </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Ref" title="Permalink to this headline">¶</a>
+<span class="member-descr">IMPORTANT: The functionality of 'Ref' has been removed, in order to avoid...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified deprecated">Deprecated since version The: </span>functionality of ‘Ref’ has been removed, in order to avoid
+ misunderstandings and confusion with ‘Ref’ in AnyKinLinear. Please modify your
+ model to remove initialization of ‘Ref’.</p>
+</div>
+<p>IMPORTANT: The functionality of ‘Ref’ has been removed, in order to avoid misunderstandings and confusion with ‘Ref’ in AnyKinLinear. Please modify your model to remove initialization of ‘Ref’. In future versions, ‘Ref’ will be removed entirely. Previous description of this member was: Integer numbers that specify the reference system in which geometric vectors are measured, e.g. the angular velocity vector. ‘-1’ is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.</p>
+</div></blockquote>
 </div>
 </div>
 <div class="html-toggle section" id="denied-access-members">
@@ -398,7 +403,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
 <span id="anykinrotational-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -416,7 +421,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="UpdDesign">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
 <span id="anykinrotational-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -434,7 +439,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
 <span id="anykinrotational-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -452,7 +457,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="t">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="t">
 <span id="anykinrotational-t_" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#t" title="Permalink to this headline">¶</a>
 <span class="member-descr">Object-time variable.</span>
@@ -470,7 +475,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-refframes"></span><h3>RefFrames<a class="headerlink" href="#refframes" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="RefFrames">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefFrames">
 <span id="anykinrotational-refframes" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -488,7 +493,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-surfaces"></span><h3>Surfaces<a class="headerlink" href="#surfaces" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Surfaces">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Surfaces">
 <span id="anykinrotational-surfaces" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -506,7 +511,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-kinmeasurearr"></span><h3>KinMeasureArr<a class="headerlink" href="#kinmeasurearr" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="KinMeasureArr">
 <span id="anykinrotational-kinmeasurearr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -524,7 +529,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-kinmeasureindexarr"></span><h3>KinMeasureIndexArr<a class="headerlink" href="#kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="KinMeasureIndexArr">
 <span id="anykinrotational-kinmeasureindexarr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -542,7 +547,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-ndim"></span><h3>nDim<a class="headerlink" href="#ndim" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="nDim">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="nDim">
 <span id="anykinrotational-ndim" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#nDim" title="Permalink to this headline">¶</a>
 <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -560,7 +565,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-refframeoutput"></span><h3>RefFrameOutput<a class="headerlink" href="#refframeoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="RefFrameOutput">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefFrameOutput">
 <span id="anykinrotational-refframeoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -578,7 +583,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-refframeoutput-refframearr"></span><h3>RefFrameOutput.RefFrameArr<a class="headerlink" href="#refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefFrameOutput.RefFrameArr">
 <span id="anykinrotational-refframeoutput-refframearr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -596,7 +601,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-refframeoutput-jacobians"></span><h3>RefFrameOutput.Jacobians<a class="headerlink" href="#refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefFrameOutput.Jacobians">
 <span id="anykinrotational-refframeoutput-jacobians" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -614,7 +619,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-pos"></span><h3>Pos<a class="headerlink" href="#pos" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Pos">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Pos">
 <span id="anykinrotational-pos" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pos" title="Permalink to this headline">¶</a>
 <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -632,7 +637,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-vel"></span><h3>Vel<a class="headerlink" href="#vel" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Vel">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Vel">
 <span id="anykinrotational-vel" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Vel" title="Permalink to this headline">¶</a>
 <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -650,7 +655,7 @@ equilibrium is ensured.</p>
 <span id="anykinrotational-acc"></span><h3>Acc<a class="headerlink" href="#acc" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Acc">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Acc">
 <span id="anykinrotational-acc" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
 <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -684,7 +689,7 @@ equilibrium is ensured.</p>
     </form>
     </div>
 </div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+<script>$('#searchbox').show(0);</script>
 <h3><a href="../../contents.html">Reference Manual</a></h3>
 <p class="caption"><span class="caption-text">API</span></p>
 <ul>
@@ -752,7 +757,7 @@ equilibrium is ensured.</p>
 
     <div class="footer" role="contentinfo">
         &#169; Copyright 2019, AnyBody Technology A/S.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 2.2.1.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>
