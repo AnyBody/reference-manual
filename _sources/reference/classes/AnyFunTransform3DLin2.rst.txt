@@ -64,6 +64,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -99,6 +100,7 @@ Points0
     Source landmarks.
 
 ..
+
 
 
 
@@ -145,6 +147,8 @@ Points1
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -156,7 +160,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyFunTransform3DLin2.PreTransforms:
@@ -184,9 +188,14 @@ PreTransforms
 
 
 
+
+
+
+
     Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
+
 
 
 
@@ -197,7 +206,7 @@ PreTransforms
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLin2.Mode:
@@ -222,6 +231,10 @@ Mode
     | **Class type:**  :ref:`AnyEnumVTKLandmarkTransformType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``VTK_LANDMARK_RIGIDBODY``
+
+
+
+
 
 
 

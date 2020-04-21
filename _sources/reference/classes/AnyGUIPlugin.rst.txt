@@ -48,6 +48,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -83,6 +84,7 @@ DisplayName
     The displayed name of the plugin.
 
 ..
+
 
 
 
@@ -129,6 +131,8 @@ ToolTip
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -140,7 +144,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyGUIPlugin.PluginFile:
@@ -168,9 +172,14 @@ PluginFile
 
 
 
+
+
+
+
     Filename of the plugin.
 
 ..
+
 
 
 
@@ -181,7 +190,7 @@ PluginFile
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyGUIPlugin.PluginCommand:
@@ -209,9 +218,14 @@ PluginCommand
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -222,7 +236,7 @@ PluginCommand
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyGUIPlugin.Extra:
@@ -250,9 +264,14 @@ Extra
 
 
 
+
+
+
+
     Extra information that can be retrieved by the plug-in.
 
 ..
+
 
 
 
@@ -263,7 +282,7 @@ Extra
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyGUIPlugin.Console:
@@ -291,9 +310,14 @@ Console
 
 
 
+
+
+
+
     Run plug-in with or without a console window.
 
 ..
+
 
 
 
@@ -304,7 +328,7 @@ Console
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyGUIPlugin.Interactive:
@@ -332,9 +356,14 @@ Interactive
 
 
 
+
+
+
+
     For debugging: implies 'Console' - run python with the -i option for interactive mode.
 
 ..
+
 
 
 
@@ -345,7 +374,7 @@ Interactive
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyGUIPlugin.ExcludeFromToolBar:
@@ -373,9 +402,14 @@ ExcludeFromToolBar
 
 
 
+
+
+
+
     Chooses whether or not the plug-in should be part of the toolbar or not
 
 ..
+
 
 
 
@@ -386,7 +420,7 @@ ExcludeFromToolBar
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyGUIPlugin.ShowToolbarIconOnly:
@@ -411,6 +445,10 @@ ShowToolbarIconOnly
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

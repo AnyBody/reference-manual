@@ -43,6 +43,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -54,7 +56,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyBodyMusTenLenCalOpr.Settings:
@@ -76,15 +78,6 @@ Settings
 ..
 
 
-    | **Class type:**  :ref:`AnyOprSetUI`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    General settings for the operation.
-
-..
 
 
 
@@ -95,24 +88,24 @@ Settings
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyBodyMusTenLenCalOpr.Settings.Echo:
 
 Settings.Echo
-================
+----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.Echo">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.Echo">
     <span id="anybodymustenlencalopr-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -142,18 +135,18 @@ Settings.Echo
 .. _AnyBodyMusTenLenCalOpr.Settings.ModelSceneUpdate:
 
 Settings.ModelSceneUpdate
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.ModelSceneUpdate">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.ModelSceneUpdate">
     <span id="anybodymustenlencalopr-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -183,18 +176,18 @@ Settings.ModelSceneUpdate
 .. _AnyBodyMusTenLenCalOpr.Settings.DisplayPriority:
 
 Settings.DisplayPriority
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.DisplayPriority">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.DisplayPriority">
     <span id="anybodymustenlencalopr-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -224,18 +217,18 @@ Settings.DisplayPriority
 .. _AnyBodyMusTenLenCalOpr.Settings.SelectOnLoad:
 
 Settings.SelectOnLoad
-========================
+------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.SelectOnLoad">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.SelectOnLoad">
     <span id="anybodymustenlencalopr-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -254,12 +247,23 @@ Settings.SelectOnLoad
 
 
 
+
+
+    General settings for the operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyBodyMusTenLenCalOpr.PreOperation:
@@ -281,15 +285,6 @@ PreOperation
 ..
 
 
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Pre-process operation.
-
-..
 
 
 
@@ -300,13 +295,13 @@ PreOperation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyBodyMusTenLenCalOpr.PreOperation.Settings:
 
 PreOperation.Settings
-========================
+------------------------
 
 
 .. raw:: html
@@ -315,9 +310,9 @@ PreOperation.Settings
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings">
     <span id="anybodymustenlencalopr-preoperation-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation.Settings" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -347,7 +342,7 @@ PreOperation.Settings
 .. _AnyBodyMusTenLenCalOpr.PreOperation.Settings.Echo:
 
 PreOperation.Settings.Echo
-=============================
+-----------------------------
 
 
 .. raw:: html
@@ -356,9 +351,9 @@ PreOperation.Settings.Echo
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.Settings.Echo">
     <span id="anybodymustenlencalopr-preoperation-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -388,7 +383,7 @@ PreOperation.Settings.Echo
 .. _AnyBodyMusTenLenCalOpr.PreOperation.Settings.ModelSceneUpdate:
 
 PreOperation.Settings.ModelSceneUpdate
-=========================================
+-----------------------------------------
 
 
 .. raw:: html
@@ -397,9 +392,9 @@ PreOperation.Settings.ModelSceneUpdate
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings.ModelSceneUpdate">
     <span id="anybodymustenlencalopr-preoperation-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -429,7 +424,7 @@ PreOperation.Settings.ModelSceneUpdate
 .. _AnyBodyMusTenLenCalOpr.PreOperation.Settings.DisplayPriority:
 
 PreOperation.Settings.DisplayPriority
-========================================
+----------------------------------------
 
 
 .. raw:: html
@@ -438,9 +433,9 @@ PreOperation.Settings.DisplayPriority
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.Settings.DisplayPriority">
     <span id="anybodymustenlencalopr-preoperation-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PreOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PreOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -470,7 +465,7 @@ PreOperation.Settings.DisplayPriority
 .. _AnyBodyMusTenLenCalOpr.PreOperation.Settings.SelectOnLoad:
 
 PreOperation.Settings.SelectOnLoad
-=====================================
+-------------------------------------
 
 
 .. raw:: html
@@ -479,9 +474,9 @@ PreOperation.Settings.SelectOnLoad
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings.SelectOnLoad">
     <span id="anybodymustenlencalopr-preoperation-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PreOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PreOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -500,12 +495,23 @@ PreOperation.Settings.SelectOnLoad
 
 
 
+
+
+    Pre-process operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyBodyMusTenLenCalOpr.PostOperation:
@@ -518,7 +524,7 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
     <span id="anybodymustenlencalopr-postoperation" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Post-process operation.</span>
@@ -527,15 +533,6 @@ PostOperation
 ..
 
 
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Post-process operation.
-
-..
 
 
 
@@ -546,13 +543,13 @@ PostOperation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyBodyMusTenLenCalOpr.PostOperation.Settings:
 
 PostOperation.Settings
-=========================
+-------------------------
 
 
 .. raw:: html
@@ -561,9 +558,9 @@ PostOperation.Settings
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings">
     <span id="anybodymustenlencalopr-postoperation-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation.Settings" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -593,7 +590,7 @@ PostOperation.Settings
 .. _AnyBodyMusTenLenCalOpr.PostOperation.Settings.Echo:
 
 PostOperation.Settings.Echo
-==============================
+------------------------------
 
 
 .. raw:: html
@@ -602,9 +599,9 @@ PostOperation.Settings.Echo
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation.Settings.Echo">
     <span id="anybodymustenlencalopr-postoperation-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -634,7 +631,7 @@ PostOperation.Settings.Echo
 .. _AnyBodyMusTenLenCalOpr.PostOperation.Settings.ModelSceneUpdate:
 
 PostOperation.Settings.ModelSceneUpdate
-==========================================
+------------------------------------------
 
 
 .. raw:: html
@@ -643,9 +640,9 @@ PostOperation.Settings.ModelSceneUpdate
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings.ModelSceneUpdate">
     <span id="anybodymustenlencalopr-postoperation-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -675,7 +672,7 @@ PostOperation.Settings.ModelSceneUpdate
 .. _AnyBodyMusTenLenCalOpr.PostOperation.Settings.DisplayPriority:
 
 PostOperation.Settings.DisplayPriority
-=========================================
+-----------------------------------------
 
 
 .. raw:: html
@@ -684,9 +681,9 @@ PostOperation.Settings.DisplayPriority
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation.Settings.DisplayPriority">
     <span id="anybodymustenlencalopr-postoperation-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PostOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PostOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -716,7 +713,7 @@ PostOperation.Settings.DisplayPriority
 .. _AnyBodyMusTenLenCalOpr.PostOperation.Settings.SelectOnLoad:
 
 PostOperation.Settings.SelectOnLoad
-======================================
+--------------------------------------
 
 
 .. raw:: html
@@ -725,9 +722,9 @@ PostOperation.Settings.SelectOnLoad
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings.SelectOnLoad">
     <span id="anybodymustenlencalopr-postoperation-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PostOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PostOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -739,6 +736,16 @@ PostOperation.Settings.SelectOnLoad
 
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+
+..
+
+
+
+
+
+
+
+    Post-process operation.
 
 ..
 

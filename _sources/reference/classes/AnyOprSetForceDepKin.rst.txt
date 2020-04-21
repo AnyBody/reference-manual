@@ -59,6 +59,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -70,7 +72,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyOprSetForceDepKin.ForceTol:
@@ -98,9 +100,14 @@ ForceTol
 
 
 
+
+
+
+
     Tolerance used in stopping criterion.
 
 ..
+
 
 
 
@@ -111,7 +118,7 @@ ForceTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.UseAdaptiveForceTolOnOff:
@@ -139,9 +146,14 @@ UseAdaptiveForceTolOnOff
 
 
 
+
+
+
+
     Switch for whether the stopping criterion uses. Off: the actual force residual for the force dependent degrees of freedom, or On: the force residual converted using last known stiffness to a displacement value, i.e. a more direct measure of kinematic accuracy.
 
 ..
+
 
 
 
@@ -152,7 +164,7 @@ UseAdaptiveForceTolOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.MaxIteration:
@@ -180,9 +192,14 @@ MaxIteration
 
 
 
+
+
+
+
     Maximal number of steps allowed in the iteration.
 
 ..
+
 
 
 
@@ -193,7 +210,7 @@ MaxIteration
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.Perturbation:
@@ -221,9 +238,14 @@ Perturbation
 
 
 
+
+
+
+
     Perturbation value used to numerical jacobian computation.
 
 ..
+
 
 
 
@@ -234,7 +256,7 @@ Perturbation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.PerturbationSymmetricOnOff:
@@ -262,9 +284,14 @@ PerturbationSymmetricOnOff
 
 
 
+
+
+
+
     Switch for using symmetric differentiation scheme for calculation of numerical Jacobian.
 
 ..
+
 
 
 
@@ -275,7 +302,7 @@ PerturbationSymmetricOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.LocalSearchOnOff:
@@ -303,9 +330,14 @@ LocalSearchOnOff
 
 
 
+
+
+
+
     Switch for using a search method (golden-section search) for each Newton iteration instead of a simpler relaxation scheme.
 
 ..
+
 
 
 
@@ -316,7 +348,7 @@ LocalSearchOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.MaxNewtonStep:
@@ -344,9 +376,14 @@ MaxNewtonStep
 
 
 
+
+
+
+
     Maximal size of component of the update vector of the newton iteration during the solution of a FDK step.
 
 ..
+
 
 
 
@@ -357,7 +394,7 @@ MaxNewtonStep
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.SolverType:
@@ -385,9 +422,14 @@ SolverType
 
 
 
+
+
+
+
     Solver method used for the FDK iterations.
 
 ..
+
 
 
 
@@ -398,7 +440,7 @@ SolverType
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexPowerExp:
@@ -426,9 +468,14 @@ ComplexPowerExp
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -439,7 +486,7 @@ ComplexPowerExp
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexAlpha:
@@ -467,9 +514,14 @@ ComplexAlpha
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -480,7 +532,7 @@ ComplexAlpha
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexMaxNumRepeat:
@@ -508,9 +560,14 @@ ComplexMaxNumRepeat
 
 
 
+
+
+
+
     Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
 
 ..
+
 
 
 
@@ -521,7 +578,7 @@ ComplexMaxNumRepeat
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexPopulationSize:
@@ -549,9 +606,14 @@ ComplexPopulationSize
 
 
 
+
+
+
+
     Size of the population for the Complex solver, i.e., the number of design points in the population.
 
 ..
+
 
 
 
@@ -562,7 +624,7 @@ ComplexPopulationSize
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexAnalysisFailedPenalty:
@@ -590,9 +652,14 @@ ComplexAnalysisFailedPenalty
 
 
 
+
+
+
+
     Penalty factor used in the Complex solver to change degrees of freedem if the kinematic analysis failes.
 
 ..
+
 
 
 
@@ -603,7 +670,7 @@ ComplexAnalysisFailedPenalty
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexConvergenceObjectiveTol:
@@ -631,9 +698,14 @@ ComplexConvergenceObjectiveTol
 
 
 
+
+
+
+
     Convergence tolerance of the objective function for the Complex solver.
 
 ..
+
 
 
 
@@ -644,7 +716,7 @@ ComplexConvergenceObjectiveTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexConvergenceDesignTol:
@@ -672,9 +744,14 @@ ComplexConvergenceDesignTol
 
 
 
+
+
+
+
     Convergence tolerance of the FDK degrees of freedeom for the Complex solver.
 
 ..
+
 
 
 
@@ -685,7 +762,7 @@ ComplexConvergenceDesignTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexPopulationBoxSize:
@@ -713,9 +790,14 @@ ComplexPopulationBoxSize
 
 
 
+
+
+
+
     Size of the box in the design space of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
 
 ..
+
 
 
 
@@ -726,7 +808,7 @@ ComplexPopulationBoxSize
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexRefinementConvergenceObjectiveTol:
@@ -754,9 +836,14 @@ ComplexRefinementConvergenceObjectiveTol
 
 
 
+
+
+
+
     Convergence tolerance on the objective function of the refinement step of the Complex solver.
 
 ..
+
 
 
 
@@ -767,7 +854,7 @@ ComplexRefinementConvergenceObjectiveTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexRefinementConvergenceDesignTol:
@@ -795,9 +882,14 @@ ComplexRefinementConvergenceDesignTol
 
 
 
+
+
+
+
     Convergence tolerance on the FDK degrees of freedom of the refinement step of the Complex solver.
 
 ..
+
 
 
 
@@ -808,7 +900,7 @@ ComplexRefinementConvergenceDesignTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetForceDepKin.ComplexRefinementPopulationBoxSize:
@@ -833,6 +925,10 @@ ComplexRefinementPopulationBoxSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+
+
+
+
 
 
 

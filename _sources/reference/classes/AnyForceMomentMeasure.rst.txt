@@ -152,6 +152,8 @@ AnyRefFrame
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -163,7 +165,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyForceMomentMeasure.IncludeForces:
@@ -191,9 +193,14 @@ IncludeForces
 
 
 
+
+
+
+
     Vector of AnyObjectPtrs to the generalized forces that will be added in this object.Either this or AnyForceBase type members must be present.
 
 ..
+
 
 
 
@@ -204,7 +211,7 @@ IncludeForces
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceMomentMeasure.RefPoint:
@@ -229,6 +236,10 @@ RefPoint
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+
+
+
+
 
 
 

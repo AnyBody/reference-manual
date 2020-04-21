@@ -43,6 +43,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -54,7 +56,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyComponentDefinition.Hidden:
@@ -82,9 +84,14 @@ Hidden
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -95,7 +102,7 @@ Hidden
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyComponentDefinition.SubGroupRegexSearch:
@@ -123,9 +130,14 @@ SubGroupRegexSearch
 
 
 
+
+
+
+
     Regular expression that is used to identify subcomponents within this component. Syntax used is Perl.
 
 ..
+
 
 
 
@@ -136,7 +148,7 @@ SubGroupRegexSearch
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyComponentDefinition.SubGroupRegexReplace:
@@ -164,9 +176,14 @@ SubGroupRegexReplace
 
 
 
+
+
+
+
     Replace expression that is used to together with 'SubGroupRegexSearch' to output the subbranch name. A '/' can be inserted within the name if multilevel branches is needed. Syntax used is Perl.
 
 ..
+
 
 
 
@@ -177,7 +194,7 @@ SubGroupRegexReplace
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyComponentDefinition.IsBranch:
@@ -205,9 +222,14 @@ IsBranch
 
 
 
+
+
+
+
     Default On. If set to Off, this component will not appear as a branch in the tree
 
 ..
+
 
 
 
@@ -218,7 +240,7 @@ IsBranch
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyComponentDefinition.NameCast:
@@ -243,6 +265,10 @@ NameCast
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
+
+
+
 
 
 

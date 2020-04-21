@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -155,6 +156,8 @@ StringMesh
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -166,7 +169,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinSPLine.InitWrapPosVectors:
@@ -194,9 +197,14 @@ InitWrapPosVectors
 
 
 
+
+
+
+
     An array of 3-D vectors that specify the initial shape of the string. The vectors are ordered as rows of a matrix. For each line segment two vectors must be specified. They are defining two points relative to the line segment's origin and insertion nodes and the curve's initial shape will be three straight lines; from the origin to the first point, then to the second, and finally to the insertion point.
 
 ..
+
 
 
 
@@ -207,7 +215,7 @@ InitWrapPosVectors
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.InitWrapPosVecArr:
@@ -235,9 +243,14 @@ InitWrapPosVecArr
 
 
 
+
+
+
+
     Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
 
 ..
+
 
 
 
@@ -248,7 +261,7 @@ InitWrapPosVecArr
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.InitWrapPosOnlyOnOff:
@@ -276,9 +289,14 @@ InitWrapPosOnlyOnOff
 
 
 
+
+
+
+
     Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
 
 ..
+
 
 
 
@@ -289,7 +307,7 @@ InitWrapPosOnlyOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.InitWrapPosForEachStepOnOff:
@@ -317,9 +335,14 @@ InitWrapPosForEachStepOnOff
 
 
 
+
+
+
+
     Switch to use the initial condition vectors as starting point in each time step..
 
 ..
+
 
 
 
@@ -330,7 +353,7 @@ InitWrapPosForEachStepOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.RelTol:
@@ -358,9 +381,14 @@ RelTol
 
 
 
+
+
+
+
     Relative tolerance for the change of the string that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
 
 ..
+
 
 
 
@@ -371,7 +399,7 @@ RelTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.AbsTol:
@@ -399,9 +427,14 @@ AbsTol
 
 
 
+
+
+
+
     Absolute tolerance for the change of positions of wrapping points that is used to determine whether the solution is acceptable.
 
 ..
+
 
 
 
@@ -412,7 +445,7 @@ AbsTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.AugLagCoef:
@@ -440,9 +473,14 @@ AugLagCoef
 
 
 
+
+
+
+
     Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis.
 
 ..
+
 
 
 
@@ -453,7 +491,7 @@ AugLagCoef
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.MaxIteration:
@@ -481,9 +519,14 @@ MaxIteration
 
 
 
+
+
+
+
     Maximum number of interation in line wrapping solver. It can be increased if the solver runs out of iteration step in difficult problems.
 
 ..
+
 
 
 
@@ -494,7 +537,7 @@ MaxIteration
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.MaxRelStepSize:
@@ -522,9 +565,14 @@ MaxRelStepSize
 
 
 
+
+
+
+
     Maximum relative step size. The default of 1.0 implies full step size, but it can be decreased to increase robustness for difficult problems.
 
 ..
+
 
 
 
@@ -535,7 +583,7 @@ MaxRelStepSize
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPLine.SolverType:
@@ -560,6 +608,10 @@ SolverType
     | **Class type:**  :ref:`AnyKinSPSheetSolverType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``SPSolverModes``
+
+
+
+
 
 
 

@@ -59,6 +59,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -70,7 +72,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMetabModelU.CoefActMaintPowerSlow:
@@ -98,9 +100,14 @@ CoefActMaintPowerSlow
 
 
 
+
+
+
+
     Activation-Maintenance power coefficient (per mass) for slow twitch fibers. Contributes to Ȧ+Ṁ.
 
 ..
+
 
 
 
@@ -111,7 +118,7 @@ CoefActMaintPowerSlow
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelU.CoefActMaintPowerFast:
@@ -139,9 +146,14 @@ CoefActMaintPowerFast
 
 
 
+
+
+
+
     Activation-Maintenance power coefficient (per mass) for fast twitch fibers. Contributes to Ȧ+Ṁ.
 
 ..
+
 
 
 
@@ -152,7 +164,7 @@ CoefActMaintPowerFast
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelU.CoefSLPowerEcc:
@@ -180,9 +192,14 @@ CoefSLPowerEcc
 
 
 
+
+
+
+
     Shortening-Lengthening heat rate coefficient for eccentric terms. Contributes to Ṡ.
 
 ..
+
 
 
 
@@ -193,7 +210,7 @@ CoefSLPowerEcc
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelU.CoefActMaintPowerAer:
@@ -221,9 +238,14 @@ CoefActMaintPowerAer
 
 
 
+
+
+
+
     Activation-Maintenance power coefficient, that tune the model to whether the activity is mostly anaerobic or aerobic. Umberger proposes a range from 1.0 to 1.5 (from anaerobic to aerobic). The default value fits the fully aerobic work case. Contributes to Ȧ+Ṁ.
 
 ..
+
 
 
 
@@ -234,7 +256,7 @@ CoefActMaintPowerAer
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelU.HeatPowerMinPerMass:
@@ -262,9 +284,14 @@ HeatPowerMinPerMass
 
 
 
+
+
+
+
     Lower threshold for the combined heat production power per muscle mass [W/kg]. Contributes to Ḃ.
 
 ..
+
 
 
 
@@ -275,7 +302,7 @@ HeatPowerMinPerMass
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelU.MuscleDensity:
@@ -303,9 +330,14 @@ MuscleDensity
 
 
 
+
+
+
+
     Muscle density [kg/m^3].
 
 ..
+
 
 
 
@@ -316,7 +348,7 @@ MuscleDensity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelU.AddMusclePowerForEcc:
@@ -341,6 +373,10 @@ AddMusclePowerForEcc
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

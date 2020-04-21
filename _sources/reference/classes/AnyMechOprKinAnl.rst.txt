@@ -61,6 +61,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -72,7 +74,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMechOprKinAnl.Settings:
@@ -94,15 +96,6 @@ Settings
 ..
 
 
-    | **Class type:**  :ref:`AnyOprSetUI`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    General settings for the operation.
-
-..
 
 
 
@@ -113,24 +106,24 @@ Settings
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprKinAnl.Settings.Echo:
 
 Settings.Echo
-================
+----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.Echo">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.Echo">
     <span id="anymechoprkinanl-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -160,18 +153,18 @@ Settings.Echo
 .. _AnyMechOprKinAnl.Settings.ModelSceneUpdate:
 
 Settings.ModelSceneUpdate
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.ModelSceneUpdate">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.ModelSceneUpdate">
     <span id="anymechoprkinanl-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -201,18 +194,18 @@ Settings.ModelSceneUpdate
 .. _AnyMechOprKinAnl.Settings.DisplayPriority:
 
 Settings.DisplayPriority
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.DisplayPriority">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.DisplayPriority">
     <span id="anymechoprkinanl-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -242,18 +235,18 @@ Settings.DisplayPriority
 .. _AnyMechOprKinAnl.Settings.SelectOnLoad:
 
 Settings.SelectOnLoad
-========================
+------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.SelectOnLoad">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.SelectOnLoad">
     <span id="anymechoprkinanl-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -272,12 +265,23 @@ Settings.SelectOnLoad
 
 
 
+
+
+    General settings for the operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechOprKinAnl.PreOperation:
@@ -299,15 +303,6 @@ PreOperation
 ..
 
 
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Pre-process operation.
-
-..
 
 
 
@@ -318,13 +313,13 @@ PreOperation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprKinAnl.PreOperation.Settings:
 
 PreOperation.Settings
-========================
+------------------------
 
 
 .. raw:: html
@@ -333,9 +328,9 @@ PreOperation.Settings
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings">
     <span id="anymechoprkinanl-preoperation-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation.Settings" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -365,7 +360,7 @@ PreOperation.Settings
 .. _AnyMechOprKinAnl.PreOperation.Settings.Echo:
 
 PreOperation.Settings.Echo
-=============================
+-----------------------------
 
 
 .. raw:: html
@@ -374,9 +369,9 @@ PreOperation.Settings.Echo
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.Settings.Echo">
     <span id="anymechoprkinanl-preoperation-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -406,7 +401,7 @@ PreOperation.Settings.Echo
 .. _AnyMechOprKinAnl.PreOperation.Settings.ModelSceneUpdate:
 
 PreOperation.Settings.ModelSceneUpdate
-=========================================
+-----------------------------------------
 
 
 .. raw:: html
@@ -415,9 +410,9 @@ PreOperation.Settings.ModelSceneUpdate
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings.ModelSceneUpdate">
     <span id="anymechoprkinanl-preoperation-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -447,7 +442,7 @@ PreOperation.Settings.ModelSceneUpdate
 .. _AnyMechOprKinAnl.PreOperation.Settings.DisplayPriority:
 
 PreOperation.Settings.DisplayPriority
-========================================
+----------------------------------------
 
 
 .. raw:: html
@@ -456,9 +451,9 @@ PreOperation.Settings.DisplayPriority
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.Settings.DisplayPriority">
     <span id="anymechoprkinanl-preoperation-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PreOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PreOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -488,7 +483,7 @@ PreOperation.Settings.DisplayPriority
 .. _AnyMechOprKinAnl.PreOperation.Settings.SelectOnLoad:
 
 PreOperation.Settings.SelectOnLoad
-=====================================
+-------------------------------------
 
 
 .. raw:: html
@@ -497,9 +492,9 @@ PreOperation.Settings.SelectOnLoad
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings.SelectOnLoad">
     <span id="anymechoprkinanl-preoperation-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PreOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PreOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -518,12 +513,23 @@ PreOperation.Settings.SelectOnLoad
 
 
 
+
+
+    Pre-process operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechOprKinAnl.PostOperation:
@@ -536,7 +542,7 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
     <span id="anymechoprkinanl-postoperation" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Post-process operation.</span>
@@ -545,15 +551,6 @@ PostOperation
 ..
 
 
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Post-process operation.
-
-..
 
 
 
@@ -564,13 +561,13 @@ PostOperation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprKinAnl.PostOperation.Settings:
 
 PostOperation.Settings
-=========================
+-------------------------
 
 
 .. raw:: html
@@ -579,9 +576,9 @@ PostOperation.Settings
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings">
     <span id="anymechoprkinanl-postoperation-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation.Settings" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -611,7 +608,7 @@ PostOperation.Settings
 .. _AnyMechOprKinAnl.PostOperation.Settings.Echo:
 
 PostOperation.Settings.Echo
-==============================
+------------------------------
 
 
 .. raw:: html
@@ -620,9 +617,9 @@ PostOperation.Settings.Echo
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation.Settings.Echo">
     <span id="anymechoprkinanl-postoperation-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -652,7 +649,7 @@ PostOperation.Settings.Echo
 .. _AnyMechOprKinAnl.PostOperation.Settings.ModelSceneUpdate:
 
 PostOperation.Settings.ModelSceneUpdate
-==========================================
+------------------------------------------
 
 
 .. raw:: html
@@ -661,9 +658,9 @@ PostOperation.Settings.ModelSceneUpdate
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings.ModelSceneUpdate">
     <span id="anymechoprkinanl-postoperation-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -693,7 +690,7 @@ PostOperation.Settings.ModelSceneUpdate
 .. _AnyMechOprKinAnl.PostOperation.Settings.DisplayPriority:
 
 PostOperation.Settings.DisplayPriority
-=========================================
+-----------------------------------------
 
 
 .. raw:: html
@@ -702,9 +699,9 @@ PostOperation.Settings.DisplayPriority
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation.Settings.DisplayPriority">
     <span id="anymechoprkinanl-postoperation-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PostOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PostOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -734,7 +731,7 @@ PostOperation.Settings.DisplayPriority
 .. _AnyMechOprKinAnl.PostOperation.Settings.SelectOnLoad:
 
 PostOperation.Settings.SelectOnLoad
-======================================
+--------------------------------------
 
 
 .. raw:: html
@@ -743,9 +740,9 @@ PostOperation.Settings.SelectOnLoad
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings.SelectOnLoad">
     <span id="anymechoprkinanl-postoperation-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PostOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PostOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -764,12 +761,23 @@ PostOperation.Settings.SelectOnLoad
 
 
 
+
+
+    Post-process operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechOprKinAnl.KinematicTol:
@@ -797,9 +805,14 @@ KinematicTol
 
 
 
+
+
+
+
     Tolerance for the kinematic analysis.
 
 ..
+
 
 
 
@@ -810,7 +823,7 @@ KinematicTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.MaxIteration:
@@ -838,9 +851,14 @@ MaxIteration
 
 
 
+
+
+
+
     Maximal number of Newton iterations in the solution of the non-linear equations in the kinematic position analysis.
 
 ..
+
 
 
 
@@ -851,7 +869,7 @@ MaxIteration
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.MaxFallback:
@@ -879,9 +897,14 @@ MaxFallback
 
 
 
+
+
+
+
     Maximal number of fallback iterations used by some solvers.
 
 ..
+
 
 
 
@@ -892,7 +915,7 @@ MaxFallback
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.Relax:
@@ -920,9 +943,14 @@ Relax
 
 
 
+
+
+
+
     Initial value of relaxation coefficient for the Newton iteration.
 
 ..
+
 
 
 
@@ -933,7 +961,7 @@ Relax
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SingleStepOnOff:
@@ -961,9 +989,14 @@ SingleStepOnOff
 
 
 
+
+
+
+
     Switch for the single-step analysis.
 
 ..
+
 
 
 
@@ -974,7 +1007,7 @@ SingleStepOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SingleStepNo:
@@ -1002,9 +1035,14 @@ SingleStepNo
 
 
 
+
+
+
+
     Zero-based index for the time step to use in the single-step analysis.
 
 ..
+
 
 
 
@@ -1015,7 +1053,7 @@ SingleStepNo
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.UseStartGuessOnOff:
@@ -1043,9 +1081,14 @@ UseStartGuessOnOff
 
 
 
+
+
+
+
     Switch for for whether to use input positions as starting guess or the model's current positions.
 
 ..
+
 
 
 
@@ -1056,7 +1099,7 @@ UseStartGuessOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.PosAnalysisOnlyOnOff:
@@ -1084,9 +1127,14 @@ PosAnalysisOnlyOnOff
 
 
 
+
+
+
+
     Switch for skipping velocity and acceleration analysis, i.e., running position analysis only. Velocitites and acceleration of all segments are set to zero when computations are skipped.
 
 ..
+
 
 
 
@@ -1097,7 +1145,7 @@ PosAnalysisOnlyOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.ApproxVelAccPerturb:
@@ -1125,9 +1173,14 @@ ApproxVelAccPerturb
 
 
 
+
+
+
+
     Magnitude of perturbation use in finite difference differentiation.
 
 ..
+
 
 
 
@@ -1138,7 +1191,7 @@ ApproxVelAccPerturb
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SmallStepAssumptionOnOff:
@@ -1166,9 +1219,14 @@ SmallStepAssumptionOnOff
 
 
 
+
+
+
+
     Switch for assumption of small steps (position or time-steps). When 'Off' more robust method can be applied. (REFER TO OTHER DOCUMENTATION).
 
 ..
+
 
 
 
@@ -1179,7 +1237,7 @@ SmallStepAssumptionOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SparseSolverDiagEps:
@@ -1207,9 +1265,14 @@ SparseSolverDiagEps
 
 
 
+
+
+
+
     Test variable: Small floating point number (Epsilon) used by some solvers to perturb diagonal elements (DEPRECATED).
 
 ..
+
 
 
 
@@ -1220,7 +1283,7 @@ SparseSolverDiagEps
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SparseSolverMaxIterativeRefinements:
@@ -1248,9 +1311,14 @@ SparseSolverMaxIterativeRefinements
 
 
 
+
+
+
+
     Test variable : Maximal number of iterative refinement steps in solver (DEPRECATED).
 
 ..
+
 
 
 
@@ -1261,7 +1329,7 @@ SparseSolverMaxIterativeRefinements
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SparseSolver2x2pivoting:
@@ -1289,9 +1357,14 @@ SparseSolver2x2pivoting
 
 
 
+
+
+
+
     Test variable: Switch for selecting pivoting scheme for the MKL PARDISO solver (DEPRECATED).
 
 ..
+
 
 
 
@@ -1302,7 +1375,7 @@ SparseSolver2x2pivoting
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SolverType:
@@ -1330,9 +1403,14 @@ SolverType
 
 
 
+
+
+
+
     Solver type specification.
 
 ..
+
 
 
 
@@ -1343,7 +1421,7 @@ SolverType
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.Solver:
@@ -1381,9 +1459,14 @@ Solver
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -1394,7 +1477,7 @@ Solver
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprKinAnl.SolverOptions:
@@ -1416,9 +1499,6 @@ SolverOptions
 ..
 
 
-    | **Class type:**  :ref:`AnyKinAnlSolverOptions`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
 
     .. deprecated::
        AnyMechOprKinAnl is being extended with new solver options that are currently
@@ -1432,1635 +1512,7 @@ SolverOptions
 
 
 
-    <No description>
 
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton1:
-
-SolverOptions.Newton1
-========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton1">
-    <span id="anymechoprkinanl-solveroptions-newton1" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton1 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions.Newton1" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOprSetNLEqSolverNewton`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton1.MaxIteration:
-
-SolverOptions.Newton1.MaxIteration
-=====================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton1.MaxIteration">
-    <span id="anymechoprkinanl-solveroptions-newton1-maxiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton1.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 2000 </span><a class="headerlink" href="#SolverOptions.Newton1.MaxIteration" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Maximal number of iteration used iterative algorithm.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``2000``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Maximal number of iteration used iterative algorithm.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton1.SearchIntervalLength:
-
-SolverOptions.Newton1.SearchIntervalLength
-=============================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton1.SearchIntervalLength">
-    <span id="anymechoprkinanl-solveroptions-newton1-searchintervallength" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton1.SearchIntervalLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#SolverOptions.Newton1.SearchIntervalLength" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Size of the line-search interval used to determine step for a search direction.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloatVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``1.0``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Size of the line-search interval used to determine step for a search direction.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton1.Type:
-
-SolverOptions.Newton1.Type
-=============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton1.Type">
-    <span id="anymechoprkinanl-solveroptions-newton1-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton1.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> NEWTON_RELAX </span><a class="headerlink" href="#SolverOptions.Newton1.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Type of the Newton Method.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyEnumNewtonSolver`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``NEWTON_RELAX``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Type of the Newton Method.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton1.MaxLineSearchIteration:
-
-SolverOptions.Newton1.MaxLineSearchIteration
-===============================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton1.MaxLineSearchIteration">
-    <span id="anymechoprkinanl-solveroptions-newton1-maxlinesearchiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton1.MaxLineSearchIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 20 </span><a class="headerlink" href="#SolverOptions.Newton1.MaxLineSearchIteration" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``20``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton2:
-
-SolverOptions.Newton2
-========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton2">
-    <span id="anymechoprkinanl-solveroptions-newton2" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton2 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions.Newton2" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOprSetNLEqSolverNewton`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton2.MaxIteration:
-
-SolverOptions.Newton2.MaxIteration
-=====================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton2.MaxIteration">
-    <span id="anymechoprkinanl-solveroptions-newton2-maxiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton2.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 2000 </span><a class="headerlink" href="#SolverOptions.Newton2.MaxIteration" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Maximal number of iteration used iterative algorithm.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``2000``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Maximal number of iteration used iterative algorithm.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton2.SearchIntervalLength:
-
-SolverOptions.Newton2.SearchIntervalLength
-=============================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton2.SearchIntervalLength">
-    <span id="anymechoprkinanl-solveroptions-newton2-searchintervallength" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton2.SearchIntervalLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#SolverOptions.Newton2.SearchIntervalLength" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Size of the line-search interval used to determine step for a search direction.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloatVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``1.0``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Size of the line-search interval used to determine step for a search direction.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton2.Type:
-
-SolverOptions.Newton2.Type
-=============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton2.Type">
-    <span id="anymechoprkinanl-solveroptions-newton2-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton2.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> NEWTON_GSS </span><a class="headerlink" href="#SolverOptions.Newton2.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Type of the Newton Method.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyEnumNewtonSolver`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``NEWTON_GSS``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Type of the Newton Method.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Newton2.MaxLineSearchIteration:
-
-SolverOptions.Newton2.MaxLineSearchIteration
-===============================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Newton2.MaxLineSearchIteration">
-    <span id="anymechoprkinanl-solveroptions-newton2-maxlinesearchiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Newton2.MaxLineSearchIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 20 </span><a class="headerlink" href="#SolverOptions.Newton2.MaxLineSearchIteration" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``20``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1:
-
-SolverOptions.Continuation1
-==============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1">
-    <span id="anymechoprkinanl-solveroptions-continuation1" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions.Continuation1" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOprSetNLEqSolverCont`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.MaxIteration:
-
-SolverOptions.Continuation1.MaxIteration
-===========================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.MaxIteration">
-    <span id="anymechoprkinanl-solveroptions-continuation1-maxiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 2000 </span><a class="headerlink" href="#SolverOptions.Continuation1.MaxIteration" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Maximal number of iteration used iterative algorithm.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``2000``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Maximal number of iteration used iterative algorithm.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.SearchIntervalLength:
-
-SolverOptions.Continuation1.SearchIntervalLength
-===================================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.SearchIntervalLength">
-    <span id="anymechoprkinanl-solveroptions-continuation1-searchintervallength" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.SearchIntervalLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#SolverOptions.Continuation1.SearchIntervalLength" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Size of the line-search interval used to determine step for a search direction.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloatVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``1.0``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Size of the line-search interval used to determine step for a search direction.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.Type:
-
-SolverOptions.Continuation1.Type
-===================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.Type">
-    <span id="anymechoprkinanl-solveroptions-continuation1-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> CONTINUATION1 </span><a class="headerlink" href="#SolverOptions.Continuation1.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyEnumNewtonSolver`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``CONTINUATION1``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.MaxLineSearchIteration:
-
-SolverOptions.Continuation1.MaxLineSearchIteration
-=====================================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.MaxLineSearchIteration">
-    <span id="anymechoprkinanl-solveroptions-continuation1-maxlinesearchiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.MaxLineSearchIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 20 </span><a class="headerlink" href="#SolverOptions.Continuation1.MaxLineSearchIteration" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``20``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.InitStepSize:
-
-SolverOptions.Continuation1.InitStepSize
-===========================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.InitStepSize">
-    <span id="anymechoprkinanl-solveroptions-continuation1-initstepsize" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.InitStepSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.2 </span><a class="headerlink" href="#SolverOptions.Continuation1.InitStepSize" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Initial step size used for the prediction step of a continuation method.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloatVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.2``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Initial step size used for the prediction step of a continuation method.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.NomAngle:
-
-SolverOptions.Continuation1.NomAngle
-=======================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.NomAngle">
-    <span id="anymechoprkinanl-solveroptions-continuation1-nomangle" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.NomAngle </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.087266463 </span><a class="headerlink" href="#SolverOptions.Continuation1.NomAngle" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Nominal angle for a continuation step, used to control the stepsize of the...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloatVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.087266463``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Nominal angle for a continuation step, used to control the stepsize of the continuation method.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.NomContraction:
-
-SolverOptions.Continuation1.NomContraction
-=============================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.NomContraction">
-    <span id="anymechoprkinanl-solveroptions-continuation1-nomcontraction" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.NomContraction </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#SolverOptions.Continuation1.NomContraction" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Nominal contraction ratio of the corrector step of the continuation method.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloatVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``2.0``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Nominal contraction ratio of the corrector step of the continuation method.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.Continuation1.NomDistance:
-
-SolverOptions.Continuation1.NomDistance
-==========================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.Continuation1.NomDistance">
-    <span id="anymechoprkinanl-solveroptions-continuation1-nomdistance" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.Continuation1.NomDistance </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.4 </span><a class="headerlink" href="#SolverOptions.Continuation1.NomDistance" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Nominal distance of the predicted step and the corrected step used to...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloatVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.4``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Nominal distance of the predicted step and the corrected step used to control the stepsize of the continulation method.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet1:
-
-SolverOptions.KinSolDet1
-===========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet1">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet1" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet1 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions.KinSolDet1" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOprSetKinematics`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet1.Type:
-
-SolverOptions.KinSolDet1.Type
-================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet1.Type">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet1-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet1.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> KIN_SYS_DET1 </span><a class="headerlink" href="#SolverOptions.KinSolDet1.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyEnumKinSys`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``KIN_SYS_DET1``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet1.Solver:
-
-SolverOptions.KinSolDet1.Solver
-==================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet1.Solver">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet1-solver" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet1.Solver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SolverOptions.KinSolDet1.Solver" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Pointer to option class of algorithm used in the kinematic solver.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``AnyMechOprKinAnl.SolverOptions.Newton1``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Pointer to option class of algorithm used in the kinematic solver.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet1.FallBackSolver:
-
-SolverOptions.KinSolDet1.FallBackSolver
-==========================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet1.FallBackSolver">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet1-fallbacksolver" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet1.FallBackSolver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SolverOptions.KinSolDet1.FallBackSolver" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to option classes of algorithm used as fallback solvers if...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{AnyMechOprKinAnl.SolverOptions.Newton2,...``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Array of pointers to option classes of algorithm used as fallback solvers if the solver or previous fallback solver fails, respectively.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet2:
-
-SolverOptions.KinSolDet2
-===========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet2">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet2" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet2 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions.KinSolDet2" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOprSetKinematics`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet2.Type:
-
-SolverOptions.KinSolDet2.Type
-================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet2.Type">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet2-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet2.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> KIN_SYS_DET2 </span><a class="headerlink" href="#SolverOptions.KinSolDet2.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyEnumKinSys`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``KIN_SYS_DET2``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet2.Solver:
-
-SolverOptions.KinSolDet2.Solver
-==================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet2.Solver">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet2-solver" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet2.Solver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SolverOptions.KinSolDet2.Solver" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Pointer to option class of algorithm used in the kinematic solver.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``AnyMechOprKinAnl.SolverOptions.Newton1``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Pointer to option class of algorithm used in the kinematic solver.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolDet2.FallBackSolver:
-
-SolverOptions.KinSolDet2.FallBackSolver
-==========================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolDet2.FallBackSolver">
-    <span id="anymechoprkinanl-solveroptions-kinsoldet2-fallbacksolver" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolDet2.FallBackSolver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SolverOptions.KinSolDet2.FallBackSolver" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to option classes of algorithm used as fallback solvers if...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{AnyMechOprKinAnl.SolverOptions.Newton2,...``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Array of pointers to option classes of algorithm used as fallback solvers if the solver or previous fallback solver fails, respectively.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolOverDet1:
-
-SolverOptions.KinSolOverDet1
-===============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolOverDet1">
-    <span id="anymechoprkinanl-solveroptions-kinsoloverdet1" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolOverDet1 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions.KinSolOverDet1" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOprSetKinematics`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolOverDet1.Type:
-
-SolverOptions.KinSolOverDet1.Type
-====================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolOverDet1.Type">
-    <span id="anymechoprkinanl-solveroptions-kinsoloverdet1-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolOverDet1.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> KIN_SYS_OVER_DET1 </span><a class="headerlink" href="#SolverOptions.KinSolOverDet1.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyEnumKinSys`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``KIN_SYS_OVER_DET1``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    <No description>
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolOverDet1.Solver:
-
-SolverOptions.KinSolOverDet1.Solver
-======================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolOverDet1.Solver">
-    <span id="anymechoprkinanl-solveroptions-kinsoloverdet1-solver" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolOverDet1.Solver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SolverOptions.KinSolOverDet1.Solver" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Pointer to option class of algorithm used in the kinematic solver.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``AnyMechOprKinAnl.SolverOptions.Newton1``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Pointer to option class of algorithm used in the kinematic solver.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.KinSolOverDet1.FallBackSolver:
-
-SolverOptions.KinSolOverDet1.FallBackSolver
-==============================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="SolverOptions.KinSolOverDet1.FallBackSolver">
-    <span id="anymechoprkinanl-solveroptions-kinsoloverdet1-fallbacksolver" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.KinSolOverDet1.FallBackSolver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SolverOptions.KinSolOverDet1.FallBackSolver" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Array of pointers to option classes of algorithm used as fallback solvers if...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{AnyMechOprKinAnl.SolverOptions.Newton2,...``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
-
-
-
-    Array of pointers to option classes of algorithm used as fallback solvers if the solver or previous fallback solver fails, respectively.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.SolverOptions.UseNormalizedEulerParInJacobianOnOff:
-
-SolverOptions.UseNormalizedEulerParInJacobianOnOff
-=====================================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions.UseNormalizedEulerParInJacobianOnOff">
-    <span id="anymechoprkinanl-solveroptions-usenormalizedeulerparinjacobianonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions.UseNormalizedEulerParInJacobianOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#SolverOptions.UseNormalizedEulerParInJacobianOnOff" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnySwitchVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``Off``
-
-    .. deprecated::
-       AnyMechOprKinAnl is being extended with new solver options that are currently
-        in a beta phase and you have initialized one of these options.
-        Version 6.1 is preparing this extension by hidden(deprecated) members to select
-        these new options. Future versions will make these options fully function,
-        current functionality avaialble with these options is in a beta state and not
-        recommended for actual use.
-
-    
 
 
 

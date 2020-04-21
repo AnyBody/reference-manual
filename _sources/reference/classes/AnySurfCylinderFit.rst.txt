@@ -48,6 +48,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -83,6 +84,7 @@ Length
     Length of the cylinder.
 
 ..
+
 
 
 
@@ -129,6 +131,8 @@ Points
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -140,7 +144,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnySurfCylinderFit.CapRatio:
@@ -168,9 +172,14 @@ CapRatio
 
 
 
+
+
+
+
     Ratio between the height of ellipsoidal caps on the ends and the radius.
 
 ..
+
 
 
 
@@ -181,7 +190,7 @@ CapRatio
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfCylinderFit.CapRatio2:
@@ -209,9 +218,14 @@ CapRatio2
 
 
 
+
+
+
+
     Ratio between the height of the ellipsoid cap of the lower end (in -z direction) and the radius. If not specified it is equal to CapRatio.
 
 ..
+
 
 
 
@@ -222,7 +236,7 @@ CapRatio2
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfCylinderFit.FixedDirection:
@@ -250,9 +264,14 @@ FixedDirection
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -263,7 +282,7 @@ FixedDirection
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfCylinderFit.Direction:
@@ -288,6 +307,10 @@ Direction
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+
+
+
+
 
 
 

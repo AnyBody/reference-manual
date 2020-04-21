@@ -115,6 +115,8 @@ AnyRefFrame
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -126,171 +128,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
-..
-
-.. _AnyRevoluteJoint.Constraints.CType:
-
-Constraints.CType
-====================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Constraints.CType">
-    <span id="anyrevolutejoint-constraints-ctype" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.CType </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.CType" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Constraint type specification that specify how the kinematic solver should...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyKinEqType`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** *Depends on other values*
-
-
-
-    Constraint type specification that specify how the kinematic solver should handle the constraint.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.WeightFun:
-
-Constraints.WeightFun
-========================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Constraints.WeightFun">
-    <span id="anyrevolutejoint-constraints-weightfun" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.WeightFun </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.WeightFun" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Kinematic weighting functions, i.e., time-functions (AnyParamFun) which...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyObjectPtrArray`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** *Depends on other values*
-
-
-
-    Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Constraints.Reaction.Type:
-
-Constraints.Reaction.Type
-============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Constraints.Reaction.Type">
-    <span id="anyrevolutejoint-constraints-reaction-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints.Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.Reaction.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Type specification of the reaction forces.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyReacForceType`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** *Depends on other values*
-
-
-
-    Type specification of the reaction forces.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyRevoluteJoint.Linear.Ref:
-
-Linear.Ref
-=============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Linear.Ref">
-    <span id="anyrevolutejoint-linear-ref" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Linear.Ref </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Linear.Ref" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Integer numbers that specify the reference system in which the vector is...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVar`
-    | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
-    | **Default:** ``0.0``
-
-
-
-    Integer numbers that specify the reference system in which the vector is measured. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+      <!--
 ..
 
 .. _AnyRevoluteJoint.Axis:
@@ -318,9 +156,14 @@ Axis
 
 
 
+
+
+
+
     The joint axis, i.e., the common axis for the two connected reference frames.
 
 ..
+
 
 
 
@@ -331,7 +174,7 @@ Axis
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyRevoluteJoint.Ref:
@@ -356,6 +199,10 @@ Ref
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+
+
+
+
 
 
 

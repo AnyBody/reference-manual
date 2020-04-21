@@ -78,6 +78,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -118,6 +119,7 @@ FileName
 
 
 
+
 ..
 
 .. raw:: html
@@ -153,6 +155,7 @@ DatabaseType
     String specifying the database type.
 
 ..
+
 
 
 
@@ -199,6 +202,8 @@ SQLCommand
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -210,7 +215,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyInputDB.ServerName:
@@ -238,9 +243,14 @@ ServerName
 
 
 
+
+
+
+
     Server name (not used for connections to MS Access).
 
 ..
+
 
 
 
@@ -251,7 +261,7 @@ ServerName
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputDB.DatabaseName:
@@ -279,9 +289,14 @@ DatabaseName
 
 
 
+
+
+
+
     The database name (when applicable).
 
 ..
+
 
 
 
@@ -292,7 +307,7 @@ DatabaseName
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputDB.UserName:
@@ -320,9 +335,14 @@ UserName
 
 
 
+
+
+
+
     The name of user accessing the database.
 
 ..
+
 
 
 
@@ -333,7 +353,7 @@ UserName
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputDB.Password:
@@ -361,9 +381,14 @@ Password
 
 
 
+
+
+
+
     Password for the user name.
 
 ..
+
 
 
 
@@ -374,7 +399,7 @@ Password
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputDB.WindowsAuthentication:
@@ -402,9 +427,14 @@ WindowsAuthentication
 
 
 
+
+
+
+
     Use windows authentication, as opposed to database authentication (Only used for MS SQL Server)
 
 ..
+
 
 
 
@@ -415,7 +445,7 @@ WindowsAuthentication
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputDB.OracleClientAccess:
@@ -443,9 +473,14 @@ OracleClientAccess
 
 
 
+
+
+
+
     Client aceess to Oracle databases (Only used for Oracle Server)
 
 ..
+
 
 
 
@@ -456,7 +491,7 @@ OracleClientAccess
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputDB.SQLCommandTag:
@@ -481,6 +516,10 @@ SQLCommandTag
     | **Class type:**  :ref:`AnyString`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
+
+
+
 
 
 

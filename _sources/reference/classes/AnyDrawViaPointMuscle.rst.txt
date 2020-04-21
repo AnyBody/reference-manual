@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -149,6 +150,7 @@ Thickness
     Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.
 
 ..
+
 
 
 
@@ -195,6 +197,8 @@ RGB
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -206,7 +210,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawViaPointMuscle.Visible:
@@ -234,9 +238,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -247,7 +256,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawViaPointMuscle.Opacity:
@@ -275,9 +284,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -288,7 +302,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawViaPointMuscle.Pickable:
@@ -316,9 +330,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -329,7 +348,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawViaPointMuscle.PickableZOrdering:
@@ -354,6 +373,10 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+
+
+
+
 
 
 

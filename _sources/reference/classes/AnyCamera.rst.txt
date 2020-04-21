@@ -109,6 +109,8 @@ AnyScene
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -120,7 +122,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyCamera.FocalDist:
@@ -148,9 +150,14 @@ FocalDist
 
 
 
+
+
+
+
     Distance to the focal plane in (model units).
 
 ..
+
 
 
 
@@ -161,7 +168,7 @@ FocalDist
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCamera.FocalHeight:
@@ -189,9 +196,14 @@ FocalHeight
 
 
 
+
+
+
+
     Height of the view area in focal plane (model units).
 
 ..
+
 
 
 
@@ -202,7 +214,7 @@ FocalHeight
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCamera.Near:
@@ -230,9 +242,14 @@ Near
 
 
 
+
+
+
+
     Distance from eye to the nearest clipping plane (model units). Everything closer to the eye point is not visible.
 
 ..
+
 
 
 
@@ -243,7 +260,7 @@ Near
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCamera.Far:
@@ -271,9 +288,14 @@ Far
 
 
 
+
+
+
+
     Distance from eye to the farest??? clipping plane (model units). Everything further away from the eye point is not visible.
 
 ..
+
 
 
 
@@ -284,7 +306,7 @@ Far
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCamera.Perspective:
@@ -309,6 +331,10 @@ Perspective
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

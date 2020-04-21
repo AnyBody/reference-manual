@@ -109,6 +109,8 @@ AnyStyleDrawMaterial
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -120,7 +122,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawWidgetBase.Visible:
@@ -148,9 +150,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -161,7 +168,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawWidgetBase.Opacity:
@@ -189,9 +196,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -202,7 +214,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawWidgetBase.Pickable:
@@ -230,9 +242,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -243,7 +260,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawWidgetBase.PickableZOrdering:
@@ -271,9 +288,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -284,7 +306,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawWidgetBase.Operation:
@@ -312,9 +334,14 @@ Operation
 
 
 
+
+
+
+
     Operation setting, which specifies which operation to perform when the Operation Criteria is met.
 
 ..
+
 
 
 
@@ -325,7 +352,7 @@ Operation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawWidgetBase.UpdateEvent:
@@ -353,9 +380,14 @@ UpdateEvent
 
 
 
+
+
+
+
     Operation criteria setting, which specifies in which circumstances the operation defined by the Operation member should be executed.
 
 ..
+
 
 
 
@@ -366,7 +398,7 @@ UpdateEvent
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawWidgetBase.MaxDrawSize:
@@ -394,9 +426,14 @@ MaxDrawSize
 
 
 
+
+
+
+
     If set, this setting controls the maximum drawing size in meters of the AnyDrawWidget.
 
 ..
+
 
 
 
@@ -407,7 +444,7 @@ MaxDrawSize
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawWidgetBase.MinDrawSize:
@@ -432,6 +469,10 @@ MinDrawSize
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
+
+
+
 
 
 

@@ -66,6 +66,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -107,6 +108,8 @@ Ref
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -118,7 +121,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyFunTransform3DLinRef.PreTransforms:
@@ -146,9 +149,14 @@ PreTransforms
 
 
 
+
+
+
+
     Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
+
 
 
 
@@ -159,7 +167,7 @@ PreTransforms
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef.RefTarget:
@@ -187,9 +195,14 @@ RefTarget
 
 
 
+
+
+
+
     Object that defines the reference frame for the function output. If empty or 'None' then output will be given in the root reference frame for 'Ref'.
 
 ..
+
 
 
 
@@ -200,7 +213,7 @@ RefTarget
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef.TranslationOnOff:
@@ -228,9 +241,14 @@ TranslationOnOff
 
 
 
+
+
+
+
     Switch for whether positions of the reference frames are included or ignored.
 
 ..
+
 
 
 
@@ -241,7 +259,7 @@ TranslationOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef.RotationOnOff:
@@ -266,6 +284,10 @@ RotationOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
+
+
+
 
 
 

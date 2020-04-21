@@ -93,6 +93,8 @@ AnyStyleDrawMaterial
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -104,7 +106,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawStdJoint.Visible:
@@ -132,9 +134,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -145,7 +152,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.Opacity:
@@ -173,9 +180,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -186,7 +198,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.Pickable:
@@ -214,9 +226,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -227,7 +244,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.PickableZOrdering:
@@ -255,9 +272,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -268,7 +290,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.RGB:
@@ -296,9 +318,14 @@ RGB
 
 
 
+
+
+
+
     Object color in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -309,7 +336,7 @@ RGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.D:
@@ -337,9 +364,14 @@ D
 
 
 
+
+
+
+
     Diameter or in general the basic size value used for dimensioning the drawing object. By default it is extimated from the segment sizes.
 
 ..
+
 
 
 
@@ -350,7 +382,7 @@ D
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.L:
@@ -378,9 +410,14 @@ L
 
 
 
+
+
+
+
     Length of the center part of the joint drawing. By default 2 times D.
 
 ..
+
 
 
 
@@ -391,7 +428,7 @@ L
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.L1:
@@ -419,9 +456,14 @@ L1
 
 
 
+
+
+
+
     Length of the first outer part of the joint drawing. By default equal to L.
 
 ..
+
 
 
 
@@ -432,7 +474,7 @@ L1
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.L2:
@@ -460,9 +502,14 @@ L2
 
 
 
+
+
+
+
     Length of the second outer part of the joint drawing. By default equal to L1.
 
 ..
+
 
 
 
@@ -473,7 +520,7 @@ L2
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.G1:
@@ -501,9 +548,14 @@ G1
 
 
 
+
+
+
+
     Gab between the center and the first outer part of the joint drawing. By default equal to a fraction of L.
 
 ..
+
 
 
 
@@ -514,7 +566,7 @@ G1
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawStdJoint.G2:
@@ -539,6 +591,10 @@ G2
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
+
+
+
 
 
 

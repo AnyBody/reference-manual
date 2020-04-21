@@ -98,6 +98,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -139,6 +140,8 @@ Points
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -150,7 +153,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawPointCloud.Visible:
@@ -178,9 +181,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -191,7 +199,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.Opacity:
@@ -219,9 +227,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -232,7 +245,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.Pickable:
@@ -260,9 +273,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -273,7 +291,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.PickableZOrdering:
@@ -301,9 +319,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -314,7 +337,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.RGB:
@@ -342,9 +365,14 @@ RGB
 
 
 
+
+
+
+
     Object color in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -355,7 +383,7 @@ RGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.ScaleXYZ:
@@ -383,9 +411,14 @@ ScaleXYZ
 
 
 
+
+
+
+
     Scaling factors for each reference system axis.
 
 ..
+
 
 
 
@@ -396,7 +429,7 @@ ScaleXYZ
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.Transparency:
@@ -424,9 +457,14 @@ Transparency
 
 
 
+
+
+
+
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
+
 
 
 
@@ -437,7 +475,7 @@ Transparency
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.Face:
@@ -465,9 +503,14 @@ Face
 
 
 
+
+
+
+
     Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
 
 ..
+
 
 
 
@@ -478,7 +521,7 @@ Face
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.TextFont:
@@ -500,15 +543,6 @@ TextFont
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleFont3DView`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    General font setting for the object's text.
-
-..
 
 
 
@@ -519,24 +553,24 @@ TextFont
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDrawPointCloud.TextFont.RGB:
 
 TextFont.RGB
-===============
+---------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.RGB">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.RGB">
     <span id="anydrawpointcloud-textfont-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -566,18 +600,18 @@ TextFont.RGB
 .. _AnyDrawPointCloud.TextFont.FontName:
 
 TextFont.FontName
-====================
+--------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.FontName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.FontName">
     <span id="anydrawpointcloud-textfont-fontname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -607,18 +641,18 @@ TextFont.FontName
 .. _AnyDrawPointCloud.TextFont.Height:
 
 TextFont.Height
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Height">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Height">
     <span id="anydrawpointcloud-textfont-height" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -648,18 +682,18 @@ TextFont.Height
 .. _AnyDrawPointCloud.TextFont.Width:
 
 TextFont.Width
-=================
+-----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Width">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Width">
     <span id="anydrawpointcloud-textfont-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -689,18 +723,18 @@ TextFont.Width
 .. _AnyDrawPointCloud.TextFont.Bold:
 
 TextFont.Bold
-================
+----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Bold">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Bold">
     <span id="anydrawpointcloud-textfont-bold" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -730,18 +764,18 @@ TextFont.Bold
 .. _AnyDrawPointCloud.TextFont.Italic:
 
 TextFont.Italic
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Italic">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Italic">
     <span id="anydrawpointcloud-textfont-italic" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -771,18 +805,18 @@ TextFont.Italic
 .. _AnyDrawPointCloud.TextFont.BillBoardView:
 
 TextFont.BillBoardView
-=========================
+-------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.BillBoardView">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.BillBoardView">
     <span id="anydrawpointcloud-textfont-billboardview" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -812,18 +846,18 @@ TextFont.BillBoardView
 .. _AnyDrawPointCloud.TextFont.ModelSized:
 
 TextFont.ModelSized
-======================
+----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelSized">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelSized">
     <span id="anydrawpointcloud-textfont-modelsized" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -853,18 +887,18 @@ TextFont.ModelSized
 .. _AnyDrawPointCloud.TextFont.ModelScaleHeight:
 
 TextFont.ModelScaleHeight
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelScaleHeight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelScaleHeight">
     <span id="anydrawpointcloud-textfont-modelscaleheight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -894,18 +928,18 @@ TextFont.ModelScaleHeight
 .. _AnyDrawPointCloud.TextFont.ModelScaleWidth:
 
 TextFont.ModelScaleWidth
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelScaleWidth">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelScaleWidth">
     <span id="anydrawpointcloud-textfont-modelscalewidth" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -924,12 +958,23 @@ TextFont.ModelScaleWidth
 
 
 
+
+
+    General font setting for the object's text.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyDrawPointCloud.PointNames:
@@ -957,9 +1002,14 @@ PointNames
 
 
 
+
+
+
+
     Names of the points defined in Points matrix.
 
 ..
+
 
 
 
@@ -970,7 +1020,7 @@ PointNames
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.PointStyle:
@@ -992,15 +1042,6 @@ PointStyle
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleDrawPointMarkers`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    The style to apply to the points.
-
-..
 
 
 
@@ -1011,24 +1052,24 @@ PointStyle
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDrawPointCloud.PointStyle.Visible:
 
 PointStyle.Visible
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointStyle.Visible">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointStyle.Visible">
     <span id="anydrawpointcloud-pointstyle-visible" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointStyle.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PointStyle.Visible" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PointStyle.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for markers to be shown or not.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1058,18 +1099,18 @@ PointStyle.Visible
 .. _AnyDrawPointCloud.PointStyle.Style:
 
 PointStyle.Style
-===================
+-------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointStyle.Style">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointStyle.Style">
     <span id="anydrawpointcloud-pointstyle-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointStyle.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> PointStyleSphere </span><a class="headerlink" href="#PointStyle.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> PointStyleSphere </span><a class="headerlink" href="#PointStyle.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Marker style.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1099,18 +1140,18 @@ PointStyle.Style
 .. _AnyDrawPointCloud.PointStyle.Size:
 
 PointStyle.Size
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointStyle.Size">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointStyle.Size">
     <span id="anydrawpointcloud-pointstyle-size" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointStyle.Size </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#PointStyle.Size" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Size </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#PointStyle.Size" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of markers.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1140,18 +1181,18 @@ PointStyle.Size
 .. _AnyDrawPointCloud.PointStyle.SkipPoints:
 
 PointStyle.SkipPoints
-========================
+------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointStyle.SkipPoints">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointStyle.SkipPoints">
     <span id="anydrawpointcloud-pointstyle-skippoints" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointStyle.SkipPoints </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#PointStyle.SkipPoints" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SkipPoints </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#PointStyle.SkipPoints" title="Permalink to this headline">¶</a>
     <span class="member-descr">Amount of points between every visible marker.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1170,12 +1211,23 @@ PointStyle.SkipPoints
 
 
 
+
+
+    The style to apply to the points.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyDrawPointCloud.Points3D:
@@ -1203,9 +1255,14 @@ Points3D
 
 
 
+
+
+
+
     Switch to control if points are drawn as 3D objects(On) or pixels(Off).
 
 ..
+
 
 
 
@@ -1216,7 +1273,7 @@ Points3D
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawPointCloud.ShowNames:
@@ -1241,6 +1298,10 @@ ShowNames
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
+
+
+
 
 
 

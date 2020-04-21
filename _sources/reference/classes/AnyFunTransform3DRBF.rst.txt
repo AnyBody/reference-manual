@@ -66,6 +66,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -107,6 +108,8 @@ Points0
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -118,7 +121,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyFunTransform3DRBF.PreTransforms:
@@ -146,9 +149,14 @@ PreTransforms
 
 
 
+
+
+
+
     Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
+
 
 
 
@@ -159,7 +167,7 @@ PreTransforms
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.RBFDef:
@@ -181,15 +189,6 @@ RBFDef
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleRBFFun`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Folder with RBF settings.
-
-..
 
 
 
@@ -200,13 +199,13 @@ RBFDef
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyFunTransform3DRBF.RBFDef.Type:
 
 RBFDef.Type
-==============
+--------------
 
 
 .. raw:: html
@@ -215,9 +214,9 @@ RBFDef.Type
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RBFDef.Type">
     <span id="anyfuntransform3drbf-rbfdef-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RBFDef.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> RBF_Gaussian </span><a class="headerlink" href="#RBFDef.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> RBF_Gaussian </span><a class="headerlink" href="#RBFDef.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Type of the radial basis function to use.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -247,7 +246,7 @@ RBFDef.Type
 .. _AnyFunTransform3DRBF.RBFDef.Param:
 
 RBFDef.Param
-===============
+---------------
 
 
 .. raw:: html
@@ -256,9 +255,9 @@ RBFDef.Param
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RBFDef.Param">
     <span id="anyfuntransform3drbf-rbfdef-param" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RBFDef.Param </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#RBFDef.Param" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Param </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#RBFDef.Param" title="Permalink to this headline">¶</a>
     <span class="member-descr">Parameter used in the given radial basis function.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -277,12 +276,23 @@ RBFDef.Param
 
 
 
+
+
+    Folder with RBF settings.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.RBFCoefs:
@@ -310,9 +320,14 @@ RBFCoefs
 
 
 
+
+
+
+
     Coefficients (weights) for the each radial basis function, i.e., for each control point. Three parameters are given for each control point, which is the weight for each direction in space. Similarly to the points, the RBFParams are given as a (n x 3) matrix.
 
 ..
+
 
 
 
@@ -323,7 +338,7 @@ RBFCoefs
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.PolynomDegree:
@@ -351,9 +366,14 @@ PolynomDegree
 
 
 
+
+
+
+
     Degree of the polynomia. Negative values means that no polynomial term is used.
 
 ..
+
 
 
 
@@ -364,7 +384,7 @@ PolynomDegree
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.PolynomCoefs:
@@ -392,9 +412,14 @@ PolynomCoefs
 
 
 
+
+
+
+
     Coefficients for the polynomia function added to the radial basis function. Each term of the polynomia must be given three parameters, one for each direction in space, i.e., the PolynomCoefs are given as a (m x 3) matrix. The number of rows, m, must match PolynomDegree; degree zero means m=1 (the constant term), positive degrees mean m=1+3*degree, and negative degrees mean m=0.
 
 ..
+
 
 
 
@@ -405,7 +430,7 @@ PolynomCoefs
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.PointNames:
@@ -433,9 +458,14 @@ PointNames
 
 
 
+
+
+
+
     Names of the points, for instance used as labels during export and import.
 
 ..
+
 
 
 
@@ -446,7 +476,7 @@ PointNames
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.PointDescriptions:
@@ -474,9 +504,14 @@ PointDescriptions
 
 
 
+
+
+
+
     Short descriptions of the points. These are part of the export of points and are aimed for possible usage in external software for landmark detection.
 
 ..
+
 
 
 
@@ -487,7 +522,7 @@ PointDescriptions
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.Points1:
@@ -515,9 +550,14 @@ Points1
 
 
 
+
+
+
+
     Implicit input of RBF coefficients by control points values to be matched by the function. The format of the matrix is similar to Points0. The RBF coeeficient are calculated.
 
 ..
+
 
 
 
@@ -528,7 +568,7 @@ Points1
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.BoundingBox:
@@ -550,15 +590,6 @@ BoundingBox
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleBoundingBox`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Folder with bounding box settings.
-
-..
 
 
 
@@ -569,24 +600,24 @@ BoundingBox
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyFunTransform3DRBF.BoundingBox.Type:
 
 BoundingBox.Type
-===================
+-------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="BoundingBox.Type">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BoundingBox.Type">
     <span id="anyfuntransform3drbf-boundingbox-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBox.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> BB_Cartesian </span><a class="headerlink" href="#BoundingBox.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> BB_Cartesian </span><a class="headerlink" href="#BoundingBox.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines a way to compute the bounding box.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -616,18 +647,18 @@ BoundingBox.Type
 .. _AnyFunTransform3DRBF.BoundingBox.ScaleXYZ:
 
 BoundingBox.ScaleXYZ
-=======================
+-----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BoundingBox.ScaleXYZ">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="BoundingBox.ScaleXYZ">
     <span id="anyfuntransform3drbf-boundingbox-scalexyz" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBox.ScaleXYZ </span><span class="member-title-equal">=</span><span class="member-title-default"> {2.0, 2.0, 2.0} </span><a class="headerlink" href="#BoundingBox.ScaleXYZ" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ScaleXYZ </span><span class="member-title-equal">=</span><span class="member-title-default"> {2.0, 2.0, 2.0} </span><a class="headerlink" href="#BoundingBox.ScaleXYZ" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines a scale factor vector in selected axes.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -657,18 +688,18 @@ BoundingBox.ScaleXYZ
 .. _AnyFunTransform3DRBF.BoundingBox.DivisionFactorXYZ:
 
 BoundingBox.DivisionFactorXYZ
-================================
+--------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="BoundingBox.DivisionFactorXYZ">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BoundingBox.DivisionFactorXYZ">
     <span id="anyfuntransform3drbf-boundingbox-divisionfactorxyz" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBox.DivisionFactorXYZ </span><span class="member-title-equal">=</span><span class="member-title-default"> {1, 1, 1} </span><a class="headerlink" href="#BoundingBox.DivisionFactorXYZ" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.DivisionFactorXYZ </span><span class="member-title-equal">=</span><span class="member-title-default"> {1, 1, 1} </span><a class="headerlink" href="#BoundingBox.DivisionFactorXYZ" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines a number of bounding box subdivisions in selected axes.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -687,12 +718,23 @@ BoundingBox.DivisionFactorXYZ
 
 
 
+
+
+    Folder with bounding box settings.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyFunTransform3DRBF.BoundingBoxOnOff:
@@ -705,7 +747,7 @@ BoundingBoxOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BoundingBoxOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="BoundingBoxOnOff">
     <span id="anyfuntransform3drbf-boundingboxonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBoxOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#BoundingBoxOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">A switch to use bounding box points for the RBF transform construction....</span>
@@ -717,6 +759,10 @@ BoundingBoxOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

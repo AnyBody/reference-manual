@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -155,6 +156,8 @@ Type
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -166,7 +169,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinEqInterPolDriver.MeasureOrganizer:
@@ -194,9 +197,14 @@ MeasureOrganizer
 
 
 
+
+
+
+
     List of indices of components from the assembled measures to be included in the new (organized) measure.
 
 ..
+
 
 
 
@@ -207,7 +215,7 @@ MeasureOrganizer
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqInterPolDriver.CType:
@@ -235,9 +243,14 @@ CType
 
 
 
+
+
+
+
     Constraint type specification that specify how the kinematic solver should handle the constraint.
 
 ..
+
 
 
 
@@ -248,7 +261,7 @@ CType
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqInterPolDriver.WeightFun:
@@ -276,6 +289,10 @@ WeightFun
 
 
 
+
+
+
+
     Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
 
 ..
@@ -284,53 +301,13 @@ WeightFun
 
 
 
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqInterPolDriver.Reaction.Type:
-
-Reaction.Type
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Reaction.Type">
-    <span id="anykineqinterpoldriver-reaction-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Reaction.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Type specification of the reaction forces.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyReacForceType`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** *Depends on other values*
-
-
-
-    Type specification of the reaction forces.
-
-..
-
-
-
-
 
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqInterPolDriver.BsplineOrder:
@@ -343,7 +320,7 @@ BsplineOrder
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BsplineOrder">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="BsplineOrder">
     <span id="anykineqinterpoldriver-bsplineorder" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> BsplineOrder </span><span class="member-title-equal">=</span><span class="member-title-default"> 4 </span><a class="headerlink" href="#BsplineOrder" title="Permalink to this headline">¶</a>
     <span class="member-descr">Order of B-spline interpolation. Must be larger than or equal to 4 for...</span>
@@ -358,9 +335,14 @@ BsplineOrder
 
 
 
+
+
+
+
     Order of B-spline interpolation. Must be larger than or equal to 4 for kinematic drivers to ensure sufficiently high order of continuity.
 
 ..
+
 
 
 
@@ -371,7 +353,7 @@ BsplineOrder
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqInterPolDriver.T:
@@ -384,7 +366,7 @@ T
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="T">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="T">
     <span id="anykineqinterpoldriver-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> T </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#T" title="Permalink to this headline">¶</a>
     <span class="member-descr">Time data points.</span>
@@ -399,9 +381,14 @@ T
 
 
 
+
+
+
+
     Time data points.
 
 ..
+
 
 
 
@@ -412,7 +399,7 @@ T
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqInterPolDriver.Data:
@@ -425,7 +412,7 @@ Data
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Data">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Data">
     <span id="anykineqinterpoldriver-data" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Data </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Data" title="Permalink to this headline">¶</a>
     <span class="member-descr">Matrix of data points. Each row contains the data points for one component...</span>
@@ -440,9 +427,14 @@ Data
 
 
 
+
+
+
+
     Matrix of data points. Each row contains the data points for one component of the measure in Pos.
 
 ..
+
 
 
 
@@ -453,7 +445,7 @@ Data
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqInterPolDriver.FileName:
@@ -466,7 +458,7 @@ FileName
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="FileName">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="FileName">
     <span id="anykineqinterpoldriver-filename" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> FileName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#FileName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Name of a text file with data points in space-separated columns. The first...</span>
@@ -481,9 +473,14 @@ FileName
 
 
 
+
+
+
+
     Name of a text file with data points in space-separated columns. The first column must hold T and the following must correspond to the rows of Data. Comments can be entered into the data file in lines that do not start with a number and after the correct number of values
 
 ..
+
 
 
 
@@ -494,7 +491,7 @@ FileName
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqInterPolDriver.FileErrorContinueOnOff:
@@ -507,7 +504,7 @@ FileErrorContinueOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="FileErrorContinueOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="FileErrorContinueOnOff">
     <span id="anykineqinterpoldriver-fileerrorcontinueonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> FileErrorContinueOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#FileErrorContinueOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">'On' allows data file loading to continue on some errors. These are...</span>
@@ -519,6 +516,10 @@ FileErrorContinueOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

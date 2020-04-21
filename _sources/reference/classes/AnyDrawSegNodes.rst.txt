@@ -93,6 +93,8 @@ AnyStyleDrawMaterial
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -104,7 +106,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawSegNodes.Visible:
@@ -132,9 +134,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -145,7 +152,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSegNodes.Opacity:
@@ -173,9 +180,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -186,7 +198,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSegNodes.Pickable:
@@ -214,9 +226,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -227,7 +244,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSegNodes.PickableZOrdering:
@@ -255,9 +272,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -268,7 +290,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSegNodes.RGB:
@@ -296,9 +318,14 @@ RGB
 
 
 
+
+
+
+
     Object color in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -309,7 +336,7 @@ RGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSegNodes.Transparency:
@@ -337,9 +364,14 @@ Transparency
 
 
 
+
+
+
+
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
+
 
 
 
@@ -350,7 +382,7 @@ Transparency
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSegNodes.TextFont:
@@ -372,15 +404,6 @@ TextFont
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleFont3DView`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    General font setting for the object's text.
-
-..
 
 
 
@@ -391,24 +414,24 @@ TextFont
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDrawSegNodes.TextFont.RGB:
 
 TextFont.RGB
-===============
+---------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.RGB">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.RGB">
     <span id="anydrawsegnodes-textfont-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -438,18 +461,18 @@ TextFont.RGB
 .. _AnyDrawSegNodes.TextFont.FontName:
 
 TextFont.FontName
-====================
+--------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.FontName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.FontName">
     <span id="anydrawsegnodes-textfont-fontname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -479,18 +502,18 @@ TextFont.FontName
 .. _AnyDrawSegNodes.TextFont.Height:
 
 TextFont.Height
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Height">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Height">
     <span id="anydrawsegnodes-textfont-height" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -520,18 +543,18 @@ TextFont.Height
 .. _AnyDrawSegNodes.TextFont.Width:
 
 TextFont.Width
-=================
+-----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Width">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Width">
     <span id="anydrawsegnodes-textfont-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -561,18 +584,18 @@ TextFont.Width
 .. _AnyDrawSegNodes.TextFont.Bold:
 
 TextFont.Bold
-================
+----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Bold">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Bold">
     <span id="anydrawsegnodes-textfont-bold" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -602,18 +625,18 @@ TextFont.Bold
 .. _AnyDrawSegNodes.TextFont.Italic:
 
 TextFont.Italic
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Italic">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Italic">
     <span id="anydrawsegnodes-textfont-italic" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -643,18 +666,18 @@ TextFont.Italic
 .. _AnyDrawSegNodes.TextFont.BillBoardView:
 
 TextFont.BillBoardView
-=========================
+-------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.BillBoardView">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.BillBoardView">
     <span id="anydrawsegnodes-textfont-billboardview" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -684,18 +707,18 @@ TextFont.BillBoardView
 .. _AnyDrawSegNodes.TextFont.ModelSized:
 
 TextFont.ModelSized
-======================
+----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelSized">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelSized">
     <span id="anydrawsegnodes-textfont-modelsized" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -725,18 +748,18 @@ TextFont.ModelSized
 .. _AnyDrawSegNodes.TextFont.ModelScaleHeight:
 
 TextFont.ModelScaleHeight
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelScaleHeight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelScaleHeight">
     <span id="anydrawsegnodes-textfont-modelscaleheight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -766,18 +789,18 @@ TextFont.ModelScaleHeight
 .. _AnyDrawSegNodes.TextFont.ModelScaleWidth:
 
 TextFont.ModelScaleWidth
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelScaleWidth">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelScaleWidth">
     <span id="anydrawsegnodes-textfont-modelscalewidth" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -796,12 +819,23 @@ TextFont.ModelScaleWidth
 
 
 
+
+
+    General font setting for the object's text.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyDrawSegNodes.InertiaScale:
@@ -826,6 +860,10 @@ InertiaScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
+
+
+
 
 
 

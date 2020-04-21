@@ -48,6 +48,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -89,6 +90,8 @@ Points
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -100,7 +103,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnySurfPlaneFit.Radius:
@@ -128,9 +131,14 @@ Radius
 
 
 
+
+
+
+
     Radius is a vector with three components defining extension of the ellipsoid along the three axes of the reference frame.
 
 ..
+
 
 
 
@@ -141,7 +149,7 @@ Radius
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfPlaneFit.FixedNormal:
@@ -169,9 +177,14 @@ FixedNormal
 
 
 
+
+
+
+
     A switch to fit a plane with given normal.
 
 ..
+
 
 
 
@@ -182,7 +195,7 @@ FixedNormal
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfPlaneFit.FixedPoint:
@@ -210,9 +223,14 @@ FixedPoint
 
 
 
+
+
+
+
     A switch to fit a plane passing through a given point.
 
 ..
+
 
 
 
@@ -223,7 +241,7 @@ FixedPoint
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfPlaneFit.Point:
@@ -251,9 +269,14 @@ Point
 
 
 
+
+
+
+
     Point on the plane.
 
 ..
+
 
 
 
@@ -264,7 +287,7 @@ Point
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfPlaneFit.Normal:
@@ -289,6 +312,10 @@ Normal
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+
+
+
+
 
 
 

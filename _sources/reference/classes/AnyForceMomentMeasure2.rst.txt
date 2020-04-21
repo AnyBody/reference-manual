@@ -191,6 +191,8 @@ AnySeg
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -202,7 +204,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyForceMomentMeasure2.IncludeForces:
@@ -230,9 +232,14 @@ IncludeForces
 
 
 
+
+
+
+
     Vector of AnyObjectPtrs to the generalized forces that will be added in this object.Either this or AnyForceBase type members must be present.
 
 ..
+
 
 
 
@@ -243,7 +250,7 @@ IncludeForces
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceMomentMeasure2.RefPoint:
@@ -271,9 +278,14 @@ RefPoint
 
 
 
+
+
+
+
     AnyObjectPtr to the reference frame that defines the point of interest and thereby the output. Either this or an AnyRefFrame must be present.
 
 ..
+
 
 
 
@@ -284,7 +296,7 @@ RefPoint
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceMomentMeasure2.IncludeSegments:
@@ -312,9 +324,14 @@ IncludeSegments
 
 
 
+
+
+
+
     Vector of AnyObjectPtrs to the segments that defines the mechanical sub-system for which the force contributions are assembled. Either this or AnySeg members must be present.
 
 ..
+
 
 
 
@@ -325,7 +342,7 @@ IncludeSegments
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceMomentMeasure2.IncludeGravity:
@@ -353,9 +370,14 @@ IncludeGravity
 
 
 
+
+
+
+
     When set to 'On', gravitational forces on the segments are included in the summation of forces.
 
 ..
+
 
 
 
@@ -366,7 +388,7 @@ IncludeGravity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceMomentMeasure2.IncludeInertiaForces:
@@ -391,6 +413,10 @@ IncludeInertiaForces
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

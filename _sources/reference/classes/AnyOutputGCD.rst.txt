@@ -98,6 +98,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -133,6 +134,7 @@ FileName
     Name of the file.
 
 ..
+
 
 
 
@@ -178,6 +180,7 @@ LeftHeelStrike1
 
 
 
+
 ..
 
 .. raw:: html
@@ -218,6 +221,7 @@ LeftHeelStrike2
 
 
 
+
 ..
 
 .. raw:: html
@@ -253,6 +257,7 @@ RightHeelStrike1
     Right foot first heel strike time.
 
 ..
+
 
 
 
@@ -299,6 +304,8 @@ RightHeelStrike2
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -310,7 +317,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyOutputGCD.NumberFormat:
@@ -332,15 +339,6 @@ NumberFormat
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleNumeric1f`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Format settings for numerical values in text formatted files. Applies to floating-point numbers (AnyFloat) only.
-
-..
 
 
 
@@ -351,24 +349,24 @@ NumberFormat
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyOutputGCD.NumberFormat.Digits:
 
 NumberFormat.Digits
-======================
+----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.Digits">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.Digits">
     <span id="anyoutputgcd-numberformat-digits" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.Digits </span><span class="member-title-equal">=</span><span class="member-title-default"> 15 </span><a class="headerlink" href="#NumberFormat.Digits" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Digits </span><span class="member-title-equal">=</span><span class="member-title-default"> 15 </span><a class="headerlink" href="#NumberFormat.Digits" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of digits in output. Disregarded if smaller than one.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -398,18 +396,18 @@ NumberFormat.Digits
 .. _AnyOutputGCD.NumberFormat.Width:
 
 NumberFormat.Width
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.Width">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.Width">
     <span id="anyoutputgcd-numberformat-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 23 </span><a class="headerlink" href="#NumberFormat.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 23 </span><a class="headerlink" href="#NumberFormat.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of character spaces reserved for the number in output. Disregarded if...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -439,18 +437,18 @@ NumberFormat.Width
 .. _AnyOutputGCD.NumberFormat.Style:
 
 NumberFormat.Style
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.Style">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.Style">
     <span id="anyoutputgcd-numberformat-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ScientificNumber </span><a class="headerlink" href="#NumberFormat.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ScientificNumber </span><a class="headerlink" href="#NumberFormat.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style specification.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -480,18 +478,18 @@ NumberFormat.Style
 .. _AnyOutputGCD.NumberFormat.FormatStr:
 
 NumberFormat.FormatStr
-=========================
+-------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.FormatStr">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.FormatStr">
     <span id="anyoutputgcd-numberformat-formatstr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.FormatStr </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#NumberFormat.FormatStr" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FormatStr </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#NumberFormat.FormatStr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Complete format specification using C-style character specification known...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -510,12 +508,23 @@ NumberFormat.FormatStr
 
 
 
+
+
+    Format settings for numerical values in text formatted files. Applies to floating-point numbers (AnyFloat) only.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyOutputGCD.Values:
@@ -543,9 +552,14 @@ Values
 
 
 
+
+
+
+
     Array of object-pointers to values, which will be included in the output data.
 
 ..
+
 
 
 
@@ -556,7 +570,7 @@ Values
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.Search:
@@ -584,9 +598,14 @@ Search
 
 
 
+
+
+
+
     Array of objects search strings, which will be applied to find and include values in the output (for more info. on search-strings, see class AnyObjectSearchString).
 
 ..
+
 
 
 
@@ -597,7 +616,7 @@ Search
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.Format:
@@ -625,9 +644,14 @@ Format
 
 
 
+
+
+
+
     File format options. 0: Text format (CSV format with optional header section), 1: XML format.
 
 ..
+
 
 
 
@@ -638,7 +662,7 @@ Format
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.SepSign:
@@ -666,9 +690,14 @@ SepSign
 
 
 
+
+
+
+
     Separator sign for the standard format.
 
 ..
+
 
 
 
@@ -679,7 +708,7 @@ SepSign
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.SepSpaceAutoOnOff:
@@ -707,9 +736,14 @@ SepSpaceAutoOnOff
 
 
 
+
+
+
+
     Option to give preference to optimal formatting for standard CSV/TEXT readers. This option can override column width given in 'NumberFormat' so that e.g. space-separated values will only be separated by a single space. When 'On', the file conforms to standard CSV format, else it gives preference to nicely aligned columns (formatted according to 'NumberFormat').
 
 ..
+
 
 
 
@@ -720,7 +754,7 @@ SepSpaceAutoOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.LineSepSign:
@@ -748,9 +782,14 @@ LineSepSign
 
 
 
+
+
+
+
     Line separator sign for the standard format.
 
 ..
+
 
 
 
@@ -761,7 +800,7 @@ LineSepSign
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.Header:
@@ -783,15 +822,6 @@ Header
 ..
 
 
-    | **Class type:**  :ref:`AnyOutputFileHeaderFormat`
-    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Header formatting settings for the standard format.
-
-..
 
 
 
@@ -802,13 +832,13 @@ Header
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyOutputGCD.Header.TitleSectionOnOff:
 
 Header.TitleSectionOnOff
-===========================
+---------------------------
 
 
 .. raw:: html
@@ -817,9 +847,9 @@ Header.TitleSectionOnOff
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Header.TitleSectionOnOff">
     <span id="anyoutputgcd-header-titlesectiononoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.TitleSectionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.TitleSectionOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TitleSectionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.TitleSectionOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for the title section.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -849,7 +879,7 @@ Header.TitleSectionOnOff
 .. _AnyOutputGCD.Header.ConstSectionOnOff:
 
 Header.ConstSectionOnOff
-===========================
+---------------------------
 
 
 .. raw:: html
@@ -858,9 +888,9 @@ Header.ConstSectionOnOff
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Header.ConstSectionOnOff">
     <span id="anyoutputgcd-header-constsectiononoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.ConstSectionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.ConstSectionOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ConstSectionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.ConstSectionOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for the header section containing constant variables.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -890,7 +920,7 @@ Header.ConstSectionOnOff
 .. _AnyOutputGCD.Header.ConstSectionSaveOptionsOnOff:
 
 Header.ConstSectionSaveOptionsOnOff
-======================================
+--------------------------------------
 
 
 .. raw:: html
@@ -899,9 +929,9 @@ Header.ConstSectionSaveOptionsOnOff
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Header.ConstSectionSaveOptionsOnOff">
     <span id="anyoutputgcd-header-constsectionsaveoptionsonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.ConstSectionSaveOptionsOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.ConstSectionSaveOptionsOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ConstSectionSaveOptionsOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.ConstSectionSaveOptionsOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for class-specific parameters in the Constants section of the output...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -931,7 +961,7 @@ Header.ConstSectionSaveOptionsOnOff
 .. _AnyOutputGCD.Header.VarSectionOnOff:
 
 Header.VarSectionOnOff
-=========================
+-------------------------
 
 
 .. raw:: html
@@ -940,9 +970,9 @@ Header.VarSectionOnOff
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Header.VarSectionOnOff">
     <span id="anyoutputgcd-header-varsectiononoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.VarSectionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.VarSectionOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.VarSectionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.VarSectionOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for the variable description section.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -972,7 +1002,7 @@ Header.VarSectionOnOff
 .. _AnyOutputGCD.Header.ColumnNamesOnOff:
 
 Header.ColumnNamesOnOff
-==========================
+--------------------------
 
 
 .. raw:: html
@@ -981,9 +1011,9 @@ Header.ColumnNamesOnOff
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Header.ColumnNamesOnOff">
     <span id="anyoutputgcd-header-columnnamesonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.ColumnNamesOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.ColumnNamesOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ColumnNamesOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Header.ColumnNamesOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for the row containing the column names in the data section.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1013,7 +1043,7 @@ Header.ColumnNamesOnOff
 .. _AnyOutputGCD.Header.LinePrefix:
 
 Header.LinePrefix
-====================
+--------------------
 
 
 .. raw:: html
@@ -1022,9 +1052,9 @@ Header.LinePrefix
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Header.LinePrefix">
     <span id="anyoutputgcd-header-lineprefix" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.LinePrefix </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Header.LinePrefix" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LinePrefix </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Header.LinePrefix" title="Permalink to this headline">¶</a>
     <span class="member-descr">String containing a line prefix used for all lines of the header section.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1054,7 +1084,7 @@ Header.LinePrefix
 .. _AnyOutputGCD.Header.ShortenNamesOnOff:
 
 Header.ShortenNamesOnOff
-===========================
+---------------------------
 
 
 .. raw:: html
@@ -1063,9 +1093,9 @@ Header.ShortenNamesOnOff
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Header.ShortenNamesOnOff">
     <span id="anyoutputgcd-header-shortennamesonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.ShortenNamesOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Header.ShortenNamesOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ShortenNamesOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Header.ShortenNamesOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for shortening variable names, incl. column names, in the output.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1095,7 +1125,7 @@ Header.ShortenNamesOnOff
 .. _AnyOutputGCD.Header.ColumnIDString:
 
 Header.ColumnIDString
-========================
+------------------------
 
 
 .. raw:: html
@@ -1104,9 +1134,9 @@ Header.ColumnIDString
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Header.ColumnIDString">
     <span id="anyoutputgcd-header-columnidstring" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Header.ColumnIDString </span><span class="member-title-equal">=</span><span class="member-title-default"> "col" </span><a class="headerlink" href="#Header.ColumnIDString" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ColumnIDString </span><span class="member-title-equal">=</span><span class="member-title-default"> "col" </span><a class="headerlink" href="#Header.ColumnIDString" title="Permalink to this headline">¶</a>
     <span class="member-descr">String used to id columns, i.e., entered in front of column numbers to form...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1125,12 +1155,23 @@ Header.ColumnIDString
 
 
 
+
+
+    Header formatting settings for the standard format.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyOutputGCD.SuppressTimeColumnOnOff:
@@ -1158,9 +1199,14 @@ SuppressTimeColumnOnOff
 
 
 
+
+
+
+
     Switch to suppress time column being printed into the output file.
 
 ..
+
 
 
 
@@ -1171,7 +1217,7 @@ SuppressTimeColumnOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.LeftFootOff:
@@ -1199,9 +1245,14 @@ LeftFootOff
 
 
 
+
+
+
+
     Left foot toe-off time.
 
 ..
+
 
 
 
@@ -1212,7 +1263,7 @@ LeftFootOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.RightFootOff:
@@ -1240,9 +1291,14 @@ RightFootOff
 
 
 
+
+
+
+
     Right foot toe-off time.
 
 ..
+
 
 
 
@@ -1253,7 +1309,7 @@ RightFootOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.Right:
@@ -1281,9 +1337,14 @@ Right
 
 
 
+
+
+
+
     Folder containing right leg data.
 
 ..
+
 
 
 
@@ -1294,7 +1355,7 @@ Right
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.Left:
@@ -1322,9 +1383,14 @@ Left
 
 
 
+
+
+
+
     Folder containing left leg data.
 
 ..
+
 
 
 
@@ -1335,7 +1401,7 @@ Left
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.Points:
@@ -1363,9 +1429,14 @@ Points
 
 
 
+
+
+
+
     Number of output data point.
 
 ..
+
 
 
 
@@ -1376,7 +1447,7 @@ Points
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOutputGCD.ConstSectionSaveOptionsOnOff:
@@ -1407,6 +1478,10 @@ ConstSectionSaveOptionsOnOff
         (AnyBody, version 6.1).
 
     
+
+
+
+
 
 
 

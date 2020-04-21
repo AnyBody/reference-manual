@@ -152,6 +152,8 @@ AnyParamFun
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -163,7 +165,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinDriverMarker.MeasureOrganizer:
@@ -191,9 +193,14 @@ MeasureOrganizer
 
 
 
+
+
+
+
     List of indices of components from the assembled measures to be included in the new (organized) measure.
 
 ..
+
 
 
 
@@ -204,7 +211,7 @@ MeasureOrganizer
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinDriverMarker.CType:
@@ -232,9 +239,14 @@ CType
 
 
 
+
+
+
+
     Constraint type specification that specify how the kinematic solver should handle the constraint.
 
 ..
+
 
 
 
@@ -245,7 +257,7 @@ CType
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinDriverMarker.WeightFun:
@@ -273,6 +285,10 @@ WeightFun
 
 
 
+
+
+
+
     Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
 
 ..
@@ -281,53 +297,13 @@ WeightFun
 
 
 
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinDriverMarker.Reaction.Type:
-
-Reaction.Type
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Reaction.Type">
-    <span id="anykindrivermarker-reaction-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Reaction.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Type specification of the reaction forces.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyReacForceType`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** *Depends on other values*
-
-
-
-    Type specification of the reaction forces.
-
-..
-
-
-
-
 
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinDriverMarker.DriverPos0:
@@ -340,7 +316,7 @@ DriverPos0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DriverPos0">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DriverPos0">
     <span id="anykindrivermarker-driverpos0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> DriverPos0 </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DriverPos0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial position at time zero.</span>
@@ -355,9 +331,14 @@ DriverPos0
 
 
 
+
+
+
+
     Initial position at time zero.
 
 ..
+
 
 
 
@@ -368,7 +349,7 @@ DriverPos0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinDriverMarker.DriverVel0:
@@ -381,7 +362,7 @@ DriverVel0
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DriverVel0">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DriverVel0">
     <span id="anykindrivermarker-drivervel0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> DriverVel0 </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DriverVel0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial velocity at time zero.</span>
@@ -396,9 +377,14 @@ DriverVel0
 
 
 
+
+
+
+
     Initial velocity at time zero.
 
 ..
+
 
 
 
@@ -409,7 +395,7 @@ DriverVel0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinDriverMarker.DriverAcc0:
@@ -422,7 +408,7 @@ DriverAcc0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DriverAcc0">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DriverAcc0">
     <span id="anykindrivermarker-driveracc0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> DriverAcc0 </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DriverAcc0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial acceleration at time zero.</span>
@@ -437,48 +423,11 @@ DriverAcc0
 
 
 
+
+
+
+
     Initial acceleration at time zero.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinDriverMarker.Linear.Ref:
-
-Linear.Ref
-=============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Linear.Ref">
-    <span id="anykindrivermarker-linear-ref" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Linear.Ref </span><span class="member-title-equal">=</span><span class="member-title-default"> -1 </span><a class="headerlink" href="#Linear.Ref" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Integer numbers that specify the reference system in which the vector is...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyIntVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``-1``
-
-
-
-    Integer numbers that specify the reference system in which the vector is measured. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
 
 ..
 

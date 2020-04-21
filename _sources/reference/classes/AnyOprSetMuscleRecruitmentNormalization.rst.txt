@@ -43,6 +43,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -54,7 +56,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyOprSetMuscleRecruitmentNormalization.Type:
@@ -82,9 +84,14 @@ Type
 
 
 
+
+
+
+
     Normalization type used to define the muscle quantities entering the term.
 
 ..
+
 
 
 
@@ -95,7 +102,7 @@ Type
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetMuscleRecruitmentNormalization.Weight:
@@ -123,9 +130,14 @@ Weight
 
 
 
+
+
+
+
     Weight (or scaling) of the term in the total criterion.
 
 ..
+
 
 
 
@@ -136,7 +148,7 @@ Weight
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetMuscleRecruitmentNormalization.LowerLimit:
@@ -164,9 +176,14 @@ LowerLimit
 
 
 
+
+
+
+
     Lower bound for muscle quantities entering the term.
 
 ..
+
 
 
 
@@ -177,7 +194,7 @@ LowerLimit
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetMuscleRecruitmentNormalization.Nfactor_SearchName:
@@ -205,9 +222,14 @@ Nfactor_SearchName
 
 
 
+
+
+
+
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
+
 
 
 
@@ -218,7 +240,7 @@ Nfactor_SearchName
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyOprSetMuscleRecruitmentNormalization.Weight_SearchName:
@@ -243,6 +265,10 @@ Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
+
+
+
 
 
 

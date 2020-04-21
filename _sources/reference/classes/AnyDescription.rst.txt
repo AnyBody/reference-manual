@@ -43,6 +43,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -54,7 +56,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDescription.BodyText:
@@ -82,9 +84,14 @@ BodyText
 
 
 
+
+
+
+
     The body text of the description. By using the text formatting functions, links can be included in the body text.
 
 ..
+
 
 
 
@@ -95,7 +102,7 @@ BodyText
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDescription.Title:
@@ -123,9 +130,14 @@ Title
 
 
 
+
+
+
+
     The title of the description. Shown in bold at the top of the window pane.
 
 ..
+
 
 
 
@@ -136,7 +148,7 @@ Title
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDescription.BodyHTML:
@@ -164,9 +176,14 @@ BodyHTML
 
 
 
+
+
+
+
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
 
 ..
+
 
 
 
@@ -177,7 +194,7 @@ BodyHTML
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDescription.HTMLURL:
@@ -205,9 +222,14 @@ HTMLURL
 
 
 
+
+
+
+
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
 
 ..
+
 
 
 
@@ -218,7 +240,7 @@ HTMLURL
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDescription.Tooltip:
@@ -246,9 +268,14 @@ Tooltip
 
 
 
+
+
+
+
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
 
 ..
+
 
 
 
@@ -259,7 +286,7 @@ Tooltip
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDescription.Files:
@@ -284,6 +311,10 @@ Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
+
+
+
 
 
 

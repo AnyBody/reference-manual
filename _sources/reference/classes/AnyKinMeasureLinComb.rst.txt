@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -149,6 +150,7 @@ OutDim
     Dimension of the output measure. The dimension of all coefficient matrices (named 'Coef*') and const vectors (named 'Const*') must match the the specified 'OutDim'
 
 ..
+
 
 
 
@@ -195,6 +197,8 @@ Coef
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -206,7 +210,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinMeasureLinComb.Const:
@@ -234,9 +238,14 @@ Const
 
 
 
+
+
+
+
     Vector of constants.
 
 ..
+
 
 
 
@@ -247,7 +256,7 @@ Const
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureLinComb.CoefTimeFun:
@@ -275,9 +284,14 @@ CoefTimeFun
 
 
 
+
+
+
+
     Pointer to a parameter function that provide any time-dependent component of the 'Coef' matrix. The output of the function must match the dimensions of 'Coef' or at least have the same number of elements.
 
 ..
+
 
 
 
@@ -288,7 +302,7 @@ CoefTimeFun
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureLinComb.ConstTimeFun:
@@ -313,6 +327,10 @@ ConstTimeFun
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+
+
+
+
 
 
 

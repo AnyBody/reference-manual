@@ -68,6 +68,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -109,6 +110,8 @@ Gravity
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -120,7 +123,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMechStudyBase.MechObjectExclude:
@@ -148,9 +151,14 @@ MechObjectExclude
 
 
 
+
+
+
+
     Array of pointers to mechnical objects to exclude from the study.
 
 ..
+
 
 
 
@@ -161,7 +169,7 @@ MechObjectExclude
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechStudyBase.tStart:
@@ -189,9 +197,14 @@ tStart
 
 
 
+
+
+
+
     Initial time.
 
 ..
+
 
 
 
@@ -202,7 +215,7 @@ tStart
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechStudyBase.tEnd:
@@ -230,9 +243,14 @@ tEnd
 
 
 
+
+
+
+
     Final time.
 
 ..
+
 
 
 
@@ -243,7 +261,7 @@ tEnd
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechStudyBase.nStep:
@@ -271,9 +289,14 @@ nStep
 
 
 
+
+
+
+
     Number of equally spaced time steps (plus one). Both tStart and tEnd are counted as time steps.
 
 ..
+
 
 
 
@@ -284,7 +307,7 @@ nStep
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechStudyBase.tArray:
@@ -312,9 +335,14 @@ tArray
 
 
 
+
+
+
+
     Array of output-time values. This provides an alternative input to the even spacing obtained by setting nStep, tStart, and tEnd.
 
 ..
+
 
 
 
@@ -325,7 +353,7 @@ tArray
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechStudyBase.ReferenceFrame:
@@ -347,15 +375,6 @@ ReferenceFrame
 ..
 
 
-    | **Class type:**  :ref:`AnyOprSetMechStudyRefFrame`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    <No description>
-
-..
 
 
 
@@ -366,13 +385,13 @@ ReferenceFrame
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechStudyBase.ReferenceFrame.InertialRef:
 
 ReferenceFrame.InertialRef
-=============================
+-----------------------------
 
 
 .. raw:: html
@@ -381,9 +400,9 @@ ReferenceFrame.InertialRef
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ReferenceFrame.InertialRef">
     <span id="anymechstudybase-referenceframe-inertialref" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ReferenceFrame.InertialRef </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#ReferenceFrame.InertialRef" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InertialRef </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#ReferenceFrame.InertialRef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pointer to the inertial reference frame. Used if a moving frame is used as...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -402,42 +421,12 @@ ReferenceFrame.InertialRef
 
 
 
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechStudyBase.Replay.Settings:
-
-Replay.Settings
-==================
 
 
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.Settings">
-    <span id="anymechstudybase-replay-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Replay.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay.Settings" title="Permalink to this headline">¶</a>
-    <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    <No description>
 
 ..
 
-
-    | **Class type:**  :ref:`AnyOprSetUI`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    General settings for the operation.
-
-..
 
 
 
@@ -448,212 +437,7 @@ Replay.Settings
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechStudyBase.Replay.Settings.Echo:
-
-Replay.Settings.Echo
-=======================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay.Settings.Echo">
-    <span id="anymechstudybase-replay-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Replay.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Replay.Settings.Echo" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnySwitchVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``On``
-
-
-
-    Switch for definition of operation output to the output log and views.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechStudyBase.Replay.Settings.ModelSceneUpdate:
-
-Replay.Settings.ModelSceneUpdate
-===================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.Settings.ModelSceneUpdate">
-    <span id="anymechstudybase-replay-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Replay.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Replay.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnySwitchVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``On``
-
-
-
-    Switch for definition of operation output to the output log and views.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechStudyBase.Replay.Settings.DisplayPriority:
-
-Replay.Settings.DisplayPriority
-==================================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay.Settings.DisplayPriority">
-    <span id="anymechstudybase-replay-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Replay.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#Replay.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyDisplayPriority`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``PriorityLow``
-
-
-
-    Value for defining the interface display priority for the Operation.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechStudyBase.Replay.Settings.SelectOnLoad:
-
-Replay.Settings.SelectOnLoad
-===============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.Settings.SelectOnLoad">
-    <span id="anymechstudybase-replay-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Replay.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Replay.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnySwitchVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``Off``
-
-
-
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechStudyBase.Replay.PostProcessingOnOff:
-
-Replay.PostProcessingOnOff
-=============================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay.PostProcessingOnOff">
-    <span id="anymechstudybase-replay-postprocessingonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Replay.PostProcessingOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Replay.PostProcessingOnOff" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Switch that controls whether post-processing of symbolic expressions should...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnySwitchVar`
-    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
-    | **Default:** ``Off``
-
-
-
-    Switch that controls whether post-processing of symbolic expressions should be carried out.
-
-..
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechStudyBase.tArrayOnOff:
@@ -666,7 +450,7 @@ tArrayOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="tArrayOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="tArrayOnOff">
     <span id="anymechstudybase-tarrayonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> tArrayOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#tArrayOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether to use tArray as definition of output-times or to use...</span>
@@ -684,6 +468,10 @@ tArrayOnOff
         tArray will be used if it is initialized in script.
 
     
+
+
+
+
 
 
 

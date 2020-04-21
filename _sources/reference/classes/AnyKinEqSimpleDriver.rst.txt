@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -155,6 +156,8 @@ DriverVel
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -166,7 +169,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinEqSimpleDriver.MeasureOrganizer:
@@ -194,9 +197,14 @@ MeasureOrganizer
 
 
 
+
+
+
+
     List of indices of components from the assembled measures to be included in the new (organized) measure.
 
 ..
+
 
 
 
@@ -207,7 +215,7 @@ MeasureOrganizer
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqSimpleDriver.CType:
@@ -235,9 +243,14 @@ CType
 
 
 
+
+
+
+
     Constraint type specification that specify how the kinematic solver should handle the constraint.
 
 ..
+
 
 
 
@@ -248,7 +261,7 @@ CType
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqSimpleDriver.WeightFun:
@@ -276,6 +289,10 @@ WeightFun
 
 
 
+
+
+
+
     Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
 
 ..
@@ -284,53 +301,13 @@ WeightFun
 
 
 
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinEqSimpleDriver.Reaction.Type:
-
-Reaction.Type
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Reaction.Type">
-    <span id="anykineqsimpledriver-reaction-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Reaction.Type" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Type specification of the reaction forces.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyReacForceType`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** *Depends on other values*
-
-
-
-    Type specification of the reaction forces.
-
-..
-
-
-
-
 
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqSimpleDriver.DriverPos:
@@ -343,7 +320,7 @@ DriverPos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DriverPos">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DriverPos">
     <span id="anykineqsimpledriver-driverpos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> DriverPos </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DriverPos" title="Permalink to this headline">¶</a>
     <span class="member-descr">Positions of the driven coordinates at t=0;</span>
@@ -358,9 +335,14 @@ DriverPos
 
 
 
+
+
+
+
     Positions of the driven coordinates at t=0;
 
 ..
+
 
 
 
@@ -371,7 +353,7 @@ DriverPos
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinEqSimpleDriver.DriverAcc:
@@ -384,7 +366,7 @@ DriverAcc
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DriverAcc">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DriverAcc">
     <span id="anykineqsimpledriver-driveracc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> DriverAcc </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DriverAcc" title="Permalink to this headline">¶</a>
     <span class="member-descr">Accelerations of the driven coordinates (constant);</span>
@@ -396,6 +378,10 @@ DriverAcc
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
+
+
+
 
 
 

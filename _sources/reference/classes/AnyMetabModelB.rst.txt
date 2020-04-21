@@ -59,6 +59,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -70,7 +72,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMetabModelB.CoefBasalPower:
@@ -98,9 +100,14 @@ CoefBasalPower
 
 
 
+
+
+
+
     Basal heat rate per muscle mass [W/kg]. This is the Ḃ per weight.
 
 ..
+
 
 
 
@@ -111,7 +118,7 @@ CoefBasalPower
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefSLPowerConIso:
@@ -139,9 +146,14 @@ CoefSLPowerConIso
 
 
 
+
+
+
+
     Shortening-Lengthening heat rate coefficient per isometric force in concentric case. .
 
 ..
+
 
 
 
@@ -152,7 +164,7 @@ CoefSLPowerConIso
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefSLPowerCon:
@@ -180,9 +192,14 @@ CoefSLPowerCon
 
 
 
+
+
+
+
     Shortening-Lengthening heat rate coefficient per actual force in concentric case. Contributes to Ṡ.
 
 ..
+
 
 
 
@@ -193,7 +210,7 @@ CoefSLPowerCon
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefSLPowerEcc:
@@ -221,9 +238,14 @@ CoefSLPowerEcc
 
 
 
+
+
+
+
     Shortening-Lengthening heat rate coefficient per actual force in eccentric case. Contributes to Ṡ.
 
 ..
+
 
 
 
@@ -234,7 +256,7 @@ CoefSLPowerEcc
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefActPowerPhi0:
@@ -262,9 +284,14 @@ CoefActPowerPhi0
 
 
 
+
+
+
+
     Activation heat rate ratio (constant). Used in Ȧ.
 
 ..
+
 
 
 
@@ -275,7 +302,7 @@ CoefActPowerPhi0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefActPowerSlow:
@@ -303,9 +330,14 @@ CoefActPowerSlow
 
 
 
+
+
+
+
     Activation heat rate coefficient (per mass) for slow twitch fibers. Used in Ȧ.
 
 ..
+
 
 
 
@@ -316,7 +348,7 @@ CoefActPowerSlow
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefActPowerFast:
@@ -344,9 +376,14 @@ CoefActPowerFast
 
 
 
+
+
+
+
     Activation heat rate coefficient (per mass) for fast twitch fibers. Used in Ȧ.
 
 ..
+
 
 
 
@@ -357,7 +394,7 @@ CoefActPowerFast
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefMaintPowerSlow:
@@ -385,9 +422,14 @@ CoefMaintPowerSlow
 
 
 
+
+
+
+
     Maintenance heat rate coefficient for slow twitch fibers. Used in Ṁ.
 
 ..
+
 
 
 
@@ -398,7 +440,7 @@ CoefMaintPowerSlow
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.CoefMaintPowerFast:
@@ -426,9 +468,14 @@ CoefMaintPowerFast
 
 
 
+
+
+
+
     Maintenance heat rate coefficient for fast twitch fibers. Used in Ṁ.
 
 ..
+
 
 
 
@@ -439,7 +486,7 @@ CoefMaintPowerFast
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.MuscleDensity:
@@ -467,9 +514,14 @@ MuscleDensity
 
 
 
+
+
+
+
     Muscle density [kg/m^3].
 
 ..
+
 
 
 
@@ -480,7 +532,7 @@ MuscleDensity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMetabModelB.AddMusclePowerForEcc:
@@ -505,6 +557,10 @@ AddMusclePowerForEcc
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
+
+
+
 
 
 

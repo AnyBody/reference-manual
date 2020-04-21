@@ -61,6 +61,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -72,7 +74,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyFunTransform3DLinRef2.PreTransforms:
@@ -100,9 +102,14 @@ PreTransforms
 
 
 
+
+
+
+
     Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
+
 
 
 
@@ -113,7 +120,7 @@ PreTransforms
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef2.Ref:
@@ -141,9 +148,14 @@ Ref
 
 
 
+
+
+
+
     Object that defines the reference frame of the function input.
 
 ..
+
 
 
 
@@ -154,7 +166,7 @@ Ref
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef2.RefTarget:
@@ -182,9 +194,14 @@ RefTarget
 
 
 
+
+
+
+
     Object that defines the reference frame for the function output. If empty or 'None' then output will be given in the root reference frame for 'Ref'.
 
 ..
+
 
 
 
@@ -195,7 +212,7 @@ RefTarget
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef2.TranslationOnOff:
@@ -223,9 +240,14 @@ TranslationOnOff
 
 
 
+
+
+
+
     Switch for whether positions of the reference frames are included or ignored.
 
 ..
+
 
 
 
@@ -236,7 +258,7 @@ TranslationOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef2.RotationOnOff:
@@ -264,9 +286,14 @@ RotationOnOff
 
 
 
+
+
+
+
     Switch for whether relative rotation of the reference frames are included or ignored. If ignored all vectors are assumed to refer to the global axes and only positions are included in the transform.
 
 ..
+
 
 
 
@@ -277,7 +304,7 @@ RotationOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef2.Function_Ref2Global:
@@ -305,9 +332,14 @@ Function_Ref2Global
 
 
 
+
+
+
+
     Mono-function with additional argument for overriding the 'Ref' member transforming to global coordinates.
 
 ..
+
 
 
 
@@ -318,7 +350,7 @@ Function_Ref2Global
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunTransform3DLinRef2.Function_Ref2RefTarget:
@@ -343,6 +375,10 @@ Function_Ref2RefTarget
     | **Class type:**  :ref:`AnyMonoFunction`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
+
+
+
 
 
 

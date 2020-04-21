@@ -64,6 +64,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -105,6 +106,8 @@ FileName
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -116,7 +119,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyInputC3D.ReadAllDataOnOff:
@@ -144,9 +147,14 @@ ReadAllDataOnOff
 
 
 
+
+
+
+
     Switch to specify if all data should be read or not
 
 ..
+
 
 
 
@@ -157,7 +165,7 @@ ReadAllDataOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.TruncateExtraCharsInNamesOnOff:
@@ -185,9 +193,14 @@ TruncateExtraCharsInNamesOnOff
 
 
 
+
+
+
+
     Switch to specify whether extra characters in group, parameter, points, or analog data names should be truncated.
 
 ..
+
 
 
 
@@ -198,7 +211,7 @@ TruncateExtraCharsInNamesOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MakeNameUniqueStr:
@@ -226,9 +239,14 @@ MakeNameUniqueStr
 
 
 
+
+
+
+
     Switch for enforcing unique names of markers and points. This option may change names in the imported data compared to the original files.
 
 ..
+
 
 
 
@@ -239,7 +257,7 @@ MakeNameUniqueStr
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.PointsScaleFactor:
@@ -267,9 +285,14 @@ PointsScaleFactor
 
 
 
+
+
+
+
     A scale factor to be multiplied to all 3D data points.
 
 ..
+
 
 
 
@@ -280,7 +303,7 @@ PointsScaleFactor
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.ConstructModelOnOff:
@@ -308,9 +331,14 @@ ConstructModelOnOff
 
 
 
+
+
+
+
     Switch to specify if a model should be constructed from the measured 3D data points.
 
 ..
+
 
 
 
@@ -321,7 +349,7 @@ ConstructModelOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.ConstructChartOnOff:
@@ -349,9 +377,14 @@ ConstructChartOnOff
 
 
 
+
+
+
+
     Switch for whether the chart displaying the trajectories in space is included or not.
 
 ..
+
 
 
 
@@ -362,7 +395,7 @@ ConstructChartOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.ConstructWeightFunUsingResidualOnOff:
@@ -390,9 +423,14 @@ ConstructWeightFunUsingResidualOnOff
 
 
 
+
+
+
+
     Switch for whether weigth functions based on the residual values are included or not.
 
 ..
+
 
 
 
@@ -403,7 +441,7 @@ ConstructWeightFunUsingResidualOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.GapFillUsingResidualsOnOff:
@@ -431,9 +469,14 @@ GapFillUsingResidualsOnOff
 
 
 
+
+
+
+
     If enabled marker trajectories will be gap filled by linear interpolation in the dropout intervals as indicated by the residual values. Note: This setting is is not meant to replace gap filling in your MoCap software, but it may prevent problems when low pass filtering data.
 
 ..
+
 
 
 
@@ -444,7 +487,7 @@ GapFillUsingResidualsOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerUseAllPointsOnOff:
@@ -472,9 +515,14 @@ MarkerUseAllPointsOnOff
 
 
 
+
+
+
+
     Switch for using all point data as 3D marker data.
 
 ..
+
 
 
 
@@ -485,7 +533,7 @@ MarkerUseAllPointsOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerUseCamMaskOnOff:
@@ -513,9 +561,14 @@ MarkerUseCamMaskOnOff
 
 
 
+
+
+
+
     Switch for using the Camera Mask for deciding which point data as 3D marker data. Non-zero camera mask is interpreted as 3D marker data.
 
 ..
+
 
 
 
@@ -526,7 +579,7 @@ MarkerUseCamMaskOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerIndices:
@@ -554,9 +607,14 @@ MarkerIndices
 
 
 
+
+
+
+
     Array of point indices to be used as 3D marker data.
 
 ..
+
 
 
 
@@ -567,7 +625,7 @@ MarkerIndices
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerLabels:
@@ -595,9 +653,14 @@ MarkerLabels
 
 
 
+
+
+
+
     Array of point labels to be used as 3D marker data.
 
 ..
+
 
 
 
@@ -608,7 +671,7 @@ MarkerLabels
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerFilterIndex:
@@ -636,9 +699,14 @@ MarkerFilterIndex
 
 
 
+
+
+
+
     Index of the filter to be used for the marker data. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
 
 ..
+
 
 
 
@@ -649,7 +717,7 @@ MarkerFilterIndex
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.ProcessedDataFilterIndex:
@@ -677,9 +745,14 @@ ProcessedDataFilterIndex
 
 
 
+
+
+
+
     Index of the filter to be used for the "processed" point data. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
 
 ..
+
 
 
 
@@ -690,7 +763,7 @@ ProcessedDataFilterIndex
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.AnalogFilterIndex:
@@ -718,9 +791,14 @@ AnalogFilterIndex
 
 
 
+
+
+
+
     Index of the filter to be used for the data in the analog section. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
 
 ..
+
 
 
 
@@ -731,7 +809,7 @@ AnalogFilterIndex
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.Filter:
@@ -753,15 +831,6 @@ Filter
 ..
 
 
-    | **Class type:**  :ref:`AnyFunButterworthFilter`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Standard (default) filter (Butterworth type filter).
-
-..
 
 
 
@@ -772,13 +841,13 @@ Filter
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyInputC3D.Filter.z0:
 
 Filter.z0
-============
+------------
 
 
 .. raw:: html
@@ -787,9 +856,9 @@ Filter.z0
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.z0">
     <span id="anyinputc3d-filter-z0" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.z0 </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Filter.z0" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.z0 </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Filter.z0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial condition vector.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -819,7 +888,7 @@ Filter.z0
 .. _AnyInputC3D.Filter.AutomaticInitialConditionOnOff:
 
 Filter.AutomaticInitialConditionOnOff
-========================================
+----------------------------------------
 
 
 .. raw:: html
@@ -828,9 +897,9 @@ Filter.AutomaticInitialConditionOnOff
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.AutomaticInitialConditionOnOff">
     <span id="anyinputc3d-filter-automaticinitialconditiononoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.AutomaticInitialConditionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Filter.AutomaticInitialConditionOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AutomaticInitialConditionOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Filter.AutomaticInitialConditionOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch to specify whether or not the initial conditions are calculated automatically.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -860,7 +929,7 @@ Filter.AutomaticInitialConditionOnOff
 .. _AnyInputC3D.Filter.FilterForwardBackwardOnOff:
 
 Filter.FilterForwardBackwardOnOff
-====================================
+------------------------------------
 
 
 .. raw:: html
@@ -869,9 +938,9 @@ Filter.FilterForwardBackwardOnOff
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterForwardBackwardOnOff">
     <span id="anyinputc3d-filter-filterforwardbackwardonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.FilterForwardBackwardOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Filter.FilterForwardBackwardOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FilterForwardBackwardOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Filter.FilterForwardBackwardOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch to specify if filtering should only be performed in the forward...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -901,7 +970,7 @@ Filter.FilterForwardBackwardOnOff
 .. _AnyInputC3D.Filter.N:
 
 Filter.N
-===========
+-----------
 
 
 .. raw:: html
@@ -910,9 +979,9 @@ Filter.N
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.N">
     <span id="anyinputc3d-filter-n" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.N </span><span class="member-title-equal">=</span><span class="member-title-default"> 2 </span><a class="headerlink" href="#Filter.N" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.N </span><span class="member-title-equal">=</span><span class="member-title-default"> 2 </span><a class="headerlink" href="#Filter.N" title="Permalink to this headline">¶</a>
     <span class="member-descr">The filter order.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -942,7 +1011,7 @@ Filter.N
 .. _AnyInputC3D.Filter.W:
 
 Filter.W
-===========
+-----------
 
 
 .. raw:: html
@@ -951,9 +1020,9 @@ Filter.W
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.W">
     <span id="anyinputc3d-filter-w" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.W </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Filter.W" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.W </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Filter.W" title="Permalink to this headline">¶</a>
     <span class="member-descr">The normalized cut-off frequency(ies).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -983,7 +1052,7 @@ Filter.W
 .. _AnyInputC3D.Filter.Fs:
 
 Filter.Fs
-============
+------------
 
 
 .. raw:: html
@@ -992,9 +1061,9 @@ Filter.Fs
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.Fs">
     <span id="anyinputc3d-filter-fs" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.Fs </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Filter.Fs" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Fs </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Filter.Fs" title="Permalink to this headline">¶</a>
     <span class="member-descr">The sample frequency of the data to be filtered.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1024,7 +1093,7 @@ Filter.Fs
 .. _AnyInputC3D.Filter.Fc:
 
 Filter.Fc
-============
+------------
 
 
 .. raw:: html
@@ -1033,9 +1102,9 @@ Filter.Fc
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.Fc">
     <span id="anyinputc3d-filter-fc" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.Fc </span><span class="member-title-equal">=</span><span class="member-title-default"> {10.0} </span><a class="headerlink" href="#Filter.Fc" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Fc </span><span class="member-title-equal">=</span><span class="member-title-default"> {10.0} </span><a class="headerlink" href="#Filter.Fc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The cut-off frequency(ies).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1065,7 +1134,7 @@ Filter.Fc
 .. _AnyInputC3D.Filter.Type:
 
 Filter.Type
-==============
+--------------
 
 
 .. raw:: html
@@ -1074,9 +1143,9 @@ Filter.Type
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.Type">
     <span id="anyinputc3d-filter-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Filter.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> LowPass </span><a class="headerlink" href="#Filter.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> LowPass </span><a class="headerlink" href="#Filter.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">The filter type.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1095,12 +1164,23 @@ Filter.Type
 
 
 
+
+
+    Standard (default) filter (Butterworth type filter).
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyInputC3D.WeightThreshold:
@@ -1128,9 +1208,14 @@ WeightThreshold
 
 
 
+
+
+
+
     Weight function threshold value for determination whether the weights should be zero
 
 ..
+
 
 
 
@@ -1141,7 +1226,7 @@ WeightThreshold
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.WeightOutput:
@@ -1169,9 +1254,14 @@ WeightOutput
 
 
 
+
+
+
+
     Weight function output, i.e., the weight value retuned by the weight functions.
 
 ..
+
 
 
 
@@ -1182,7 +1272,7 @@ WeightOutput
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.WeightTransitionTime:
@@ -1210,9 +1300,14 @@ WeightTransitionTime
 
 
 
+
+
+
+
     Weight function transition time, i.e., the time used for smooth transistion between zero and the weight value.
 
 ..
+
 
 
 
@@ -1223,7 +1318,7 @@ WeightTransitionTime
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.SearchAndReplace:
@@ -1251,9 +1346,14 @@ SearchAndReplace
 
 
 
+
+
+
+
     Search-and-replace functionality for converting names in the original C3D data file while being imported into AnyScript.
 
 ..
+
 
 
 
@@ -1264,7 +1364,7 @@ SearchAndReplace
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.WriteMarkerDataToFilesOnOff:
@@ -1292,9 +1392,14 @@ WriteMarkerDataToFilesOnOff
 
 
 
+
+
+
+
     A switch to specify whether or not the marker data should be written to text files. If this is set to on, three output files are created per marker, i.e. one with position data, one with velocity data and one with acceleration data. The output files are named <MarkerName>_pos.txt, <MarkerName>_vel.txt and <MarkerName>_acc.txt.
 
 ..
+
 
 
 
@@ -1305,7 +1410,7 @@ WriteMarkerDataToFilesOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerScaleXYZ:
@@ -1333,9 +1438,14 @@ MarkerScaleXYZ
 
 
 
+
+
+
+
     Scale factor used when drawing the marker.
 
 ..
+
 
 
 
@@ -1346,7 +1456,7 @@ MarkerScaleXYZ
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerRGB:
@@ -1374,9 +1484,14 @@ MarkerRGB
 
 
 
+
+
+
+
     The color of a marker.
 
 ..
+
 
 
 
@@ -1387,7 +1502,7 @@ MarkerRGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerDrawOnOff:
@@ -1415,9 +1530,14 @@ MarkerDrawOnOff
 
 
 
+
+
+
+
     A switch to specify if markers should be drawn or not. This switch only affects the AnyDrawNode markers created by the ConstructModel option.
 
 ..
+
 
 
 
@@ -1428,7 +1548,7 @@ MarkerDrawOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerInterPolType:
@@ -1456,9 +1576,14 @@ MarkerInterPolType
 
 
 
+
+
+
+
     The interpolation type used in the linear drivers of the 3D data points.
 
 ..
+
 
 
 
@@ -1469,7 +1594,7 @@ MarkerInterPolType
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputC3D.MarkerBsplineOrder:
@@ -1494,6 +1619,10 @@ MarkerBsplineOrder
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``4``
+
+
+
+
 
 
 

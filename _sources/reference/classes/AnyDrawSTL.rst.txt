@@ -98,6 +98,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -139,6 +140,8 @@ FileName
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -150,7 +153,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawSTL.Visible:
@@ -178,9 +181,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -191,7 +199,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.Opacity:
@@ -219,9 +227,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -232,7 +245,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.Pickable:
@@ -260,9 +273,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -273,7 +291,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.PickableZOrdering:
@@ -301,9 +319,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -314,7 +337,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.RGB:
@@ -342,9 +365,14 @@ RGB
 
 
 
+
+
+
+
     Object color in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -355,7 +383,7 @@ RGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.ScaleXYZ:
@@ -383,9 +411,14 @@ ScaleXYZ
 
 
 
+
+
+
+
     Scaling factors for each reference system axis.
 
 ..
+
 
 
 
@@ -396,7 +429,7 @@ ScaleXYZ
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.Transparency:
@@ -424,9 +457,14 @@ Transparency
 
 
 
+
+
+
+
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
+
 
 
 
@@ -437,7 +475,7 @@ Transparency
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.Face:
@@ -465,9 +503,14 @@ Face
 
 
 
+
+
+
+
     Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
 
 ..
+
 
 
 
@@ -478,7 +521,7 @@ Face
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.TextFont:
@@ -500,15 +543,6 @@ TextFont
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleFont3DView`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    General font setting for the object's text.
-
-..
 
 
 
@@ -519,24 +553,24 @@ TextFont
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDrawSTL.TextFont.RGB:
 
 TextFont.RGB
-===============
+---------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.RGB">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.RGB">
     <span id="anydrawstl-textfont-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -566,18 +600,18 @@ TextFont.RGB
 .. _AnyDrawSTL.TextFont.FontName:
 
 TextFont.FontName
-====================
+--------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.FontName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.FontName">
     <span id="anydrawstl-textfont-fontname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -607,18 +641,18 @@ TextFont.FontName
 .. _AnyDrawSTL.TextFont.Height:
 
 TextFont.Height
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Height">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Height">
     <span id="anydrawstl-textfont-height" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -648,18 +682,18 @@ TextFont.Height
 .. _AnyDrawSTL.TextFont.Width:
 
 TextFont.Width
-=================
+-----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Width">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Width">
     <span id="anydrawstl-textfont-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -689,18 +723,18 @@ TextFont.Width
 .. _AnyDrawSTL.TextFont.Bold:
 
 TextFont.Bold
-================
+----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Bold">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Bold">
     <span id="anydrawstl-textfont-bold" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -730,18 +764,18 @@ TextFont.Bold
 .. _AnyDrawSTL.TextFont.Italic:
 
 TextFont.Italic
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Italic">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Italic">
     <span id="anydrawstl-textfont-italic" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -771,18 +805,18 @@ TextFont.Italic
 .. _AnyDrawSTL.TextFont.BillBoardView:
 
 TextFont.BillBoardView
-=========================
+-------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.BillBoardView">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.BillBoardView">
     <span id="anydrawstl-textfont-billboardview" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -812,18 +846,18 @@ TextFont.BillBoardView
 .. _AnyDrawSTL.TextFont.ModelSized:
 
 TextFont.ModelSized
-======================
+----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelSized">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelSized">
     <span id="anydrawstl-textfont-modelsized" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -853,18 +887,18 @@ TextFont.ModelSized
 .. _AnyDrawSTL.TextFont.ModelScaleHeight:
 
 TextFont.ModelScaleHeight
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelScaleHeight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelScaleHeight">
     <span id="anydrawstl-textfont-modelscaleheight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -894,18 +928,18 @@ TextFont.ModelScaleHeight
 .. _AnyDrawSTL.TextFont.ModelScaleWidth:
 
 TextFont.ModelScaleWidth
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelScaleWidth">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelScaleWidth">
     <span id="anydrawstl-textfont-modelscalewidth" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -924,12 +958,23 @@ TextFont.ModelScaleWidth
 
 
 
+
+
+    General font setting for the object's text.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyDrawSTL.RelPos:
@@ -957,9 +1002,14 @@ RelPos
 
 
 
+
+
+
+
     Translational offset of the STL surface in the reference frame.
 
 ..
+
 
 
 
@@ -970,7 +1020,7 @@ RelPos
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawSTL.RelRotMat:
@@ -995,6 +1045,10 @@ RelRotMat
     | **Class type:**  :ref:`AnyMat33`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{{1.0, 0.0, 0.0}, {0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}}``
+
+
+
+
 
 
 

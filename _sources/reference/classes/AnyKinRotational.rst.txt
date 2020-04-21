@@ -98,6 +98,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -139,6 +140,8 @@ Type
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -150,7 +153,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinRotational.Axis1:
@@ -178,9 +181,14 @@ Axis1
 
 
 
+
+
+
+
     First axis of rotation for RotAxesAngles and primary axis of rotation (normal to the planar motion) for PlanarAngles.
 
 ..
+
 
 
 
@@ -191,7 +199,7 @@ Axis1
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinRotational.Axis2:
@@ -219,9 +227,14 @@ Axis2
 
 
 
+
+
+
+
     Second axis of rotation for RotAxesAngles.
 
 ..
+
 
 
 
@@ -232,7 +245,7 @@ Axis2
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinRotational.Axis3:
@@ -260,9 +273,14 @@ Axis3
 
 
 
+
+
+
+
     Third axis of rotation for RotAxesAngles.
 
 ..
+
 
 
 
@@ -273,7 +291,7 @@ Axis3
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinRotational.DirCosineAxes:
@@ -301,9 +319,14 @@ DirCosineAxes
 
 
 
+
+
+
+
     Pairs of axes used for which directional cosine outputs are given when Type is DirCosines.
 
 ..
+
 
 
 
@@ -314,7 +337,7 @@ DirCosineAxes
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinRotational.AngVelOnOff:
@@ -342,9 +365,14 @@ AngVelOnOff
 
 
 
+
+
+
+
     Switch for using angular velocity vector at velocity and acceleration level.
 
 ..
+
 
 
 
@@ -355,7 +383,7 @@ AngVelOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinRotational.AngVelGlobal:
@@ -383,9 +411,14 @@ AngVelGlobal
 
 
 
+
+
+
+
     Switch for using angular velocity vector in global coordinates at velocity and acceleration level. This requires 'AngVelOnOff = On'.
 
 ..
+
 
 
 
@@ -396,7 +429,7 @@ AngVelGlobal
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinRotational.Ref:
@@ -428,6 +461,10 @@ Ref
         model to remove initialization of 'Ref'.
 
     
+
+
+
+
 
 
 

@@ -43,6 +43,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -54,7 +56,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyStyleDrawMaterialCrease.EnableCreasing:
@@ -82,9 +84,14 @@ EnableCreasing
 
 
 
+
+
+
+
     If set to Off, the creasing angle is ignored for this material.
 
 ..
+
 
 
 
@@ -95,7 +102,7 @@ EnableCreasing
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialCrease.CreasingAngle:
@@ -123,9 +130,14 @@ CreasingAngle
 
 
 
+
+
+
+
     The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.
 
 ..
+
 
 
 
@@ -136,7 +148,7 @@ CreasingAngle
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialCrease.EnableWireframe:
@@ -164,9 +176,14 @@ EnableWireframe
 
 
 
+
+
+
+
     If set to On, surfaces with this material will be rendered as wireframe.
 
 ..
+
 
 
 
@@ -177,7 +194,7 @@ EnableWireframe
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialCrease.EnableSmoothing:
@@ -202,6 +219,10 @@ EnableSmoothing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
+
+
+
 
 
 

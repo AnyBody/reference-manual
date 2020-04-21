@@ -150,6 +150,8 @@ AnyParamFun
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -161,7 +163,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinLinear2.Ref:
@@ -189,9 +191,14 @@ Ref
 
 
 
+
+
+
+
     Integer numbers that specify the reference system in which the vector is measured. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
 
 ..
+
 
 
 
@@ -202,7 +209,7 @@ Ref
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinLinear2.RefTrajectory:
@@ -227,6 +234,10 @@ RefTrajectory
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+
+
+
+
 
 
 

@@ -115,6 +115,8 @@ AnyMechOprKinAnl
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -126,7 +128,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.Settings:
@@ -148,15 +150,6 @@ Settings
 ..
 
 
-    | **Class type:**  :ref:`AnyOprSetUI`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    General settings for the operation.
-
-..
 
 
 
@@ -167,24 +160,24 @@ Settings
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.Settings.Echo:
 
 Settings.Echo
-================
+----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.Echo">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.Echo">
     <span id="anymechoprinvmuscledynanl-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -214,18 +207,18 @@ Settings.Echo
 .. _AnyMechOprInvMuscleDynAnl.Settings.ModelSceneUpdate:
 
 Settings.ModelSceneUpdate
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.ModelSceneUpdate">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.ModelSceneUpdate">
     <span id="anymechoprinvmuscledynanl-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -255,18 +248,18 @@ Settings.ModelSceneUpdate
 .. _AnyMechOprInvMuscleDynAnl.Settings.DisplayPriority:
 
 Settings.DisplayPriority
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.DisplayPriority">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.DisplayPriority">
     <span id="anymechoprinvmuscledynanl-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -296,18 +289,18 @@ Settings.DisplayPriority
 .. _AnyMechOprInvMuscleDynAnl.Settings.SelectOnLoad:
 
 Settings.SelectOnLoad
-========================
+------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings.SelectOnLoad">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Settings.SelectOnLoad">
     <span id="anymechoprinvmuscledynanl-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -326,12 +319,23 @@ Settings.SelectOnLoad
 
 
 
+
+
+    General settings for the operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.PreOperation:
@@ -353,15 +357,6 @@ PreOperation
 ..
 
 
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Pre-process operation.
-
-..
 
 
 
@@ -372,13 +367,13 @@ PreOperation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.PreOperation.Settings:
 
 PreOperation.Settings
-========================
+------------------------
 
 
 .. raw:: html
@@ -387,9 +382,9 @@ PreOperation.Settings
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings">
     <span id="anymechoprinvmuscledynanl-preoperation-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation.Settings" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -419,7 +414,7 @@ PreOperation.Settings
 .. _AnyMechOprInvMuscleDynAnl.PreOperation.Settings.Echo:
 
 PreOperation.Settings.Echo
-=============================
+-----------------------------
 
 
 .. raw:: html
@@ -428,9 +423,9 @@ PreOperation.Settings.Echo
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.Settings.Echo">
     <span id="anymechoprinvmuscledynanl-preoperation-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -460,7 +455,7 @@ PreOperation.Settings.Echo
 .. _AnyMechOprInvMuscleDynAnl.PreOperation.Settings.ModelSceneUpdate:
 
 PreOperation.Settings.ModelSceneUpdate
-=========================================
+-----------------------------------------
 
 
 .. raw:: html
@@ -469,9 +464,9 @@ PreOperation.Settings.ModelSceneUpdate
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings.ModelSceneUpdate">
     <span id="anymechoprinvmuscledynanl-preoperation-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PreOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -501,7 +496,7 @@ PreOperation.Settings.ModelSceneUpdate
 .. _AnyMechOprInvMuscleDynAnl.PreOperation.Settings.DisplayPriority:
 
 PreOperation.Settings.DisplayPriority
-========================================
+----------------------------------------
 
 
 .. raw:: html
@@ -510,9 +505,9 @@ PreOperation.Settings.DisplayPriority
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.Settings.DisplayPriority">
     <span id="anymechoprinvmuscledynanl-preoperation-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PreOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PreOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -542,7 +537,7 @@ PreOperation.Settings.DisplayPriority
 .. _AnyMechOprInvMuscleDynAnl.PreOperation.Settings.SelectOnLoad:
 
 PreOperation.Settings.SelectOnLoad
-=====================================
+-------------------------------------
 
 
 .. raw:: html
@@ -551,9 +546,9 @@ PreOperation.Settings.SelectOnLoad
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.Settings.SelectOnLoad">
     <span id="anymechoprinvmuscledynanl-preoperation-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PreOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PreOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -572,12 +567,23 @@ PreOperation.Settings.SelectOnLoad
 
 
 
+
+
+    Pre-process operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.PostOperation:
@@ -590,7 +596,7 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
     <span id="anymechoprinvmuscledynanl-postoperation" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Post-process operation.</span>
@@ -599,15 +605,6 @@ PostOperation
 ..
 
 
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Post-process operation.
-
-..
 
 
 
@@ -618,13 +615,13 @@ PostOperation
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.PostOperation.Settings:
 
 PostOperation.Settings
-=========================
+-------------------------
 
 
 .. raw:: html
@@ -633,9 +630,9 @@ PostOperation.Settings
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings">
     <span id="anymechoprinvmuscledynanl-postoperation-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation.Settings" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -665,7 +662,7 @@ PostOperation.Settings
 .. _AnyMechOprInvMuscleDynAnl.PostOperation.Settings.Echo:
 
 PostOperation.Settings.Echo
-==============================
+------------------------------
 
 
 .. raw:: html
@@ -674,9 +671,9 @@ PostOperation.Settings.Echo
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation.Settings.Echo">
     <span id="anymechoprinvmuscledynanl-postoperation-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -706,7 +703,7 @@ PostOperation.Settings.Echo
 .. _AnyMechOprInvMuscleDynAnl.PostOperation.Settings.ModelSceneUpdate:
 
 PostOperation.Settings.ModelSceneUpdate
-==========================================
+------------------------------------------
 
 
 .. raw:: html
@@ -715,9 +712,9 @@ PostOperation.Settings.ModelSceneUpdate
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings.ModelSceneUpdate">
     <span id="anymechoprinvmuscledynanl-postoperation-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#PostOperation.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -747,7 +744,7 @@ PostOperation.Settings.ModelSceneUpdate
 .. _AnyMechOprInvMuscleDynAnl.PostOperation.Settings.DisplayPriority:
 
 PostOperation.Settings.DisplayPriority
-=========================================
+-----------------------------------------
 
 
 .. raw:: html
@@ -756,9 +753,9 @@ PostOperation.Settings.DisplayPriority
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation.Settings.DisplayPriority">
     <span id="anymechoprinvmuscledynanl-postoperation-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PostOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#PostOperation.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -788,7 +785,7 @@ PostOperation.Settings.DisplayPriority
 .. _AnyMechOprInvMuscleDynAnl.PostOperation.Settings.SelectOnLoad:
 
 PostOperation.Settings.SelectOnLoad
-======================================
+--------------------------------------
 
 
 .. raw:: html
@@ -797,9 +794,9 @@ PostOperation.Settings.SelectOnLoad
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation.Settings.SelectOnLoad">
     <span id="anymechoprinvmuscledynanl-postoperation-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PostOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PostOperation.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -818,12 +815,23 @@ PostOperation.Settings.SelectOnLoad
 
 
 
+
+
+    Post-process operation.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKinOnOff:
@@ -851,9 +859,14 @@ ForceDepKinOnOff
 
 
 
+
+
+
+
     Switch for the force-dependent kinematics solver.
 
 ..
+
 
 
 
@@ -864,7 +877,7 @@ ForceDepKinOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin:
@@ -886,15 +899,6 @@ ForceDepKin
 ..
 
 
-    | **Class type:**  :ref:`AnyOprSetForceDepKin`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Folder with setting for the force-dependent kinematics solver.
-
-..
 
 
 
@@ -905,24 +909,24 @@ ForceDepKin
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ForceTol:
 
 ForceDepKin.ForceTol
-=======================
+-----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ForceTol">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ForceTol">
     <span id="anymechoprinvmuscledynanl-forcedepkin-forcetol" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ForceTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#ForceDepKin.ForceTol" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ForceTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#ForceDepKin.ForceTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Tolerance used in stopping criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -952,18 +956,18 @@ ForceDepKin.ForceTol
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.UseAdaptiveForceTolOnOff:
 
 ForceDepKin.UseAdaptiveForceTolOnOff
-=======================================
+---------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.UseAdaptiveForceTolOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.UseAdaptiveForceTolOnOff">
     <span id="anymechoprinvmuscledynanl-forcedepkin-useadaptiveforcetolonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.UseAdaptiveForceTolOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#ForceDepKin.UseAdaptiveForceTolOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UseAdaptiveForceTolOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#ForceDepKin.UseAdaptiveForceTolOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the stopping criterion uses. Off: the actual force...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -993,18 +997,18 @@ ForceDepKin.UseAdaptiveForceTolOnOff
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.MaxIteration:
 
 ForceDepKin.MaxIteration
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.MaxIteration">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.MaxIteration">
     <span id="anymechoprinvmuscledynanl-forcedepkin-maxiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 100 </span><a class="headerlink" href="#ForceDepKin.MaxIteration" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 100 </span><a class="headerlink" href="#ForceDepKin.MaxIteration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximal number of steps allowed in the iteration.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1034,18 +1038,18 @@ ForceDepKin.MaxIteration
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.Perturbation:
 
 ForceDepKin.Perturbation
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.Perturbation">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.Perturbation">
     <span id="anymechoprinvmuscledynanl-forcedepkin-perturbation" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.Perturbation </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#ForceDepKin.Perturbation" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Perturbation </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#ForceDepKin.Perturbation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Perturbation value used to numerical jacobian computation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1075,18 +1079,18 @@ ForceDepKin.Perturbation
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.PerturbationSymmetricOnOff:
 
 ForceDepKin.PerturbationSymmetricOnOff
-=========================================
+-----------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.PerturbationSymmetricOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.PerturbationSymmetricOnOff">
     <span id="anymechoprinvmuscledynanl-forcedepkin-perturbationsymmetriconoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.PerturbationSymmetricOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ForceDepKin.PerturbationSymmetricOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PerturbationSymmetricOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ForceDepKin.PerturbationSymmetricOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for using symmetric differentiation scheme for calculation of...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1116,18 +1120,18 @@ ForceDepKin.PerturbationSymmetricOnOff
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.LocalSearchOnOff:
 
 ForceDepKin.LocalSearchOnOff
-===============================
+-------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.LocalSearchOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.LocalSearchOnOff">
     <span id="anymechoprinvmuscledynanl-forcedepkin-localsearchonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.LocalSearchOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ForceDepKin.LocalSearchOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LocalSearchOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ForceDepKin.LocalSearchOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for using a search method (golden-section search) for each Newton...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1157,18 +1161,18 @@ ForceDepKin.LocalSearchOnOff
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.MaxNewtonStep:
 
 ForceDepKin.MaxNewtonStep
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.MaxNewtonStep">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.MaxNewtonStep">
     <span id="anymechoprinvmuscledynanl-forcedepkin-maxnewtonstep" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.MaxNewtonStep </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#ForceDepKin.MaxNewtonStep" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxNewtonStep </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#ForceDepKin.MaxNewtonStep" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximal size of component of the update vector of the newton iteration...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1198,18 +1202,18 @@ ForceDepKin.MaxNewtonStep
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.SolverType:
 
 ForceDepKin.SolverType
-=========================
+-------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.SolverType">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.SolverType">
     <span id="anymechoprinvmuscledynanl-forcedepkin-solvertype" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.SolverType </span><span class="member-title-equal">=</span><span class="member-title-default"> FDK_Solver_Newton </span><a class="headerlink" href="#ForceDepKin.SolverType" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverType </span><span class="member-title-equal">=</span><span class="member-title-default"> FDK_Solver_Newton </span><a class="headerlink" href="#ForceDepKin.SolverType" title="Permalink to this headline">¶</a>
     <span class="member-descr">Solver method used for the FDK iterations.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1239,18 +1243,18 @@ ForceDepKin.SolverType
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexPowerExp:
 
 ForceDepKin.ComplexPowerExp
-==============================
+------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexPowerExp">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexPowerExp">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexpowerexp" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexPowerExp </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#ForceDepKin.ComplexPowerExp" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexPowerExp </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#ForceDepKin.ComplexPowerExp" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1280,18 +1284,18 @@ ForceDepKin.ComplexPowerExp
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexAlpha:
 
 ForceDepKin.ComplexAlpha
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexAlpha">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexAlpha">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexalpha" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexAlpha </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.3 </span><a class="headerlink" href="#ForceDepKin.ComplexAlpha" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexAlpha </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.3 </span><a class="headerlink" href="#ForceDepKin.ComplexAlpha" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1321,18 +1325,18 @@ ForceDepKin.ComplexAlpha
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexMaxNumRepeat:
 
 ForceDepKin.ComplexMaxNumRepeat
-==================================
+----------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexMaxNumRepeat">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexMaxNumRepeat">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexmaxnumrepeat" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexMaxNumRepeat </span><span class="member-title-equal">=</span><span class="member-title-default"> 4 </span><a class="headerlink" href="#ForceDepKin.ComplexMaxNumRepeat" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexMaxNumRepeat </span><span class="member-title-equal">=</span><span class="member-title-default"> 4 </span><a class="headerlink" href="#ForceDepKin.ComplexMaxNumRepeat" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximal number of attempts in the Complex solver for moving the worst design...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1362,18 +1366,18 @@ ForceDepKin.ComplexMaxNumRepeat
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexPopulationSize:
 
 ForceDepKin.ComplexPopulationSize
-====================================
+------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexPopulationSize">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexPopulationSize">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexpopulationsize" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexPopulationSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#ForceDepKin.ComplexPopulationSize" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexPopulationSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#ForceDepKin.ComplexPopulationSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of the population for the Complex solver, i.e., the number of design...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1403,18 +1407,18 @@ ForceDepKin.ComplexPopulationSize
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexAnalysisFailedPenalty:
 
 ForceDepKin.ComplexAnalysisFailedPenalty
-===========================================
+-------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexAnalysisFailedPenalty">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexAnalysisFailedPenalty">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexanalysisfailedpenalty" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexAnalysisFailedPenalty </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e+16 </span><a class="headerlink" href="#ForceDepKin.ComplexAnalysisFailedPenalty" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexAnalysisFailedPenalty </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e+16 </span><a class="headerlink" href="#ForceDepKin.ComplexAnalysisFailedPenalty" title="Permalink to this headline">¶</a>
     <span class="member-descr">Penalty factor used in the Complex solver to change degrees of freedem if...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1444,18 +1448,18 @@ ForceDepKin.ComplexAnalysisFailedPenalty
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexConvergenceObjectiveTol:
 
 ForceDepKin.ComplexConvergenceObjectiveTol
-=============================================
+---------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexConvergenceObjectiveTol">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexConvergenceObjectiveTol">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexconvergenceobjectivetol" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexConvergenceObjectiveTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#ForceDepKin.ComplexConvergenceObjectiveTol" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexConvergenceObjectiveTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#ForceDepKin.ComplexConvergenceObjectiveTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Convergence tolerance of the objective function for the Complex solver.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1485,18 +1489,18 @@ ForceDepKin.ComplexConvergenceObjectiveTol
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexConvergenceDesignTol:
 
 ForceDepKin.ComplexConvergenceDesignTol
-==========================================
+------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexConvergenceDesignTol">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexConvergenceDesignTol">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexconvergencedesigntol" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexConvergenceDesignTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#ForceDepKin.ComplexConvergenceDesignTol" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexConvergenceDesignTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#ForceDepKin.ComplexConvergenceDesignTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Convergence tolerance of the FDK degrees of freedeom for the Complex solver.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1526,18 +1530,18 @@ ForceDepKin.ComplexConvergenceDesignTol
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexPopulationBoxSize:
 
 ForceDepKin.ComplexPopulationBoxSize
-=======================================
+---------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexPopulationBoxSize">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexPopulationBoxSize">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexpopulationboxsize" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexPopulationBoxSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#ForceDepKin.ComplexPopulationBoxSize" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexPopulationBoxSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#ForceDepKin.ComplexPopulationBoxSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of the box in the design space of the complex solver within which the...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1567,18 +1571,18 @@ ForceDepKin.ComplexPopulationBoxSize
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexRefinementConvergenceObjectiveTol:
 
 ForceDepKin.ComplexRefinementConvergenceObjectiveTol
-=======================================================
+-------------------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexRefinementConvergenceObjectiveTol">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexRefinementConvergenceObjectiveTol">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexrefinementconvergenceobjectivetol" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexRefinementConvergenceObjectiveTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#ForceDepKin.ComplexRefinementConvergenceObjectiveTol" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexRefinementConvergenceObjectiveTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#ForceDepKin.ComplexRefinementConvergenceObjectiveTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Convergence tolerance on the objective function of the refinement step of...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1608,18 +1612,18 @@ ForceDepKin.ComplexRefinementConvergenceObjectiveTol
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexRefinementConvergenceDesignTol:
 
 ForceDepKin.ComplexRefinementConvergenceDesignTol
-====================================================
+----------------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexRefinementConvergenceDesignTol">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexRefinementConvergenceDesignTol">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexrefinementconvergencedesigntol" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexRefinementConvergenceDesignTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-09 </span><a class="headerlink" href="#ForceDepKin.ComplexRefinementConvergenceDesignTol" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexRefinementConvergenceDesignTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-09 </span><a class="headerlink" href="#ForceDepKin.ComplexRefinementConvergenceDesignTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Convergence tolerance on the FDK degrees of freedom of the refinement step...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1649,18 +1653,18 @@ ForceDepKin.ComplexRefinementConvergenceDesignTol
 .. _AnyMechOprInvMuscleDynAnl.ForceDepKin.ComplexRefinementPopulationBoxSize:
 
 ForceDepKin.ComplexRefinementPopulationBoxSize
-=================================================
+-------------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexRefinementPopulationBoxSize">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin.ComplexRefinementPopulationBoxSize">
     <span id="anymechoprinvmuscledynanl-forcedepkin-complexrefinementpopulationboxsize" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin.ComplexRefinementPopulationBoxSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#ForceDepKin.ComplexRefinementPopulationBoxSize" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexRefinementPopulationBoxSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#ForceDepKin.ComplexRefinementPopulationBoxSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of the box in the design space of the refinement step of the complex...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1679,12 +1683,23 @@ ForceDepKin.ComplexRefinementPopulationBoxSize
 
 
 
+
+
+    Folder with setting for the force-dependent kinematics solver.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.Criterion:
@@ -1697,7 +1712,7 @@ Criterion
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion">
     <span id="anymechoprinvmuscledynanl-criterion" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion" title="Permalink to this headline">¶</a>
     <span class="member-descr">Setting folder for specifying the muscle recruitment criterion.</span>
@@ -1706,15 +1721,6 @@ Criterion
 ..
 
 
-    | **Class type:**  :ref:`AnyOprSetMuscleRecruitment`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Setting folder for specifying the muscle recruitment criterion.
-
-..
 
 
 
@@ -1725,24 +1731,24 @@ Criterion
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOprInvMuscleDynAnl.Criterion.Type:
 
 Criterion.Type
-=================
+-----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.Type">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.Type">
     <span id="anymechoprinvmuscledynanl-criterion-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_Polynomial </span><a class="headerlink" href="#Criterion.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_Polynomial </span><a class="headerlink" href="#Criterion.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Muscle recruitment criterion type.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1772,18 +1778,18 @@ Criterion.Type
 .. _AnyMechOprInvMuscleDynAnl.Criterion.Power:
 
 Criterion.Power
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.Power">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.Power">
     <span id="anymechoprinvmuscledynanl-criterion-power" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.Power </span><span class="member-title-equal">=</span><span class="member-title-default"> 3.0 </span><a class="headerlink" href="#Criterion.Power" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Power </span><span class="member-title-equal">=</span><span class="member-title-default"> 3.0 </span><a class="headerlink" href="#Criterion.Power" title="Permalink to this headline">¶</a>
     <span class="member-descr">Power for the MR_Polynomial criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1813,18 +1819,18 @@ Criterion.Power
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBoundOnOff:
 
 Criterion.UpperBoundOnOff
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBoundOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBoundOnOff">
     <span id="anymechoprinvmuscledynanl-criterion-upperboundonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBoundOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Criterion.UpperBoundOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBoundOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Criterion.UpperBoundOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the upper bound on muscle activity is active in the criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1854,18 +1860,18 @@ Criterion.UpperBoundOnOff
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBound:
 
 Criterion.UpperBound
-=======================
+-----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBound">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBound">
     <span id="anymechoprinvmuscledynanl-criterion-upperbound" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBound </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.UpperBound" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBound </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.UpperBound" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value of the upper bound on muscle activity. Typically it is 1.0 implying...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1895,18 +1901,18 @@ Criterion.UpperBound
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBoundOnOff:
 
 Criterion.LowerBoundOnOff
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBoundOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBoundOnOff">
     <span id="anymechoprinvmuscledynanl-criterion-lowerboundonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBoundOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Criterion.LowerBoundOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBoundOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Criterion.LowerBoundOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the lower bound on muscle activity is active in the criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1936,18 +1942,18 @@ Criterion.LowerBoundOnOff
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBound:
 
 Criterion.LowerBound
-=======================
+-----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBound">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBound">
     <span id="anymechoprinvmuscledynanl-criterion-lowerbound" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBound </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Criterion.LowerBound" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBound </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Criterion.LowerBound" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value of the lower bound on muscle activity. Typically it is 0.0 llowing...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1977,18 +1983,18 @@ Criterion.LowerBound
 .. _AnyMechOprInvMuscleDynAnl.Criterion.PrimaryTerm:
 
 Criterion.PrimaryTerm
-========================
+------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm">
     <span id="anymechoprinvmuscledynanl-criterion-primaryterm" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.PrimaryTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.PrimaryTerm" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PrimaryTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.PrimaryTerm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for primary term of the muscle recruitment criterion....</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2018,18 +2024,18 @@ Criterion.PrimaryTerm
 .. _AnyMechOprInvMuscleDynAnl.Criterion.PrimaryTerm.Type:
 
 Criterion.PrimaryTerm.Type
-=============================
+-----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Type">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Type">
     <span id="anymechoprinvmuscledynanl-criterion-primaryterm-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.PrimaryTerm.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.PrimaryTerm.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PrimaryTerm.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.PrimaryTerm.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normalization type used to define the muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2059,18 +2065,18 @@ Criterion.PrimaryTerm.Type
 .. _AnyMechOprInvMuscleDynAnl.Criterion.PrimaryTerm.Weight:
 
 Criterion.PrimaryTerm.Weight
-===============================
+-------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Weight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Weight">
     <span id="anymechoprinvmuscledynanl-criterion-primaryterm-weight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.PrimaryTerm.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.PrimaryTerm.Weight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PrimaryTerm.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.PrimaryTerm.Weight" title="Permalink to this headline">¶</a>
     <span class="member-descr">Weight (or scaling) of the term in the total criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2100,18 +2106,18 @@ Criterion.PrimaryTerm.Weight
 .. _AnyMechOprInvMuscleDynAnl.Criterion.PrimaryTerm.LowerLimit:
 
 Criterion.PrimaryTerm.LowerLimit
-===================================
+-----------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.LowerLimit">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.LowerLimit">
     <span id="anymechoprinvmuscledynanl-criterion-primaryterm-lowerlimit" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.PrimaryTerm.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.PrimaryTerm.LowerLimit" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PrimaryTerm.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.PrimaryTerm.LowerLimit" title="Permalink to this headline">¶</a>
     <span class="member-descr">Lower bound for muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2141,18 +2147,18 @@ Criterion.PrimaryTerm.LowerLimit
 .. _AnyMechOprInvMuscleDynAnl.Criterion.PrimaryTerm.Nfactor_SearchName:
 
 Criterion.PrimaryTerm.Nfactor_SearchName
-===========================================
+-------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Nfactor_SearchName">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Nfactor_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-primaryterm-nfactor_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.PrimaryTerm.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.PrimaryTerm.Nfactor_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PrimaryTerm.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.PrimaryTerm.Nfactor_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional normalization factor associated with each muscle multiplied...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2182,18 +2188,18 @@ Criterion.PrimaryTerm.Nfactor_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.PrimaryTerm.Weight_SearchName:
 
 Criterion.PrimaryTerm.Weight_SearchName
-==========================================
+------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Weight_SearchName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.PrimaryTerm.Weight_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-primaryterm-weight_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.PrimaryTerm.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.PrimaryTerm.Weight_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PrimaryTerm.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.PrimaryTerm.Weight_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional weight factor associated with each muscle multiplied with the...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2223,18 +2229,18 @@ Criterion.PrimaryTerm.Weight_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxLinearTerm:
 
 Criterion.AuxLinearTerm
-==========================
+--------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm">
     <span id="anymechoprinvmuscledynanl-criterion-auxlinearterm" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxLinearTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.AuxLinearTerm" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxLinearTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.AuxLinearTerm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for the auxillary linear term that is appended to the...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2264,18 +2270,18 @@ Criterion.AuxLinearTerm
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxLinearTerm.Type:
 
 Criterion.AuxLinearTerm.Type
-===============================
+-------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Type">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Type">
     <span id="anymechoprinvmuscledynanl-criterion-auxlinearterm-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxLinearTerm.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxLinearTerm.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normalization type used to define the muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2305,18 +2311,18 @@ Criterion.AuxLinearTerm.Type
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxLinearTerm.Weight:
 
 Criterion.AuxLinearTerm.Weight
-=================================
+---------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Weight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Weight">
     <span id="anymechoprinvmuscledynanl-criterion-auxlinearterm-weight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxLinearTerm.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Weight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxLinearTerm.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Weight" title="Permalink to this headline">¶</a>
     <span class="member-descr">Weight (or scaling) of the term in the total criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2346,18 +2352,18 @@ Criterion.AuxLinearTerm.Weight
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxLinearTerm.LowerLimit:
 
 Criterion.AuxLinearTerm.LowerLimit
-=====================================
+-------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.LowerLimit">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.LowerLimit">
     <span id="anymechoprinvmuscledynanl-criterion-auxlinearterm-lowerlimit" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxLinearTerm.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.AuxLinearTerm.LowerLimit" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxLinearTerm.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.AuxLinearTerm.LowerLimit" title="Permalink to this headline">¶</a>
     <span class="member-descr">Lower bound for muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2387,18 +2393,18 @@ Criterion.AuxLinearTerm.LowerLimit
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxLinearTerm.Nfactor_SearchName:
 
 Criterion.AuxLinearTerm.Nfactor_SearchName
-=============================================
+---------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Nfactor_SearchName">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Nfactor_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-auxlinearterm-nfactor_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxLinearTerm.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Nfactor_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxLinearTerm.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Nfactor_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional normalization factor associated with each muscle multiplied...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2428,18 +2434,18 @@ Criterion.AuxLinearTerm.Nfactor_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxLinearTerm.Weight_SearchName:
 
 Criterion.AuxLinearTerm.Weight_SearchName
-============================================
+--------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Weight_SearchName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxLinearTerm.Weight_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-auxlinearterm-weight_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxLinearTerm.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Weight_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxLinearTerm.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxLinearTerm.Weight_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional weight factor associated with each muscle multiplied with the...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2469,18 +2475,18 @@ Criterion.AuxLinearTerm.Weight_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxQuadraticTerm:
 
 Criterion.AuxQuadraticTerm
-=============================
+-----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm">
     <span id="anymechoprinvmuscledynanl-criterion-auxquadraticterm" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxQuadraticTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxQuadraticTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for the auxillary quadratic term that is appended to...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2510,18 +2516,18 @@ Criterion.AuxQuadraticTerm
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxQuadraticTerm.Type:
 
 Criterion.AuxQuadraticTerm.Type
-==================================
+----------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Type">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Type">
     <span id="anymechoprinvmuscledynanl-criterion-auxquadraticterm-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxQuadraticTerm.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxQuadraticTerm.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normalization type used to define the muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2551,18 +2557,18 @@ Criterion.AuxQuadraticTerm.Type
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxQuadraticTerm.Weight:
 
 Criterion.AuxQuadraticTerm.Weight
-====================================
+------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Weight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Weight">
     <span id="anymechoprinvmuscledynanl-criterion-auxquadraticterm-weight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxQuadraticTerm.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Weight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxQuadraticTerm.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Weight" title="Permalink to this headline">¶</a>
     <span class="member-descr">Weight (or scaling) of the term in the total criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2592,18 +2598,18 @@ Criterion.AuxQuadraticTerm.Weight
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxQuadraticTerm.LowerLimit:
 
 Criterion.AuxQuadraticTerm.LowerLimit
-========================================
+----------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.LowerLimit">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.LowerLimit">
     <span id="anymechoprinvmuscledynanl-criterion-auxquadraticterm-lowerlimit" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxQuadraticTerm.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.LowerLimit" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxQuadraticTerm.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.LowerLimit" title="Permalink to this headline">¶</a>
     <span class="member-descr">Lower bound for muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2633,18 +2639,18 @@ Criterion.AuxQuadraticTerm.LowerLimit
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxQuadraticTerm.Nfactor_SearchName:
 
 Criterion.AuxQuadraticTerm.Nfactor_SearchName
-================================================
+------------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Nfactor_SearchName">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Nfactor_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-auxquadraticterm-nfactor_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxQuadraticTerm.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Nfactor_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxQuadraticTerm.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Nfactor_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional normalization factor associated with each muscle multiplied...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2674,18 +2680,18 @@ Criterion.AuxQuadraticTerm.Nfactor_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.AuxQuadraticTerm.Weight_SearchName:
 
 Criterion.AuxQuadraticTerm.Weight_SearchName
-===============================================
+-----------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Weight_SearchName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.AuxQuadraticTerm.Weight_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-auxquadraticterm-weight_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.AuxQuadraticTerm.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Weight_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AuxQuadraticTerm.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.AuxQuadraticTerm.Weight_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional weight factor associated with each muscle multiplied with the...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2715,18 +2721,18 @@ Criterion.AuxQuadraticTerm.Weight_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBoundVar:
 
 Criterion.UpperBoundVar
-==========================
+--------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar">
     <span id="anymechoprinvmuscledynanl-criterion-upperboundvar" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.UpperBoundVar" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.UpperBoundVar" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for variable-scaling for the upper bounds.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2756,18 +2762,18 @@ Criterion.UpperBoundVar
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBoundVar.Type:
 
 Criterion.UpperBoundVar.Type
-===============================
+-------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Type">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Type">
     <span id="anymechoprinvmuscledynanl-criterion-upperboundvar-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBoundVar.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.UpperBoundVar.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBoundVar.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.UpperBoundVar.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normalization type used to define the muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2797,18 +2803,18 @@ Criterion.UpperBoundVar.Type
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBoundVar.Weight:
 
 Criterion.UpperBoundVar.Weight
-=================================
+---------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Weight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Weight">
     <span id="anymechoprinvmuscledynanl-criterion-upperboundvar-weight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBoundVar.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.UpperBoundVar.Weight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBoundVar.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.UpperBoundVar.Weight" title="Permalink to this headline">¶</a>
     <span class="member-descr">Weight (or scaling) of the term in the total criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2838,18 +2844,18 @@ Criterion.UpperBoundVar.Weight
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBoundVar.LowerLimit:
 
 Criterion.UpperBoundVar.LowerLimit
-=====================================
+-------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.LowerLimit">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.LowerLimit">
     <span id="anymechoprinvmuscledynanl-criterion-upperboundvar-lowerlimit" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBoundVar.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.UpperBoundVar.LowerLimit" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBoundVar.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.UpperBoundVar.LowerLimit" title="Permalink to this headline">¶</a>
     <span class="member-descr">Lower bound for muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2879,18 +2885,18 @@ Criterion.UpperBoundVar.LowerLimit
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBoundVar.Nfactor_SearchName:
 
 Criterion.UpperBoundVar.Nfactor_SearchName
-=============================================
+---------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Nfactor_SearchName">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Nfactor_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-upperboundvar-nfactor_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBoundVar.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.UpperBoundVar.Nfactor_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBoundVar.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.UpperBoundVar.Nfactor_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional normalization factor associated with each muscle multiplied...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2920,18 +2926,18 @@ Criterion.UpperBoundVar.Nfactor_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.UpperBoundVar.Weight_SearchName:
 
 Criterion.UpperBoundVar.Weight_SearchName
-============================================
+--------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Weight_SearchName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.UpperBoundVar.Weight_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-upperboundvar-weight_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.UpperBoundVar.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.UpperBoundVar.Weight_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.UpperBoundVar.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.UpperBoundVar.Weight_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional weight factor associated with each muscle multiplied with the...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -2961,18 +2967,18 @@ Criterion.UpperBoundVar.Weight_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBoundVar:
 
 Criterion.LowerBoundVar
-==========================
+--------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar">
     <span id="anymechoprinvmuscledynanl-criterion-lowerboundvar" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.LowerBoundVar" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion.LowerBoundVar" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for variable-scaling for the lower bounds.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3002,18 +3008,18 @@ Criterion.LowerBoundVar
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBoundVar.Type:
 
 Criterion.LowerBoundVar.Type
-===============================
+-------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Type">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Type">
     <span id="anymechoprinvmuscledynanl-criterion-lowerboundvar-type" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBoundVar.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.LowerBoundVar.Type" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBoundVar.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> MR_CurrentStrength </span><a class="headerlink" href="#Criterion.LowerBoundVar.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normalization type used to define the muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3043,18 +3049,18 @@ Criterion.LowerBoundVar.Type
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBoundVar.Weight:
 
 Criterion.LowerBoundVar.Weight
-=================================
+---------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Weight">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Weight">
     <span id="anymechoprinvmuscledynanl-criterion-lowerboundvar-weight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBoundVar.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.LowerBoundVar.Weight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBoundVar.Weight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.LowerBoundVar.Weight" title="Permalink to this headline">¶</a>
     <span class="member-descr">Weight (or scaling) of the term in the total criterion.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3084,18 +3090,18 @@ Criterion.LowerBoundVar.Weight
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBoundVar.LowerLimit:
 
 Criterion.LowerBoundVar.LowerLimit
-=====================================
+-------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.LowerLimit">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.LowerLimit">
     <span id="anymechoprinvmuscledynanl-criterion-lowerboundvar-lowerlimit" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBoundVar.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.LowerBoundVar.LowerLimit" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBoundVar.LowerLimit </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Criterion.LowerBoundVar.LowerLimit" title="Permalink to this headline">¶</a>
     <span class="member-descr">Lower bound for muscle quantities entering the term.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3125,18 +3131,18 @@ Criterion.LowerBoundVar.LowerLimit
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBoundVar.Nfactor_SearchName:
 
 Criterion.LowerBoundVar.Nfactor_SearchName
-=============================================
+---------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Nfactor_SearchName">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Nfactor_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-lowerboundvar-nfactor_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBoundVar.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.LowerBoundVar.Nfactor_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBoundVar.Nfactor_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.LowerBoundVar.Nfactor_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional normalization factor associated with each muscle multiplied...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3166,18 +3172,18 @@ Criterion.LowerBoundVar.Nfactor_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.LowerBoundVar.Weight_SearchName:
 
 Criterion.LowerBoundVar.Weight_SearchName
-============================================
+--------------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Weight_SearchName">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.LowerBoundVar.Weight_SearchName">
     <span id="anymechoprinvmuscledynanl-criterion-lowerboundvar-weight_searchname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.LowerBoundVar.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.LowerBoundVar.Weight_SearchName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.LowerBoundVar.Weight_SearchName </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Criterion.LowerBoundVar.Weight_SearchName" title="Permalink to this headline">¶</a>
     <span class="member-descr">An additional weight factor associated with each muscle multiplied with the...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3207,18 +3213,18 @@ Criterion.LowerBoundVar.Weight_SearchName
 .. _AnyMechOprInvMuscleDynAnl.Criterion.IterativeRefinementSteps:
 
 Criterion.IterativeRefinementSteps
-=====================================
+-------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.IterativeRefinementSteps">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.IterativeRefinementSteps">
     <span id="anymechoprinvmuscledynanl-criterion-iterativerefinementsteps" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.IterativeRefinementSteps </span><span class="member-title-equal">=</span><span class="member-title-default"> 1 </span><a class="headerlink" href="#Criterion.IterativeRefinementSteps" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.IterativeRefinementSteps </span><span class="member-title-equal">=</span><span class="member-title-default"> 1 </span><a class="headerlink" href="#Criterion.IterativeRefinementSteps" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of iterative refinement step performed by the optimization solver....</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3248,18 +3254,18 @@ Criterion.IterativeRefinementSteps
 .. _AnyMechOprInvMuscleDynAnl.Criterion.NewRecruitmentSolversOnOff:
 
 Criterion.NewRecruitmentSolversOnOff
-=======================================
+---------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.NewRecruitmentSolversOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.NewRecruitmentSolversOnOff">
     <span id="anymechoprinvmuscledynanl-criterion-newrecruitmentsolversonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.NewRecruitmentSolversOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Criterion.NewRecruitmentSolversOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NewRecruitmentSolversOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Criterion.NewRecruitmentSolversOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for using the new generation of optimization solvers for muscle...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3289,18 +3295,18 @@ Criterion.NewRecruitmentSolversOnOff
 .. _AnyMechOprInvMuscleDynAnl.Criterion.MultifrontalCholeskyOnOff:
 
 Criterion.MultifrontalCholeskyOnOff
-======================================
+--------------------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion.MultifrontalCholeskyOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Criterion.MultifrontalCholeskyOnOff">
     <span id="anymechoprinvmuscledynanl-criterion-multifrontalcholeskyonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion.MultifrontalCholeskyOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Criterion.MultifrontalCholeskyOnOff" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MultifrontalCholeskyOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Criterion.MultifrontalCholeskyOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for using multi-frontal methods in the sparse Cholesky factorization...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -3312,6 +3318,16 @@ Criterion.MultifrontalCholeskyOnOff
 
 
     Switch for using multi-frontal methods in the sparse Cholesky factorization inside the muscle recruitment solvers. The multi-frontal method can be faster for larger problems, but this solver is still an experimental implementation.
+
+..
+
+
+
+
+
+
+
+    Setting folder for specifying the muscle recruitment criterion.
 
 ..
 

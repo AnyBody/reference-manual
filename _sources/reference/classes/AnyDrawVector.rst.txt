@@ -153,6 +153,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -188,6 +189,7 @@ Vec
     The vector to be drawn.
 
 ..
+
 
 
 
@@ -234,6 +236,8 @@ Line.Thickness
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -245,7 +249,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawVector.Visible:
@@ -273,9 +277,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -286,7 +295,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.Opacity:
@@ -314,9 +323,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -327,7 +341,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.Pickable:
@@ -355,9 +369,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -368,7 +387,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.PickableZOrdering:
@@ -396,9 +415,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -409,7 +433,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.PointAway:
@@ -437,9 +461,14 @@ PointAway
 
 
 
+
+
+
+
     Specifies whether the vector points away from reference frame or alternative points towards it.
 
 ..
+
 
 
 
@@ -450,7 +479,7 @@ PointAway
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.GlobalCoord:
@@ -478,9 +507,14 @@ GlobalCoord
 
 
 
+
+
+
+
     Specifies whether the vector is given in global coordinates or alternatively in local coordinates of the reference frame.
 
 ..
+
 
 
 
@@ -491,7 +525,7 @@ GlobalCoord
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.Line:
@@ -513,15 +547,6 @@ Line
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleDrawLineWithCaps`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Line style folder.
-
-..
 
 
 
@@ -532,24 +557,24 @@ Line
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDrawVector.Line.Style:
 
 Line.Style
-=============
+-------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Style">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Style">
     <span id="anydrawvector-line-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DStyleFull </span><a class="headerlink" href="#Line.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DStyleFull </span><a class="headerlink" href="#Line.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line style.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -579,18 +604,18 @@ Line.Style
 .. _AnyDrawVector.Line.RGB:
 
 Line.RGB
-===========
+-----------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.RGB">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.RGB">
     <span id="anydrawvector-line-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -620,18 +645,18 @@ Line.RGB
 .. _AnyDrawVector.Line.Start:
 
 Line.Start
-=============
+-------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start">
     <span id="anydrawvector-line-start" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.Start </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.Start" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.Start" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for starting cap of line.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -661,18 +686,18 @@ Line.Start
 .. _AnyDrawVector.Line.Start.Style:
 
 Line.Start.Style
-===================
+-------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Style">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Style">
     <span id="anydrawvector-line-start-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.Start.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleNone </span><a class="headerlink" href="#Line.Start.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleNone </span><a class="headerlink" href="#Line.Start.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -702,18 +727,18 @@ Line.Start.Style
 .. _AnyDrawVector.Line.Start.RGB:
 
 Line.Start.RGB
-=================
+-----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.RGB">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.RGB">
     <span id="anydrawvector-line-start-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.Start.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.Start.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.Start.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -743,18 +768,18 @@ Line.Start.RGB
 .. _AnyDrawVector.Line.Start.Thickness:
 
 Line.Start.Thickness
-=======================
+-----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Thickness">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Thickness">
     <span id="anydrawvector-line-start-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.Start.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Thickness" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -784,18 +809,18 @@ Line.Start.Thickness
 .. _AnyDrawVector.Line.Start.Length:
 
 Line.Start.Length
-====================
+--------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Length">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Length">
     <span id="anydrawvector-line-start-length" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.Start.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Length" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Length" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap length.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -825,18 +850,18 @@ Line.Start.Length
 .. _AnyDrawVector.Line.End:
 
 Line.End
-===========
+-----------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End">
     <span id="anydrawvector-line-end" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.End </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.End" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.End" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for ending cap of line.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -866,18 +891,18 @@ Line.End
 .. _AnyDrawVector.Line.End.Style:
 
 Line.End.Style
-=================
+-----------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Style">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Style">
     <span id="anydrawvector-line-end-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.End.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleNone </span><a class="headerlink" href="#Line.End.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleNone </span><a class="headerlink" href="#Line.End.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -907,18 +932,18 @@ Line.End.Style
 .. _AnyDrawVector.Line.End.RGB:
 
 Line.End.RGB
-===============
+---------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.RGB">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.RGB">
     <span id="anydrawvector-line-end-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.End.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.End.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.End.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -948,18 +973,18 @@ Line.End.RGB
 .. _AnyDrawVector.Line.End.Thickness:
 
 Line.End.Thickness
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Thickness">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Thickness">
     <span id="anydrawvector-line-end-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.End.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Thickness" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -989,18 +1014,18 @@ Line.End.Thickness
 .. _AnyDrawVector.Line.End.Length:
 
 Line.End.Length
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Length">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Length">
     <span id="anydrawvector-line-end-length" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Line.End.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Length" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Length" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap length.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1019,12 +1044,23 @@ Line.End.Length
 
 
 
+
+
+    Line style folder.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyDrawVector.Text:
@@ -1052,9 +1088,14 @@ Text
 
 
 
+
+
+
+
     Text to be associated with the object.
 
 ..
+
 
 
 
@@ -1065,7 +1106,7 @@ Text
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.TextRelPos:
@@ -1093,9 +1134,14 @@ TextRelPos
 
 
 
+
+
+
+
     Relative position of text. Typical values should be between 0 and 1, which will position the text accordingly along the line.
 
 ..
+
 
 
 
@@ -1106,7 +1152,7 @@ TextRelPos
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawVector.TextFont:
@@ -1128,15 +1174,6 @@ TextFont
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleFont3DView`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Font settings for text.
-
-..
 
 
 
@@ -1147,13 +1184,13 @@ TextFont
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDrawVector.TextFont.RGB:
 
 TextFont.RGB
-===============
+---------------
 
 
 .. raw:: html
@@ -1162,9 +1199,9 @@ TextFont.RGB
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.RGB">
     <span id="anydrawvector-textfont-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1194,7 +1231,7 @@ TextFont.RGB
 .. _AnyDrawVector.TextFont.FontName:
 
 TextFont.FontName
-====================
+--------------------
 
 
 .. raw:: html
@@ -1203,9 +1240,9 @@ TextFont.FontName
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.FontName">
     <span id="anydrawvector-textfont-fontname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1235,7 +1272,7 @@ TextFont.FontName
 .. _AnyDrawVector.TextFont.Height:
 
 TextFont.Height
-==================
+------------------
 
 
 .. raw:: html
@@ -1244,9 +1281,9 @@ TextFont.Height
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Height">
     <span id="anydrawvector-textfont-height" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1276,7 +1313,7 @@ TextFont.Height
 .. _AnyDrawVector.TextFont.Width:
 
 TextFont.Width
-=================
+-----------------
 
 
 .. raw:: html
@@ -1285,9 +1322,9 @@ TextFont.Width
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Width">
     <span id="anydrawvector-textfont-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1317,7 +1354,7 @@ TextFont.Width
 .. _AnyDrawVector.TextFont.Bold:
 
 TextFont.Bold
-================
+----------------
 
 
 .. raw:: html
@@ -1326,9 +1363,9 @@ TextFont.Bold
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.Bold">
     <span id="anydrawvector-textfont-bold" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1358,7 +1395,7 @@ TextFont.Bold
 .. _AnyDrawVector.TextFont.Italic:
 
 TextFont.Italic
-==================
+------------------
 
 
 .. raw:: html
@@ -1367,9 +1404,9 @@ TextFont.Italic
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.Italic">
     <span id="anydrawvector-textfont-italic" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1399,7 +1436,7 @@ TextFont.Italic
 .. _AnyDrawVector.TextFont.BillBoardView:
 
 TextFont.BillBoardView
-=========================
+-------------------------
 
 
 .. raw:: html
@@ -1408,9 +1445,9 @@ TextFont.BillBoardView
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.BillBoardView">
     <span id="anydrawvector-textfont-billboardview" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1440,7 +1477,7 @@ TextFont.BillBoardView
 .. _AnyDrawVector.TextFont.ModelSized:
 
 TextFont.ModelSized
-======================
+----------------------
 
 
 .. raw:: html
@@ -1449,9 +1486,9 @@ TextFont.ModelSized
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelSized">
     <span id="anydrawvector-textfont-modelsized" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#TextFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1481,7 +1518,7 @@ TextFont.ModelSized
 .. _AnyDrawVector.TextFont.ModelScaleHeight:
 
 TextFont.ModelScaleHeight
-============================
+----------------------------
 
 
 .. raw:: html
@@ -1490,9 +1527,9 @@ TextFont.ModelScaleHeight
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont.ModelScaleHeight">
     <span id="anydrawvector-textfont-modelscaleheight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1522,7 +1559,7 @@ TextFont.ModelScaleHeight
 .. _AnyDrawVector.TextFont.ModelScaleWidth:
 
 TextFont.ModelScaleWidth
-===========================
+---------------------------
 
 
 .. raw:: html
@@ -1531,9 +1568,9 @@ TextFont.ModelScaleWidth
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont.ModelScaleWidth">
     <span id="anydrawvector-textfont-modelscalewidth" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1552,12 +1589,23 @@ TextFont.ModelScaleWidth
 
 
 
+
+
+    Font settings for text.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyDrawVector.DrawCoord:
@@ -1582,6 +1630,10 @@ DrawCoord
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

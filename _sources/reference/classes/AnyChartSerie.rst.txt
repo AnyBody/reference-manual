@@ -64,6 +64,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -105,6 +106,8 @@ Value
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -116,7 +119,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyChartSerie.Title:
@@ -144,9 +147,14 @@ Title
 
 
 
+
+
+
+
     Name string (default value is the name of the AnyChartSerie object).
 
 ..
+
 
 
 
@@ -157,7 +165,7 @@ Title
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartSerie.Abscissa:
@@ -185,9 +193,14 @@ Abscissa
 
 
 
+
+
+
+
     Search string for primary abscissa (for more info. on search strings, see class AnyObjectSearchString).
 
 ..
+
 
 
 
@@ -198,7 +211,7 @@ Abscissa
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartSerie.Abscissa2:
@@ -226,9 +239,14 @@ Abscissa2
 
 
 
+
+
+
+
     Search string for secondary abscissa (3D plots only) (for more info. on search strings, see class AnyObjectSearchString).
 
 ..
+
 
 
 
@@ -239,7 +257,7 @@ Abscissa2
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartSerie.Lines:
@@ -261,15 +279,6 @@ Lines
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleDrawLines`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Line style definitions. For series with multiple value data sets, i.e., multiple curves, multiple values of each style-defining attribute can be specified.
-
-..
 
 
 
@@ -280,13 +289,13 @@ Lines
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyChartSerie.Lines.Visible:
 
 Lines.Visible
-================
+----------------
 
 
 .. raw:: html
@@ -295,9 +304,9 @@ Lines.Visible
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Lines.Visible">
     <span id="anychartserie-lines-visible" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Lines.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Lines.Visible" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Lines.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for lines to be shown or not.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -327,7 +336,7 @@ Lines.Visible
 .. _AnyChartSerie.Lines.Style:
 
 Lines.Style
-==============
+--------------
 
 
 .. raw:: html
@@ -336,9 +345,9 @@ Lines.Style
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Lines.Style">
     <span id="anychartserie-lines-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Lines.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Lines.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Lines.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line style.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -368,7 +377,7 @@ Lines.Style
 .. _AnyChartSerie.Lines.RGB:
 
 Lines.RGB
-============
+------------
 
 
 .. raw:: html
@@ -377,9 +386,9 @@ Lines.RGB
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Lines.RGB">
     <span id="anychartserie-lines-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Lines.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Lines.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Lines.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1. A matrix with 3 columns holding the RGB...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -409,7 +418,7 @@ Lines.RGB
 .. _AnyChartSerie.Lines.Thickness:
 
 Lines.Thickness
-==================
+------------------
 
 
 .. raw:: html
@@ -418,9 +427,9 @@ Lines.Thickness
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Lines.Thickness">
     <span id="anychartserie-lines-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Lines.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Lines.Thickness" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Lines.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line thickness.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -439,12 +448,23 @@ Lines.Thickness
 
 
 
+
+
+    Line style definitions. For series with multiple value data sets, i.e., multiple curves, multiple values of each style-defining attribute can be specified.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyChartSerie.PointMarkers:
@@ -466,15 +486,6 @@ PointMarkers
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleDrawPointMarkers`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Style definitions for data point markers. For series with multiple value data sets,i.e., multiple curves, multiple values of each style-defining attribute can be specified.
-
-..
 
 
 
@@ -485,24 +496,24 @@ PointMarkers
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyChartSerie.PointMarkers.Visible:
 
 PointMarkers.Visible
-=======================
+-----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointMarkers.Visible">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointMarkers.Visible">
     <span id="anychartserie-pointmarkers-visible" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointMarkers.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PointMarkers.Visible" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#PointMarkers.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for markers to be shown or not.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -532,18 +543,18 @@ PointMarkers.Visible
 .. _AnyChartSerie.PointMarkers.Style:
 
 PointMarkers.Style
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointMarkers.Style">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointMarkers.Style">
     <span id="anychartserie-pointmarkers-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointMarkers.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#PointMarkers.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#PointMarkers.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Marker style.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -573,18 +584,18 @@ PointMarkers.Style
 .. _AnyChartSerie.PointMarkers.Size:
 
 PointMarkers.Size
-====================
+--------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointMarkers.Size">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointMarkers.Size">
     <span id="anychartserie-pointmarkers-size" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointMarkers.Size </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#PointMarkers.Size" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Size </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#PointMarkers.Size" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of markers.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -614,18 +625,18 @@ PointMarkers.Size
 .. _AnyChartSerie.PointMarkers.SkipPoints:
 
 PointMarkers.SkipPoints
-==========================
+--------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointMarkers.SkipPoints">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PointMarkers.SkipPoints">
     <span id="anychartserie-pointmarkers-skippoints" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> PointMarkers.SkipPoints </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#PointMarkers.SkipPoints" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SkipPoints </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#PointMarkers.SkipPoints" title="Permalink to this headline">¶</a>
     <span class="member-descr">Amount of points between every visible marker.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -644,12 +655,23 @@ PointMarkers.SkipPoints
 
 
 
+
+
+    Style definitions for data point markers. For series with multiple value data sets,i.e., multiple curves, multiple values of each style-defining attribute can be specified.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyChartSerie.Cursor:
@@ -671,15 +693,6 @@ Cursor
 ..
 
 
-    | **Class type:**  :ref:`AnyChartCursor`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Cursor settings. Notice that the cursor position may be modified by direct interaction in Model View and AnyChart View.
-
-..
 
 
 
@@ -690,13 +703,13 @@ Cursor
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyChartSerie.Cursor.Visible:
 
 Cursor.Visible
-=================
+-----------------
 
 
 .. raw:: html
@@ -705,9 +718,9 @@ Cursor.Visible
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Cursor.Visible">
     <span id="anychartserie-cursor-visible" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Cursor.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Cursor.Visible" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Cursor.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for visiblity.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -737,7 +750,7 @@ Cursor.Visible
 .. _AnyChartSerie.Cursor.AbsIndex:
 
 Cursor.AbsIndex
-==================
+------------------
 
 
 .. raw:: html
@@ -746,9 +759,9 @@ Cursor.AbsIndex
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Cursor.AbsIndex">
     <span id="anychartserie-cursor-absindex" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Cursor.AbsIndex </span><span class="member-title-equal">=</span><span class="member-title-default"> {0, 1} </span><a class="headerlink" href="#Cursor.AbsIndex" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AbsIndex </span><span class="member-title-equal">=</span><span class="member-title-default"> {0, 1} </span><a class="headerlink" href="#Cursor.AbsIndex" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indices of the active data abscissa for which the cursor movement is associated.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -778,7 +791,7 @@ Cursor.AbsIndex
 .. _AnyChartSerie.Cursor.DataIndex:
 
 Cursor.DataIndex
-===================
+-------------------
 
 
 .. raw:: html
@@ -787,9 +800,9 @@ Cursor.DataIndex
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Cursor.DataIndex">
     <span id="anychartserie-cursor-dataindex" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Cursor.DataIndex </span><span class="member-title-equal">=</span><span class="member-title-default"> {0, 0} </span><a class="headerlink" href="#Cursor.DataIndex" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.DataIndex </span><span class="member-title-equal">=</span><span class="member-title-default"> {0, 0} </span><a class="headerlink" href="#Cursor.DataIndex" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indices of the data value for the active abscissae in AbsIndex.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -819,7 +832,7 @@ Cursor.DataIndex
 .. _AnyChartSerie.Cursor.PreVisualize:
 
 Cursor.PreVisualize
-======================
+----------------------
 
 
 .. raw:: html
@@ -828,9 +841,9 @@ Cursor.PreVisualize
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Cursor.PreVisualize">
     <span id="anychartserie-cursor-previsualize" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Cursor.PreVisualize </span><span class="member-title-equal">=</span><span class="member-title-default"> {10, 10} </span><a class="headerlink" href="#Cursor.PreVisualize" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PreVisualize </span><span class="member-title-equal">=</span><span class="member-title-default"> {10, 10} </span><a class="headerlink" href="#Cursor.PreVisualize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of data points to be shown before actual cursor position.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -860,7 +873,7 @@ Cursor.PreVisualize
 .. _AnyChartSerie.Cursor.PostVisualize:
 
 Cursor.PostVisualize
-=======================
+-----------------------
 
 
 .. raw:: html
@@ -869,9 +882,9 @@ Cursor.PostVisualize
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Cursor.PostVisualize">
     <span id="anychartserie-cursor-postvisualize" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Cursor.PostVisualize </span><span class="member-title-equal">=</span><span class="member-title-default"> {10, 10} </span><a class="headerlink" href="#Cursor.PostVisualize" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PostVisualize </span><span class="member-title-equal">=</span><span class="member-title-default"> {10, 10} </span><a class="headerlink" href="#Cursor.PostVisualize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of data points to be shown after actual cursor position.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -890,12 +903,23 @@ Cursor.PostVisualize
 
 
 
+
+
+    Cursor settings. Notice that the cursor position may be modified by direct interaction in Model View and AnyChart View.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyChartSerie.Surfaces:
@@ -908,7 +932,7 @@ Surfaces
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Surfaces">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Surfaces">
     <span id="anychartserie-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Surface style definitions. For series with multiple value data sets, i.e.,...</span>
@@ -917,15 +941,6 @@ Surfaces
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleDrawSurfaces`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Surface style definitions. For series with multiple value data sets, i.e., multiple curves, multiple values of each style-defining attribute can be specified.
-
-..
 
 
 
@@ -936,13 +951,13 @@ Surfaces
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyChartSerie.Surfaces.RGB:
 
 Surfaces.RGB
-===============
+---------------
 
 
 .. raw:: html
@@ -951,9 +966,9 @@ Surfaces.RGB
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Surfaces.RGB">
     <span id="anychartserie-surfaces-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Surfaces.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Surfaces.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color of the surface in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -983,7 +998,7 @@ Surfaces.RGB
 .. _AnyChartSerie.Surfaces.Visible:
 
 Surfaces.Visible
-===================
+-------------------
 
 
 .. raw:: html
@@ -992,9 +1007,9 @@ Surfaces.Visible
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Surfaces.Visible">
     <span id="anychartserie-surfaces-visible" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Surfaces.Visible" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Surfaces.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for surface to be shown or not.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1006,6 +1021,16 @@ Surfaces.Visible
 
 
     Switch for surface to be shown or not.
+
+..
+
+
+
+
+
+
+
+    Surface style definitions. For series with multiple value data sets, i.e., multiple curves, multiple values of each style-defining attribute can be specified.
 
 ..
 

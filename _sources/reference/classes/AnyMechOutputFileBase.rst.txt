@@ -64,6 +64,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -105,6 +106,8 @@ FileName
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -116,7 +119,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMechOutputFileBase.NumberFormat:
@@ -138,15 +141,6 @@ NumberFormat
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleNumeric1f`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Format settings for numerical values in text formatted files. Applies to floating-point numbers (AnyFloat) only.
-
-..
 
 
 
@@ -157,24 +151,24 @@ NumberFormat
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyMechOutputFileBase.NumberFormat.Digits:
 
 NumberFormat.Digits
-======================
+----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.Digits">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.Digits">
     <span id="anymechoutputfilebase-numberformat-digits" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.Digits </span><span class="member-title-equal">=</span><span class="member-title-default"> 15 </span><a class="headerlink" href="#NumberFormat.Digits" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Digits </span><span class="member-title-equal">=</span><span class="member-title-default"> 15 </span><a class="headerlink" href="#NumberFormat.Digits" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of digits in output. Disregarded if smaller than one.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -204,18 +198,18 @@ NumberFormat.Digits
 .. _AnyMechOutputFileBase.NumberFormat.Width:
 
 NumberFormat.Width
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.Width">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.Width">
     <span id="anymechoutputfilebase-numberformat-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 23 </span><a class="headerlink" href="#NumberFormat.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 23 </span><a class="headerlink" href="#NumberFormat.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of character spaces reserved for the number in output. Disregarded if...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -245,18 +239,18 @@ NumberFormat.Width
 .. _AnyMechOutputFileBase.NumberFormat.Style:
 
 NumberFormat.Style
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.Style">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.Style">
     <span id="anymechoutputfilebase-numberformat-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ScientificNumber </span><a class="headerlink" href="#NumberFormat.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ScientificNumber </span><a class="headerlink" href="#NumberFormat.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style specification.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -286,18 +280,18 @@ NumberFormat.Style
 .. _AnyMechOutputFileBase.NumberFormat.FormatStr:
 
 NumberFormat.FormatStr
-=========================
+-------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat.FormatStr">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="NumberFormat.FormatStr">
     <span id="anymechoutputfilebase-numberformat-formatstr" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat.FormatStr </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#NumberFormat.FormatStr" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FormatStr </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#NumberFormat.FormatStr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Complete format specification using C-style character specification known...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -309,6 +303,16 @@ NumberFormat.FormatStr
 
 
     Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.
+
+..
+
+
+
+
+
+
+
+    Format settings for numerical values in text formatted files. Applies to floating-point numbers (AnyFloat) only.
 
 ..
 

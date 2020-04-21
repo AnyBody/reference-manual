@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -155,6 +156,8 @@ OutDim
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -166,7 +169,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinMeasureQuadComb.Coef:
@@ -194,9 +197,14 @@ Coef
 
 
 
+
+
+
+
     Matrix of coefficients for the linear combination. Each column corresponds to one component in the sub-measures and each row defines one of the new measures.
 
 ..
+
 
 
 
@@ -207,7 +215,7 @@ Coef
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureQuadComb.Const:
@@ -235,9 +243,14 @@ Const
 
 
 
+
+
+
+
     Vector of constants.
 
 ..
+
 
 
 
@@ -248,7 +261,7 @@ Const
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureQuadComb.CoefTimeFun:
@@ -276,9 +289,14 @@ CoefTimeFun
 
 
 
+
+
+
+
     Pointer to a parameter function that provide any time-dependent component of the 'Coef' matrix. The output of the function must match the dimensions of 'Coef' or at least have the same number of elements.
 
 ..
+
 
 
 
@@ -289,7 +307,7 @@ CoefTimeFun
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureQuadComb.ConstTimeFun:
@@ -317,9 +335,14 @@ ConstTimeFun
 
 
 
+
+
+
+
     Pointer to a parameter function that provide any time-dependent component of the 'Const' vector. The output of the function must have the same number of elements as 'Const'.
 
 ..
+
 
 
 
@@ -330,7 +353,7 @@ ConstTimeFun
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureQuadComb.CoefQuadTensor:
@@ -358,9 +381,14 @@ CoefQuadTensor
 
 
 
+
+
+
+
     Coefficient tensor for the quadratic part. This is an array of square matrices with the dimension of the number of input measures. Each of matrix defines the quadratic term for one of the output measures, see class :ref:`AnyKinMeasureQuadComb`.
 
 ..
+
 
 
 
@@ -371,7 +399,7 @@ CoefQuadTensor
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureQuadComb.CoefMeasureOrg:
@@ -405,9 +433,14 @@ CoefMeasureOrg
 
 
 
+
+
+
+
     Coefficient matrix for the quadratic part. Each element of this matrix contains an index referring to the input kinematic measures (similar to the ``MeasureOrganizer`` in class :ref:`AnyKinMeasureOrg`). Negative index means no measure, i.e. zero element in the matrix. The format of the matrix the same as the ``Coef`` matrix.
 
 ..
+
 
 
 
@@ -418,7 +451,7 @@ CoefMeasureOrg
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureQuadComb.CoefMeasureScaleFactors:
@@ -449,6 +482,10 @@ CoefMeasureScaleFactors
         its it is recommended to use 'CoefQuadTensor'
 
     
+
+
+
+
 
 
 

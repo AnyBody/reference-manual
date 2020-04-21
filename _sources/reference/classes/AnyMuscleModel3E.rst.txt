@@ -70,6 +70,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -110,6 +111,7 @@ F0
 
 
 
+
 ..
 
 .. raw:: html
@@ -145,6 +147,7 @@ Lt0
     Nominal tendon length.
 
 ..
+
 
 
 
@@ -191,6 +194,8 @@ Fcfast
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -202,7 +207,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMuscleModel3E.Lf0:
@@ -230,9 +235,14 @@ Lf0
 
 
 
+
+
+
+
     Muscle fiber length. In muscle models with length-varying strength, this is the optimal fiber length. Zero or negative lengths are ignored.
 
 ..
+
 
 
 
@@ -243,7 +253,7 @@ Lf0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Vol0:
@@ -271,9 +281,14 @@ Vol0
 
 
 
+
+
+
+
     Volume of the muscle fibers, which is used during muscle recruitment. Zero or negative volumes are ignored.
 
 ..
+
 
 
 
@@ -284,7 +299,7 @@ Vol0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Gamma0:
@@ -312,9 +327,14 @@ Gamma0
 
 
 
+
+
+
+
     Nominal pennation angle.
 
 ..
+
 
 
 
@@ -325,7 +345,7 @@ Gamma0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Epsilon0:
@@ -353,9 +373,14 @@ Epsilon0
 
 
 
+
+
+
+
     Nominal tendon strain, i.e., the strain at the isometric muscle force in the serial elastic element.
 
 ..
+
 
 
 
@@ -366,7 +391,7 @@ Epsilon0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Jt:
@@ -394,9 +419,14 @@ Jt
 
 
 
+
+
+
+
     Shape constant for the tendon (serial elastic) element force relationsship.
 
 ..
+
 
 
 
@@ -407,7 +437,7 @@ Jt
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Jpe:
@@ -435,9 +465,14 @@ Jpe
 
 
 
+
+
+
+
     Shape constant for the parallel elastic element force relationsship.
 
 ..
+
 
 
 
@@ -448,7 +483,7 @@ Jpe
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.K1:
@@ -476,9 +511,14 @@ K1
 
 
 
+
+
+
+
     Normalized maximum contraction velocity. The maximum velocity, called V0, is basically K1 times Lf0 (for K2=0).
 
 ..
+
 
 
 
@@ -489,7 +529,7 @@ K1
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.K2:
@@ -517,9 +557,14 @@ K2
 
 
 
+
+
+
+
     Contribution to normalized maximum velocity for fast fibers. K2 adds to V0's component from K1; K2's contribution to V0 is K2 times Lfbar times Fcfast.
 
 ..
+
 
 
 
@@ -530,7 +575,7 @@ K2
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.PEFactor:
@@ -558,9 +603,14 @@ PEFactor
 
 
 
+
+
+
+
     Relative stiffness parameter for the parallel elastic element. PEFactor times Lfbar is the fiber lenght at which the parallel elastic elements produce a force of F0.
 
 ..
+
 
 
 
@@ -571,7 +621,7 @@ PEFactor
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Lfbar:
@@ -599,9 +649,14 @@ Lfbar
 
 
 
+
+
+
+
     Nominal fiber length. Deprecated, use Lf0.
 
 ..
+
 
 
 
@@ -612,7 +667,7 @@ Lfbar
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Gammabar:
@@ -640,9 +695,14 @@ Gammabar
 
 
 
+
+
+
+
     Nominal pennation angle. Deprecated, use Gamma0.
 
 ..
+
 
 
 
@@ -653,7 +713,7 @@ Gammabar
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel3E.Epsilonbar:
@@ -678,6 +738,10 @@ Epsilonbar
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.05``
+
+
+
+
 
 
 

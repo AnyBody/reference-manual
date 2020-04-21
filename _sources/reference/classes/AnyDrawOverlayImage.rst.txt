@@ -98,6 +98,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -139,6 +140,8 @@ ImageFile
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -150,7 +153,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawOverlayImage.Visible:
@@ -178,9 +181,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -191,7 +199,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.Opacity:
@@ -219,9 +227,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -232,7 +245,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.Pickable:
@@ -260,9 +273,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -273,7 +291,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.PickableZOrdering:
@@ -301,9 +319,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -314,7 +337,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.PositionX:
@@ -342,9 +365,14 @@ PositionX
 
 
 
+
+
+
+
     The X position of the overlay image origin in the view (normalized or pixel-based). View origin is lower left corner
 
 ..
+
 
 
 
@@ -355,7 +383,7 @@ PositionX
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.PositionY:
@@ -383,9 +411,14 @@ PositionY
 
 
 
+
+
+
+
     The Y position of the overlay image origin in the view (normalized or pixel-based). View origin is lower left corner
 
 ..
+
 
 
 
@@ -396,7 +429,7 @@ PositionY
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.ImageWidth:
@@ -424,9 +457,14 @@ ImageWidth
 
 
 
+
+
+
+
     The width of the overlay image (normalized or pixel-based).
 
 ..
+
 
 
 
@@ -437,7 +475,7 @@ ImageWidth
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.ImageHeight:
@@ -465,9 +503,14 @@ ImageHeight
 
 
 
+
+
+
+
     The height of the overlay image (normalized or pixel-based).
 
 ..
+
 
 
 
@@ -478,7 +521,7 @@ ImageHeight
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.PixelBasedSizing:
@@ -506,9 +549,14 @@ PixelBasedSizing
 
 
 
+
+
+
+
     Option for whether the image size is in pixels or normalized to the view.
 
 ..
+
 
 
 
@@ -519,7 +567,7 @@ PixelBasedSizing
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.PixelBasedPosition:
@@ -547,9 +595,14 @@ PixelBasedPosition
 
 
 
+
+
+
+
     Option for whether the image position is in pixels or normalized to the view.
 
 ..
+
 
 
 
@@ -560,7 +613,7 @@ PixelBasedPosition
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.AutomaticAspectRatio:
@@ -588,9 +641,14 @@ AutomaticAspectRatio
 
 
 
+
+
+
+
     Option for whether the image aspect ratio should be automatically set, based on the source image file. Image size will be determined by p_imagewidth alone.
 
 ..
+
 
 
 
@@ -601,7 +659,7 @@ AutomaticAspectRatio
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawOverlayImage.ImageOrigin:
@@ -626,6 +684,10 @@ ImageOrigin
     | **Class type:**  :ref:`AnyImageOrigin`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``OriginBottomLeft``
+
+
+
+
 
 
 

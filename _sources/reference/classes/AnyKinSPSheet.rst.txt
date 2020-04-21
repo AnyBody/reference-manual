@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -155,6 +156,8 @@ RefFrames
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -166,7 +169,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinSPSheet.MeshLong:
@@ -194,9 +197,14 @@ MeshLong
 
 
 
+
+
+
+
     Defines the number of wrapping points on each line of the sheet. If more than one part is defined in the sheet (i.e. the number of rows in RefFrames greater 2) different numbers of points for each parts of the string can be defined. Thus, the dimension of MeshLong has to be the same as the number of parts of the sheet.
 
 ..
+
 
 
 
@@ -207,7 +215,7 @@ MeshLong
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.Thickness:
@@ -235,9 +243,14 @@ Thickness
 
 
 
+
+
+
+
     Defines a thickness of the sheet. The thickness defines a minimal distance between wrapping points and surface.
 
 ..
+
 
 
 
@@ -248,7 +261,7 @@ Thickness
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.StiffnessLong:
@@ -276,9 +289,14 @@ StiffnessLong
 
 
 
+
+
+
+
     Defines a linear spring stiffness between two wrapping points in axial direction. This can be used together with the StiffnessLong to control the shape of the sheet.
 
 ..
+
 
 
 
@@ -289,7 +307,7 @@ StiffnessLong
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.StiffnessLat:
@@ -317,9 +335,14 @@ StiffnessLat
 
 
 
+
+
+
+
     Defines a linear spring stiffness between two wrapping points in lateral direction. This can be used together with the StiffnessLong to control the shape of the sheet.
 
 ..
+
 
 
 
@@ -330,7 +353,7 @@ StiffnessLat
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.StiffnessRatiosLong:
@@ -358,9 +381,14 @@ StiffnessRatiosLong
 
 
 
+
+
+
+
     Matrix with factors multiplied to the longitudinal elements in the sheet.
 
 ..
+
 
 
 
@@ -371,7 +399,7 @@ StiffnessRatiosLong
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.StiffnessRatiosLat:
@@ -399,9 +427,14 @@ StiffnessRatiosLat
 
 
 
+
+
+
+
     Matrix with update-factors for the lateral elements in the sheet. The factor multiplied with the longitudinal stiffness is added to the lateral stiffness of an element.
 
 ..
+
 
 
 
@@ -412,7 +445,7 @@ StiffnessRatiosLat
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.SurfacesSwitch:
@@ -440,9 +473,14 @@ SurfacesSwitch
 
 
 
+
+
+
+
     Matrix containing 0 and 1 to indicate if a line is wrapping on a surface. The number of columns equals the number of lines, the number of rows equals the number of wrapping surfaces.
 
 ..
+
 
 
 
@@ -453,7 +491,7 @@ SurfacesSwitch
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConDistLongIndex:
@@ -481,9 +519,14 @@ ConDistLongIndex
 
 
 
+
+
+
+
     Line indices of the longitudinal distance constraints.
 
 ..
+
 
 
 
@@ -494,7 +537,7 @@ ConDistLongIndex
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConDistLongPointSwitch:
@@ -522,9 +565,14 @@ ConDistLongPointSwitch
 
 
 
+
+
+
+
     Switches for wrapping points defining the used points in a longitudinal distance constraint.
 
 ..
+
 
 
 
@@ -535,7 +583,7 @@ ConDistLongPointSwitch
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConDistLongValue:
@@ -563,9 +611,14 @@ ConDistLongValue
 
 
 
+
+
+
+
     Values of longitudinal distance constraints.
 
 ..
+
 
 
 
@@ -576,7 +629,7 @@ ConDistLongValue
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConDistLatIndex:
@@ -604,9 +657,14 @@ ConDistLatIndex
 
 
 
+
+
+
+
     Line indeices of a distance constraint in lateral direction.
 
 ..
+
 
 
 
@@ -617,7 +675,7 @@ ConDistLatIndex
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConDistLatPointSwitch:
@@ -645,9 +703,14 @@ ConDistLatPointSwitch
 
 
 
+
+
+
+
     Switches for wrapping points defining the used points in a lateral distance constraint.
 
 ..
+
 
 
 
@@ -658,7 +721,7 @@ ConDistLatPointSwitch
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConDistLatValue:
@@ -686,9 +749,14 @@ ConDistLatValue
 
 
 
+
+
+
+
     Values of lateral distance constraints.
 
 ..
+
 
 
 
@@ -699,7 +767,7 @@ ConDistLatValue
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConLinPointIndex:
@@ -727,9 +795,14 @@ ConLinPointIndex
 
 
 
+
+
+
+
     Indices of wrapping points affected by a linear constraint.
 
 ..
+
 
 
 
@@ -740,7 +813,7 @@ ConLinPointIndex
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConLinRefFrame:
@@ -768,9 +841,14 @@ ConLinRefFrame
 
 
 
+
+
+
+
     Reference frame defining the position of linear constraint.
 
 ..
+
 
 
 
@@ -781,7 +859,7 @@ ConLinRefFrame
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConLinDir:
@@ -809,9 +887,14 @@ ConLinDir
 
 
 
+
+
+
+
     Direction of a linear constraint.
 
 ..
+
 
 
 
@@ -822,7 +905,7 @@ ConLinDir
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ConLinDirRefFrame:
@@ -850,9 +933,14 @@ ConLinDirRefFrame
 
 
 
+
+
+
+
     Reference frame defining the orientation for the direction of a linear constraint.
 
 ..
+
 
 
 
@@ -863,7 +951,7 @@ ConLinDirRefFrame
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.InitWrapPosVecArr:
@@ -891,9 +979,14 @@ InitWrapPosVecArr
 
 
 
+
+
+
+
     Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
 
 ..
+
 
 
 
@@ -904,7 +997,7 @@ InitWrapPosVecArr
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.InitWrapPosOnlyOnOff:
@@ -932,9 +1025,14 @@ InitWrapPosOnlyOnOff
 
 
 
+
+
+
+
     Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
 
 ..
+
 
 
 
@@ -945,7 +1043,7 @@ InitWrapPosOnlyOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.InitWrapPosForEachStepOnOff:
@@ -973,9 +1071,14 @@ InitWrapPosForEachStepOnOff
 
 
 
+
+
+
+
     Switch evoking to use the inital conditions as inital guess in each time-step.
 
 ..
+
 
 
 
@@ -986,7 +1089,7 @@ InitWrapPosForEachStepOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.RelTol:
@@ -1014,9 +1117,14 @@ RelTol
 
 
 
+
+
+
+
     Relative tolerance on the length change of all strings that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
 
 ..
+
 
 
 
@@ -1027,7 +1135,7 @@ RelTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.AbsTol:
@@ -1055,9 +1163,14 @@ AbsTol
 
 
 
+
+
+
+
     Absolute tolerance on the change of positions of wrapping points that is used to determine whether the solution is acceptable.
 
 ..
+
 
 
 
@@ -1068,7 +1181,7 @@ AbsTol
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.ContactActivationDist:
@@ -1096,9 +1209,14 @@ ContactActivationDist
 
 
 
+
+
+
+
     Distance for activating a constraint for surface wrapping. This factor can improve speed and/or robustness.
 
 ..
+
 
 
 
@@ -1109,7 +1227,7 @@ ContactActivationDist
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.AugLagCoef:
@@ -1137,9 +1255,14 @@ AugLagCoef
 
 
 
+
+
+
+
     Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis. Together with SolverType this parameter can be used to change speed and robustness of the wrapping solver.
 
 ..
+
 
 
 
@@ -1150,7 +1273,7 @@ AugLagCoef
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinSPSheet.SolverType:
@@ -1175,6 +1298,10 @@ SolverType
     | **Class type:**  :ref:`AnyKinSPSheetSolverType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``SPSolverModes``
+
+
+
+
 
 
 

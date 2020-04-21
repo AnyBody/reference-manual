@@ -64,6 +64,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -105,6 +106,8 @@ Type
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -116,7 +119,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyFunInterpol.BsplineOrder:
@@ -144,9 +147,14 @@ BsplineOrder
 
 
 
+
+
+
+
     Order of B-spline interpolation. Notice that this number defines the order of continuity for the resulting function. Default value is set to provide continuity of second order derivatives.
 
 ..
+
 
 
 
@@ -157,7 +165,7 @@ BsplineOrder
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunInterpol.T:
@@ -185,9 +193,14 @@ T
 
 
 
+
+
+
+
     Time (parameter) data points.
 
 ..
+
 
 
 
@@ -198,7 +211,7 @@ T
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunInterpol.Data:
@@ -226,9 +239,14 @@ Data
 
 
 
+
+
+
+
     Matrix of data points. Each row contains the data points for one component of the return vector.
 
 ..
+
 
 
 
@@ -239,7 +257,7 @@ Data
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunInterpol.FileName:
@@ -267,9 +285,14 @@ FileName
 
 
 
+
+
+
+
     Name of a text file with data points in space-separated columns. The first column must hold T and the following must correspond to the rows of Data. Comments can be entered into the data file in lines that do not start with a number and after the correct number of values.
 
 ..
+
 
 
 
@@ -280,7 +303,7 @@ FileName
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyFunInterpol.FileErrorContinueOnOff:
@@ -305,6 +328,10 @@ FileErrorContinueOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
+
+
+
 
 
 

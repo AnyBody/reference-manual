@@ -159,6 +159,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -200,6 +201,8 @@ PressureModule
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -211,7 +214,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyForceSurfaceContact.MeshRefinementMaster:
@@ -239,9 +242,14 @@ MeshRefinementMaster
 
 
 
+
+
+
+
     Level of mesh refinement for computation of the master surface.
 
 ..
+
 
 
 
@@ -252,7 +260,7 @@ MeshRefinementMaster
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceSurfaceContact.MeshRefinementSlave:
@@ -280,9 +288,14 @@ MeshRefinementSlave
 
 
 
+
+
+
+
     Level of mesh refinement for computation of the slave surface.
 
 ..
+
 
 
 
@@ -293,7 +306,7 @@ MeshRefinementSlave
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceSurfaceContact.MinDepth:
@@ -321,9 +334,14 @@ MinDepth
 
 
 
+
+
+
+
     Minimal penetration depth considered in calculation.
 
 ..
+
 
 
 
@@ -334,7 +352,7 @@ MinDepth
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceSurfaceContact.MaxDepth:
@@ -362,9 +380,14 @@ MaxDepth
 
 
 
+
+
+
+
     Maximal penetration depth considered in calculation.
 
 ..
+
 
 
 
@@ -375,7 +398,7 @@ MaxDepth
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceSurfaceContact.SingleSidedOnOff:
@@ -403,9 +426,14 @@ SingleSidedOnOff
 
 
 
+
+
+
+
     Switch to turn on calculation just from master to slave.
 
 ..
+
 
 
 
@@ -416,7 +444,7 @@ SingleSidedOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceSurfaceContact.ForceViewOnOff:
@@ -444,9 +472,14 @@ ForceViewOnOff
 
 
 
+
+
+
+
     Drawing of contact forces. THIS MEMBER IS DEPRECATED AND ONLY LEFT FOR BACKWARDS COMPATIBILITY!!!
 
 ..
+
 
 
 
@@ -457,7 +490,7 @@ ForceViewOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceSurfaceContact.ProjectionThresholdMaster:
@@ -485,9 +518,14 @@ ProjectionThresholdMaster
 
 
 
+
+
+
+
     Threshold for the projection of the connection line and the master surface normal.
 
 ..
+
 
 
 
@@ -498,7 +536,7 @@ ProjectionThresholdMaster
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyForceSurfaceContact.ProjectionThresholdSlave:
@@ -523,6 +561,10 @@ ProjectionThresholdSlave
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
+
+
+
 
 
 

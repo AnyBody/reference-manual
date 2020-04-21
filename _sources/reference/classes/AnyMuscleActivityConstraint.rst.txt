@@ -114,6 +114,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -149,6 +150,7 @@ Coef
     Matrix of coefficients for the linear constraints. Each column corresponds to one muscle and each row defines one constraints.
 
 ..
+
 
 
 
@@ -195,6 +197,8 @@ Const
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -206,7 +210,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMuscleActivityConstraint.ForceArr:
@@ -234,9 +238,14 @@ ForceArr
 
 
 
+
+
+
+
     Array of pointers to the forces (class AnyForceBase and derived) that are basic input to the constraint.
 
 ..
+
 
 
 
@@ -247,7 +256,7 @@ ForceArr
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleActivityConstraint.ForceIndexArr:
@@ -275,9 +284,14 @@ ForceIndexArr
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -288,7 +302,7 @@ ForceIndexArr
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleActivityConstraint.CType:
@@ -316,9 +330,14 @@ CType
 
 
 
+
+
+
+
     Type of constraint. The type applies to all constraints from this object.
 
 ..
+
 
 
 
@@ -329,7 +348,7 @@ CType
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleActivityConstraint.nCon:
@@ -354,6 +373,10 @@ nCon
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1``
+
+
+
+
 
 
 

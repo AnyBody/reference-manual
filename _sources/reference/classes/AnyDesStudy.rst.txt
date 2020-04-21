@@ -150,6 +150,8 @@ AnyDesMeasure
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -161,7 +163,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDesStudy.LogFile:
@@ -189,9 +191,14 @@ LogFile
 
 
 
+
+
+
+
     Optional log file for use by the numerical routines in the operations. It may not be used by all type of AnyDesStudy; the file will be empty when not used by the study.
 
 ..
+
 
 
 
@@ -202,7 +209,7 @@ LogFile
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDesStudy.Analysis:
@@ -224,15 +231,6 @@ Analysis
 ..
 
 
-    | **Class type:**  :ref:`AnyOperationSequence`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    This analysis operation.
-
-..
 
 
 
@@ -243,13 +241,13 @@ Analysis
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDesStudy.Analysis.Settings:
 
 Analysis.Settings
-====================
+--------------------
 
 
 .. raw:: html
@@ -258,9 +256,9 @@ Analysis.Settings
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings">
     <span id="anydesstudy-analysis-settings" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis.Settings" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -290,7 +288,7 @@ Analysis.Settings
 .. _AnyDesStudy.Analysis.Settings.Echo:
 
 Analysis.Settings.Echo
-=========================
+-------------------------
 
 
 .. raw:: html
@@ -299,9 +297,9 @@ Analysis.Settings.Echo
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.Settings.Echo">
     <span id="anydesstudy-analysis-settings-echo" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.Echo" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -331,7 +329,7 @@ Analysis.Settings.Echo
 .. _AnyDesStudy.Analysis.Settings.ModelSceneUpdate:
 
 Analysis.Settings.ModelSceneUpdate
-=====================================
+-------------------------------------
 
 
 .. raw:: html
@@ -340,9 +338,9 @@ Analysis.Settings.ModelSceneUpdate
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings.ModelSceneUpdate">
     <span id="anydesstudy-analysis-settings-modelsceneupdate" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -372,7 +370,7 @@ Analysis.Settings.ModelSceneUpdate
 .. _AnyDesStudy.Analysis.Settings.DisplayPriority:
 
 Analysis.Settings.DisplayPriority
-====================================
+------------------------------------
 
 
 .. raw:: html
@@ -381,9 +379,9 @@ Analysis.Settings.DisplayPriority
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.Settings.DisplayPriority">
     <span id="anydesstudy-analysis-settings-displaypriority" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Analysis.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Analysis.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -413,7 +411,7 @@ Analysis.Settings.DisplayPriority
 .. _AnyDesStudy.Analysis.Settings.SelectOnLoad:
 
 Analysis.Settings.SelectOnLoad
-=================================
+---------------------------------
 
 
 .. raw:: html
@@ -422,9 +420,9 @@ Analysis.Settings.SelectOnLoad
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings.SelectOnLoad">
     <span id="anydesstudy-analysis-settings-selectonload" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Analysis.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Analysis.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -436,6 +434,16 @@ Analysis.Settings.SelectOnLoad
 
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+
+..
+
+
+
+
+
+
+
+    This analysis operation.
 
 ..
 

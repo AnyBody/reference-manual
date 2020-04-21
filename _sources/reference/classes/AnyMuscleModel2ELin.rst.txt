@@ -66,6 +66,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -106,6 +107,7 @@ F0
 
 
 
+
 ..
 
 .. raw:: html
@@ -141,6 +143,7 @@ Lt0
     Nominal tendon length.
 
 ..
+
 
 
 
@@ -187,6 +190,8 @@ V0
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -198,7 +203,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMuscleModel2ELin.Lf0:
@@ -226,9 +231,14 @@ Lf0
 
 
 
+
+
+
+
     Muscle fiber length. In muscle models with length-varying strength, this is the optimal fiber length. Zero or negative lengths are ignored.
 
 ..
+
 
 
 
@@ -239,7 +249,7 @@ Lf0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel2ELin.Vol0:
@@ -267,9 +277,14 @@ Vol0
 
 
 
+
+
+
+
     Volume of the muscle fibers, which is used during muscle recruitment. Zero or negative volumes are ignored.
 
 ..
+
 
 
 
@@ -280,7 +295,7 @@ Vol0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel2ELin.Lfbar:
@@ -308,9 +323,14 @@ Lfbar
 
 
 
+
+
+
+
     Nominal fiber length. Deprecated, use Lf0.
 
 ..
+
 
 
 
@@ -321,7 +341,7 @@ Lfbar
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel2ELin.Epsilon0:
@@ -349,9 +369,14 @@ Epsilon0
 
 
 
+
+
+
+
     Nominal tendon strain, i.e., the strain at the isometric muscle force in the serial elastic element.
 
 ..
+
 
 
 
@@ -362,7 +387,7 @@ Epsilon0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel2ELin.Epsilonbar:
@@ -387,6 +412,10 @@ Epsilonbar
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.05``
+
+
+
+
 
 
 

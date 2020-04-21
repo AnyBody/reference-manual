@@ -93,6 +93,8 @@ AnyStyleDrawMaterial
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -104,7 +106,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawForceSurface.Visible:
@@ -132,9 +134,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -145,7 +152,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.Opacity:
@@ -173,9 +180,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -186,7 +198,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.Pickable:
@@ -214,9 +226,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -227,7 +244,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.PickableZOrdering:
@@ -255,9 +272,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -268,7 +290,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.DrawSurf1RGB:
@@ -296,9 +318,14 @@ DrawSurf1RGB
 
 
 
+
+
+
+
     RGB color for the contact forces on the first surface.
 
 ..
+
 
 
 
@@ -309,7 +336,7 @@ DrawSurf1RGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.DrawSurf2RGB:
@@ -337,9 +364,14 @@ DrawSurf2RGB
 
 
 
+
+
+
+
     RGB color for the contact forces on the second surface.
 
 ..
+
 
 
 
@@ -350,7 +382,7 @@ DrawSurf2RGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.MasterSlaveConnectorLine:
@@ -378,9 +410,14 @@ MasterSlaveConnectorLine
 
 
 
+
+
+
+
     Switch for enabling drawing of the line connecting a contact point on the master surface to the found closest point on the slave surface.
 
 ..
+
 
 
 
@@ -391,7 +428,7 @@ MasterSlaveConnectorLine
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.SlaveMasterConnectorLine:
@@ -419,9 +456,14 @@ SlaveMasterConnectorLine
 
 
 
+
+
+
+
     Switch for enabling drawing of the line connecting a contact point on the slave surface to the found closest point on the master surface.
 
 ..
+
 
 
 
@@ -432,7 +474,7 @@ SlaveMasterConnectorLine
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.MasterSlaveConnectorLineRGB:
@@ -460,9 +502,14 @@ MasterSlaveConnectorLineRGB
 
 
 
+
+
+
+
     RGB color for the lines from master points to closest surface points on the slave surface.
 
 ..
+
 
 
 
@@ -473,7 +520,7 @@ MasterSlaveConnectorLineRGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawForceSurface.SlaveMasterConnectorLineRGB:
@@ -498,6 +545,10 @@ SlaveMasterConnectorLineRGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 0.0, 1.0}``
+
+
+
+
 
 
 

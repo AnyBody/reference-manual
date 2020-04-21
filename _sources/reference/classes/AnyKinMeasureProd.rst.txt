@@ -98,6 +98,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -133,6 +134,7 @@ Coef
     Matrix of coefficients for the linear combination. Each column corresponds to one component in the sub-measures and each row defines one of the new measures.
 
 ..
+
 
 
 
@@ -179,6 +181,8 @@ Type
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -190,7 +194,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinMeasureProd.OutDim:
@@ -218,9 +222,14 @@ OutDim
 
 
 
+
+
+
+
     Dimension of the output measure. This optional setting can be used to specify the dimension that alternatively is defined by the number of rows in Coef.
 
 ..
+
 
 
 
@@ -231,7 +240,7 @@ OutDim
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureProd.Const:
@@ -259,9 +268,14 @@ Const
 
 
 
+
+
+
+
     Vector of constants.
 
 ..
+
 
 
 
@@ -272,7 +286,7 @@ Const
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureProd.BsplineOrder:
@@ -300,9 +314,14 @@ BsplineOrder
 
 
 
+
+
+
+
     Order of B-spline interpolation, please refer to AnyFunInterpol.
 
 ..
+
 
 
 
@@ -313,7 +332,7 @@ BsplineOrder
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureProd.T:
@@ -341,9 +360,14 @@ T
 
 
 
+
+
+
+
     <No description>
 
 ..
+
 
 
 
@@ -354,7 +378,7 @@ T
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinMeasureProd.Data:
@@ -379,6 +403,10 @@ Data
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
+
+
+
 
 
 

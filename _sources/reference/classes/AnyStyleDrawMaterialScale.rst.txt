@@ -43,6 +43,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -54,7 +56,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.EnableCreasing:
@@ -82,9 +84,14 @@ EnableCreasing
 
 
 
+
+
+
+
     If set to Off, the creasing angle is ignored for this material.
 
 ..
+
 
 
 
@@ -95,7 +102,7 @@ EnableCreasing
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.CreasingAngle:
@@ -123,9 +130,14 @@ CreasingAngle
 
 
 
+
+
+
+
     The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.
 
 ..
+
 
 
 
@@ -136,7 +148,7 @@ CreasingAngle
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.EnableWireframe:
@@ -164,9 +176,14 @@ EnableWireframe
 
 
 
+
+
+
+
     If set to On, surfaces with this material will be rendered as wireframe.
 
 ..
+
 
 
 
@@ -177,7 +194,7 @@ EnableWireframe
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.EnableSmoothing:
@@ -205,9 +222,14 @@ EnableSmoothing
 
 
 
+
+
+
+
     If set to On, smoothing of surfaces are enabled for this material.
 
 ..
+
 
 
 
@@ -218,7 +240,7 @@ EnableSmoothing
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.Param:
@@ -246,9 +268,14 @@ Param
 
 
 
+
+
+
+
     Parameter controling the output. It must be initialized with an expression for the actual value.
 
 ..
+
 
 
 
@@ -259,7 +286,7 @@ Param
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.ParamArray:
@@ -287,9 +314,14 @@ ParamArray
 
 
 
+
+
+
+
     Parameter values for which corresponding RGB and opacity values are given in RGBArray and OpacityArray, respectively.
 
 ..
+
 
 
 
@@ -300,7 +332,7 @@ ParamArray
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.RGBArray:
@@ -328,9 +360,14 @@ RGBArray
 
 
 
+
+
+
+
     RGB color values corresponding to parameter values in ParamArray.
 
 ..
+
 
 
 
@@ -341,7 +378,7 @@ RGBArray
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyStyleDrawMaterialScale.OpacityArray:
@@ -366,6 +403,10 @@ OpacityArray
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0}``
+
+
+
+
 
 
 

@@ -59,6 +59,8 @@ Description
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -70,7 +72,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyChartStyleFolder.Style:
@@ -98,9 +100,14 @@ Style
 
 
 
+
+
+
+
     Style of the plotting area.
 
 ..
+
 
 
 
@@ -111,7 +118,7 @@ Style
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartStyleFolder.Sizes:
@@ -139,9 +146,14 @@ Sizes
 
 
 
+
+
+
+
     Sizes of three dimensions of the plotting area.
 
 ..
+
 
 
 
@@ -152,7 +164,7 @@ Sizes
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartStyleFolder.AutoSizes:
@@ -180,9 +192,14 @@ AutoSizes
 
 
 
+
+
+
+
     Switch for using automtic sizes of the chart objects. This is useful when using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.
 
 ..
+
 
 
 
@@ -193,7 +210,7 @@ AutoSizes
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartStyleFolder.AutoPosition:
@@ -221,9 +238,14 @@ AutoPosition
 
 
 
+
+
+
+
     Switch for using automtic positioning the chart objects. This is when useful using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.
 
 ..
+
 
 
 
@@ -234,7 +256,7 @@ AutoPosition
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartStyleFolder.LinkCursors:
@@ -262,9 +284,14 @@ LinkCursors
 
 
 
+
+
+
+
     Switch for linking cursor. If 'On' cursor from different matching series, i.e., series with the same abscissa selections will be linked so they move together. If 'Off' cursors are idependent for each serie.
 
 ..
+
 
 
 
@@ -275,7 +302,7 @@ LinkCursors
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyChartStyleFolder.Axes:
@@ -297,15 +324,6 @@ Axes
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleDrawLine`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Line style for axes.
-
-..
 
 
 
@@ -316,13 +334,13 @@ Axes
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyChartStyleFolder.Axes.Style:
 
 Axes.Style
-=============
+-------------
 
 
 .. raw:: html
@@ -331,9 +349,9 @@ Axes.Style
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Axes.Style">
     <span id="anychartstylefolder-axes-style" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Axes.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DStyleFull </span><a class="headerlink" href="#Axes.Style" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DStyleFull </span><a class="headerlink" href="#Axes.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line style.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -363,7 +381,7 @@ Axes.Style
 .. _AnyChartStyleFolder.Axes.Thickness:
 
 Axes.Thickness
-=================
+-----------------
 
 
 .. raw:: html
@@ -372,9 +390,9 @@ Axes.Thickness
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Axes.Thickness">
     <span id="anychartstylefolder-axes-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Axes.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Axes.Thickness" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Axes.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line thickness.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -404,7 +422,7 @@ Axes.Thickness
 .. _AnyChartStyleFolder.Axes.RGB:
 
 Axes.RGB
-===========
+-----------
 
 
 .. raw:: html
@@ -413,9 +431,9 @@ Axes.RGB
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Axes.RGB">
     <span id="anychartstylefolder-axes-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Axes.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {1.0, 1.0, 1.0} </span><a class="headerlink" href="#Axes.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {1.0, 1.0, 1.0} </span><a class="headerlink" href="#Axes.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -434,12 +452,23 @@ Axes.RGB
 
 
 
+
+
+    Line style for axes.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyChartStyleFolder.Title:
@@ -452,7 +481,7 @@ Title
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title">
     <span id="anychartstylefolder-title" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Title </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">Title text field.</span>
@@ -461,15 +490,6 @@ Title
 ..
 
 
-    | **Class type:**  :ref:`AnyChartTextField`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Title text field.
-
-..
 
 
 
@@ -480,13 +500,13 @@ Title
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyChartStyleFolder.Title.Visible:
 
 Title.Visible
-================
+----------------
 
 
 .. raw:: html
@@ -495,9 +515,9 @@ Title.Visible
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title.Visible">
     <span id="anychartstylefolder-title-visible" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Visible" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for visiblity.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -527,7 +547,7 @@ Title.Visible
 .. _AnyChartStyleFolder.Title.Font:
 
 Title.Font
-=============
+-------------
 
 
 .. raw:: html
@@ -536,9 +556,9 @@ Title.Font
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title.Font">
     <span id="anychartstylefolder-title-font" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Title.Font" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Title.Font" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font settings.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -568,7 +588,7 @@ Title.Font
 .. _AnyChartStyleFolder.Title.Font.RGB:
 
 Title.Font.RGB
-=================
+-----------------
 
 
 .. raw:: html
@@ -577,9 +597,9 @@ Title.Font.RGB
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title.Font.RGB">
     <span id="anychartstylefolder-title-font-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Title.Font.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Title.Font.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -609,7 +629,7 @@ Title.Font.RGB
 .. _AnyChartStyleFolder.Title.Font.FontName:
 
 Title.Font.FontName
-======================
+----------------------
 
 
 .. raw:: html
@@ -618,9 +638,9 @@ Title.Font.FontName
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title.Font.FontName">
     <span id="anychartstylefolder-title-font-fontname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#Title.Font.FontName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#Title.Font.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -650,7 +670,7 @@ Title.Font.FontName
 .. _AnyChartStyleFolder.Title.Font.Height:
 
 Title.Font.Height
-====================
+--------------------
 
 
 .. raw:: html
@@ -659,9 +679,9 @@ Title.Font.Height
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title.Font.Height">
     <span id="anychartstylefolder-title-font-height" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Title.Font.Height" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Title.Font.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -691,7 +711,7 @@ Title.Font.Height
 .. _AnyChartStyleFolder.Title.Font.Width:
 
 Title.Font.Width
-===================
+-------------------
 
 
 .. raw:: html
@@ -700,9 +720,9 @@ Title.Font.Width
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title.Font.Width">
     <span id="anychartstylefolder-title-font-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Title.Font.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Title.Font.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -732,7 +752,7 @@ Title.Font.Width
 .. _AnyChartStyleFolder.Title.Font.Bold:
 
 Title.Font.Bold
-==================
+------------------
 
 
 .. raw:: html
@@ -741,9 +761,9 @@ Title.Font.Bold
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title.Font.Bold">
     <span id="anychartstylefolder-title-font-bold" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Title.Font.Bold" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Title.Font.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -773,7 +793,7 @@ Title.Font.Bold
 .. _AnyChartStyleFolder.Title.Font.Italic:
 
 Title.Font.Italic
-====================
+--------------------
 
 
 .. raw:: html
@@ -782,9 +802,9 @@ Title.Font.Italic
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title.Font.Italic">
     <span id="anychartstylefolder-title-font-italic" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Title.Font.Italic" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Title.Font.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -814,7 +834,7 @@ Title.Font.Italic
 .. _AnyChartStyleFolder.Title.Font.BillBoardView:
 
 Title.Font.BillBoardView
-===========================
+---------------------------
 
 
 .. raw:: html
@@ -823,9 +843,9 @@ Title.Font.BillBoardView
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title.Font.BillBoardView">
     <span id="anychartstylefolder-title-font-billboardview" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Font.BillBoardView" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Font.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -855,7 +875,7 @@ Title.Font.BillBoardView
 .. _AnyChartStyleFolder.Title.Font.ModelSized:
 
 Title.Font.ModelSized
-========================
+------------------------
 
 
 .. raw:: html
@@ -864,9 +884,9 @@ Title.Font.ModelSized
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title.Font.ModelSized">
     <span id="anychartstylefolder-title-font-modelsized" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Font.ModelSized" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Font.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -896,7 +916,7 @@ Title.Font.ModelSized
 .. _AnyChartStyleFolder.Title.Font.ModelScaleHeight:
 
 Title.Font.ModelScaleHeight
-==============================
+------------------------------
 
 
 .. raw:: html
@@ -905,9 +925,9 @@ Title.Font.ModelScaleHeight
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title.Font.ModelScaleHeight">
     <span id="anychartstylefolder-title-font-modelscaleheight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Title.Font.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Title.Font.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -937,7 +957,7 @@ Title.Font.ModelScaleHeight
 .. _AnyChartStyleFolder.Title.Font.ModelScaleWidth:
 
 Title.Font.ModelScaleWidth
-=============================
+-----------------------------
 
 
 .. raw:: html
@@ -946,9 +966,9 @@ Title.Font.ModelScaleWidth
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title.Font.ModelScaleWidth">
     <span id="anychartstylefolder-title-font-modelscalewidth" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Font.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Title.Font.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Title.Font.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -978,7 +998,7 @@ Title.Font.ModelScaleWidth
 .. _AnyChartStyleFolder.Title.Text:
 
 Title.Text
-=============
+-------------
 
 
 .. raw:: html
@@ -987,9 +1007,9 @@ Title.Text
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title.Text">
     <span id="anychartstylefolder-title-text" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Title.Text </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Title.Text" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Text </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Title.Text" title="Permalink to this headline">¶</a>
     <span class="member-descr">Text string.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1008,12 +1028,23 @@ Title.Text
 
 
 
+
+
+    Title text field.
+
+..
+
+
+
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div></div> <!--
 ..
 
 .. _AnyChartStyleFolder.MessageFont:
@@ -1035,15 +1066,6 @@ MessageFont
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleFont3DView`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Font used for messages dispalyed inside in chart arear.
-
-..
 
 
 
@@ -1054,13 +1076,13 @@ MessageFont
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyChartStyleFolder.MessageFont.RGB:
 
 MessageFont.RGB
-==================
+------------------
 
 
 .. raw:: html
@@ -1069,9 +1091,9 @@ MessageFont.RGB
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MessageFont.RGB">
     <span id="anychartstylefolder-messagefont-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#MessageFont.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#MessageFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1101,7 +1123,7 @@ MessageFont.RGB
 .. _AnyChartStyleFolder.MessageFont.FontName:
 
 MessageFont.FontName
-=======================
+-----------------------
 
 
 .. raw:: html
@@ -1110,9 +1132,9 @@ MessageFont.FontName
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MessageFont.FontName">
     <span id="anychartstylefolder-messagefont-fontname" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#MessageFont.FontName" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#MessageFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1142,7 +1164,7 @@ MessageFont.FontName
 .. _AnyChartStyleFolder.MessageFont.Height:
 
 MessageFont.Height
-=====================
+---------------------
 
 
 .. raw:: html
@@ -1151,9 +1173,9 @@ MessageFont.Height
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MessageFont.Height">
     <span id="anychartstylefolder-messagefont-height" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#MessageFont.Height" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#MessageFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1183,7 +1205,7 @@ MessageFont.Height
 .. _AnyChartStyleFolder.MessageFont.Width:
 
 MessageFont.Width
-====================
+--------------------
 
 
 .. raw:: html
@@ -1192,9 +1214,9 @@ MessageFont.Width
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MessageFont.Width">
     <span id="anychartstylefolder-messagefont-width" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#MessageFont.Width" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#MessageFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1224,7 +1246,7 @@ MessageFont.Width
 .. _AnyChartStyleFolder.MessageFont.Bold:
 
 MessageFont.Bold
-===================
+-------------------
 
 
 .. raw:: html
@@ -1233,9 +1255,9 @@ MessageFont.Bold
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MessageFont.Bold">
     <span id="anychartstylefolder-messagefont-bold" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#MessageFont.Bold" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#MessageFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1265,7 +1287,7 @@ MessageFont.Bold
 .. _AnyChartStyleFolder.MessageFont.Italic:
 
 MessageFont.Italic
-=====================
+---------------------
 
 
 .. raw:: html
@@ -1274,9 +1296,9 @@ MessageFont.Italic
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MessageFont.Italic">
     <span id="anychartstylefolder-messagefont-italic" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#MessageFont.Italic" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#MessageFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1306,7 +1328,7 @@ MessageFont.Italic
 .. _AnyChartStyleFolder.MessageFont.BillBoardView:
 
 MessageFont.BillBoardView
-============================
+----------------------------
 
 
 .. raw:: html
@@ -1315,9 +1337,9 @@ MessageFont.BillBoardView
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MessageFont.BillBoardView">
     <span id="anychartstylefolder-messagefont-billboardview" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#MessageFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#MessageFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1347,7 +1369,7 @@ MessageFont.BillBoardView
 .. _AnyChartStyleFolder.MessageFont.ModelSized:
 
 MessageFont.ModelSized
-=========================
+-------------------------
 
 
 .. raw:: html
@@ -1356,9 +1378,9 @@ MessageFont.ModelSized
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MessageFont.ModelSized">
     <span id="anychartstylefolder-messagefont-modelsized" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#MessageFont.ModelSized" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#MessageFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1388,7 +1410,7 @@ MessageFont.ModelSized
 .. _AnyChartStyleFolder.MessageFont.ModelScaleHeight:
 
 MessageFont.ModelScaleHeight
-===============================
+-------------------------------
 
 
 .. raw:: html
@@ -1397,9 +1419,9 @@ MessageFont.ModelScaleHeight
 
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MessageFont.ModelScaleHeight">
     <span id="anychartstylefolder-messagefont-modelscaleheight" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#MessageFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#MessageFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1429,7 +1451,7 @@ MessageFont.ModelScaleHeight
 .. _AnyChartStyleFolder.MessageFont.ModelScaleWidth:
 
 MessageFont.ModelScaleWidth
-==============================
+------------------------------
 
 
 .. raw:: html
@@ -1438,9 +1460,9 @@ MessageFont.ModelScaleWidth
 
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MessageFont.ModelScaleWidth">
     <span id="anychartstylefolder-messagefont-modelscalewidth" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#MessageFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#MessageFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -1452,6 +1474,16 @@ MessageFont.ModelScaleWidth
 
 
     The width scaling of the text when ModelSized is enabled.
+
+..
+
+
+
+
+
+
+
+    Font used for messages dispalyed inside in chart arear.
 
 ..
 

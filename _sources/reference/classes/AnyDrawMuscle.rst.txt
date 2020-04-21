@@ -109,6 +109,8 @@ AnyStyleDrawMaterial
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -120,7 +122,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyDrawMuscle.Visible:
@@ -148,9 +150,14 @@ Visible
 
 
 
+
+
+
+
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -161,7 +168,7 @@ Visible
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.Opacity:
@@ -189,9 +196,14 @@ Opacity
 
 
 
+
+
+
+
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -202,7 +214,7 @@ Opacity
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.Pickable:
@@ -230,9 +242,14 @@ Pickable
 
 
 
+
+
+
+
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -243,7 +260,7 @@ Pickable
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.PickableZOrdering:
@@ -271,9 +288,14 @@ PickableZOrdering
 
 
 
+
+
+
+
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -284,7 +306,7 @@ PickableZOrdering
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.RGB:
@@ -312,9 +334,14 @@ RGB
 
 
 
+
+
+
+
     Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.
 
 ..
+
 
 
 
@@ -325,7 +352,7 @@ RGB
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.Transparency:
@@ -353,9 +380,14 @@ Transparency
 
 
 
+
+
+
+
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
+
 
 
 
@@ -366,7 +398,7 @@ Transparency
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.DrawOnOff:
@@ -396,6 +428,10 @@ DrawOnOff
 
 
 
+
+
+
+
     Integer value that controls if to draw the muscle or not 
     Options are:
     0: Do not draw the muscle
@@ -407,12 +443,13 @@ DrawOnOff
 
 
 
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.Bulging:
@@ -440,6 +477,10 @@ Bulging
 
 
 
+
+
+
+
     Integer value that specifies that the muscle bulges according to:1: The muscle activity.
     2: The current strength relative to the nominal strength.  
     3: The actual force compared to the nominal strength. 
@@ -452,12 +493,13 @@ Bulging
 
 
 
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.ColorScale:
@@ -485,6 +527,10 @@ ColorScale
 
 
 
+
+
+
+
     Integer value that controls the color interpolation between the color in RGBColorScale and RGB. 
     Options are:
     1: The muscle activity.
@@ -498,12 +544,13 @@ ColorScale
 
 
 
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.RGBColorScale:
@@ -531,9 +578,14 @@ RGBColorScale
 
 
 
+
+
+
+
     Color used for color scaling, values should be given in the range 0 to 1.
 
 ..
+
 
 
 
@@ -544,7 +596,7 @@ RGBColorScale
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.MaxStress:
@@ -572,9 +624,14 @@ MaxStress
 
 
 
+
+
+
+
     MaxStress is the maximum allowed stress in the muscle used for estimating the visual thickness of the muscles. The default radius of the muscle is determined based on the strength and this MaxStress value.
 
 ..
+
 
 
 
@@ -585,7 +642,7 @@ MaxStress
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.DrawScaleOnOff:
@@ -613,9 +670,14 @@ DrawScaleOnOff
 
 
 
+
+
+
+
     Switch for turning on multiple-color color scaling.
 
 ..
+
 
 
 
@@ -626,7 +688,7 @@ DrawScaleOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyDrawMuscle.DrawScale:
@@ -648,15 +710,6 @@ DrawScale
 ..
 
 
-    | **Class type:**  :ref:`AnyStyleDrawMaterialScale`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-    Drawing material style settings that defines the multi-color coloring function.
-
-..
 
 
 
@@ -667,24 +720,24 @@ DrawScale
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyDrawMuscle.DrawScale.EnableCreasing:
 
 DrawScale.EnableCreasing
-===========================
+---------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.EnableCreasing">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.EnableCreasing">
     <span id="anydrawmuscle-drawscale-enablecreasing" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.EnableCreasing </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#DrawScale.EnableCreasing" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.EnableCreasing </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#DrawScale.EnableCreasing" title="Permalink to this headline">¶</a>
     <span class="member-descr">If set to Off, the creasing angle is ignored for this material.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -714,18 +767,18 @@ DrawScale.EnableCreasing
 .. _AnyDrawMuscle.DrawScale.CreasingAngle:
 
 DrawScale.CreasingAngle
-==========================
+--------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.CreasingAngle">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.CreasingAngle">
     <span id="anydrawmuscle-drawscale-creasingangle" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.CreasingAngle </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.524 </span><a class="headerlink" href="#DrawScale.CreasingAngle" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.CreasingAngle </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.524 </span><a class="headerlink" href="#DrawScale.CreasingAngle" title="Permalink to this headline">¶</a>
     <span class="member-descr">The maximum angle (in radians) between neighboring triangle before the edge...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -755,18 +808,18 @@ DrawScale.CreasingAngle
 .. _AnyDrawMuscle.DrawScale.EnableWireframe:
 
 DrawScale.EnableWireframe
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.EnableWireframe">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.EnableWireframe">
     <span id="anydrawmuscle-drawscale-enablewireframe" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.EnableWireframe </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#DrawScale.EnableWireframe" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.EnableWireframe </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#DrawScale.EnableWireframe" title="Permalink to this headline">¶</a>
     <span class="member-descr">If set to On, surfaces with this material will be rendered as wireframe.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -796,18 +849,18 @@ DrawScale.EnableWireframe
 .. _AnyDrawMuscle.DrawScale.EnableSmoothing:
 
 DrawScale.EnableSmoothing
-============================
+----------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.EnableSmoothing">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.EnableSmoothing">
     <span id="anydrawmuscle-drawscale-enablesmoothing" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.EnableSmoothing </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#DrawScale.EnableSmoothing" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.EnableSmoothing </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#DrawScale.EnableSmoothing" title="Permalink to this headline">¶</a>
     <span class="member-descr">If set to On, smoothing of surfaces are enabled for this material.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -837,18 +890,18 @@ DrawScale.EnableSmoothing
 .. _AnyDrawMuscle.DrawScale.Param:
 
 DrawScale.Param
-==================
+------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.Param">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.Param">
     <span id="anydrawmuscle-drawscale-param" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.Param </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#DrawScale.Param" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Param </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#DrawScale.Param" title="Permalink to this headline">¶</a>
     <span class="member-descr">Parameter controling the output. It must be initialized with an expression...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -878,18 +931,18 @@ DrawScale.Param
 .. _AnyDrawMuscle.DrawScale.ParamArray:
 
 DrawScale.ParamArray
-=======================
+-----------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.ParamArray">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.ParamArray">
     <span id="anydrawmuscle-drawscale-paramarray" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.ParamArray </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DrawScale.ParamArray" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ParamArray </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DrawScale.ParamArray" title="Permalink to this headline">¶</a>
     <span class="member-descr">Parameter values for which corresponding RGB and opacity values are given in...</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -919,18 +972,18 @@ DrawScale.ParamArray
 .. _AnyDrawMuscle.DrawScale.RGBArray:
 
 DrawScale.RGBArray
-=====================
+---------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.RGBArray">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.RGBArray">
     <span id="anydrawmuscle-drawscale-rgbarray" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.RGBArray </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DrawScale.RGBArray" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGBArray </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DrawScale.RGBArray" title="Permalink to this headline">¶</a>
     <span class="member-descr">RGB color values corresponding to parameter values in ParamArray.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -960,18 +1013,18 @@ DrawScale.RGBArray
 .. _AnyDrawMuscle.DrawScale.OpacityArray:
 
 DrawScale.OpacityArray
-=========================
+-------------------------
 
 
 .. raw:: html
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale.OpacityArray">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="DrawScale.OpacityArray">
     <span id="anydrawmuscle-drawscale-opacityarray" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale.OpacityArray </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DrawScale.OpacityArray" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.OpacityArray </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#DrawScale.OpacityArray" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity values corresponding to parameter values in ParamArray.</span>
-    </h3>
+    </h4>
 
 ..
 
@@ -983,6 +1036,16 @@ DrawScale.OpacityArray
 
 
     Opacity values corresponding to parameter values in ParamArray.
+
+..
+
+
+
+
+
+
+
+    Drawing material style settings that defines the multi-color coloring function.
 
 ..
 

@@ -66,6 +66,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -107,6 +108,8 @@ F0
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -118,7 +121,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyMuscleModel.Lf0:
@@ -146,9 +149,14 @@ Lf0
 
 
 
+
+
+
+
     Muscle fiber length. In muscle models with length-varying strength, this is the optimal fiber length. Zero or negative lengths are ignored.
 
 ..
+
 
 
 
@@ -159,7 +167,7 @@ Lf0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyMuscleModel.Vol0:
@@ -184,6 +192,10 @@ Vol0
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
+
+
+
 
 
 

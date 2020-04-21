@@ -109,6 +109,8 @@ AnySeg
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -120,7 +122,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyKinCoM.Type:
@@ -148,9 +150,14 @@ Type
 
 
 
+
+
+
+
     Coordinate type specification.
 
 ..
+
 
 
 
@@ -161,7 +168,7 @@ Type
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinCoM.Ref:
@@ -189,9 +196,14 @@ Ref
 
 
 
+
+
+
+
     Integer numbers that specify the reference system in which the vector is measured. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
 
 ..
+
 
 
 
@@ -202,7 +214,7 @@ Ref
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinCoM.LineLineDistanceAxes:
@@ -230,9 +242,14 @@ LineLineDistanceAxes
 
 
 
+
+
+
+
     Pairs of axes for which line-to-line distances are measured when Type is LineLineDistance.
 
 ..
+
 
 
 
@@ -243,7 +260,7 @@ LineLineDistanceAxes
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinCoM.LineLineDistanceAxisLength:
@@ -271,9 +288,14 @@ LineLineDistanceAxisLength
 
 
 
+
+
+
+
     Length of the secondary axis used for line-to-line distances when Type is LineLineDistance. The sencondary axis if set to this finite length to smoothen the singularity for parallel lines.
 
 ..
+
 
 
 
@@ -284,7 +306,7 @@ LineLineDistanceAxisLength
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyKinCoM.AngularAxis:
@@ -309,6 +331,10 @@ AngularAxis
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``z``
+
+
+
+
 
 
 

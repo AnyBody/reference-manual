@@ -48,6 +48,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -89,6 +90,8 @@ Points
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -100,7 +103,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnySurfEllipsoidFit.FixedAxes:
@@ -128,9 +131,14 @@ FixedAxes
 
 
 
+
+
+
+
     A flag to align fitted ellipsoid with the axes of parent ref. frame.
 
 ..
+
 
 
 
@@ -141,7 +149,7 @@ FixedAxes
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfEllipsoidFit.AxisSymmetry:
@@ -169,9 +177,14 @@ AxisSymmetry
 
 
 
+
+
+
+
     A flag to fit an ellipsoid with two equal radii and the third radius to be along specified axis.
 
 ..
+
 
 
 
@@ -182,7 +195,7 @@ AxisSymmetry
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfEllipsoidFit.Spherical:
@@ -210,9 +223,14 @@ Spherical
 
 
 
+
+
+
+
     A flag to fit a sphere, overwrites all other flags.
 
 ..
+
 
 
 
@@ -223,7 +241,7 @@ Spherical
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnySurfEllipsoidFit.Axis:
@@ -248,6 +266,10 @@ Axis
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``z``
+
+
+
+
 
 
 

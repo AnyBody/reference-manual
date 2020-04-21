@@ -109,6 +109,8 @@ AnyScene
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -120,7 +122,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyCameraModelView.FocalDist:
@@ -148,9 +150,14 @@ FocalDist
 
 
 
+
+
+
+
     Distance to the focal plane in (model units).
 
 ..
+
 
 
 
@@ -161,7 +168,7 @@ FocalDist
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCameraModelView.FocalHeight:
@@ -189,9 +196,14 @@ FocalHeight
 
 
 
+
+
+
+
     Height of the view area in focal plane (model units).
 
 ..
+
 
 
 
@@ -202,7 +214,7 @@ FocalHeight
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCameraModelView.Near:
@@ -230,9 +242,14 @@ Near
 
 
 
+
+
+
+
     Distance from eye to the nearest clipping plane (model units). Everything closer to the eye point is not visible.
 
 ..
+
 
 
 
@@ -243,7 +260,7 @@ Near
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCameraModelView.Far:
@@ -271,9 +288,14 @@ Far
 
 
 
+
+
+
+
     Distance from eye to the farest??? clipping plane (model units). Everything further away from the eye point is not visible.
 
 ..
+
 
 
 
@@ -284,7 +306,7 @@ Far
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCameraModelView.Perspective:
@@ -312,9 +334,14 @@ Perspective
 
 
 
+
+
+
+
     Switch for perspective view. Alternatively, the view is orthographic.
 
 ..
+
 
 
 
@@ -325,7 +352,7 @@ Perspective
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCameraModelView.Pos:
@@ -353,9 +380,14 @@ Pos
 
 
 
+
+
+
+
     Positioning vector for the camera/eye point.
 
 ..
+
 
 
 
@@ -366,7 +398,7 @@ Pos
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCameraModelView.EulerPar:
@@ -394,9 +426,14 @@ EulerPar
 
 
 
+
+
+
+
     Orientation view point reference frame given by Euler Parameters (quarternions).
 
 ..
+
 
 
 
@@ -407,7 +444,7 @@ EulerPar
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyCameraModelView.LookAtDist:
@@ -432,6 +469,10 @@ LookAtDist
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
+
+
+
 
 
 

@@ -48,6 +48,7 @@ Required initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -89,6 +90,8 @@ FileName
 
 
 
+
+
 *******************************
 Optional initialization members
 *******************************
@@ -100,7 +103,7 @@ Optional initialization members
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    <!--
+      <!--
 ..
 
 .. _AnyInputFile.FileErrorContinueOnOff:
@@ -128,9 +131,14 @@ FileErrorContinueOnOff
 
 
 
+
+
+
+
     A switch to indicate whether reading of the data should continue even though the file contains errors.
 
 ..
+
 
 
 
@@ -141,7 +149,7 @@ FileErrorContinueOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputFile.TOnOff:
@@ -169,9 +177,14 @@ TOnOff
 
 
 
+
+
+
+
     Switch whether the data should use the separate "time" parameter 'T'.
 
 ..
+
 
 
 
@@ -182,7 +195,7 @@ TOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputFile.ReloadOnOff:
@@ -210,9 +223,14 @@ ReloadOnOff
 
 
 
+
+
+
+
     Switch for turning on auto reloading.
 
 ..
+
 
 
 
@@ -223,7 +241,7 @@ ReloadOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputFile.SuppressWarningsOnOff:
@@ -251,9 +269,14 @@ SuppressWarningsOnOff
 
 
 
+
+
+
+
     Switch for suppressing warnings during auto reloading. Warnings are suppressedby downgrading them from "Important Warnings" to normal "Warnings", which are not shown by default.
 
 ..
+
 
 
 
@@ -264,7 +287,7 @@ SuppressWarningsOnOff
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputFile.AlwaysUseData0:
@@ -292,9 +315,14 @@ AlwaysUseData0
 
 
 
+
+
+
+
     Switch for force the use of the default values T0 and Data0 instead of the data in the file.
 
 ..
+
 
 
 
@@ -305,7 +333,7 @@ AlwaysUseData0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputFile.T0:
@@ -333,9 +361,14 @@ T0
 
 
 
+
+
+
+
     Default time data that is used if the data in file not usable.
 
 ..
+
 
 
 
@@ -346,7 +379,7 @@ T0
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+     </div> <!--
 ..
 
 .. _AnyInputFile.Data0:
@@ -371,6 +404,10 @@ Data0
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
+
+
+
 
 
 
