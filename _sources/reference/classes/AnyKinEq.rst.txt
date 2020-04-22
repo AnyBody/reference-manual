@@ -117,6 +117,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -147,16 +148,18 @@ MeasureOrganizer
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     List of indices of components from the assembled measures to be included in the new (organized) measure.
 
 ..
+
 
 
 
@@ -193,16 +196,18 @@ CType
     | **Class type:**  :ref:`AnyKinEqType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Constraint type specification that specify how the kinematic solver should handle the constraint.
 
 ..
+
 
 
 
@@ -239,14 +244,97 @@ WeightFun
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+Reaction
+===========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Reaction" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Reaction forces associated with the constraints.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyKinEq.Reaction.Type:
+
+Reaction.Type
+----------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Reaction.Type">
+    <span id="anykineq-reaction-type" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Reaction.Type" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Type specification of the reaction forces.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyReacForceType`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** *Depends on other values*
+        
+
+    Type specification of the reaction forces.
+
+..
+
+
+
+    
+
+
+
+    
 
 ..
 

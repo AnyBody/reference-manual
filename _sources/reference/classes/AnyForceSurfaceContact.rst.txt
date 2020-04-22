@@ -209,6 +209,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -239,16 +240,18 @@ MeshRefinementMaster
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Level of mesh refinement for computation of the master surface.
 
 ..
+
 
 
 
@@ -285,16 +288,18 @@ MeshRefinementSlave
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Level of mesh refinement for computation of the slave surface.
 
 ..
+
 
 
 
@@ -331,16 +336,18 @@ MinDepth
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Minimal penetration depth considered in calculation.
 
 ..
+
 
 
 
@@ -377,16 +384,18 @@ MaxDepth
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``100000.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximal penetration depth considered in calculation.
 
 ..
+
 
 
 
@@ -423,16 +432,18 @@ SingleSidedOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch to turn on calculation just from master to slave.
 
 ..
+
 
 
 
@@ -469,16 +480,18 @@ ForceViewOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Drawing of contact forces. THIS MEMBER IS DEPRECATED AND ONLY LEFT FOR BACKWARDS COMPATIBILITY!!!
 
 ..
+
 
 
 
@@ -515,16 +528,18 @@ ProjectionThresholdMaster
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Threshold for the projection of the connection line and the master surface normal.
 
 ..
+
 
 
 
@@ -561,10 +576,11 @@ ProjectionThresholdSlave
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 

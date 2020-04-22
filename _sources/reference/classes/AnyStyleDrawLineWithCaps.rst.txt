@@ -98,6 +98,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -128,16 +129,18 @@ Style
     | **Class type:**  :ref:`AnyEnumLine3DStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Line3DStyleFull``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Line style.
 
 ..
+
 
 
 
@@ -174,16 +177,18 @@ RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Color in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -198,8 +203,6 @@ RGB
      </div> <!--
 ..
 
-.. _AnyStyleDrawLineWithCaps.Start:
-
 Start
 ========
 
@@ -208,8 +211,8 @@ Start
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Start">
-    <span id="anystyledrawlinewithcaps-start" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Start </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Start" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for starting cap of line.</span>
     </h3>
@@ -218,9 +221,9 @@ Start
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -252,8 +255,7 @@ Start.Style
     | **Class type:**  :ref:`AnyEnumLine3DCapStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
 
@@ -261,7 +263,7 @@ Start.Style
 
 
 
-
+    
 
 ..
 
@@ -293,8 +295,7 @@ Start.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -302,7 +303,7 @@ Start.RGB
 
 
 
-
+    
 
 ..
 
@@ -334,8 +335,7 @@ Start.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Cap thickness (must be larger than line thickness).
 
@@ -343,7 +343,7 @@ Start.Thickness
 
 
 
-
+    
 
 ..
 
@@ -375,8 +375,7 @@ Start.Length
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Cap length.
 
@@ -384,13 +383,14 @@ Start.Length
 
 
 
+    
 
 
 
-
-    Style folder for starting cap of line.
+    
 
 ..
+
 
 
 
@@ -405,8 +405,6 @@ Start.Length
      </div></div> <!--
 ..
 
-.. _AnyStyleDrawLineWithCaps.End:
-
 End
 ======
 
@@ -415,8 +413,8 @@ End
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="End">
-    <span id="anystyledrawlinewithcaps-end" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> End </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#End" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for ending cap of line.</span>
     </h3>
@@ -425,9 +423,9 @@ End
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -459,8 +457,7 @@ End.Style
     | **Class type:**  :ref:`AnyEnumLine3DCapStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
 
@@ -468,7 +465,7 @@ End.Style
 
 
 
-
+    
 
 ..
 
@@ -500,8 +497,7 @@ End.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -509,7 +505,7 @@ End.RGB
 
 
 
-
+    
 
 ..
 
@@ -541,8 +537,7 @@ End.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Cap thickness (must be larger than line thickness).
 
@@ -550,7 +545,7 @@ End.Thickness
 
 
 
-
+    
 
 ..
 
@@ -582,8 +577,7 @@ End.Length
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Cap length.
 
@@ -591,11 +585,11 @@ End.Length
 
 
 
+    
 
 
 
-
-    Style folder for ending cap of line.
+    
 
 ..
 

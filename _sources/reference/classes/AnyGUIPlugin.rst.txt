@@ -139,6 +139,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -169,16 +170,18 @@ PluginFile
     | **Class type:**  :ref:`AnyFileVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Filename of the plugin.
 
 ..
+
 
 
 
@@ -215,16 +218,18 @@ PluginCommand
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"import sys;print(f'''Lauched new interface on port:{sys.argv[2]}...``
+    
 
-
-
-
+    
+    
+    
 
 
 
     <No description>
 
 ..
+
 
 
 
@@ -261,16 +266,18 @@ Extra
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Extra information that can be retrieved by the plug-in.
 
 ..
+
 
 
 
@@ -307,16 +314,18 @@ Console
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Run plug-in with or without a console window.
 
 ..
+
 
 
 
@@ -353,16 +362,18 @@ Interactive
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     For debugging: implies 'Console' - run python with the -i option for interactive mode.
 
 ..
+
 
 
 
@@ -399,16 +410,18 @@ ExcludeFromToolBar
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Chooses whether or not the plug-in should be part of the toolbar or not
 
 ..
+
 
 
 
@@ -445,10 +458,11 @@ ShowToolbarIconOnly
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 

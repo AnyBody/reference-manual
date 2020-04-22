@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -97,16 +98,18 @@ ForceTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.001``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Tolerance used in stopping criterion.
 
 ..
+
 
 
 
@@ -143,16 +146,18 @@ UseAdaptiveForceTolOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the stopping criterion uses. Off: the actual force residual for the force dependent degrees of freedom, or On: the force residual converted using last known stiffness to a displacement value, i.e. a more direct measure of kinematic accuracy.
 
 ..
+
 
 
 
@@ -189,16 +194,18 @@ MaxIteration
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``100``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximal number of steps allowed in the iteration.
 
 ..
+
 
 
 
@@ -235,16 +242,18 @@ Perturbation
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Perturbation value used to numerical jacobian computation.
 
 ..
+
 
 
 
@@ -281,16 +290,18 @@ PerturbationSymmetricOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using symmetric differentiation scheme for calculation of numerical Jacobian.
 
 ..
+
 
 
 
@@ -327,16 +338,18 @@ LocalSearchOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using a search method (golden-section search) for each Newton iteration instead of a simpler relaxation scheme.
 
 ..
+
 
 
 
@@ -373,16 +386,18 @@ MaxNewtonStep
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.001``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximal size of component of the update vector of the newton iteration during the solution of a FDK step.
 
 ..
+
 
 
 
@@ -419,16 +434,18 @@ SolverType
     | **Class type:**  :ref:`AnyFDKSolverType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``FDK_Solver_Newton``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Solver method used for the FDK iterations.
 
 ..
+
 
 
 
@@ -465,16 +482,18 @@ ComplexPowerExp
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     <No description>
 
 ..
+
 
 
 
@@ -511,16 +530,18 @@ ComplexAlpha
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.3``
+    
 
-
-
-
+    
+    
+    
 
 
 
     <No description>
 
 ..
+
 
 
 
@@ -557,16 +578,18 @@ ComplexMaxNumRepeat
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``4``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
 
 ..
+
 
 
 
@@ -603,16 +626,18 @@ ComplexPopulationSize
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of the population for the Complex solver, i.e., the number of design points in the population.
 
 ..
+
 
 
 
@@ -649,16 +674,18 @@ ComplexAnalysisFailedPenalty
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e+16``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Penalty factor used in the Complex solver to change degrees of freedem if the kinematic analysis failes.
 
 ..
+
 
 
 
@@ -695,16 +722,18 @@ ComplexConvergenceObjectiveTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Convergence tolerance of the objective function for the Complex solver.
 
 ..
+
 
 
 
@@ -741,16 +770,18 @@ ComplexConvergenceDesignTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Convergence tolerance of the FDK degrees of freedeom for the Complex solver.
 
 ..
+
 
 
 
@@ -787,16 +818,18 @@ ComplexPopulationBoxSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.005``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of the box in the design space of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
 
 ..
+
 
 
 
@@ -833,16 +866,18 @@ ComplexRefinementConvergenceObjectiveTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Convergence tolerance on the objective function of the refinement step of the Complex solver.
 
 ..
+
 
 
 
@@ -879,16 +914,18 @@ ComplexRefinementConvergenceDesignTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-09``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Convergence tolerance on the FDK degrees of freedom of the refinement step of the Complex solver.
 
 ..
+
 
 
 
@@ -925,10 +962,11 @@ ComplexRefinementPopulationBoxSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+    
 
-
-
-
+    
+    
+    
 
 
 

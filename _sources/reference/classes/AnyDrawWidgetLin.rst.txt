@@ -189,6 +189,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -219,16 +220,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -265,16 +268,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -311,16 +316,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -357,16 +364,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -403,16 +412,18 @@ Operation
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Operation setting, which specifies which operation to perform when the Operation Criteria is met.
 
 ..
+
 
 
 
@@ -449,16 +460,18 @@ UpdateEvent
     | **Class type:**  :ref:`AnyUpdateEventType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Operation criteria setting, which specifies in which circumstances the operation defined by the Operation member should be executed.
 
 ..
+
 
 
 
@@ -495,16 +508,18 @@ MaxDrawSize
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set, this setting controls the maximum drawing size in meters of the AnyDrawWidget.
 
 ..
+
 
 
 
@@ -541,16 +556,18 @@ MinDrawSize
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set, this setting controls the minimum drawing size in meters of the AnyDrawWidget.
 
 ..
+
 
 
 
@@ -587,16 +604,18 @@ RelPos
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Translational offset of the graphical linear widget in the Target's reference frame.
 
 ..
+
 
 
 
@@ -633,16 +652,18 @@ RelRotMat
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Rotational offset of the graphical linear widget in the Target's reference frame.
 
 ..
+
 
 
 
@@ -679,10 +700,11 @@ AxisOnOff
     | **Class type:**  :ref:`AnySwitch`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{On, On, On}``
+    
 
-
-
-
+    
+    
+    
 
 
 

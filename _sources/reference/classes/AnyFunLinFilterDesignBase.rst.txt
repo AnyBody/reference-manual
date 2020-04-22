@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -97,16 +98,18 @@ z0
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Initial condition vector.
 
 ..
+
 
 
 
@@ -143,16 +146,18 @@ AutomaticInitialConditionOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch to specify whether or not the initial conditions are calculated automatically.
 
 ..
+
 
 
 
@@ -189,16 +194,18 @@ FilterForwardBackwardOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch to specify if filtering should only be performed in the forward direction or both in the forward and backward direction.
 
 ..
+
 
 
 
@@ -235,16 +242,18 @@ N
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``2``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The filter order.
 
 ..
+
 
 
 
@@ -281,16 +290,18 @@ W
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     The normalized cut-off frequency(ies).
 
 ..
+
 
 
 
@@ -327,16 +338,18 @@ Fs
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The sample frequency of the data to be filtered.
 
 ..
+
 
 
 
@@ -373,16 +386,18 @@ Fc
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     The cut-off frequency(ies).
 
 ..
+
 
 
 
@@ -419,10 +434,11 @@ Type
     | **Class type:**  :ref:`AnyFilterType`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 

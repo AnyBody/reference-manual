@@ -92,8 +92,8 @@
 The joint coordinate vector consists of two angles that are the relative
 rotation angles about the two specified axes.</p>
 <p> </p>
-<table class="colwidths-given plain docutils align-default" id="id2">
-<caption><span class="caption-text">Demo examples related to AnyUniversalJoint</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given plain docutils align-default" id="id4">
+<caption><span class="caption-text">Demo examples related to AnyUniversalJoint</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 75%" />
@@ -168,6 +168,101 @@ rotation angles about the two specified axes.</p>
 </div>
 <p>Rotation axis on the 2nd AnyRefFrame.</p>
 </div></blockquote>
+</div>
+</div>
+<div class="section" id="optional-initialization-members">
+<h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
+<!-- Hack to trick sphinx into adding member target link -->
+  <!--<div class="section" id="constraints">
+<h3>Constraints<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
+<h3 class="html-toggle-button" style=""><span class="member-title"> Constraints </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Constraints" title="Permalink to this headline">¶</a>
+<span class="member-descr">AnyKinEq measure that specifies the kinematic constraints of the joint.</span>
+</h3><!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="constraints-ctype">
+<span id="anyuniversaljoint-constraints-ctype"></span><h4>Constraints.CType<a class="headerlink" href="#constraints-ctype" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Constraints.CType">
+<span id="anyuniversaljoint-constraints-ctype" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.CType </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.CType" title="Permalink to this headline">¶</a>
+<span class="member-descr">Constraint type specification that specify how the kinematic solver should...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyKinEqType.html#anykineqtype"><span class="std std-ref">AnyKinEqType</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
+</div>
+<p>Constraint type specification that specify how the kinematic solver should handle the constraint.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-weightfun">
+<span id="anyuniversaljoint-constraints-weightfun"></span><h4>Constraints.WeightFun<a class="headerlink" href="#constraints-weightfun" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Constraints.WeightFun">
+<span id="anyuniversaljoint-constraints-weightfun" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.WeightFun </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.WeightFun" title="Permalink to this headline">¶</a>
+<span class="member-descr">Kinematic weighting functions, i.e., time-functions (AnyParamFun) which...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
+</div>
+<p>Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="constraints-reaction-type">
+<span id="anyuniversaljoint-constraints-reaction-type"></span><h4>Constraints.Reaction.Type<a class="headerlink" href="#constraints-reaction-type" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Constraints.Reaction.Type">
+<span id="anyuniversaljoint-constraints-reaction-type" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Reaction.Type </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Constraints.Reaction.Type" title="Permalink to this headline">¶</a>
+<span class="member-descr">Type specification of the reaction forces.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyReacForceType.html#anyreacforcetype"><span class="std std-ref">AnyReacForceType</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
+</div>
+<p>Type specification of the reaction forces.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div></div> <!--</div>
+</div>
+<div class="section" id="linear">
+<h3>Linear<a class="headerlink" href="#linear" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
+<h3 class="html-toggle-button" style=""><span class="member-title"> Linear </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Linear" title="Permalink to this headline">¶</a>
+<span class="member-descr">The measure of translation.</span>
+</h3><!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="linear-ref">
+<span id="anyuniversaljoint-linear-ref"></span><h4>Linear.Ref<a class="headerlink" href="#linear-ref" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Linear.Ref">
+<span id="anyuniversaljoint-linear-ref" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Ref </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Linear.Ref" title="Permalink to this headline">¶</a>
+<span class="member-descr">Integer numbers that specify the reference system in which the vector is...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
+</div>
+<p>Integer numbers that specify the reference system in which the vector is measured. ‘-1’ is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.</p>
+</div></blockquote>
+</div>
 </div>
 </div>
 <div class="html-toggle section" id="denied-access-members">
@@ -461,8 +556,8 @@ rotation angles about the two specified axes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
-<div class="section" id="constraints">
-<span id="anyuniversaljoint-constraints"></span><h3>Constraints<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="anyuniversaljoint-constraints">
+<span id="id2"></span><h3>Constraints<a class="headerlink" href="#anyuniversaljoint-constraints" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Constraints">
@@ -1127,8 +1222,8 @@ rotation angles about the two specified axes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
-<div class="section" id="linear">
-<span id="anyuniversaljoint-linear"></span><h3>Linear<a class="headerlink" href="#linear" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="anyuniversaljoint-linear">
+<span id="id3"></span><h3>Linear<a class="headerlink" href="#anyuniversaljoint-linear" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Linear">

@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -74,8 +75,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnyProjectOutputObject.Description:
 
 Description
 ==============
@@ -85,8 +84,8 @@ Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description">
-    <span id="anyprojectoutputobject-description" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
     </h3>
@@ -95,9 +94,9 @@ Description
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -129,8 +128,7 @@ Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
 
@@ -138,7 +136,7 @@ Description.BodyText
 
 
 
-
+    
 
 ..
 
@@ -170,8 +168,7 @@ Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The title of the description. Shown in bold at the top of the window pane.
 
@@ -179,7 +176,7 @@ Description.Title
 
 
 
-
+    
 
 ..
 
@@ -211,8 +208,7 @@ Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
 
@@ -220,7 +216,7 @@ Description.BodyHTML
 
 
 
-
+    
 
 ..
 
@@ -252,8 +248,7 @@ Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
 
@@ -261,7 +256,7 @@ Description.HTMLURL
 
 
 
-
+    
 
 ..
 
@@ -293,8 +288,7 @@ Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
 
@@ -302,7 +296,7 @@ Description.Tooltip
 
 
 
-
+    
 
 ..
 
@@ -334,8 +328,7 @@ Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
 
@@ -343,11 +336,11 @@ Description.Files
 
 
 
+    
 
 
 
-
-    Description folder.
+    
 
 ..
 

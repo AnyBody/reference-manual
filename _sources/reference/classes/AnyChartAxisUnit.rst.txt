@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -97,16 +98,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for visibility.
 
 ..
+
 
 
 
@@ -143,16 +146,18 @@ AutoUnit
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for automatic determination of the unit size.
 
 ..
+
 
 
 
@@ -189,16 +194,18 @@ AutoScale
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     <No description>
 
 ..
+
 
 
 
@@ -235,16 +242,18 @@ Divisions
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``10``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of the unit specified by a requested number of divisions of the axis' data range. This is used for the automatical determination of the unit size.
 
 ..
+
 
 
 
@@ -281,16 +290,18 @@ Unit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.2``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of the unit. If AutoUnit is On specified, it will be automatically determined from Divisions and the data range.
 
 ..
+
 
 
 
@@ -327,16 +338,18 @@ TickInside
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of tick inside the plotting area.
 
 ..
+
 
 
 
@@ -373,16 +386,18 @@ TickOutside
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of tick outside the plotting area.
 
 ..
+
 
 
 
@@ -419,16 +434,18 @@ GridLines
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for visibility of the grid lines.
 
 ..
+
 
 
 
@@ -443,8 +460,6 @@ GridLines
      </div> <!--
 ..
 
-.. _AnyChartAxisUnit.GridLineStyle:
-
 GridLineStyle
 ================
 
@@ -453,8 +468,8 @@ GridLineStyle
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="GridLineStyle">
-    <span id="anychartaxisunit-gridlinestyle" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> GridLineStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#GridLineStyle" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style settings for the grid lines.</span>
     </h3>
@@ -463,9 +478,9 @@ GridLineStyle
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -497,8 +512,7 @@ GridLineStyle.Style
     | **Class type:**  :ref:`AnyEnumLine3DStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Line3DStyleFull``
-
-
+        
 
     Line style.
 
@@ -506,7 +520,7 @@ GridLineStyle.Style
 
 
 
-
+    
 
 ..
 
@@ -538,8 +552,7 @@ GridLineStyle.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Line thickness.
 
@@ -547,7 +560,7 @@ GridLineStyle.Thickness
 
 
 
-
+    
 
 ..
 
@@ -579,8 +592,7 @@ GridLineStyle.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -588,13 +600,14 @@ GridLineStyle.RGB
 
 
 
+    
 
 
 
-
-    Style settings for the grid lines.
+    
 
 ..
+
 
 
 
@@ -631,16 +644,18 @@ Text
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for visibility of the unit text.
 
 ..
+
 
 
 
@@ -655,8 +670,6 @@ Text
      </div> <!--
 ..
 
-.. _AnyChartAxisUnit.TextFont:
-
 TextFont
 ===========
 
@@ -665,8 +678,8 @@ TextFont
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont">
-    <span id="anychartaxisunit-textfont" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font settings for the unit text.</span>
     </h3>
@@ -675,9 +688,9 @@ TextFont
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -709,8 +722,7 @@ TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -718,7 +730,7 @@ TextFont.RGB
 
 
 
-
+    
 
 ..
 
@@ -750,8 +762,7 @@ TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -759,7 +770,7 @@ TextFont.FontName
 
 
 
-
+    
 
 ..
 
@@ -791,8 +802,7 @@ TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -800,7 +810,7 @@ TextFont.Height
 
 
 
-
+    
 
 ..
 
@@ -832,8 +842,7 @@ TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -841,7 +850,7 @@ TextFont.Width
 
 
 
-
+    
 
 ..
 
@@ -873,8 +882,7 @@ TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -882,7 +890,7 @@ TextFont.Bold
 
 
 
-
+    
 
 ..
 
@@ -914,8 +922,7 @@ TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -923,7 +930,7 @@ TextFont.Italic
 
 
 
-
+    
 
 ..
 
@@ -955,8 +962,7 @@ TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -964,7 +970,7 @@ TextFont.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -996,8 +1002,7 @@ TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -1005,7 +1010,7 @@ TextFont.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -1037,8 +1042,7 @@ TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -1046,7 +1050,7 @@ TextFont.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -1078,8 +1082,7 @@ TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -1087,13 +1090,14 @@ TextFont.ModelScaleWidth
 
 
 
+    
 
 
 
-
-    Font settings for the unit text.
+    
 
 ..
+
 
 
 
@@ -1130,16 +1134,18 @@ TextSpace
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Space between the unit text and the axis.
 
 ..
+
 
 
 
@@ -1154,8 +1160,6 @@ TextSpace
      </div> <!--
 ..
 
-.. _AnyChartAxisUnit.NumberFormat:
-
 NumberFormat
 ===============
 
@@ -1164,8 +1168,8 @@ NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat">
-    <span id="anychartaxisunit-numberformat" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for the unit text.</span>
     </h3>
@@ -1174,9 +1178,9 @@ NumberFormat
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1208,8 +1212,7 @@ NumberFormat.Digits
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``8``
-
-
+        
 
     Number of digits in output. Disregarded if smaller than one.
 
@@ -1217,7 +1220,7 @@ NumberFormat.Digits
 
 
 
-
+    
 
 ..
 
@@ -1249,8 +1252,7 @@ NumberFormat.Style
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
-
-
+        
 
     Style of the numeric output.
 
@@ -1258,7 +1260,7 @@ NumberFormat.Style
 
 
 
-
+    
 
 ..
 
@@ -1290,8 +1292,7 @@ NumberFormat.Scale
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for scaling.
 
@@ -1299,7 +1300,7 @@ NumberFormat.Scale
 
 
 
-
+    
 
 ..
 
@@ -1331,8 +1332,7 @@ NumberFormat.ScaleVal
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Scaling factor.
 
@@ -1340,11 +1340,11 @@ NumberFormat.ScaleVal
 
 
 
+    
 
 
 
-
-    Format settings for the unit text.
+    
 
 ..
 

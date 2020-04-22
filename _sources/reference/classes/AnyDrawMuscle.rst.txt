@@ -117,6 +117,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -147,16 +148,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -193,16 +196,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -239,16 +244,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -285,16 +292,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -331,16 +340,18 @@ RGB
     | **Class type:**  :ref:`AnyRGBs`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.5546875, 0.1015625, 0.1171875}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.
 
 ..
+
 
 
 
@@ -377,16 +388,18 @@ Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
+
 
 
 
@@ -425,10 +438,11 @@ DrawOnOff
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
@@ -438,6 +452,7 @@ DrawOnOff
     1: Draw the muscle
 
 ..
+
 
 
 
@@ -474,10 +489,11 @@ Bulging
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
@@ -488,6 +504,7 @@ Bulging
     Otherwise, the muscle will have constant radius given by the nominal strength of the muscle and the member MaxStress.
 
 ..
+
 
 
 
@@ -524,10 +541,11 @@ ColorScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
@@ -539,6 +557,7 @@ ColorScale
     Otherwise, the muscle will have the color given in RGB.
 
 ..
+
 
 
 
@@ -575,16 +594,18 @@ RGBColorScale
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.95703125, 0.78515625, 0.78515625}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Color used for color scaling, values should be given in the range 0 to 1.
 
 ..
+
 
 
 
@@ -621,16 +642,18 @@ MaxStress
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``250000.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     MaxStress is the maximum allowed stress in the muscle used for estimating the visual thickness of the muscles. The default radius of the muscle is determined based on the strength and this MaxStress value.
 
 ..
+
 
 
 
@@ -667,16 +690,18 @@ DrawScaleOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for turning on multiple-color color scaling.
 
 ..
+
 
 
 
@@ -691,8 +716,6 @@ DrawScaleOnOff
      </div> <!--
 ..
 
-.. _AnyDrawMuscle.DrawScale:
-
 DrawScale
 ============
 
@@ -701,8 +724,8 @@ DrawScale
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale">
-    <span id="anydrawmuscle-drawscale" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#DrawScale" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing material style settings that defines the multi-color coloring function.</span>
     </h3>
@@ -711,9 +734,9 @@ DrawScale
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -745,8 +768,7 @@ DrawScale.EnableCreasing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     If set to Off, the creasing angle is ignored for this material.
 
@@ -754,7 +776,7 @@ DrawScale.EnableCreasing
 
 
 
-
+    
 
 ..
 
@@ -786,8 +808,7 @@ DrawScale.CreasingAngle
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.524``
-
-
+        
 
     The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.
 
@@ -795,7 +816,7 @@ DrawScale.CreasingAngle
 
 
 
-
+    
 
 ..
 
@@ -827,8 +848,7 @@ DrawScale.EnableWireframe
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     If set to On, surfaces with this material will be rendered as wireframe.
 
@@ -836,7 +856,7 @@ DrawScale.EnableWireframe
 
 
 
-
+    
 
 ..
 
@@ -868,8 +888,7 @@ DrawScale.EnableSmoothing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     If set to On, smoothing of surfaces are enabled for this material.
 
@@ -877,7 +896,7 @@ DrawScale.EnableSmoothing
 
 
 
-
+    
 
 ..
 
@@ -909,8 +928,7 @@ DrawScale.Param
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Parameter controling the output. It must be initialized with an expression for the actual value.
 
@@ -918,7 +936,7 @@ DrawScale.Param
 
 
 
-
+    
 
 ..
 
@@ -950,8 +968,7 @@ DrawScale.ParamArray
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Parameter values for which corresponding RGB and opacity values are given in RGBArray and OpacityArray, respectively.
 
@@ -959,7 +976,7 @@ DrawScale.ParamArray
 
 
 
-
+    
 
 ..
 
@@ -991,8 +1008,7 @@ DrawScale.RGBArray
     | **Class type:**  :ref:`AnyRGBs`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     RGB color values corresponding to parameter values in ParamArray.
 
@@ -1000,7 +1016,7 @@ DrawScale.RGBArray
 
 
 
-
+    
 
 ..
 
@@ -1032,8 +1048,7 @@ DrawScale.OpacityArray
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Opacity values corresponding to parameter values in ParamArray.
 
@@ -1041,11 +1056,11 @@ DrawScale.OpacityArray
 
 
 
+    
 
 
 
-
-    Drawing material style settings that defines the multi-color coloring function.
+    
 
 ..
 

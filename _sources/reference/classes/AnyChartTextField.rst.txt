@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -97,16 +98,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for visiblity.
 
 ..
+
 
 
 
@@ -121,8 +124,6 @@ Visible
      </div> <!--
 ..
 
-.. _AnyChartTextField.Font:
-
 Font
 =======
 
@@ -131,8 +132,8 @@ Font
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Font">
-    <span id="anycharttextfield-font" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Font </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Font" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font settings.</span>
     </h3>
@@ -141,9 +142,9 @@ Font
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -175,8 +176,7 @@ Font.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -184,7 +184,7 @@ Font.RGB
 
 
 
-
+    
 
 ..
 
@@ -216,8 +216,7 @@ Font.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -225,7 +224,7 @@ Font.FontName
 
 
 
-
+    
 
 ..
 
@@ -257,8 +256,7 @@ Font.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -266,7 +264,7 @@ Font.Height
 
 
 
-
+    
 
 ..
 
@@ -298,8 +296,7 @@ Font.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -307,7 +304,7 @@ Font.Width
 
 
 
-
+    
 
 ..
 
@@ -339,8 +336,7 @@ Font.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -348,7 +344,7 @@ Font.Bold
 
 
 
-
+    
 
 ..
 
@@ -380,8 +376,7 @@ Font.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -389,7 +384,7 @@ Font.Italic
 
 
 
-
+    
 
 ..
 
@@ -421,8 +416,7 @@ Font.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -430,7 +424,7 @@ Font.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -462,8 +456,7 @@ Font.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -471,7 +464,7 @@ Font.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -503,8 +496,7 @@ Font.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -512,7 +504,7 @@ Font.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -544,8 +536,7 @@ Font.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -553,13 +544,14 @@ Font.ModelScaleWidth
 
 
 
+    
 
 
 
-
-    Font settings.
+    
 
 ..
+
 
 
 
@@ -596,10 +588,11 @@ Text
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 

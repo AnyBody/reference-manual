@@ -101,6 +101,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -131,16 +132,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -177,16 +180,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -223,16 +228,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -269,16 +276,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -315,16 +324,18 @@ DrawSurf1RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     RGB color for the contact forces on the first surface.
 
 ..
+
 
 
 
@@ -361,16 +372,18 @@ DrawSurf2RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     RGB color for the contact forces on the second surface.
 
 ..
+
 
 
 
@@ -407,16 +420,18 @@ MasterSlaveConnectorLine
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for enabling drawing of the line connecting a contact point on the master surface to the found closest point on the slave surface.
 
 ..
+
 
 
 
@@ -453,16 +468,18 @@ SlaveMasterConnectorLine
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for enabling drawing of the line connecting a contact point on the slave surface to the found closest point on the master surface.
 
 ..
+
 
 
 
@@ -499,16 +516,18 @@ MasterSlaveConnectorLineRGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 1.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     RGB color for the lines from master points to closest surface points on the slave surface.
 
 ..
+
 
 
 
@@ -545,10 +564,11 @@ SlaveMasterConnectorLineRGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 0.0, 1.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 

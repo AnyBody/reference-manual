@@ -164,6 +164,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -194,16 +195,18 @@ Coef
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Matrix of coefficients for the linear combination. Each column corresponds to one component in the sub-measures and each row defines one of the new measures.
 
 ..
+
 
 
 
@@ -240,16 +243,18 @@ Const
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Vector of constants.
 
 ..
+
 
 
 
@@ -286,16 +291,18 @@ CoefTimeFun
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Pointer to a parameter function that provide any time-dependent component of the 'Coef' matrix. The output of the function must match the dimensions of 'Coef' or at least have the same number of elements.
 
 ..
+
 
 
 
@@ -332,16 +339,18 @@ ConstTimeFun
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Pointer to a parameter function that provide any time-dependent component of the 'Const' vector. The output of the function must have the same number of elements as 'Const'.
 
 ..
+
 
 
 
@@ -378,16 +387,18 @@ CoefQuadTensor
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Coefficient tensor for the quadratic part. This is an array of square matrices with the dimension of the number of input measures. Each of matrix defines the quadratic term for one of the output measures, see class :ref:`AnyKinMeasureQuadComb`.
 
 ..
+
 
 
 
@@ -415,7 +426,7 @@ CoefMeasureOrg
     <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="CoefMeasureOrg">
     <span id="anykinmeasurequadcomb-coefmeasureorg" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> CoefMeasureOrg </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#CoefMeasureOrg" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Coefficient matrix for the quadratic part. Each element of this matrix...</span>
+    <span class="member-descr">(Deprecated) Coefficient matrix for the quadratic part. Each element of this...</span>
     </h3>
 
 ..
@@ -424,6 +435,7 @@ CoefMeasureOrg
     | **Class type:**  :ref:`AnyIntArray2`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
     .. deprecated::
        This member was only available during beta testing and though still functional,
@@ -431,15 +443,16 @@ CoefMeasureOrg
 
     
 
+    
+    
+    
 
 
 
-
-
-
-    Coefficient matrix for the quadratic part. Each element of this matrix contains an index referring to the input kinematic measures (similar to the ``MeasureOrganizer`` in class :ref:`AnyKinMeasureOrg`). Negative index means no measure, i.e. zero element in the matrix. The format of the matrix the same as the ``Coef`` matrix.
+    (Deprecated) Coefficient matrix for the quadratic part. Each element of this matrix contains an index referring to the input kinematic measures (similar to the ``MeasureOrganizer`` in class :ref:`AnyKinMeasureOrg`). Negative index means no measure, i.e. zero element in the matrix. The format of the matrix the same as the ``Coef`` matrix.
 
 ..
+
 
 
 
@@ -467,7 +480,7 @@ CoefMeasureScaleFactors
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="CoefMeasureScaleFactors">
     <span id="anykinmeasurequadcomb-coefmeasurescalefactors" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> CoefMeasureScaleFactors </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#CoefMeasureScaleFactors" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Coefficient matrix of constant scaling factors that are multiplied with the...</span>
+    <span class="member-descr">(Deprecated) Coefficient matrix of constant scaling factors that are...</span>
     </h3>
 
 ..
@@ -476,6 +489,7 @@ CoefMeasureScaleFactors
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
     .. deprecated::
        This member was only available during beta testing and though still functional,
@@ -483,13 +497,13 @@ CoefMeasureScaleFactors
 
     
 
+    
+    
+    
 
 
 
-
-
-
-    Coefficient matrix of constant scaling factors that are multiplied with the measure values in ``CoefMeasureOrg``. The format of the matrix the same as the ``CoefMeasureOrg`` matrix.
+    (Deprecated) Coefficient matrix of constant scaling factors that are multiplied with the measure values in ``CoefMeasureOrg``. The format of the matrix the same as the ``CoefMeasureOrg`` matrix.
 
 ..
 

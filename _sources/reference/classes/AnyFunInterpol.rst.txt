@@ -114,6 +114,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -144,16 +145,18 @@ BsplineOrder
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``4``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Order of B-spline interpolation. Notice that this number defines the order of continuity for the resulting function. Default value is set to provide continuity of second order derivatives.
 
 ..
+
 
 
 
@@ -190,16 +193,18 @@ T
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Time (parameter) data points.
 
 ..
+
 
 
 
@@ -236,16 +241,18 @@ Data
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Matrix of data points. Each row contains the data points for one component of the return vector.
 
 ..
+
 
 
 
@@ -282,16 +289,18 @@ FileName
     | **Class type:**  :ref:`AnyFileVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Name of a text file with data points in space-separated columns. The first column must hold T and the following must correspond to the rows of Data. Comments can be entered into the data file in lines that do not start with a number and after the correct number of values.
 
 ..
+
 
 
 
@@ -328,10 +337,11 @@ FileErrorContinueOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 

@@ -51,6 +51,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -81,16 +82,18 @@ Hidden
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     <No description>
 
 ..
+
 
 
 
@@ -127,16 +130,18 @@ SubGroupRegexSearch
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"(.*?)_*\d+"``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Regular expression that is used to identify subcomponents within this component. Syntax used is Perl.
 
 ..
+
 
 
 
@@ -173,16 +178,18 @@ SubGroupRegexReplace
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"$1"``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Replace expression that is used to together with 'SubGroupRegexSearch' to output the subbranch name. A '/' can be inserted within the name if multilevel branches is needed. Syntax used is Perl.
 
 ..
+
 
 
 
@@ -219,16 +226,18 @@ IsBranch
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Default On. If set to Off, this component will not appear as a branch in the tree
 
 ..
+
 
 
 
@@ -265,10 +274,11 @@ NameCast
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 

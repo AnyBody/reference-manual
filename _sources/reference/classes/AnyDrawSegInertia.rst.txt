@@ -101,6 +101,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -131,16 +132,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -177,16 +180,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -223,16 +228,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -269,16 +276,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -315,16 +324,18 @@ RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.91796875, 0.76953125, 0.06640625}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Object color in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -361,16 +372,18 @@ Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
+
 
 
 
@@ -385,8 +398,6 @@ Transparency
      </div> <!--
 ..
 
-.. _AnyDrawSegInertia.TextFont:
-
 TextFont
 ===========
 
@@ -395,8 +406,8 @@ TextFont
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont">
-    <span id="anydrawseginertia-textfont" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">General font setting for the object's text.</span>
     </h3>
@@ -405,9 +416,9 @@ TextFont
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -439,8 +450,7 @@ TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -448,7 +458,7 @@ TextFont.RGB
 
 
 
-
+    
 
 ..
 
@@ -480,8 +490,7 @@ TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -489,7 +498,7 @@ TextFont.FontName
 
 
 
-
+    
 
 ..
 
@@ -521,8 +530,7 @@ TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -530,7 +538,7 @@ TextFont.Height
 
 
 
-
+    
 
 ..
 
@@ -562,8 +570,7 @@ TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -571,7 +578,7 @@ TextFont.Width
 
 
 
-
+    
 
 ..
 
@@ -603,8 +610,7 @@ TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -612,7 +618,7 @@ TextFont.Bold
 
 
 
-
+    
 
 ..
 
@@ -644,8 +650,7 @@ TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -653,7 +658,7 @@ TextFont.Italic
 
 
 
-
+    
 
 ..
 
@@ -685,8 +690,7 @@ TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -694,7 +698,7 @@ TextFont.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -726,8 +730,7 @@ TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -735,7 +738,7 @@ TextFont.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -767,8 +770,7 @@ TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -776,7 +778,7 @@ TextFont.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -808,8 +810,7 @@ TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -817,13 +818,14 @@ TextFont.ModelScaleWidth
 
 
 
+    
 
 
 
-
-    General font setting for the object's text.
+    
 
 ..
+
 
 
 
@@ -860,10 +862,11 @@ InertiaScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 

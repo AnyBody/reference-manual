@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -97,16 +98,18 @@ CoefActMaintPowerSlow
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``25.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Activation-Maintenance power coefficient (per mass) for slow twitch fibers. Contributes to Ȧ+Ṁ.
 
 ..
+
 
 
 
@@ -143,16 +146,18 @@ CoefActMaintPowerFast
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``128.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Activation-Maintenance power coefficient (per mass) for fast twitch fibers. Contributes to Ȧ+Ṁ.
 
 ..
+
 
 
 
@@ -189,16 +194,18 @@ CoefSLPowerEcc
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.3``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Shortening-Lengthening heat rate coefficient for eccentric terms. Contributes to Ṡ.
 
 ..
+
 
 
 
@@ -235,16 +242,18 @@ CoefActMaintPowerAer
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.5``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Activation-Maintenance power coefficient, that tune the model to whether the activity is mostly anaerobic or aerobic. Umberger proposes a range from 1.0 to 1.5 (from anaerobic to aerobic). The default value fits the fully aerobic work case. Contributes to Ȧ+Ṁ.
 
 ..
+
 
 
 
@@ -281,16 +290,18 @@ HeatPowerMinPerMass
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Lower threshold for the combined heat production power per muscle mass [W/kg]. Contributes to Ḃ.
 
 ..
+
 
 
 
@@ -327,16 +338,18 @@ MuscleDensity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1059.7``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Muscle density [kg/m^3].
 
 ..
+
 
 
 
@@ -373,10 +386,11 @@ AddMusclePowerForEcc
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 

@@ -203,6 +203,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -233,16 +234,18 @@ LogFile
     | **Class type:**  :ref:`AnyFileVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Optional log file for use by the numerical routines in the operations. It may not be used by all type of AnyDesStudy; the file will be empty when not used by the study.
 
 ..
+
 
 
 
@@ -257,8 +260,6 @@ LogFile
      </div> <!--
 ..
 
-.. _AnyParamStudy1D.Analysis:
-
 Analysis
 ===========
 
@@ -267,8 +268,8 @@ Analysis
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis">
-    <span id="anyparamstudy1d-analysis" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
     <span class="member-descr">This analysis operation.</span>
     </h3>
@@ -277,9 +278,9 @@ Analysis
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -311,8 +312,7 @@ Analysis.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General settings for the operation.
 
@@ -320,7 +320,7 @@ Analysis.Settings
 
 
 
-
+    
 
 ..
 
@@ -352,8 +352,7 @@ Analysis.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -361,7 +360,7 @@ Analysis.Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -393,8 +392,7 @@ Analysis.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -402,7 +400,7 @@ Analysis.Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -434,8 +432,7 @@ Analysis.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityNormal``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -443,7 +440,7 @@ Analysis.Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -475,8 +472,7 @@ Analysis.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -484,13 +480,256 @@ Analysis.Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    This analysis operation.
+    
 
 ..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div></div> <!--
+..
+
+ParameterStudy
+=================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> ParameterStudy </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ParameterStudy" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Operation that executes the parameter study.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyParamStudy1D.ParameterStudy.Settings:
+
+ParameterStudy.Settings
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.Settings">
+    <span id="anyparamstudy1d-parameterstudy-settings" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ParameterStudy.Settings" title="Permalink to this headline">¶</a>
+    <span class="member-descr">General settings for the operation.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyOprSetUI`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+        
+
+    General settings for the operation.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamStudy1D.ParameterStudy.Settings.Echo:
+
+ParameterStudy.Settings.Echo
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.Settings.Echo">
+    <span id="anyparamstudy1d-parameterstudy-settings-echo" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ParameterStudy.Settings.Echo" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+        
+
+    Switch for definition of operation output to the output log and views.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamStudy1D.ParameterStudy.Settings.ModelSceneUpdate:
+
+ParameterStudy.Settings.ModelSceneUpdate
+-------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.Settings.ModelSceneUpdate">
+    <span id="anyparamstudy1d-parameterstudy-settings-modelsceneupdate" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ParameterStudy.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+        
+
+    Switch for definition of operation output to the output log and views.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamStudy1D.ParameterStudy.Settings.DisplayPriority:
+
+ParameterStudy.Settings.DisplayPriority
+------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.Settings.DisplayPriority">
+    <span id="anyparamstudy1d-parameterstudy-settings-displaypriority" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#ParameterStudy.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDisplayPriority`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``PriorityNormal``
+        
+
+    Value for defining the interface display priority for the Operation.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamStudy1D.ParameterStudy.Settings.SelectOnLoad:
+
+ParameterStudy.Settings.SelectOnLoad
+---------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.Settings.SelectOnLoad">
+    <span id="anyparamstudy1d-parameterstudy-settings-selectonload" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#ParameterStudy.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+        
+
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
 
 
 
@@ -515,7 +754,7 @@ EnforceBounds
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="EnforceBounds">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="EnforceBounds">
     <span id="anyparamstudy1d-enforcebounds" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> EnforceBounds </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#EnforceBounds" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether to enforce design variable upper and lower bounds. If On...</span>
@@ -527,10 +766,11 @@ EnforceBounds
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
@@ -886,6 +1126,47 @@ Output.Abscissa.IterationStep
     </div><!--
 ..
 
+.. _AnyParamStudy1D.Analysis:
+
+Analysis
+===========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis">
+    <span id="anyparamstudy1d-analysis" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Analysis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
+    <span class="member-descr">This analysis operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyOperationSequence`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    This analysis operation.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyParamStudy1D.Analysis.UpdConfig:
 
 Analysis.UpdConfig
@@ -896,7 +1177,7 @@ Analysis.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
     <span id="anyparamstudy1d-analysis-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -937,7 +1218,7 @@ Analysis.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
     <span id="anyparamstudy1d-analysis-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -978,7 +1259,7 @@ Analysis.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
     <span id="anyparamstudy1d-analysis-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1019,7 +1300,7 @@ ParameterStudy
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy">
     <span id="anyparamstudy1d-parameterstudy" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy" title="Permalink to this headline">¶</a>
     <span class="member-descr">Operation that executes the parameter study.</span>
@@ -1060,7 +1341,7 @@ ParameterStudy.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.UpdConfig">
     <span id="anyparamstudy1d-parameterstudy-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1101,7 +1382,7 @@ ParameterStudy.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.UpdDesign">
     <span id="anyparamstudy1d-parameterstudy-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1142,7 +1423,7 @@ ParameterStudy.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.UpdOutput">
     <span id="anyparamstudy1d-parameterstudy-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1183,7 +1464,7 @@ IterationStep
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="IterationStep">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="IterationStep">
     <span id="anyparamstudy1d-iterationstep" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">IterationStep</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#IterationStep" title="Permalink to this headline">¶</a>
     <span class="member-descr">Step counter of the analysis sequence.</span>

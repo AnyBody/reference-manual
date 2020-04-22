@@ -69,6 +69,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -76,8 +77,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnyMechOprKinAnl.Settings:
 
 Settings
 ===========
@@ -87,8 +86,8 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
-    <span id="anymechoprkinanl-settings" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
     </h3>
@@ -97,9 +96,9 @@ Settings
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -131,8 +130,7 @@ Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -140,7 +138,7 @@ Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -172,8 +170,7 @@ Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -181,7 +178,7 @@ Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -213,8 +210,7 @@ Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityNormal``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -222,7 +218,7 @@ Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -254,8 +250,7 @@ Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -263,13 +258,14 @@ Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    General settings for the operation.
+    
 
 ..
+
 
 
 
@@ -284,8 +280,6 @@ Settings.SelectOnLoad
      </div></div> <!--
 ..
 
-.. _AnyMechOprKinAnl.PreOperation:
-
 PreOperation
 ===============
 
@@ -294,8 +288,8 @@ PreOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
-    <span id="anymechoprkinanl-preoperation" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pre-process operation.</span>
     </h3>
@@ -304,9 +298,9 @@ PreOperation
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -338,8 +332,7 @@ PreOperation.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General settings for the operation.
 
@@ -347,7 +340,7 @@ PreOperation.Settings
 
 
 
-
+    
 
 ..
 
@@ -379,8 +372,7 @@ PreOperation.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -388,7 +380,7 @@ PreOperation.Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -420,8 +412,7 @@ PreOperation.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -429,7 +420,7 @@ PreOperation.Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -461,8 +452,7 @@ PreOperation.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityLow``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -470,7 +460,7 @@ PreOperation.Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -502,8 +492,7 @@ PreOperation.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -511,13 +500,14 @@ PreOperation.Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    Pre-process operation.
+    
 
 ..
+
 
 
 
@@ -532,8 +522,6 @@ PreOperation.Settings.SelectOnLoad
      </div></div> <!--
 ..
 
-.. _AnyMechOprKinAnl.PostOperation:
-
 PostOperation
 ================
 
@@ -542,8 +530,8 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
-    <span id="anymechoprkinanl-postoperation" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Post-process operation.</span>
     </h3>
@@ -552,9 +540,9 @@ PostOperation
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -586,8 +574,7 @@ PostOperation.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General settings for the operation.
 
@@ -595,7 +582,7 @@ PostOperation.Settings
 
 
 
-
+    
 
 ..
 
@@ -627,8 +614,7 @@ PostOperation.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -636,7 +622,7 @@ PostOperation.Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -668,8 +654,7 @@ PostOperation.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -677,7 +662,7 @@ PostOperation.Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -709,8 +694,7 @@ PostOperation.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityLow``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -718,7 +702,7 @@ PostOperation.Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -750,8 +734,7 @@ PostOperation.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -759,13 +742,14 @@ PostOperation.Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    Post-process operation.
+    
 
 ..
+
 
 
 
@@ -802,16 +786,18 @@ KinematicTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-06``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Tolerance for the kinematic analysis.
 
 ..
+
 
 
 
@@ -848,16 +834,18 @@ MaxIteration
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``3000``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximal number of Newton iterations in the solution of the non-linear equations in the kinematic position analysis.
 
 ..
+
 
 
 
@@ -894,16 +882,18 @@ MaxFallback
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``5``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximal number of fallback iterations used by some solvers.
 
 ..
+
 
 
 
@@ -940,16 +930,18 @@ Relax
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Initial value of relaxation coefficient for the Newton iteration.
 
 ..
+
 
 
 
@@ -986,16 +978,18 @@ SingleStepOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for the single-step analysis.
 
 ..
+
 
 
 
@@ -1032,16 +1026,18 @@ SingleStepNo
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Zero-based index for the time step to use in the single-step analysis.
 
 ..
+
 
 
 
@@ -1078,16 +1074,18 @@ UseStartGuessOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for for whether to use input positions as starting guess or the model's current positions.
 
 ..
+
 
 
 
@@ -1124,16 +1122,18 @@ PosAnalysisOnlyOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for skipping velocity and acceleration analysis, i.e., running position analysis only. Velocitites and acceleration of all segments are set to zero when computations are skipped.
 
 ..
+
 
 
 
@@ -1170,16 +1170,18 @@ ApproxVelAccPerturb
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.01``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Magnitude of perturbation use in finite difference differentiation.
 
 ..
+
 
 
 
@@ -1216,16 +1218,18 @@ SmallStepAssumptionOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for assumption of small steps (position or time-steps). When 'Off' more robust method can be applied. (REFER TO OTHER DOCUMENTATION).
 
 ..
+
 
 
 
@@ -1262,16 +1266,18 @@ SparseSolverDiagEps
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-12``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Test variable: Small floating point number (Epsilon) used by some solvers to perturb diagonal elements (DEPRECATED).
 
 ..
+
 
 
 
@@ -1308,16 +1314,18 @@ SparseSolverMaxIterativeRefinements
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``2``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Test variable : Maximal number of iterative refinement steps in solver (DEPRECATED).
 
 ..
+
 
 
 
@@ -1354,16 +1362,18 @@ SparseSolver2x2pivoting
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Test variable: Switch for selecting pivoting scheme for the MKL PARDISO solver (DEPRECATED).
 
 ..
+
 
 
 
@@ -1400,16 +1410,18 @@ SolverType
     | **Class type:**  :ref:`AnyKinSolverType`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``KinSolDeterminate``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Solver type specification.
 
 ..
+
 
 
 
@@ -1437,7 +1449,7 @@ Solver
     <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="Solver">
     <span id="anymechoprkinanl-solver" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Solver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Solver" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">(Deprecated) </span>
     </h3>
 
 ..
@@ -1446,6 +1458,7 @@ Solver
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``AnyMechOprKinAnl.SolverOptions.KinSolDet1``
+    
 
     .. deprecated::
        AnyMechOprKinAnl is being extended with new solver options that are currently
@@ -1457,15 +1470,16 @@ Solver
 
     
 
+    
+    
+    
 
 
 
-
-
-
-    <No description>
+    (Deprecated) 
 
 ..
+
 
 
 
@@ -1480,8 +1494,6 @@ Solver
      </div> <!--
 ..
 
-.. _AnyMechOprKinAnl.SolverOptions:
-
 SolverOptions
 ================
 
@@ -1490,10 +1502,10 @@ SolverOptions
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions">
-    <span id="anymechoprkinanl-solveroptions" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">(Deprecated) </span>
     </h3>
 
 ..
@@ -1510,13 +1522,13 @@ SolverOptions
 
     
 
+    
+    
+    
 
 
 
-
-
-
-    <No description>
+    
 
 ..
 
@@ -1663,6 +1675,47 @@ UpdOutput
     </div><!--
 ..
 
+.. _AnyMechOprKinAnl.PreOperation:
+
+PreOperation
+===============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
+    <span id="anymechoprkinanl-preoperation" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Pre-process operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprSubProcess`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Pre-process operation.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyMechOprKinAnl.PreOperation.UpdConfig:
 
 PreOperation.UpdConfig
@@ -1673,7 +1726,7 @@ PreOperation.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
     <span id="anymechoprkinanl-preoperation-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1714,7 +1767,7 @@ PreOperation.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
     <span id="anymechoprkinanl-preoperation-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1755,7 +1808,7 @@ PreOperation.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
     <span id="anymechoprkinanl-preoperation-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1772,6 +1825,47 @@ PreOperation.UpdOutput
 
 
     <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMechOprKinAnl.PostOperation:
+
+PostOperation
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
+    <span id="anymechoprkinanl-postoperation" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">PostOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Post-process operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprSubProcess`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Post-process operation.
 
 ..
 

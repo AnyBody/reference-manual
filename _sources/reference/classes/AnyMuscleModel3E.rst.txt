@@ -202,6 +202,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -232,16 +233,18 @@ Lf0
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Muscle fiber length. In muscle models with length-varying strength, this is the optimal fiber length. Zero or negative lengths are ignored.
 
 ..
+
 
 
 
@@ -278,16 +281,18 @@ Vol0
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Volume of the muscle fibers, which is used during muscle recruitment. Zero or negative volumes are ignored.
 
 ..
+
 
 
 
@@ -324,16 +329,18 @@ Gamma0
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Nominal pennation angle.
 
 ..
+
 
 
 
@@ -370,16 +377,18 @@ Epsilon0
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.05``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Nominal tendon strain, i.e., the strain at the isometric muscle force in the serial elastic element.
 
 ..
+
 
 
 
@@ -416,16 +425,18 @@ Jt
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``3.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Shape constant for the tendon (serial elastic) element force relationsship.
 
 ..
+
 
 
 
@@ -462,16 +473,18 @@ Jpe
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``3.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Shape constant for the parallel elastic element force relationsship.
 
 ..
+
 
 
 
@@ -508,16 +521,18 @@ K1
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Normalized maximum contraction velocity. The maximum velocity, called V0, is basically K1 times Lf0 (for K2=0).
 
 ..
+
 
 
 
@@ -554,16 +569,18 @@ K2
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``8.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Contribution to normalized maximum velocity for fast fibers. K2 adds to V0's component from K1; K2's contribution to V0 is K2 times Lfbar times Fcfast.
 
 ..
+
 
 
 
@@ -600,16 +617,18 @@ PEFactor
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``5.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Relative stiffness parameter for the parallel elastic element. PEFactor times Lfbar is the fiber lenght at which the parallel elastic elements produce a force of F0.
 
 ..
+
 
 
 
@@ -646,16 +665,18 @@ Lfbar
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Nominal fiber length. Deprecated, use Lf0.
 
 ..
+
 
 
 
@@ -692,16 +713,18 @@ Gammabar
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Nominal pennation angle. Deprecated, use Gamma0.
 
 ..
+
 
 
 
@@ -738,10 +761,11 @@ Epsilonbar
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.05``
+    
 
-
-
-
+    
+    
+    
 
 
 

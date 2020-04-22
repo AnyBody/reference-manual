@@ -114,6 +114,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -144,16 +145,18 @@ Title
     | **Class type:**  :ref:`AnyChartSerieTitle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"AnyChartSerie"``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Name string (default value is the name of the AnyChartSerie object).
 
 ..
+
 
 
 
@@ -190,16 +193,18 @@ Abscissa
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Search string for primary abscissa (for more info. on search strings, see class AnyObjectSearchString).
 
 ..
+
 
 
 
@@ -236,16 +241,18 @@ Abscissa2
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Search string for secondary abscissa (3D plots only) (for more info. on search strings, see class AnyObjectSearchString).
 
 ..
+
 
 
 
@@ -260,8 +267,6 @@ Abscissa2
      </div> <!--
 ..
 
-.. _AnyChartSerie.Lines:
-
 Lines
 ========
 
@@ -270,8 +275,8 @@ Lines
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Lines">
-    <span id="anychartserie-lines" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Lines </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Lines" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line style definitions. For series with multiple value data sets, i.e.,...</span>
     </h3>
@@ -280,9 +285,9 @@ Lines
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -314,8 +319,7 @@ Lines.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for lines to be shown or not.
 
@@ -323,7 +327,7 @@ Lines.Visible
 
 
 
-
+    
 
 ..
 
@@ -355,8 +359,7 @@ Lines.Style
     | **Class type:**  :ref:`AnyEnumLineStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Line style.
 
@@ -364,7 +367,7 @@ Lines.Style
 
 
 
-
+    
 
 ..
 
@@ -396,8 +399,7 @@ Lines.RGB
     | **Class type:**  :ref:`AnyRGBs`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Color in RGB values between 0 and 1. A matrix with 3 columns holding the RGB values and a row for each color
 
@@ -405,7 +407,7 @@ Lines.RGB
 
 
 
-
+    
 
 ..
 
@@ -437,8 +439,7 @@ Lines.Thickness
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Line thickness.
 
@@ -446,13 +447,14 @@ Lines.Thickness
 
 
 
+    
 
 
 
-
-    Line style definitions. For series with multiple value data sets, i.e., multiple curves, multiple values of each style-defining attribute can be specified.
+    
 
 ..
+
 
 
 
@@ -467,8 +469,6 @@ Lines.Thickness
      </div></div> <!--
 ..
 
-.. _AnyChartSerie.PointMarkers:
-
 PointMarkers
 ===============
 
@@ -477,8 +477,8 @@ PointMarkers
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointMarkers">
-    <span id="anychartserie-pointmarkers" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PointMarkers </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PointMarkers" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style definitions for data point markers. For series with multiple value...</span>
     </h3>
@@ -487,9 +487,9 @@ PointMarkers
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -521,8 +521,7 @@ PointMarkers.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for markers to be shown or not.
 
@@ -530,7 +529,7 @@ PointMarkers.Visible
 
 
 
-
+    
 
 ..
 
@@ -562,8 +561,7 @@ PointMarkers.Style
     | **Class type:**  :ref:`AnyEnumPointMarkerStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Marker style.
 
@@ -571,7 +569,7 @@ PointMarkers.Style
 
 
 
-
+    
 
 ..
 
@@ -603,8 +601,7 @@ PointMarkers.Size
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Size of markers.
 
@@ -612,7 +609,7 @@ PointMarkers.Size
 
 
 
-
+    
 
 ..
 
@@ -644,8 +641,7 @@ PointMarkers.SkipPoints
     | **Class type:**  :ref:`AnyInt`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Amount of points between every visible marker.
 
@@ -653,13 +649,14 @@ PointMarkers.SkipPoints
 
 
 
+    
 
 
 
-
-    Style definitions for data point markers. For series with multiple value data sets,i.e., multiple curves, multiple values of each style-defining attribute can be specified.
+    
 
 ..
+
 
 
 
@@ -674,8 +671,6 @@ PointMarkers.SkipPoints
      </div></div> <!--
 ..
 
-.. _AnyChartSerie.Cursor:
-
 Cursor
 =========
 
@@ -684,8 +679,8 @@ Cursor
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Cursor">
-    <span id="anychartserie-cursor" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Cursor </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Cursor" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cursor settings. Notice that the cursor position may be modified by direct...</span>
     </h3>
@@ -694,9 +689,9 @@ Cursor
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -728,8 +723,7 @@ Cursor.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for visiblity.
 
@@ -737,7 +731,7 @@ Cursor.Visible
 
 
 
-
+    
 
 ..
 
@@ -769,8 +763,7 @@ Cursor.AbsIndex
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0, 1}``
-
-
+        
 
     Indices of the active data abscissa for which the cursor movement is associated.
 
@@ -778,7 +771,7 @@ Cursor.AbsIndex
 
 
 
-
+    
 
 ..
 
@@ -810,8 +803,7 @@ Cursor.DataIndex
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0, 0}``
-
-
+        
 
     Indices of the data value for the active abscissae in AbsIndex.
 
@@ -819,7 +811,7 @@ Cursor.DataIndex
 
 
 
-
+    
 
 ..
 
@@ -851,8 +843,7 @@ Cursor.PreVisualize
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{10, 10}``
-
-
+        
 
     Number of data points to be shown before actual cursor position.
 
@@ -860,7 +851,7 @@ Cursor.PreVisualize
 
 
 
-
+    
 
 ..
 
@@ -892,8 +883,7 @@ Cursor.PostVisualize
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{10, 10}``
-
-
+        
 
     Number of data points to be shown after actual cursor position.
 
@@ -901,13 +891,14 @@ Cursor.PostVisualize
 
 
 
+    
 
 
 
-
-    Cursor settings. Notice that the cursor position may be modified by direct interaction in Model View and AnyChart View.
+    
 
 ..
+
 
 
 
@@ -922,8 +913,6 @@ Cursor.PostVisualize
      </div></div> <!--
 ..
 
-.. _AnyChartSerie.Surfaces:
-
 Surfaces
 ===========
 
@@ -932,8 +921,8 @@ Surfaces
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Surfaces">
-    <span id="anychartserie-surfaces" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Surface style definitions. For series with multiple value data sets, i.e.,...</span>
     </h3>
@@ -942,9 +931,9 @@ Surfaces
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -976,8 +965,7 @@ Surfaces.RGB
     | **Class type:**  :ref:`AnyRGBs`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Color of the surface in RGB values between 0 and 1.
 
@@ -985,7 +973,7 @@ Surfaces.RGB
 
 
 
-
+    
 
 ..
 
@@ -1017,8 +1005,7 @@ Surfaces.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for surface to be shown or not.
 
@@ -1026,11 +1013,11 @@ Surfaces.Visible
 
 
 
+    
 
 
 
-
-    Surface style definitions. For series with multiple value data sets, i.e., multiple curves, multiple values of each style-defining attribute can be specified.
+    
 
 ..
 

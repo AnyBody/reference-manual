@@ -51,6 +51,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -81,16 +82,18 @@ EnableCreasing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set to Off, the creasing angle is ignored for this material.
 
 ..
+
 
 
 
@@ -127,16 +130,18 @@ CreasingAngle
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.524``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.
 
 ..
+
 
 
 
@@ -173,16 +178,18 @@ EnableWireframe
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set to On, surfaces with this material will be rendered as wireframe.
 
 ..
+
 
 
 
@@ -219,16 +226,18 @@ EnableSmoothing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set to On, smoothing of surfaces are enabled for this material.
 
 ..
+
 
 
 
@@ -265,16 +274,18 @@ Param
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Parameter controling the output. It must be initialized with an expression for the actual value.
 
 ..
+
 
 
 
@@ -311,16 +322,18 @@ ParamArray
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.167, 0.333, 0.5, 0.667, 0.833, 1.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Parameter values for which corresponding RGB and opacity values are given in RGBArray and OpacityArray, respectively.
 
 ..
+
 
 
 
@@ -357,16 +370,18 @@ RGBArray
     | **Class type:**  :ref:`AnyRGBs`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{{0.0, 0.0, 0.6}, {0.0, 0.0, 1.0}, {0.0, 1.0, 1.0}, {0.0, 1.0,...``
+    
 
-
-
-
+    
+    
+    
 
 
 
     RGB color values corresponding to parameter values in ParamArray.
 
 ..
+
 
 
 
@@ -403,10 +418,11 @@ OpacityArray
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 

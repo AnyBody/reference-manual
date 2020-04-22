@@ -161,6 +161,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -168,8 +169,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnySeg.viewRefFrame:
 
 viewRefFrame
 ===============
@@ -179,8 +178,8 @@ viewRefFrame
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame">
-    <span id="anyseg-viewrefframe" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> viewRefFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
     </h3>
@@ -189,9 +188,9 @@ viewRefFrame
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -223,8 +222,7 @@ viewRefFrame.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Visibility setting, which specifies default visibility of the object.
 
@@ -232,7 +230,7 @@ viewRefFrame.Visible
 
 
 
-
+    
 
 ..
 
@@ -264,8 +262,7 @@ viewRefFrame.Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Opacity setting, which specifies default opacity of the object.
 
@@ -273,7 +270,7 @@ viewRefFrame.Opacity
 
 
 
-
+    
 
 ..
 
@@ -305,8 +302,7 @@ viewRefFrame.Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
@@ -314,7 +310,7 @@ viewRefFrame.Pickable
 
 
 
-
+    
 
 ..
 
@@ -346,8 +342,7 @@ viewRefFrame.PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
-
-
+        
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
@@ -355,7 +350,7 @@ viewRefFrame.PickableZOrdering
 
 
 
-
+    
 
 ..
 
@@ -387,8 +382,7 @@ viewRefFrame.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.75117188, 0.67695313, 0.32539062}``
-
-
+        
 
     Object color in RGB values between 0 and 1.
 
@@ -396,7 +390,7 @@ viewRefFrame.RGB
 
 
 
-
+    
 
 ..
 
@@ -428,8 +422,7 @@ viewRefFrame.ScaleXYZ
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0}``
-
-
+        
 
     Scaling factors for each reference system axis.
 
@@ -437,7 +430,7 @@ viewRefFrame.ScaleXYZ
 
 
 
-
+    
 
 ..
 
@@ -469,8 +462,7 @@ viewRefFrame.Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
@@ -478,7 +470,7 @@ viewRefFrame.Transparency
 
 
 
-
+    
 
 ..
 
@@ -510,8 +502,7 @@ viewRefFrame.TextFont
     | **Class type:**  :ref:`AnyStyleFont3DView`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General font setting for the object's text.
 
@@ -519,7 +510,7 @@ viewRefFrame.TextFont
 
 
 
-
+    
 
 ..
 
@@ -551,8 +542,7 @@ viewRefFrame.TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -560,7 +550,7 @@ viewRefFrame.TextFont.RGB
 
 
 
-
+    
 
 ..
 
@@ -592,8 +582,7 @@ viewRefFrame.TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -601,7 +590,7 @@ viewRefFrame.TextFont.FontName
 
 
 
-
+    
 
 ..
 
@@ -633,8 +622,7 @@ viewRefFrame.TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -642,7 +630,7 @@ viewRefFrame.TextFont.Height
 
 
 
-
+    
 
 ..
 
@@ -674,8 +662,7 @@ viewRefFrame.TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -683,7 +670,7 @@ viewRefFrame.TextFont.Width
 
 
 
-
+    
 
 ..
 
@@ -715,8 +702,7 @@ viewRefFrame.TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -724,7 +710,7 @@ viewRefFrame.TextFont.Bold
 
 
 
-
+    
 
 ..
 
@@ -756,8 +742,7 @@ viewRefFrame.TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -765,7 +750,7 @@ viewRefFrame.TextFont.Italic
 
 
 
-
+    
 
 ..
 
@@ -797,8 +782,7 @@ viewRefFrame.TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -806,7 +790,7 @@ viewRefFrame.TextFont.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -838,8 +822,7 @@ viewRefFrame.TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -847,7 +830,7 @@ viewRefFrame.TextFont.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -879,8 +862,7 @@ viewRefFrame.TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -888,7 +870,7 @@ viewRefFrame.TextFont.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -920,8 +902,7 @@ viewRefFrame.TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -929,13 +910,14 @@ viewRefFrame.TextFont.ModelScaleWidth
 
 
 
+    
 
 
 
-
-    <No description>
+    
 
 ..
+
 
 
 
@@ -972,16 +954,18 @@ r0
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Initial position.
 
 ..
+
 
 
 
@@ -1018,16 +1002,18 @@ rDot0
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Initial velocity.
 
 ..
+
 
 
 
@@ -1064,16 +1050,18 @@ Axes0
     | **Class type:**  :ref:`AnyMat33`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{{1.0, 0.0, 0.0}, {0.0, 1.0, 0.0}, {0.0, 0.0, 1.0}}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Initial orientation as rotational transformation matrix (see class AnyRefFrame for a mathematical definition).
 
 ..
+
 
 
 
@@ -1110,16 +1098,18 @@ omega0
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Initial angular velocity.
 
 ..
+
 
 
 
@@ -1156,16 +1146,18 @@ Jij
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Deviation moments of inertia {Ixy,Iyz,Ixz}.
 
 ..
+
 
 
 
@@ -1202,16 +1194,18 @@ sCoM
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Relative location of the center of mass (CoM).
 
 ..
+
 
 
 
@@ -1248,16 +1242,18 @@ JaboutCoMOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the inputted moments of inertia in Jii and Jij are related to the segment coordinate system (Off) or a parallel system located at the CoM (On).
 
 ..
+
 
 
 
@@ -1272,8 +1268,6 @@ JaboutCoMOnOff
      </div> <!--
 ..
 
-.. _AnySeg.viewNodes:
-
 viewNodes
 ============
 
@@ -1282,8 +1276,8 @@ viewNodes
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes">
-    <span id="anyseg-viewnodes" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> viewNodes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewNodes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing object that renders the segment's nodes.</span>
     </h3>
@@ -1292,9 +1286,9 @@ viewNodes
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1326,8 +1320,7 @@ viewNodes.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Visibility setting, which specifies default visibility of the object.
 
@@ -1335,7 +1328,7 @@ viewNodes.Visible
 
 
 
-
+    
 
 ..
 
@@ -1367,8 +1360,7 @@ viewNodes.Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Opacity setting, which specifies default opacity of the object.
 
@@ -1376,7 +1368,7 @@ viewNodes.Opacity
 
 
 
-
+    
 
 ..
 
@@ -1408,8 +1400,7 @@ viewNodes.Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
@@ -1417,7 +1408,7 @@ viewNodes.Pickable
 
 
 
-
+    
 
 ..
 
@@ -1449,8 +1440,7 @@ viewNodes.PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
-
-
+        
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
@@ -1458,7 +1448,7 @@ viewNodes.PickableZOrdering
 
 
 
-
+    
 
 ..
 
@@ -1490,8 +1480,7 @@ viewNodes.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.75117188, 0.67695313, 0.32539062}``
-
-
+        
 
     Object color in RGB values between 0 and 1.
 
@@ -1499,7 +1488,7 @@ viewNodes.RGB
 
 
 
-
+    
 
 ..
 
@@ -1531,8 +1520,7 @@ viewNodes.Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
@@ -1540,7 +1528,7 @@ viewNodes.Transparency
 
 
 
-
+    
 
 ..
 
@@ -1572,8 +1560,7 @@ viewNodes.TextFont
     | **Class type:**  :ref:`AnyStyleFont3DView`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General font setting for the object's text.
 
@@ -1581,7 +1568,7 @@ viewNodes.TextFont
 
 
 
-
+    
 
 ..
 
@@ -1613,8 +1600,7 @@ viewNodes.TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -1622,7 +1608,7 @@ viewNodes.TextFont.RGB
 
 
 
-
+    
 
 ..
 
@@ -1654,8 +1640,7 @@ viewNodes.TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -1663,7 +1648,7 @@ viewNodes.TextFont.FontName
 
 
 
-
+    
 
 ..
 
@@ -1695,8 +1680,7 @@ viewNodes.TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -1704,7 +1688,7 @@ viewNodes.TextFont.Height
 
 
 
-
+    
 
 ..
 
@@ -1736,8 +1720,7 @@ viewNodes.TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -1745,7 +1728,7 @@ viewNodes.TextFont.Width
 
 
 
-
+    
 
 ..
 
@@ -1777,8 +1760,7 @@ viewNodes.TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -1786,7 +1768,7 @@ viewNodes.TextFont.Bold
 
 
 
-
+    
 
 ..
 
@@ -1818,8 +1800,7 @@ viewNodes.TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -1827,7 +1808,7 @@ viewNodes.TextFont.Italic
 
 
 
-
+    
 
 ..
 
@@ -1859,8 +1840,7 @@ viewNodes.TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -1868,7 +1848,7 @@ viewNodes.TextFont.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -1900,8 +1880,7 @@ viewNodes.TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -1909,7 +1888,7 @@ viewNodes.TextFont.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -1941,8 +1920,7 @@ viewNodes.TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -1950,7 +1928,7 @@ viewNodes.TextFont.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -1982,8 +1960,7 @@ viewNodes.TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -1991,7 +1968,7 @@ viewNodes.TextFont.ModelScaleWidth
 
 
 
-
+    
 
 ..
 
@@ -2023,8 +2000,7 @@ viewNodes.InertiaScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     <No description>
 
@@ -2032,13 +2008,14 @@ viewNodes.InertiaScale
 
 
 
+    
 
 
 
-
-    Drawing object that renders the segment's nodes.
+    
 
 ..
+
 
 
 
@@ -2053,8 +2030,6 @@ viewNodes.InertiaScale
      </div></div> <!--
 ..
 
-.. _AnySeg.viewInertia:
-
 viewInertia
 ==============
 
@@ -2063,8 +2038,8 @@ viewInertia
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia">
-    <span id="anyseg-viewinertia" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> viewInertia </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewInertia" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing object that renders the segment's inertia distribution.</span>
     </h3>
@@ -2073,9 +2048,9 @@ viewInertia
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -2107,8 +2082,7 @@ viewInertia.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Visibility setting, which specifies default visibility of the object.
 
@@ -2116,7 +2090,7 @@ viewInertia.Visible
 
 
 
-
+    
 
 ..
 
@@ -2148,8 +2122,7 @@ viewInertia.Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Opacity setting, which specifies default opacity of the object.
 
@@ -2157,7 +2130,7 @@ viewInertia.Opacity
 
 
 
-
+    
 
 ..
 
@@ -2189,8 +2162,7 @@ viewInertia.Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
@@ -2198,7 +2170,7 @@ viewInertia.Pickable
 
 
 
-
+    
 
 ..
 
@@ -2230,8 +2202,7 @@ viewInertia.PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
-
-
+        
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
@@ -2239,7 +2210,7 @@ viewInertia.PickableZOrdering
 
 
 
-
+    
 
 ..
 
@@ -2271,8 +2242,7 @@ viewInertia.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.75117188, 0.67695313, 0.32539062}``
-
-
+        
 
     Object color in RGB values between 0 and 1.
 
@@ -2280,7 +2250,7 @@ viewInertia.RGB
 
 
 
-
+    
 
 ..
 
@@ -2312,8 +2282,7 @@ viewInertia.Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
@@ -2321,7 +2290,7 @@ viewInertia.Transparency
 
 
 
-
+    
 
 ..
 
@@ -2353,8 +2322,7 @@ viewInertia.TextFont
     | **Class type:**  :ref:`AnyStyleFont3DView`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General font setting for the object's text.
 
@@ -2362,7 +2330,7 @@ viewInertia.TextFont
 
 
 
-
+    
 
 ..
 
@@ -2394,8 +2362,7 @@ viewInertia.TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -2403,7 +2370,7 @@ viewInertia.TextFont.RGB
 
 
 
-
+    
 
 ..
 
@@ -2435,8 +2402,7 @@ viewInertia.TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -2444,7 +2410,7 @@ viewInertia.TextFont.FontName
 
 
 
-
+    
 
 ..
 
@@ -2476,8 +2442,7 @@ viewInertia.TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -2485,7 +2450,7 @@ viewInertia.TextFont.Height
 
 
 
-
+    
 
 ..
 
@@ -2517,8 +2482,7 @@ viewInertia.TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -2526,7 +2490,7 @@ viewInertia.TextFont.Width
 
 
 
-
+    
 
 ..
 
@@ -2558,8 +2522,7 @@ viewInertia.TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -2567,7 +2530,7 @@ viewInertia.TextFont.Bold
 
 
 
-
+    
 
 ..
 
@@ -2599,8 +2562,7 @@ viewInertia.TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -2608,7 +2570,7 @@ viewInertia.TextFont.Italic
 
 
 
-
+    
 
 ..
 
@@ -2640,8 +2602,7 @@ viewInertia.TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -2649,7 +2610,7 @@ viewInertia.TextFont.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -2681,8 +2642,7 @@ viewInertia.TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -2690,7 +2650,7 @@ viewInertia.TextFont.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -2722,8 +2682,7 @@ viewInertia.TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -2731,7 +2690,7 @@ viewInertia.TextFont.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -2763,8 +2722,7 @@ viewInertia.TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -2772,7 +2730,7 @@ viewInertia.TextFont.ModelScaleWidth
 
 
 
-
+    
 
 ..
 
@@ -2804,8 +2762,7 @@ viewInertia.InertiaScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Scaling factor for the graphical representation of the inertia distribution.
 
@@ -2813,11 +2770,11 @@ viewInertia.InertiaScale
 
 
 
+    
 
 
 
-
-    Drawing object that renders the segment's inertia distribution.
+    
 
 ..
 
@@ -3005,6 +2962,47 @@ t
     </div><!--
 ..
 
+.. _AnySeg.viewRefFrame:
+
+viewRefFrame
+===============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame">
+    <span id="anyseg-viewrefframe" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDrawRefFrame`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnySeg.viewRefFrame.UpdConfig:
 
 viewRefFrame.UpdConfig
@@ -3015,7 +3013,7 @@ viewRefFrame.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdConfig">
     <span id="anyseg-viewrefframe-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3056,7 +3054,7 @@ viewRefFrame.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdDesign">
     <span id="anyseg-viewrefframe-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3097,7 +3095,7 @@ viewRefFrame.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdOutput">
     <span id="anyseg-viewrefframe-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3138,7 +3136,7 @@ viewRefFrame.Face
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.Face">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.Face">
     <span id="anyseg-viewrefframe-face" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.Face" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
@@ -3179,7 +3177,7 @@ r
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="r">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="r">
     <span id="anyseg-r" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">r</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#r" title="Permalink to this headline">¶</a>
     <span class="member-descr">Position vector of the origin.</span>
@@ -3220,7 +3218,7 @@ rDot
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="rDot">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="rDot">
     <span id="anyseg-rdot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">rDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector.</span>
@@ -3261,7 +3259,7 @@ rDDot
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="rDDot">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="rDDot">
     <span id="anyseg-rddot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">rDDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector.</span>
@@ -3302,7 +3300,7 @@ Axes
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Axes">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Axes">
     <span id="anyseg-axes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Axes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Axes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational transformation matrix (see class AnyRefFrame for a mathematical...</span>
@@ -3343,7 +3341,7 @@ omega
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="omega">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="omega">
     <span id="anyseg-omega" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">omega</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#omega" title="Permalink to this headline">¶</a>
     <span class="member-descr">Angular velocity vector (global representation).</span>
@@ -3384,7 +3382,7 @@ omegaDot
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="omegaDot">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="omegaDot">
     <span id="anyseg-omegadot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">omegaDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#omegaDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">Angular acceleration vector.</span>
@@ -3425,7 +3423,7 @@ Jmatrix
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Jmatrix">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Jmatrix">
     <span id="anyseg-jmatrix" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Jmatrix</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Jmatrix" title="Permalink to this headline">¶</a>
     <span class="member-descr">The actual inertia matrix referring the body-fixed segment coordinate system.</span>
@@ -3466,7 +3464,7 @@ Ekin
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Ekin">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Ekin">
     <span id="anyseg-ekin" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Ekin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ekin" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinetic energy of the segment.</span>
@@ -3507,7 +3505,7 @@ Epot
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Epot">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Epot">
     <span id="anyseg-epot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Epot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Epot" title="Permalink to this headline">¶</a>
     <span class="member-descr">Potential energy of the segment associated with the field of gravity.</span>
@@ -3524,6 +3522,47 @@ Epot
 
 
     Potential energy of the segment associated with the field of gravity.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnySeg.viewNodes:
+
+viewNodes
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes">
+    <span id="anyseg-viewnodes" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the segment's nodes.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDrawSegNodes`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Drawing object that renders the segment's nodes.
 
 ..
 
@@ -3743,6 +3782,47 @@ viewNodes.Face
     </div><!--
 ..
 
+.. _AnySeg.viewInertia:
+
+viewInertia
+==============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia">
+    <span id="anyseg-viewinertia" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the segment's inertia distribution.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDrawSegInertia`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Drawing object that renders the segment's inertia distribution.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnySeg.viewInertia.UpdConfig:
 
 viewInertia.UpdConfig
@@ -3753,7 +3833,7 @@ viewInertia.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.UpdConfig">
     <span id="anyseg-viewinertia-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3794,7 +3874,7 @@ viewInertia.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.UpdDesign">
     <span id="anyseg-viewinertia-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3835,7 +3915,7 @@ viewInertia.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.UpdOutput">
     <span id="anyseg-viewinertia-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3876,7 +3956,7 @@ viewInertia.ScaleXYZ
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.ScaleXYZ">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.ScaleXYZ">
     <span id="anyseg-viewinertia-scalexyz" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.ScaleXYZ</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.ScaleXYZ" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factors for each reference system axis.</span>
@@ -3917,7 +3997,7 @@ viewInertia.Face
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.Face">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.Face">
     <span id="anyseg-viewinertia-face" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.Face" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>

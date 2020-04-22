@@ -114,6 +114,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -144,16 +145,18 @@ ReadAllDataOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch to specify if all data should be read or not
 
 ..
+
 
 
 
@@ -190,16 +193,18 @@ TruncateExtraCharsInNamesOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch to specify whether extra characters in group, parameter, points, or analog data names should be truncated.
 
 ..
+
 
 
 
@@ -236,16 +241,18 @@ MakeNameUniqueStr
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"_"``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for enforcing unique names of markers and points. This option may change names in the imported data compared to the original files.
 
 ..
+
 
 
 
@@ -282,16 +289,18 @@ PointsScaleFactor
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     A scale factor to be multiplied to all 3D data points.
 
 ..
+
 
 
 
@@ -328,16 +337,18 @@ ConstructModelOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch to specify if a model should be constructed from the measured 3D data points.
 
 ..
+
 
 
 
@@ -374,16 +385,18 @@ ConstructChartOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the chart displaying the trajectories in space is included or not.
 
 ..
+
 
 
 
@@ -420,16 +433,18 @@ ConstructWeightFunUsingResidualOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether weigth functions based on the residual values are included or not.
 
 ..
+
 
 
 
@@ -466,16 +481,18 @@ GapFillUsingResidualsOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If enabled marker trajectories will be gap filled by linear interpolation in the dropout intervals as indicated by the residual values. Note: This setting is is not meant to replace gap filling in your MoCap software, but it may prevent problems when low pass filtering data.
 
 ..
+
 
 
 
@@ -512,16 +529,18 @@ MarkerUseAllPointsOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using all point data as 3D marker data.
 
 ..
+
 
 
 
@@ -558,16 +577,18 @@ MarkerUseCamMaskOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using the Camera Mask for deciding which point data as 3D marker data. Non-zero camera mask is interpreted as 3D marker data.
 
 ..
+
 
 
 
@@ -604,16 +625,18 @@ MarkerIndices
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Array of point indices to be used as 3D marker data.
 
 ..
+
 
 
 
@@ -650,16 +673,18 @@ MarkerLabels
     | **Class type:**  :ref:`AnyStringArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Array of point labels to be used as 3D marker data.
 
 ..
+
 
 
 
@@ -696,16 +721,18 @@ MarkerFilterIndex
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Index of the filter to be used for the marker data. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
 
 ..
+
 
 
 
@@ -742,16 +769,18 @@ ProcessedDataFilterIndex
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Index of the filter to be used for the "processed" point data. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
 
 ..
+
 
 
 
@@ -788,16 +817,18 @@ AnalogFilterIndex
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``-1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Index of the filter to be used for the data in the analog section. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
 
 ..
+
 
 
 
@@ -812,8 +843,6 @@ AnalogFilterIndex
      </div> <!--
 ..
 
-.. _AnyInputC3D.Filter:
-
 Filter
 =========
 
@@ -822,8 +851,8 @@ Filter
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter">
-    <span id="anyinputc3d-filter" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Filter </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Filter" title="Permalink to this headline">¶</a>
     <span class="member-descr">Standard (default) filter (Butterworth type filter).</span>
     </h3>
@@ -832,9 +861,9 @@ Filter
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -866,8 +895,7 @@ Filter.z0
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     Initial condition vector.
 
@@ -875,7 +903,7 @@ Filter.z0
 
 
 
-
+    
 
 ..
 
@@ -907,8 +935,7 @@ Filter.AutomaticInitialConditionOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch to specify whether or not the initial conditions are calculated automatically.
 
@@ -916,7 +943,7 @@ Filter.AutomaticInitialConditionOnOff
 
 
 
-
+    
 
 ..
 
@@ -948,8 +975,7 @@ Filter.FilterForwardBackwardOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch to specify if filtering should only be performed in the forward direction or both in the forward and backward direction.
 
@@ -957,7 +983,7 @@ Filter.FilterForwardBackwardOnOff
 
 
 
-
+    
 
 ..
 
@@ -989,8 +1015,7 @@ Filter.N
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``2``
-
-
+        
 
     The filter order.
 
@@ -998,7 +1023,7 @@ Filter.N
 
 
 
-
+    
 
 ..
 
@@ -1030,8 +1055,7 @@ Filter.W
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     The normalized cut-off frequency(ies).
 
@@ -1039,7 +1063,7 @@ Filter.W
 
 
 
-
+    
 
 ..
 
@@ -1071,8 +1095,7 @@ Filter.Fs
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     The sample frequency of the data to be filtered.
 
@@ -1080,7 +1103,7 @@ Filter.Fs
 
 
 
-
+    
 
 ..
 
@@ -1112,8 +1135,7 @@ Filter.Fc
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{10.0}``
-
-
+        
 
     The cut-off frequency(ies).
 
@@ -1121,7 +1143,7 @@ Filter.Fc
 
 
 
-
+    
 
 ..
 
@@ -1153,8 +1175,7 @@ Filter.Type
     | **Class type:**  :ref:`AnyFilterType`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``LowPass``
-
-
+        
 
     The filter type.
 
@@ -1162,13 +1183,14 @@ Filter.Type
 
 
 
+    
 
 
 
-
-    Standard (default) filter (Butterworth type filter).
+    
 
 ..
+
 
 
 
@@ -1205,16 +1227,18 @@ WeightThreshold
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Weight function threshold value for determination whether the weights should be zero
 
 ..
+
 
 
 
@@ -1251,16 +1275,18 @@ WeightOutput
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{{0.0, 1.0}, {0.0, 1.0}, {0.0, 1.0}}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Weight function output, i.e., the weight value retuned by the weight functions.
 
 ..
+
 
 
 
@@ -1297,16 +1323,18 @@ WeightTransitionTime
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Weight function transition time, i.e., the time used for smooth transistion between zero and the weight value.
 
 ..
+
 
 
 
@@ -1343,16 +1371,18 @@ SearchAndReplace
     | **Class type:**  :ref:`AnyString`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Search-and-replace functionality for converting names in the original C3D data file while being imported into AnyScript.
 
 ..
+
 
 
 
@@ -1389,16 +1419,18 @@ WriteMarkerDataToFilesOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     A switch to specify whether or not the marker data should be written to text files. If this is set to on, three output files are created per marker, i.e. one with position data, one with velocity data and one with acceleration data. The output files are named <MarkerName>_pos.txt, <MarkerName>_vel.txt and <MarkerName>_acc.txt.
 
 ..
+
 
 
 
@@ -1435,16 +1467,18 @@ MarkerScaleXYZ
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.025, 0.025, 0.025}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Scale factor used when drawing the marker.
 
 ..
+
 
 
 
@@ -1481,16 +1515,18 @@ MarkerRGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.65, 0.65, 0.65}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The color of a marker.
 
 ..
+
 
 
 
@@ -1527,16 +1563,18 @@ MarkerDrawOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     A switch to specify if markers should be drawn or not. This switch only affects the AnyDrawNode markers created by the ConstructModel option.
 
 ..
+
 
 
 
@@ -1573,16 +1611,18 @@ MarkerInterPolType
     | **Class type:**  :ref:`AnyInterPolType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Bspline``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The interpolation type used in the linear drivers of the 3D data points.
 
 ..
+
 
 
 
@@ -1619,10 +1659,11 @@ MarkerBsplineOrder
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``4``
+    
 
-
-
-
+    
+    
+    
 
 
 
@@ -1855,6 +1896,47 @@ AnalogLabelsOriginal
     </div><!--
 ..
 
+.. _AnyInputC3D.Filter:
+
+Filter
+=========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter">
+    <span id="anyinputc3d-filter" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Filter</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Standard (default) filter (Butterworth type filter).</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFunButterworthFilter`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Standard (default) filter (Butterworth type filter).
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyInputC3D.Filter.FilterFun1:
 
 Filter.FilterFun1
@@ -1865,7 +1947,7 @@ Filter.FilterFun1
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1">
     <span id="anyinputc3d-filter-filterfun1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering without initial conditon and downsampling specification.</span>
@@ -1906,7 +1988,7 @@ Filter.FilterFun1.ArgList
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList">
     <span id="anyinputc3d-filter-filterfun1-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -1947,7 +2029,7 @@ Filter.FilterFun1.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList.x">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList.x">
     <span id="anyinputc3d-filter-filterfun1-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1988,7 +2070,7 @@ Filter.FilterFun1.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.Return">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.Return">
     <span id="anyinputc3d-filter-filterfun1-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2029,7 +2111,7 @@ Filter.FilterFun2
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2">
     <span id="anyinputc3d-filter-filterfun2" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with downsampling specification.</span>
@@ -2070,7 +2152,7 @@ Filter.FilterFun2.ArgList
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList">
     <span id="anyinputc3d-filter-filterfun2-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2111,7 +2193,7 @@ Filter.FilterFun2.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.x">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.x">
     <span id="anyinputc3d-filter-filterfun2-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2152,7 +2234,7 @@ Filter.FilterFun2.ArgList.m
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.m">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.m">
     <span id="anyinputc3d-filter-filterfun2-arglist-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList.m</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList.m" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2193,7 +2275,7 @@ Filter.FilterFun2.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.Return">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.Return">
     <span id="anyinputc3d-filter-filterfun2-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2234,7 +2316,7 @@ Filter.FilterFun3
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3">
     <span id="anyinputc3d-filter-filterfun3" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with initial condition specification.</span>
@@ -2275,7 +2357,7 @@ Filter.FilterFun3.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList">
     <span id="anyinputc3d-filter-filterfun3-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2316,7 +2398,7 @@ Filter.FilterFun3.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.x">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.x">
     <span id="anyinputc3d-filter-filterfun3-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2357,7 +2439,7 @@ Filter.FilterFun3.ArgList.z0
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.z0">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.z0">
     <span id="anyinputc3d-filter-filterfun3-arglist-z0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList.z0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList.z0" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2398,7 +2480,7 @@ Filter.FilterFun3.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.Return">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.Return">
     <span id="anyinputc3d-filter-filterfun3-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2439,7 +2521,7 @@ Filter.FilterFun4
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4">
     <span id="anyinputc3d-filter-filterfun4" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with both initial condition and downsampling specification.</span>
@@ -2480,7 +2562,7 @@ Filter.FilterFun4.ArgList
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList">
     <span id="anyinputc3d-filter-filterfun4-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2521,7 +2603,7 @@ Filter.FilterFun4.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.x">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.x">
     <span id="anyinputc3d-filter-filterfun4-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2562,7 +2644,7 @@ Filter.FilterFun4.ArgList.m
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.m">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.m">
     <span id="anyinputc3d-filter-filterfun4-arglist-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.m</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.m" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2603,7 +2685,7 @@ Filter.FilterFun4.ArgList.z0
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.z0">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.z0">
     <span id="anyinputc3d-filter-filterfun4-arglist-z0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.z0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.z0" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2644,7 +2726,7 @@ Filter.FilterFun4.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.Return">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.Return">
     <span id="anyinputc3d-filter-filterfun4-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>

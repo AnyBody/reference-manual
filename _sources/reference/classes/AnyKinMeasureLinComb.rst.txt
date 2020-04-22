@@ -205,6 +205,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -235,16 +236,18 @@ Const
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Vector of constants.
 
 ..
+
 
 
 
@@ -281,16 +284,18 @@ CoefTimeFun
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Pointer to a parameter function that provide any time-dependent component of the 'Coef' matrix. The output of the function must match the dimensions of 'Coef' or at least have the same number of elements.
 
 ..
+
 
 
 
@@ -327,10 +332,11 @@ ConstTimeFun
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 

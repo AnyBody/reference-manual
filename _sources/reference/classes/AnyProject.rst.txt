@@ -237,6 +237,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -244,8 +245,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnyProject.Description:
 
 Description
 ==============
@@ -255,8 +254,8 @@ Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description">
-    <span id="anyproject-description" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
     </h3>
@@ -265,9 +264,9 @@ Description
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -299,8 +298,7 @@ Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
 
@@ -308,7 +306,7 @@ Description.BodyText
 
 
 
-
+    
 
 ..
 
@@ -340,8 +338,7 @@ Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The title of the description. Shown in bold at the top of the window pane.
 
@@ -349,7 +346,7 @@ Description.Title
 
 
 
-
+    
 
 ..
 
@@ -381,8 +378,7 @@ Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
 
@@ -390,7 +386,7 @@ Description.BodyHTML
 
 
 
-
+    
 
 ..
 
@@ -422,8 +418,7 @@ Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
 
@@ -431,7 +426,7 @@ Description.HTMLURL
 
 
 
-
+    
 
 ..
 
@@ -463,8 +458,7 @@ Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
 
@@ -472,7 +466,7 @@ Description.Tooltip
 
 
 
-
+    
 
 ..
 
@@ -504,8 +498,7 @@ Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
 
@@ -513,13 +506,14 @@ Description.Files
 
 
 
+    
 
 
 
-
-    Description folder.
+    
 
 ..
+
 
 
 
@@ -534,7 +528,1051 @@ Description.Files
      </div></div> <!--
 ..
 
-.. _AnyProject.Autos:
+Tasks
+========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Tasks </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Tasks" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Folder of tasks.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyProject.Tasks.Description:
+
+Tasks.Description
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description">
+    <span id="anyproject-tasks-description" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Tasks.Description" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Description folder.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDescription`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+        
+
+    Description folder.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Tasks.Description.BodyText:
+
+Tasks.Description.BodyText
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Tasks.Description.BodyText">
+    <span id="anyproject-tasks-description-bodytext" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.BodyText" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description. By using the text formatting functions, links can be included in the body text.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Tasks.Description.Title:
+
+Tasks.Description.Title
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description.Title">
+    <span id="anyproject-tasks-description-title" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.Title" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The title of the description. Shown in bold at the top of the window pane.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Tasks.Description.BodyHTML:
+
+Tasks.Description.BodyHTML
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Tasks.Description.BodyHTML">
+    <span id="anyproject-tasks-description-bodyhtml" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.BodyHTML" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Tasks.Description.HTMLURL:
+
+Tasks.Description.HTMLURL
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description.HTMLURL">
+    <span id="anyproject-tasks-description-htmlurl" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.HTMLURL" title="Permalink to this headline">¶</a>
+    <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Tasks.Description.Tooltip:
+
+Tasks.Description.Tooltip
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Tasks.Description.Tooltip">
+    <span id="anyproject-tasks-description-tooltip" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.Tooltip" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Tasks.Description.Files:
+
+Tasks.Description.Files
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description.Files">
+    <span id="anyproject-tasks-description-files" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Tasks.Description.Files" title="Permalink to this headline">¶</a>
+    <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFile`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** *Depends on other values*
+        
+
+    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div></div> <!--
+..
+
+Views
+========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Views </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Views" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Folder of view.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyProject.Views.Description:
+
+Views.Description
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description">
+    <span id="anyproject-views-description" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Views.Description" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Description folder.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDescription`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+        
+
+    Description folder.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Views.Description.BodyText:
+
+Views.Description.BodyText
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Views.Description.BodyText">
+    <span id="anyproject-views-description-bodytext" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.BodyText" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description. By using the text formatting functions, links can be included in the body text.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Views.Description.Title:
+
+Views.Description.Title
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description.Title">
+    <span id="anyproject-views-description-title" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.Title" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The title of the description. Shown in bold at the top of the window pane.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Views.Description.BodyHTML:
+
+Views.Description.BodyHTML
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Views.Description.BodyHTML">
+    <span id="anyproject-views-description-bodyhtml" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.BodyHTML" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Views.Description.HTMLURL:
+
+Views.Description.HTMLURL
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description.HTMLURL">
+    <span id="anyproject-views-description-htmlurl" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.HTMLURL" title="Permalink to this headline">¶</a>
+    <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Views.Description.Tooltip:
+
+Views.Description.Tooltip
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Views.Description.Tooltip">
+    <span id="anyproject-views-description-tooltip" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.Tooltip" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Views.Description.Files:
+
+Views.Description.Files
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description.Files">
+    <span id="anyproject-views-description-files" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Views.Description.Files" title="Permalink to this headline">¶</a>
+    <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFile`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** *Depends on other values*
+        
+
+    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div></div> <!--
+..
+
+Files
+========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Files </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Files" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Folder of project file information.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyProject.Files.Description:
+
+Files.Description
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description">
+    <span id="anyproject-files-description" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Files.Description" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Description folder.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDescription`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+        
+
+    Description folder.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.Description.BodyText:
+
+Files.Description.BodyText
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.Description.BodyText">
+    <span id="anyproject-files-description-bodytext" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.BodyText" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description. By using the text formatting functions, links can be included in the body text.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.Description.Title:
+
+Files.Description.Title
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description.Title">
+    <span id="anyproject-files-description-title" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.Title" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The title of the description. Shown in bold at the top of the window pane.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.Description.BodyHTML:
+
+Files.Description.BodyHTML
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.Description.BodyHTML">
+    <span id="anyproject-files-description-bodyhtml" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.BodyHTML" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.Description.HTMLURL:
+
+Files.Description.HTMLURL
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description.HTMLURL">
+    <span id="anyproject-files-description-htmlurl" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.HTMLURL" title="Permalink to this headline">¶</a>
+    <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.Description.Tooltip:
+
+Files.Description.Tooltip
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.Description.Tooltip">
+    <span id="anyproject-files-description-tooltip" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.Tooltip" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.Description.Files:
+
+Files.Description.Files
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description.Files">
+    <span id="anyproject-files-description-files" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Files.Description.Files" title="Permalink to this headline">¶</a>
+    <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFile`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** *Depends on other values*
+        
+
+    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.MainFile:
+
+Files.MainFile
+-----------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.MainFile">
+    <span id="anyproject-files-mainfile" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MainFile </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.MainFile" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Main-file of the project.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFileVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    Main-file of the project.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Files.SetValueFile:
+
+Files.SetValueFile
+---------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.SetValueFile">
+    <span id="anyproject-files-setvaluefile" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SetValueFile </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.SetValueFile" title="Permalink to this headline">¶</a>
+    <span class="member-descr">File name for storing modified values between project sessions.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFileVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    File name for storing modified values between project sessions.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div></div> <!--
+..
 
 Autos
 ========
@@ -544,8 +1582,8 @@ Autos
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Autos">
-    <span id="anyproject-autos" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Autos </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Autos" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of definitions controlling various automatic processes.</span>
     </h3>
@@ -554,9 +1592,9 @@ Autos
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -588,8 +1626,7 @@ Autos.Description
     | **Class type:**  :ref:`AnyDescription`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Description folder.
 
@@ -597,7 +1634,7 @@ Autos.Description
 
 
 
-
+    
 
 ..
 
@@ -629,8 +1666,7 @@ Autos.Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
 
@@ -638,7 +1674,7 @@ Autos.Description.BodyText
 
 
 
-
+    
 
 ..
 
@@ -670,8 +1706,7 @@ Autos.Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The title of the description. Shown in bold at the top of the window pane.
 
@@ -679,7 +1714,7 @@ Autos.Description.Title
 
 
 
-
+    
 
 ..
 
@@ -711,8 +1746,7 @@ Autos.Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
 
@@ -720,7 +1754,7 @@ Autos.Description.BodyHTML
 
 
 
-
+    
 
 ..
 
@@ -752,8 +1786,7 @@ Autos.Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
 
@@ -761,7 +1794,7 @@ Autos.Description.HTMLURL
 
 
 
-
+    
 
 ..
 
@@ -793,8 +1826,7 @@ Autos.Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
 
@@ -802,7 +1834,7 @@ Autos.Description.Tooltip
 
 
 
-
+    
 
 ..
 
@@ -834,8 +1866,7 @@ Autos.Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
-
-
+        
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
 
@@ -843,7 +1874,7 @@ Autos.Description.Files
 
 
 
-
+    
 
 ..
 
@@ -875,10 +1906,19 @@ Autos.StartView
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
-
-
+        
 
     Object pointer to an AnyProjectModelViewDefinition, which will be applied to the model at load.
+
+..
+
+
+
+    
+
+
+
+    
 
 ..
 
@@ -888,7 +1928,319 @@ Autos.StartView
 
 
 
-    Folder of definitions controlling various automatic processes.
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div></div> <!--
+..
+
+Output
+=========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Output </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Output" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Folder of project specific outputs.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyProject.Output.Description:
+
+Output.Description
+---------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description">
+    <span id="anyproject-output-description" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Output.Description" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Description folder.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDescription`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+        
+
+    Description folder.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Output.Description.BodyText:
+
+Output.Description.BodyText
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Description.BodyText">
+    <span id="anyproject-output-description-bodytext" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.BodyText" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description. By using the text formatting functions, links can be included in the body text.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Output.Description.Title:
+
+Output.Description.Title
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description.Title">
+    <span id="anyproject-output-description-title" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.Title" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The title of the description. Shown in bold at the top of the window pane.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Output.Description.BodyHTML:
+
+Output.Description.BodyHTML
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Description.BodyHTML">
+    <span id="anyproject-output-description-bodyhtml" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.BodyHTML" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Output.Description.HTMLURL:
+
+Output.Description.HTMLURL
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description.HTMLURL">
+    <span id="anyproject-output-description-htmlurl" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.HTMLURL" title="Permalink to this headline">¶</a>
+    <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Output.Description.Tooltip:
+
+Output.Description.Tooltip
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Description.Tooltip">
+    <span id="anyproject-output-description-tooltip" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.Tooltip" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+        
+
+    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+
+..
+
+
+
+    
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyProject.Output.Description.Files:
+
+Output.Description.Files
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description.Files">
+    <span id="anyproject-output-description-files" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Output.Description.Files" title="Permalink to this headline">¶</a>
+    <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFile`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** *Depends on other values*
+        
+
+    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+
+..
+
+
+
+    
+
+
+
+    
 
 ..
 
@@ -912,6 +2264,47 @@ Denied-Access members
     <!--
 ..
 
+.. _AnyProject.Files:
+
+Files
+========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files">
+    <span id="anyproject-files" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Files</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Folder of project file information.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyProjectFiles`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Folder of project file information.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyProject.Files.SourceFiles:
 
 Files.SourceFiles
@@ -922,7 +2315,7 @@ Files.SourceFiles
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.SourceFiles">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.SourceFiles">
     <span id="anyproject-files-sourcefiles" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Files.SourceFiles</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files.SourceFiles" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of all AnyScript source files in the model (currently loaded).</span>
@@ -963,7 +2356,7 @@ Files.DataFiles
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.DataFiles">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.DataFiles">
     <span id="anyproject-files-datafiles" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Files.DataFiles</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files.DataFiles" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of all data files in the model (currently loaded).</span>

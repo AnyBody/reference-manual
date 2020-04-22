@@ -116,6 +116,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -146,16 +147,18 @@ PreTransforms
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
+
 
 
 
@@ -192,16 +195,18 @@ RefTarget
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Object that defines the reference frame for the function output. If empty or 'None' then output will be given in the root reference frame for 'Ref'.
 
 ..
+
 
 
 
@@ -238,16 +243,18 @@ TranslationOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether positions of the reference frames are included or ignored.
 
 ..
+
 
 
 
@@ -284,10 +291,11 @@ RotationOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 

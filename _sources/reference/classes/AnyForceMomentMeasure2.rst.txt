@@ -199,6 +199,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -229,16 +230,18 @@ IncludeForces
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Vector of AnyObjectPtrs to the generalized forces that will be added in this object.Either this or AnyForceBase type members must be present.
 
 ..
+
 
 
 
@@ -275,16 +278,18 @@ RefPoint
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     AnyObjectPtr to the reference frame that defines the point of interest and thereby the output. Either this or an AnyRefFrame must be present.
 
 ..
+
 
 
 
@@ -321,16 +326,18 @@ IncludeSegments
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Vector of AnyObjectPtrs to the segments that defines the mechanical sub-system for which the force contributions are assembled. Either this or AnySeg members must be present.
 
 ..
+
 
 
 
@@ -367,16 +374,18 @@ IncludeGravity
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     When set to 'On', gravitational forces on the segments are included in the summation of forces.
 
 ..
+
 
 
 
@@ -413,10 +422,11 @@ IncludeInertiaForces
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 

@@ -51,6 +51,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -81,16 +82,18 @@ Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Normalization type used to define the muscle quantities entering the term.
 
 ..
+
 
 
 
@@ -127,16 +130,18 @@ Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Weight (or scaling) of the term in the total criterion.
 
 ..
+
 
 
 
@@ -173,16 +178,18 @@ LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Lower bound for muscle quantities entering the term.
 
 ..
+
 
 
 
@@ -219,16 +226,18 @@ Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
+
 
 
 
@@ -265,10 +274,11 @@ Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 

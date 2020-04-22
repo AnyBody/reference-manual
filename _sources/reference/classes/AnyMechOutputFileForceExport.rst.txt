@@ -205,6 +205,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -212,8 +213,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnyMechOutputFileForceExport.NumberFormat:
 
 NumberFormat
 ===============
@@ -223,8 +222,8 @@ NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat">
-    <span id="anymechoutputfileforceexport-numberformat" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for numerical values in text formatted files. Applies to...</span>
     </h3>
@@ -233,9 +232,9 @@ NumberFormat
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -267,8 +266,7 @@ NumberFormat.Digits
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``15``
-
-
+        
 
     Number of digits in output. Disregarded if smaller than one.
 
@@ -276,7 +274,7 @@ NumberFormat.Digits
 
 
 
-
+    
 
 ..
 
@@ -308,8 +306,7 @@ NumberFormat.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``23``
-
-
+        
 
     Number of character spaces reserved for the number in output. Disregarded if smaller than one.
 
@@ -317,7 +314,7 @@ NumberFormat.Width
 
 
 
-
+    
 
 ..
 
@@ -349,8 +346,7 @@ NumberFormat.Style
     | **Class type:**  :ref:`AnyEnumFloatNumberStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``ScientificNumber``
-
-
+        
 
     Style specification.
 
@@ -358,7 +354,7 @@ NumberFormat.Style
 
 
 
-
+    
 
 ..
 
@@ -390,8 +386,7 @@ NumberFormat.FormatStr
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.
 
@@ -399,13 +394,14 @@ NumberFormat.FormatStr
 
 
 
+    
 
 
 
-
-    Format settings for numerical values in text formatted files. Applies to floating-point numbers (AnyFloat) only.
+    
 
 ..
+
 
 
 
@@ -442,16 +438,18 @@ UseRefFrameOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether to use the first AnyRefFrame member as refernce frame instead of the global reference system
 
 ..
+
 
 
 
@@ -488,16 +486,18 @@ AllSegmentsInStudyOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch that controls whether the output is prepared for all segments in the current study being analyzed, or for selected segments. Selected segments
 
 ..
+
 
 
 
@@ -534,16 +534,18 @@ XMLformatOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using XML formatted output as alternative to the original text output.
 
 ..
+
 
 
 
@@ -580,16 +582,18 @@ RefFrame
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     An object pointer variable to supply an output reference frame.
 
 ..
+
 
 
 
@@ -626,16 +630,18 @@ Segments
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     An object pointer array to supply a list of segments to output forces for.
 
 ..
+
 
 
 
@@ -672,16 +678,18 @@ MeshRefFrames
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     An object pointer array to supply a list of corresponding to Segments ref. frames, which would be used to output muscle attachment locations in. For example, the reference frame of the finite element mesh. Please note that all these reference frames should be created as subnodes on the segments of interest.
 
 ..
+
 
 
 
@@ -718,16 +726,18 @@ ForceObjectExclude
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     An array of pointers to force objects to be excluded from output. Can be used in combination with ForceObjectList.
 
 ..
+
 
 
 
@@ -764,10 +774,11 @@ ForceObjectList
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 

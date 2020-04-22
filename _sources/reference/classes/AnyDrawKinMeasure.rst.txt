@@ -101,6 +101,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -131,16 +132,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -177,16 +180,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -223,16 +228,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -269,16 +276,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -315,16 +324,18 @@ RGB1
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.3, 0.3}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Color F1 in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -361,16 +372,18 @@ RGB2
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.3, 0.8, 0.3}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Color F2 in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -407,16 +420,18 @@ RGB3
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.3, 0.3, 0.8}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Color F3 in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -453,16 +468,18 @@ RGB4
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.5, 0.2}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Color F4 in RGB values between 0 and 1.
 
 ..
+
 
 
 
@@ -499,16 +516,18 @@ Label
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.
 
 ..
+
 
 
 
@@ -545,16 +564,18 @@ Size
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.02``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Radius size of the balls etc. of the AnyDrawKinMeasure.
 
 ..
+
 
 
 
@@ -591,16 +612,18 @@ Line
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     On/Off value indicating whether the AnyDrawKinMeasure should have a line between ball components.
 
 ..
+
 
 
 
@@ -637,16 +660,18 @@ Text
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set, this text is shown as the label.
 
 ..
+
 
 
 
@@ -683,16 +708,18 @@ TextSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``30.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The size in pixels of the Text label.
 
 ..
+
 
 
 
@@ -729,16 +756,18 @@ ShowIllustration
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Indicates if the graphical representation of the kinematic measure should be drawn if applicable.
 
 ..
+
 
 
 
@@ -775,16 +804,18 @@ ShowLabelLines
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Indicates if the lines from the label to the reference frames of the kinematic measure should be drawn.
 
 ..
+
 
 
 
@@ -821,16 +852,18 @@ ShowValue
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Indicates if the pos value of the kinematic measure should be shown in the label.
 
 ..
+
 
 
 
@@ -867,16 +900,18 @@ ShowLabelBorder
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Indicates if the label of the kinematic measure should be drawn.
 
 ..
+
 
 
 
@@ -913,16 +948,18 @@ IllustrationPositionOffset
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Positional offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.
 
 ..
+
 
 
 
@@ -959,16 +996,18 @@ IllustrationRotationOffset
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Rotational offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.
 
 ..
+
 
 
 
@@ -1005,10 +1044,11 @@ RefIllustration
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``-2``
+    
 
-
-
-
+    
+    
+    
 
 
 
@@ -1017,6 +1057,7 @@ RefIllustration
     -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure
 
 ..
+
 
 
 
@@ -1053,10 +1094,11 @@ RefLabel
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``-2``
+    
 
-
-
-
+    
+    
+    
 
 
 
@@ -1065,6 +1107,7 @@ RefLabel
     -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure
 
 ..
+
 
 
 
@@ -1101,16 +1144,18 @@ LabelPositionOffset
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Positional offset for the label of the kinematic measure in the reference frame indicated by the ref value.
 
 ..
+
 
 
 
@@ -1147,16 +1192,18 @@ ValueScaling
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Value used as a factor for the displayed pos value of the kinematic measure. This must either be a scalar or have the same size as pos of the kinematic measure being drawn.
 
 ..
+
 
 
 
@@ -1171,8 +1218,6 @@ ValueScaling
      </div> <!--
 ..
 
-.. _AnyDrawKinMeasure.ValueStyle:
-
 ValueStyle
 =============
 
@@ -1181,8 +1226,8 @@ ValueStyle
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ValueStyle">
-    <span id="anydrawkinmeasure-valuestyle" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> ValueStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ValueStyle" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for the label text.</span>
     </h3>
@@ -1191,9 +1236,9 @@ ValueStyle
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1225,8 +1270,7 @@ ValueStyle.Digits
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``8``
-
-
+        
 
     Number of digits in output. Disregarded if smaller than one.
 
@@ -1234,7 +1278,7 @@ ValueStyle.Digits
 
 
 
-
+    
 
 ..
 
@@ -1266,8 +1310,7 @@ ValueStyle.Style
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
-
-
+        
 
     Style of the numeric output.
 
@@ -1275,7 +1318,7 @@ ValueStyle.Style
 
 
 
-
+    
 
 ..
 
@@ -1307,8 +1350,7 @@ ValueStyle.Scale
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for scaling.
 
@@ -1316,7 +1358,7 @@ ValueStyle.Scale
 
 
 
-
+    
 
 ..
 
@@ -1348,8 +1390,7 @@ ValueStyle.ScaleVal
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Scaling factor.
 
@@ -1357,11 +1398,11 @@ ValueStyle.ScaleVal
 
 
 
+    
 
 
 
-
-    Format settings for the label text.
+    
 
 ..
 

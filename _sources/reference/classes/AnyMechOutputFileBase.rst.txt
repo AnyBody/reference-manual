@@ -114,6 +114,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -121,8 +122,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnyMechOutputFileBase.NumberFormat:
 
 NumberFormat
 ===============
@@ -132,8 +131,8 @@ NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat">
-    <span id="anymechoutputfilebase-numberformat" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for numerical values in text formatted files. Applies to...</span>
     </h3>
@@ -142,9 +141,9 @@ NumberFormat
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -176,8 +175,7 @@ NumberFormat.Digits
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``15``
-
-
+        
 
     Number of digits in output. Disregarded if smaller than one.
 
@@ -185,7 +183,7 @@ NumberFormat.Digits
 
 
 
-
+    
 
 ..
 
@@ -217,8 +215,7 @@ NumberFormat.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``23``
-
-
+        
 
     Number of character spaces reserved for the number in output. Disregarded if smaller than one.
 
@@ -226,7 +223,7 @@ NumberFormat.Width
 
 
 
-
+    
 
 ..
 
@@ -258,8 +255,7 @@ NumberFormat.Style
     | **Class type:**  :ref:`AnyEnumFloatNumberStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``ScientificNumber``
-
-
+        
 
     Style specification.
 
@@ -267,7 +263,7 @@ NumberFormat.Style
 
 
 
-
+    
 
 ..
 
@@ -299,8 +295,7 @@ NumberFormat.FormatStr
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.
 
@@ -308,11 +303,11 @@ NumberFormat.FormatStr
 
 
 
+    
 
 
 
-
-    Format settings for numerical values in text formatted files. Applies to floating-point numbers (AnyFloat) only.
+    
 
 ..
 

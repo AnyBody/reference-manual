@@ -101,6 +101,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -131,16 +132,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -177,16 +180,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -223,16 +228,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -269,16 +276,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -315,16 +324,18 @@ ShowTotalForces
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for showing total forces at each RefFrame for the force drawing.
 
 ..
+
 
 
 
@@ -361,16 +372,18 @@ ShowComponentForces
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for showing component forces at each RefFrame for the force drawing.
 
 ..
+
 
 
 
@@ -407,16 +420,18 @@ ForceScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.001``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The scaling used for drawing forces in the modelview.
 
 ..
+
 
 
 
@@ -453,16 +468,18 @@ ComponentScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.2``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The scaling used for drawing force components in the modelview.
 
 ..
+
 
 
 
@@ -499,16 +516,18 @@ MomentToForceScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The scaling used between forces and moments in the modelview.
 
 ..
+
 
 
 
@@ -545,16 +564,18 @@ MaximumForceLength
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.25``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The maximum length of the force drawing arrow relative to the viewport width.
 
 ..
+
 
 
 
@@ -591,16 +612,18 @@ MinimumForceLength
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.2``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The minimum length of the force drawing arrow relative to the maximum force drawing arrow length.
 
 ..
+
 
 
 
@@ -637,16 +660,18 @@ ReactionForceColor
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.3, 0.3}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The color used for drawing reaction force arrowhead tips.
 
 ..
+
 
 
 
@@ -683,16 +708,18 @@ AppliedForceColor
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.3, 0.8, 0.3}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The color used for drawing applied force arrowhead tips.
 
 ..
+
 
 
 
@@ -729,10 +756,11 @@ ScaleToView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 

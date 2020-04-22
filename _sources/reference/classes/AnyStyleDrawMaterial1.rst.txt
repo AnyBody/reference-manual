@@ -51,6 +51,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -81,16 +82,18 @@ EnableCreasing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set to Off, the creasing angle is ignored for this material.
 
 ..
+
 
 
 
@@ -127,16 +130,18 @@ CreasingAngle
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.524``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.
 
 ..
+
 
 
 
@@ -173,16 +178,18 @@ EnableWireframe
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set to On, surfaces with this material will be rendered as wireframe.
 
 ..
+
 
 
 
@@ -219,16 +226,18 @@ EnableSmoothing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     If set to On, smoothing of surfaces are enabled for this material.
 
 ..
+
 
 
 
@@ -265,16 +274,18 @@ RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.6, 0.6, 0.6}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Basis color.
 
 ..
+
 
 
 
@@ -311,16 +322,18 @@ DiffuseRGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.6, 0.6, 0.6}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Diffuse color.
 
 ..
+
 
 
 
@@ -357,16 +370,18 @@ SpecularRGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Specular color.
 
 ..
+
 
 
 
@@ -403,16 +418,18 @@ EmissionRGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Emission color.
 
 ..
+
 
 
 
@@ -449,16 +466,18 @@ Shininess
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.7``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Shininess values. Range: [0,1]
 
 ..
+
 
 
 
@@ -495,10 +514,11 @@ Opacity
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 

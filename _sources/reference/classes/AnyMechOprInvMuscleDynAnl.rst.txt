@@ -123,6 +123,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -130,8 +131,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnyMechOprInvMuscleDynAnl.Settings:
 
 Settings
 ===========
@@ -141,8 +140,8 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
-    <span id="anymechoprinvmuscledynanl-settings" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
     </h3>
@@ -151,9 +150,9 @@ Settings
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -185,8 +184,7 @@ Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -194,7 +192,7 @@ Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -226,8 +224,7 @@ Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -235,7 +232,7 @@ Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -267,8 +264,7 @@ Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityNormal``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -276,7 +272,7 @@ Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -308,8 +304,7 @@ Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -317,13 +312,14 @@ Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    General settings for the operation.
+    
 
 ..
+
 
 
 
@@ -338,8 +334,6 @@ Settings.SelectOnLoad
      </div></div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.PreOperation:
-
 PreOperation
 ===============
 
@@ -348,8 +342,8 @@ PreOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
-    <span id="anymechoprinvmuscledynanl-preoperation" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pre-process operation.</span>
     </h3>
@@ -358,9 +352,9 @@ PreOperation
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -392,8 +386,7 @@ PreOperation.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General settings for the operation.
 
@@ -401,7 +394,7 @@ PreOperation.Settings
 
 
 
-
+    
 
 ..
 
@@ -433,8 +426,7 @@ PreOperation.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -442,7 +434,7 @@ PreOperation.Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -474,8 +466,7 @@ PreOperation.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -483,7 +474,7 @@ PreOperation.Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -515,8 +506,7 @@ PreOperation.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityLow``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -524,7 +514,7 @@ PreOperation.Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -556,8 +546,7 @@ PreOperation.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -565,13 +554,14 @@ PreOperation.Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    Pre-process operation.
+    
 
 ..
+
 
 
 
@@ -586,8 +576,6 @@ PreOperation.Settings.SelectOnLoad
      </div></div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.PostOperation:
-
 PostOperation
 ================
 
@@ -596,8 +584,8 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
-    <span id="anymechoprinvmuscledynanl-postoperation" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Post-process operation.</span>
     </h3>
@@ -606,9 +594,9 @@ PostOperation
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -640,8 +628,7 @@ PostOperation.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     General settings for the operation.
 
@@ -649,7 +636,7 @@ PostOperation.Settings
 
 
 
-
+    
 
 ..
 
@@ -681,8 +668,7 @@ PostOperation.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -690,7 +676,7 @@ PostOperation.Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -722,8 +708,7 @@ PostOperation.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -731,7 +716,7 @@ PostOperation.Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -763,8 +748,7 @@ PostOperation.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityLow``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -772,7 +756,7 @@ PostOperation.Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -804,8 +788,7 @@ PostOperation.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -813,13 +796,14 @@ PostOperation.Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    Post-process operation.
+    
 
 ..
+
 
 
 
@@ -856,16 +840,18 @@ ForceDepKinOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for the force-dependent kinematics solver.
 
 ..
+
 
 
 
@@ -880,8 +866,6 @@ ForceDepKinOnOff
      </div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.ForceDepKin:
-
 ForceDepKin
 ==============
 
@@ -890,8 +874,8 @@ ForceDepKin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin">
-    <span id="anymechoprinvmuscledynanl-forcedepkin" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ForceDepKin" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with setting for the force-dependent kinematics solver.</span>
     </h3>
@@ -900,9 +884,9 @@ ForceDepKin
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -934,8 +918,7 @@ ForceDepKin.ForceTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.001``
-
-
+        
 
     Tolerance used in stopping criterion.
 
@@ -943,7 +926,7 @@ ForceDepKin.ForceTol
 
 
 
-
+    
 
 ..
 
@@ -975,8 +958,7 @@ ForceDepKin.UseAdaptiveForceTolOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for whether the stopping criterion uses. Off: the actual force residual for the force dependent degrees of freedom, or On: the force residual converted using last known stiffness to a displacement value, i.e. a more direct measure of kinematic accuracy.
 
@@ -984,7 +966,7 @@ ForceDepKin.UseAdaptiveForceTolOnOff
 
 
 
-
+    
 
 ..
 
@@ -1016,8 +998,7 @@ ForceDepKin.MaxIteration
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``100``
-
-
+        
 
     Maximal number of steps allowed in the iteration.
 
@@ -1025,7 +1006,7 @@ ForceDepKin.MaxIteration
 
 
 
-
+    
 
 ..
 
@@ -1057,8 +1038,7 @@ ForceDepKin.Perturbation
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
-
-
+        
 
     Perturbation value used to numerical jacobian computation.
 
@@ -1066,7 +1046,7 @@ ForceDepKin.Perturbation
 
 
 
-
+    
 
 ..
 
@@ -1098,8 +1078,7 @@ ForceDepKin.PerturbationSymmetricOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for using symmetric differentiation scheme for calculation of numerical Jacobian.
 
@@ -1107,7 +1086,7 @@ ForceDepKin.PerturbationSymmetricOnOff
 
 
 
-
+    
 
 ..
 
@@ -1139,8 +1118,7 @@ ForceDepKin.LocalSearchOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for using a search method (golden-section search) for each Newton iteration instead of a simpler relaxation scheme.
 
@@ -1148,7 +1126,7 @@ ForceDepKin.LocalSearchOnOff
 
 
 
-
+    
 
 ..
 
@@ -1180,8 +1158,7 @@ ForceDepKin.MaxNewtonStep
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.001``
-
-
+        
 
     Maximal size of component of the update vector of the newton iteration during the solution of a FDK step.
 
@@ -1189,7 +1166,7 @@ ForceDepKin.MaxNewtonStep
 
 
 
-
+    
 
 ..
 
@@ -1221,8 +1198,7 @@ ForceDepKin.SolverType
     | **Class type:**  :ref:`AnyFDKSolverType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``FDK_Solver_Newton``
-
-
+        
 
     Solver method used for the FDK iterations.
 
@@ -1230,7 +1206,7 @@ ForceDepKin.SolverType
 
 
 
-
+    
 
 ..
 
@@ -1262,8 +1238,7 @@ ForceDepKin.ComplexPowerExp
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
-
-
+        
 
     <No description>
 
@@ -1271,7 +1246,7 @@ ForceDepKin.ComplexPowerExp
 
 
 
-
+    
 
 ..
 
@@ -1303,8 +1278,7 @@ ForceDepKin.ComplexAlpha
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.3``
-
-
+        
 
     <No description>
 
@@ -1312,7 +1286,7 @@ ForceDepKin.ComplexAlpha
 
 
 
-
+    
 
 ..
 
@@ -1344,8 +1318,7 @@ ForceDepKin.ComplexMaxNumRepeat
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``4``
-
-
+        
 
     Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
 
@@ -1353,7 +1326,7 @@ ForceDepKin.ComplexMaxNumRepeat
 
 
 
-
+    
 
 ..
 
@@ -1385,8 +1358,7 @@ ForceDepKin.ComplexPopulationSize
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
-
-
+        
 
     Size of the population for the Complex solver, i.e., the number of design points in the population.
 
@@ -1394,7 +1366,7 @@ ForceDepKin.ComplexPopulationSize
 
 
 
-
+    
 
 ..
 
@@ -1426,8 +1398,7 @@ ForceDepKin.ComplexAnalysisFailedPenalty
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e+16``
-
-
+        
 
     Penalty factor used in the Complex solver to change degrees of freedem if the kinematic analysis failes.
 
@@ -1435,7 +1406,7 @@ ForceDepKin.ComplexAnalysisFailedPenalty
 
 
 
-
+    
 
 ..
 
@@ -1467,8 +1438,7 @@ ForceDepKin.ComplexConvergenceObjectiveTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Convergence tolerance of the objective function for the Complex solver.
 
@@ -1476,7 +1446,7 @@ ForceDepKin.ComplexConvergenceObjectiveTol
 
 
 
-
+    
 
 ..
 
@@ -1508,8 +1478,7 @@ ForceDepKin.ComplexConvergenceDesignTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
-
-
+        
 
     Convergence tolerance of the FDK degrees of freedeom for the Complex solver.
 
@@ -1517,7 +1486,7 @@ ForceDepKin.ComplexConvergenceDesignTol
 
 
 
-
+    
 
 ..
 
@@ -1549,8 +1518,7 @@ ForceDepKin.ComplexPopulationBoxSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.005``
-
-
+        
 
     Size of the box in the design space of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
 
@@ -1558,7 +1526,7 @@ ForceDepKin.ComplexPopulationBoxSize
 
 
 
-
+    
 
 ..
 
@@ -1590,8 +1558,7 @@ ForceDepKin.ComplexRefinementConvergenceObjectiveTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Convergence tolerance on the objective function of the refinement step of the Complex solver.
 
@@ -1599,7 +1566,7 @@ ForceDepKin.ComplexRefinementConvergenceObjectiveTol
 
 
 
-
+    
 
 ..
 
@@ -1631,8 +1598,7 @@ ForceDepKin.ComplexRefinementConvergenceDesignTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-09``
-
-
+        
 
     Convergence tolerance on the FDK degrees of freedom of the refinement step of the Complex solver.
 
@@ -1640,7 +1606,7 @@ ForceDepKin.ComplexRefinementConvergenceDesignTol
 
 
 
-
+    
 
 ..
 
@@ -1672,8 +1638,7 @@ ForceDepKin.ComplexRefinementPopulationBoxSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
-
-
+        
 
     Size of the box in the design space of the refinement step of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
 
@@ -1681,13 +1646,14 @@ ForceDepKin.ComplexRefinementPopulationBoxSize
 
 
 
+    
 
 
 
-
-    Folder with setting for the force-dependent kinematics solver.
+    
 
 ..
+
 
 
 
@@ -1702,8 +1668,6 @@ ForceDepKin.ComplexRefinementPopulationBoxSize
      </div></div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.Criterion:
-
 Criterion
 ============
 
@@ -1712,8 +1676,8 @@ Criterion
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion">
-    <span id="anymechoprinvmuscledynanl-criterion" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion" title="Permalink to this headline">¶</a>
     <span class="member-descr">Setting folder for specifying the muscle recruitment criterion.</span>
     </h3>
@@ -1722,9 +1686,9 @@ Criterion
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1756,8 +1720,7 @@ Criterion.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_Polynomial``
-
-
+        
 
     Muscle recruitment criterion type.
 
@@ -1765,7 +1728,7 @@ Criterion.Type
 
 
 
-
+    
 
 ..
 
@@ -1797,8 +1760,7 @@ Criterion.Power
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``3.0``
-
-
+        
 
     Power for the MR_Polynomial criterion.
 
@@ -1806,7 +1768,7 @@ Criterion.Power
 
 
 
-
+    
 
 ..
 
@@ -1838,8 +1800,7 @@ Criterion.UpperBoundOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for whether the upper bound on muscle activity is active in the criterion.
 
@@ -1847,7 +1808,7 @@ Criterion.UpperBoundOnOff
 
 
 
-
+    
 
 ..
 
@@ -1879,8 +1840,7 @@ Criterion.UpperBound
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Value of the upper bound on muscle activity. Typically it is 1.0 implying complete saturation of the muscle capability.
 
@@ -1888,7 +1848,7 @@ Criterion.UpperBound
 
 
 
-
+    
 
 ..
 
@@ -1920,8 +1880,7 @@ Criterion.LowerBoundOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for whether the lower bound on muscle activity is active in the criterion.
 
@@ -1929,7 +1888,7 @@ Criterion.LowerBoundOnOff
 
 
 
-
+    
 
 ..
 
@@ -1961,8 +1920,7 @@ Criterion.LowerBound
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Value of the lower bound on muscle activity. Typically it is 0.0 llowing muscles to fully relax.
 
@@ -1970,7 +1928,7 @@ Criterion.LowerBound
 
 
 
-
+    
 
 ..
 
@@ -2002,8 +1960,7 @@ Criterion.PrimaryTerm
     | **Class type:**  :ref:`AnyOprSetMuscleRecruitmentNormalization`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Folder with settings for primary term of the muscle recruitment criterion. The primary term depends on the Type.
 
@@ -2011,7 +1968,7 @@ Criterion.PrimaryTerm
 
 
 
-
+    
 
 ..
 
@@ -2043,8 +2000,7 @@ Criterion.PrimaryTerm.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -2052,7 +2008,7 @@ Criterion.PrimaryTerm.Type
 
 
 
-
+    
 
 ..
 
@@ -2084,8 +2040,7 @@ Criterion.PrimaryTerm.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -2093,7 +2048,7 @@ Criterion.PrimaryTerm.Weight
 
 
 
-
+    
 
 ..
 
@@ -2125,8 +2080,7 @@ Criterion.PrimaryTerm.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -2134,7 +2088,7 @@ Criterion.PrimaryTerm.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -2166,8 +2120,7 @@ Criterion.PrimaryTerm.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2175,7 +2128,7 @@ Criterion.PrimaryTerm.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2207,8 +2160,7 @@ Criterion.PrimaryTerm.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2216,7 +2168,7 @@ Criterion.PrimaryTerm.Weight_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2248,8 +2200,7 @@ Criterion.AuxLinearTerm
     | **Class type:**  :ref:`AnyOprSetMuscleRecruitmentNormalization`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Folder with settings for the auxillary linear term that is appended to the primary term in some cases.
 
@@ -2257,7 +2208,7 @@ Criterion.AuxLinearTerm
 
 
 
-
+    
 
 ..
 
@@ -2289,8 +2240,7 @@ Criterion.AuxLinearTerm.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -2298,7 +2248,7 @@ Criterion.AuxLinearTerm.Type
 
 
 
-
+    
 
 ..
 
@@ -2330,8 +2280,7 @@ Criterion.AuxLinearTerm.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -2339,7 +2288,7 @@ Criterion.AuxLinearTerm.Weight
 
 
 
-
+    
 
 ..
 
@@ -2371,8 +2320,7 @@ Criterion.AuxLinearTerm.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -2380,7 +2328,7 @@ Criterion.AuxLinearTerm.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -2412,8 +2360,7 @@ Criterion.AuxLinearTerm.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2421,7 +2368,7 @@ Criterion.AuxLinearTerm.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2453,8 +2400,7 @@ Criterion.AuxLinearTerm.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2462,7 +2408,7 @@ Criterion.AuxLinearTerm.Weight_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2494,8 +2440,7 @@ Criterion.AuxQuadraticTerm
     | **Class type:**  :ref:`AnyOprSetMuscleRecruitmentNormalization`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Folder with settings for the auxillary quadratic term that is appended to the primary term in some cases.
 
@@ -2503,7 +2448,7 @@ Criterion.AuxQuadraticTerm
 
 
 
-
+    
 
 ..
 
@@ -2535,8 +2480,7 @@ Criterion.AuxQuadraticTerm.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -2544,7 +2488,7 @@ Criterion.AuxQuadraticTerm.Type
 
 
 
-
+    
 
 ..
 
@@ -2576,8 +2520,7 @@ Criterion.AuxQuadraticTerm.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -2585,7 +2528,7 @@ Criterion.AuxQuadraticTerm.Weight
 
 
 
-
+    
 
 ..
 
@@ -2617,8 +2560,7 @@ Criterion.AuxQuadraticTerm.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -2626,7 +2568,7 @@ Criterion.AuxQuadraticTerm.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -2658,8 +2600,7 @@ Criterion.AuxQuadraticTerm.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2667,7 +2608,7 @@ Criterion.AuxQuadraticTerm.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2699,8 +2640,7 @@ Criterion.AuxQuadraticTerm.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2708,7 +2648,7 @@ Criterion.AuxQuadraticTerm.Weight_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2740,8 +2680,7 @@ Criterion.UpperBoundVar
     | **Class type:**  :ref:`AnyOprSetMuscleRecruitmentNormalization`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Folder with settings for variable-scaling for the upper bounds.
 
@@ -2749,7 +2688,7 @@ Criterion.UpperBoundVar
 
 
 
-
+    
 
 ..
 
@@ -2781,8 +2720,7 @@ Criterion.UpperBoundVar.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -2790,7 +2728,7 @@ Criterion.UpperBoundVar.Type
 
 
 
-
+    
 
 ..
 
@@ -2822,8 +2760,7 @@ Criterion.UpperBoundVar.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -2831,7 +2768,7 @@ Criterion.UpperBoundVar.Weight
 
 
 
-
+    
 
 ..
 
@@ -2863,8 +2800,7 @@ Criterion.UpperBoundVar.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -2872,7 +2808,7 @@ Criterion.UpperBoundVar.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -2904,8 +2840,7 @@ Criterion.UpperBoundVar.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2913,7 +2848,7 @@ Criterion.UpperBoundVar.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2945,8 +2880,7 @@ Criterion.UpperBoundVar.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -2954,7 +2888,7 @@ Criterion.UpperBoundVar.Weight_SearchName
 
 
 
-
+    
 
 ..
 
@@ -2986,8 +2920,7 @@ Criterion.LowerBoundVar
     | **Class type:**  :ref:`AnyOprSetMuscleRecruitmentNormalization`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Folder with settings for variable-scaling for the lower bounds.
 
@@ -2995,7 +2928,7 @@ Criterion.LowerBoundVar
 
 
 
-
+    
 
 ..
 
@@ -3027,8 +2960,7 @@ Criterion.LowerBoundVar.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -3036,7 +2968,7 @@ Criterion.LowerBoundVar.Type
 
 
 
-
+    
 
 ..
 
@@ -3068,8 +3000,7 @@ Criterion.LowerBoundVar.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -3077,7 +3008,7 @@ Criterion.LowerBoundVar.Weight
 
 
 
-
+    
 
 ..
 
@@ -3109,8 +3040,7 @@ Criterion.LowerBoundVar.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -3118,7 +3048,7 @@ Criterion.LowerBoundVar.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -3150,8 +3080,7 @@ Criterion.LowerBoundVar.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -3159,7 +3088,7 @@ Criterion.LowerBoundVar.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -3191,8 +3120,7 @@ Criterion.LowerBoundVar.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -3200,7 +3128,7 @@ Criterion.LowerBoundVar.Weight_SearchName
 
 
 
-
+    
 
 ..
 
@@ -3232,8 +3160,7 @@ Criterion.IterativeRefinementSteps
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1``
-
-
+        
 
     Number of iterative refinement step performed by the optimization solver. Iterative refinement increases accuracy at the cost of efficiency.
 
@@ -3241,7 +3168,7 @@ Criterion.IterativeRefinementSteps
 
 
 
-
+    
 
 ..
 
@@ -3273,8 +3200,7 @@ Criterion.NewRecruitmentSolversOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for using the new generation of optimization solvers for muscle recruitment. The older version may occasionally be more efficient, but they cannot deal with all types of problems.
 
@@ -3282,7 +3208,7 @@ Criterion.NewRecruitmentSolversOnOff
 
 
 
-
+    
 
 ..
 
@@ -3314,8 +3240,7 @@ Criterion.MultifrontalCholeskyOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for using multi-frontal methods in the sparse Cholesky factorization inside the muscle recruitment solvers. The multi-frontal method can be faster for larger problems, but this solver is still an experimental implementation.
 
@@ -3323,11 +3248,11 @@ Criterion.MultifrontalCholeskyOnOff
 
 
 
+    
 
 
 
-
-    Setting folder for specifying the muscle recruitment criterion.
+    
 
 ..
 
@@ -3474,6 +3399,47 @@ UpdOutput
     </div><!--
 ..
 
+.. _AnyMechOprInvMuscleDynAnl.PreOperation:
+
+PreOperation
+===============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
+    <span id="anymechoprinvmuscledynanl-preoperation" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Pre-process operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprSubProcess`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Pre-process operation.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyMechOprInvMuscleDynAnl.PreOperation.UpdConfig:
 
 PreOperation.UpdConfig
@@ -3484,7 +3450,7 @@ PreOperation.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
     <span id="anymechoprinvmuscledynanl-preoperation-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3525,7 +3491,7 @@ PreOperation.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
     <span id="anymechoprinvmuscledynanl-preoperation-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3566,7 +3532,7 @@ PreOperation.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
     <span id="anymechoprinvmuscledynanl-preoperation-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3583,6 +3549,47 @@ PreOperation.UpdOutput
 
 
     <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMechOprInvMuscleDynAnl.PostOperation:
+
+PostOperation
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
+    <span id="anymechoprinvmuscledynanl-postoperation" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">PostOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Post-process operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprSubProcess`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Post-process operation.
 
 ..
 

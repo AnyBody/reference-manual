@@ -189,6 +189,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -219,16 +220,18 @@ OutDim
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Dimension of the output measure. This optional setting can be used to specify the dimension that alternatively is defined by the number of rows in Coef.
 
 ..
+
 
 
 
@@ -265,16 +268,18 @@ Const
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Vector of constants.
 
 ..
+
 
 
 
@@ -311,16 +316,18 @@ BsplineOrder
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``4``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Order of B-spline interpolation, please refer to AnyFunInterpol.
 
 ..
+
 
 
 
@@ -357,16 +364,18 @@ T
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     <No description>
 
 ..
+
 
 
 
@@ -403,10 +412,11 @@ Data
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 

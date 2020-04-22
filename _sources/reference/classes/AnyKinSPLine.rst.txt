@@ -164,6 +164,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -194,16 +195,18 @@ InitWrapPosVectors
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     An array of 3-D vectors that specify the initial shape of the string. The vectors are ordered as rows of a matrix. For each line segment two vectors must be specified. They are defining two points relative to the line segment's origin and insertion nodes and the curve's initial shape will be three straight lines; from the origin to the first point, then to the second, and finally to the insertion point.
 
 ..
+
 
 
 
@@ -240,16 +243,18 @@ InitWrapPosVecArr
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
 
 ..
+
 
 
 
@@ -286,16 +291,18 @@ InitWrapPosOnlyOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
 
 ..
+
 
 
 
@@ -332,16 +339,18 @@ InitWrapPosForEachStepOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch to use the initial condition vectors as starting point in each time step..
 
 ..
+
 
 
 
@@ -378,16 +387,18 @@ RelTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-08``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Relative tolerance for the change of the string that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
 
 ..
+
 
 
 
@@ -424,16 +435,18 @@ AbsTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-06``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Absolute tolerance for the change of positions of wrapping points that is used to determine whether the solution is acceptable.
 
 ..
+
 
 
 
@@ -470,16 +483,18 @@ AugLagCoef
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1000.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis.
 
 ..
+
 
 
 
@@ -516,16 +531,18 @@ MaxIteration
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``100``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximum number of interation in line wrapping solver. It can be increased if the solver runs out of iteration step in difficult problems.
 
 ..
+
 
 
 
@@ -562,16 +579,18 @@ MaxRelStepSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximum relative step size. The default of 1.0 implies full step size, but it can be decreased to increase robustness for difficult problems.
 
 ..
+
 
 
 
@@ -608,10 +627,11 @@ SolverType
     | **Class type:**  :ref:`AnyKinSPSheetSolverType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``SPSolverModes``
+    
 
-
-
-
+    
+    
+    
 
 
 

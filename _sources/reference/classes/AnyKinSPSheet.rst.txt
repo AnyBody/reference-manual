@@ -164,6 +164,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -194,16 +195,18 @@ MeshLong
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the number of wrapping points on each line of the sheet. If more than one part is defined in the sheet (i.e. the number of rows in RefFrames greater 2) different numbers of points for each parts of the string can be defined. Thus, the dimension of MeshLong has to be the same as the number of parts of the sheet.
 
 ..
+
 
 
 
@@ -240,16 +243,18 @@ Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines a thickness of the sheet. The thickness defines a minimal distance between wrapping points and surface.
 
 ..
+
 
 
 
@@ -286,16 +291,18 @@ StiffnessLong
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines a linear spring stiffness between two wrapping points in axial direction. This can be used together with the StiffnessLong to control the shape of the sheet.
 
 ..
+
 
 
 
@@ -332,16 +339,18 @@ StiffnessLat
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines a linear spring stiffness between two wrapping points in lateral direction. This can be used together with the StiffnessLong to control the shape of the sheet.
 
 ..
+
 
 
 
@@ -378,16 +387,18 @@ StiffnessRatiosLong
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Matrix with factors multiplied to the longitudinal elements in the sheet.
 
 ..
+
 
 
 
@@ -424,16 +435,18 @@ StiffnessRatiosLat
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Matrix with update-factors for the lateral elements in the sheet. The factor multiplied with the longitudinal stiffness is added to the lateral stiffness of an element.
 
 ..
+
 
 
 
@@ -470,16 +483,18 @@ SurfacesSwitch
     | **Class type:**  :ref:`AnyIntArray2`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Matrix containing 0 and 1 to indicate if a line is wrapping on a surface. The number of columns equals the number of lines, the number of rows equals the number of wrapping surfaces.
 
 ..
+
 
 
 
@@ -516,16 +531,18 @@ ConDistLongIndex
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Line indices of the longitudinal distance constraints.
 
 ..
+
 
 
 
@@ -562,16 +579,18 @@ ConDistLongPointSwitch
     | **Class type:**  :ref:`AnyIntArray2`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switches for wrapping points defining the used points in a longitudinal distance constraint.
 
 ..
+
 
 
 
@@ -608,16 +627,18 @@ ConDistLongValue
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Values of longitudinal distance constraints.
 
 ..
+
 
 
 
@@ -654,16 +675,18 @@ ConDistLatIndex
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Line indeices of a distance constraint in lateral direction.
 
 ..
+
 
 
 
@@ -700,16 +723,18 @@ ConDistLatPointSwitch
     | **Class type:**  :ref:`AnyIntArray2`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switches for wrapping points defining the used points in a lateral distance constraint.
 
 ..
+
 
 
 
@@ -746,16 +771,18 @@ ConDistLatValue
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Values of lateral distance constraints.
 
 ..
+
 
 
 
@@ -792,16 +819,18 @@ ConLinPointIndex
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Indices of wrapping points affected by a linear constraint.
 
 ..
+
 
 
 
@@ -838,16 +867,18 @@ ConLinRefFrame
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Reference frame defining the position of linear constraint.
 
 ..
+
 
 
 
@@ -884,16 +915,18 @@ ConLinDir
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Direction of a linear constraint.
 
 ..
+
 
 
 
@@ -930,16 +963,18 @@ ConLinDirRefFrame
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Reference frame defining the orientation for the direction of a linear constraint.
 
 ..
+
 
 
 
@@ -976,16 +1011,18 @@ InitWrapPosVecArr
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
 
 ..
+
 
 
 
@@ -1022,16 +1059,18 @@ InitWrapPosOnlyOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
 
 ..
+
 
 
 
@@ -1068,16 +1107,18 @@ InitWrapPosForEachStepOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch evoking to use the inital conditions as inital guess in each time-step.
 
 ..
+
 
 
 
@@ -1114,16 +1155,18 @@ RelTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-08``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Relative tolerance on the length change of all strings that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
 
 ..
+
 
 
 
@@ -1160,16 +1203,18 @@ AbsTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-06``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Absolute tolerance on the change of positions of wrapping points that is used to determine whether the solution is acceptable.
 
 ..
+
 
 
 
@@ -1206,16 +1251,18 @@ ContactActivationDist
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0001``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Distance for activating a constraint for surface wrapping. This factor can improve speed and/or robustness.
 
 ..
+
 
 
 
@@ -1252,16 +1299,18 @@ AugLagCoef
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1000.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis. Together with SolverType this parameter can be used to change speed and robustness of the wrapping solver.
 
 ..
+
 
 
 
@@ -1298,10 +1347,11 @@ SolverType
     | **Class type:**  :ref:`AnyKinSPSheetSolverType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``SPSolverModes``
+    
 
-
-
-
+    
+    
+    
 
 
 

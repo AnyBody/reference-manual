@@ -148,6 +148,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -178,16 +179,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -224,16 +227,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -270,16 +275,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -316,16 +323,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -362,16 +371,18 @@ PositionX
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The X position of the overlay image origin in the view (normalized or pixel-based). View origin is lower left corner
 
 ..
+
 
 
 
@@ -408,16 +419,18 @@ PositionY
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The Y position of the overlay image origin in the view (normalized or pixel-based). View origin is lower left corner
 
 ..
+
 
 
 
@@ -454,16 +467,18 @@ ImageWidth
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The width of the overlay image (normalized or pixel-based).
 
 ..
+
 
 
 
@@ -500,16 +515,18 @@ ImageHeight
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The height of the overlay image (normalized or pixel-based).
 
 ..
+
 
 
 
@@ -546,16 +563,18 @@ PixelBasedSizing
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Option for whether the image size is in pixels or normalized to the view.
 
 ..
+
 
 
 
@@ -592,16 +611,18 @@ PixelBasedPosition
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Option for whether the image position is in pixels or normalized to the view.
 
 ..
+
 
 
 
@@ -638,16 +659,18 @@ AutomaticAspectRatio
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Option for whether the image aspect ratio should be automatically set, based on the source image file. Image size will be determined by p_imagewidth alone.
 
 ..
+
 
 
 
@@ -684,10 +707,11 @@ ImageOrigin
     | **Class type:**  :ref:`AnyImageOrigin`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``OriginBottomLeft``
+    
 
-
-
-
+    
+    
+    
 
 
 

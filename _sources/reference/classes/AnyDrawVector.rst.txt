@@ -203,6 +203,47 @@ Vec
     </div><!--
 ..
 
+.. _AnyDrawVector.Line:
+
+Line
+=======
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line">
+    <span id="anydrawvector-line" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Line style folder.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStyleDrawLineWithCaps`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+
+
+
+    Line style folder.
+
+..
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyDrawVector.Line.Thickness:
 
 Line.Thickness
@@ -213,7 +254,7 @@ Line.Thickness
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Thickness">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Thickness">
     <span id="anydrawvector-line-thickness" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Thickness</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line thickness.</span>
@@ -241,6 +282,7 @@ Line.Thickness
 *******************************
 Optional initialization members
 *******************************
+
 
 
 
@@ -274,16 +316,18 @@ Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Visibility setting, which specifies default visibility of the object.
 
 ..
+
 
 
 
@@ -320,16 +364,18 @@ Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Opacity setting, which specifies default opacity of the object.
 
 ..
+
 
 
 
@@ -366,16 +412,18 @@ Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
+
 
 
 
@@ -412,16 +460,18 @@ PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
+
 
 
 
@@ -458,16 +508,18 @@ PointAway
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Specifies whether the vector points away from reference frame or alternative points towards it.
 
 ..
+
 
 
 
@@ -504,16 +556,18 @@ GlobalCoord
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Specifies whether the vector is given in global coordinates or alternatively in local coordinates of the reference frame.
 
 ..
+
 
 
 
@@ -528,8 +582,6 @@ GlobalCoord
      </div> <!--
 ..
 
-.. _AnyDrawVector.Line:
-
 Line
 =======
 
@@ -538,8 +590,8 @@ Line
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line">
-    <span id="anydrawvector-line" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Line </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line style folder.</span>
     </h3>
@@ -548,9 +600,9 @@ Line
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -582,8 +634,7 @@ Line.Style
     | **Class type:**  :ref:`AnyEnumLine3DStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Line3DStyleFull``
-
-
+        
 
     Line style.
 
@@ -591,7 +642,7 @@ Line.Style
 
 
 
-
+    
 
 ..
 
@@ -623,8 +674,7 @@ Line.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -632,7 +682,7 @@ Line.RGB
 
 
 
-
+    
 
 ..
 
@@ -664,8 +714,7 @@ Line.Start
     | **Class type:**  :ref:`AnyStyleDrawLineCap`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Style folder for starting cap of line.
 
@@ -673,7 +722,7 @@ Line.Start
 
 
 
-
+    
 
 ..
 
@@ -705,8 +754,7 @@ Line.Start.Style
     | **Class type:**  :ref:`AnyEnumLine3DCapStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Line3DCapStyleNone``
-
-
+        
 
     Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
 
@@ -714,7 +762,7 @@ Line.Start.Style
 
 
 
-
+    
 
 ..
 
@@ -746,8 +794,7 @@ Line.Start.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -755,7 +802,7 @@ Line.Start.RGB
 
 
 
-
+    
 
 ..
 
@@ -787,8 +834,7 @@ Line.Start.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
-
-
+        
 
     Cap thickness (must be larger than line thickness).
 
@@ -796,7 +842,7 @@ Line.Start.Thickness
 
 
 
-
+    
 
 ..
 
@@ -828,8 +874,7 @@ Line.Start.Length
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
-
-
+        
 
     Cap length.
 
@@ -837,7 +882,7 @@ Line.Start.Length
 
 
 
-
+    
 
 ..
 
@@ -869,8 +914,7 @@ Line.End
     | **Class type:**  :ref:`AnyStyleDrawLineCap`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Style folder for ending cap of line.
 
@@ -878,7 +922,7 @@ Line.End
 
 
 
-
+    
 
 ..
 
@@ -910,8 +954,7 @@ Line.End.Style
     | **Class type:**  :ref:`AnyEnumLine3DCapStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Line3DCapStyleNone``
-
-
+        
 
     Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
 
@@ -919,7 +962,7 @@ Line.End.Style
 
 
 
-
+    
 
 ..
 
@@ -951,8 +994,7 @@ Line.End.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -960,7 +1002,7 @@ Line.End.RGB
 
 
 
-
+    
 
 ..
 
@@ -992,8 +1034,7 @@ Line.End.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
-
-
+        
 
     Cap thickness (must be larger than line thickness).
 
@@ -1001,7 +1042,7 @@ Line.End.Thickness
 
 
 
-
+    
 
 ..
 
@@ -1033,8 +1074,7 @@ Line.End.Length
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
-
-
+        
 
     Cap length.
 
@@ -1042,13 +1082,14 @@ Line.End.Length
 
 
 
+    
 
 
 
-
-    Line style folder.
+    
 
 ..
+
 
 
 
@@ -1085,16 +1126,18 @@ Text
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Text to be associated with the object.
 
 ..
+
 
 
 
@@ -1131,16 +1174,18 @@ TextRelPos
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Relative position of text. Typical values should be between 0 and 1, which will position the text accordingly along the line.
 
 ..
+
 
 
 
@@ -1155,8 +1200,6 @@ TextRelPos
      </div> <!--
 ..
 
-.. _AnyDrawVector.TextFont:
-
 TextFont
 ===========
 
@@ -1165,8 +1208,8 @@ TextFont
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont">
-    <span id="anydrawvector-textfont" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font settings for text.</span>
     </h3>
@@ -1175,9 +1218,9 @@ TextFont
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1209,8 +1252,7 @@ TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -1218,7 +1260,7 @@ TextFont.RGB
 
 
 
-
+    
 
 ..
 
@@ -1250,8 +1292,7 @@ TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -1259,7 +1300,7 @@ TextFont.FontName
 
 
 
-
+    
 
 ..
 
@@ -1291,8 +1332,7 @@ TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -1300,7 +1340,7 @@ TextFont.Height
 
 
 
-
+    
 
 ..
 
@@ -1332,8 +1372,7 @@ TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -1341,7 +1380,7 @@ TextFont.Width
 
 
 
-
+    
 
 ..
 
@@ -1373,8 +1412,7 @@ TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -1382,7 +1420,7 @@ TextFont.Bold
 
 
 
-
+    
 
 ..
 
@@ -1414,8 +1452,7 @@ TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -1423,7 +1460,7 @@ TextFont.Italic
 
 
 
-
+    
 
 ..
 
@@ -1455,8 +1492,7 @@ TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -1464,7 +1500,7 @@ TextFont.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -1496,8 +1532,7 @@ TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -1505,7 +1540,7 @@ TextFont.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -1537,8 +1572,7 @@ TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -1546,7 +1580,7 @@ TextFont.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -1578,8 +1612,7 @@ TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -1587,13 +1620,14 @@ TextFont.ModelScaleWidth
 
 
 
+    
 
 
 
-
-    Font settings for text.
+    
 
 ..
+
 
 
 
@@ -1630,10 +1664,11 @@ DrawCoord
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 

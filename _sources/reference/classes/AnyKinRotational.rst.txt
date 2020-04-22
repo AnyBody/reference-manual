@@ -148,6 +148,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -178,16 +179,18 @@ Axis1
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``z``
+    
 
-
-
-
+    
+    
+    
 
 
 
     First axis of rotation for RotAxesAngles and primary axis of rotation (normal to the planar motion) for PlanarAngles.
 
 ..
+
 
 
 
@@ -224,16 +227,18 @@ Axis2
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``y``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Second axis of rotation for RotAxesAngles.
 
 ..
+
 
 
 
@@ -270,16 +275,18 @@ Axis3
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``x``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Third axis of rotation for RotAxesAngles.
 
 ..
+
 
 
 
@@ -316,16 +323,18 @@ DirCosineAxes
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{{x, x}, {x, y}, {x, z}, {y, x}, {y, y}, {y, z}, {z, x}, {z, y}, {z, z}}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Pairs of axes used for which directional cosine outputs are given when Type is DirCosines.
 
 ..
+
 
 
 
@@ -362,16 +371,18 @@ AngVelOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using angular velocity vector at velocity and acceleration level.
 
 ..
+
 
 
 
@@ -408,16 +419,18 @@ AngVelGlobal
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using angular velocity vector in global coordinates at velocity and acceleration level. This requires 'AngVelOnOff = On'.
 
 ..
+
 
 
 
@@ -445,7 +458,7 @@ Ref
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="Ref">
     <span id="anykinrotational-ref" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Ref </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Ref" title="Permalink to this headline">¶</a>
-    <span class="member-descr">IMPORTANT: The functionality of 'Ref' has been removed, in order to avoid...</span>
+    <span class="member-descr">(Deprecated) IMPORTANT: The functionality of 'Ref' has been removed, in...</span>
     </h3>
 
 ..
@@ -454,6 +467,7 @@ Ref
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
     .. deprecated::
        The functionality of 'Ref' has been removed, in order to avoid
@@ -462,13 +476,13 @@ Ref
 
     
 
+    
+    
+    
 
 
 
-
-
-
-    IMPORTANT: The functionality of 'Ref' has been removed, in order to avoid misunderstandings and confusion with 'Ref' in AnyKinLinear. Please modify your model to remove initialization of 'Ref'. In future versions, 'Ref' will be removed entirely. Previous description of this member was: Integer numbers that specify the reference system in which geometric vectors are measured, e.g. the angular velocity vector. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
+    (Deprecated) IMPORTANT: The functionality of 'Ref' has been removed, in order to avoid misunderstandings and confusion with 'Ref' in AnyKinLinear. Please modify your model to remove initialization of 'Ref'. In future versions, 'Ref' will be removed entirely. Previous description of this member was: Integer numbers that specify the reference system in which geometric vectors are measured, e.g. the angular velocity vector. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
 
 ..
 

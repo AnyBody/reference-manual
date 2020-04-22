@@ -51,6 +51,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -81,16 +82,18 @@ Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_Polynomial``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Muscle recruitment criterion type.
 
 ..
+
 
 
 
@@ -127,16 +130,18 @@ Power
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``3.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Power for the MR_Polynomial criterion.
 
 ..
+
 
 
 
@@ -173,16 +178,18 @@ UpperBoundOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the upper bound on muscle activity is active in the criterion.
 
 ..
+
 
 
 
@@ -219,16 +226,18 @@ UpperBound
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Value of the upper bound on muscle activity. Typically it is 1.0 implying complete saturation of the muscle capability.
 
 ..
+
 
 
 
@@ -265,16 +274,18 @@ LowerBoundOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for whether the lower bound on muscle activity is active in the criterion.
 
 ..
+
 
 
 
@@ -311,16 +322,18 @@ LowerBound
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Value of the lower bound on muscle activity. Typically it is 0.0 llowing muscles to fully relax.
 
 ..
+
 
 
 
@@ -335,8 +348,6 @@ LowerBound
      </div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.PrimaryTerm:
-
 PrimaryTerm
 ==============
 
@@ -345,8 +356,8 @@ PrimaryTerm
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PrimaryTerm">
-    <span id="anyoprsetmusclerecruitment-primaryterm" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PrimaryTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PrimaryTerm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for primary term of the muscle recruitment criterion....</span>
     </h3>
@@ -355,9 +366,9 @@ PrimaryTerm
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -389,8 +400,7 @@ PrimaryTerm.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -398,7 +408,7 @@ PrimaryTerm.Type
 
 
 
-
+    
 
 ..
 
@@ -430,8 +440,7 @@ PrimaryTerm.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -439,7 +448,7 @@ PrimaryTerm.Weight
 
 
 
-
+    
 
 ..
 
@@ -471,8 +480,7 @@ PrimaryTerm.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -480,7 +488,7 @@ PrimaryTerm.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -512,8 +520,7 @@ PrimaryTerm.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -521,7 +528,7 @@ PrimaryTerm.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -553,8 +560,7 @@ PrimaryTerm.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -562,13 +568,14 @@ PrimaryTerm.Weight_SearchName
 
 
 
+    
 
 
 
-
-    Folder with settings for primary term of the muscle recruitment criterion. The primary term depends on the Type.
+    
 
 ..
+
 
 
 
@@ -583,8 +590,6 @@ PrimaryTerm.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.AuxLinearTerm:
-
 AuxLinearTerm
 ================
 
@@ -593,8 +598,8 @@ AuxLinearTerm
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AuxLinearTerm">
-    <span id="anyoprsetmusclerecruitment-auxlinearterm" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> AuxLinearTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#AuxLinearTerm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for the auxillary linear term that is appended to the...</span>
     </h3>
@@ -603,9 +608,9 @@ AuxLinearTerm
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -637,8 +642,7 @@ AuxLinearTerm.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -646,7 +650,7 @@ AuxLinearTerm.Type
 
 
 
-
+    
 
 ..
 
@@ -678,8 +682,7 @@ AuxLinearTerm.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -687,7 +690,7 @@ AuxLinearTerm.Weight
 
 
 
-
+    
 
 ..
 
@@ -719,8 +722,7 @@ AuxLinearTerm.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -728,7 +730,7 @@ AuxLinearTerm.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -760,8 +762,7 @@ AuxLinearTerm.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -769,7 +770,7 @@ AuxLinearTerm.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -801,8 +802,7 @@ AuxLinearTerm.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -810,13 +810,14 @@ AuxLinearTerm.Weight_SearchName
 
 
 
+    
 
 
 
-
-    Folder with settings for the auxillary linear term that is appended to the primary term in some cases.
+    
 
 ..
+
 
 
 
@@ -831,8 +832,6 @@ AuxLinearTerm.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.AuxQuadraticTerm:
-
 AuxQuadraticTerm
 ===================
 
@@ -841,8 +840,8 @@ AuxQuadraticTerm
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AuxQuadraticTerm">
-    <span id="anyoprsetmusclerecruitment-auxquadraticterm" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> AuxQuadraticTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#AuxQuadraticTerm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for the auxillary quadratic term that is appended to...</span>
     </h3>
@@ -851,9 +850,9 @@ AuxQuadraticTerm
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -885,8 +884,7 @@ AuxQuadraticTerm.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -894,7 +892,7 @@ AuxQuadraticTerm.Type
 
 
 
-
+    
 
 ..
 
@@ -926,8 +924,7 @@ AuxQuadraticTerm.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -935,7 +932,7 @@ AuxQuadraticTerm.Weight
 
 
 
-
+    
 
 ..
 
@@ -967,8 +964,7 @@ AuxQuadraticTerm.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -976,7 +972,7 @@ AuxQuadraticTerm.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -1008,8 +1004,7 @@ AuxQuadraticTerm.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -1017,7 +1012,7 @@ AuxQuadraticTerm.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -1049,8 +1044,7 @@ AuxQuadraticTerm.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -1058,13 +1052,14 @@ AuxQuadraticTerm.Weight_SearchName
 
 
 
+    
 
 
 
-
-    Folder with settings for the auxillary quadratic term that is appended to the primary term in some cases.
+    
 
 ..
+
 
 
 
@@ -1079,8 +1074,6 @@ AuxQuadraticTerm.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.UpperBoundVar:
-
 UpperBoundVar
 ================
 
@@ -1089,8 +1082,8 @@ UpperBoundVar
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpperBoundVar">
-    <span id="anyoprsetmusclerecruitment-upperboundvar" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> UpperBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#UpperBoundVar" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for variable-scaling for the upper bounds.</span>
     </h3>
@@ -1099,9 +1092,9 @@ UpperBoundVar
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1133,8 +1126,7 @@ UpperBoundVar.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -1142,7 +1134,7 @@ UpperBoundVar.Type
 
 
 
-
+    
 
 ..
 
@@ -1174,8 +1166,7 @@ UpperBoundVar.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -1183,7 +1174,7 @@ UpperBoundVar.Weight
 
 
 
-
+    
 
 ..
 
@@ -1215,8 +1206,7 @@ UpperBoundVar.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -1224,7 +1214,7 @@ UpperBoundVar.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -1256,8 +1246,7 @@ UpperBoundVar.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -1265,7 +1254,7 @@ UpperBoundVar.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -1297,8 +1286,7 @@ UpperBoundVar.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -1306,13 +1294,14 @@ UpperBoundVar.Weight_SearchName
 
 
 
+    
 
 
 
-
-    Folder with settings for variable-scaling for the upper bounds.
+    
 
 ..
+
 
 
 
@@ -1327,8 +1316,6 @@ UpperBoundVar.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.LowerBoundVar:
-
 LowerBoundVar
 ================
 
@@ -1337,8 +1324,8 @@ LowerBoundVar
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="LowerBoundVar">
-    <span id="anyoprsetmusclerecruitment-lowerboundvar" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> LowerBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#LowerBoundVar" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with settings for variable-scaling for the lower bounds.</span>
     </h3>
@@ -1347,9 +1334,9 @@ LowerBoundVar
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1381,8 +1368,7 @@ LowerBoundVar.Type
     | **Class type:**  :ref:`AnyEnumMuscleRecruitmentNormalizationType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``MR_CurrentStrength``
-
-
+        
 
     Normalization type used to define the muscle quantities entering the term.
 
@@ -1390,7 +1376,7 @@ LowerBoundVar.Type
 
 
 
-
+    
 
 ..
 
@@ -1422,8 +1408,7 @@ LowerBoundVar.Weight
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Weight (or scaling) of the term in the total criterion.
 
@@ -1431,7 +1416,7 @@ LowerBoundVar.Weight
 
 
 
-
+    
 
 ..
 
@@ -1463,8 +1448,7 @@ LowerBoundVar.LowerLimit
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Lower bound for muscle quantities entering the term.
 
@@ -1472,7 +1456,7 @@ LowerBoundVar.LowerLimit
 
 
 
-
+    
 
 ..
 
@@ -1504,8 +1488,7 @@ LowerBoundVar.Nfactor_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -1513,7 +1496,7 @@ LowerBoundVar.Nfactor_SearchName
 
 
 
-
+    
 
 ..
 
@@ -1545,8 +1528,7 @@ LowerBoundVar.Weight_SearchName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
@@ -1554,13 +1536,14 @@ LowerBoundVar.Weight_SearchName
 
 
 
+    
 
 
 
-
-    Folder with settings for variable-scaling for the lower bounds.
+    
 
 ..
+
 
 
 
@@ -1597,16 +1580,18 @@ IterativeRefinementSteps
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Number of iterative refinement step performed by the optimization solver. Iterative refinement increases accuracy at the cost of efficiency.
 
 ..
+
 
 
 
@@ -1643,16 +1628,18 @@ NewRecruitmentSolversOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using the new generation of optimization solvers for muscle recruitment. The older version may occasionally be more efficient, but they cannot deal with all types of problems.
 
 ..
+
 
 
 
@@ -1689,10 +1676,11 @@ MultifrontalCholeskyOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 

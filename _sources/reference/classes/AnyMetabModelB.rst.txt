@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -97,16 +98,18 @@ CoefBasalPower
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.0225``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Basal heat rate per muscle mass [W/kg]. This is the Ḃ per weight.
 
 ..
+
 
 
 
@@ -143,16 +146,18 @@ CoefSLPowerConIso
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.16``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Shortening-Lengthening heat rate coefficient per isometric force in concentric case. .
 
 ..
+
 
 
 
@@ -189,16 +194,18 @@ CoefSLPowerCon
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.18``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Shortening-Lengthening heat rate coefficient per actual force in concentric case. Contributes to Ṡ.
 
 ..
+
 
 
 
@@ -235,16 +242,18 @@ CoefSLPowerEcc
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.157``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Shortening-Lengthening heat rate coefficient per actual force in eccentric case. Contributes to Ṡ.
 
 ..
+
 
 
 
@@ -281,16 +290,18 @@ CoefActPowerPhi0
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``0.06``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Activation heat rate ratio (constant). Used in Ȧ.
 
 ..
+
 
 
 
@@ -327,16 +338,18 @@ CoefActPowerSlow
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``40.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Activation heat rate coefficient (per mass) for slow twitch fibers. Used in Ȧ.
 
 ..
+
 
 
 
@@ -373,16 +386,18 @@ CoefActPowerFast
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``133.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Activation heat rate coefficient (per mass) for fast twitch fibers. Used in Ȧ.
 
 ..
+
 
 
 
@@ -419,16 +434,18 @@ CoefMaintPowerSlow
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``74.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maintenance heat rate coefficient for slow twitch fibers. Used in Ṁ.
 
 ..
+
 
 
 
@@ -465,16 +482,18 @@ CoefMaintPowerFast
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``111.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maintenance heat rate coefficient for fast twitch fibers. Used in Ṁ.
 
 ..
+
 
 
 
@@ -511,16 +530,18 @@ MuscleDensity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``1059.7``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Muscle density [kg/m^3].
 
 ..
+
 
 
 
@@ -557,10 +578,11 @@ AddMusclePowerForEcc
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+    
 
-
-
-
+    
+    
+    
 
 
 

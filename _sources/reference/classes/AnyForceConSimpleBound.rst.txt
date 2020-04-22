@@ -123,6 +123,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -153,16 +154,18 @@ ForceArr
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Array of pointers to the forces (class AnyForceBase and derived) that are basic input to the constraint.
 
 ..
+
 
 
 
@@ -199,16 +202,18 @@ ForceIndexArr
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     <No description>
 
 ..
+
 
 
 
@@ -245,16 +250,18 @@ Findex
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Index of the force component to be constrained.
 
 ..
+
 
 
 
@@ -291,16 +298,18 @@ LowerBoundOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for activation of the lower bound.
 
 ..
+
 
 
 
@@ -337,16 +346,18 @@ LowerBound
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
     | **Default:** ``-1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Lower bound of the force.
 
 ..
+
 
 
 
@@ -383,16 +394,18 @@ UpperBoundOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for activation of the upper bound.
 
 ..
+
 
 
 
@@ -429,10 +442,11 @@ UpperBound
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 

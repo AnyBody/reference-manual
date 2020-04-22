@@ -71,6 +71,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -78,8 +79,6 @@ Optional initialization members
     <!-- Hack to trick sphinx into adding member target link -->
       <!--
 ..
-
-.. _AnyOptStudyOpr.Settings:
 
 Settings
 ===========
@@ -89,8 +88,8 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
-    <span id="anyoptstudyopr-settings" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
     </h3>
@@ -99,9 +98,9 @@ Settings
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -133,8 +132,7 @@ Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -142,7 +140,7 @@ Settings.Echo
 
 
 
-
+    
 
 ..
 
@@ -174,8 +172,7 @@ Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for definition of operation output to the output log and views.
 
@@ -183,7 +180,7 @@ Settings.ModelSceneUpdate
 
 
 
-
+    
 
 ..
 
@@ -215,8 +212,7 @@ Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityNormal``
-
-
+        
 
     Value for defining the interface display priority for the Operation.
 
@@ -224,7 +220,7 @@ Settings.DisplayPriority
 
 
 
-
+    
 
 ..
 
@@ -256,8 +252,7 @@ Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
@@ -265,13 +260,14 @@ Settings.SelectOnLoad
 
 
 
+    
 
 
 
-
-    General settings for the operation.
+    
 
 ..
+
 
 
 
@@ -308,16 +304,18 @@ Solver
     | **Class type:**  :ref:`AnyEnumOptSolver`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``OptFeasibleDirSearch1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Solver type setting.
 
 ..
+
 
 
 
@@ -354,16 +352,18 @@ ConvergenceObjectiveTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Absolute tolerance on objective function change in convergence criterion.
 
 ..
+
 
 
 
@@ -400,16 +400,18 @@ ConvergenceDesignTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Relative tolerance on design variable change in convergence criterion.
 
 ..
+
 
 
 
@@ -446,16 +448,18 @@ ConvergenceDesignTolArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Similar to ConvergenceDesignTol, but an array with one element for each design variable. Default is all values equal to ConvergenceDesignTol.
 
 ..
+
 
 
 
@@ -492,16 +496,18 @@ ConstraintActivationTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0001``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Absolute tolerance for activating constraints.
 
 ..
+
 
 
 
@@ -538,16 +544,18 @@ ConstraintActivationTolArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Similar to ConstraintActivationTol, but an array with one element for each constraint. Default is all values equal to ConstraintActivationTol.
 
 ..
+
 
 
 
@@ -584,16 +592,18 @@ NumSensitivityPerturbation
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Absolute perturbation use in numerical sensitivity analyses.
 
 ..
+
 
 
 
@@ -630,16 +640,18 @@ NumSensitivityPerturbationArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Similar to NumSensitivityPerturbation, but an array with one element for each design variable. Default is all values equal to NumSensitivityPerturbation.
 
 ..
+
 
 
 
@@ -676,16 +688,18 @@ PopulationSize
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of the population for population-based solvers, i.e., the number of design points in the population.
 
 ..
+
 
 
 
@@ -722,16 +736,18 @@ PopulationBoxSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of the box in the design space within which the initial population is generated. This single constant will set the same size of the box for all design variables. Alternatively, individual box dimension sizes can be set with PopulationBoxSizeArr.
 
 ..
+
 
 
 
@@ -768,16 +784,18 @@ PopulationBoxSizeArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Size of the box in the design space within which the initial population is generated. The vector must for each design variable hold one element, which is the size of the box for that dimension of the design space.
 
 ..
+
 
 
 
@@ -814,16 +832,18 @@ ComplexAlpha
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.3``
+    
 
-
-
-
+    
+    
+    
 
 
 
     The Complex solver's alpha parameter, which defines how far the worst design point is moved through the design population. It must be above 1.0 and the recommended value is 1.3.
 
 ..
+
 
 
 
@@ -860,16 +880,18 @@ ComplexMaxNumRepeat
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``4``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
 
 ..
+
 
 
 
@@ -906,16 +928,18 @@ ComplexPenalty
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1000.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Penalty factor used in the Complex solver to convert constraint violations to added value in the objective function.
 
 ..
+
 
 
 
@@ -952,16 +976,18 @@ ComplexPenaltyPowerExponent
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Exponent used in the Complex solver to convert constraint violations to added value in the objective function..
 
 ..
+
 
 
 
@@ -998,10 +1024,11 @@ ComplexAnalysisFailedPenalty
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1000000.0``
+    
 
-
-
-
+    
+    
+    
 
 
 

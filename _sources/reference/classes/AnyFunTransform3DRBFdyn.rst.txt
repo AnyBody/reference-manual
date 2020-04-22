@@ -116,6 +116,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -146,16 +147,18 @@ PreTransforms
     | **Class type:**  :ref:`AnyObjectPtrArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
+
 
 
 
@@ -170,8 +173,6 @@ PreTransforms
      </div> <!--
 ..
 
-.. _AnyFunTransform3DRBFdyn.RBFDef:
-
 RBFDef
 =========
 
@@ -180,8 +181,8 @@ RBFDef
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RBFDef">
-    <span id="anyfuntransform3drbfdyn-rbfdef" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> RBFDef </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#RBFDef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with RBF settings.</span>
     </h3>
@@ -190,9 +191,9 @@ RBFDef
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -224,8 +225,7 @@ RBFDef.Type
     | **Class type:**  :ref:`AnyEnumRBFFunType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``RBF_Gaussian``
-
-
+        
 
     Type of the radial basis function to use.
 
@@ -233,7 +233,7 @@ RBFDef.Type
 
 
 
-
+    
 
 ..
 
@@ -265,8 +265,7 @@ RBFDef.Param
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Parameter used in the given radial basis function.
 
@@ -274,13 +273,14 @@ RBFDef.Param
 
 
 
+    
 
 
 
-
-    Folder with RBF settings.
+    
 
 ..
+
 
 
 
@@ -317,16 +317,18 @@ RBFCoefs
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Coefficients (weights) for the each radial basis function, i.e., for each control point. Three parameters are given for each control point, which is the weight for each direction in space. Similarly to the points, the RBFParams are given as a (n x 3) matrix.
 
 ..
+
 
 
 
@@ -363,16 +365,18 @@ PolynomDegree
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``-1``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Degree of the polynomia. Negative values means that no polynomial term is used.
 
 ..
+
 
 
 
@@ -409,16 +413,18 @@ PolynomCoefs
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Coefficients for the polynomia function added to the radial basis function. Each term of the polynomia must be given three parameters, one for each direction in space, i.e., the PolynomCoefs are given as a (m x 3) matrix. The number of rows, m, must match PolynomDegree; degree zero means m=1 (the constant term), positive degrees mean m=1+3*degree, and negative degrees mean m=0.
 
 ..
+
 
 
 
@@ -455,16 +461,18 @@ PointNames
     | **Class type:**  :ref:`AnyStringArray`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Names of the points, for instance used as labels during export and import.
 
 ..
+
 
 
 
@@ -501,16 +509,18 @@ PointDescriptions
     | **Class type:**  :ref:`AnyStringArray`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Short descriptions of the points. These are part of the export of points and are aimed for possible usage in external software for landmark detection.
 
 ..
+
 
 
 
@@ -547,16 +557,18 @@ Points1
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`PosVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+    
 
-
-
-
+    
+    
+    
 
 
 
     Implicit input of RBF coefficients by control points values to be matched by the function. The format of the matrix is similar to Points0. The RBF coeeficient are calculated.
 
 ..
+
 
 
 
@@ -571,8 +583,6 @@ Points1
      </div> <!--
 ..
 
-.. _AnyFunTransform3DRBFdyn.BoundingBox:
-
 BoundingBox
 ==============
 
@@ -581,8 +591,8 @@ BoundingBox
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BoundingBox">
-    <span id="anyfuntransform3drbfdyn-boundingbox" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBox </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#BoundingBox" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder with bounding box settings.</span>
     </h3>
@@ -591,9 +601,9 @@ BoundingBox
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -625,8 +635,7 @@ BoundingBox.Type
     | **Class type:**  :ref:`AnyEnumBoundingBoxType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``BB_Cartesian``
-
-
+        
 
     Defines a way to compute the bounding box.
 
@@ -634,7 +643,7 @@ BoundingBox.Type
 
 
 
-
+    
 
 ..
 
@@ -666,8 +675,7 @@ BoundingBox.ScaleXYZ
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{2.0, 2.0, 2.0}``
-
-
+        
 
     Defines a scale factor vector in selected axes.
 
@@ -675,7 +683,7 @@ BoundingBox.ScaleXYZ
 
 
 
-
+    
 
 ..
 
@@ -707,8 +715,7 @@ BoundingBox.DivisionFactorXYZ
     | **Class type:**  :ref:`AnyIntArray`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1, 1, 1}``
-
-
+        
 
     Defines a number of bounding box subdivisions in selected axes.
 
@@ -716,13 +723,14 @@ BoundingBox.DivisionFactorXYZ
 
 
 
+    
 
 
 
-
-    Folder with bounding box settings.
+    
 
 ..
+
 
 
 
@@ -759,10 +767,11 @@ BoundingBoxOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 

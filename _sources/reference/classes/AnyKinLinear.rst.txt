@@ -117,6 +117,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -147,16 +148,18 @@ Type
     | **Class type:**  :ref:`AnyKinLinearType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``CartesianCoord``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Coordinate type specification.
 
 ..
+
 
 
 
@@ -193,16 +196,18 @@ Ref
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``-1.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Integer numbers that specify the reference system in which the vector is measured. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
 
 ..
+
 
 
 
@@ -239,16 +244,18 @@ LineLineDistanceAxes
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{{x, x}}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Pairs of axes for which line-to-line distances are measured when Type is LineLineDistance.
 
 ..
+
 
 
 
@@ -285,16 +292,18 @@ LineLineDistanceAxisLength
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``10.0``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Length of the secondary axis used for line-to-line distances when Type is LineLineDistance. The sencondary axis if set to this finite length to smoothen the singularity for parallel lines.
 
 ..
+
 
 
 
@@ -331,10 +340,11 @@ AngularAxis
     | **Class type:**  :ref:`AnyRefFrameAxis`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``z``
+    
 
-
-
-
+    
+    
+    
 
 
 

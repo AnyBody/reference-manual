@@ -67,6 +67,7 @@ Optional initialization members
 
 
 
+
 ..
 
 .. raw:: html
@@ -97,16 +98,18 @@ Style
     | **Class type:**  :ref:`AnyChartStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``CartesianChart3D``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Style of the plotting area.
 
 ..
+
 
 
 
@@ -143,16 +146,18 @@ Sizes
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0}``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Sizes of three dimensions of the plotting area.
 
 ..
+
 
 
 
@@ -189,16 +194,18 @@ AutoSizes
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using automtic sizes of the chart objects. This is useful when using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.
 
 ..
+
 
 
 
@@ -235,16 +242,18 @@ AutoPosition
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for using automtic positioning the chart objects. This is when useful using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.
 
 ..
+
 
 
 
@@ -281,16 +290,18 @@ LinkCursors
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+    
 
-
-
-
+    
+    
+    
 
 
 
     Switch for linking cursor. If 'On' cursor from different matching series, i.e., series with the same abscissa selections will be linked so they move together. If 'Off' cursors are idependent for each serie.
 
 ..
+
 
 
 
@@ -305,8 +316,6 @@ LinkCursors
      </div> <!--
 ..
 
-.. _AnyChartStyleFolder.Axes:
-
 Axes
 =======
 
@@ -315,8 +324,8 @@ Axes
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Axes">
-    <span id="anychartstylefolder-axes" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Axes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Axes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line style for axes.</span>
     </h3>
@@ -325,9 +334,9 @@ Axes
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -359,8 +368,7 @@ Axes.Style
     | **Class type:**  :ref:`AnyEnumLine3DStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Line3DStyleFull``
-
-
+        
 
     Line style.
 
@@ -368,7 +376,7 @@ Axes.Style
 
 
 
-
+    
 
 ..
 
@@ -400,8 +408,7 @@ Axes.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     Line thickness.
 
@@ -409,7 +416,7 @@ Axes.Thickness
 
 
 
-
+    
 
 ..
 
@@ -441,8 +448,7 @@ Axes.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -450,13 +456,14 @@ Axes.RGB
 
 
 
+    
 
 
 
-
-    Line style for axes.
+    
 
 ..
+
 
 
 
@@ -471,8 +478,6 @@ Axes.RGB
      </div></div> <!--
 ..
 
-.. _AnyChartStyleFolder.Title:
-
 Title
 ========
 
@@ -481,8 +486,8 @@ Title
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title">
-    <span id="anychartstylefolder-title" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Title </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">Title text field.</span>
     </h3>
@@ -491,9 +496,9 @@ Title
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -525,8 +530,7 @@ Title.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     Switch for visiblity.
 
@@ -534,7 +538,7 @@ Title.Visible
 
 
 
-
+    
 
 ..
 
@@ -566,8 +570,7 @@ Title.Font
     | **Class type:**  :ref:`AnyStyleFont3DView`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
-
-
+        
 
     Font settings.
 
@@ -575,7 +578,7 @@ Title.Font
 
 
 
-
+    
 
 ..
 
@@ -607,8 +610,7 @@ Title.Font.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -616,7 +618,7 @@ Title.Font.RGB
 
 
 
-
+    
 
 ..
 
@@ -648,8 +650,7 @@ Title.Font.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -657,7 +658,7 @@ Title.Font.FontName
 
 
 
-
+    
 
 ..
 
@@ -689,8 +690,7 @@ Title.Font.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -698,7 +698,7 @@ Title.Font.Height
 
 
 
-
+    
 
 ..
 
@@ -730,8 +730,7 @@ Title.Font.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -739,7 +738,7 @@ Title.Font.Width
 
 
 
-
+    
 
 ..
 
@@ -771,8 +770,7 @@ Title.Font.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -780,7 +778,7 @@ Title.Font.Bold
 
 
 
-
+    
 
 ..
 
@@ -812,8 +810,7 @@ Title.Font.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -821,7 +818,7 @@ Title.Font.Italic
 
 
 
-
+    
 
 ..
 
@@ -853,8 +850,7 @@ Title.Font.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -862,7 +858,7 @@ Title.Font.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -894,8 +890,7 @@ Title.Font.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -903,7 +898,7 @@ Title.Font.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -935,8 +930,7 @@ Title.Font.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -944,7 +938,7 @@ Title.Font.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -976,8 +970,7 @@ Title.Font.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -985,7 +978,7 @@ Title.Font.ModelScaleWidth
 
 
 
-
+    
 
 ..
 
@@ -1017,8 +1010,7 @@ Title.Text
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
-
-
+        
 
     Text string.
 
@@ -1026,13 +1018,14 @@ Title.Text
 
 
 
+    
 
 
 
-
-    Title text field.
+    
 
 ..
+
 
 
 
@@ -1047,8 +1040,6 @@ Title.Text
      </div></div> <!--
 ..
 
-.. _AnyChartStyleFolder.MessageFont:
-
 MessageFont
 ==============
 
@@ -1057,8 +1048,8 @@ MessageFont
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MessageFont">
-    <span id="anychartstylefolder-messagefont" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#MessageFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font used for messages dispalyed inside in chart arear.</span>
     </h3>
@@ -1067,9 +1058,9 @@ MessageFont
 
 
 
-
-
-
+    
+    
+    
 
 ..
 
@@ -1101,8 +1092,7 @@ MessageFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
-
-
+        
 
     Color in RGB values between 0 and 1.
 
@@ -1110,7 +1100,7 @@ MessageFont.RGB
 
 
 
-
+    
 
 ..
 
@@ -1142,8 +1132,7 @@ MessageFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
-
-
+        
 
     Font name (Windows fonts).
 
@@ -1151,7 +1140,7 @@ MessageFont.FontName
 
 
 
-
+    
 
 ..
 
@@ -1183,8 +1172,7 @@ MessageFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph height in pixels.
 
@@ -1192,7 +1180,7 @@ MessageFont.Height
 
 
 
-
+    
 
 ..
 
@@ -1224,8 +1212,7 @@ MessageFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
-
-
+        
 
     Font glyph width in pixels.
 
@@ -1233,7 +1220,7 @@ MessageFont.Width
 
 
 
-
+    
 
 ..
 
@@ -1265,8 +1252,7 @@ MessageFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for bold face type setting.
 
@@ -1274,7 +1260,7 @@ MessageFont.Bold
 
 
 
-
+    
 
 ..
 
@@ -1306,8 +1292,7 @@ MessageFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
-
-
+        
 
     Switch for italic type setting.
 
@@ -1315,7 +1300,7 @@ MessageFont.Italic
 
 
 
-
+    
 
 ..
 
@@ -1347,8 +1332,7 @@ MessageFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
@@ -1356,7 +1340,7 @@ MessageFont.BillBoardView
 
 
 
-
+    
 
 ..
 
@@ -1388,8 +1372,7 @@ MessageFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
-
-
+        
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
@@ -1397,7 +1380,7 @@ MessageFont.ModelSized
 
 
 
-
+    
 
 ..
 
@@ -1429,8 +1412,7 @@ MessageFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The height scaling of the text when ModelSized is enabled.
 
@@ -1438,7 +1420,7 @@ MessageFont.ModelScaleHeight
 
 
 
-
+    
 
 ..
 
@@ -1470,8 +1452,7 @@ MessageFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
-
-
+        
 
     The width scaling of the text when ModelSized is enabled.
 
@@ -1479,11 +1460,11 @@ MessageFont.ModelScaleWidth
 
 
 
+    
 
 
 
-
-    Font used for messages dispalyed inside in chart arear.
+    
 
 ..
 
