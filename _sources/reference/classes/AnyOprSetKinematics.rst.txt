@@ -90,7 +90,7 @@ Type
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -138,7 +138,7 @@ Solver
 
 
 
-    Pointer to option class of algorithm used in the kinematic solver.
+    { descr | indent(width=4) }
 
 ..
 
@@ -186,7 +186,7 @@ FallBackSolver
 
 
 
-    Array of pointers to option classes of algorithm used as fallback solvers if the solver or previous fallback solver fails, respectively.
+    { descr | indent(width=4) }
 
 ..
 

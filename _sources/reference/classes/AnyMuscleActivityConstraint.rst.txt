@@ -97,7 +97,7 @@ AnyMuscle
 
 
 
-    The muscle to associate the bounds with must given as a member or reference to a muscle object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -147,7 +147,7 @@ Coef
 
 
 
-    Matrix of coefficients for the linear constraints. Each column corresponds to one muscle and each row defines one constraints.
+    { descr | indent(width=4) }
 
 ..
 
@@ -188,7 +188,7 @@ Const
 
 
 
-    Vector of constants. The length of the vector must match the number of rows in Coef.
+    { descr | indent(width=4) }
 
 ..
 
@@ -244,7 +244,7 @@ ForceArr
 
 
 
-    Array of pointers to the forces (class AnyForceBase and derived) that are basic input to the constraint.
+    { descr | indent(width=4) }
 
 ..
 
@@ -292,7 +292,7 @@ ForceIndexArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -340,7 +340,7 @@ CType
 
 
 
-    Type of constraint. The type applies to all constraints from this object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -388,7 +388,7 @@ nCon
 
 
 
-    Number of constraints.
+    { descr | indent(width=4) }
 
 ..
 
@@ -438,7 +438,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -479,7 +479,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -520,7 +520,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -561,7 +561,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 

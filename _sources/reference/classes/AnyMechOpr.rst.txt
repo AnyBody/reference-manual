@@ -10,7 +10,7 @@ AnyMechOpr
 
 :Type: Abstract
 :Parent class: :ref:`AnyMechOprBase`
-:Child classes: :ref:`AnyBodyLigamentLenCalOpr`, :ref:`AnyBodyMusTenLenCalOpr`, :ref:`AnyMechOprInvDynAnl`, :ref:`AnyMechOprKinAnl`
+:Child classes: :ref:`AnyBodyLigamentLenCalOpr`, :ref:`AnyBodyMusFibAndTenLenCalOpr`, :ref:`AnyBodyMusTenLenCalOpr`, :ref:`AnyMechOprInvDynAnl`, :ref:`AnyMechOprKinAnl`
 
 **************
 Description
@@ -78,6 +78,8 @@ Optional initialization members
       <!--
 ..
 
+.. _AnyMechOpr.Settings:
+
 Settings
 ===========
 
@@ -86,10 +88,10 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
+    <span id="anymechopr-settings" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
-    <span class="member-descr">General settings for the operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -132,7 +134,7 @@ Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -172,7 +174,7 @@ Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -212,7 +214,7 @@ Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -252,7 +254,7 @@ Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -262,7 +264,7 @@ Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -280,6 +282,8 @@ Settings.SelectOnLoad
      </div></div> <!--
 ..
 
+.. _AnyMechOpr.PreOperation:
+
 PreOperation
 ===============
 
@@ -288,10 +292,10 @@ PreOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
+    <span id="anymechopr-preoperation" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Pre-process operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -334,7 +338,7 @@ PreOperation.Settings
     | **Default:** ``{}``
         
 
-    General settings for the operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -374,7 +378,7 @@ PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -414,7 +418,7 @@ PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -454,7 +458,7 @@ PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -494,7 +498,7 @@ PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -504,7 +508,7 @@ PreOperation.Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -522,6 +526,8 @@ PreOperation.Settings.SelectOnLoad
      </div></div> <!--
 ..
 
+.. _AnyMechOpr.PostOperation:
+
 PostOperation
 ================
 
@@ -530,10 +536,10 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
+    <span id="anymechopr-postoperation" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Post-process operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -576,7 +582,7 @@ PostOperation.Settings
     | **Default:** ``{}``
         
 
-    General settings for the operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -616,7 +622,7 @@ PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -656,7 +662,7 @@ PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -696,7 +702,7 @@ PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -736,7 +742,7 @@ PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -746,7 +752,7 @@ PostOperation.Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -796,7 +802,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -837,7 +843,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -878,48 +884,7 @@ UpdOutput
 
 
 
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOpr.PreOperation:
-
-PreOperation
-===============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
-    <span id="anymechopr-preoperation" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Pre-process operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Pre-process operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -944,7 +909,7 @@ PreOperation.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
     <span id="anymechopr-preoperation-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -960,7 +925,7 @@ PreOperation.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -985,7 +950,7 @@ PreOperation.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
     <span id="anymechopr-preoperation-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1001,7 +966,7 @@ PreOperation.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1026,7 +991,7 @@ PreOperation.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
     <span id="anymechopr-preoperation-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1042,48 +1007,7 @@ PreOperation.UpdOutput
 
 
 
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOpr.PostOperation:
-
-PostOperation
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
-    <span id="anymechopr-postoperation" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">PostOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Post-process operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Post-process operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1124,7 +1048,7 @@ PostOperation.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1165,7 +1089,7 @@ PostOperation.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1206,7 +1130,7 @@ PostOperation.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 

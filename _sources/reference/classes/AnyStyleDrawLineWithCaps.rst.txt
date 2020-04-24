@@ -42,53 +42,6 @@ Description
 
 
 
-*******************************
-Required initialization members
-*******************************
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    <!--
-..
-
-.. _AnyStyleDrawLineWithCaps.Thickness:
-
-Thickness
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Thickness">
-    <span id="anystyledrawlinewithcaps-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Thickness</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Line thickness.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-
-
-
-    Line thickness.
-
-..
-
-
-
-
-
 
 
 
@@ -137,7 +90,55 @@ Style
 
 
 
-    Line style.
+    { descr | indent(width=4) }
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyStyleDrawLineWithCaps.Thickness:
+
+Thickness
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Thickness">
+    <span id="anystyledrawlinewithcaps-thickness" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Line thickness.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.005``
+    
+
+    
+    
+    
+
+
+
+    { descr | indent(width=4) }
 
 ..
 
@@ -165,9 +166,9 @@ RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RGB">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RGB">
     <span id="anystyledrawlinewithcaps-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
     </h3>
 
@@ -176,7 +177,7 @@ RGB
 
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{0.0, 0.0, 0.0}``
+    | **Default:** ``{0.0, 0.0, 1.0}``
     
 
     
@@ -185,7 +186,7 @@ RGB
 
 
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -203,6 +204,8 @@ RGB
      </div> <!--
 ..
 
+.. _AnyStyleDrawLineWithCaps.Start:
+
 Start
 ========
 
@@ -211,10 +214,10 @@ Start
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Start">
+    <span id="anystyledrawlinewithcaps-start" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Start </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Start" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Style folder for starting cap of line.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -257,7 +260,7 @@ Start.Style
     | **Default:** *Depends on other values*
         
 
-    Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
+    { descr | indent(width=4) }
 
 ..
 
@@ -297,7 +300,7 @@ Start.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -337,7 +340,7 @@ Start.Thickness
     | **Default:** ``0.0``
         
 
-    Cap thickness (must be larger than line thickness).
+    { descr | indent(width=4) }
 
 ..
 
@@ -377,7 +380,7 @@ Start.Length
     | **Default:** ``0.0``
         
 
-    Cap length.
+    { descr | indent(width=4) }
 
 ..
 
@@ -387,7 +390,7 @@ Start.Length
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -405,6 +408,8 @@ Start.Length
      </div></div> <!--
 ..
 
+.. _AnyStyleDrawLineWithCaps.End:
+
 End
 ======
 
@@ -413,10 +418,10 @@ End
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="End">
+    <span id="anystyledrawlinewithcaps-end" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> End </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#End" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Style folder for ending cap of line.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -459,7 +464,7 @@ End.Style
     | **Default:** *Depends on other values*
         
 
-    Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
+    { descr | indent(width=4) }
 
 ..
 
@@ -499,7 +504,7 @@ End.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -539,7 +544,7 @@ End.Thickness
     | **Default:** ``0.0``
         
 
-    Cap thickness (must be larger than line thickness).
+    { descr | indent(width=4) }
 
 ..
 
@@ -579,7 +584,7 @@ End.Length
     | **Default:** ``0.0``
         
 
-    Cap length.
+    { descr | indent(width=4) }
 
 ..
 
@@ -589,7 +594,7 @@ End.Length
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 

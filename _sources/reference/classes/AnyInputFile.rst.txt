@@ -81,7 +81,7 @@ FileName
 
 
 
-    Name of the file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -137,7 +137,7 @@ FileErrorContinueOnOff
 
 
 
-    A switch to indicate whether reading of the data should continue even though the file contains errors.
+    { descr | indent(width=4) }
 
 ..
 
@@ -185,7 +185,7 @@ TOnOff
 
 
 
-    Switch whether the data should use the separate "time" parameter 'T'.
+    { descr | indent(width=4) }
 
 ..
 
@@ -233,7 +233,7 @@ ReloadOnOff
 
 
 
-    Switch for turning on auto reloading.
+    { descr | indent(width=4) }
 
 ..
 
@@ -281,7 +281,7 @@ SuppressWarningsOnOff
 
 
 
-    Switch for suppressing warnings during auto reloading. Warnings are suppressedby downgrading them from "Important Warnings" to normal "Warnings", which are not shown by default.
+    { descr | indent(width=4) }
 
 ..
 
@@ -329,7 +329,7 @@ AlwaysUseData0
 
 
 
-    Switch for force the use of the default values T0 and Data0 instead of the data in the file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -377,7 +377,7 @@ T0
 
 
 
-    Default time data that is used if the data in file not usable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -425,7 +425,7 @@ Data0
 
 
 
-    Default data that is used if the data in file not usable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -475,7 +475,7 @@ UpdData
 
 
 
-    Data update counter that counts number of data update and configuration processes.
+    { descr | indent(width=4) }
 
 ..
 
@@ -516,7 +516,7 @@ T
 
 
 
-    The time axis.
+    { descr | indent(width=4) }
 
 ..
 
@@ -557,7 +557,7 @@ Data
 
 
 
-    The data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -598,7 +598,7 @@ TFile
 
 
 
-    Variable with the time array (first column) from the file. This can be used to validate the data, and force the use of the default data (using the AlwaysUseData0 parameter).
+    { descr | indent(width=4) }
 
 ..
 
@@ -639,7 +639,7 @@ TFileIsMonotoneIncreasing
 
 
 
-    Indicates if the time array in the file is monotonically increasing. This can be used to validate the data, and force the use of the default data (using the AlwaysUseData0 parameter).
+    { descr | indent(width=4) }
 
 ..
 
@@ -680,7 +680,7 @@ TFileNumRead
 
 
 
-    The number of data points read from the file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -721,7 +721,7 @@ nDataInFile
 
 
 
-    Number data points found in the file during the latest data loading/reloading process.
+    { descr | indent(width=4) }
 
 ..
 

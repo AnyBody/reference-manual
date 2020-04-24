@@ -97,7 +97,7 @@ Tasks
 
 
 
-    Folder of tasks.
+    { descr | indent(width=4) }
 
 ..
 
@@ -138,7 +138,7 @@ Views
 
 
 
-    Folder of view.
+    { descr | indent(width=4) }
 
 ..
 
@@ -179,7 +179,7 @@ Files
 
 
 
-    Folder of project file information.
+    { descr | indent(width=4) }
 
 ..
 
@@ -220,7 +220,7 @@ Output
 
 
 
-    Folder of project specific outputs.
+    { descr | indent(width=4) }
 
 ..
 
@@ -246,6 +246,8 @@ Optional initialization members
       <!--
 ..
 
+.. _AnyProject.Description:
+
 Description
 ==============
 
@@ -254,10 +256,10 @@ Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description">
+    <span id="anyproject-description" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Description" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Description folder.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -300,7 +302,7 @@ Description.BodyText
     | **Default:** ``""``
         
 
-    The body text of the description. By using the text formatting functions, links can be included in the body text.
+    { descr | indent(width=4) }
 
 ..
 
@@ -340,7 +342,7 @@ Description.Title
     | **Default:** ``""``
         
 
-    The title of the description. Shown in bold at the top of the window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -380,7 +382,7 @@ Description.BodyHTML
     | **Default:** ``""``
         
 
-    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+    { descr | indent(width=4) }
 
 ..
 
@@ -420,7 +422,7 @@ Description.HTMLURL
     | **Default:** ``""``
         
 
-    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+    { descr | indent(width=4) }
 
 ..
 
@@ -460,7 +462,7 @@ Description.Tooltip
     | **Default:** ``""``
         
 
-    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+    { descr | indent(width=4) }
 
 ..
 
@@ -500,7 +502,7 @@ Description.Files
     | **Default:** *Depends on other values*
         
 
-    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -510,7 +512,7 @@ Description.Files
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -539,7 +541,7 @@ Tasks
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Tasks </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Tasks" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder of tasks.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -582,7 +584,7 @@ Tasks.Description
     | **Default:** ``{}``
         
 
-    Description folder.
+    { descr | indent(width=4) }
 
 ..
 
@@ -622,7 +624,7 @@ Tasks.Description.BodyText
     | **Default:** ``""``
         
 
-    The body text of the description. By using the text formatting functions, links can be included in the body text.
+    { descr | indent(width=4) }
 
 ..
 
@@ -662,7 +664,7 @@ Tasks.Description.Title
     | **Default:** ``""``
         
 
-    The title of the description. Shown in bold at the top of the window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -702,7 +704,7 @@ Tasks.Description.BodyHTML
     | **Default:** ``""``
         
 
-    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+    { descr | indent(width=4) }
 
 ..
 
@@ -742,7 +744,7 @@ Tasks.Description.HTMLURL
     | **Default:** ``""``
         
 
-    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+    { descr | indent(width=4) }
 
 ..
 
@@ -782,7 +784,7 @@ Tasks.Description.Tooltip
     | **Default:** ``""``
         
 
-    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+    { descr | indent(width=4) }
 
 ..
 
@@ -822,7 +824,7 @@ Tasks.Description.Files
     | **Default:** *Depends on other values*
         
 
-    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -832,7 +834,7 @@ Tasks.Description.Files
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -861,7 +863,7 @@ Views
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Views </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Views" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder of view.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -904,7 +906,7 @@ Views.Description
     | **Default:** ``{}``
         
 
-    Description folder.
+    { descr | indent(width=4) }
 
 ..
 
@@ -944,7 +946,7 @@ Views.Description.BodyText
     | **Default:** ``""``
         
 
-    The body text of the description. By using the text formatting functions, links can be included in the body text.
+    { descr | indent(width=4) }
 
 ..
 
@@ -984,7 +986,7 @@ Views.Description.Title
     | **Default:** ``""``
         
 
-    The title of the description. Shown in bold at the top of the window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1024,7 +1026,7 @@ Views.Description.BodyHTML
     | **Default:** ``""``
         
 
-    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1064,7 +1066,7 @@ Views.Description.HTMLURL
     | **Default:** ``""``
         
 
-    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1104,7 +1106,7 @@ Views.Description.Tooltip
     | **Default:** ``""``
         
 
-    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1144,7 +1146,7 @@ Views.Description.Files
     | **Default:** *Depends on other values*
         
 
-    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1154,7 +1156,7 @@ Views.Description.Files
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1183,7 +1185,7 @@ Files
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Files </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Files" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder of project file information.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -1226,7 +1228,7 @@ Files.Description
     | **Default:** ``{}``
         
 
-    Description folder.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1266,7 +1268,7 @@ Files.Description.BodyText
     | **Default:** ``""``
         
 
-    The body text of the description. By using the text formatting functions, links can be included in the body text.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1306,7 +1308,7 @@ Files.Description.Title
     | **Default:** ``""``
         
 
-    The title of the description. Shown in bold at the top of the window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1346,7 +1348,7 @@ Files.Description.BodyHTML
     | **Default:** ``""``
         
 
-    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1386,7 +1388,7 @@ Files.Description.HTMLURL
     | **Default:** ``""``
         
 
-    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1426,7 +1428,7 @@ Files.Description.Tooltip
     | **Default:** ``""``
         
 
-    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1466,7 +1468,7 @@ Files.Description.Files
     | **Default:** *Depends on other values*
         
 
-    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1506,7 +1508,7 @@ Files.MainFile
     | **Default:** ``""``
         
 
-    Main-file of the project.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1546,7 +1548,7 @@ Files.SetValueFile
     | **Default:** ``""``
         
 
-    File name for storing modified values between project sessions.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1556,7 +1558,7 @@ Files.SetValueFile
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1574,6 +1576,8 @@ Files.SetValueFile
      </div></div> <!--
 ..
 
+.. _AnyProject.Autos:
+
 Autos
 ========
 
@@ -1582,10 +1586,10 @@ Autos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Autos">
+    <span id="anyproject-autos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Autos </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Autos" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder of definitions controlling various automatic processes.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -1628,7 +1632,7 @@ Autos.Description
     | **Default:** ``{}``
         
 
-    Description folder.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1668,7 +1672,7 @@ Autos.Description.BodyText
     | **Default:** ``""``
         
 
-    The body text of the description. By using the text formatting functions, links can be included in the body text.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1708,7 +1712,7 @@ Autos.Description.Title
     | **Default:** ``""``
         
 
-    The title of the description. Shown in bold at the top of the window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1748,7 +1752,7 @@ Autos.Description.BodyHTML
     | **Default:** ``""``
         
 
-    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1788,7 +1792,7 @@ Autos.Description.HTMLURL
     | **Default:** ``""``
         
 
-    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1828,7 +1832,7 @@ Autos.Description.Tooltip
     | **Default:** ``""``
         
 
-    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1868,7 +1872,7 @@ Autos.Description.Files
     | **Default:** *Depends on other values*
         
 
-    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1908,7 +1912,7 @@ Autos.StartView
     | **Default:** ``None``
         
 
-    Object pointer to an AnyProjectModelViewDefinition, which will be applied to the model at load.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1918,7 +1922,7 @@ Autos.StartView
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1947,7 +1951,7 @@ Output
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Output </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Output" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder of project specific outputs.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -1990,7 +1994,7 @@ Output.Description
     | **Default:** ``{}``
         
 
-    Description folder.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2030,7 +2034,7 @@ Output.Description.BodyText
     | **Default:** ``""``
         
 
-    The body text of the description. By using the text formatting functions, links can be included in the body text.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2070,7 +2074,7 @@ Output.Description.Title
     | **Default:** ``""``
         
 
-    The title of the description. Shown in bold at the top of the window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2110,7 +2114,7 @@ Output.Description.BodyHTML
     | **Default:** ``""``
         
 
-    The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2150,7 +2154,7 @@ Output.Description.HTMLURL
     | **Default:** ``""``
         
 
-    A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2190,7 +2194,7 @@ Output.Description.Tooltip
     | **Default:** ``""``
         
 
-    The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2230,7 +2234,7 @@ Output.Description.Files
     | **Default:** *Depends on other values*
         
 
-    User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2240,7 +2244,7 @@ Output.Description.Files
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -2264,47 +2268,6 @@ Denied-Access members
     <!--
 ..
 
-.. _AnyProject.Files:
-
-Files
-========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files">
-    <span id="anyproject-files" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Files</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder of project file information.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyProjectFiles`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Folder of project file information.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyProject.Files.SourceFiles:
 
 Files.SourceFiles
@@ -2315,7 +2278,7 @@ Files.SourceFiles
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.SourceFiles">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.SourceFiles">
     <span id="anyproject-files-sourcefiles" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Files.SourceFiles</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files.SourceFiles" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of all AnyScript source files in the model (currently loaded).</span>
@@ -2331,7 +2294,7 @@ Files.SourceFiles
 
 
 
-    Array of all AnyScript source files in the model (currently loaded).
+    { descr | indent(width=4) }
 
 ..
 
@@ -2356,7 +2319,7 @@ Files.DataFiles
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.DataFiles">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.DataFiles">
     <span id="anyproject-files-datafiles" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Files.DataFiles</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files.DataFiles" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of all data files in the model (currently loaded).</span>
@@ -2372,7 +2335,7 @@ Files.DataFiles
 
 
 
-    Array of all data files in the model (currently loaded).
+    { descr | indent(width=4) }
 
 ..
 

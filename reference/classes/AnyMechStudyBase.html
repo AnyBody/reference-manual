@@ -120,26 +120,6 @@ constraints.</p>
 </tbody>
 </table>
 </div>
-<div class="section" id="required-initialization-members">
-<h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
-<!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="gravity">
-<span id="anymechstudybase-gravity"></span><h3>Gravity<a class="headerlink" href="#gravity" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Gravity">
-<span id="anymechstudybase-gravity" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title">Gravity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Gravity" title="Permalink to this headline">¶</a>
-<span class="member-descr">The acceleration of gravity.</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-</div>
-<p>The acceleration of gravity.</p>
-</div></blockquote>
-</div>
-</div>
 <div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
@@ -157,7 +137,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>Array of pointers to mechnical objects to exclude from the study.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -175,7 +155,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Initial time.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -193,7 +173,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>Final time.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -211,7 +191,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">101</span></code></div>
 </div>
-<p>Number of equally spaced time steps (plus one). Both tStart and tEnd are counted as time steps.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -229,16 +209,16 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,...</span></code></div>
 </div>
-<p>Array of output-time values. This provides an alternative input to the even spacing obtained by setting nStep, tStart, and tEnd.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="referenceframe">
-<h3>ReferenceFrame<a class="headerlink" href="#referenceframe" title="Permalink to this headline">¶</a></h3>
+<span id="anymechstudybase-referenceframe"></span><h3>ReferenceFrame<a class="headerlink" href="#referenceframe" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ReferenceFrame">
+<span id="anymechstudybase-referenceframe" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> ReferenceFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ReferenceFrame" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
@@ -256,19 +236,40 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>Pointer to the inertial reference frame. Used if a moving frame is used as basis for the model</p>
+<p>{ descr | indent(width=4) }</p>
+</div></blockquote>
+<blockquote>
+<div><p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
+<div class="section" id="gravity">
+<span id="anymechstudybase-gravity"></span><h3>Gravity<a class="headerlink" href="#gravity" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Gravity">
+<span id="anymechstudybase-gravity" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Gravity </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Gravity" title="Permalink to this headline">¶</a>
+<span class="member-descr">The acceleration of gravity.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
+</div>
+<p>{ descr | indent(width=4) }</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div> <!--</div>
 <div class="section" id="replay">
 <h3>Replay<a class="headerlink" href="#replay" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
 
 <h3 class="html-toggle-button" style=""><span class="member-title"> Replay </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay" title="Permalink to this headline">¶</a>
-<span class="member-descr">Operation that replay previously calculated results stored in the Output...</span>
+<span class="member-descr"></span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="replay-settings">
 <span id="anymechstudybase-replay-settings"></span><h4>Replay.Settings<a class="headerlink" href="#replay-settings" title="Permalink to this headline">¶</a></h4>
@@ -284,7 +285,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>General settings for the operation.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -302,7 +303,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>Switch for definition of operation output to the output log and views.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -320,7 +321,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>Switch for definition of operation output to the output log and views.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -334,11 +335,11 @@ constraints.</p>
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>Value for defining the interface display priority for the Operation.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -356,7 +357,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -374,7 +375,10 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>Switch that controls whether post-processing of symbolic expressions should be carried out.</p>
+<p>{ descr | indent(width=4) }</p>
+</div></blockquote>
+<blockquote>
+<div><p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -383,7 +387,7 @@ constraints.</p>
 <span id="anymechstudybase-tarrayonoff"></span><h3>tArrayOnOff<a class="headerlink" href="#tarrayonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="tArrayOnOff">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="tArrayOnOff">
 <span id="anymechstudybase-tarrayonoff" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> tArrayOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#tArrayOnOff" title="Permalink to this headline">¶</a>
 <span class="member-descr">(Deprecated) Switch for whether to use tArray as definition of output-times...</span>
@@ -397,7 +401,7 @@ constraints.</p>
 <p><span class="versionmodified deprecated">Deprecated since version The: </span>use of tArrayOnOff is deprecated. tArrayOnOff have no effect. Values in
  tArray will be used if it is initialized in script.</p>
 </div>
-<p>(Deprecated) Switch for whether to use tArray as definition of output-times or to use even spacing given by nStep, tStart and tEnd.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 </div>
 </div>
@@ -418,7 +422,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -436,7 +440,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -454,7 +458,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -472,7 +476,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>Folder that holds the result of the latest executed analysis (operation).</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -490,7 +494,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>Folder where the values of the abscissa/input parameters are stored.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -508,7 +512,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -526,7 +530,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -544,7 +548,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -562,7 +566,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Time.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -580,7 +584,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>Index of the current time step.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -598,7 +602,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>Update counter counting updates of tArray’s dependency of nStep, tStart and tEnd.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -616,7 +620,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Current value of the kinematic error.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -634,7 +638,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Current kinematic energy of the system.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -652,7 +656,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Current potential energy of the system.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -670,7 +674,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Current mechanical energy of the system (=Ekin+Epot).</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -688,7 +692,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Current mechanical power applied to the system.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -706,7 +710,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>Operation that replay previously calculated results stored in the Output folder. It also replays data in the Output folder if they are imported from an output storage file. Replaying means to transfer data from the Output folder back into their original value objects in the model. This restores all saved value as they were upon the time of calculation. The Replay operation executes the same number of time steps as the original simulation.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -724,7 +728,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -742,7 +746,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -760,7 +764,7 @@ constraints.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 </div>
 </div>

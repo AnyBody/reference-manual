@@ -90,7 +90,7 @@ Hidden
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -138,7 +138,7 @@ SubGroupRegexSearch
 
 
 
-    Regular expression that is used to identify subcomponents within this component. Syntax used is Perl.
+    { descr | indent(width=4) }
 
 ..
 
@@ -186,7 +186,7 @@ SubGroupRegexReplace
 
 
 
-    Replace expression that is used to together with 'SubGroupRegexSearch' to output the subbranch name. A '/' can be inserted within the name if multilevel branches is needed. Syntax used is Perl.
+    { descr | indent(width=4) }
 
 ..
 
@@ -234,7 +234,7 @@ IsBranch
 
 
 
-    Default On. If set to Off, this component will not appear as a branch in the tree
+    { descr | indent(width=4) }
 
 ..
 
@@ -282,7 +282,7 @@ NameCast
 
 
 
-    Effectively chooses a different name for this component. Note that this can be used as a grouping mechanism.
+    { descr | indent(width=4) }
 
 ..
 

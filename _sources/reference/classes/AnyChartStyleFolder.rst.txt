@@ -106,7 +106,7 @@ Style
 
 
 
-    Style of the plotting area.
+    { descr | indent(width=4) }
 
 ..
 
@@ -154,7 +154,7 @@ Sizes
 
 
 
-    Sizes of three dimensions of the plotting area.
+    { descr | indent(width=4) }
 
 ..
 
@@ -202,7 +202,7 @@ AutoSizes
 
 
 
-    Switch for using automtic sizes of the chart objects. This is useful when using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.
+    { descr | indent(width=4) }
 
 ..
 
@@ -250,7 +250,7 @@ AutoPosition
 
 
 
-    Switch for using automtic positioning the chart objects. This is when useful using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.
+    { descr | indent(width=4) }
 
 ..
 
@@ -298,7 +298,7 @@ LinkCursors
 
 
 
-    Switch for linking cursor. If 'On' cursor from different matching series, i.e., series with the same abscissa selections will be linked so they move together. If 'Off' cursors are idependent for each serie.
+    { descr | indent(width=4) }
 
 ..
 
@@ -316,6 +316,8 @@ LinkCursors
      </div> <!--
 ..
 
+.. _AnyChartStyleFolder.Axes:
+
 Axes
 =======
 
@@ -324,10 +326,10 @@ Axes
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Axes">
+    <span id="anychartstylefolder-axes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Axes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Axes" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Line style for axes.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -370,7 +372,7 @@ Axes.Style
     | **Default:** ``Line3DStyleFull``
         
 
-    Line style.
+    { descr | indent(width=4) }
 
 ..
 
@@ -410,7 +412,7 @@ Axes.Thickness
     | **Default:** ``1.0``
         
 
-    Line thickness.
+    { descr | indent(width=4) }
 
 ..
 
@@ -450,7 +452,7 @@ Axes.RGB
     | **Default:** ``{1.0, 1.0, 1.0}``
         
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -460,7 +462,7 @@ Axes.RGB
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -478,6 +480,8 @@ Axes.RGB
      </div></div> <!--
 ..
 
+.. _AnyChartStyleFolder.Title:
+
 Title
 ========
 
@@ -486,10 +490,10 @@ Title
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Title">
+    <span id="anychartstylefolder-title" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Title </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Title" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Title text field.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -532,7 +536,7 @@ Title.Visible
     | **Default:** ``On``
         
 
-    Switch for visiblity.
+    { descr | indent(width=4) }
 
 ..
 
@@ -572,7 +576,7 @@ Title.Font
     | **Default:** ``{}``
         
 
-    Font settings.
+    { descr | indent(width=4) }
 
 ..
 
@@ -612,7 +616,7 @@ Title.Font.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -652,7 +656,7 @@ Title.Font.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    Font name (Windows fonts).
+    { descr | indent(width=4) }
 
 ..
 
@@ -692,7 +696,7 @@ Title.Font.Height
     | **Default:** ``50``
         
 
-    Font glyph height in pixels.
+    { descr | indent(width=4) }
 
 ..
 
@@ -732,7 +736,7 @@ Title.Font.Width
     | **Default:** ``50``
         
 
-    Font glyph width in pixels.
+    { descr | indent(width=4) }
 
 ..
 
@@ -772,7 +776,7 @@ Title.Font.Bold
     | **Default:** ``Off``
         
 
-    Switch for bold face type setting.
+    { descr | indent(width=4) }
 
 ..
 
@@ -812,7 +816,7 @@ Title.Font.Italic
     | **Default:** ``Off``
         
 
-    Switch for italic type setting.
+    { descr | indent(width=4) }
 
 ..
 
@@ -852,7 +856,7 @@ Title.Font.BillBoardView
     | **Default:** ``On``
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    { descr | indent(width=4) }
 
 ..
 
@@ -892,7 +896,7 @@ Title.Font.ModelSized
     | **Default:** ``On``
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    { descr | indent(width=4) }
 
 ..
 
@@ -932,7 +936,7 @@ Title.Font.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    The height scaling of the text when ModelSized is enabled.
+    { descr | indent(width=4) }
 
 ..
 
@@ -972,7 +976,7 @@ Title.Font.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    The width scaling of the text when ModelSized is enabled.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1012,7 +1016,7 @@ Title.Text
     | **Default:** ``""``
         
 
-    Text string.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1022,7 +1026,7 @@ Title.Text
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1040,6 +1044,8 @@ Title.Text
      </div></div> <!--
 ..
 
+.. _AnyChartStyleFolder.MessageFont:
+
 MessageFont
 ==============
 
@@ -1048,10 +1054,10 @@ MessageFont
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MessageFont">
+    <span id="anychartstylefolder-messagefont" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> MessageFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#MessageFont" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Font used for messages dispalyed inside in chart arear.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -1094,7 +1100,7 @@ MessageFont.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1134,7 +1140,7 @@ MessageFont.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    Font name (Windows fonts).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1174,7 +1180,7 @@ MessageFont.Height
     | **Default:** ``50``
         
 
-    Font glyph height in pixels.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1214,7 +1220,7 @@ MessageFont.Width
     | **Default:** ``50``
         
 
-    Font glyph width in pixels.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1254,7 +1260,7 @@ MessageFont.Bold
     | **Default:** ``Off``
         
 
-    Switch for bold face type setting.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1294,7 +1300,7 @@ MessageFont.Italic
     | **Default:** ``Off``
         
 
-    Switch for italic type setting.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1334,7 +1340,7 @@ MessageFont.BillBoardView
     | **Default:** ``On``
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1374,7 +1380,7 @@ MessageFont.ModelSized
     | **Default:** ``On``
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1414,7 +1420,7 @@ MessageFont.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    The height scaling of the text when ModelSized is enabled.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1454,7 +1460,7 @@ MessageFont.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    The width scaling of the text when ModelSized is enabled.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1464,7 +1470,7 @@ MessageFont.ModelScaleWidth
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 

@@ -87,7 +87,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -128,7 +128,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -169,7 +169,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -210,7 +210,7 @@ Output
 
 
 
-    Folder that holds the result of the latest executed analysis (operation).
+    { descr | indent(width=4) }
 
 ..
 
@@ -251,7 +251,7 @@ Output.Abscissa
 
 
 
-    Folder where the values of the abscissa/input parameters are stored.
+    { descr | indent(width=4) }
 
 ..
 
@@ -292,7 +292,7 @@ Output.Abscissa.StateCountCurrent
 
 
 
-    Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).
+    { descr | indent(width=4) }
 
 ..
 
@@ -333,7 +333,7 @@ Output.Abscissa.StateCountData
 
 
 
-    Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -374,7 +374,7 @@ Output.Abscissa.t
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -415,7 +415,7 @@ t
 
 
 
-    Time.
+    { descr | indent(width=4) }
 
 ..
 
@@ -456,7 +456,7 @@ iStep
 
 
 
-    Index of the current time step.
+    { descr | indent(width=4) }
 
 ..
 

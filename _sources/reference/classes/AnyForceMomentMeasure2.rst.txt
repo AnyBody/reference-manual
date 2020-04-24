@@ -101,7 +101,7 @@ AnyForceBase
 
 
 
-    The generalized forces that will be added in this object. Either this or the IncludeForces vector of AnyObjectPtrs must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -140,7 +140,7 @@ AnyRefFrame
 
 
 
-    The reference frame that defines the point of interest and thereby the output. Either this or the RefPoint AnyObjectPtr must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -179,7 +179,7 @@ AnySeg
 
 
 
-    Segments that defines the mechanical sub-system for which the force contributions are assembled. Either this or the IncludeSegments vector of AnySegs must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -238,7 +238,7 @@ IncludeForces
 
 
 
-    Vector of AnyObjectPtrs to the generalized forces that will be added in this object.Either this or AnyForceBase type members must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -286,7 +286,7 @@ RefPoint
 
 
 
-    AnyObjectPtr to the reference frame that defines the point of interest and thereby the output. Either this or an AnyRefFrame must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -334,7 +334,7 @@ IncludeSegments
 
 
 
-    Vector of AnyObjectPtrs to the segments that defines the mechanical sub-system for which the force contributions are assembled. Either this or AnySeg members must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -382,7 +382,7 @@ IncludeGravity
 
 
 
-    When set to 'On', gravitational forces on the segments are included in the summation of forces.
+    { descr | indent(width=4) }
 
 ..
 
@@ -430,7 +430,7 @@ IncludeInertiaForces
 
 
 
-    When set to 'On', inertia forces on the segments are included in the summation of forces.
+    { descr | indent(width=4) }
 
 ..
 
@@ -480,7 +480,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -521,7 +521,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -562,7 +562,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -603,7 +603,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -644,7 +644,7 @@ F
 
 
 
-    Equivalent point force vector in global coordinates.
+    { descr | indent(width=4) }
 
 ..
 
@@ -685,7 +685,7 @@ M
 
 
 
-    Equivalent point moment/torque vector in global coordinates.
+    { descr | indent(width=4) }
 
 ..
 

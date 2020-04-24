@@ -136,7 +136,7 @@ value and RGBColorScale represents the minimum value of relative measure.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyStyleDrawMaterial.html#anystyledrawmaterial"><span class="std std-ref">AnyStyleDrawMaterial</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>Graphical material specification, that overrides the color setting in RGB.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 </div>
 </div>
@@ -157,7 +157,7 @@ value and RGBColorScale represents the minimum value of relative measure.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>Visibility setting, which specifies default visibility of the object.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -175,7 +175,7 @@ value and RGBColorScale represents the minimum value of relative measure.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>Opacity setting, which specifies default opacity of the object.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -193,7 +193,7 @@ value and RGBColorScale represents the minimum value of relative measure.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -211,7 +211,7 @@ value and RGBColorScale represents the minimum value of relative measure.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -226,10 +226,10 @@ value and RGBColorScale represents the minimum value of relative measure.</p>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGBs.html#anyrgbs"><span class="std std-ref">AnyRGBs</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.5546875,</span> <span class="pre">0.1015625,</span> <span class="pre">0.1171875}</span></code></div>
 </div>
-<p>Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -247,7 +247,7 @@ value and RGBColorScale represents the minimum value of relative measure.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -267,10 +267,7 @@ Options are:
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>Integer value that controls if to draw the muscle or not
-Options are:
-0: Do not draw the muscle
-1: Draw the muscle</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -288,11 +285,7 @@ Options are:
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Integer value that specifies that the muscle bulges according to:1: The muscle activity.
-2: The current strength relative to the nominal strength.
-3: The actual force compared to the nominal strength.
-4: Obtaining constant volume of the muscle.
-Otherwise, the muscle will have constant radius given by the nominal strength of the muscle and the member MaxStress.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -310,12 +303,7 @@ Otherwise, the muscle will have constant radius given by the nominal strength of
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Integer value that controls the color interpolation between the color in RGBColorScale and RGB.
-Options are:
-1: The muscle activity.
-2: The current strength relative to the nominal strength.
-3: The actual force compared to the nominal strength.
-Otherwise, the muscle will have the color given in RGB.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -333,7 +321,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.95703125,</span> <span class="pre">0.78515625,</span> <span class="pre">0.78515625}</span></code></div>
 </div>
-<p>Color used for color scaling, values should be given in the range 0 to 1.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -351,7 +339,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">250000.0</span></code></div>
 </div>
-<p>MaxStress is the maximum allowed stress in the muscle used for estimating the visual thickness of the muscles. The default radius of the muscle is determined based on the strength and this MaxStress value.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -369,18 +357,18 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>Switch for turning on multiple-color color scaling.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="drawscale">
-<h3>DrawScale<a class="headerlink" href="#drawscale" title="Permalink to this headline">¶</a></h3>
+<span id="anydrawmuscle-drawscale"></span><h3>DrawScale<a class="headerlink" href="#drawscale" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale">
+<span id="anydrawmuscle-drawscale" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#DrawScale" title="Permalink to this headline">¶</a>
-<span class="member-descr">Drawing material style settings that defines the multi-color coloring function.</span>
+<span class="member-descr"></span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="drawscale-enablecreasing">
 <span id="anydrawmuscle-drawscale-enablecreasing"></span><h4>DrawScale.EnableCreasing<a class="headerlink" href="#drawscale-enablecreasing" title="Permalink to this headline">¶</a></h4>
@@ -396,7 +384,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>If set to Off, the creasing angle is ignored for this material.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -414,7 +402,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.524</span></code></div>
 </div>
-<p>The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -432,7 +420,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>If set to On, surfaces with this material will be rendered as wireframe.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -450,7 +438,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>If set to On, smoothing of surfaces are enabled for this material.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -468,7 +456,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>Parameter controling the output. It must be initialized with an expression for the actual value.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -486,7 +474,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>Parameter values for which corresponding RGB and opacity values are given in RGBArray and OpacityArray, respectively.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -504,7 +492,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>RGB color values corresponding to parameter values in ParamArray.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -522,7 +510,10 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>Opacity values corresponding to parameter values in ParamArray.</p>
+<p>{ descr | indent(width=4) }</p>
+</div></blockquote>
+<blockquote>
+<div><p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 </div>
 </div>
@@ -544,7 +535,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -562,7 +553,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -580,7 +571,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -598,7 +589,7 @@ Otherwise, the muscle will have the color given in RGB.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.001</span></code></div>
 </div>
-<p>Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.</p>
+<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 </div>
 </div>

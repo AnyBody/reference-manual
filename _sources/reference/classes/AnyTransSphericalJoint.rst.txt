@@ -97,7 +97,7 @@ AnyRefFrame
 
 
 
-    The reference frames that are input for the measure.
+    { descr | indent(width=4) }
 
 ..
 
@@ -137,7 +137,7 @@ Constraints
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Constraints </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Constraints" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnyKinEq measure that specifies the kinematic constraints of the joint.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -180,7 +180,7 @@ Constraints.CType
     | **Default:** *Depends on other values*
         
 
-    Constraint type specification that specify how the kinematic solver should handle the constraint.
+    { descr | indent(width=4) }
 
 ..
 
@@ -220,7 +220,7 @@ Constraints.WeightFun
     | **Default:** *Depends on other values*
         
 
-    Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
+    { descr | indent(width=4) }
 
 ..
 
@@ -260,7 +260,7 @@ Constraints.Reaction.Type
     | **Default:** *Depends on other values*
         
 
-    Type specification of the reaction forces.
+    { descr | indent(width=4) }
 
 ..
 
@@ -270,7 +270,7 @@ Constraints.Reaction.Type
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -299,7 +299,7 @@ Linear
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Linear </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Linear" title="Permalink to this headline">¶</a>
-    <span class="member-descr">The measure of translation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -342,7 +342,7 @@ Linear.Ref
     | **Default:** ``0.0``
         
 
-    Integer numbers that specify the reference system in which the vector is measured. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -352,7 +352,7 @@ Linear.Ref
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -381,7 +381,7 @@ Orientation
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Orientation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Orientation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">The measure of rotation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -424,7 +424,7 @@ Orientation.Type
     | **Default:** ``RotVector``
         
 
-    Coordinate type specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -464,7 +464,7 @@ Orientation.Axis1
     | **Default:** ``z``
         
 
-    First axis of rotation for RotAxesAngles and primary axis of rotation (normal to the planar motion) for PlanarAngles.
+    { descr | indent(width=4) }
 
 ..
 
@@ -504,7 +504,7 @@ Orientation.Axis2
     | **Default:** ``y``
         
 
-    Second axis of rotation for RotAxesAngles.
+    { descr | indent(width=4) }
 
 ..
 
@@ -544,7 +544,7 @@ Orientation.Axis3
     | **Default:** ``x``
         
 
-    Third axis of rotation for RotAxesAngles.
+    { descr | indent(width=4) }
 
 ..
 
@@ -584,7 +584,7 @@ Orientation.AngVelOnOff
     | **Default:** ``Off``
         
 
-    Switch for using angular velocity vector at velocity and acceleration level.
+    { descr | indent(width=4) }
 
 ..
 
@@ -624,7 +624,7 @@ Orientation.AngVelGlobal
     | **Default:** ``Off``
         
 
-    Switch for using angular velocity vector in global coordinates at velocity and acceleration level. This requires 'AngVelOnOff = On'.
+    { descr | indent(width=4) }
 
 ..
 
@@ -634,7 +634,7 @@ Orientation.AngVelGlobal
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -682,7 +682,7 @@ Axis
 
 
 
-    The axis of translation on the first of the connected reference frames.
+    { descr | indent(width=4) }
 
 ..
 
@@ -730,7 +730,7 @@ Ref
 
 
 
-    Index of the reference system to use a base; value of '0' or '1' referring to the either of two included AnyRefFrames.
+    { descr | indent(width=4) }
 
 ..
 
@@ -780,7 +780,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -821,7 +821,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -862,7 +862,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -903,7 +903,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -944,7 +944,7 @@ RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -985,7 +985,7 @@ Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1026,7 +1026,7 @@ KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -1067,7 +1067,7 @@ KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1108,7 +1108,7 @@ nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1149,7 +1149,7 @@ RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -1190,7 +1190,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1231,7 +1231,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1272,7 +1272,7 @@ Pos
 
 
 
-    The position vector, i.e., the current values of the measured quantity.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1313,7 +1313,7 @@ Vel
 
 
 
-    The velocity vector, typically the time-derivative of Pos.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1354,7 +1354,7 @@ Acc
 
 
 
-    The acceleration vector, typically the time-derivative of Vel.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1395,7 +1395,7 @@ MeasureOrganizer
 
 
 
-    List of indices of components from the assembled measures to be included in the new (organized) measure.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1436,7 +1436,7 @@ Constraints
 
 
 
-    AnyKinEq measure that specifies the kinematic constraints of the joint.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1477,7 +1477,7 @@ Constraints.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1518,7 +1518,7 @@ Constraints.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1559,7 +1559,7 @@ Constraints.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1600,7 +1600,7 @@ Constraints.t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1641,7 +1641,7 @@ Constraints.RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1682,7 +1682,7 @@ Constraints.Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1723,7 +1723,7 @@ Constraints.KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -1764,7 +1764,7 @@ Constraints.KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1805,7 +1805,7 @@ Constraints.nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1846,7 +1846,7 @@ Constraints.RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -1887,7 +1887,7 @@ Constraints.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1928,7 +1928,7 @@ Constraints.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1969,7 +1969,7 @@ Constraints.Pos
 
 
 
-    The position vector, i.e., the current values of the measured quantity.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2010,7 +2010,7 @@ Constraints.Vel
 
 
 
-    The velocity vector, typically the time-derivative of Pos.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2051,7 +2051,7 @@ Constraints.Acc
 
 
 
-    The acceleration vector, typically the time-derivative of Vel.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2092,7 +2092,7 @@ Constraints.MeasureOrganizer
 
 
 
-    List of indices of components from the assembled measures to be included in the new (organized) measure.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2133,7 +2133,7 @@ Constraints.Reaction
 
 
 
-    Reaction forces associated with the constraints.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2174,7 +2174,7 @@ Constraints.Reaction.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2215,7 +2215,7 @@ Constraints.Reaction.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -2256,7 +2256,7 @@ Constraints.Reaction.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2297,7 +2297,7 @@ Constraints.Reaction.t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2338,7 +2338,7 @@ Constraints.Reaction.RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2379,7 +2379,7 @@ Constraints.Reaction.Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2420,7 +2420,7 @@ Constraints.Reaction.KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -2461,7 +2461,7 @@ Constraints.Reaction.KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2502,7 +2502,7 @@ Constraints.Reaction.nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2543,7 +2543,7 @@ Constraints.Reaction.RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -2584,7 +2584,7 @@ Constraints.Reaction.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2625,7 +2625,7 @@ Constraints.Reaction.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2666,7 +2666,7 @@ Constraints.Reaction.RefFrameOutput.F
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2707,7 +2707,7 @@ Constraints.Reaction.RefFrameOutput.M
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2748,7 +2748,7 @@ Constraints.Reaction.Fin
 
 
 
-    The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2789,7 +2789,7 @@ Constraints.Reaction.Fout
 
 
 
-    The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2830,7 +2830,7 @@ Constraints.WeightPos
 
 
 
-    Current value of the kinematic weighting function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2871,7 +2871,7 @@ Constraints.WeightVel
 
 
 
-    Current time-derivative of the kinematic weighting function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2912,7 +2912,7 @@ Constraints.WeightAcc
 
 
 
-    Current 2'nd order time-derivative of the kinematic weighting function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2953,7 +2953,7 @@ Linear
 
 
 
-    The measure of translation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2994,7 +2994,7 @@ Linear.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -3035,7 +3035,7 @@ Linear.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -3076,7 +3076,7 @@ Linear.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -3117,7 +3117,7 @@ Linear.t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3158,7 +3158,7 @@ Linear.RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3199,7 +3199,7 @@ Linear.Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3240,7 +3240,7 @@ Linear.KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -3281,7 +3281,7 @@ Linear.KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3322,7 +3322,7 @@ Linear.nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3363,7 +3363,7 @@ Linear.RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -3404,7 +3404,7 @@ Linear.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -3445,7 +3445,7 @@ Linear.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -3486,7 +3486,7 @@ Linear.Pos
 
 
 
-    The position vector, i.e., the current values of the measured quantity.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3527,7 +3527,7 @@ Linear.Vel
 
 
 
-    The velocity vector, typically the time-derivative of Pos.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3568,7 +3568,7 @@ Linear.Acc
 
 
 
-    The acceleration vector, typically the time-derivative of Vel.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3609,7 +3609,7 @@ Linear.Type
 
 
 
-    Coordinate type specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3650,7 +3650,7 @@ Linear.LineLineDistanceAxes
 
 
 
-    Pairs of axes for which line-to-line distances are measured when Type is LineLineDistance.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3691,7 +3691,7 @@ Linear.LineLineDistanceAxisLength
 
 
 
-    Length of the secondary axis used for line-to-line distances when Type is LineLineDistance. The sencondary axis if set to this finite length to smoothen the singularity for parallel lines.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3732,7 +3732,7 @@ Linear.AngularAxis
 
 
 
-    Axis of rotation for spherical and cylindrical coordinates i.e. when Type is either SphericalCoord or CylindricalCoord.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3773,7 +3773,7 @@ Orientation
 
 
 
-    The measure of rotation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3814,7 +3814,7 @@ Orientation.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -3855,7 +3855,7 @@ Orientation.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -3896,7 +3896,7 @@ Orientation.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -3937,7 +3937,7 @@ Orientation.t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -3978,7 +3978,7 @@ Orientation.RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4019,7 +4019,7 @@ Orientation.Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4060,7 +4060,7 @@ Orientation.KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -4101,7 +4101,7 @@ Orientation.KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4142,7 +4142,7 @@ Orientation.nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4183,7 +4183,7 @@ Orientation.RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -4224,7 +4224,7 @@ Orientation.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -4265,7 +4265,7 @@ Orientation.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -4306,7 +4306,7 @@ Orientation.Pos
 
 
 
-    The position vector, i.e., the current values of the measured quantity.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4347,7 +4347,7 @@ Orientation.Vel
 
 
 
-    The velocity vector, typically the time-derivative of Pos.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4388,7 +4388,7 @@ Orientation.Acc
 
 
 
-    The acceleration vector, typically the time-derivative of Vel.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4429,7 +4429,7 @@ Orientation.DirCosineAxes
 
 
 
-    Pairs of axes used for which directional cosine outputs are given when Type is DirCosines.
+    { descr | indent(width=4) }
 
 ..
 
@@ -4470,7 +4470,7 @@ Orientation.Ref
 
 
 
-    IMPORTANT: The functionality of 'Ref' has been removed, in order to avoid misunderstandings and confusion with 'Ref' in AnyKinLinear. Please modify your model to remove initialization of 'Ref'. In future versions, 'Ref' will be removed entirely. Previous description of this member was: Integer numbers that specify the reference system in which geometric vectors are measured, e.g. the angular velocity vector. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
+    { descr | indent(width=4) }
 
 ..
 

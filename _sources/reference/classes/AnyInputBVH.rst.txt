@@ -97,7 +97,7 @@ FileName
 
 
 
-    Name of the file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -153,7 +153,7 @@ CompatibilityMode_72
 
 
 
-    Switch for enabling AnyBody v.7.2 compatibility mode.
+    { descr | indent(width=4) }
 
 ..
 
@@ -201,7 +201,7 @@ TranslationScale
 
 
 
-    Scaling parameter applied to all translations used in the model drivers.
+    { descr | indent(width=4) }
 
 ..
 
@@ -249,7 +249,7 @@ RotationScale
 
 
 
-    Scaling parameter applied to all rotations used in the model drivers.
+    { descr | indent(width=4) }
 
 ..
 
@@ -297,7 +297,7 @@ StartFrame
 
 
 
-    Number of the first time frame that is imported (zero-based numbering).
+    { descr | indent(width=4) }
 
 ..
 
@@ -345,7 +345,7 @@ EndFrame
 
 
 
-    Number of last time frame that is imported (zero-based numbering, negative number means all frames).
+    { descr | indent(width=4) }
 
 ..
 
@@ -393,7 +393,7 @@ ConstructModelOnOff
 
 
 
-    Switch for whether the kinematic model is constructed or not.
+    { descr | indent(width=4) }
 
 ..
 
@@ -441,7 +441,7 @@ MarkerNames
 
 
 
-    Array of marker names to prepare/extract marker data for by the BVH stick-figure model. Unique and valid object names are required. Consider naming in your marker protocol.
+    { descr | indent(width=4) }
 
 ..
 
@@ -489,7 +489,7 @@ MarkerFilter
 
 
 
-    Pointer to the filter to be used for the generated data of the virtual markers.
+    { descr | indent(width=4) }
 
 ..
 
@@ -537,7 +537,7 @@ TranslationalDataFilter
 
 
 
-    Pointer to the filter to be used for the translational data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -585,7 +585,7 @@ RotationalDataFilter
 
 
 
-    Pointer to the filter to be used for the rotational data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -633,7 +633,7 @@ AddTranslationsToOffsetOnOff
 
 
 
-    Switch for adding the offset specified in the BVH to any translational data. 'Off' indicates that translation channel data is measured in the same reference as the offset.
+    { descr | indent(width=4) }
 
 ..
 
@@ -681,7 +681,7 @@ ModelDrawOnOff
 
 
 
-    Switch for whether the model is equipped with drawing objects for visualization in Model View.
+    { descr | indent(width=4) }
 
 ..
 
@@ -729,7 +729,7 @@ ModelDrawRGBs
 
 
 
-    Array of colors to be used in the model drawing. Each color value-set is used for the level in the kinematical hierarchy that matches its index in the array.
+    { descr | indent(width=4) }
 
 ..
 
@@ -777,7 +777,7 @@ ModelDrawScale
 
 
 
-    Uniform scaling applied to the elements of model drawing.
+    { descr | indent(width=4) }
 
 ..
 
@@ -825,7 +825,7 @@ InterPolType
 
 
 
-    Type of the interpolation drivers (AnyKinEqInterPolDriver) in the model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -873,7 +873,7 @@ InterPolBsplineOrder
 
 
 
-    Order of the B-spline used for the interpolation drivers in the model. If too few data points, the order is lowered to fit the actual amount.
+    { descr | indent(width=4) }
 
 ..
 
@@ -921,7 +921,7 @@ InitialPos_FrameNo
 
 
 
-    Number of the time frame used to to set initial positions of the model  (zero-based numbering).
+    { descr | indent(width=4) }
 
 ..
 
@@ -969,7 +969,7 @@ TranslationalDataFilterIndex
 
 
 
-    Index of the filter to be used for the translational data. Zero refers to the default filter in member called Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in the BVH object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1017,7 +1017,7 @@ RotationalDataFilterIndex
 
 
 
-    Index of the filter to be used for the rotational data. Zero refers to the default filter in member called Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in the BVH object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1035,6 +1035,8 @@ RotationalDataFilterIndex
      </div> <!--
 ..
 
+.. _AnyInputBVH.Filter:
+
 Filter
 =========
 
@@ -1043,10 +1045,10 @@ Filter
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter">
+    <span id="anyinputbvh-filter" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Filter </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Filter" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Standard (default) filter (Butterworth type filter).</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -1089,7 +1091,7 @@ Filter.z0
     | **Default:** *Depends on other values*
         
 
-    Initial condition vector.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1129,7 +1131,7 @@ Filter.AutomaticInitialConditionOnOff
     | **Default:** ``On``
         
 
-    Switch to specify whether or not the initial conditions are calculated automatically.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1169,7 +1171,7 @@ Filter.FilterForwardBackwardOnOff
     | **Default:** ``On``
         
 
-    Switch to specify if filtering should only be performed in the forward direction or both in the forward and backward direction.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1209,7 +1211,7 @@ Filter.N
     | **Default:** ``2``
         
 
-    The filter order.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1249,7 +1251,7 @@ Filter.Fc
     | **Default:** ``{10.0}``
         
 
-    The cut-off frequency(ies).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1289,7 +1291,7 @@ Filter.Type
     | **Default:** ``LowPass``
         
 
-    The filter type.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1299,7 +1301,7 @@ Filter.Type
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1347,7 +1349,7 @@ Rotation2PiFixOnOff
 
 
 
-    Switch for discontinuity filtering of angular data. When 'On', data-jumps of 2N times PI are removed (N is an non-zero integer).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1395,7 +1397,7 @@ Rotation1PiFixOnOff
 
 
 
-    Switch for discontinuity filtering of angular data. When 'On', data-jumps of N times PI are removed (N is an non-zero integer).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1443,7 +1445,7 @@ RotationFixByModelOnOff
 
 
 
-    Switch for discontinuity filtering of angular data. When 'On', angular data is processed by the kinematic model to ensure best possible correspondance. It requires ConstructModelOnOff to be 'On'.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1493,48 +1495,7 @@ UpdData
 
 
 
-    Data update counter that counts number of data update and configuration processes.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyInputBVH.Filter:
-
-Filter
-=========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter">
-    <span id="anyinputbvh-filter" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Filter</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Standard (default) filter (Butterworth type filter).</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFunButterworthFilter`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Standard (default) filter (Butterworth type filter).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1559,7 +1520,7 @@ Filter.FilterFun1
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1">
     <span id="anyinputbvh-filter-filterfun1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering without initial conditon and downsampling specification.</span>
@@ -1575,7 +1536,7 @@ Filter.FilterFun1
 
 
 
-    Filtering without initial conditon and downsampling specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1600,7 +1561,7 @@ Filter.FilterFun1.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList">
     <span id="anyinputbvh-filter-filterfun1-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -1616,7 +1577,7 @@ Filter.FilterFun1.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1641,7 +1602,7 @@ Filter.FilterFun1.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList.x">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList.x">
     <span id="anyinputbvh-filter-filterfun1-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1657,7 +1618,7 @@ Filter.FilterFun1.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1682,7 +1643,7 @@ Filter.FilterFun1.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.Return">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.Return">
     <span id="anyinputbvh-filter-filterfun1-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1698,7 +1659,7 @@ Filter.FilterFun1.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1723,7 +1684,7 @@ Filter.FilterFun2
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2">
     <span id="anyinputbvh-filter-filterfun2" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with downsampling specification.</span>
@@ -1739,7 +1700,7 @@ Filter.FilterFun2
 
 
 
-    Filtering with downsampling specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1764,7 +1725,7 @@ Filter.FilterFun2.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList">
     <span id="anyinputbvh-filter-filterfun2-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -1780,7 +1741,7 @@ Filter.FilterFun2.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1805,7 +1766,7 @@ Filter.FilterFun2.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.x">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.x">
     <span id="anyinputbvh-filter-filterfun2-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1821,7 +1782,7 @@ Filter.FilterFun2.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1846,7 +1807,7 @@ Filter.FilterFun2.ArgList.m
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.m">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.m">
     <span id="anyinputbvh-filter-filterfun2-arglist-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList.m</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList.m" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1862,7 +1823,7 @@ Filter.FilterFun2.ArgList.m
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1887,7 +1848,7 @@ Filter.FilterFun2.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.Return">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.Return">
     <span id="anyinputbvh-filter-filterfun2-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1903,7 +1864,7 @@ Filter.FilterFun2.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1928,7 +1889,7 @@ Filter.FilterFun3
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3">
     <span id="anyinputbvh-filter-filterfun3" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with initial condition specification.</span>
@@ -1944,7 +1905,7 @@ Filter.FilterFun3
 
 
 
-    Filtering with initial condition specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1969,7 +1930,7 @@ Filter.FilterFun3.ArgList
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList">
     <span id="anyinputbvh-filter-filterfun3-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -1985,7 +1946,7 @@ Filter.FilterFun3.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2010,7 +1971,7 @@ Filter.FilterFun3.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.x">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.x">
     <span id="anyinputbvh-filter-filterfun3-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2026,7 +1987,7 @@ Filter.FilterFun3.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2051,7 +2012,7 @@ Filter.FilterFun3.ArgList.z0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.z0">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.z0">
     <span id="anyinputbvh-filter-filterfun3-arglist-z0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList.z0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList.z0" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2067,7 +2028,7 @@ Filter.FilterFun3.ArgList.z0
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2092,7 +2053,7 @@ Filter.FilterFun3.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.Return">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.Return">
     <span id="anyinputbvh-filter-filterfun3-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2108,7 +2069,7 @@ Filter.FilterFun3.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2133,7 +2094,7 @@ Filter.FilterFun4
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4">
     <span id="anyinputbvh-filter-filterfun4" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with both initial condition and downsampling specification.</span>
@@ -2149,7 +2110,7 @@ Filter.FilterFun4
 
 
 
-    Filtering with both initial condition and downsampling specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2174,7 +2135,7 @@ Filter.FilterFun4.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList">
     <span id="anyinputbvh-filter-filterfun4-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2190,7 +2151,7 @@ Filter.FilterFun4.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2215,7 +2176,7 @@ Filter.FilterFun4.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.x">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.x">
     <span id="anyinputbvh-filter-filterfun4-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2231,7 +2192,7 @@ Filter.FilterFun4.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2256,7 +2217,7 @@ Filter.FilterFun4.ArgList.m
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.m">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.m">
     <span id="anyinputbvh-filter-filterfun4-arglist-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.m</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.m" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2272,7 +2233,7 @@ Filter.FilterFun4.ArgList.m
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2297,7 +2258,7 @@ Filter.FilterFun4.ArgList.z0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.z0">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.z0">
     <span id="anyinputbvh-filter-filterfun4-arglist-z0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.z0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.z0" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2313,7 +2274,7 @@ Filter.FilterFun4.ArgList.z0
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2338,7 +2299,7 @@ Filter.FilterFun4.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.Return">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.Return">
     <span id="anyinputbvh-filter-filterfun4-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2354,7 +2315,7 @@ Filter.FilterFun4.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2379,7 +2340,7 @@ Filter.W
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.W">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.W">
     <span id="anyinputbvh-filter-w" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.W</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.W" title="Permalink to this headline">¶</a>
     <span class="member-descr">The normalized cut-off frequency(ies).</span>
@@ -2395,7 +2356,7 @@ Filter.W
 
 
 
-    The normalized cut-off frequency(ies).
+    { descr | indent(width=4) }
 
 ..
 
@@ -2420,7 +2381,7 @@ Filter.Fs
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.Fs">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.Fs">
     <span id="anyinputbvh-filter-fs" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.Fs</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.Fs" title="Permalink to this headline">¶</a>
     <span class="member-descr">The sample frequency of the data to be filtered.</span>
@@ -2436,7 +2397,7 @@ Filter.Fs
 
 
 
-    The sample frequency of the data to be filtered.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2461,7 +2422,7 @@ UpdInitialPos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdInitialPos">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdInitialPos">
     <span id="anyinputbvh-updinitialpos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdInitialPos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdInitialPos" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of initial positioning of the BVH model.</span>
@@ -2477,7 +2438,7 @@ UpdInitialPos
 
 
 
-    Counter of updates of initial positioning of the BVH model.
+    { descr | indent(width=4) }
 
 ..
 

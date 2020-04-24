@@ -106,7 +106,7 @@ Visible
 
 
 
-    Switch for visibility.
+    { descr | indent(width=4) }
 
 ..
 
@@ -154,7 +154,7 @@ AutoUnit
 
 
 
-    Switch for automatic determination of the unit size.
+    { descr | indent(width=4) }
 
 ..
 
@@ -202,7 +202,7 @@ AutoScale
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -250,7 +250,7 @@ Divisions
 
 
 
-    Size of the unit specified by a requested number of divisions of the axis' data range. This is used for the automatical determination of the unit size.
+    { descr | indent(width=4) }
 
 ..
 
@@ -298,7 +298,7 @@ Unit
 
 
 
-    Size of the unit. If AutoUnit is On specified, it will be automatically determined from Divisions and the data range.
+    { descr | indent(width=4) }
 
 ..
 
@@ -346,7 +346,7 @@ TickInside
 
 
 
-    Size of tick inside the plotting area.
+    { descr | indent(width=4) }
 
 ..
 
@@ -394,7 +394,7 @@ TickOutside
 
 
 
-    Size of tick outside the plotting area.
+    { descr | indent(width=4) }
 
 ..
 
@@ -442,7 +442,7 @@ GridLines
 
 
 
-    Switch for visibility of the grid lines.
+    { descr | indent(width=4) }
 
 ..
 
@@ -460,6 +460,8 @@ GridLines
      </div> <!--
 ..
 
+.. _AnyChartAxisUnit.GridLineStyle:
+
 GridLineStyle
 ================
 
@@ -468,10 +470,10 @@ GridLineStyle
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="GridLineStyle">
+    <span id="anychartaxisunit-gridlinestyle" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> GridLineStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#GridLineStyle" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Style settings for the grid lines.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -514,7 +516,7 @@ GridLineStyle.Style
     | **Default:** ``Line3DStyleFull``
         
 
-    Line style.
+    { descr | indent(width=4) }
 
 ..
 
@@ -554,7 +556,7 @@ GridLineStyle.Thickness
     | **Default:** ``1.0``
         
 
-    Line thickness.
+    { descr | indent(width=4) }
 
 ..
 
@@ -594,7 +596,7 @@ GridLineStyle.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -604,7 +606,7 @@ GridLineStyle.RGB
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -652,7 +654,7 @@ Text
 
 
 
-    Switch for visibility of the unit text.
+    { descr | indent(width=4) }
 
 ..
 
@@ -670,6 +672,8 @@ Text
      </div> <!--
 ..
 
+.. _AnyChartAxisUnit.TextFont:
+
 TextFont
 ===========
 
@@ -678,10 +682,10 @@ TextFont
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont">
+    <span id="anychartaxisunit-textfont" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Font settings for the unit text.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -724,7 +728,7 @@ TextFont.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    Color in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -764,7 +768,7 @@ TextFont.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    Font name (Windows fonts).
+    { descr | indent(width=4) }
 
 ..
 
@@ -804,7 +808,7 @@ TextFont.Height
     | **Default:** ``50``
         
 
-    Font glyph height in pixels.
+    { descr | indent(width=4) }
 
 ..
 
@@ -844,7 +848,7 @@ TextFont.Width
     | **Default:** ``50``
         
 
-    Font glyph width in pixels.
+    { descr | indent(width=4) }
 
 ..
 
@@ -884,7 +888,7 @@ TextFont.Bold
     | **Default:** ``Off``
         
 
-    Switch for bold face type setting.
+    { descr | indent(width=4) }
 
 ..
 
@@ -924,7 +928,7 @@ TextFont.Italic
     | **Default:** ``Off``
         
 
-    Switch for italic type setting.
+    { descr | indent(width=4) }
 
 ..
 
@@ -964,7 +968,7 @@ TextFont.BillBoardView
     | **Default:** ``On``
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1004,7 +1008,7 @@ TextFont.ModelSized
     | **Default:** ``On``
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1044,7 +1048,7 @@ TextFont.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    The height scaling of the text when ModelSized is enabled.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1084,7 +1088,7 @@ TextFont.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    The width scaling of the text when ModelSized is enabled.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1094,7 +1098,7 @@ TextFont.ModelScaleWidth
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1142,7 +1146,7 @@ TextSpace
 
 
 
-    Space between the unit text and the axis.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1160,6 +1164,8 @@ TextSpace
      </div> <!--
 ..
 
+.. _AnyChartAxisUnit.NumberFormat:
+
 NumberFormat
 ===============
 
@@ -1168,10 +1174,10 @@ NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat">
+    <span id="anychartaxisunit-numberformat" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Format settings for the unit text.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -1214,7 +1220,7 @@ NumberFormat.Digits
     | **Default:** ``8``
         
 
-    Number of digits in output. Disregarded if smaller than one.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1254,7 +1260,7 @@ NumberFormat.Style
     | **Default:** ``0``
         
 
-    Style of the numeric output.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1294,7 +1300,7 @@ NumberFormat.Scale
     | **Default:** ``Off``
         
 
-    Switch for scaling.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1334,7 +1340,7 @@ NumberFormat.ScaleVal
     | **Default:** ``1.0``
         
 
-    Scaling factor.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1344,7 +1350,7 @@ NumberFormat.ScaleVal
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 

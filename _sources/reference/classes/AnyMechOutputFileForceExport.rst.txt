@@ -99,7 +99,7 @@ AnyRefFrame
 
 
 
-    !Deprecated!: A reference can be inputted and all output data refers to this reference frame. (Notice that segments are also reference frames, so the one you want to use as reference here must come first)
+    { descr | indent(width=4) }
 
 ..
 
@@ -138,7 +138,7 @@ AnySeg
 
 
 
-    !Deprecated!: Selected segments for which the output may be prepared depending on AllSegmentsInStudyOnOff.
+    { descr | indent(width=4) }
 
 ..
 
@@ -188,7 +188,7 @@ FileName
 
 
 
-    Name of the file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -214,6 +214,8 @@ Optional initialization members
       <!--
 ..
 
+.. _AnyMechOutputFileForceExport.NumberFormat:
+
 NumberFormat
 ===============
 
@@ -222,10 +224,10 @@ NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat">
+    <span id="anymechoutputfileforceexport-numberformat" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Format settings for numerical values in text formatted files. Applies to...</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -268,7 +270,7 @@ NumberFormat.Digits
     | **Default:** ``15``
         
 
-    Number of digits in output. Disregarded if smaller than one.
+    { descr | indent(width=4) }
 
 ..
 
@@ -308,7 +310,7 @@ NumberFormat.Width
     | **Default:** ``23``
         
 
-    Number of character spaces reserved for the number in output. Disregarded if smaller than one.
+    { descr | indent(width=4) }
 
 ..
 
@@ -348,7 +350,7 @@ NumberFormat.Style
     | **Default:** ``ScientificNumber``
         
 
-    Style specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -388,7 +390,7 @@ NumberFormat.FormatStr
     | **Default:** ``""``
         
 
-    Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -398,7 +400,7 @@ NumberFormat.FormatStr
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -446,7 +448,7 @@ UseRefFrameOnOff
 
 
 
-    Switch for whether to use the first AnyRefFrame member as refernce frame instead of the global reference system
+    { descr | indent(width=4) }
 
 ..
 
@@ -494,7 +496,7 @@ AllSegmentsInStudyOnOff
 
 
 
-    Switch that controls whether the output is prepared for all segments in the current study being analyzed, or for selected segments. Selected segments
+    { descr | indent(width=4) }
 
 ..
 
@@ -542,7 +544,7 @@ XMLformatOnOff
 
 
 
-    Switch for using XML formatted output as alternative to the original text output.
+    { descr | indent(width=4) }
 
 ..
 
@@ -590,7 +592,7 @@ RefFrame
 
 
 
-    An object pointer variable to supply an output reference frame.
+    { descr | indent(width=4) }
 
 ..
 
@@ -638,7 +640,7 @@ Segments
 
 
 
-    An object pointer array to supply a list of segments to output forces for.
+    { descr | indent(width=4) }
 
 ..
 
@@ -686,7 +688,7 @@ MeshRefFrames
 
 
 
-    An object pointer array to supply a list of corresponding to Segments ref. frames, which would be used to output muscle attachment locations in. For example, the reference frame of the finite element mesh. Please note that all these reference frames should be created as subnodes on the segments of interest.
+    { descr | indent(width=4) }
 
 ..
 
@@ -734,7 +736,7 @@ ForceObjectExclude
 
 
 
-    An array of pointers to force objects to be excluded from output. Can be used in combination with ForceObjectList.
+    { descr | indent(width=4) }
 
 ..
 
@@ -782,7 +784,7 @@ ForceObjectList
 
 
 
-    An array of pointers to force objects to be output. Can be used in combination with ForceObjectExclude.
+    { descr | indent(width=4) }
 
 ..
 
@@ -832,7 +834,7 @@ UpdData
 
 
 
-    Data update counter that counts number of data update and configuration processes.
+    { descr | indent(width=4) }
 
 ..
 

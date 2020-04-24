@@ -81,7 +81,7 @@ AnyValue
 
 
 
-    All values (i.e. all AnyValue-derived members) can be reported in the output file depending on the file format settings.
+    { descr | indent(width=4) }
 
 ..
 
@@ -131,7 +131,7 @@ FileName
 
 
 
-    Name of the file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -172,7 +172,7 @@ LeftHeelStrike1
 
 
 
-    Left foot first heel strike time.
+    { descr | indent(width=4) }
 
 ..
 
@@ -213,7 +213,7 @@ LeftHeelStrike2
 
 
 
-    Left foot second heel strike time.
+    { descr | indent(width=4) }
 
 ..
 
@@ -254,7 +254,7 @@ RightHeelStrike1
 
 
 
-    Right foot first heel strike time.
+    { descr | indent(width=4) }
 
 ..
 
@@ -295,7 +295,7 @@ RightHeelStrike2
 
 
 
-    Right foot second heel strike time.
+    { descr | indent(width=4) }
 
 ..
 
@@ -321,6 +321,8 @@ Optional initialization members
       <!--
 ..
 
+.. _AnyOutputGCD.NumberFormat:
+
 NumberFormat
 ===============
 
@@ -329,10 +331,10 @@ NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat">
+    <span id="anyoutputgcd-numberformat" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Format settings for numerical values in text formatted files. Applies to...</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -375,7 +377,7 @@ NumberFormat.Digits
     | **Default:** ``15``
         
 
-    Number of digits in output. Disregarded if smaller than one.
+    { descr | indent(width=4) }
 
 ..
 
@@ -415,7 +417,7 @@ NumberFormat.Width
     | **Default:** ``23``
         
 
-    Number of character spaces reserved for the number in output. Disregarded if smaller than one.
+    { descr | indent(width=4) }
 
 ..
 
@@ -455,7 +457,7 @@ NumberFormat.Style
     | **Default:** ``ScientificNumber``
         
 
-    Style specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -495,7 +497,7 @@ NumberFormat.FormatStr
     | **Default:** ``""``
         
 
-    Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -505,7 +507,7 @@ NumberFormat.FormatStr
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -553,7 +555,7 @@ Values
 
 
 
-    Array of object-pointers to values, which will be included in the output data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -601,7 +603,7 @@ Search
 
 
 
-    Array of objects search strings, which will be applied to find and include values in the output (for more info. on search-strings, see class AnyObjectSearchString).
+    { descr | indent(width=4) }
 
 ..
 
@@ -649,7 +651,7 @@ Format
 
 
 
-    File format options. 0: Text format (CSV format with optional header section), 1: XML format.
+    { descr | indent(width=4) }
 
 ..
 
@@ -697,7 +699,7 @@ SepSign
 
 
 
-    Separator sign for the standard format.
+    { descr | indent(width=4) }
 
 ..
 
@@ -745,7 +747,7 @@ SepSpaceAutoOnOff
 
 
 
-    Option to give preference to optimal formatting for standard CSV/TEXT readers. This option can override column width given in 'NumberFormat' so that e.g. space-separated values will only be separated by a single space. When 'On', the file conforms to standard CSV format, else it gives preference to nicely aligned columns (formatted according to 'NumberFormat').
+    { descr | indent(width=4) }
 
 ..
 
@@ -793,7 +795,7 @@ LineSepSign
 
 
 
-    Line separator sign for the standard format.
+    { descr | indent(width=4) }
 
 ..
 
@@ -811,6 +813,8 @@ LineSepSign
      </div> <!--
 ..
 
+.. _AnyOutputGCD.Header:
+
 Header
 =========
 
@@ -819,10 +823,10 @@ Header
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Header">
+    <span id="anyoutputgcd-header" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Header </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Header" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Header formatting settings for the standard format.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -865,7 +869,7 @@ Header.TitleSectionOnOff
     | **Default:** ``On``
         
 
-    Switch for the title section.
+    { descr | indent(width=4) }
 
 ..
 
@@ -905,7 +909,7 @@ Header.ConstSectionOnOff
     | **Default:** ``On``
         
 
-    Switch for the header section containing constant variables.
+    { descr | indent(width=4) }
 
 ..
 
@@ -945,7 +949,7 @@ Header.ConstSectionSaveOptionsOnOff
     | **Default:** ``On``
         
 
-    Switch for class-specific parameters in the Constants section of the output file. Value 'Off' excludes all standard class members, which are irrelelvant in the output file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -985,7 +989,7 @@ Header.VarSectionOnOff
     | **Default:** ``On``
         
 
-    Switch for the variable description section.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1025,7 +1029,7 @@ Header.ColumnNamesOnOff
     | **Default:** ``On``
         
 
-    Switch for the row containing the column names in the data section.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1065,7 +1069,7 @@ Header.LinePrefix
     | **Default:** ``""``
         
 
-    String containing a line prefix used for all lines of the header section.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1105,7 +1109,7 @@ Header.ShortenNamesOnOff
     | **Default:** ``Off``
         
 
-    Switch for shortening variable names, incl. column names, in the output.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1145,7 +1149,7 @@ Header.ColumnIDString
     | **Default:** ``"col"``
         
 
-    String used to id columns, i.e., entered in front of column numbers to form a column identifier. If this string is empty the column identifier becomes an integer.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1155,7 +1159,7 @@ Header.ColumnIDString
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1203,7 +1207,7 @@ SuppressTimeColumnOnOff
 
 
 
-    Switch to suppress time column being printed into the output file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1251,7 +1255,7 @@ LeftFootOff
 
 
 
-    Left foot toe-off time.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1299,7 +1303,7 @@ RightFootOff
 
 
 
-    Right foot toe-off time.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1347,7 +1351,7 @@ Right
 
 
 
-    Folder containing right leg data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1395,7 +1399,7 @@ Left
 
 
 
-    Folder containing left leg data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1443,7 +1447,7 @@ Points
 
 
 
-    Number of output data point.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1497,7 +1501,7 @@ ConstSectionSaveOptionsOnOff
 
 
 
-    (Deprecated) DEPRECATED. This parameter has been moved to Header folder. Switch to exclude class specific parameters in the Constants section of the output file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1547,7 +1551,7 @@ UpdData
 
 
 
-    Data update counter that counts number of data update and configuration processes.
+    { descr | indent(width=4) }
 
 ..
 

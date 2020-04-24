@@ -97,7 +97,7 @@ AnyRefFrame
 
 
 
-    The reference frames that are input for the measure.
+    { descr | indent(width=4) }
 
 ..
 
@@ -147,7 +147,7 @@ StringMesh
 
 
 
-    Number of discretization points on each string segment.
+    { descr | indent(width=4) }
 
 ..
 
@@ -173,6 +173,54 @@ Optional initialization members
       <!--
 ..
 
+.. _AnyKinSPLine.StringRadius:
+
+StringRadius
+===============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="StringRadius">
+    <span id="anykinspline-stringradius" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> StringRadius </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#StringRadius" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.0``
+    
+
+    
+    
+    
+
+
+
+    { descr | indent(width=4) }
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
 .. _AnyKinSPLine.InitWrapPosVectors:
 
 InitWrapPosVectors
@@ -183,7 +231,7 @@ InitWrapPosVectors
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitWrapPosVectors">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitWrapPosVectors">
     <span id="anykinspline-initwrapposvectors" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> InitWrapPosVectors </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#InitWrapPosVectors" title="Permalink to this headline">¶</a>
     <span class="member-descr">An array of 3-D vectors that specify the initial shape of the string. The...</span>
@@ -203,7 +251,7 @@ InitWrapPosVectors
 
 
 
-    An array of 3-D vectors that specify the initial shape of the string. The vectors are ordered as rows of a matrix. For each line segment two vectors must be specified. They are defining two points relative to the line segment's origin and insertion nodes and the curve's initial shape will be three straight lines; from the origin to the first point, then to the second, and finally to the insertion point.
+    { descr | indent(width=4) }
 
 ..
 
@@ -231,7 +279,7 @@ InitWrapPosVecArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitWrapPosVecArr">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitWrapPosVecArr">
     <span id="anykinspline-initwrapposvecarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> InitWrapPosVecArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#InitWrapPosVecArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object pointer array that must collect pointers to the initial position...</span>
@@ -251,7 +299,7 @@ InitWrapPosVecArr
 
 
 
-    Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
+    { descr | indent(width=4) }
 
 ..
 
@@ -279,7 +327,7 @@ InitWrapPosOnlyOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitWrapPosOnlyOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitWrapPosOnlyOnOff">
     <span id="anykinspline-initwrapposonlyonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> InitWrapPosOnlyOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#InitWrapPosOnlyOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether to use initial position only or carry out the wrapping...</span>
@@ -299,7 +347,7 @@ InitWrapPosOnlyOnOff
 
 
 
-    Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
+    { descr | indent(width=4) }
 
 ..
 
@@ -327,7 +375,7 @@ InitWrapPosForEachStepOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitWrapPosForEachStepOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitWrapPosForEachStepOnOff">
     <span id="anykinspline-initwrapposforeachsteponoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> InitWrapPosForEachStepOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#InitWrapPosForEachStepOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch to use the initial condition vectors as starting point in each time step..</span>
@@ -347,7 +395,103 @@ InitWrapPosForEachStepOnOff
 
 
 
-    Switch to use the initial condition vectors as starting point in each time step..
+    { descr | indent(width=4) }
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyKinSPLine.SolverVersion:
+
+SolverVersion
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SolverVersion">
+    <span id="anykinspline-solverversion" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> SolverVersion </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#SolverVersion" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``2.0``
+    
+
+    
+    
+    
+
+
+
+    { descr | indent(width=4) }
+
+..
+
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyKinSPLine.ContactStiffness:
+
+ContactStiffness
+===================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ContactStiffness">
+    <span id="anykinspline-contactstiffness" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> ContactStiffness </span><span class="member-title-equal">=</span><span class="member-title-default"> 10.0 </span><a class="headerlink" href="#ContactStiffness" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``10.0``
+    
+
+    
+    
+    
+
+
+
+    { descr | indent(width=4) }
 
 ..
 
@@ -375,7 +519,7 @@ RelTol
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RelTol">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RelTol">
     <span id="anykinspline-reltol" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RelTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-08 </span><a class="headerlink" href="#RelTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Relative tolerance for the change of the string that is used to determine...</span>
@@ -395,7 +539,7 @@ RelTol
 
 
 
-    Relative tolerance for the change of the string that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
+    { descr | indent(width=4) }
 
 ..
 
@@ -423,7 +567,7 @@ AbsTol
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AbsTol">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AbsTol">
     <span id="anykinspline-abstol" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AbsTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-06 </span><a class="headerlink" href="#AbsTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Absolute tolerance for the change of positions of wrapping points that is...</span>
@@ -443,7 +587,7 @@ AbsTol
 
 
 
-    Absolute tolerance for the change of positions of wrapping points that is used to determine whether the solution is acceptable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -471,7 +615,7 @@ AugLagCoef
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AugLagCoef">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AugLagCoef">
     <span id="anykinspline-auglagcoef" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AugLagCoef </span><span class="member-title-equal">=</span><span class="member-title-default"> 1000.0 </span><a class="headerlink" href="#AugLagCoef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coefficient for penalty term in the Augmented Lagragian method. Increasing...</span>
@@ -491,7 +635,7 @@ AugLagCoef
 
 
 
-    Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis.
+    { descr | indent(width=4) }
 
 ..
 
@@ -519,9 +663,9 @@ MaxIteration
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MaxIteration">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MaxIteration">
     <span id="anykinspline-maxiteration" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 100 </span><a class="headerlink" href="#MaxIteration" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 500 </span><a class="headerlink" href="#MaxIteration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum number of interation in line wrapping solver. It can be increased if...</span>
     </h3>
 
@@ -530,7 +674,7 @@ MaxIteration
 
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``100``
+    | **Default:** ``500``
     
 
     
@@ -539,7 +683,7 @@ MaxIteration
 
 
 
-    Maximum number of interation in line wrapping solver. It can be increased if the solver runs out of iteration step in difficult problems.
+    { descr | indent(width=4) }
 
 ..
 
@@ -567,7 +711,7 @@ MaxRelStepSize
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MaxRelStepSize">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="MaxRelStepSize">
     <span id="anykinspline-maxrelstepsize" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> MaxRelStepSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#MaxRelStepSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum relative step size. The default of 1.0 implies full step size, but...</span>
@@ -587,7 +731,7 @@ MaxRelStepSize
 
 
 
-    Maximum relative step size. The default of 1.0 implies full step size, but it can be decreased to increase robustness for difficult problems.
+    { descr | indent(width=4) }
 
 ..
 
@@ -615,7 +759,7 @@ SolverType
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SolverType">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SolverType">
     <span id="anykinspline-solvertype" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> SolverType </span><span class="member-title-equal">=</span><span class="member-title-default"> SPSolverModes </span><a class="headerlink" href="#SolverType" title="Permalink to this headline">¶</a>
     <span class="member-descr">The SolverType defines one of four solver for the wrapping problem. Possible...</span>
@@ -635,9 +779,7 @@ SolverType
 
 
 
-    The SolverType defines one of four solver for the wrapping problem. Possible Values are:
-    SPSolverFull - standard optimization solver for constraint optimization;
-    SPSolverModes - method using modes to solve the optimization problem. This method is default and faster especially for fewer points in contact.
+    { descr | indent(width=4) }
 
 ..
 
@@ -687,7 +829,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -728,7 +870,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -769,7 +911,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -810,7 +952,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -851,7 +993,7 @@ RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -892,7 +1034,7 @@ Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -933,7 +1075,7 @@ KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -974,7 +1116,7 @@ KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1015,7 +1157,7 @@ nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1056,7 +1198,7 @@ RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -1097,7 +1239,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1138,7 +1280,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1179,7 +1321,7 @@ Pos
 
 
 
-    The position vector, i.e., the current values of the measured quantity.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1220,7 +1362,7 @@ Vel
 
 
 
-    The velocity vector, typically the time-derivative of Pos.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1261,7 +1403,7 @@ Acc
 
 
 
-    The acceleration vector, typically the time-derivative of Vel.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1302,7 +1444,7 @@ P
 
 
 
-    Matrix of points of the polyline, i.e., the mesh points.
+    { descr | indent(width=4) }
 
 ..
 

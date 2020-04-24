@@ -101,7 +101,7 @@ AnyKinMeasure
 
 
 
-    Kinematic measures that should be used by this object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -160,7 +160,7 @@ Type
 
 
 
-    Type specification of the reaction forces.
+    { descr | indent(width=4) }
 
 ..
 
@@ -210,7 +210,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -251,7 +251,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -292,7 +292,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -333,7 +333,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -374,7 +374,7 @@ RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -415,7 +415,7 @@ Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -456,7 +456,7 @@ KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -497,7 +497,7 @@ KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -538,7 +538,7 @@ nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -579,7 +579,7 @@ RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -620,7 +620,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -661,7 +661,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -702,7 +702,7 @@ RefFrameOutput.F
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -743,7 +743,7 @@ RefFrameOutput.M
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -784,7 +784,7 @@ Fin
 
 
 
-    The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.
+    { descr | indent(width=4) }
 
 ..
 
@@ -825,7 +825,7 @@ Fout
 
 
 
-    The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.
+    { descr | indent(width=4) }
 
 ..
 

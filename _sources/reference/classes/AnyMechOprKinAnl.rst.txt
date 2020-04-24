@@ -78,6 +78,8 @@ Optional initialization members
       <!--
 ..
 
+.. _AnyMechOprKinAnl.Settings:
+
 Settings
 ===========
 
@@ -86,10 +88,10 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
+    <span id="anymechoprkinanl-settings" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
-    <span class="member-descr">General settings for the operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -132,7 +134,7 @@ Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -172,7 +174,7 @@ Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -212,7 +214,7 @@ Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -252,7 +254,7 @@ Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -262,7 +264,7 @@ Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -280,6 +282,8 @@ Settings.SelectOnLoad
      </div></div> <!--
 ..
 
+.. _AnyMechOprKinAnl.PreOperation:
+
 PreOperation
 ===============
 
@@ -288,10 +292,10 @@ PreOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
+    <span id="anymechoprkinanl-preoperation" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Pre-process operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -334,7 +338,7 @@ PreOperation.Settings
     | **Default:** ``{}``
         
 
-    General settings for the operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -374,7 +378,7 @@ PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -414,7 +418,7 @@ PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -454,7 +458,7 @@ PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -494,7 +498,7 @@ PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -504,7 +508,7 @@ PreOperation.Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -522,6 +526,8 @@ PreOperation.Settings.SelectOnLoad
      </div></div> <!--
 ..
 
+.. _AnyMechOprKinAnl.PostOperation:
+
 PostOperation
 ================
 
@@ -530,10 +536,10 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
+    <span id="anymechoprkinanl-postoperation" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Post-process operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -576,7 +582,7 @@ PostOperation.Settings
     | **Default:** ``{}``
         
 
-    General settings for the operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -616,7 +622,7 @@ PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -656,7 +662,7 @@ PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -696,7 +702,7 @@ PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -736,7 +742,7 @@ PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -746,7 +752,7 @@ PostOperation.Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -794,7 +800,7 @@ KinematicTol
 
 
 
-    Tolerance for the kinematic analysis.
+    { descr | indent(width=4) }
 
 ..
 
@@ -842,7 +848,7 @@ MaxIteration
 
 
 
-    Maximal number of Newton iterations in the solution of the non-linear equations in the kinematic position analysis.
+    { descr | indent(width=4) }
 
 ..
 
@@ -890,7 +896,7 @@ MaxFallback
 
 
 
-    Maximal number of fallback iterations used by some solvers.
+    { descr | indent(width=4) }
 
 ..
 
@@ -938,7 +944,7 @@ Relax
 
 
 
-    Initial value of relaxation coefficient for the Newton iteration.
+    { descr | indent(width=4) }
 
 ..
 
@@ -986,7 +992,7 @@ SingleStepOnOff
 
 
 
-    Switch for the single-step analysis.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1034,7 +1040,7 @@ SingleStepNo
 
 
 
-    Zero-based index for the time step to use in the single-step analysis.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1082,7 +1088,7 @@ UseStartGuessOnOff
 
 
 
-    Switch for for whether to use input positions as starting guess or the model's current positions.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1130,7 +1136,7 @@ PosAnalysisOnlyOnOff
 
 
 
-    Switch for skipping velocity and acceleration analysis, i.e., running position analysis only. Velocitites and acceleration of all segments are set to zero when computations are skipped.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1178,7 +1184,7 @@ ApproxVelAccPerturb
 
 
 
-    Magnitude of perturbation use in finite difference differentiation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1226,7 +1232,7 @@ SmallStepAssumptionOnOff
 
 
 
-    Switch for assumption of small steps (position or time-steps). When 'Off' more robust method can be applied. (REFER TO OTHER DOCUMENTATION).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1274,7 +1280,7 @@ SparseSolverDiagEps
 
 
 
-    Test variable: Small floating point number (Epsilon) used by some solvers to perturb diagonal elements (DEPRECATED).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1322,7 +1328,7 @@ SparseSolverMaxIterativeRefinements
 
 
 
-    Test variable : Maximal number of iterative refinement steps in solver (DEPRECATED).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1370,7 +1376,7 @@ SparseSolver2x2pivoting
 
 
 
-    Test variable: Switch for selecting pivoting scheme for the MKL PARDISO solver (DEPRECATED).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1418,7 +1424,7 @@ SolverType
 
 
 
-    Solver type specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1476,7 +1482,7 @@ Solver
 
 
 
-    (Deprecated) 
+    { descr | indent(width=4) }
 
 ..
 
@@ -1494,6 +1500,8 @@ Solver
      </div> <!--
 ..
 
+.. _AnyMechOprKinAnl.SolverOptions:
+
 SolverOptions
 ================
 
@@ -1502,8 +1510,8 @@ SolverOptions
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="SolverOptions">
+    <span id="anymechoprkinanl-solveroptions" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> SolverOptions </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SolverOptions" title="Permalink to this headline">¶</a>
     <span class="member-descr">(Deprecated) </span>
     </h3>
@@ -1528,7 +1536,7 @@ SolverOptions
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1578,7 +1586,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1619,7 +1627,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1660,48 +1668,7 @@ UpdOutput
 
 
 
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.PreOperation:
-
-PreOperation
-===============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
-    <span id="anymechoprkinanl-preoperation" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Pre-process operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Pre-process operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1726,7 +1693,7 @@ PreOperation.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
     <span id="anymechoprkinanl-preoperation-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1742,7 +1709,7 @@ PreOperation.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1767,7 +1734,7 @@ PreOperation.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
     <span id="anymechoprkinanl-preoperation-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1783,7 +1750,7 @@ PreOperation.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1808,7 +1775,7 @@ PreOperation.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
     <span id="anymechoprkinanl-preoperation-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1824,48 +1791,7 @@ PreOperation.UpdOutput
 
 
 
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyMechOprKinAnl.PostOperation:
-
-PostOperation
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
-    <span id="anymechoprkinanl-postoperation" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">PostOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Post-process operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyMechOprSubProcess`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Post-process operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1906,7 +1832,7 @@ PostOperation.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1947,7 +1873,7 @@ PostOperation.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1988,7 +1914,7 @@ PostOperation.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2029,7 +1955,7 @@ KinematicError
 
 
 
-    Current value of the kinematic error.
+    { descr | indent(width=4) }
 
 ..
 

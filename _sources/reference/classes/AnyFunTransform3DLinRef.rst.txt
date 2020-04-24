@@ -99,7 +99,7 @@ Ref
 
 
 
-    Object that defines the reference frame of the function input.
+    { descr | indent(width=4) }
 
 ..
 
@@ -155,7 +155,7 @@ PreTransforms
 
 
 
-    Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
+    { descr | indent(width=4) }
 
 ..
 
@@ -203,7 +203,7 @@ RefTarget
 
 
 
-    Object that defines the reference frame for the function output. If empty or 'None' then output will be given in the root reference frame for 'Ref'.
+    { descr | indent(width=4) }
 
 ..
 
@@ -251,7 +251,7 @@ TranslationOnOff
 
 
 
-    Switch for whether positions of the reference frames are included or ignored.
+    { descr | indent(width=4) }
 
 ..
 
@@ -299,7 +299,7 @@ RotationOnOff
 
 
 
-    Switch for whether relative rotation of the reference frames are included or ignored. If ignored all vectors are assumed to refer to the global axes and only positions are included in the transform.
+    { descr | indent(width=4) }
 
 ..
 
@@ -349,7 +349,7 @@ Function
 
 
 
-    Function for 3D vectors (of floating point values).
+    { descr | indent(width=4) }
 
 ..
 
@@ -390,7 +390,7 @@ Function.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -431,7 +431,7 @@ Function.ArgList.Arg
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -472,7 +472,7 @@ Function.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -513,7 +513,7 @@ UpdFunData
 
 
 
-    Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.
+    { descr | indent(width=4) }
 
 ..
 

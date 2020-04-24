@@ -97,7 +97,7 @@ AnyStyleDrawMaterial
 
 
 
-    Graphical material specification, that overrides the color setting in RGB.
+    { descr | indent(width=4) }
 
 ..
 
@@ -147,7 +147,7 @@ Thickness
 
 
 
-    Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.
+    { descr | indent(width=4) }
 
 ..
 
@@ -184,11 +184,11 @@ RGB
 
 
     | **Class type:**  :ref:`AnyRGBs`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
 
 
 
-    Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.
+    { descr | indent(width=4) }
 
 ..
 
@@ -244,7 +244,7 @@ Visible
 
 
 
-    Visibility setting, which specifies default visibility of the object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -292,7 +292,7 @@ Opacity
 
 
 
-    Opacity setting, which specifies default opacity of the object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -340,7 +340,7 @@ Pickable
 
 
 
-    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+    { descr | indent(width=4) }
 
 ..
 
@@ -388,7 +388,7 @@ PickableZOrdering
 
 
 
-    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+    { descr | indent(width=4) }
 
 ..
 
@@ -438,7 +438,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -479,7 +479,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -520,7 +520,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 

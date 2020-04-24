@@ -81,7 +81,7 @@ AnyStyleDrawMaterial
 
 
 
-    Graphical material specification, that overrides the color setting in RGB.
+    { descr | indent(width=4) }
 
 ..
 
@@ -140,7 +140,7 @@ Visible
 
 
 
-    Visibility setting, which specifies default visibility of the object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -188,7 +188,7 @@ Opacity
 
 
 
-    Opacity setting, which specifies default opacity of the object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -236,7 +236,7 @@ Pickable
 
 
 
-    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+    { descr | indent(width=4) }
 
 ..
 
@@ -284,7 +284,7 @@ PickableZOrdering
 
 
 
-    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+    { descr | indent(width=4) }
 
 ..
 
@@ -322,7 +322,7 @@ RGB1
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.3, 0.3}``
     
 
@@ -332,7 +332,7 @@ RGB1
 
 
 
-    Color F1 in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -370,7 +370,7 @@ RGB2
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.3, 0.8, 0.3}``
     
 
@@ -380,7 +380,7 @@ RGB2
 
 
 
-    Color F2 in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -418,7 +418,7 @@ RGB3
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.3, 0.3, 0.8}``
     
 
@@ -428,7 +428,7 @@ RGB3
 
 
 
-    Color F3 in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -466,7 +466,7 @@ RGB4
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.5, 0.2}``
     
 
@@ -476,7 +476,7 @@ RGB4
 
 
 
-    Color F4 in RGB values between 0 and 1.
+    { descr | indent(width=4) }
 
 ..
 
@@ -524,7 +524,7 @@ Label
 
 
 
-    On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.
+    { descr | indent(width=4) }
 
 ..
 
@@ -572,7 +572,7 @@ Size
 
 
 
-    Radius size of the balls etc. of the AnyDrawKinMeasure.
+    { descr | indent(width=4) }
 
 ..
 
@@ -620,7 +620,7 @@ Line
 
 
 
-    On/Off value indicating whether the AnyDrawKinMeasure should have a line between ball components.
+    { descr | indent(width=4) }
 
 ..
 
@@ -668,7 +668,7 @@ Text
 
 
 
-    If set, this text is shown as the label.
+    { descr | indent(width=4) }
 
 ..
 
@@ -716,7 +716,7 @@ TextSize
 
 
 
-    The size in pixels of the Text label.
+    { descr | indent(width=4) }
 
 ..
 
@@ -764,7 +764,7 @@ ShowIllustration
 
 
 
-    Indicates if the graphical representation of the kinematic measure should be drawn if applicable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -812,7 +812,7 @@ ShowLabelLines
 
 
 
-    Indicates if the lines from the label to the reference frames of the kinematic measure should be drawn.
+    { descr | indent(width=4) }
 
 ..
 
@@ -860,7 +860,7 @@ ShowValue
 
 
 
-    Indicates if the pos value of the kinematic measure should be shown in the label.
+    { descr | indent(width=4) }
 
 ..
 
@@ -908,7 +908,7 @@ ShowLabelBorder
 
 
 
-    Indicates if the label of the kinematic measure should be drawn.
+    { descr | indent(width=4) }
 
 ..
 
@@ -956,7 +956,7 @@ IllustrationPositionOffset
 
 
 
-    Positional offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1004,7 +1004,7 @@ IllustrationRotationOffset
 
 
 
-    Rotational offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1052,9 +1052,7 @@ RefIllustration
 
 
 
-    Integer number that specifies the reference system in which the illustration is drawn. 
-    -2 is default, meaning that the illustration will be placed depending on the type of kinematic measure.
-    -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure
+    { descr | indent(width=4) }
 
 ..
 
@@ -1102,9 +1100,7 @@ RefLabel
 
 
 
-    Integer number that specifies the reference system in which the label is drawn. 
-    -2 is default, meaning that the illustration will be placed depending on the type of kinematic measure.
-    -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure
+    { descr | indent(width=4) }
 
 ..
 
@@ -1152,7 +1148,7 @@ LabelPositionOffset
 
 
 
-    Positional offset for the label of the kinematic measure in the reference frame indicated by the ref value.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1200,7 +1196,7 @@ ValueScaling
 
 
 
-    Value used as a factor for the displayed pos value of the kinematic measure. This must either be a scalar or have the same size as pos of the kinematic measure being drawn.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1218,6 +1214,8 @@ ValueScaling
      </div> <!--
 ..
 
+.. _AnyDrawKinMeasure.ValueStyle:
+
 ValueStyle
 =============
 
@@ -1226,10 +1224,10 @@ ValueStyle
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ValueStyle">
+    <span id="anydrawkinmeasure-valuestyle" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ValueStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ValueStyle" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Format settings for the label text.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -1272,7 +1270,7 @@ ValueStyle.Digits
     | **Default:** ``8``
         
 
-    Number of digits in output. Disregarded if smaller than one.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1312,7 +1310,7 @@ ValueStyle.Style
     | **Default:** ``0``
         
 
-    Style of the numeric output.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1352,7 +1350,7 @@ ValueStyle.Scale
     | **Default:** ``Off``
         
 
-    Switch for scaling.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1392,7 +1390,7 @@ ValueStyle.ScaleVal
     | **Default:** ``1.0``
         
 
-    Scaling factor.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1402,7 +1400,7 @@ ValueStyle.ScaleVal
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1452,7 +1450,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1493,7 +1491,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1534,7 +1532,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 

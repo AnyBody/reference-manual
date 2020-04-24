@@ -99,7 +99,7 @@ AnyRefFrame
 
 
 
-    The reference frames that are input for the measure.
+    { descr | indent(width=4) }
 
 ..
 
@@ -138,7 +138,7 @@ AnyParamFun
 
 
 
-    Trajectory functions. These functions must be parameter functions providing 3 output values, i.e., a 3 element vector, as function of one parameter (interpreted as being time).
+    { descr | indent(width=4) }
 
 ..
 
@@ -197,7 +197,7 @@ Ref
 
 
 
-    Integer numbers that specify the reference system in which the vector is measured. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -245,7 +245,7 @@ RefTrajectory
 
 
 
-    Pointer to the reference frame object associated with the trajectory time-function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -295,7 +295,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -336,7 +336,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -377,7 +377,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -418,7 +418,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -459,7 +459,7 @@ RefFrames
 
 
 
-    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
+    { descr | indent(width=4) }
 
 ..
 
@@ -500,7 +500,7 @@ Surfaces
 
 
 
-    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
+    { descr | indent(width=4) }
 
 ..
 
@@ -541,7 +541,7 @@ KinMeasureArr
 
 
 
-    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
+    { descr | indent(width=4) }
 
 ..
 
@@ -582,7 +582,7 @@ KinMeasureIndexArr
 
 
 
-    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -623,7 +623,7 @@ nDim
 
 
 
-    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
+    { descr | indent(width=4) }
 
 ..
 
@@ -664,7 +664,7 @@ RefFrameOutput
 
 
 
-    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
+    { descr | indent(width=4) }
 
 ..
 
@@ -705,7 +705,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -746,7 +746,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -787,7 +787,7 @@ Pos
 
 
 
-    The position vector, i.e., the current values of the measured quantity.
+    { descr | indent(width=4) }
 
 ..
 
@@ -828,7 +828,7 @@ Vel
 
 
 
-    The velocity vector, typically the time-derivative of Pos.
+    { descr | indent(width=4) }
 
 ..
 
@@ -869,7 +869,7 @@ Acc
 
 
 
-    The acceleration vector, typically the time-derivative of Vel.
+    { descr | indent(width=4) }
 
 ..
 
@@ -910,7 +910,7 @@ TrajectoryPos
 
 
 
-    Current global position on the trajectory. Transformtion for given RefTraject is done.
+    { descr | indent(width=4) }
 
 ..
 
@@ -951,7 +951,7 @@ TrajectoryVel
 
 
 
-    Current time-derivative value of TrajectoryPos.
+    { descr | indent(width=4) }
 
 ..
 
@@ -992,7 +992,7 @@ TrajectoryAcc
 
 
 
-    Current second time-derivative value of TrajectoryPos.
+    { descr | indent(width=4) }
 
 ..
 

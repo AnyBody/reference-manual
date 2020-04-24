@@ -97,7 +97,7 @@ FileName
 
 
 
-    Name of the file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -153,7 +153,7 @@ ReadAllDataOnOff
 
 
 
-    Switch to specify if all data should be read or not
+    { descr | indent(width=4) }
 
 ..
 
@@ -201,7 +201,7 @@ TruncateExtraCharsInNamesOnOff
 
 
 
-    Switch to specify whether extra characters in group, parameter, points, or analog data names should be truncated.
+    { descr | indent(width=4) }
 
 ..
 
@@ -249,7 +249,7 @@ MakeNameUniqueStr
 
 
 
-    Switch for enforcing unique names of markers and points. This option may change names in the imported data compared to the original files.
+    { descr | indent(width=4) }
 
 ..
 
@@ -297,7 +297,7 @@ PointsScaleFactor
 
 
 
-    A scale factor to be multiplied to all 3D data points.
+    { descr | indent(width=4) }
 
 ..
 
@@ -345,7 +345,7 @@ ConstructModelOnOff
 
 
 
-    Switch to specify if a model should be constructed from the measured 3D data points.
+    { descr | indent(width=4) }
 
 ..
 
@@ -393,7 +393,7 @@ ConstructChartOnOff
 
 
 
-    Switch for whether the chart displaying the trajectories in space is included or not.
+    { descr | indent(width=4) }
 
 ..
 
@@ -441,7 +441,7 @@ ConstructWeightFunUsingResidualOnOff
 
 
 
-    Switch for whether weigth functions based on the residual values are included or not.
+    { descr | indent(width=4) }
 
 ..
 
@@ -489,7 +489,7 @@ GapFillUsingResidualsOnOff
 
 
 
-    If enabled marker trajectories will be gap filled by linear interpolation in the dropout intervals as indicated by the residual values. Note: This setting is is not meant to replace gap filling in your MoCap software, but it may prevent problems when low pass filtering data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -537,7 +537,7 @@ MarkerUseAllPointsOnOff
 
 
 
-    Switch for using all point data as 3D marker data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -585,7 +585,7 @@ MarkerUseCamMaskOnOff
 
 
 
-    Switch for using the Camera Mask for deciding which point data as 3D marker data. Non-zero camera mask is interpreted as 3D marker data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -633,7 +633,7 @@ MarkerIndices
 
 
 
-    Array of point indices to be used as 3D marker data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -681,7 +681,7 @@ MarkerLabels
 
 
 
-    Array of point labels to be used as 3D marker data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -729,7 +729,7 @@ MarkerFilterIndex
 
 
 
-    Index of the filter to be used for the marker data. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -777,7 +777,7 @@ ProcessedDataFilterIndex
 
 
 
-    Index of the filter to be used for the "processed" point data. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -825,7 +825,7 @@ AnalogFilterIndex
 
 
 
-    Index of the filter to be used for the data in the analog section. Zero is the default filter in member Filter. Negative numbers means that no filter is applied. Positive numbers refer to filters entered by declaration of new objects in C3D object.
+    { descr | indent(width=4) }
 
 ..
 
@@ -843,6 +843,8 @@ AnalogFilterIndex
      </div> <!--
 ..
 
+.. _AnyInputC3D.Filter:
+
 Filter
 =========
 
@@ -851,10 +853,10 @@ Filter
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter">
+    <span id="anyinputc3d-filter" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Filter </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Filter" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Standard (default) filter (Butterworth type filter).</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -897,7 +899,7 @@ Filter.z0
     | **Default:** *Depends on other values*
         
 
-    Initial condition vector.
+    { descr | indent(width=4) }
 
 ..
 
@@ -937,7 +939,7 @@ Filter.AutomaticInitialConditionOnOff
     | **Default:** ``On``
         
 
-    Switch to specify whether or not the initial conditions are calculated automatically.
+    { descr | indent(width=4) }
 
 ..
 
@@ -977,7 +979,7 @@ Filter.FilterForwardBackwardOnOff
     | **Default:** ``On``
         
 
-    Switch to specify if filtering should only be performed in the forward direction or both in the forward and backward direction.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1017,7 +1019,7 @@ Filter.N
     | **Default:** ``2``
         
 
-    The filter order.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1057,7 +1059,7 @@ Filter.W
     | **Default:** *Depends on other values*
         
 
-    The normalized cut-off frequency(ies).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1097,7 +1099,7 @@ Filter.Fs
     | **Default:** ``0.0``
         
 
-    The sample frequency of the data to be filtered.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1137,7 +1139,7 @@ Filter.Fc
     | **Default:** ``{10.0}``
         
 
-    The cut-off frequency(ies).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1177,7 +1179,7 @@ Filter.Type
     | **Default:** ``LowPass``
         
 
-    The filter type.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1187,7 +1189,7 @@ Filter.Type
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1235,7 +1237,7 @@ WeightThreshold
 
 
 
-    Weight function threshold value for determination whether the weights should be zero
+    { descr | indent(width=4) }
 
 ..
 
@@ -1283,7 +1285,7 @@ WeightOutput
 
 
 
-    Weight function output, i.e., the weight value retuned by the weight functions.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1331,7 +1333,7 @@ WeightTransitionTime
 
 
 
-    Weight function transition time, i.e., the time used for smooth transistion between zero and the weight value.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1379,7 +1381,7 @@ SearchAndReplace
 
 
 
-    Search-and-replace functionality for converting names in the original C3D data file while being imported into AnyScript.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1427,7 +1429,7 @@ WriteMarkerDataToFilesOnOff
 
 
 
-    A switch to specify whether or not the marker data should be written to text files. If this is set to on, three output files are created per marker, i.e. one with position data, one with velocity data and one with acceleration data. The output files are named <MarkerName>_pos.txt, <MarkerName>_vel.txt and <MarkerName>_acc.txt.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1475,7 +1477,7 @@ MarkerScaleXYZ
 
 
 
-    Scale factor used when drawing the marker.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1523,7 +1525,7 @@ MarkerRGB
 
 
 
-    The color of a marker.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1571,7 +1573,7 @@ MarkerDrawOnOff
 
 
 
-    A switch to specify if markers should be drawn or not. This switch only affects the AnyDrawNode markers created by the ConstructModel option.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1619,7 +1621,7 @@ MarkerInterPolType
 
 
 
-    The interpolation type used in the linear drivers of the 3D data points.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1667,7 +1669,7 @@ MarkerBsplineOrder
 
 
 
-    Specification of the B-spline order. Only used if MarkerInterPolType = Bspline. If too few data points, the order is lowered to fit the actual amount.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1717,7 +1719,7 @@ UpdData
 
 
 
-    Data update counter that counts number of data update and configuration processes.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1758,7 +1760,7 @@ PointLabels
 
 
 
-    Array of the point labels used in the AnyInputC3D data structure; these labels may be modified compared to PointLabelsOriginal.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1799,7 +1801,7 @@ PointLabelsOriginal
 
 
 
-    Array of the original point labels from the C3D file.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1840,7 +1842,7 @@ AnalogLabels
 
 
 
-    Array of the analog channel labels used in the AnyInputC3D data structure; these labels may be modified compared to AnalogLabelsOriginal.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1881,48 +1883,7 @@ AnalogLabelsOriginal
 
 
 
-    Array of the original analog channel labels from the C3D file.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyInputC3D.Filter:
-
-Filter
-=========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter">
-    <span id="anyinputc3d-filter" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Filter</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Standard (default) filter (Butterworth type filter).</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFunButterworthFilter`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Standard (default) filter (Butterworth type filter).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1947,7 +1908,7 @@ Filter.FilterFun1
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1">
     <span id="anyinputc3d-filter-filterfun1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering without initial conditon and downsampling specification.</span>
@@ -1963,7 +1924,7 @@ Filter.FilterFun1
 
 
 
-    Filtering without initial conditon and downsampling specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1988,7 +1949,7 @@ Filter.FilterFun1.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList">
     <span id="anyinputc3d-filter-filterfun1-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2004,7 +1965,7 @@ Filter.FilterFun1.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2029,7 +1990,7 @@ Filter.FilterFun1.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList.x">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.ArgList.x">
     <span id="anyinputc3d-filter-filterfun1-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2045,7 +2006,7 @@ Filter.FilterFun1.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2070,7 +2031,7 @@ Filter.FilterFun1.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun1.Return">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun1.Return">
     <span id="anyinputc3d-filter-filterfun1-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun1.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun1.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2086,7 +2047,7 @@ Filter.FilterFun1.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2111,7 +2072,7 @@ Filter.FilterFun2
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2">
     <span id="anyinputc3d-filter-filterfun2" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with downsampling specification.</span>
@@ -2127,7 +2088,7 @@ Filter.FilterFun2
 
 
 
-    Filtering with downsampling specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2152,7 +2113,7 @@ Filter.FilterFun2.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList">
     <span id="anyinputc3d-filter-filterfun2-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2168,7 +2129,7 @@ Filter.FilterFun2.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2193,7 +2154,7 @@ Filter.FilterFun2.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.x">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.x">
     <span id="anyinputc3d-filter-filterfun2-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2209,7 +2170,7 @@ Filter.FilterFun2.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2234,7 +2195,7 @@ Filter.FilterFun2.ArgList.m
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.m">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.ArgList.m">
     <span id="anyinputc3d-filter-filterfun2-arglist-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.ArgList.m</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.ArgList.m" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2250,7 +2211,7 @@ Filter.FilterFun2.ArgList.m
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2275,7 +2236,7 @@ Filter.FilterFun2.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun2.Return">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun2.Return">
     <span id="anyinputc3d-filter-filterfun2-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun2.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun2.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2291,7 +2252,7 @@ Filter.FilterFun2.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2316,7 +2277,7 @@ Filter.FilterFun3
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3">
     <span id="anyinputc3d-filter-filterfun3" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with initial condition specification.</span>
@@ -2332,7 +2293,7 @@ Filter.FilterFun3
 
 
 
-    Filtering with initial condition specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2357,7 +2318,7 @@ Filter.FilterFun3.ArgList
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList">
     <span id="anyinputc3d-filter-filterfun3-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2373,7 +2334,7 @@ Filter.FilterFun3.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2398,7 +2359,7 @@ Filter.FilterFun3.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.x">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.x">
     <span id="anyinputc3d-filter-filterfun3-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2414,7 +2375,7 @@ Filter.FilterFun3.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2439,7 +2400,7 @@ Filter.FilterFun3.ArgList.z0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.z0">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.ArgList.z0">
     <span id="anyinputc3d-filter-filterfun3-arglist-z0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.ArgList.z0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.ArgList.z0" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2455,7 +2416,7 @@ Filter.FilterFun3.ArgList.z0
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2480,7 +2441,7 @@ Filter.FilterFun3.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun3.Return">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun3.Return">
     <span id="anyinputc3d-filter-filterfun3-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun3.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun3.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2496,7 +2457,7 @@ Filter.FilterFun3.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2521,7 +2482,7 @@ Filter.FilterFun4
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4">
     <span id="anyinputc3d-filter-filterfun4" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4" title="Permalink to this headline">¶</a>
     <span class="member-descr">Filtering with both initial condition and downsampling specification.</span>
@@ -2537,7 +2498,7 @@ Filter.FilterFun4
 
 
 
-    Filtering with both initial condition and downsampling specification.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2562,7 +2523,7 @@ Filter.FilterFun4.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList">
     <span id="anyinputc3d-filter-filterfun4-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -2578,7 +2539,7 @@ Filter.FilterFun4.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2603,7 +2564,7 @@ Filter.FilterFun4.ArgList.x
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.x">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.x">
     <span id="anyinputc3d-filter-filterfun4-arglist-x" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.x</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.x" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2619,7 +2580,7 @@ Filter.FilterFun4.ArgList.x
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2644,7 +2605,7 @@ Filter.FilterFun4.ArgList.m
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.m">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.m">
     <span id="anyinputc3d-filter-filterfun4-arglist-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.m</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.m" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2660,7 +2621,7 @@ Filter.FilterFun4.ArgList.m
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2685,7 +2646,7 @@ Filter.FilterFun4.ArgList.z0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.z0">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.ArgList.z0">
     <span id="anyinputc3d-filter-filterfun4-arglist-z0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.ArgList.z0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.ArgList.z0" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2701,7 +2662,7 @@ Filter.FilterFun4.ArgList.z0
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2726,7 +2687,7 @@ Filter.FilterFun4.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Filter.FilterFun4.Return">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Filter.FilterFun4.Return">
     <span id="anyinputc3d-filter-filterfun4-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Filter.FilterFun4.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Filter.FilterFun4.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2742,7 +2703,7 @@ Filter.FilterFun4.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 

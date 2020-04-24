@@ -101,7 +101,7 @@ AnyDesMeasure
 
 
 
-    Design performance measures are defined as AnyDesMeasure objects.
+    { descr | indent(width=4) }
 
 ..
 
@@ -140,7 +140,7 @@ AnyDesVar
 
 
 
-    Design variables of the study are defined as AnyDesVar objects.
+    { descr | indent(width=4) }
 
 ..
 
@@ -199,7 +199,7 @@ LogFile
 
 
 
-    Optional log file for use by the numerical routines in the operations. It may not be used by all type of AnyDesStudy; the file will be empty when not used by the study.
+    { descr | indent(width=4) }
 
 ..
 
@@ -217,6 +217,8 @@ LogFile
      </div> <!--
 ..
 
+.. _AnyOptStudy.Analysis:
+
 Analysis
 ===========
 
@@ -225,10 +227,10 @@ Analysis
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis">
+    <span id="anyoptstudy-analysis" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
-    <span class="member-descr">This analysis operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -271,7 +273,7 @@ Analysis.Settings
     | **Default:** ``{}``
         
 
-    General settings for the operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -311,7 +313,7 @@ Analysis.Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -351,7 +353,7 @@ Analysis.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -391,7 +393,7 @@ Analysis.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -431,7 +433,7 @@ Analysis.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -441,7 +443,7 @@ Analysis.Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -489,7 +491,7 @@ MaxIterationStep
 
 
 
-    Maximal number of iterations allowed.
+    { descr | indent(width=4) }
 
 ..
 
@@ -518,7 +520,7 @@ Optimization
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Optimization </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Optimization" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Operation that executes the optimization.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -561,7 +563,7 @@ Optimization.Settings
     | **Default:** ``{}``
         
 
-    General settings for the operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -601,7 +603,7 @@ Optimization.Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -641,7 +643,7 @@ Optimization.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -681,7 +683,7 @@ Optimization.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -721,7 +723,7 @@ Optimization.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -761,7 +763,7 @@ Optimization.Solver
     | **Default:** ``OptFeasibleDirSearch1``
         
 
-    Solver type setting.
+    { descr | indent(width=4) }
 
 ..
 
@@ -801,7 +803,7 @@ Optimization.ConvergenceObjectiveTol
     | **Default:** ``1e-05``
         
 
-    Absolute tolerance on objective function change in convergence criterion.
+    { descr | indent(width=4) }
 
 ..
 
@@ -841,7 +843,7 @@ Optimization.ConvergenceDesignTol
     | **Default:** ``1e-05``
         
 
-    Relative tolerance on design variable change in convergence criterion.
+    { descr | indent(width=4) }
 
 ..
 
@@ -881,7 +883,7 @@ Optimization.ConvergenceDesignTolArr
     | **Default:** *Depends on other values*
         
 
-    Similar to ConvergenceDesignTol, but an array with one element for each design variable. Default is all values equal to ConvergenceDesignTol.
+    { descr | indent(width=4) }
 
 ..
 
@@ -921,7 +923,7 @@ Optimization.ConstraintActivationTol
     | **Default:** ``0.0001``
         
 
-    Absolute tolerance for activating constraints.
+    { descr | indent(width=4) }
 
 ..
 
@@ -961,7 +963,7 @@ Optimization.ConstraintActivationTolArr
     | **Default:** *Depends on other values*
         
 
-    Similar to ConstraintActivationTol, but an array with one element for each constraint. Default is all values equal to ConstraintActivationTol.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1001,7 +1003,7 @@ Optimization.NumSensitivityPerturbation
     | **Default:** ``1e-05``
         
 
-    Absolute perturbation use in numerical sensitivity analyses.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1041,7 +1043,7 @@ Optimization.NumSensitivityPerturbationArr
     | **Default:** *Depends on other values*
         
 
-    Similar to NumSensitivityPerturbation, but an array with one element for each design variable. Default is all values equal to NumSensitivityPerturbation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1081,7 +1083,7 @@ Optimization.PopulationSize
     | **Default:** ``1``
         
 
-    Size of the population for population-based solvers, i.e., the number of design points in the population.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1121,7 +1123,7 @@ Optimization.PopulationBoxSize
     | **Default:** ``1.0``
         
 
-    Size of the box in the design space within which the initial population is generated. This single constant will set the same size of the box for all design variables. Alternatively, individual box dimension sizes can be set with PopulationBoxSizeArr.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1161,7 +1163,7 @@ Optimization.PopulationBoxSizeArr
     | **Default:** *Depends on other values*
         
 
-    Size of the box in the design space within which the initial population is generated. The vector must for each design variable hold one element, which is the size of the box for that dimension of the design space.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1201,7 +1203,7 @@ Optimization.ComplexAlpha
     | **Default:** ``1.3``
         
 
-    The Complex solver's alpha parameter, which defines how far the worst design point is moved through the design population. It must be above 1.0 and the recommended value is 1.3.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1241,7 +1243,7 @@ Optimization.ComplexMaxNumRepeat
     | **Default:** ``4``
         
 
-    Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1281,7 +1283,7 @@ Optimization.ComplexPenalty
     | **Default:** ``1000.0``
         
 
-    Penalty factor used in the Complex solver to convert constraint violations to added value in the objective function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1321,7 +1323,7 @@ Optimization.ComplexPenaltyPowerExponent
     | **Default:** ``2.0``
         
 
-    Exponent used in the Complex solver to convert constraint violations to added value in the objective function..
+    { descr | indent(width=4) }
 
 ..
 
@@ -1361,7 +1363,7 @@ Optimization.ComplexAnalysisFailedPenalty
     | **Default:** ``1000000.0``
         
 
-    Penalty constant used in the Complex solver for Analysis operations that fails. It indicates to the solver that this design point is unusable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1371,7 +1373,7 @@ Optimization.ComplexAnalysisFailedPenalty
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -1421,7 +1423,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1462,7 +1464,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1503,7 +1505,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1544,7 +1546,7 @@ Output
 
 
 
-    Folder that holds the result of the latest executed analysis (operation).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1585,7 +1587,7 @@ Output.Abscissa
 
 
 
-    Folder where the values of the abscissa/input parameters are stored.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1626,7 +1628,7 @@ Output.Abscissa.StateCountCurrent
 
 
 
-    Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1667,7 +1669,7 @@ Output.Abscissa.StateCountData
 
 
 
-    Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1708,48 +1710,7 @@ Output.Abscissa.IterationStep
 
 
 
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyOptStudy.Analysis:
-
-Analysis
-===========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis">
-    <span id="anyoptstudy-analysis" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Analysis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
-    <span class="member-descr">This analysis operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOperationSequence`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    This analysis operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1774,7 +1735,7 @@ Analysis.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
     <span id="anyoptstudy-analysis-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1790,7 +1751,7 @@ Analysis.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1815,7 +1776,7 @@ Analysis.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
     <span id="anyoptstudy-analysis-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1831,7 +1792,7 @@ Analysis.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -1856,7 +1817,7 @@ Analysis.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
     <span id="anyoptstudy-analysis-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1872,7 +1833,7 @@ Analysis.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -1897,7 +1858,7 @@ IterationStep
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="IterationStep">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="IterationStep">
     <span id="anyoptstudy-iterationstep" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">IterationStep</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#IterationStep" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current iteration step.</span>
@@ -1913,7 +1874,7 @@ IterationStep
 
 
 
-    Current iteration step.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1938,7 +1899,7 @@ Optimization
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization">
     <span id="anyoptstudy-optimization" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization" title="Permalink to this headline">¶</a>
     <span class="member-descr">Operation that executes the optimization.</span>
@@ -1954,7 +1915,7 @@ Optimization
 
 
 
-    Operation that executes the optimization.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1979,7 +1940,7 @@ Optimization.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.UpdConfig">
     <span id="anyoptstudy-optimization-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1995,7 +1956,7 @@ Optimization.UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2020,7 +1981,7 @@ Optimization.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.UpdDesign">
     <span id="anyoptstudy-optimization-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -2036,7 +1997,7 @@ Optimization.UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -2061,7 +2022,7 @@ Optimization.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.UpdOutput">
     <span id="anyoptstudy-optimization-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2077,7 +2038,7 @@ Optimization.UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2102,7 +2063,7 @@ Optimization.SolverData
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.SolverData">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.SolverData">
     <span id="anyoptstudy-optimization-solverdata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2118,7 +2079,7 @@ Optimization.SolverData
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -2143,7 +2104,7 @@ Optimization.SolverData.Objective
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.SolverData.Objective">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.SolverData.Objective">
     <span id="anyoptstudy-optimization-solverdata-objective" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData.Objective</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData.Objective" title="Permalink to this headline">¶</a>
     <span class="member-descr">Objective function data.</span>
@@ -2159,7 +2120,7 @@ Optimization.SolverData.Objective
 
 
 
-    Objective function data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2184,7 +2145,7 @@ Optimization.SolverData.Constraints
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.SolverData.Constraints">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.SolverData.Constraints">
     <span id="anyoptstudy-optimization-solverdata-constraints" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData.Constraints</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData.Constraints" title="Permalink to this headline">¶</a>
     <span class="member-descr">Constraint violation data.</span>
@@ -2200,7 +2161,7 @@ Optimization.SolverData.Constraints
 
 
 
-    Constraint violation data.
+    { descr | indent(width=4) }
 
 ..
 
@@ -2225,7 +2186,7 @@ Optimization.SolverData.DesVars
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.SolverData.DesVars">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.SolverData.DesVars">
     <span id="anyoptstudy-optimization-solverdata-desvars" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData.DesVars</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData.DesVars" title="Permalink to this headline">¶</a>
     <span class="member-descr">Design variable data.</span>
@@ -2241,7 +2202,7 @@ Optimization.SolverData.DesVars
 
 
 
-    Design variable data.
+    { descr | indent(width=4) }
 
 ..
 

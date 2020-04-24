@@ -101,7 +101,7 @@ AnyForceBase
 
 
 
-    The generalized forces that will be added in this object. Either this or the IncludeForces vector of AnyObjectPtrs must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -140,7 +140,7 @@ AnyRefFrame
 
 
 
-    The reference frame that defines the point of interest and thereby the output. Either this or the RefPoint AnyObjectPtr must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -199,7 +199,7 @@ IncludeForces
 
 
 
-    Vector of AnyObjectPtrs to the generalized forces that will be added in this object.Either this or AnyForceBase type members must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -247,7 +247,7 @@ RefPoint
 
 
 
-    AnyObjectPtr to the reference frame that defines the point of interest and thereby the output. Either this or an AnyRefFrame must be present.
+    { descr | indent(width=4) }
 
 ..
 
@@ -297,7 +297,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -338,7 +338,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -379,7 +379,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -420,7 +420,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
@@ -461,7 +461,7 @@ F
 
 
 
-    Equivalent point force vector in global coordinates.
+    { descr | indent(width=4) }
 
 ..
 
@@ -502,7 +502,7 @@ M
 
 
 
-    Equivalent point moment/torque vector in global coordinates.
+    { descr | indent(width=4) }
 
 ..
 

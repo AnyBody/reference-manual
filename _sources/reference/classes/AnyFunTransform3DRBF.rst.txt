@@ -99,7 +99,7 @@ Points0
 
 
 
-    Control points in space for which a radial basis function is defined. The points are given as a (n x 3) matrix.
+    { descr | indent(width=4) }
 
 ..
 
@@ -155,7 +155,7 @@ PreTransforms
 
 
 
-    Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
+    { descr | indent(width=4) }
 
 ..
 
@@ -173,6 +173,8 @@ PreTransforms
      </div> <!--
 ..
 
+.. _AnyFunTransform3DRBF.RBFDef:
+
 RBFDef
 =========
 
@@ -181,10 +183,10 @@ RBFDef
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RBFDef">
+    <span id="anyfuntransform3drbf-rbfdef" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RBFDef </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#RBFDef" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder with RBF settings.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -227,7 +229,7 @@ RBFDef.Type
     | **Default:** ``RBF_Gaussian``
         
 
-    Type of the radial basis function to use.
+    { descr | indent(width=4) }
 
 ..
 
@@ -267,7 +269,7 @@ RBFDef.Param
     | **Default:** ``1.0``
         
 
-    Parameter used in the given radial basis function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -277,7 +279,7 @@ RBFDef.Param
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -325,7 +327,7 @@ RBFCoefs
 
 
 
-    Coefficients (weights) for the each radial basis function, i.e., for each control point. Three parameters are given for each control point, which is the weight for each direction in space. Similarly to the points, the RBFParams are given as a (n x 3) matrix.
+    { descr | indent(width=4) }
 
 ..
 
@@ -373,7 +375,7 @@ PolynomDegree
 
 
 
-    Degree of the polynomia. Negative values means that no polynomial term is used.
+    { descr | indent(width=4) }
 
 ..
 
@@ -421,7 +423,7 @@ PolynomCoefs
 
 
 
-    Coefficients for the polynomia function added to the radial basis function. Each term of the polynomia must be given three parameters, one for each direction in space, i.e., the PolynomCoefs are given as a (m x 3) matrix. The number of rows, m, must match PolynomDegree; degree zero means m=1 (the constant term), positive degrees mean m=1+3*degree, and negative degrees mean m=0.
+    { descr | indent(width=4) }
 
 ..
 
@@ -469,7 +471,7 @@ PointNames
 
 
 
-    Names of the points, for instance used as labels during export and import.
+    { descr | indent(width=4) }
 
 ..
 
@@ -517,7 +519,7 @@ PointDescriptions
 
 
 
-    Short descriptions of the points. These are part of the export of points and are aimed for possible usage in external software for landmark detection.
+    { descr | indent(width=4) }
 
 ..
 
@@ -565,7 +567,7 @@ Points1
 
 
 
-    Implicit input of RBF coefficients by control points values to be matched by the function. The format of the matrix is similar to Points0. The RBF coeeficient are calculated.
+    { descr | indent(width=4) }
 
 ..
 
@@ -583,6 +585,8 @@ Points1
      </div> <!--
 ..
 
+.. _AnyFunTransform3DRBF.BoundingBox:
+
 BoundingBox
 ==============
 
@@ -591,10 +595,10 @@ BoundingBox
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BoundingBox">
+    <span id="anyfuntransform3drbf-boundingbox" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBox </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#BoundingBox" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder with bounding box settings.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -637,7 +641,7 @@ BoundingBox.Type
     | **Default:** ``BB_Cartesian``
         
 
-    Defines a way to compute the bounding box.
+    { descr | indent(width=4) }
 
 ..
 
@@ -677,7 +681,7 @@ BoundingBox.ScaleXYZ
     | **Default:** ``{2.0, 2.0, 2.0}``
         
 
-    Defines a scale factor vector in selected axes.
+    { descr | indent(width=4) }
 
 ..
 
@@ -717,7 +721,7 @@ BoundingBox.DivisionFactorXYZ
     | **Default:** ``{1, 1, 1}``
         
 
-    Defines a number of bounding box subdivisions in selected axes.
+    { descr | indent(width=4) }
 
 ..
 
@@ -727,7 +731,7 @@ BoundingBox.DivisionFactorXYZ
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -775,7 +779,7 @@ BoundingBoxOnOff
 
 
 
-    A switch to use bounding box points for the RBF transform construction. Please note that the source and target landmarks have to be registered for intended use (please use AnyFunTransform3DLin2 or other as a pretransform).
+    { descr | indent(width=4) }
 
 ..
 
@@ -825,7 +829,7 @@ Function
 
 
 
-    Function for 3D vectors (of floating point values).
+    { descr | indent(width=4) }
 
 ..
 
@@ -866,7 +870,7 @@ Function.ArgList
 
 
 
-    A special folder containing the argument list of the function.
+    { descr | indent(width=4) }
 
 ..
 
@@ -907,7 +911,7 @@ Function.ArgList.Arg
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -948,7 +952,7 @@ Function.Return
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -989,7 +993,7 @@ UpdFunData
 
 
 
-    Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1030,7 +1034,7 @@ Points0Pretransformed
 
 
 
-    Points genereted from Points0 using the pre-transform used for the construction of the transformation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -1071,7 +1075,7 @@ BoundingBoxPoints
 
 
 
-    Positions of points defining the bounding box.
+    { descr | indent(width=4) }
 
 ..
 

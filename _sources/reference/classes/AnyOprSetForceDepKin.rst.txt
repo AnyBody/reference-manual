@@ -106,7 +106,7 @@ ForceTol
 
 
 
-    Tolerance used in stopping criterion.
+    { descr | indent(width=4) }
 
 ..
 
@@ -154,7 +154,7 @@ UseAdaptiveForceTolOnOff
 
 
 
-    Switch for whether the stopping criterion uses. Off: the actual force residual for the force dependent degrees of freedom, or On: the force residual converted using last known stiffness to a displacement value, i.e. a more direct measure of kinematic accuracy.
+    { descr | indent(width=4) }
 
 ..
 
@@ -202,7 +202,7 @@ MaxIteration
 
 
 
-    Maximal number of steps allowed in the iteration.
+    { descr | indent(width=4) }
 
 ..
 
@@ -250,7 +250,7 @@ Perturbation
 
 
 
-    Perturbation value used to numerical jacobian computation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -298,7 +298,7 @@ PerturbationSymmetricOnOff
 
 
 
-    Switch for using symmetric differentiation scheme for calculation of numerical Jacobian.
+    { descr | indent(width=4) }
 
 ..
 
@@ -346,7 +346,7 @@ LocalSearchOnOff
 
 
 
-    Switch for using a search method (golden-section search) for each Newton iteration instead of a simpler relaxation scheme.
+    { descr | indent(width=4) }
 
 ..
 
@@ -394,7 +394,7 @@ MaxNewtonStep
 
 
 
-    Maximal size of component of the update vector of the newton iteration during the solution of a FDK step.
+    { descr | indent(width=4) }
 
 ..
 
@@ -442,7 +442,7 @@ SolverType
 
 
 
-    Solver method used for the FDK iterations.
+    { descr | indent(width=4) }
 
 ..
 
@@ -490,7 +490,7 @@ ComplexPowerExp
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -538,7 +538,7 @@ ComplexAlpha
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -586,7 +586,7 @@ ComplexMaxNumRepeat
 
 
 
-    Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
+    { descr | indent(width=4) }
 
 ..
 
@@ -634,7 +634,7 @@ ComplexPopulationSize
 
 
 
-    Size of the population for the Complex solver, i.e., the number of design points in the population.
+    { descr | indent(width=4) }
 
 ..
 
@@ -682,7 +682,7 @@ ComplexAnalysisFailedPenalty
 
 
 
-    Penalty factor used in the Complex solver to change degrees of freedem if the kinematic analysis failes.
+    { descr | indent(width=4) }
 
 ..
 
@@ -730,7 +730,7 @@ ComplexConvergenceObjectiveTol
 
 
 
-    Convergence tolerance of the objective function for the Complex solver.
+    { descr | indent(width=4) }
 
 ..
 
@@ -778,7 +778,7 @@ ComplexConvergenceDesignTol
 
 
 
-    Convergence tolerance of the FDK degrees of freedeom for the Complex solver.
+    { descr | indent(width=4) }
 
 ..
 
@@ -826,7 +826,7 @@ ComplexPopulationBoxSize
 
 
 
-    Size of the box in the design space of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
+    { descr | indent(width=4) }
 
 ..
 
@@ -874,7 +874,7 @@ ComplexRefinementConvergenceObjectiveTol
 
 
 
-    Convergence tolerance on the objective function of the refinement step of the Complex solver.
+    { descr | indent(width=4) }
 
 ..
 
@@ -922,7 +922,7 @@ ComplexRefinementConvergenceDesignTol
 
 
 
-    Convergence tolerance on the FDK degrees of freedom of the refinement step of the Complex solver.
+    { descr | indent(width=4) }
 
 ..
 
@@ -970,7 +970,7 @@ ComplexRefinementPopulationBoxSize
 
 
 
-    Size of the box in the design space of the refinement step of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
+    { descr | indent(width=4) }
 
 ..
 

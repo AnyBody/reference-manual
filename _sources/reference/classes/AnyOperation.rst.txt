@@ -60,6 +60,8 @@ Optional initialization members
       <!--
 ..
 
+.. _AnyOperation.Settings:
+
 Settings
 ===========
 
@@ -68,10 +70,10 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
-    
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
+    <span id="anyoperation-settings" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
-    <span class="member-descr">General settings for the operation.</span>
+    <span class="member-descr"></span>
     </h3>
 
 ..
@@ -114,7 +116,7 @@ Settings.Echo
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -154,7 +156,7 @@ Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    Switch for definition of operation output to the output log and views.
+    { descr | indent(width=4) }
 
 ..
 
@@ -194,7 +196,7 @@ Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    Value for defining the interface display priority for the Operation.
+    { descr | indent(width=4) }
 
 ..
 
@@ -234,7 +236,7 @@ Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
+    { descr | indent(width=4) }
 
 ..
 
@@ -244,7 +246,7 @@ Settings.SelectOnLoad
 
 
 
-    
+    { descr | indent(width=4) }
 
 ..
 
@@ -294,7 +296,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -335,7 +337,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -376,7 +378,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 

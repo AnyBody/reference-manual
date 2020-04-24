@@ -103,7 +103,7 @@ F0
 
 
 
-    The nominal strength, i.e., the maximal isometric muscle force.
+    { descr | indent(width=4) }
 
 ..
 
@@ -144,7 +144,7 @@ Lt0
 
 
 
-    Nominal tendon length.
+    { descr | indent(width=4) }
 
 ..
 
@@ -185,7 +185,7 @@ Fcfast
 
 
 
-    Relative amount of fast fibers (0<=Fcfast<=1).
+    { descr | indent(width=4) }
 
 ..
 
@@ -241,7 +241,7 @@ Lf0
 
 
 
-    Muscle fiber length. In muscle models with length-varying strength, this is the optimal fiber length. Zero or negative lengths are ignored.
+    { descr | indent(width=4) }
 
 ..
 
@@ -289,7 +289,7 @@ Vol0
 
 
 
-    Volume of the muscle fibers, which is used during muscle recruitment. Zero or negative volumes are ignored.
+    { descr | indent(width=4) }
 
 ..
 
@@ -337,7 +337,7 @@ Gamma0
 
 
 
-    Nominal pennation angle.
+    { descr | indent(width=4) }
 
 ..
 
@@ -385,7 +385,7 @@ Epsilon0
 
 
 
-    Nominal tendon strain, i.e., the strain at the isometric muscle force in the serial elastic element.
+    { descr | indent(width=4) }
 
 ..
 
@@ -433,7 +433,7 @@ Jt
 
 
 
-    Shape constant for the tendon (serial elastic) element force relationsship.
+    { descr | indent(width=4) }
 
 ..
 
@@ -481,7 +481,7 @@ Jpe
 
 
 
-    Shape constant for the parallel elastic element force relationsship.
+    { descr | indent(width=4) }
 
 ..
 
@@ -529,7 +529,7 @@ K1
 
 
 
-    Normalized maximum contraction velocity. The maximum velocity, called V0, is basically K1 times Lf0 (for K2=0).
+    { descr | indent(width=4) }
 
 ..
 
@@ -577,7 +577,7 @@ K2
 
 
 
-    Contribution to normalized maximum velocity for fast fibers. K2 adds to V0's component from K1; K2's contribution to V0 is K2 times Lfbar times Fcfast.
+    { descr | indent(width=4) }
 
 ..
 
@@ -625,7 +625,7 @@ PEFactor
 
 
 
-    Relative stiffness parameter for the parallel elastic element. PEFactor times Lfbar is the fiber lenght at which the parallel elastic elements produce a force of F0.
+    { descr | indent(width=4) }
 
 ..
 
@@ -673,7 +673,7 @@ Lfbar
 
 
 
-    Nominal fiber length. Deprecated, use Lf0.
+    { descr | indent(width=4) }
 
 ..
 
@@ -721,7 +721,7 @@ Gammabar
 
 
 
-    Nominal pennation angle. Deprecated, use Gamma0.
+    { descr | indent(width=4) }
 
 ..
 
@@ -769,7 +769,7 @@ Epsilonbar
 
 
 
-    Nominal tendon strain, i.e., the strain at the isometric muscle force in the serial elastic element. Deprecated, use Epsilon0.
+    { descr | indent(width=4) }
 
 ..
 
@@ -819,7 +819,7 @@ UpdConfig
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -860,7 +860,7 @@ UpdDesign
 
 
 
-    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+    { descr | indent(width=4) }
 
 ..
 
@@ -901,7 +901,7 @@ UpdOutput
 
 
 
-    <No description>
+    { descr | indent(width=4) }
 
 ..
 
@@ -942,7 +942,7 @@ t
 
 
 
-    Object-time variable.
+    { descr | indent(width=4) }
 
 ..
 
