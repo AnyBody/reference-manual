@@ -81,7 +81,7 @@ AnyStyleDrawMaterial
 
 
 
-    { descr | indent(width=4) }
+    Graphical material specification, that overrides the color setting in RGB.
 
 ..
 
@@ -140,7 +140,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Visibility setting, which specifies default visibility of the object.
 
 ..
 
@@ -188,7 +188,7 @@ Opacity
 
 
 
-    { descr | indent(width=4) }
+    Opacity setting, which specifies default opacity of the object.
 
 ..
 
@@ -236,7 +236,7 @@ Pickable
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
 
@@ -284,7 +284,7 @@ PickableZOrdering
 
 
 
-    { descr | indent(width=4) }
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
 
@@ -322,7 +322,7 @@ RGB
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.2, 0.2}``
     
 
@@ -332,7 +332,7 @@ RGB
 
 
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -380,7 +380,7 @@ ScaleXYZ
 
 
 
-    { descr | indent(width=4) }
+    Scaling of the Sphere.
 
 ..
 
@@ -428,7 +428,7 @@ Position
 
 
 
-    { descr | indent(width=4) }
+    Position offset of the sphere from the RefFrame
 
 ..
 
@@ -476,7 +476,7 @@ GlobalCoord
 
 
 
-    { descr | indent(width=4) }
+    If set, the position offset and ScaleXYZ scaling is in global coordinates.
 
 ..
 
@@ -526,7 +526,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -567,7 +567,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -608,7 +608,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

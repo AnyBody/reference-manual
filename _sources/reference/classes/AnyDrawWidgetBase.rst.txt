@@ -97,7 +97,7 @@ AnyStyleDrawMaterial
 
 
 
-    { descr | indent(width=4) }
+    Graphical material specification, that overrides the color setting in RGB.
 
 ..
 
@@ -156,7 +156,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Visibility setting, which specifies default visibility of the object.
 
 ..
 
@@ -204,7 +204,7 @@ Opacity
 
 
 
-    { descr | indent(width=4) }
+    Opacity setting, which specifies default opacity of the object.
 
 ..
 
@@ -252,7 +252,7 @@ Pickable
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
 
@@ -300,7 +300,7 @@ PickableZOrdering
 
 
 
-    { descr | indent(width=4) }
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
 
@@ -348,7 +348,7 @@ Operation
 
 
 
-    { descr | indent(width=4) }
+    Operation setting, which specifies which operation to perform when the Operation Criteria is met.
 
 ..
 
@@ -396,7 +396,7 @@ UpdateEvent
 
 
 
-    { descr | indent(width=4) }
+    Operation criteria setting, which specifies in which circumstances the operation defined by the Operation member should be executed.
 
 ..
 
@@ -444,7 +444,7 @@ MaxDrawSize
 
 
 
-    { descr | indent(width=4) }
+    If set, this setting controls the maximum drawing size in meters of the AnyDrawWidget.
 
 ..
 
@@ -492,7 +492,7 @@ MinDrawSize
 
 
 
-    { descr | indent(width=4) }
+    If set, this setting controls the minimum drawing size in meters of the AnyDrawWidget.
 
 ..
 
@@ -542,7 +542,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -583,7 +583,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -624,7 +624,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

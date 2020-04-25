@@ -78,8 +78,6 @@ Optional initialization members
       <!--
 ..
 
-.. _AnyMechOprDeprecated.Settings:
-
 Settings
 ===========
 
@@ -88,10 +86,10 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
-    <span id="anymechoprdeprecated-settings" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">General settings for the operation.</span>
     </h3>
 
 ..
@@ -134,7 +132,7 @@ Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -174,7 +172,7 @@ Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -214,7 +212,7 @@ Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -254,7 +252,7 @@ Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -264,7 +262,7 @@ Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -314,7 +312,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -355,7 +353,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -396,7 +394,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

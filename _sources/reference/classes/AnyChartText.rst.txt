@@ -106,7 +106,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Switch for visiblity.
 
 ..
 
@@ -124,8 +124,6 @@ Visible
      </div> <!--
 ..
 
-.. _AnyChartText.Font:
-
 Font
 =======
 
@@ -134,10 +132,10 @@ Font
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Font">
-    <span id="anycharttext-font" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Font </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Font" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Font settings.</span>
     </h3>
 
 ..
@@ -180,7 +178,7 @@ Font.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -220,7 +218,7 @@ Font.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    { descr | indent(width=4) }
+    Font name (Windows fonts).
 
 ..
 
@@ -260,7 +258,7 @@ Font.Height
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph height in pixels.
 
 ..
 
@@ -300,7 +298,7 @@ Font.Width
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph width in pixels.
 
 ..
 
@@ -340,7 +338,7 @@ Font.Bold
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for bold face type setting.
 
 ..
 
@@ -380,7 +378,7 @@ Font.Italic
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for italic type setting.
 
 ..
 
@@ -420,7 +418,7 @@ Font.BillBoardView
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -460,7 +458,7 @@ Font.ModelSized
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -500,7 +498,7 @@ Font.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The height scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -540,7 +538,7 @@ Font.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The width scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -550,7 +548,7 @@ Font.ModelScaleWidth
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 

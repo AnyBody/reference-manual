@@ -97,7 +97,7 @@ Points0
 
 
 
-    { descr | indent(width=4) }
+    Source landmarks.
 
 ..
 
@@ -138,7 +138,7 @@ Points1
 
 
 
-    { descr | indent(width=4) }
+    Target landmarks.
 
 ..
 
@@ -194,7 +194,7 @@ PreTransforms
 
 
 
-    { descr | indent(width=4) }
+    Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
 
@@ -242,7 +242,7 @@ Mode
 
 
 
-    { descr | indent(width=4) }
+    Transform can be constructed in 3 modes (please see vtkLandmarkTransform documentation): VTK_LANDMARK_AFFINE, VTK_LANDMARK_SIMILARITY, and VTK_LANDMARK_RIGIDBODY.
 
 ..
 
@@ -292,7 +292,7 @@ Function
 
 
 
-    { descr | indent(width=4) }
+    Function for 3D vectors (of floating point values).
 
 ..
 
@@ -333,7 +333,7 @@ Function.ArgList
 
 
 
-    { descr | indent(width=4) }
+    A special folder containing the argument list of the function.
 
 ..
 
@@ -374,7 +374,7 @@ Function.ArgList.Arg
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -415,7 +415,7 @@ Function.Return
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -456,7 +456,7 @@ UpdFunData
 
 
 
-    { descr | indent(width=4) }
+    Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.
 
 ..
 
@@ -497,7 +497,7 @@ Points0Pretransformed
 
 
 
-    { descr | indent(width=4) }
+    Points genereted from Points0 using the pre-transform used for the construction of the transformation.
 
 ..
 
@@ -538,7 +538,7 @@ TransformationMatrix
 
 
 
-    { descr | indent(width=4) }
+    A 4x4 transformation matrix computed for creation of this transform.
 
 ..
 

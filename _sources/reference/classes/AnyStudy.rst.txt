@@ -87,7 +87,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -128,7 +128,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -169,7 +169,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -210,7 +210,7 @@ Output
 
 
 
-    { descr | indent(width=4) }
+    Folder that holds the result of the latest executed analysis (operation).
 
 ..
 
@@ -251,7 +251,7 @@ Output.Abscissa
 
 
 
-    { descr | indent(width=4) }
+    Folder where the values of the abscissa/input parameters are stored.
 
 ..
 
@@ -292,7 +292,7 @@ Output.Abscissa.StateCountCurrent
 
 
 
-    { descr | indent(width=4) }
+    Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).
 
 ..
 
@@ -333,7 +333,7 @@ Output.Abscissa.StateCountData
 
 
 
-    { descr | indent(width=4) }
+    Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.
 
 ..
 

@@ -101,7 +101,7 @@ AnyKinMeasure
 
 
 
-    { descr | indent(width=4) }
+    Kinematic measures that should be used by this object.
 
 ..
 
@@ -140,7 +140,7 @@ AnyParamFun
 
 
 
-    { descr | indent(width=4) }
+    Parameter functions (single input parameter), used as time-dependent kinematical driver functions.
 
 ..
 
@@ -199,7 +199,7 @@ MeasureOrganizer
 
 
 
-    { descr | indent(width=4) }
+    List of indices of components from the assembled measures to be included in the new (organized) measure.
 
 ..
 
@@ -247,7 +247,7 @@ CType
 
 
 
-    { descr | indent(width=4) }
+    Constraint type specification that specify how the kinematic solver should handle the constraint.
 
 ..
 
@@ -295,7 +295,7 @@ WeightFun
 
 
 
-    { descr | indent(width=4) }
+    Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.
 
 ..
 
@@ -324,7 +324,7 @@ Reaction
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Reaction" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Reaction forces associated with the constraints.</span>
     </h3>
 
 ..
@@ -367,7 +367,7 @@ Reaction.Type
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Type specification of the reaction forces. Defaults to: ``repmat(nDim, On)``
 
 ..
 
@@ -377,7 +377,7 @@ Reaction.Type
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -425,7 +425,7 @@ DriverPos0
 
 
 
-    { descr | indent(width=4) }
+    Initial position at time zero.
 
 ..
 
@@ -473,7 +473,7 @@ DriverVel0
 
 
 
-    { descr | indent(width=4) }
+    Initial velocity at time zero.
 
 ..
 
@@ -521,7 +521,7 @@ DriverAcc0
 
 
 
-    { descr | indent(width=4) }
+    Initial acceleration at time zero.
 
 ..
 
@@ -571,7 +571,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -612,7 +612,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -653,7 +653,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -694,7 +694,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -735,7 +735,7 @@ RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -776,7 +776,7 @@ Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -817,7 +817,7 @@ KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -858,7 +858,7 @@ KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -899,7 +899,7 @@ nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -940,7 +940,7 @@ RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -981,7 +981,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1022,7 +1022,7 @@ RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1063,7 +1063,7 @@ Pos
 
 
 
-    { descr | indent(width=4) }
+    The position vector, i.e., the current values of the measured quantity.
 
 ..
 
@@ -1104,7 +1104,7 @@ Vel
 
 
 
-    { descr | indent(width=4) }
+    The velocity vector, typically the time-derivative of Pos.
 
 ..
 
@@ -1145,7 +1145,7 @@ Acc
 
 
 
-    { descr | indent(width=4) }
+    The acceleration vector, typically the time-derivative of Vel.
 
 ..
 
@@ -1186,7 +1186,7 @@ Reaction
 
 
 
-    { descr | indent(width=4) }
+    Reaction forces associated with the constraints.
 
 ..
 
@@ -1227,7 +1227,7 @@ Reaction.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1268,7 +1268,7 @@ Reaction.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1309,7 +1309,7 @@ Reaction.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1350,7 +1350,7 @@ Reaction.t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -1391,7 +1391,7 @@ Reaction.RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -1432,7 +1432,7 @@ Reaction.Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -1473,7 +1473,7 @@ Reaction.KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -1514,7 +1514,7 @@ Reaction.KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -1555,7 +1555,7 @@ Reaction.nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -1596,7 +1596,7 @@ Reaction.RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -1637,7 +1637,7 @@ Reaction.RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1678,7 +1678,7 @@ Reaction.RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1719,7 +1719,7 @@ Reaction.RefFrameOutput.F
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1760,7 +1760,7 @@ Reaction.RefFrameOutput.M
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1801,7 +1801,7 @@ Reaction.Fin
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.
 
 ..
 
@@ -1842,7 +1842,7 @@ Reaction.Fout
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.
 
 ..
 
@@ -1883,7 +1883,7 @@ WeightPos
 
 
 
-    { descr | indent(width=4) }
+    Current value of the kinematic weighting function.
 
 ..
 
@@ -1924,7 +1924,7 @@ WeightVel
 
 
 
-    { descr | indent(width=4) }
+    Current time-derivative of the kinematic weighting function.
 
 ..
 
@@ -1965,7 +1965,7 @@ WeightAcc
 
 
 
-    { descr | indent(width=4) }
+    Current 2'nd order time-derivative of the kinematic weighting function.
 
 ..
 
@@ -2006,7 +2006,7 @@ DriverPos
 
 
 
-    { descr | indent(width=4) }
+    Current value of the driver function.
 
 ..
 
@@ -2047,7 +2047,7 @@ DriverVel
 
 
 
-    { descr | indent(width=4) }
+    Current time-derivative value of the driver function.
 
 ..
 
@@ -2088,7 +2088,7 @@ DriverAcc
 
 
 
-    { descr | indent(width=4) }
+    Current second time-derivative value of the driver function.
 
 ..
 

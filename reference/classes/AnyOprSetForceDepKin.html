@@ -148,7 +148,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.001</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Tolerance used in stopping criterion.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -166,7 +166,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for whether the stopping criterion uses. Off: the actual force residual for the force dependent degrees of freedom, or On: the force residual converted using last known stiffness to a displacement value, i.e. a more direct measure of kinematic accuracy.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -184,7 +184,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">100</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximal number of steps allowed in the iteration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -202,7 +202,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Perturbation value used to numerical jacobian computation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -220,7 +220,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for using symmetric differentiation scheme for calculation of numerical Jacobian.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -238,7 +238,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for using a search method (golden-section search) for each Newton iteration instead of a simpler relaxation scheme.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -256,7 +256,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.001</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximal size of component of the update vector of the newton iteration during the solution of a FDK step.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -270,11 +270,11 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <span class="member-descr">Solver method used for the FDK iterations.</span>
 </h3><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFDKSolverType.html#anyfdksolvertype"><span class="std std-ref">AnyFDKSolverType</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anyfdksolvertype"><span class="std std-ref">AnyFDKSolverType</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">FDK_Solver_Newton</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Solver method used for the FDK iterations.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -292,7 +292,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -310,7 +310,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.3</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -328,7 +328,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">4</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -346,7 +346,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the population for the Complex solver, i.e., the number of design points in the population.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -364,7 +364,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e+16</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Penalty factor used in the Complex solver to change degrees of freedem if the kinematic analysis failes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -382,7 +382,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Convergence tolerance of the objective function for the Complex solver.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -400,7 +400,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Convergence tolerance of the FDK degrees of freedeom for the Complex solver.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -418,7 +418,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.005</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the box in the design space of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -436,7 +436,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Convergence tolerance on the objective function of the refinement step of the Complex solver.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -454,7 +454,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-09</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Convergence tolerance on the FDK degrees of freedom of the refinement step of the Complex solver.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -472,7 +472,7 @@ of local effect such as moment arms of muscles and ligaments.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the box in the design space of the refinement step of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.</p>
 </div></blockquote>
 </div>
 </div>

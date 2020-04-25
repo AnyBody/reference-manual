@@ -108,7 +108,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyStyleDrawMaterial.html#anystyledrawmaterial"><span class="std std-ref">AnyStyleDrawMaterial</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Graphical material specification, that overrides the color setting in RGB.</p>
 </div></blockquote>
 </div>
 </div>
@@ -129,7 +129,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -147,7 +147,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -165,7 +165,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -183,7 +183,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -198,10 +198,10 @@ that are derived from AnyKinMeasureBase</p>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.8,</span> <span class="pre">0.3,</span> <span class="pre">0.3}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color F1 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -216,10 +216,10 @@ that are derived from AnyKinMeasureBase</p>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.3,</span> <span class="pre">0.8,</span> <span class="pre">0.3}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color F2 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -234,10 +234,10 @@ that are derived from AnyKinMeasureBase</p>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.3,</span> <span class="pre">0.3,</span> <span class="pre">0.8}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color F3 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -252,10 +252,10 @@ that are derived from AnyKinMeasureBase</p>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.8,</span> <span class="pre">0.5,</span> <span class="pre">0.2}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color F4 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -273,7 +273,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -291,7 +291,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.02</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Radius size of the balls etc. of the AnyDrawKinMeasure.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -309,7 +309,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>On/Off value indicating whether the AnyDrawKinMeasure should have a line between ball components.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -327,7 +327,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>If set, this text is shown as the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -345,7 +345,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">30.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The size in pixels of the Text label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -363,7 +363,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Indicates if the graphical representation of the kinematic measure should be drawn if applicable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -381,7 +381,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Indicates if the lines from the label to the reference frames of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -399,7 +399,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Indicates if the pos value of the kinematic measure should be shown in the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -417,7 +417,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Indicates if the label of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -435,7 +435,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Positional offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -453,7 +453,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Rotational offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -471,7 +471,9 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-2</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Integer number that specifies the reference system in which the illustration is drawn.
+-2 is default, meaning that the illustration will be placed depending on the type of kinematic measure.
+-1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -489,7 +491,9 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-2</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Integer number that specifies the reference system in which the label is drawn.
+-2 is default, meaning that the illustration will be placed depending on the type of kinematic measure.
+-1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -507,7 +511,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Positional offset for the label of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -525,18 +529,18 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value used as a factor for the displayed pos value of the kinematic measure. This must either be a scalar or have the same size as pos of the kinematic measure being drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="valuestyle">
-<span id="anydrawkinmeasure-valuestyle"></span><h3>ValueStyle<a class="headerlink" href="#valuestyle" title="Permalink to this headline">¶</a></h3>
+<h3>ValueStyle<a class="headerlink" href="#valuestyle" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ValueStyle">
-<span id="anydrawkinmeasure-valuestyle" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> ValueStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ValueStyle" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Format settings for the label text.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="valuestyle-digits">
 <span id="anydrawkinmeasure-valuestyle-digits"></span><h4>ValueStyle.Digits<a class="headerlink" href="#valuestyle-digits" title="Permalink to this headline">¶</a></h4>
@@ -552,7 +556,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">8</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -570,7 +574,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style of the numeric output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -588,7 +592,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for scaling.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -606,10 +610,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Scaling factor.</p>
 </div></blockquote>
 </div>
 </div>
@@ -631,7 +632,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -649,7 +650,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -667,7 +668,7 @@ that are derived from AnyKinMeasureBase</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 </div>
 </div>

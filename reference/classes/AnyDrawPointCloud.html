@@ -109,7 +109,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyStyleDrawMaterial.html#anystyledrawmaterial"><span class="std std-ref">AnyStyleDrawMaterial</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Graphical material specification, that overrides the color setting in RGB.</p>
 </div></blockquote>
 </div>
 </div>
@@ -129,7 +129,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMatrix.html#anymatrix"><span class="std std-ref">AnyMatrix</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Matrix of coordinate vectors of points.</p>
 </div></blockquote>
 </div>
 </div>
@@ -150,7 +150,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -168,7 +168,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -186,7 +186,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -204,7 +204,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -222,7 +222,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.65,</span> <span class="pre">0.65,</span> <span class="pre">0.65}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -240,7 +240,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{1.0,</span> <span class="pre">1.0,</span> <span class="pre">1.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Scaling factors for each reference system axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -258,7 +258,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -276,18 +276,18 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Normal direction specification. Outwards normal is defined by the surface triangles’ vertex numbering as ‘0’ means clockwise, ‘1’ means counter-clockwise, ‘-1’ means both sides will be drawn on all object surfaces. Any other value implies automatic selection.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="textfont">
-<span id="anydrawpointcloud-textfont"></span><h3>TextFont<a class="headerlink" href="#textfont" title="Permalink to this headline">¶</a></h3>
+<h3>TextFont<a class="headerlink" href="#textfont" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont">
-<span id="anydrawpointcloud-textfont" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">General font setting for the object's text.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="textfont-rgb">
 <span id="anydrawpointcloud-textfont-rgb"></span><h4>TextFont.RGB<a class="headerlink" href="#textfont-rgb" title="Permalink to this headline">¶</a></h4>
@@ -303,7 +303,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -321,7 +321,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -339,7 +339,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -357,7 +357,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -375,7 +375,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -393,7 +393,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -411,7 +411,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -429,7 +429,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -447,7 +447,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -465,10 +465,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -487,18 +484,18 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Names of the points defined in Points matrix.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="pointstyle">
-<span id="anydrawpointcloud-pointstyle"></span><h3>PointStyle<a class="headerlink" href="#pointstyle" title="Permalink to this headline">¶</a></h3>
+<h3>PointStyle<a class="headerlink" href="#pointstyle" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointStyle">
-<span id="anydrawpointcloud-pointstyle" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> PointStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PointStyle" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">The style to apply to the points.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="pointstyle-visible">
 <span id="anydrawpointcloud-pointstyle-visible"></span><h4>PointStyle.Visible<a class="headerlink" href="#pointstyle-visible" title="Permalink to this headline">¶</a></h4>
@@ -514,7 +511,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for markers to be shown or not.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -532,7 +529,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PointStyleSphere</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Marker style.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -542,15 +539,15 @@ This is an easy way to display a set of points.</p>
 
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointStyle.Size">
 <span id="anydrawpointcloud-pointstyle-size" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Size </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0025 </span><a class="headerlink" href="#PointStyle.Size" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Size </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#PointStyle.Size" title="Permalink to this headline">¶</a>
 <span class="member-descr">Size of markers.</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0025</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of markers.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -568,10 +565,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Amount of points between every visible marker.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -590,7 +584,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch to control if points are drawn as 3D objects(On) or pixels(Off).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -608,7 +602,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch to control if point names are drawn in the Model View(On) or as mouseover tooltips(Off).</p>
 </div></blockquote>
 </div>
 </div>
@@ -629,7 +623,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -647,7 +641,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -665,7 +659,7 @@ This is an easy way to display a set of points.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 </div>
 </div>

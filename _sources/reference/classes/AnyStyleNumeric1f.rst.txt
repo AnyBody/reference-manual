@@ -90,7 +90,7 @@ Digits
 
 
 
-    { descr | indent(width=4) }
+    Number of digits in output. Disregarded if smaller than one.
 
 ..
 
@@ -138,7 +138,7 @@ Width
 
 
 
-    { descr | indent(width=4) }
+    Number of character spaces reserved for the number in output. Disregarded if smaller than one.
 
 ..
 
@@ -186,7 +186,7 @@ Style
 
 
 
-    { descr | indent(width=4) }
+    Style specification.
 
 ..
 
@@ -234,7 +234,7 @@ FormatStr
 
 
 
-    { descr | indent(width=4) }
+    Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.
 
 ..
 

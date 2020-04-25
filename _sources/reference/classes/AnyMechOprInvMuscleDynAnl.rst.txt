@@ -103,7 +103,7 @@ AnyMechOprKinAnl
 
 
 
-    { descr | indent(width=4) }
+    An expected member defining the kinematical analysis to be used inside each of the inverse dynamic analysis step.
 
 ..
 
@@ -132,8 +132,6 @@ Optional initialization members
       <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.Settings:
-
 Settings
 ===========
 
@@ -142,10 +140,10 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
-    <span id="anymechoprinvmuscledynanl-settings" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">General settings for the operation.</span>
     </h3>
 
 ..
@@ -188,7 +186,7 @@ Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -228,7 +226,7 @@ Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -268,7 +266,7 @@ Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -308,7 +306,7 @@ Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -318,7 +316,7 @@ Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -336,8 +334,6 @@ Settings.SelectOnLoad
      </div></div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.PreOperation:
-
 PreOperation
 ===============
 
@@ -346,10 +342,10 @@ PreOperation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
-    <span id="anymechoprinvmuscledynanl-preoperation" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PreOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Pre-process operation.</span>
     </h3>
 
 ..
@@ -392,7 +388,7 @@ PreOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -432,7 +428,7 @@ PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -472,7 +468,7 @@ PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -512,7 +508,7 @@ PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -552,7 +548,7 @@ PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -562,7 +558,7 @@ PreOperation.Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -580,8 +576,6 @@ PreOperation.Settings.SelectOnLoad
      </div></div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.PostOperation:
-
 PostOperation
 ================
 
@@ -590,10 +584,10 @@ PostOperation
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PostOperation">
-    <span id="anymechoprinvmuscledynanl-postoperation" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PostOperation </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Post-process operation.</span>
     </h3>
 
 ..
@@ -636,7 +630,7 @@ PostOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -676,7 +670,7 @@ PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -716,7 +710,7 @@ PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -756,7 +750,7 @@ PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -796,7 +790,7 @@ PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -806,7 +800,7 @@ PostOperation.Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -854,7 +848,7 @@ ForceDepKinOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for the force-dependent kinematics solver.
 
 ..
 
@@ -872,8 +866,6 @@ ForceDepKinOnOff
      </div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.ForceDepKin:
-
 ForceDepKin
 ==============
 
@@ -882,10 +874,10 @@ ForceDepKin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ForceDepKin">
-    <span id="anymechoprinvmuscledynanl-forcedepkin" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> ForceDepKin </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ForceDepKin" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Folder with setting for the force-dependent kinematics solver.</span>
     </h3>
 
 ..
@@ -928,7 +920,7 @@ ForceDepKin.ForceTol
     | **Default:** ``0.001``
         
 
-    { descr | indent(width=4) }
+    Tolerance used in stopping criterion.
 
 ..
 
@@ -968,7 +960,7 @@ ForceDepKin.UseAdaptiveForceTolOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for whether the stopping criterion uses. Off: the actual force residual for the force dependent degrees of freedom, or On: the force residual converted using last known stiffness to a displacement value, i.e. a more direct measure of kinematic accuracy.
 
 ..
 
@@ -1008,7 +1000,7 @@ ForceDepKin.MaxIteration
     | **Default:** ``100``
         
 
-    { descr | indent(width=4) }
+    Maximal number of steps allowed in the iteration.
 
 ..
 
@@ -1048,7 +1040,7 @@ ForceDepKin.Perturbation
     | **Default:** ``1e-05``
         
 
-    { descr | indent(width=4) }
+    Perturbation value used to numerical jacobian computation.
 
 ..
 
@@ -1088,7 +1080,7 @@ ForceDepKin.PerturbationSymmetricOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for using symmetric differentiation scheme for calculation of numerical Jacobian.
 
 ..
 
@@ -1128,7 +1120,7 @@ ForceDepKin.LocalSearchOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for using a search method (golden-section search) for each Newton iteration instead of a simpler relaxation scheme.
 
 ..
 
@@ -1168,7 +1160,7 @@ ForceDepKin.MaxNewtonStep
     | **Default:** ``0.001``
         
 
-    { descr | indent(width=4) }
+    Maximal size of component of the update vector of the newton iteration during the solution of a FDK step.
 
 ..
 
@@ -1208,7 +1200,7 @@ ForceDepKin.SolverType
     | **Default:** ``FDK_Solver_Newton``
         
 
-    { descr | indent(width=4) }
+    Solver method used for the FDK iterations.
 
 ..
 
@@ -1248,7 +1240,7 @@ ForceDepKin.ComplexPowerExp
     | **Default:** ``2.0``
         
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1288,7 +1280,7 @@ ForceDepKin.ComplexAlpha
     | **Default:** ``1.3``
         
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1328,7 +1320,7 @@ ForceDepKin.ComplexMaxNumRepeat
     | **Default:** ``4``
         
 
-    { descr | indent(width=4) }
+    Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
 
 ..
 
@@ -1368,7 +1360,7 @@ ForceDepKin.ComplexPopulationSize
     | **Default:** ``0``
         
 
-    { descr | indent(width=4) }
+    Size of the population for the Complex solver, i.e., the number of design points in the population.
 
 ..
 
@@ -1408,7 +1400,7 @@ ForceDepKin.ComplexAnalysisFailedPenalty
     | **Default:** ``1e+16``
         
 
-    { descr | indent(width=4) }
+    Penalty factor used in the Complex solver to change degrees of freedem if the kinematic analysis failes.
 
 ..
 
@@ -1448,7 +1440,7 @@ ForceDepKin.ComplexConvergenceObjectiveTol
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Convergence tolerance of the objective function for the Complex solver.
 
 ..
 
@@ -1488,7 +1480,7 @@ ForceDepKin.ComplexConvergenceDesignTol
     | **Default:** ``1e-05``
         
 
-    { descr | indent(width=4) }
+    Convergence tolerance of the FDK degrees of freedeom for the Complex solver.
 
 ..
 
@@ -1528,7 +1520,7 @@ ForceDepKin.ComplexPopulationBoxSize
     | **Default:** ``0.005``
         
 
-    { descr | indent(width=4) }
+    Size of the box in the design space of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
 
 ..
 
@@ -1568,7 +1560,7 @@ ForceDepKin.ComplexRefinementConvergenceObjectiveTol
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Convergence tolerance on the objective function of the refinement step of the Complex solver.
 
 ..
 
@@ -1608,7 +1600,7 @@ ForceDepKin.ComplexRefinementConvergenceDesignTol
     | **Default:** ``1e-09``
         
 
-    { descr | indent(width=4) }
+    Convergence tolerance on the FDK degrees of freedom of the refinement step of the Complex solver.
 
 ..
 
@@ -1648,7 +1640,7 @@ ForceDepKin.ComplexRefinementPopulationBoxSize
     | **Default:** ``1e-05``
         
 
-    { descr | indent(width=4) }
+    Size of the box in the design space of the refinement step of the complex solver within which the initial population is generated. This single constant will set the same size of the box for all design variables.
 
 ..
 
@@ -1658,7 +1650,7 @@ ForceDepKin.ComplexRefinementPopulationBoxSize
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1676,8 +1668,6 @@ ForceDepKin.ComplexRefinementPopulationBoxSize
      </div></div> <!--
 ..
 
-.. _AnyMechOprInvMuscleDynAnl.Criterion:
-
 Criterion
 ============
 
@@ -1686,10 +1676,10 @@ Criterion
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Criterion">
-    <span id="anymechoprinvmuscledynanl-criterion" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Criterion </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Criterion" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Setting folder for specifying the muscle recruitment criterion.</span>
     </h3>
 
 ..
@@ -1732,7 +1722,7 @@ Criterion.Type
     | **Default:** ``MR_Polynomial``
         
 
-    { descr | indent(width=4) }
+    Muscle recruitment criterion type.
 
 ..
 
@@ -1772,7 +1762,7 @@ Criterion.Power
     | **Default:** ``3.0``
         
 
-    { descr | indent(width=4) }
+    Power for the MR_Polynomial criterion.
 
 ..
 
@@ -1812,7 +1802,7 @@ Criterion.UpperBoundOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for whether the upper bound on muscle activity is active in the criterion.
 
 ..
 
@@ -1852,7 +1842,7 @@ Criterion.UpperBound
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Value of the upper bound on muscle activity. Typically it is 1.0 implying complete saturation of the muscle capability.
 
 ..
 
@@ -1892,7 +1882,7 @@ Criterion.LowerBoundOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for whether the lower bound on muscle activity is active in the criterion.
 
 ..
 
@@ -1932,7 +1922,7 @@ Criterion.LowerBound
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Value of the lower bound on muscle activity. Typically it is 0.0 llowing muscles to fully relax.
 
 ..
 
@@ -1972,7 +1962,7 @@ Criterion.PrimaryTerm
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Folder with settings for primary term of the muscle recruitment criterion. The primary term depends on the Type.
 
 ..
 
@@ -2012,7 +2002,7 @@ Criterion.PrimaryTerm.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -2052,7 +2042,7 @@ Criterion.PrimaryTerm.Weight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -2092,7 +2082,7 @@ Criterion.PrimaryTerm.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -2132,7 +2122,7 @@ Criterion.PrimaryTerm.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2172,7 +2162,7 @@ Criterion.PrimaryTerm.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2212,7 +2202,7 @@ Criterion.AuxLinearTerm
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Folder with settings for the auxillary linear term that is appended to the primary term in some cases.
 
 ..
 
@@ -2252,7 +2242,7 @@ Criterion.AuxLinearTerm.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -2292,7 +2282,7 @@ Criterion.AuxLinearTerm.Weight
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -2332,7 +2322,7 @@ Criterion.AuxLinearTerm.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -2372,7 +2362,7 @@ Criterion.AuxLinearTerm.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2412,7 +2402,7 @@ Criterion.AuxLinearTerm.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2452,7 +2442,7 @@ Criterion.AuxQuadraticTerm
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Folder with settings for the auxillary quadratic term that is appended to the primary term in some cases.
 
 ..
 
@@ -2492,7 +2482,7 @@ Criterion.AuxQuadraticTerm.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -2532,7 +2522,7 @@ Criterion.AuxQuadraticTerm.Weight
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -2572,7 +2562,7 @@ Criterion.AuxQuadraticTerm.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -2612,7 +2602,7 @@ Criterion.AuxQuadraticTerm.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2652,7 +2642,7 @@ Criterion.AuxQuadraticTerm.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2692,7 +2682,7 @@ Criterion.UpperBoundVar
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Folder with settings for variable-scaling for the upper bounds.
 
 ..
 
@@ -2732,7 +2722,7 @@ Criterion.UpperBoundVar.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -2772,7 +2762,7 @@ Criterion.UpperBoundVar.Weight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -2812,7 +2802,7 @@ Criterion.UpperBoundVar.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -2852,7 +2842,7 @@ Criterion.UpperBoundVar.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2892,7 +2882,7 @@ Criterion.UpperBoundVar.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -2932,7 +2922,7 @@ Criterion.LowerBoundVar
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Folder with settings for variable-scaling for the lower bounds.
 
 ..
 
@@ -2972,7 +2962,7 @@ Criterion.LowerBoundVar.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -3012,7 +3002,7 @@ Criterion.LowerBoundVar.Weight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -3052,7 +3042,7 @@ Criterion.LowerBoundVar.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -3092,7 +3082,7 @@ Criterion.LowerBoundVar.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -3132,7 +3122,7 @@ Criterion.LowerBoundVar.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -3172,7 +3162,7 @@ Criterion.IterativeRefinementSteps
     | **Default:** ``1``
         
 
-    { descr | indent(width=4) }
+    Number of iterative refinement step performed by the optimization solver. Iterative refinement increases accuracy at the cost of efficiency.
 
 ..
 
@@ -3212,7 +3202,7 @@ Criterion.NewRecruitmentSolversOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for using the new generation of optimization solvers for muscle recruitment. The older version may occasionally be more efficient, but they cannot deal with all types of problems.
 
 ..
 
@@ -3252,7 +3242,7 @@ Criterion.MultifrontalCholeskyOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for using multi-frontal methods in the sparse Cholesky factorization inside the muscle recruitment solvers. The multi-frontal method can be faster for larger problems, but this solver is still an experimental implementation.
 
 ..
 
@@ -3262,7 +3252,7 @@ Criterion.MultifrontalCholeskyOnOff
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -3312,7 +3302,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -3353,7 +3343,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -3394,7 +3384,48 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMechOprInvMuscleDynAnl.PreOperation:
+
+PreOperation
+===============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation">
+    <span id="anymechoprinvmuscledynanl-preoperation" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Pre-process operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprSubProcess`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Pre-process operation.
 
 ..
 
@@ -3419,7 +3450,7 @@ PreOperation.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdConfig">
     <span id="anymechoprinvmuscledynanl-preoperation-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3435,7 +3466,7 @@ PreOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -3460,7 +3491,7 @@ PreOperation.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdDesign">
     <span id="anymechoprinvmuscledynanl-preoperation-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3476,7 +3507,7 @@ PreOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -3501,7 +3532,7 @@ PreOperation.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreOperation.UpdOutput">
     <span id="anymechoprinvmuscledynanl-preoperation-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PreOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PreOperation.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3517,7 +3548,48 @@ PreOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMechOprInvMuscleDynAnl.PostOperation:
+
+PostOperation
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PostOperation">
+    <span id="anymechoprinvmuscledynanl-postoperation" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">PostOperation</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PostOperation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Post-process operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprSubProcess`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Post-process operation.
 
 ..
 
@@ -3558,7 +3630,7 @@ PostOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -3599,7 +3671,7 @@ PostOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -3640,7 +3712,7 @@ PostOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -3681,7 +3753,7 @@ ForceDepKinError
 
 
 
-    { descr | indent(width=4) }
+    Error output variable for force dependent kinematic analyses. It holds the maximal force residual in the analysis.
 
 ..
 

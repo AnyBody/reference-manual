@@ -106,7 +106,7 @@ MechObjectExclude
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to mechnical objects to exclude from the study.
 
 ..
 
@@ -154,7 +154,7 @@ tStart
 
 
 
-    { descr | indent(width=4) }
+    Initial time.
 
 ..
 
@@ -202,7 +202,7 @@ tEnd
 
 
 
-    { descr | indent(width=4) }
+    Final time.
 
 ..
 
@@ -250,7 +250,7 @@ nStep
 
 
 
-    { descr | indent(width=4) }
+    Number of equally spaced time steps (plus one). Both tStart and tEnd are counted as time steps.
 
 ..
 
@@ -298,7 +298,7 @@ tArray
 
 
 
-    { descr | indent(width=4) }
+    Array of output-time values. This provides an alternative input to the even spacing obtained by setting nStep, tStart, and tEnd.
 
 ..
 
@@ -316,8 +316,6 @@ tArray
      </div> <!--
 ..
 
-.. _AnyBodyCalibrationStudy.ReferenceFrame:
-
 ReferenceFrame
 =================
 
@@ -326,8 +324,8 @@ ReferenceFrame
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ReferenceFrame">
-    <span id="anybodycalibrationstudy-referenceframe" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> ReferenceFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ReferenceFrame" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
     </h3>
@@ -372,7 +370,7 @@ ReferenceFrame.InertialRef
     | **Default:** ``None``
         
 
-    { descr | indent(width=4) }
+    Pointer to the inertial reference frame. Used if a moving frame is used as basis for the model
 
 ..
 
@@ -382,7 +380,7 @@ ReferenceFrame.InertialRef
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -411,7 +409,7 @@ Replay
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Replay </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Operation that replay previously calculated results stored in the Output...</span>
     </h3>
 
 ..
@@ -454,7 +452,7 @@ Replay.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -494,7 +492,7 @@ Replay.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -534,7 +532,7 @@ Replay.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -574,7 +572,7 @@ Replay.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -614,7 +612,7 @@ Replay.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -654,7 +652,7 @@ Replay.PostProcessingOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch that controls whether post-processing of symbolic expressions should be carried out.
 
 ..
 
@@ -664,7 +662,7 @@ Replay.PostProcessingOnOff
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -682,8 +680,6 @@ Replay.PostProcessingOnOff
      </div></div> <!--
 ..
 
-.. _AnyBodyCalibrationStudy.InitialConditions:
-
 InitialConditions
 ====================
 
@@ -692,10 +688,10 @@ InitialConditions
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions">
-    <span id="anybodycalibrationstudy-initialconditions" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> InitialConditions </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#InitialConditions" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Operation that sets initial conditions, i.e., assembles the mechanism etc.,...</span>
     </h3>
 
 ..
@@ -738,7 +734,7 @@ InitialConditions.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -778,7 +774,7 @@ InitialConditions.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -818,7 +814,7 @@ InitialConditions.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -858,7 +854,7 @@ InitialConditions.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -898,7 +894,7 @@ InitialConditions.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -938,7 +934,7 @@ InitialConditions.PreOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Pre-process operation.
 
 ..
 
@@ -978,7 +974,7 @@ InitialConditions.PreOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -1018,7 +1014,7 @@ InitialConditions.PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -1058,7 +1054,7 @@ InitialConditions.PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -1098,7 +1094,7 @@ InitialConditions.PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -1138,7 +1134,7 @@ InitialConditions.PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -1178,7 +1174,7 @@ InitialConditions.PostOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Post-process operation.
 
 ..
 
@@ -1218,7 +1214,7 @@ InitialConditions.PostOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -1258,7 +1254,7 @@ InitialConditions.PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -1298,7 +1294,7 @@ InitialConditions.PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -1338,7 +1334,7 @@ InitialConditions.PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -1378,7 +1374,7 @@ InitialConditions.PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -1418,7 +1414,7 @@ InitialConditions.KinematicTol
     | **Default:** ``1e-06``
         
 
-    { descr | indent(width=4) }
+    Tolerance for the kinematic analysis.
 
 ..
 
@@ -1458,7 +1454,7 @@ InitialConditions.MaxIteration
     | **Default:** ``3000``
         
 
-    { descr | indent(width=4) }
+    Maximal number of Newton iterations in the solution of the non-linear equations in the kinematic position analysis.
 
 ..
 
@@ -1498,7 +1494,7 @@ InitialConditions.MaxFallback
     | **Default:** ``5``
         
 
-    { descr | indent(width=4) }
+    Maximal number of fallback iterations used by some solvers.
 
 ..
 
@@ -1538,7 +1534,7 @@ InitialConditions.Relax
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Initial value of relaxation coefficient for the Newton iteration.
 
 ..
 
@@ -1578,7 +1574,7 @@ InitialConditions.SingleStepOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for the single-step analysis.
 
 ..
 
@@ -1618,7 +1614,7 @@ InitialConditions.SingleStepNo
     | **Default:** ``0``
         
 
-    { descr | indent(width=4) }
+    Zero-based index for the time step to use in the single-step analysis.
 
 ..
 
@@ -1658,7 +1654,7 @@ InitialConditions.UseStartGuessOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for for whether to use input positions as starting guess or the model's current positions.
 
 ..
 
@@ -1698,7 +1694,7 @@ InitialConditions.PosAnalysisOnlyOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for skipping velocity and acceleration analysis, i.e., running position analysis only. Velocitites and acceleration of all segments are set to zero when computations are skipped.
 
 ..
 
@@ -1738,7 +1734,7 @@ InitialConditions.ApproxVelAccPerturb
     | **Default:** ``0.01``
         
 
-    { descr | indent(width=4) }
+    Magnitude of perturbation use in finite difference differentiation.
 
 ..
 
@@ -1778,7 +1774,7 @@ InitialConditions.SmallStepAssumptionOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for assumption of small steps (position or time-steps). When 'Off' more robust method can be applied. (REFER TO OTHER DOCUMENTATION).
 
 ..
 
@@ -1818,7 +1814,7 @@ InitialConditions.SparseSolverDiagEps
     | **Default:** ``1e-12``
         
 
-    { descr | indent(width=4) }
+    Test variable: Small floating point number (Epsilon) used by some solvers to perturb diagonal elements (DEPRECATED).
 
 ..
 
@@ -1858,7 +1854,7 @@ InitialConditions.SparseSolverMaxIterativeRefinements
     | **Default:** ``2``
         
 
-    { descr | indent(width=4) }
+    Test variable : Maximal number of iterative refinement steps in solver (DEPRECATED).
 
 ..
 
@@ -1898,7 +1894,7 @@ InitialConditions.SparseSolver2x2pivoting
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Test variable: Switch for selecting pivoting scheme for the MKL PARDISO solver (DEPRECATED).
 
 ..
 
@@ -1938,7 +1934,7 @@ InitialConditions.SolverType
     | **Default:** ``KinSolDeterminate``
         
 
-    { descr | indent(width=4) }
+    Solver type specification.
 
 ..
 
@@ -1948,7 +1944,7 @@ InitialConditions.SolverType
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1966,8 +1962,6 @@ InitialConditions.SolverType
      </div></div> <!--
 ..
 
-.. _AnyBodyCalibrationStudy.Kinematics:
-
 Kinematics
 =============
 
@@ -1976,10 +1970,10 @@ Kinematics
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Kinematics">
-    <span id="anybodycalibrationstudy-kinematics" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Kinematics </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Kinematics" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Kinematic analysis operation that processes all time steps of the study. It...</span>
     </h3>
 
 ..
@@ -2022,7 +2016,7 @@ Kinematics.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -2062,7 +2056,7 @@ Kinematics.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -2102,7 +2096,7 @@ Kinematics.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -2142,7 +2136,7 @@ Kinematics.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -2182,7 +2176,7 @@ Kinematics.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -2222,7 +2216,7 @@ Kinematics.PreOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Pre-process operation.
 
 ..
 
@@ -2262,7 +2256,7 @@ Kinematics.PreOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -2302,7 +2296,7 @@ Kinematics.PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -2342,7 +2336,7 @@ Kinematics.PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -2382,7 +2376,7 @@ Kinematics.PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -2422,7 +2416,7 @@ Kinematics.PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -2462,7 +2456,7 @@ Kinematics.PostOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Post-process operation.
 
 ..
 
@@ -2502,7 +2496,7 @@ Kinematics.PostOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -2542,7 +2536,7 @@ Kinematics.PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -2582,7 +2576,7 @@ Kinematics.PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -2622,7 +2616,7 @@ Kinematics.PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -2662,7 +2656,7 @@ Kinematics.PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -2702,7 +2696,7 @@ Kinematics.KinematicTol
     | **Default:** ``1e-06``
         
 
-    { descr | indent(width=4) }
+    Tolerance for the kinematic analysis.
 
 ..
 
@@ -2742,7 +2736,7 @@ Kinematics.MaxIteration
     | **Default:** ``3000``
         
 
-    { descr | indent(width=4) }
+    Maximal number of Newton iterations in the solution of the non-linear equations in the kinematic position analysis.
 
 ..
 
@@ -2782,7 +2776,7 @@ Kinematics.MaxFallback
     | **Default:** ``5``
         
 
-    { descr | indent(width=4) }
+    Maximal number of fallback iterations used by some solvers.
 
 ..
 
@@ -2822,7 +2816,7 @@ Kinematics.Relax
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Initial value of relaxation coefficient for the Newton iteration.
 
 ..
 
@@ -2862,7 +2856,7 @@ Kinematics.SingleStepOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for the single-step analysis.
 
 ..
 
@@ -2902,7 +2896,7 @@ Kinematics.SingleStepNo
     | **Default:** ``0``
         
 
-    { descr | indent(width=4) }
+    Zero-based index for the time step to use in the single-step analysis.
 
 ..
 
@@ -2942,7 +2936,7 @@ Kinematics.UseStartGuessOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for for whether to use input positions as starting guess or the model's current positions.
 
 ..
 
@@ -2982,7 +2976,7 @@ Kinematics.PosAnalysisOnlyOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for skipping velocity and acceleration analysis, i.e., running position analysis only. Velocitites and acceleration of all segments are set to zero when computations are skipped.
 
 ..
 
@@ -3022,7 +3016,7 @@ Kinematics.ApproxVelAccPerturb
     | **Default:** ``0.01``
         
 
-    { descr | indent(width=4) }
+    Magnitude of perturbation use in finite difference differentiation.
 
 ..
 
@@ -3062,7 +3056,7 @@ Kinematics.SmallStepAssumptionOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for assumption of small steps (position or time-steps). When 'Off' more robust method can be applied. (REFER TO OTHER DOCUMENTATION).
 
 ..
 
@@ -3102,7 +3096,7 @@ Kinematics.SparseSolverDiagEps
     | **Default:** ``1e-12``
         
 
-    { descr | indent(width=4) }
+    Test variable: Small floating point number (Epsilon) used by some solvers to perturb diagonal elements (DEPRECATED).
 
 ..
 
@@ -3142,7 +3136,7 @@ Kinematics.SparseSolverMaxIterativeRefinements
     | **Default:** ``2``
         
 
-    { descr | indent(width=4) }
+    Test variable : Maximal number of iterative refinement steps in solver (DEPRECATED).
 
 ..
 
@@ -3182,7 +3176,7 @@ Kinematics.SparseSolver2x2pivoting
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Test variable: Switch for selecting pivoting scheme for the MKL PARDISO solver (DEPRECATED).
 
 ..
 
@@ -3222,7 +3216,7 @@ Kinematics.SolverType
     | **Default:** ``KinSolDeterminate``
         
 
-    { descr | indent(width=4) }
+    Solver type specification.
 
 ..
 
@@ -3232,7 +3226,7 @@ Kinematics.SolverType
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -3261,7 +3255,7 @@ FiberAndTendonLengthAdjustment
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> FiberAndTendonLengthAdjustment </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#FiberAndTendonLengthAdjustment" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Operation for calibration of the muscles by adjustment of their fiber and...</span>
     </h3>
 
 ..
@@ -3304,7 +3298,7 @@ FiberAndTendonLengthAdjustment.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -3344,7 +3338,7 @@ FiberAndTendonLengthAdjustment.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -3384,7 +3378,7 @@ FiberAndTendonLengthAdjustment.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -3424,7 +3418,7 @@ FiberAndTendonLengthAdjustment.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -3464,7 +3458,7 @@ FiberAndTendonLengthAdjustment.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -3504,7 +3498,7 @@ FiberAndTendonLengthAdjustment.PreOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Pre-process operation.
 
 ..
 
@@ -3544,7 +3538,7 @@ FiberAndTendonLengthAdjustment.PreOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -3584,7 +3578,7 @@ FiberAndTendonLengthAdjustment.PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -3624,7 +3618,7 @@ FiberAndTendonLengthAdjustment.PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -3664,7 +3658,7 @@ FiberAndTendonLengthAdjustment.PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -3704,7 +3698,7 @@ FiberAndTendonLengthAdjustment.PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -3744,7 +3738,7 @@ FiberAndTendonLengthAdjustment.PostOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Post-process operation.
 
 ..
 
@@ -3784,7 +3778,7 @@ FiberAndTendonLengthAdjustment.PostOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -3824,7 +3818,7 @@ FiberAndTendonLengthAdjustment.PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -3864,7 +3858,7 @@ FiberAndTendonLengthAdjustment.PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -3904,7 +3898,7 @@ FiberAndTendonLengthAdjustment.PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -3944,7 +3938,7 @@ FiberAndTendonLengthAdjustment.PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -3984,7 +3978,7 @@ FiberAndTendonLengthAdjustment.CalibrateTendonAtMaxForceOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for whether calibration of the tendon length should account for the assumed elongation for max muscle force.
 
 ..
 
@@ -3994,7 +3988,7 @@ FiberAndTendonLengthAdjustment.CalibrateTendonAtMaxForceOnOff
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -4023,7 +4017,7 @@ TendonLengthAdjustment
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> TendonLengthAdjustment </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TendonLengthAdjustment" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Operation for calibration of the muscles by adjustment of their tendon length.</span>
     </h3>
 
 ..
@@ -4066,7 +4060,7 @@ TendonLengthAdjustment.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -4106,7 +4100,7 @@ TendonLengthAdjustment.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4146,7 +4140,7 @@ TendonLengthAdjustment.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4186,7 +4180,7 @@ TendonLengthAdjustment.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -4226,7 +4220,7 @@ TendonLengthAdjustment.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -4266,7 +4260,7 @@ TendonLengthAdjustment.PreOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Pre-process operation.
 
 ..
 
@@ -4306,7 +4300,7 @@ TendonLengthAdjustment.PreOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -4346,7 +4340,7 @@ TendonLengthAdjustment.PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4386,7 +4380,7 @@ TendonLengthAdjustment.PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4426,7 +4420,7 @@ TendonLengthAdjustment.PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -4466,7 +4460,7 @@ TendonLengthAdjustment.PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -4506,7 +4500,7 @@ TendonLengthAdjustment.PostOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Post-process operation.
 
 ..
 
@@ -4546,7 +4540,7 @@ TendonLengthAdjustment.PostOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -4586,7 +4580,7 @@ TendonLengthAdjustment.PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4626,7 +4620,7 @@ TendonLengthAdjustment.PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4666,7 +4660,7 @@ TendonLengthAdjustment.PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -4706,7 +4700,7 @@ TendonLengthAdjustment.PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -4716,7 +4710,7 @@ TendonLengthAdjustment.PostOperation.Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -4745,7 +4739,7 @@ LigamentLengthAdjustment
     <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> LigamentLengthAdjustment </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#LigamentLengthAdjustment" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Operation for calibration of the ligaments by adjustment of their undeformed length.</span>
     </h3>
 
 ..
@@ -4788,7 +4782,7 @@ LigamentLengthAdjustment.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -4828,7 +4822,7 @@ LigamentLengthAdjustment.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4868,7 +4862,7 @@ LigamentLengthAdjustment.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -4908,7 +4902,7 @@ LigamentLengthAdjustment.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -4948,7 +4942,7 @@ LigamentLengthAdjustment.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -4988,7 +4982,7 @@ LigamentLengthAdjustment.PreOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Pre-process operation.
 
 ..
 
@@ -5028,7 +5022,7 @@ LigamentLengthAdjustment.PreOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -5068,7 +5062,7 @@ LigamentLengthAdjustment.PreOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -5108,7 +5102,7 @@ LigamentLengthAdjustment.PreOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -5148,7 +5142,7 @@ LigamentLengthAdjustment.PreOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -5188,7 +5182,7 @@ LigamentLengthAdjustment.PreOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -5228,7 +5222,7 @@ LigamentLengthAdjustment.PostOperation
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Post-process operation.
 
 ..
 
@@ -5268,7 +5262,7 @@ LigamentLengthAdjustment.PostOperation.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -5308,7 +5302,7 @@ LigamentLengthAdjustment.PostOperation.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -5348,7 +5342,7 @@ LigamentLengthAdjustment.PostOperation.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -5388,7 +5382,7 @@ LigamentLengthAdjustment.PostOperation.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -5428,7 +5422,7 @@ LigamentLengthAdjustment.PostOperation.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -5438,7 +5432,7 @@ LigamentLengthAdjustment.PostOperation.Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -5486,7 +5480,7 @@ MuscleArr
 
 
 
-    { descr | indent(width=4) }
+    AnyObject-pointer array of the muscles to include in the calibration. By default it is filled with all muscles in the study, but it can be initialized for limitting this set.
 
 ..
 
@@ -5534,7 +5528,7 @@ LigamentArr
 
 
 
-    { descr | indent(width=4) }
+    AnyObject-pointer array of the ligaments to include in the calibration. By default it is filled with all ligaments in the study, but it can be initialized for limitting this set.
 
 ..
 
@@ -5582,7 +5576,7 @@ RminMuscleFiber
 
 
 
-    { descr | indent(width=4) }
+    Specification of the actual muscle fiber length's ratio to the optimal fiber length at the lower extreme for the given range of motion. By default this is set to 0.5, which is the typical point for muscle fibers to loose strength. Notice that the array should hold one value for each muscle in MuscleArr; if to few are given the last value will be used for all remaining muscles in the set.
 
 ..
 
@@ -5630,7 +5624,7 @@ RmaxMuscleFiber
 
 
 
-    { descr | indent(width=4) }
+    Specification of the actual muscle fiber length's ratio to the optimal fiber length at the upper extreme for the given range of motion. By default this is set to 1.2, which is slightly above optimal fiber length, but typically below significant passive forces. Notice that the array should hold one value for each muscle in MuscleArr; if to few are given the last value will be used for all remaining muscles in the set.
 
 ..
 
@@ -5684,7 +5678,7 @@ tArrayOnOff
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) Switch for whether to use tArray as definition of output-times or to use even spacing given by nStep, tStart and tEnd.
 
 ..
 
@@ -5741,7 +5735,7 @@ KinematicTol
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) 
 
 ..
 
@@ -5798,7 +5792,7 @@ KinematicMaxIteration
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) 
 
 ..
 
@@ -5855,7 +5849,7 @@ KinematicRelax
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) 
 
 ..
 
@@ -5906,7 +5900,7 @@ ModelInformation
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -5957,7 +5951,7 @@ SetInitialConditions
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -6008,7 +6002,7 @@ KinematicAnalysis
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -6059,7 +6053,7 @@ InverseDynamicAnalysis
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -6109,7 +6103,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -6150,7 +6144,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -6191,7 +6185,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -6232,7 +6226,7 @@ Output
 
 
 
-    { descr | indent(width=4) }
+    Folder that holds the result of the latest executed analysis (operation).
 
 ..
 
@@ -6273,7 +6267,7 @@ Output.Abscissa
 
 
 
-    { descr | indent(width=4) }
+    Folder where the values of the abscissa/input parameters are stored.
 
 ..
 
@@ -6314,7 +6308,7 @@ Output.Abscissa.StateCountCurrent
 
 
 
-    { descr | indent(width=4) }
+    Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).
 
 ..
 
@@ -6355,7 +6349,7 @@ Output.Abscissa.StateCountData
 
 
 
-    { descr | indent(width=4) }
+    Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.
 
 ..
 
@@ -6396,7 +6390,7 @@ Output.Abscissa.t
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -6437,7 +6431,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Time.
 
 ..
 
@@ -6478,7 +6472,7 @@ iStep
 
 
 
-    { descr | indent(width=4) }
+    Index of the current time step.
 
 ..
 
@@ -6519,7 +6513,7 @@ Upd_tArray
 
 
 
-    { descr | indent(width=4) }
+    Update counter counting updates of tArray's dependency of nStep, tStart and tEnd.
 
 ..
 
@@ -6560,7 +6554,7 @@ Gravity
 
 
 
-    { descr | indent(width=4) }
+    The acceleration of gravity.
 
 ..
 
@@ -6601,7 +6595,7 @@ KinematicError
 
 
 
-    { descr | indent(width=4) }
+    Current value of the kinematic error.
 
 ..
 
@@ -6642,7 +6636,7 @@ Ekin
 
 
 
-    { descr | indent(width=4) }
+    Current kinematic energy of the system.
 
 ..
 
@@ -6683,7 +6677,7 @@ Epot
 
 
 
-    { descr | indent(width=4) }
+    Current potential energy of the system.
 
 ..
 
@@ -6724,7 +6718,7 @@ Emech
 
 
 
-    { descr | indent(width=4) }
+    Current mechanical energy of the system (=Ekin+Epot).
 
 ..
 
@@ -6765,7 +6759,7 @@ Pmech
 
 
 
-    { descr | indent(width=4) }
+    Current mechanical power applied to the system.
 
 ..
 
@@ -6806,7 +6800,7 @@ Replay
 
 
 
-    { descr | indent(width=4) }
+    Operation that replay previously calculated results stored in the Output folder. It also replays data in the Output folder if they are imported from an output storage file. Replaying means to transfer data from the Output folder back into their original value objects in the model. This restores all saved value as they were upon the time of calculation. The Replay operation executes the same number of time steps as the original simulation.
 
 ..
 
@@ -6847,7 +6841,7 @@ Replay.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -6888,7 +6882,7 @@ Replay.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -6929,7 +6923,48 @@ Replay.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyBodyCalibrationStudy.InitialConditions:
+
+InitialConditions
+====================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions">
+    <span id="anybodycalibrationstudy-initialconditions" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Operation that sets initial conditions, i.e., assembles the mechanism etc.,...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprKinAnl`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Operation that sets initial conditions, i.e., assembles the mechanism etc., according to the first time step of the study.
 
 ..
 
@@ -6954,7 +6989,7 @@ InitialConditions.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.UpdConfig">
     <span id="anybodycalibrationstudy-initialconditions-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -6970,7 +7005,7 @@ InitialConditions.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -6995,7 +7030,7 @@ InitialConditions.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.UpdDesign">
     <span id="anybodycalibrationstudy-initialconditions-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -7011,7 +7046,7 @@ InitialConditions.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -7036,7 +7071,7 @@ InitialConditions.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.UpdOutput">
     <span id="anybodycalibrationstudy-initialconditions-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -7052,7 +7087,7 @@ InitialConditions.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7077,7 +7112,7 @@ InitialConditions.PreOperation.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdConfig">
     <span id="anybodycalibrationstudy-initialconditions-preoperation-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PreOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PreOperation.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -7093,7 +7128,7 @@ InitialConditions.PreOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7118,7 +7153,7 @@ InitialConditions.PreOperation.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdDesign">
     <span id="anybodycalibrationstudy-initialconditions-preoperation-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PreOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PreOperation.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -7134,7 +7169,7 @@ InitialConditions.PreOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -7159,7 +7194,7 @@ InitialConditions.PreOperation.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdOutput">
     <span id="anybodycalibrationstudy-initialconditions-preoperation-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PreOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PreOperation.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -7175,7 +7210,7 @@ InitialConditions.PreOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7200,7 +7235,7 @@ InitialConditions.PostOperation.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdConfig">
     <span id="anybodycalibrationstudy-initialconditions-postoperation-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PostOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PostOperation.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -7216,7 +7251,7 @@ InitialConditions.PostOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7241,7 +7276,7 @@ InitialConditions.PostOperation.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdDesign">
     <span id="anybodycalibrationstudy-initialconditions-postoperation-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PostOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PostOperation.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -7257,7 +7292,7 @@ InitialConditions.PostOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -7282,7 +7317,7 @@ InitialConditions.PostOperation.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdOutput">
     <span id="anybodycalibrationstudy-initialconditions-postoperation-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PostOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PostOperation.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -7298,7 +7333,7 @@ InitialConditions.PostOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7323,7 +7358,7 @@ InitialConditions.KinematicError
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.KinematicError">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.KinematicError">
     <span id="anybodycalibrationstudy-initialconditions-kinematicerror" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.KinematicError</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.KinematicError" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current value of the kinematic error.</span>
@@ -7339,7 +7374,48 @@ InitialConditions.KinematicError
 
 
 
-    { descr | indent(width=4) }
+    Current value of the kinematic error.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyBodyCalibrationStudy.Kinematics:
+
+Kinematics
+=============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Kinematics">
+    <span id="anybodycalibrationstudy-kinematics" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Kinematics</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Kinematics" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Kinematic analysis operation that processes all time steps of the study. It...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMechOprKinAnl`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Kinematic analysis operation that processes all time steps of the study. It uses Initial_Conditions as pre-process (only for kinematically determinate system).
 
 ..
 
@@ -7380,7 +7456,7 @@ Kinematics.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7421,7 +7497,7 @@ Kinematics.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -7462,7 +7538,7 @@ Kinematics.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7503,7 +7579,7 @@ Kinematics.PreOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7544,7 +7620,7 @@ Kinematics.PreOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -7585,7 +7661,7 @@ Kinematics.PreOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7626,7 +7702,7 @@ Kinematics.PreOperation.InitialConditions
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7667,7 +7743,7 @@ Kinematics.PostOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7708,7 +7784,7 @@ Kinematics.PostOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -7749,7 +7825,7 @@ Kinematics.PostOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7790,7 +7866,7 @@ Kinematics.KinematicError
 
 
 
-    { descr | indent(width=4) }
+    Current value of the kinematic error.
 
 ..
 
@@ -7831,7 +7907,7 @@ FiberAndTendonLengthAdjustment
 
 
 
-    { descr | indent(width=4) }
+    Operation for calibration of the muscles by adjustment of their fiber and tendon length.
 
 ..
 
@@ -7872,7 +7948,7 @@ FiberAndTendonLengthAdjustment.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7913,7 +7989,7 @@ FiberAndTendonLengthAdjustment.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -7954,7 +8030,7 @@ FiberAndTendonLengthAdjustment.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -7995,7 +8071,7 @@ FiberAndTendonLengthAdjustment.PreOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8036,7 +8112,7 @@ FiberAndTendonLengthAdjustment.PreOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -8077,7 +8153,7 @@ FiberAndTendonLengthAdjustment.PreOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8118,7 +8194,7 @@ FiberAndTendonLengthAdjustment.PreOperation.Kinematics
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8159,7 +8235,7 @@ FiberAndTendonLengthAdjustment.PostOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8200,7 +8276,7 @@ FiberAndTendonLengthAdjustment.PostOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -8241,7 +8317,7 @@ FiberAndTendonLengthAdjustment.PostOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8282,7 +8358,7 @@ TendonLengthAdjustment
 
 
 
-    { descr | indent(width=4) }
+    Operation for calibration of the muscles by adjustment of their tendon length.
 
 ..
 
@@ -8323,7 +8399,7 @@ TendonLengthAdjustment.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8364,7 +8440,7 @@ TendonLengthAdjustment.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -8405,7 +8481,7 @@ TendonLengthAdjustment.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8446,7 +8522,7 @@ TendonLengthAdjustment.PreOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8487,7 +8563,7 @@ TendonLengthAdjustment.PreOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -8528,7 +8604,7 @@ TendonLengthAdjustment.PreOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8569,7 +8645,7 @@ TendonLengthAdjustment.PreOperation.Kinematics
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8610,7 +8686,7 @@ TendonLengthAdjustment.PostOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8651,7 +8727,7 @@ TendonLengthAdjustment.PostOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -8692,7 +8768,7 @@ TendonLengthAdjustment.PostOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8733,7 +8809,7 @@ LigamentLengthAdjustment
 
 
 
-    { descr | indent(width=4) }
+    Operation for calibration of the ligaments by adjustment of their undeformed length.
 
 ..
 
@@ -8774,7 +8850,7 @@ LigamentLengthAdjustment.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8815,7 +8891,7 @@ LigamentLengthAdjustment.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -8856,7 +8932,7 @@ LigamentLengthAdjustment.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8897,7 +8973,7 @@ LigamentLengthAdjustment.PreOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -8938,7 +9014,7 @@ LigamentLengthAdjustment.PreOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -8979,7 +9055,7 @@ LigamentLengthAdjustment.PreOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9020,7 +9096,7 @@ LigamentLengthAdjustment.PreOperation.Kinematics
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9061,7 +9137,7 @@ LigamentLengthAdjustment.PostOperation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9102,7 +9178,7 @@ LigamentLengthAdjustment.PostOperation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -9143,7 +9219,7 @@ LigamentLengthAdjustment.PostOperation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9184,7 +9260,7 @@ Lmt
 
 
 
-    { descr | indent(width=4) }
+    Array of all muscle-tendon units length in the calibration.
 
 ..
 
@@ -9225,7 +9301,7 @@ Llig
 
 
 
-    { descr | indent(width=4) }
+    Array of all ligament units length in the calibration.
 
 ..
 
@@ -9266,7 +9342,7 @@ ModelInformation
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9307,7 +9383,7 @@ ModelInformation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9348,7 +9424,7 @@ ModelInformation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -9389,7 +9465,7 @@ ModelInformation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9430,7 +9506,7 @@ SetInitialConditions
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9471,7 +9547,7 @@ SetInitialConditions.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9512,7 +9588,7 @@ SetInitialConditions.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -9553,7 +9629,7 @@ SetInitialConditions.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9594,7 +9670,7 @@ KinematicAnalysis
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9635,7 +9711,7 @@ KinematicAnalysis.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9676,7 +9752,7 @@ KinematicAnalysis.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -9717,7 +9793,7 @@ KinematicAnalysis.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9758,7 +9834,7 @@ InverseDynamicAnalysis
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9799,7 +9875,7 @@ InverseDynamicAnalysis.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9840,7 +9916,7 @@ InverseDynamicAnalysis.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -9881,7 +9957,7 @@ InverseDynamicAnalysis.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -9922,7 +9998,7 @@ Internal_dependency
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

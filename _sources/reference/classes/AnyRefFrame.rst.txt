@@ -60,8 +60,6 @@ Optional initialization members
       <!--
 ..
 
-.. _AnyRefFrame.viewRefFrame:
-
 viewRefFrame
 ===============
 
@@ -70,8 +68,8 @@ viewRefFrame
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame">
-    <span id="anyrefframe-viewrefframe" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> viewRefFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
     </h3>
@@ -116,7 +114,7 @@ viewRefFrame.Visible
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Visibility setting, which specifies default visibility of the object.
 
 ..
 
@@ -156,7 +154,7 @@ viewRefFrame.Opacity
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Opacity setting, which specifies default opacity of the object.
 
 ..
 
@@ -196,7 +194,7 @@ viewRefFrame.Pickable
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
 
@@ -236,7 +234,7 @@ viewRefFrame.PickableZOrdering
     | **Default:** ``0``
         
 
-    { descr | indent(width=4) }
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
 
@@ -276,7 +274,7 @@ viewRefFrame.RGB
     | **Default:** ``{0.65, 0.65, 0.65}``
         
 
-    { descr | indent(width=4) }
+    Object color in RGB values between 0 and 1.
 
 ..
 
@@ -316,7 +314,7 @@ viewRefFrame.ScaleXYZ
     | **Default:** ``{1.0, 1.0, 1.0}``
         
 
-    { descr | indent(width=4) }
+    Scaling factors for each reference system axis.
 
 ..
 
@@ -356,7 +354,7 @@ viewRefFrame.Transparency
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
 
@@ -396,7 +394,7 @@ viewRefFrame.TextFont
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General font setting for the object's text.
 
 ..
 
@@ -436,7 +434,7 @@ viewRefFrame.TextFont.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -476,7 +474,7 @@ viewRefFrame.TextFont.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    { descr | indent(width=4) }
+    Font name (Windows fonts).
 
 ..
 
@@ -516,7 +514,7 @@ viewRefFrame.TextFont.Height
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph height in pixels.
 
 ..
 
@@ -556,7 +554,7 @@ viewRefFrame.TextFont.Width
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph width in pixels.
 
 ..
 
@@ -596,7 +594,7 @@ viewRefFrame.TextFont.Bold
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for bold face type setting.
 
 ..
 
@@ -636,7 +634,7 @@ viewRefFrame.TextFont.Italic
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for italic type setting.
 
 ..
 
@@ -676,7 +674,7 @@ viewRefFrame.TextFont.BillBoardView
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -716,7 +714,7 @@ viewRefFrame.TextFont.ModelSized
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -756,7 +754,7 @@ viewRefFrame.TextFont.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The height scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -796,7 +794,7 @@ viewRefFrame.TextFont.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The width scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -806,7 +804,7 @@ viewRefFrame.TextFont.ModelScaleWidth
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -856,7 +854,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -897,7 +895,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -938,7 +936,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -979,7 +977,48 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefFrame.viewRefFrame:
+
+viewRefFrame
+===============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame">
+    <span id="anyrefframe-viewrefframe" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDrawRefFrame`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    <No description>
 
 ..
 
@@ -1004,7 +1043,7 @@ viewRefFrame.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdConfig">
     <span id="anyrefframe-viewrefframe-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1020,7 +1059,7 @@ viewRefFrame.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1045,7 +1084,7 @@ viewRefFrame.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdDesign">
     <span id="anyrefframe-viewrefframe-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1061,7 +1100,7 @@ viewRefFrame.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1086,7 +1125,7 @@ viewRefFrame.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdOutput">
     <span id="anyrefframe-viewrefframe-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1102,7 +1141,7 @@ viewRefFrame.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1127,7 +1166,7 @@ viewRefFrame.Face
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.Face">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.Face">
     <span id="anyrefframe-viewrefframe-face" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.Face" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
@@ -1143,7 +1182,7 @@ viewRefFrame.Face
 
 
 
-    { descr | indent(width=4) }
+    Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
 
 ..
 

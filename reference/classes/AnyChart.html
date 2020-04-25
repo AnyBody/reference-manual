@@ -160,7 +160,7 @@ AnyChart.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyStyleDrawMaterial.html#anystyledrawmaterial"><span class="std std-ref">AnyStyleDrawMaterial</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Graphical material specification, that overrides the color setting in RGB.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -177,7 +177,7 @@ AnyChart.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyChartSerie.html#anychartserie"><span class="std std-ref">AnyChartSerie</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Expected members holding data series definitions. These objects should be put in the Series folder and not in the root scope of AnyChart, where they will have no effect.</p>
 </div></blockquote>
 </div>
 </div>
@@ -197,7 +197,7 @@ AnyChart.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyChartSeriesFolder.html#anychartseriesfolder"><span class="std std-ref">AnyChartSeriesFolder</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder holding the series definitions.</p>
 </div></blockquote>
 </div>
 </div>
@@ -218,7 +218,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -236,7 +236,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -254,7 +254,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -272,7 +272,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -283,7 +283,7 @@ AnyChart.</p>
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
 
 <h3 class="html-toggle-button" style=""><span class="member-title"> Series </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Series" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Folder holding the series definitions.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="series-rgbdef">
 <span id="anychart-series-rgbdef"></span><h4>Series.RGBdef<a class="headerlink" href="#series-rgbdef" title="Permalink to this headline">¶</a></h4>
@@ -299,22 +299,19 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>List holding default color sequence for data curves. It must be a matrix where each row contains three (RGB) values.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
 <div class="section" id="style">
-<span id="anychart-style"></span><h3>Style<a class="headerlink" href="#style" title="Permalink to this headline">¶</a></h3>
+<h3>Style<a class="headerlink" href="#style" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Style">
-<span id="anychart-style" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> Style </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Style" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Folder holding general style settings for the chart.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="style-style">
 <span id="anychart-style-style"></span><h4>Style.Style<a class="headerlink" href="#style-style" title="Permalink to this headline">¶</a></h4>
@@ -330,7 +327,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">CartesianChart3D</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style of the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -348,7 +345,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{1.0,</span> <span class="pre">1.0,</span> <span class="pre">1.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Sizes of three dimensions of the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -366,7 +363,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for using automtic sizes of the chart objects. This is useful when using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -384,7 +381,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for using automtic positioning the chart objects. This is when useful using AnyChart objects inside a 3D Model View with data associated with the real physical dimensions.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -402,7 +399,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for linking cursor. If ‘On’ cursor from different matching series, i.e., series with the same abscissa selections will be linked so they move together. If ‘Off’ cursors are idependent for each serie.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -420,7 +417,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line style for axes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -438,7 +435,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Line3DStyleFull</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line style.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -456,7 +453,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line thickness.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -474,7 +471,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.25,</span> <span class="pre">0.25,</span> <span class="pre">0.25}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -492,7 +489,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Title text field.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -510,7 +507,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -528,7 +525,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font settings.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -546,7 +543,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -564,7 +561,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -582,7 +579,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -600,7 +597,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -618,7 +615,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -636,7 +633,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -654,7 +651,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -672,7 +669,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -690,7 +687,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -708,7 +705,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -726,7 +723,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Text string.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -744,7 +741,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font used for messages dispalyed inside in chart arear.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -762,7 +759,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -780,7 +777,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -798,7 +795,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -816,7 +813,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -834,7 +831,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -852,7 +849,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -870,7 +867,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -888,7 +885,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -906,7 +903,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -924,22 +921,19 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
 <div class="section" id="legend">
-<span id="anychart-legend"></span><h3>Legend<a class="headerlink" href="#legend" title="Permalink to this headline">¶</a></h3>
+<h3>Legend<a class="headerlink" href="#legend" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Legend">
-<span id="anychart-legend" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> Legend </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Legend" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Folder holding the definition of the legend appearance.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="legend-visible">
 <span id="anychart-legend-visible"></span><h4>Legend.Visible<a class="headerlink" href="#legend-visible" title="Permalink to this headline">¶</a></h4>
@@ -955,22 +949,19 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
 <div class="section" id="absaxis">
-<span id="anychart-absaxis"></span><h3>AbsAxis<a class="headerlink" href="#absaxis" title="Permalink to this headline">¶</a></h3>
+<h3>AbsAxis<a class="headerlink" href="#absaxis" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AbsAxis">
-<span id="anychart-absaxis" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> AbsAxis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#AbsAxis" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Primary abscissa axis definition.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="absaxis-visible">
 <span id="anychart-absaxis-visible"></span><h4>AbsAxis.Visible<a class="headerlink" href="#absaxis-visible" title="Permalink to this headline">¶</a></h4>
@@ -986,7 +977,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1004,7 +995,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Minimum data value on the axis. It is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1022,7 +1013,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximum data value on the axis. It is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1040,7 +1031,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-0.1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Minimum value on the axis. If not set, it is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1058,7 +1049,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximum value on the axis. If not set, it is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1076,7 +1067,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of minimum value on axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1094,7 +1085,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of maximum value on axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1112,7 +1103,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1130,7 +1121,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1148,7 +1139,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Axis title.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1166,7 +1157,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1184,7 +1175,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font settings.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1202,7 +1193,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1220,7 +1211,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1238,7 +1229,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1256,7 +1247,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1274,7 +1265,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1292,7 +1283,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1310,7 +1301,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1328,7 +1319,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1346,7 +1337,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1364,7 +1355,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1382,7 +1373,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Text string.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1400,7 +1391,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Primary unit definition (major units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1418,7 +1409,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1436,7 +1427,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of the unit size.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1454,7 +1445,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1472,7 +1463,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">5</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the unit specified by a requested number of divisions of the axis’ data range. This is used for the automatical determination of the unit size.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1490,7 +1481,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the unit. If AutoUnit is On specified, it will be automatically determined from Divisions and the data range.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1508,7 +1499,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of tick inside the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1526,7 +1517,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of tick outside the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1544,7 +1535,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility of the grid lines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1562,7 +1553,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style settings for the grid lines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1580,7 +1571,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Line3DStyleFull</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line style.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1598,7 +1589,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line thickness.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1616,7 +1607,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.25,</span> <span class="pre">0.25,</span> <span class="pre">0.25}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1634,7 +1625,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility of the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1652,7 +1643,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font settings for the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1670,7 +1661,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1688,7 +1679,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1706,7 +1697,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1724,7 +1715,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1742,7 +1733,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1760,7 +1751,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1778,7 +1769,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1796,7 +1787,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1814,7 +1805,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1832,7 +1823,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1850,7 +1841,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Space between the unit text and the axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1868,7 +1859,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Format settings for the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1886,7 +1877,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1904,7 +1895,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style of the numeric output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1922,7 +1913,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for scaling.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1940,22 +1931,19 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Scaling factor.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
 <div class="section" id="absaxis2">
-<span id="anychart-absaxis2"></span><h3>AbsAxis2<a class="headerlink" href="#absaxis2" title="Permalink to this headline">¶</a></h3>
+<h3>AbsAxis2<a class="headerlink" href="#absaxis2" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AbsAxis2">
-<span id="anychart-absaxis2" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> AbsAxis2 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#AbsAxis2" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Secondary abscissa axis definition.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="absaxis2-visible">
 <span id="anychart-absaxis2-visible"></span><h4>AbsAxis2.Visible<a class="headerlink" href="#absaxis2-visible" title="Permalink to this headline">¶</a></h4>
@@ -1971,7 +1959,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1989,7 +1977,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Minimum data value on the axis. It is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2007,7 +1995,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximum data value on the axis. It is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2025,7 +2013,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-0.05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Minimum value on the axis. If not set, it is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2043,7 +2031,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximum value on the axis. If not set, it is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2061,7 +2049,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of minimum value on axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2079,7 +2067,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of maximum value on axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2097,7 +2085,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2115,7 +2103,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2133,7 +2121,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Axis title.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2151,7 +2139,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2169,7 +2157,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font settings.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2187,7 +2175,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2205,7 +2193,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2223,7 +2211,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2241,7 +2229,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2259,7 +2247,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2277,7 +2265,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2295,7 +2283,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2313,7 +2301,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2331,7 +2319,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2349,7 +2337,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2367,7 +2355,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Text string.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2385,7 +2373,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Primary unit definition (major units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2403,7 +2391,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2421,7 +2409,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of the unit size.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2439,7 +2427,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2457,7 +2445,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">5</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the unit specified by a requested number of divisions of the axis’ data range. This is used for the automatical determination of the unit size.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2475,7 +2463,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.2</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the unit. If AutoUnit is On specified, it will be automatically determined from Divisions and the data range.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2493,7 +2481,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of tick inside the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2511,7 +2499,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of tick outside the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2529,7 +2517,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility of the grid lines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2547,7 +2535,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style settings for the grid lines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2565,7 +2553,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Line3DStyleFull</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line style.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2583,7 +2571,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line thickness.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2601,7 +2589,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.25,</span> <span class="pre">0.25,</span> <span class="pre">0.25}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2619,7 +2607,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility of the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2637,7 +2625,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font settings for the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2655,7 +2643,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2673,7 +2661,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2691,7 +2679,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2709,7 +2697,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2727,7 +2715,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2745,7 +2733,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2763,7 +2751,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2781,7 +2769,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2799,7 +2787,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2817,7 +2805,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2835,7 +2823,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Space between the unit text and the axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2853,7 +2841,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Format settings for the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2871,7 +2859,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2889,7 +2877,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style of the numeric output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2907,7 +2895,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for scaling.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2925,22 +2913,19 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Scaling factor.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
 <div class="section" id="valueaxis">
-<span id="anychart-valueaxis"></span><h3>ValueAxis<a class="headerlink" href="#valueaxis" title="Permalink to this headline">¶</a></h3>
+<h3>ValueAxis<a class="headerlink" href="#valueaxis" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ValueAxis">
-<span id="anychart-valueaxis" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> ValueAxis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ValueAxis" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Value axis definition.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="valueaxis-visible">
 <span id="anychart-valueaxis-visible"></span><h4>ValueAxis.Visible<a class="headerlink" href="#valueaxis-visible" title="Permalink to this headline">¶</a></h4>
@@ -2956,7 +2941,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2974,7 +2959,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Minimum data value on the axis. It is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2992,7 +2977,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximum data value on the axis. It is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3010,7 +2995,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-0.1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Minimum value on the axis. If not set, it is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3028,7 +3013,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximum value on the axis. If not set, it is automatically determined.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3046,7 +3031,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of minimum value on axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3064,7 +3049,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of maximum value on axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3082,7 +3067,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3100,7 +3085,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3118,7 +3103,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Axis title.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3136,7 +3121,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visiblity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3154,7 +3139,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font settings.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3172,7 +3157,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3190,7 +3175,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3208,7 +3193,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3226,7 +3211,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3244,7 +3229,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3262,7 +3247,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3280,7 +3265,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3298,7 +3283,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3316,7 +3301,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3334,7 +3319,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3352,7 +3337,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Text string.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3370,7 +3355,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Primary unit definition (major units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3388,7 +3373,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3406,7 +3391,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for automatic determination of the unit size.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3424,7 +3409,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3442,7 +3427,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">5</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the unit specified by a requested number of divisions of the axis’ data range. This is used for the automatical determination of the unit size.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3460,7 +3445,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.05</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of the unit. If AutoUnit is On specified, it will be automatically determined from Divisions and the data range.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3478,7 +3463,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of tick inside the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3496,7 +3481,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Size of tick outside the plotting area.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3514,7 +3499,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility of the grid lines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3532,7 +3517,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style settings for the grid lines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3550,7 +3535,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Line3DStyleFull</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line style.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3568,7 +3553,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line thickness.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3586,7 +3571,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.25,</span> <span class="pre">0.25,</span> <span class="pre">0.25}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3604,7 +3589,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for visibility of the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3622,7 +3607,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font settings for the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3640,7 +3625,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3658,7 +3643,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3676,7 +3661,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3694,7 +3679,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3712,7 +3697,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3730,7 +3715,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3748,7 +3733,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3766,7 +3751,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3784,7 +3769,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3802,7 +3787,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3820,7 +3805,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Space between the unit text and the axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3838,7 +3823,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Format settings for the unit text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3856,7 +3841,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3874,7 +3859,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style of the numeric output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3892,7 +3877,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for scaling.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3910,10 +3895,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Scaling factor.</p>
 </div></blockquote>
 </div>
 </div>
@@ -3935,7 +3917,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3953,7 +3935,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3971,7 +3953,7 @@ AnyChart.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 </div>
 </div>

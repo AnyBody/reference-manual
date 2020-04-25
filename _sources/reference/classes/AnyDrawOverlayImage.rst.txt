@@ -81,7 +81,7 @@ AnyStyleDrawMaterial
 
 
 
-    { descr | indent(width=4) }
+    Graphical material specification, that overrides the color setting in RGB.
 
 ..
 
@@ -131,7 +131,7 @@ ImageFile
 
 
 
-    { descr | indent(width=4) }
+    The filename of the overlay image file.
 
 ..
 
@@ -187,7 +187,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Visibility setting, which specifies default visibility of the object.
 
 ..
 
@@ -235,7 +235,7 @@ Opacity
 
 
 
-    { descr | indent(width=4) }
+    Opacity setting, which specifies default opacity of the object.
 
 ..
 
@@ -283,7 +283,7 @@ Pickable
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
 
@@ -331,7 +331,7 @@ PickableZOrdering
 
 
 
-    { descr | indent(width=4) }
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
 
@@ -379,7 +379,7 @@ PositionX
 
 
 
-    { descr | indent(width=4) }
+    The X position of the overlay image origin in the view (normalized or pixel-based). View origin is lower left corner
 
 ..
 
@@ -427,7 +427,7 @@ PositionY
 
 
 
-    { descr | indent(width=4) }
+    The Y position of the overlay image origin in the view (normalized or pixel-based). View origin is lower left corner
 
 ..
 
@@ -475,7 +475,7 @@ ImageWidth
 
 
 
-    { descr | indent(width=4) }
+    The width of the overlay image (normalized or pixel-based).
 
 ..
 
@@ -523,7 +523,7 @@ ImageHeight
 
 
 
-    { descr | indent(width=4) }
+    The height of the overlay image (normalized or pixel-based).
 
 ..
 
@@ -571,7 +571,7 @@ PixelBasedSizing
 
 
 
-    { descr | indent(width=4) }
+    Option for whether the image size is in pixels or normalized to the view.
 
 ..
 
@@ -619,7 +619,7 @@ PixelBasedPosition
 
 
 
-    { descr | indent(width=4) }
+    Option for whether the image position is in pixels or normalized to the view.
 
 ..
 
@@ -667,7 +667,7 @@ AutomaticAspectRatio
 
 
 
-    { descr | indent(width=4) }
+    Option for whether the image aspect ratio should be automatically set, based on the source image file. Image size will be determined by p_imagewidth alone.
 
 ..
 
@@ -715,7 +715,7 @@ ImageOrigin
 
 
 
-    { descr | indent(width=4) }
+    The origin position within the overlay image.
 
 ..
 
@@ -765,7 +765,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -806,7 +806,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -847,7 +847,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

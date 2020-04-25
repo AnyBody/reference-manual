@@ -106,7 +106,7 @@ TitleSectionOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for the title section.
 
 ..
 
@@ -154,7 +154,7 @@ ConstSectionOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for the header section containing constant variables.
 
 ..
 
@@ -202,7 +202,7 @@ ConstSectionSaveOptionsOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for class-specific parameters in the Constants section of the output file. Value 'Off' excludes all standard class members, which are irrelelvant in the output file.
 
 ..
 
@@ -250,7 +250,7 @@ VarSectionOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for the variable description section.
 
 ..
 
@@ -298,7 +298,7 @@ ColumnNamesOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for the row containing the column names in the data section.
 
 ..
 
@@ -346,7 +346,7 @@ LinePrefix
 
 
 
-    { descr | indent(width=4) }
+    String containing a line prefix used for all lines of the header section.
 
 ..
 
@@ -394,7 +394,7 @@ ShortenNamesOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for shortening variable names, incl. column names, in the output.
 
 ..
 
@@ -442,7 +442,7 @@ ColumnIDString
 
 
 
-    { descr | indent(width=4) }
+    String used to id columns, i.e., entered in front of column numbers to form a column identifier. If this string is empty the column identifier becomes an integer.
 
 ..
 

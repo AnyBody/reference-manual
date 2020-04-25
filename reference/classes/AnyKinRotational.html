@@ -238,7 +238,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRefFrame.html#anyrefframe"><span class="std std-ref">AnyRefFrame</span></a></div>
 <div class="line"><strong>Number:</strong> 1..2</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The reference frames that are input for the measure.</p>
 </div></blockquote>
 </div>
 </div>
@@ -258,7 +258,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyKinRotationalType.html#anykinrotationaltype"><span class="std std-ref">AnyKinRotationalType</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Coordinate type specification.</p>
 </div></blockquote>
 </div>
 </div>
@@ -279,7 +279,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">z</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>First axis of rotation for RotAxesAngles and primary axis of rotation (normal to the planar motion) for PlanarAngles.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -297,7 +297,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">y</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Second axis of rotation for RotAxesAngles.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -315,7 +315,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">x</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Third axis of rotation for RotAxesAngles.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -333,7 +333,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{{x,</span> <span class="pre">x},</span> <span class="pre">{x,</span> <span class="pre">y},</span> <span class="pre">{x,</span> <span class="pre">z},</span> <span class="pre">{y,</span> <span class="pre">x},</span> <span class="pre">{y,</span> <span class="pre">y},</span> <span class="pre">{y,</span> <span class="pre">z},</span> <span class="pre">{z,</span> <span class="pre">x},</span> <span class="pre">{z,</span> <span class="pre">y},</span> <span class="pre">{z,</span> <span class="pre">z}}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pairs of axes used for which directional cosine outputs are given when Type is DirCosines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -351,7 +351,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for using angular velocity vector at velocity and acceleration level.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -369,7 +369,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for using angular velocity vector in global coordinates at velocity and acceleration level. This requires ‘AngVelOnOff = On’.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -392,7 +392,7 @@ equilibrium is ensured.</p>
  misunderstandings and confusion with ‘Ref’ in AnyKinLinear. Please modify your
  model to remove initialization of ‘Ref’.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>(Deprecated) IMPORTANT: The functionality of ‘Ref’ has been removed, in order to avoid misunderstandings and confusion with ‘Ref’ in AnyKinLinear. Please modify your model to remove initialization of ‘Ref’. In future versions, ‘Ref’ will be removed entirely. Previous description of this member was: Integer numbers that specify the reference system in which geometric vectors are measured, e.g. the angular velocity vector. ‘-1’ is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.</p>
 </div></blockquote>
 </div>
 </div>
@@ -413,7 +413,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -431,7 +431,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -449,7 +449,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -467,7 +467,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -485,7 +485,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -503,7 +503,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -521,7 +521,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -539,7 +539,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -557,7 +557,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -575,7 +575,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -593,7 +593,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -611,7 +611,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -629,7 +629,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">PosVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The position vector, i.e., the current values of the measured quantity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -647,7 +647,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The velocity vector, typically the time-derivative of Pos.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -665,7 +665,7 @@ equilibrium is ensured.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">AccVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The acceleration vector, typically the time-derivative of Vel.</p>
 </div></blockquote>
 </div>
 </div>

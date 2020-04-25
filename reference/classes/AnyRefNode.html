@@ -122,11 +122,11 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
   <!--<div class="section" id="viewrefframe">
-<span id="anyrefnode-viewrefframe"></span><h3>viewRefFrame<a class="headerlink" href="#viewrefframe" title="Permalink to this headline">¶</a></h3>
+<h3>viewRefFrame<a class="headerlink" href="#viewrefframe" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame">
-<span id="anyrefnode-viewrefframe" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> viewRefFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
@@ -144,7 +144,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -162,7 +162,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -180,7 +180,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -198,7 +198,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -216,7 +216,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.4,</span> <span class="pre">0.4,</span> <span class="pre">0.95}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -234,7 +234,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{1.0,</span> <span class="pre">1.0,</span> <span class="pre">1.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Scaling factors for each reference system axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -252,7 +252,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -270,7 +270,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General font setting for the object’s text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -288,7 +288,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -306,7 +306,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -324,7 +324,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -342,7 +342,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -360,7 +360,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -378,7 +378,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -396,7 +396,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -414,7 +414,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -432,7 +432,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -450,10 +450,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -472,7 +469,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Relative position vector.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -490,7 +487,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{{1.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">1.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0}}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Relative rotational transformation matrix (see class AnyRefFrame for a mathematical definition).</p>
 </div></blockquote>
 </div>
 </div>
@@ -511,7 +508,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -529,7 +526,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -547,7 +544,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -565,7 +562,25 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object-time variable.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="anyrefnode-viewrefframe">
+<span id="id2"></span><h3>viewRefFrame<a class="headerlink" href="#anyrefnode-viewrefframe" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame">
+<span id="anyrefnode-viewrefframe" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDrawRefFrame.html#anydrawrefframe"><span class="std std-ref">AnyDrawRefFrame</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -573,7 +588,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-viewrefframe-updconfig"></span><h3>viewRefFrame.UpdConfig<a class="headerlink" href="#viewrefframe-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdConfig">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdConfig">
 <span id="anyrefnode-viewrefframe-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -583,7 +598,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -591,7 +606,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-viewrefframe-upddesign"></span><h3>viewRefFrame.UpdDesign<a class="headerlink" href="#viewrefframe-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdDesign">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdDesign">
 <span id="anyrefnode-viewrefframe-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -601,7 +616,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -609,7 +624,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-viewrefframe-updoutput"></span><h3>viewRefFrame.UpdOutput<a class="headerlink" href="#viewrefframe-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdOutput">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdOutput">
 <span id="anyrefnode-viewrefframe-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -619,7 +634,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -627,7 +642,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-viewrefframe-face"></span><h3>viewRefFrame.Face<a class="headerlink" href="#viewrefframe-face" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.Face">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.Face">
 <span id="anyrefnode-viewrefframe-face" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.Face" title="Permalink to this headline">¶</a>
 <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
@@ -637,7 +652,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Normal direction specification. Outwards normal is defined by the surface triangles’ vertex numbering as ‘0’ means clockwise, ‘1’ means counter-clockwise, ‘-1’ means both sides will be drawn on all object surfaces. Any other value implies automatic selection.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -645,7 +660,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-r"></span><h3>r<a class="headerlink" href="#r" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="r">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="r">
 <span id="anyrefnode-r" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">r</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#r" title="Permalink to this headline">¶</a>
 <span class="member-descr">Position vector of the origin.</span>
@@ -655,7 +670,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">PosVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Position vector of the origin.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -663,7 +678,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-rdot"></span><h3>rDot<a class="headerlink" href="#rdot" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="rDot">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="rDot">
 <span id="anyrefnode-rdot" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">rDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDot" title="Permalink to this headline">¶</a>
 <span class="member-descr">The velocity vector.</span>
@@ -673,7 +688,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The velocity vector.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -681,7 +696,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-rddot"></span><h3>rDDot<a class="headerlink" href="#rddot" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="rDDot">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="rDDot">
 <span id="anyrefnode-rddot" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">rDDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDDot" title="Permalink to this headline">¶</a>
 <span class="member-descr">The acceleration vector.</span>
@@ -691,7 +706,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">AccVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The acceleration vector.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -699,7 +714,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <span id="anyrefnode-axes"></span><h3>Axes<a class="headerlink" href="#axes" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Axes">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Axes">
 <span id="anyrefnode-axes" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Axes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Axes" title="Permalink to this headline">¶</a>
 <span class="member-descr">Rotational transformation matrix (see class AnyRefFrame for a mathematical...</span>
@@ -709,7 +724,7 @@ creates a small reference frame drawing with x,y,z axes.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">PosVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0},</span> <span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Rotational transformation matrix (see class AnyRefFrame for a mathematical definition).</p>
 </div></blockquote>
 </div>
 </div>

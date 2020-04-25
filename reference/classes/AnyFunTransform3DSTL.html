@@ -41,7 +41,7 @@
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="AnyFunTransitionType" href="AnyFunTransitionType.html" />
+    <link rel="next" title="AnyFunVecArgFind" href="AnyFunVecArgFind.html" />
     <link rel="prev" title="AnyFunTransform3DRBFdyn" href="AnyFunTransform3DRBFdyn.html" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
   </head><body>
@@ -57,7 +57,7 @@
           <a href="../../contents.html" title="Table Of Contents"
              accesskey="C">toc</a> &nbsp; &nbsp;</li>
         <li class="right" >
-          <a href="AnyFunTransitionType.html" title="AnyFunTransitionType"
+          <a href="AnyFunVecArgFind.html" title="AnyFunVecArgFind"
              accesskey="N">next</a> &nbsp; &nbsp;</li>
         <li class="right" >
           <a href="AnyFunTransform3DRBFdyn.html" title="AnyFunTransform3DRBFdyn"
@@ -171,7 +171,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of landmark points to construct RBF transform.</p>
 </div></blockquote>
 </div>
 </div>
@@ -192,18 +192,18 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="rbfdef">
-<span id="anyfuntransform3dstl-rbfdef"></span><h3>RBFDef<a class="headerlink" href="#rbfdef" title="Permalink to this headline">¶</a></h3>
+<h3>RBFDef<a class="headerlink" href="#rbfdef" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RBFDef">
-<span id="anyfuntransform3dstl-rbfdef" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> RBFDef </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#RBFDef" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Folder with RBF settings.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="rbfdef-type">
 <span id="anyfuntransform3dstl-rbfdef-type"></span><h4>RBFDef.Type<a class="headerlink" href="#rbfdef-type" title="Permalink to this headline">¶</a></h4>
@@ -219,7 +219,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">RBF_Gaussian</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Type of the radial basis function to use.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -237,10 +237,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Parameter used in the given radial basis function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -259,7 +256,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Source geometry filename, either STL or AnySurf file.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -277,7 +274,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{1.0,</span> <span class="pre">1.0,</span> <span class="pre">1.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Scaling law (3D vector) for the source surface.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -295,7 +292,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -313,7 +310,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Target geometry filename, either STL or AnySurf file.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -331,7 +328,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{1.0,</span> <span class="pre">1.0,</span> <span class="pre">1.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Scaling law (3D vector) for the target surface.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -349,7 +346,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -367,7 +364,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>A switch for using closest-point matching; alternatively vertex-to-vertex matching is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -385,7 +382,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>A switch to notify the system whether it should use matched surface-couples from the source and target sets or search closest points on all surfaces.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -403,7 +400,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">-1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Degree of the polynomial. Negative values mean that no polynomial term is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -421,18 +418,18 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Coefficients for the polynomial function. Each term of the polynomial must be given by three parameters, one for each direction in space, i.e., the PolynomCoefs are given as a (m x 3) matrix. The number of rows, m, must match PolynomDegree; degree zero means m=1 (the constant term), positive degrees mean m=1+3*degree, and negative degrees mean m=0.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="boundingbox">
-<span id="anyfuntransform3dstl-boundingbox"></span><h3>BoundingBox<a class="headerlink" href="#boundingbox" title="Permalink to this headline">¶</a></h3>
+<h3>BoundingBox<a class="headerlink" href="#boundingbox" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="BoundingBox">
-<span id="anyfuntransform3dstl-boundingbox" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBox </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#BoundingBox" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Folder with bounding box settings.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="boundingbox-type">
 <span id="anyfuntransform3dstl-boundingbox-type"></span><h4>BoundingBox.Type<a class="headerlink" href="#boundingbox-type" title="Permalink to this headline">¶</a></h4>
@@ -448,7 +445,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">BB_Cartesian</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines a way to compute the bounding box.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -466,7 +463,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{2.0,</span> <span class="pre">2.0,</span> <span class="pre">2.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines a scale factor vector in selected axes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -484,10 +481,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{1,</span> <span class="pre">1,</span> <span class="pre">1}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Defines a number of bounding box subdivisions in selected axes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -506,7 +500,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>A switch to use bounding box points for the RBF transform construction. Please note that the source and target surfaces have to be registered for intended use (please use AnyFunTransform3DLin2 or other as a pretransform).</p>
 </div></blockquote>
 </div>
 </div>
@@ -527,7 +521,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Function for 3D vectors (of floating point values).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -545,7 +539,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>A special folder containing the argument list of the function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -563,7 +557,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -581,7 +575,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -599,7 +593,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -617,7 +611,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -635,7 +629,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Positions of points defining the bounding box.</p>
 </div></blockquote>
 </div>
 </div>
@@ -712,7 +706,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
           <a href="../../contents.html" title="Table Of Contents"
              >toc</a> &nbsp; &nbsp;</li>
         <li class="right" >
-          <a href="AnyFunTransitionType.html" title="AnyFunTransitionType"
+          <a href="AnyFunVecArgFind.html" title="AnyFunVecArgFind"
              >next</a> &nbsp; &nbsp;</li>
         <li class="right" >
           <a href="AnyFunTransform3DRBFdyn.html" title="AnyFunTransform3DRBFdyn"

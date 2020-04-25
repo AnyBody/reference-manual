@@ -95,8 +95,8 @@ The vector is attached to a reference frame (AnyRefFrame or derived class).</p>
 object. First priority is given to AnyRefFrame members and if none such exists the owner
 is taken. If neither are found it is an error.</p>
 <p> </p>
-<table class="colwidths-given plain docutils align-default" id="id2">
-<caption><span class="caption-text">Demo examples related to AnyDrawVector</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given plain docutils align-default" id="id3">
+<caption><span class="caption-text">Demo examples related to AnyDrawVector</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 75%" />
@@ -129,7 +129,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyStyleDrawMaterial.html#anystyledrawmaterial"><span class="std std-ref">AnyStyleDrawMaterial</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Graphical material specification, that overrides the color setting in RGB.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -146,7 +146,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRefFrame.html#anyrefframe"><span class="std std-ref">AnyRefFrame</span></a></div>
 <div class="line"><strong>Number:</strong> 0..1</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Definition of the reference frame the vector is attached to.</p>
 </div></blockquote>
 </div>
 </div>
@@ -166,7 +166,41 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The vector to be drawn.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="line">
+<span id="anydrawvector-line"></span><h3>Line<a class="headerlink" href="#line" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line">
+<span id="anydrawvector-line" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Line</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
+<span class="member-descr">Line style folder.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyStyleDrawLineWithCaps.html#anystyledrawlinewithcaps"><span class="std std-ref">AnyStyleDrawLineWithCaps</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+</div>
+<p>Line style folder.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="line-thickness">
+<span id="anydrawvector-line-thickness"></span><h3>Line.Thickness<a class="headerlink" href="#line-thickness" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Thickness">
+<span id="anydrawvector-line-thickness" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Line.Thickness</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Thickness" title="Permalink to this headline">¶</a>
+<span class="member-descr">Line thickness.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+</div>
+<p>Line thickness.</p>
 </div></blockquote>
 </div>
 </div>
@@ -187,7 +221,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -205,7 +239,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -223,7 +257,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -241,7 +275,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -259,7 +293,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Specifies whether the vector points away from reference frame or alternative points towards it.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -277,18 +311,18 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Specifies whether the vector is given in global coordinates or alternatively in local coordinates of the reference frame.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
-<div class="section" id="line">
-<span id="anydrawvector-line"></span><h3>Line<a class="headerlink" href="#line" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="id2">
+<h3>Line<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line">
-<span id="anydrawvector-line" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> Line </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Line style folder.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="line-style">
 <span id="anydrawvector-line-style"></span><h4>Line.Style<a class="headerlink" href="#line-style" title="Permalink to this headline">¶</a></h4>
@@ -304,25 +338,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Line3DStyleFull</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="line-thickness">
-<span id="anydrawvector-line-thickness"></span><h4>Line.Thickness<a class="headerlink" href="#line-thickness" title="Permalink to this headline">¶</a></h4>
--->
-
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Thickness">
-<span id="anydrawvector-line-thickness" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#Line.Thickness" title="Permalink to this headline">¶</a>
-<span class="member-descr">Line thickness.</span>
-</h4><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.005</span></code></div>
-</div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line style.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -330,17 +346,17 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-rgb"></span><h4>Line.RGB<a class="headerlink" href="#line-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.RGB">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.RGB">
 <span id="anydrawvector-line-rgb" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#Line.RGB" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.RGB" title="Permalink to this headline">¶</a>
 <span class="member-descr">Color in RGB values between 0 and 1.</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0}</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -348,7 +364,7 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-start"></span><h4>Line.Start<a class="headerlink" href="#line-start" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start">
 <span id="anydrawvector-line-start" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.Start" title="Permalink to this headline">¶</a>
 <span class="member-descr">Style folder for starting cap of line.</span>
@@ -358,7 +374,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style folder for starting cap of line.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -366,7 +382,7 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-start-style"></span><h4>Line.Start.Style<a class="headerlink" href="#line-start-style" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Style">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Style">
 <span id="anydrawvector-line-start-style" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleNone </span><a class="headerlink" href="#Line.Start.Style" title="Permalink to this headline">¶</a>
 <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
@@ -376,7 +392,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Line3DCapStyleNone</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -384,17 +400,17 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-start-rgb"></span><h4>Line.Start.RGB<a class="headerlink" href="#line-start-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.RGB">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.RGB">
 <span id="anydrawvector-line-start-rgb" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#Line.Start.RGB" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.Start.RGB" title="Permalink to this headline">¶</a>
 <span class="member-descr">Color in RGB values between 0 and 1.</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0}</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -402,17 +418,17 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-start-thickness"></span><h4>Line.Start.Thickness<a class="headerlink" href="#line-start-thickness" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Thickness">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Thickness">
 <span id="anydrawvector-line-start-thickness" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.Start.Thickness" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Thickness" title="Permalink to this headline">¶</a>
 <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Cap thickness (must be larger than line thickness).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -420,17 +436,17 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-start-length"></span><h4>Line.Start.Length<a class="headerlink" href="#line-start-length" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Length">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Length">
 <span id="anydrawvector-line-start-length" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.Start.Length" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Length" title="Permalink to this headline">¶</a>
 <span class="member-descr">Cap length.</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Cap length.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -438,7 +454,7 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-end"></span><h4>Line.End<a class="headerlink" href="#line-end" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End">
 <span id="anydrawvector-line-end" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.End" title="Permalink to this headline">¶</a>
 <span class="member-descr">Style folder for ending cap of line.</span>
@@ -448,7 +464,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Style folder for ending cap of line.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -456,7 +472,7 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-end-style"></span><h4>Line.End.Style<a class="headerlink" href="#line-end-style" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Style">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Style">
 <span id="anydrawvector-line-end-style" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleNone </span><a class="headerlink" href="#Line.End.Style" title="Permalink to this headline">¶</a>
 <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
@@ -466,7 +482,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Line3DCapStyleNone</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -474,17 +490,17 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-end-rgb"></span><h4>Line.End.RGB<a class="headerlink" href="#line-end-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.RGB">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.RGB">
 <span id="anydrawvector-line-end-rgb" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#Line.End.RGB" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.End.RGB" title="Permalink to this headline">¶</a>
 <span class="member-descr">Color in RGB values between 0 and 1.</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">1.0}</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -492,17 +508,17 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-end-thickness"></span><h4>Line.End.Thickness<a class="headerlink" href="#line-end-thickness" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Thickness">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Thickness">
 <span id="anydrawvector-line-end-thickness" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.End.Thickness" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Thickness" title="Permalink to this headline">¶</a>
 <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Cap thickness (must be larger than line thickness).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -510,20 +526,17 @@ is taken. If neither are found it is an error.</p>
 <span id="anydrawvector-line-end-length"></span><h4>Line.End.Length<a class="headerlink" href="#line-end-length" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Length">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Length">
 <span id="anydrawvector-line-end-length" style=""></span>
-<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.End.Length" title="Permalink to this headline">¶</a>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Length" title="Permalink to this headline">¶</a>
 <span class="member-descr">Cap length.</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Cap length.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -542,7 +555,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Text to be associated with the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -560,18 +573,18 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Relative position of text. Typical values should be between 0 and 1, which will position the text accordingly along the line.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="textfont">
-<span id="anydrawvector-textfont"></span><h3>TextFont<a class="headerlink" href="#textfont" title="Permalink to this headline">¶</a></h3>
+<h3>TextFont<a class="headerlink" href="#textfont" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TextFont">
-<span id="anydrawvector-textfont" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Font settings for text.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="textfont-rgb">
 <span id="anydrawvector-textfont-rgb"></span><h4>TextFont.RGB<a class="headerlink" href="#textfont-rgb" title="Permalink to this headline">¶</a></h4>
@@ -587,7 +600,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -605,7 +618,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Times</span> <span class="pre">New</span> <span class="pre">Roman&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -623,7 +636,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -641,7 +654,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">50</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -659,7 +672,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -677,7 +690,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -695,7 +708,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -713,7 +726,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -731,7 +744,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -749,10 +762,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -771,7 +781,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for activating drawing of coordinate indicators.</p>
 </div></blockquote>
 </div>
 </div>
@@ -792,7 +802,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -810,7 +820,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -828,7 +838,7 @@ is taken. If neither are found it is an error.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 </div>
 </div>

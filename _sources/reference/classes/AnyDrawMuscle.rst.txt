@@ -97,7 +97,7 @@ AnyStyleDrawMaterial
 
 
 
-    { descr | indent(width=4) }
+    Graphical material specification, that overrides the color setting in RGB.
 
 ..
 
@@ -156,7 +156,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Visibility setting, which specifies default visibility of the object.
 
 ..
 
@@ -204,7 +204,7 @@ Opacity
 
 
 
-    { descr | indent(width=4) }
+    Opacity setting, which specifies default opacity of the object.
 
 ..
 
@@ -252,7 +252,7 @@ Pickable
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
 
@@ -300,7 +300,7 @@ PickableZOrdering
 
 
 
-    { descr | indent(width=4) }
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
 
@@ -338,7 +338,7 @@ RGB
 
 
     | **Class type:**  :ref:`AnyRGBs`
-    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.5546875, 0.1015625, 0.1171875}``
     
 
@@ -348,7 +348,7 @@ RGB
 
 
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.
 
 ..
 
@@ -396,7 +396,7 @@ Transparency
 
 
 
-    { descr | indent(width=4) }
+    Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
 
@@ -446,7 +446,10 @@ DrawOnOff
 
 
 
-    { descr | indent(width=4) }
+    Integer value that controls if to draw the muscle or not 
+    Options are:
+    0: Do not draw the muscle
+    1: Draw the muscle
 
 ..
 
@@ -494,7 +497,11 @@ Bulging
 
 
 
-    { descr | indent(width=4) }
+    Integer value that specifies that the muscle bulges according to:1: The muscle activity.
+    2: The current strength relative to the nominal strength.  
+    3: The actual force compared to the nominal strength. 
+    4: Obtaining constant volume of the muscle.
+    Otherwise, the muscle will have constant radius given by the nominal strength of the muscle and the member MaxStress.
 
 ..
 
@@ -542,7 +549,12 @@ ColorScale
 
 
 
-    { descr | indent(width=4) }
+    Integer value that controls the color interpolation between the color in RGBColorScale and RGB. 
+    Options are:
+    1: The muscle activity.
+    2: The current strength relative to the nominal strength. 
+    3: The actual force compared to the nominal strength.
+    Otherwise, the muscle will have the color given in RGB.
 
 ..
 
@@ -590,7 +602,7 @@ RGBColorScale
 
 
 
-    { descr | indent(width=4) }
+    Color used for color scaling, values should be given in the range 0 to 1.
 
 ..
 
@@ -638,7 +650,7 @@ MaxStress
 
 
 
-    { descr | indent(width=4) }
+    MaxStress is the maximum allowed stress in the muscle used for estimating the visual thickness of the muscles. The default radius of the muscle is determined based on the strength and this MaxStress value.
 
 ..
 
@@ -686,7 +698,7 @@ DrawScaleOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for turning on multiple-color color scaling.
 
 ..
 
@@ -704,8 +716,6 @@ DrawScaleOnOff
      </div> <!--
 ..
 
-.. _AnyDrawMuscle.DrawScale:
-
 DrawScale
 ============
 
@@ -714,10 +724,10 @@ DrawScale
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawScale">
-    <span id="anydrawmuscle-drawscale" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> DrawScale </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#DrawScale" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Drawing material style settings that defines the multi-color coloring function.</span>
     </h3>
 
 ..
@@ -760,7 +770,7 @@ DrawScale.EnableCreasing
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    If set to Off, the creasing angle is ignored for this material.
 
 ..
 
@@ -800,7 +810,7 @@ DrawScale.CreasingAngle
     | **Default:** ``0.524``
         
 
-    { descr | indent(width=4) }
+    The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.
 
 ..
 
@@ -840,7 +850,7 @@ DrawScale.EnableWireframe
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    If set to On, surfaces with this material will be rendered as wireframe.
 
 ..
 
@@ -880,7 +890,7 @@ DrawScale.EnableSmoothing
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    If set to On, smoothing of surfaces are enabled for this material.
 
 ..
 
@@ -920,7 +930,7 @@ DrawScale.Param
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Parameter controling the output. It must be initialized with an expression for the actual value.
 
 ..
 
@@ -960,7 +970,7 @@ DrawScale.ParamArray
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Parameter values for which corresponding RGB and opacity values are given in RGBArray and OpacityArray, respectively.
 
 ..
 
@@ -1000,7 +1010,7 @@ DrawScale.RGBArray
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    RGB color values corresponding to parameter values in ParamArray.
 
 ..
 
@@ -1040,7 +1050,7 @@ DrawScale.OpacityArray
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Opacity values corresponding to parameter values in ParamArray.
 
 ..
 
@@ -1050,7 +1060,7 @@ DrawScale.OpacityArray
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1100,7 +1110,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1141,7 +1151,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1182,7 +1192,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1223,7 +1233,7 @@ Thickness
 
 
 
-    { descr | indent(width=4) }
+    Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.
 
 ..
 

@@ -97,7 +97,7 @@ Type
 
 
 
-    { descr | indent(width=4) }
+    Interpolation type.
 
 ..
 
@@ -153,7 +153,7 @@ BsplineOrder
 
 
 
-    { descr | indent(width=4) }
+    Order of B-spline interpolation. Notice that this number defines the order of continuity for the resulting function. Default value is set to provide continuity of second order derivatives.
 
 ..
 
@@ -201,7 +201,7 @@ T
 
 
 
-    { descr | indent(width=4) }
+    Time (parameter) data points.
 
 ..
 
@@ -249,7 +249,7 @@ Data
 
 
 
-    { descr | indent(width=4) }
+    Matrix of data points. Each row contains the data points for one component of the return vector.
 
 ..
 
@@ -297,7 +297,7 @@ FileName
 
 
 
-    { descr | indent(width=4) }
+    Name of a text file with data points in space-separated columns. The first column must hold T and the following must correspond to the rows of Data. Comments can be entered into the data file in lines that do not start with a number and after the correct number of values.
 
 ..
 
@@ -345,7 +345,7 @@ FileErrorContinueOnOff
 
 
 
-    { descr | indent(width=4) }
+    'On' allows data file loading to continue on some errors. These are typically when the number data points does not match the expected number. Error messages are sent anyway and you should not expect data to work properly.
 
 ..
 
@@ -395,7 +395,7 @@ Function
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -436,7 +436,7 @@ Function.ArgList
 
 
 
-    { descr | indent(width=4) }
+    A special folder containing the argument list of the function.
 
 ..
 
@@ -477,7 +477,7 @@ Function.ArgList.Arg
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -518,7 +518,7 @@ Function.Return
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -559,7 +559,7 @@ UpdFunData
 
 
 
-    { descr | indent(width=4) }
+    Data update counter that counts number of data configuration processes.
 
 ..
 

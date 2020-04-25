@@ -62,6 +62,53 @@ Description
 
 
 
+*******************************
+Required initialization members
+*******************************
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyMechStudyBase.Gravity:
+
+Gravity
+==========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Gravity">
+    <span id="anymechstudybase-gravity" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Gravity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Gravity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The acceleration of gravity.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVec3`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+
+
+
+    The acceleration of gravity.
+
+..
+
+
+
+
+
 
 
 
@@ -110,7 +157,7 @@ MechObjectExclude
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to mechnical objects to exclude from the study.
 
 ..
 
@@ -158,7 +205,7 @@ tStart
 
 
 
-    { descr | indent(width=4) }
+    Initial time.
 
 ..
 
@@ -206,7 +253,7 @@ tEnd
 
 
 
-    { descr | indent(width=4) }
+    Final time.
 
 ..
 
@@ -254,7 +301,7 @@ nStep
 
 
 
-    { descr | indent(width=4) }
+    Number of equally spaced time steps (plus one). Both tStart and tEnd are counted as time steps.
 
 ..
 
@@ -302,7 +349,7 @@ tArray
 
 
 
-    { descr | indent(width=4) }
+    Array of output-time values. This provides an alternative input to the even spacing obtained by setting nStep, tStart, and tEnd.
 
 ..
 
@@ -320,8 +367,6 @@ tArray
      </div> <!--
 ..
 
-.. _AnyMechStudyBase.ReferenceFrame:
-
 ReferenceFrame
 =================
 
@@ -330,8 +375,8 @@ ReferenceFrame
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ReferenceFrame">
-    <span id="anymechstudybase-referenceframe" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> ReferenceFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ReferenceFrame" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
     </h3>
@@ -376,7 +421,7 @@ ReferenceFrame.InertialRef
     | **Default:** ``None``
         
 
-    { descr | indent(width=4) }
+    Pointer to the inertial reference frame. Used if a moving frame is used as basis for the model
 
 ..
 
@@ -386,7 +431,7 @@ ReferenceFrame.InertialRef
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -404,54 +449,6 @@ ReferenceFrame.InertialRef
      </div></div> <!--
 ..
 
-.. _AnyMechStudyBase.Gravity:
-
-Gravity
-==========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Gravity">
-    <span id="anymechstudybase-gravity" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Gravity </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Gravity" title="Permalink to this headline">¶</a>
-    <span class="member-descr">The acceleration of gravity.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVec3`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{0.0, 0.0, 0.0}``
-    
-
-    
-    
-    
-
-
-
-    { descr | indent(width=4) }
-
-..
-
-
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-     </div> <!--
-..
-
 Replay
 =========
 
@@ -460,10 +457,10 @@ Replay
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Replay </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Operation that replay previously calculated results stored in the Output...</span>
     </h3>
 
 ..
@@ -506,7 +503,7 @@ Replay.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -546,7 +543,7 @@ Replay.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -586,7 +583,7 @@ Replay.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -626,7 +623,7 @@ Replay.Settings.DisplayPriority
     | **Default:** ``PriorityLow``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -666,7 +663,7 @@ Replay.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -706,7 +703,7 @@ Replay.PostProcessingOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch that controls whether post-processing of symbolic expressions should be carried out.
 
 ..
 
@@ -716,7 +713,7 @@ Replay.PostProcessingOnOff
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -744,7 +741,7 @@ tArrayOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-deprecated" id="tArrayOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="tArrayOnOff">
     <span id="anymechstudybase-tarrayonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> tArrayOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#tArrayOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">(Deprecated) Switch for whether to use tArray as definition of output-times...</span>
@@ -770,7 +767,7 @@ tArrayOnOff
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) Switch for whether to use tArray as definition of output-times or to use even spacing given by nStep, tStart and tEnd.
 
 ..
 
@@ -820,7 +817,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -861,7 +858,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -902,7 +899,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -943,7 +940,7 @@ Output
 
 
 
-    { descr | indent(width=4) }
+    Folder that holds the result of the latest executed analysis (operation).
 
 ..
 
@@ -984,7 +981,7 @@ Output.Abscissa
 
 
 
-    { descr | indent(width=4) }
+    Folder where the values of the abscissa/input parameters are stored.
 
 ..
 
@@ -1025,7 +1022,7 @@ Output.Abscissa.StateCountCurrent
 
 
 
-    { descr | indent(width=4) }
+    Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).
 
 ..
 
@@ -1066,7 +1063,7 @@ Output.Abscissa.StateCountData
 
 
 
-    { descr | indent(width=4) }
+    Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.
 
 ..
 
@@ -1107,7 +1104,7 @@ Output.Abscissa.t
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1148,7 +1145,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Time.
 
 ..
 
@@ -1189,7 +1186,7 @@ iStep
 
 
 
-    { descr | indent(width=4) }
+    Index of the current time step.
 
 ..
 
@@ -1230,7 +1227,7 @@ Upd_tArray
 
 
 
-    { descr | indent(width=4) }
+    Update counter counting updates of tArray's dependency of nStep, tStart and tEnd.
 
 ..
 
@@ -1271,7 +1268,7 @@ KinematicError
 
 
 
-    { descr | indent(width=4) }
+    Current value of the kinematic error.
 
 ..
 
@@ -1312,7 +1309,7 @@ Ekin
 
 
 
-    { descr | indent(width=4) }
+    Current kinematic energy of the system.
 
 ..
 
@@ -1353,7 +1350,7 @@ Epot
 
 
 
-    { descr | indent(width=4) }
+    Current potential energy of the system.
 
 ..
 
@@ -1394,7 +1391,7 @@ Emech
 
 
 
-    { descr | indent(width=4) }
+    Current mechanical energy of the system (=Ekin+Epot).
 
 ..
 
@@ -1435,7 +1432,7 @@ Pmech
 
 
 
-    { descr | indent(width=4) }
+    Current mechanical power applied to the system.
 
 ..
 
@@ -1476,7 +1473,7 @@ Replay
 
 
 
-    { descr | indent(width=4) }
+    Operation that replay previously calculated results stored in the Output folder. It also replays data in the Output folder if they are imported from an output storage file. Replaying means to transfer data from the Output folder back into their original value objects in the model. This restores all saved value as they were upon the time of calculation. The Replay operation executes the same number of time steps as the original simulation.
 
 ..
 
@@ -1517,7 +1514,7 @@ Replay.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1558,7 +1555,7 @@ Replay.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1599,7 +1596,7 @@ Replay.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

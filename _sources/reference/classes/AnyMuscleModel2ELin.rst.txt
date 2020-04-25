@@ -99,7 +99,7 @@ F0
 
 
 
-    { descr | indent(width=4) }
+    The nominal strength, i.e., the maximal isometric muscle force.
 
 ..
 
@@ -140,7 +140,7 @@ Lt0
 
 
 
-    { descr | indent(width=4) }
+    Nominal tendon length.
 
 ..
 
@@ -181,7 +181,7 @@ V0
 
 
 
-    { descr | indent(width=4) }
+    Maximum contraction velocity.
 
 ..
 
@@ -237,7 +237,7 @@ Lf0
 
 
 
-    { descr | indent(width=4) }
+    Muscle fiber length. In muscle models with length-varying strength, this is the optimal fiber length. Zero or negative lengths are ignored.
 
 ..
 
@@ -285,7 +285,7 @@ Vol0
 
 
 
-    { descr | indent(width=4) }
+    Volume of the muscle fibers, which is used during muscle recruitment. Zero or negative volumes are ignored.
 
 ..
 
@@ -333,7 +333,7 @@ Lfbar
 
 
 
-    { descr | indent(width=4) }
+    Nominal fiber length. Deprecated, use Lf0.
 
 ..
 
@@ -381,7 +381,7 @@ Epsilon0
 
 
 
-    { descr | indent(width=4) }
+    Nominal tendon strain, i.e., the strain at the isometric muscle force in the serial elastic element.
 
 ..
 
@@ -429,7 +429,7 @@ Epsilonbar
 
 
 
-    { descr | indent(width=4) }
+    Nominal tendon strain, i.e., the strain at the isometric muscle force in the serial elastic element. Deprecated, use Epsilon0.
 
 ..
 
@@ -479,7 +479,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -520,7 +520,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -561,7 +561,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -602,7 +602,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 

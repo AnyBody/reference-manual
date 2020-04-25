@@ -99,7 +99,7 @@ AnyMuscleModel
 
 
 
-    { descr | indent(width=4) }
+    A muscle model that defines the strength and passive properties of this muscle.
 
 ..
 
@@ -138,7 +138,7 @@ AnyRefFrame
 
 
 
-    { descr | indent(width=4) }
+    Reference frames that define the via-points.
 
 ..
 
@@ -177,7 +177,7 @@ AnySurface
 
 
 
-    { descr | indent(width=4) }
+    The surfaces that may be obstacles on the muscle's path.
 
 ..
 
@@ -203,6 +203,47 @@ Required initialization members
     <!--
 ..
 
+.. _AnyShortestPathMuscle.SPLine:
+
+SPLine
+=========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine">
+    <span id="anyshortestpathmuscle-spline" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">SPLine</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Kinematic measure of the length of the muscle tendon unit.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyKinSPLine`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+
+
+
+    Kinematic measure of the length of the muscle tendon unit.
+
+..
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyShortestPathMuscle.SPLine.StringMesh:
 
 SPLine.StringMesh
@@ -213,7 +254,7 @@ SPLine.StringMesh
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.StringMesh">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.StringMesh">
     <span id="anyshortestpathmuscle-spline-stringmesh" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.StringMesh</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.StringMesh" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of discretization points on each string segment.</span>
@@ -227,7 +268,7 @@ SPLine.StringMesh
 
 
 
-    { descr | indent(width=4) }
+    Number of discretization points on each string segment.
 
 ..
 
@@ -283,7 +324,7 @@ MetabModel
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -312,7 +353,7 @@ SPLine
     <div class="html-toggle member-entries even section collapsed object-appearance-state-detailed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SPLine" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Kinematic measure of the length of the muscle tendon unit.</span>
     </h3>
 
 ..
@@ -331,46 +372,6 @@ SPLine
     <!--
 ..
 
-.. _AnyShortestPathMuscle.SPLine.StringRadius:
-
-SPLine.StringRadius
-----------------------
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.StringRadius">
-    <span id="anyshortestpathmuscle-spline-stringradius" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.StringRadius </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#SPLine.StringRadius" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h4>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.0``
-        
-
-    { descr | indent(width=4) }
-
-..
-
-
-
-    
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyShortestPathMuscle.SPLine.InitWrapPosVectors:
 
 SPLine.InitWrapPosVectors
@@ -381,7 +382,7 @@ SPLine.InitWrapPosVectors
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosVectors">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosVectors">
     <span id="anyshortestpathmuscle-spline-initwrapposvectors" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosVectors </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SPLine.InitWrapPosVectors" title="Permalink to this headline">¶</a>
     <span class="member-descr">An array of 3-D vectors that specify the initial shape of the string. The...</span>
@@ -395,7 +396,7 @@ SPLine.InitWrapPosVectors
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    An array of 3-D vectors that specify the initial shape of the string. The vectors are ordered as rows of a matrix. For each line segment two vectors must be specified. They are defining two points relative to the line segment's origin and insertion nodes and the curve's initial shape will be three straight lines; from the origin to the first point, then to the second, and finally to the insertion point.
 
 ..
 
@@ -421,7 +422,7 @@ SPLine.InitWrapPosVecArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosVecArr">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosVecArr">
     <span id="anyshortestpathmuscle-spline-initwrapposvecarr" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosVecArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SPLine.InitWrapPosVecArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object pointer array that must collect pointers to the initial position...</span>
@@ -435,7 +436,7 @@ SPLine.InitWrapPosVecArr
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
 
 ..
 
@@ -461,7 +462,7 @@ SPLine.InitWrapPosOnlyOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosOnlyOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosOnlyOnOff">
     <span id="anyshortestpathmuscle-spline-initwrapposonlyonoff" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosOnlyOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#SPLine.InitWrapPosOnlyOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether to use initial position only or carry out the wrapping...</span>
@@ -475,7 +476,7 @@ SPLine.InitWrapPosOnlyOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
 
 ..
 
@@ -501,7 +502,7 @@ SPLine.InitWrapPosForEachStepOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosForEachStepOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosForEachStepOnOff">
     <span id="anyshortestpathmuscle-spline-initwrapposforeachsteponoff" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosForEachStepOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#SPLine.InitWrapPosForEachStepOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch to use the initial condition vectors as starting point in each time step..</span>
@@ -515,87 +516,7 @@ SPLine.InitWrapPosForEachStepOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
-
-..
-
-
-
-    
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyShortestPathMuscle.SPLine.SolverVersion:
-
-SPLine.SolverVersion
------------------------
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.SolverVersion">
-    <span id="anyshortestpathmuscle-spline-solverversion" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverVersion </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#SPLine.SolverVersion" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h4>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``2.0``
-        
-
-    { descr | indent(width=4) }
-
-..
-
-
-
-    
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyShortestPathMuscle.SPLine.ContactStiffness:
-
-SPLine.ContactStiffness
---------------------------
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.ContactStiffness">
-    <span id="anyshortestpathmuscle-spline-contactstiffness" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ContactStiffness </span><span class="member-title-equal">=</span><span class="member-title-default"> 10.0 </span><a class="headerlink" href="#SPLine.ContactStiffness" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h4>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVar`
-    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
-    | **Default:** ``10.0``
-        
-
-    { descr | indent(width=4) }
+    Switch to use the initial condition vectors as starting point in each time step..
 
 ..
 
@@ -621,7 +542,7 @@ SPLine.RelTol
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.RelTol">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.RelTol">
     <span id="anyshortestpathmuscle-spline-reltol" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RelTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-08 </span><a class="headerlink" href="#SPLine.RelTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Relative tolerance for the change of the string that is used to determine...</span>
@@ -635,7 +556,7 @@ SPLine.RelTol
     | **Default:** ``1e-08``
         
 
-    { descr | indent(width=4) }
+    Relative tolerance for the change of the string that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
 
 ..
 
@@ -661,7 +582,7 @@ SPLine.AbsTol
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.AbsTol">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.AbsTol">
     <span id="anyshortestpathmuscle-spline-abstol" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AbsTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-06 </span><a class="headerlink" href="#SPLine.AbsTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Absolute tolerance for the change of positions of wrapping points that is...</span>
@@ -675,7 +596,7 @@ SPLine.AbsTol
     | **Default:** ``1e-06``
         
 
-    { descr | indent(width=4) }
+    Absolute tolerance for the change of positions of wrapping points that is used to determine whether the solution is acceptable.
 
 ..
 
@@ -701,7 +622,7 @@ SPLine.AugLagCoef
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.AugLagCoef">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.AugLagCoef">
     <span id="anyshortestpathmuscle-spline-auglagcoef" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AugLagCoef </span><span class="member-title-equal">=</span><span class="member-title-default"> 1000.0 </span><a class="headerlink" href="#SPLine.AugLagCoef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coefficient for penalty term in the Augmented Lagragian method. Increasing...</span>
@@ -715,7 +636,7 @@ SPLine.AugLagCoef
     | **Default:** ``1000.0``
         
 
-    { descr | indent(width=4) }
+    Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis.
 
 ..
 
@@ -741,9 +662,9 @@ SPLine.MaxIteration
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.MaxIteration">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.MaxIteration">
     <span id="anyshortestpathmuscle-spline-maxiteration" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 500 </span><a class="headerlink" href="#SPLine.MaxIteration" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 100 </span><a class="headerlink" href="#SPLine.MaxIteration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum number of interation in line wrapping solver. It can be increased if...</span>
     </h4>
 
@@ -752,10 +673,10 @@ SPLine.MaxIteration
 
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``500``
+    | **Default:** ``100``
         
 
-    { descr | indent(width=4) }
+    Maximum number of interation in line wrapping solver. It can be increased if the solver runs out of iteration step in difficult problems.
 
 ..
 
@@ -781,7 +702,7 @@ SPLine.MaxRelStepSize
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.MaxRelStepSize">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.MaxRelStepSize">
     <span id="anyshortestpathmuscle-spline-maxrelstepsize" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxRelStepSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#SPLine.MaxRelStepSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum relative step size. The default of 1.0 implies full step size, but...</span>
@@ -795,7 +716,7 @@ SPLine.MaxRelStepSize
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Maximum relative step size. The default of 1.0 implies full step size, but it can be decreased to increase robustness for difficult problems.
 
 ..
 
@@ -821,7 +742,7 @@ SPLine.SolverType
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.SolverType">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.SolverType">
     <span id="anyshortestpathmuscle-spline-solvertype" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverType </span><span class="member-title-equal">=</span><span class="member-title-default"> SPSolverModes </span><a class="headerlink" href="#SPLine.SolverType" title="Permalink to this headline">¶</a>
     <span class="member-descr">The SolverType defines one of four solver for the wrapping problem. Possible...</span>
@@ -835,7 +756,9 @@ SPLine.SolverType
     | **Default:** ``SPSolverModes``
         
 
-    { descr | indent(width=4) }
+    The SolverType defines one of four solver for the wrapping problem. Possible Values are:
+    SPSolverFull - standard optimization solver for constraint optimization;
+    SPSolverModes - method using modes to solve the optimization problem. This method is default and faster especially for fewer points in contact.
 
 ..
 
@@ -845,7 +768,7 @@ SPLine.SolverType
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -895,7 +818,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -936,7 +859,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -977,7 +900,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1018,7 +941,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -1059,7 +982,7 @@ RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -1100,7 +1023,7 @@ Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -1141,7 +1064,7 @@ KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -1182,7 +1105,7 @@ KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -1223,7 +1146,7 @@ nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -1264,7 +1187,7 @@ RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -1305,7 +1228,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1346,7 +1269,7 @@ RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1387,7 +1310,7 @@ RefFrameOutput.F
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1428,7 +1351,7 @@ RefFrameOutput.M
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1469,7 +1392,7 @@ Fin
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.
 
 ..
 
@@ -1510,7 +1433,7 @@ Fout
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.
 
 ..
 
@@ -1551,7 +1474,7 @@ Lmt
 
 
 
-    { descr | indent(width=4) }
+    Length of the muscle-tendon unit.
 
 ..
 
@@ -1592,7 +1515,7 @@ Lm
 
 
 
-    { descr | indent(width=4) }
+    Length of the muscle fiber unit. This is not the actual fiber length when the pennation angle is different from zero, but the length of the unit along the tendon line-of-action.
 
 ..
 
@@ -1633,7 +1556,7 @@ Lt
 
 
 
-    { descr | indent(width=4) }
+    Length of the tendon unit.
 
 ..
 
@@ -1674,7 +1597,7 @@ LmtDot
 
 
 
-    { descr | indent(width=4) }
+    Time-derivative of the muscle-tendon unit length, Lmt.
 
 ..
 
@@ -1715,7 +1638,7 @@ LmDot
 
 
 
-    { descr | indent(width=4) }
+    Time-derivative of the muscle fiber unit length, Lm.
 
 ..
 
@@ -1756,7 +1679,7 @@ Activity
 
 
 
-    { descr | indent(width=4) }
+    Muscle activity, i.e., normalized muscle force.
 
 ..
 
@@ -1797,7 +1720,7 @@ CorrectedActivity
 
 
 
-    { descr | indent(width=4) }
+    Corrected activity, which may be slightly different from Activity for muscle models that involve linearization.
 
 ..
 
@@ -1838,7 +1761,7 @@ Fm
 
 
 
-    { descr | indent(width=4) }
+    Force in the muscle fiber unit. Not projected onto the fiber direction for pennation angles different from zero.
 
 ..
 
@@ -1879,7 +1802,7 @@ Ft
 
 
 
-    { descr | indent(width=4) }
+    Force in the tendon unit.
 
 ..
 
@@ -1920,7 +1843,7 @@ Fp
 
 
 
-    { descr | indent(width=4) }
+    Force in the parallel elastic element. Not projected onto the fiber direction for pennation angles different from zero.
 
 ..
 
@@ -1961,7 +1884,7 @@ Strength
 
 
 
-    { descr | indent(width=4) }
+    Current muscle strength.
 
 ..
 
@@ -2002,7 +1925,7 @@ Ft0
 
 
 
-    { descr | indent(width=4) }
+    Tendon force at zero activity.
 
 ..
 
@@ -2043,7 +1966,7 @@ Ft0Grad
 
 
 
-    { descr | indent(width=4) }
+    Tendon force gradient. with respect to the activity
 
 ..
 
@@ -2084,7 +2007,7 @@ PennationAngle
 
 
 
-    { descr | indent(width=4) }
+    Pennation angle.
 
 ..
 
@@ -2125,7 +2048,7 @@ EPOTt
 
 
 
-    { descr | indent(width=4) }
+    Potential energy in the tendon.
 
 ..
 
@@ -2166,7 +2089,7 @@ EPOTp
 
 
 
-    { descr | indent(width=4) }
+    Potential energy in the parallel elastic element.
 
 ..
 
@@ -2207,7 +2130,7 @@ EPOTmt
 
 
 
-    { descr | indent(width=4) }
+    Total potential energy in the muscle-tendon unit.
 
 ..
 
@@ -2248,7 +2171,7 @@ Pt
 
 
 
-    { descr | indent(width=4) }
+    Power of the tendon unit on the segments, Pt=Ft*LtDot.
 
 ..
 
@@ -2289,7 +2212,7 @@ Pm
 
 
 
-    { descr | indent(width=4) }
+    Power of the muscle fiber unit on the segments, Pm=Fm*LmDot.
 
 ..
 
@@ -2330,7 +2253,7 @@ Pmt
 
 
 
-    { descr | indent(width=4) }
+    Power of the muscle-tendon unit on the segments, Pmt=Fmt*LmtDot.
 
 ..
 
@@ -2371,7 +2294,7 @@ Pmet
 
 
 
-    { descr | indent(width=4) }
+    Metabolic power.
 
 ..
 
@@ -2412,7 +2335,7 @@ SPLine
 
 
 
-    { descr | indent(width=4) }
+    Kinematic measure of the length of the muscle tendon unit.
 
 ..
 
@@ -2453,7 +2376,7 @@ SPLine.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -2494,7 +2417,7 @@ SPLine.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -2535,7 +2458,7 @@ SPLine.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -2576,7 +2499,7 @@ SPLine.t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -2617,7 +2540,7 @@ SPLine.RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -2658,7 +2581,7 @@ SPLine.Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -2699,7 +2622,7 @@ SPLine.KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -2740,7 +2663,7 @@ SPLine.KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -2781,7 +2704,7 @@ SPLine.nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -2822,7 +2745,7 @@ SPLine.RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -2863,7 +2786,7 @@ SPLine.RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -2904,7 +2827,7 @@ SPLine.RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -2945,7 +2868,7 @@ SPLine.Pos
 
 
 
-    { descr | indent(width=4) }
+    The position vector, i.e., the current values of the measured quantity.
 
 ..
 
@@ -2986,7 +2909,7 @@ SPLine.Vel
 
 
 
-    { descr | indent(width=4) }
+    The velocity vector, typically the time-derivative of Pos.
 
 ..
 
@@ -3027,7 +2950,7 @@ SPLine.Acc
 
 
 
-    { descr | indent(width=4) }
+    The acceleration vector, typically the time-derivative of Vel.
 
 ..
 
@@ -3068,7 +2991,7 @@ SPLine.P
 
 
 
-    { descr | indent(width=4) }
+    Matrix of points of the polyline, i.e., the mesh points.
 
 ..
 

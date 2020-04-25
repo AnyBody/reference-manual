@@ -105,8 +105,8 @@ We are therefore prepared to consider extensions of these facilities depending o
 and will be grateful for any requests and comments from the users.</p>
 </div>
 <p> </p>
-<table class="colwidths-given plain docutils align-default" id="id3">
-<caption><span class="caption-text">Demo examples related to AnyParamStudy</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given plain docutils align-default" id="id4">
+<caption><span class="caption-text">Demo examples related to AnyParamStudy</span><a class="headerlink" href="#id4" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 75%" />
@@ -139,7 +139,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDesVar.html#anydesvar"><span class="std std-ref">AnyDesVar</span></a></div>
 <div class="line"><strong>Number:</strong> 1..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Design variables of the study are defined as AnyDesVar objects.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -156,7 +156,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDesMeasure.html#anydesmeasure"><span class="std std-ref">AnyDesMeasure</span></a></div>
 <div class="line"><strong>Number:</strong> 1..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Design performance measures are defined as AnyDesMeasure objects.</p>
 </div></blockquote>
 </div>
 </div>
@@ -176,7 +176,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntArray.html#anyintarray"><span class="std std-ref">AnyIntArray</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of steps in the parameter variation. Each component in the vector corresponds to one parameter to be varied.</p>
 </div></blockquote>
 </div>
 </div>
@@ -197,18 +197,18 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Optional log file for use by the numerical routines in the operations. It may not be used by all type of AnyDesStudy; the file will be empty when not used by the study.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="analysis">
-<span id="anyparamstudy-analysis"></span><h3>Analysis<a class="headerlink" href="#analysis" title="Permalink to this headline">¶</a></h3>
+<h3>Analysis<a class="headerlink" href="#analysis" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis">
-<span id="anyparamstudy-analysis" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">This analysis operation.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="analysis-settings">
 <span id="anyparamstudy-analysis-settings"></span><h4>Analysis.Settings<a class="headerlink" href="#analysis-settings" title="Permalink to this headline">¶</a></h4>
@@ -224,7 +224,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -242,7 +242,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -260,7 +260,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -274,11 +274,11 @@ and will be grateful for any requests and comments from the users.</p>
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityNormal</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -296,10 +296,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -311,7 +308,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
 
 <h3 class="html-toggle-button" style=""><span class="member-title"> ParameterStudy </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ParameterStudy" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Operation that executes the parameter study.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="parameterstudy-settings">
 <span id="anyparamstudy-parameterstudy-settings"></span><h4>ParameterStudy.Settings<a class="headerlink" href="#parameterstudy-settings" title="Permalink to this headline">¶</a></h4>
@@ -327,7 +324,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -345,7 +342,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -363,7 +360,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -377,11 +374,11 @@ and will be grateful for any requests and comments from the users.</p>
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityNormal</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -399,10 +396,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 </div>
 </div>
@@ -424,7 +418,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -442,7 +436,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -460,7 +454,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -478,7 +472,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder that holds the result of the latest executed analysis (operation).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -496,7 +490,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder where the values of the abscissa/input parameters are stored.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -514,7 +508,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -532,7 +526,25 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="anyparamstudy-analysis">
+<span id="id2"></span><h3>Analysis<a class="headerlink" href="#anyparamstudy-analysis" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis">
+<span id="anyparamstudy-analysis" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Analysis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
+<span class="member-descr">This analysis operation.</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyOperationSequence.html#anyoperationsequence"><span class="std std-ref">AnyOperationSequence</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>This analysis operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -540,7 +552,7 @@ and will be grateful for any requests and comments from the users.</p>
 <span id="anyparamstudy-analysis-updconfig"></span><h3>Analysis.UpdConfig<a class="headerlink" href="#analysis-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
 <span id="anyparamstudy-analysis-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -550,7 +562,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -558,7 +570,7 @@ and will be grateful for any requests and comments from the users.</p>
 <span id="anyparamstudy-analysis-upddesign"></span><h3>Analysis.UpdDesign<a class="headerlink" href="#analysis-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
 <span id="anyparamstudy-analysis-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -568,7 +580,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -576,7 +588,7 @@ and will be grateful for any requests and comments from the users.</p>
 <span id="anyparamstudy-analysis-updoutput"></span><h3>Analysis.UpdOutput<a class="headerlink" href="#analysis-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
 <span id="anyparamstudy-analysis-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -586,15 +598,15 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anyparamstudy-parameterstudy">
-<span id="id2"></span><h3>ParameterStudy<a class="headerlink" href="#anyparamstudy-parameterstudy" title="Permalink to this headline">¶</a></h3>
+<span id="id3"></span><h3>ParameterStudy<a class="headerlink" href="#anyparamstudy-parameterstudy" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy">
 <span id="anyparamstudy-parameterstudy" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy" title="Permalink to this headline">¶</a>
 <span class="member-descr">Operation that executes the parameter study.</span>
@@ -604,7 +616,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Operation that executes the parameter study.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -612,7 +624,7 @@ and will be grateful for any requests and comments from the users.</p>
 <span id="anyparamstudy-parameterstudy-updconfig"></span><h3>ParameterStudy.UpdConfig<a class="headerlink" href="#parameterstudy-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.UpdConfig">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.UpdConfig">
 <span id="anyparamstudy-parameterstudy-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -622,7 +634,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -630,7 +642,7 @@ and will be grateful for any requests and comments from the users.</p>
 <span id="anyparamstudy-parameterstudy-upddesign"></span><h3>ParameterStudy.UpdDesign<a class="headerlink" href="#parameterstudy-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.UpdDesign">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.UpdDesign">
 <span id="anyparamstudy-parameterstudy-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -640,7 +652,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -648,7 +660,7 @@ and will be grateful for any requests and comments from the users.</p>
 <span id="anyparamstudy-parameterstudy-updoutput"></span><h3>ParameterStudy.UpdOutput<a class="headerlink" href="#parameterstudy-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ParameterStudy.UpdOutput">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ParameterStudy.UpdOutput">
 <span id="anyparamstudy-parameterstudy-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">ParameterStudy.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ParameterStudy.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -658,7 +670,7 @@ and will be grateful for any requests and comments from the users.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 </div>
 </div>

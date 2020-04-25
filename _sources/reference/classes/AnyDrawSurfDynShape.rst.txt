@@ -97,7 +97,7 @@ AnyStyleDrawMaterial
 
 
 
-    { descr | indent(width=4) }
+    Graphical material specification, that overrides the color setting in RGB.
 
 ..
 
@@ -136,7 +136,7 @@ AnyFunTransform3D
 
 
 
-    { descr | indent(width=4) }
+    Scaling function that transforms the surface during loading.
 
 ..
 
@@ -186,7 +186,7 @@ FileName
 
 
 
-    { descr | indent(width=4) }
+    The STL or ANYSURF file name, incl. proper extension.
 
 ..
 
@@ -242,7 +242,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Visibility setting, which specifies default visibility of the object.
 
 ..
 
@@ -290,7 +290,7 @@ Opacity
 
 
 
-    { descr | indent(width=4) }
+    Opacity setting, which specifies default opacity of the object.
 
 ..
 
@@ -338,7 +338,7 @@ Pickable
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
 
@@ -386,7 +386,7 @@ PickableZOrdering
 
 
 
-    { descr | indent(width=4) }
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
 
@@ -434,7 +434,7 @@ RGB
 
 
 
-    { descr | indent(width=4) }
+    Object color in RGB values between 0 and 1.
 
 ..
 
@@ -482,7 +482,7 @@ ScaleXYZ
 
 
 
-    { descr | indent(width=4) }
+    Scaling factors for each reference system axis.
 
 ..
 
@@ -530,7 +530,7 @@ Transparency
 
 
 
-    { descr | indent(width=4) }
+    Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
 
 ..
 
@@ -578,7 +578,7 @@ Face
 
 
 
-    { descr | indent(width=4) }
+    Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
 
 ..
 
@@ -596,8 +596,6 @@ Face
      </div> <!--
 ..
 
-.. _AnyDrawSurfDynShape.TextFont:
-
 TextFont
 ===========
 
@@ -606,10 +604,10 @@ TextFont
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont">
-    <span id="anydrawsurfdynshape-textfont" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">General font setting for the object's text.</span>
     </h3>
 
 ..
@@ -652,7 +650,7 @@ TextFont.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -692,7 +690,7 @@ TextFont.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    { descr | indent(width=4) }
+    Font name (Windows fonts).
 
 ..
 
@@ -732,7 +730,7 @@ TextFont.Height
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph height in pixels.
 
 ..
 
@@ -772,7 +770,7 @@ TextFont.Width
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph width in pixels.
 
 ..
 
@@ -812,7 +810,7 @@ TextFont.Bold
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for bold face type setting.
 
 ..
 
@@ -852,7 +850,7 @@ TextFont.Italic
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for italic type setting.
 
 ..
 
@@ -892,7 +890,7 @@ TextFont.BillBoardView
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -932,7 +930,7 @@ TextFont.ModelSized
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -972,7 +970,7 @@ TextFont.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The height scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -1012,7 +1010,7 @@ TextFont.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The width scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -1022,7 +1020,7 @@ TextFont.ModelScaleWidth
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1070,7 +1068,7 @@ RelPos
 
 
 
-    { descr | indent(width=4) }
+    Translational offset of the surface in the reference frame.
 
 ..
 
@@ -1118,7 +1116,7 @@ RelRotMat
 
 
 
-    { descr | indent(width=4) }
+    Rotational offset of the surface in the reference frame.
 
 ..
 
@@ -1166,7 +1164,7 @@ UpdDynShape
 
 
 
-    { descr | indent(width=4) }
+    Update counter that counts number of dynamic updates (only when DynUpdateOnOff is On).
 
 ..
 
@@ -1220,7 +1218,7 @@ DynUpdateOnOff
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) Switch for whether to carry out geometrical updates dynamically. This is needed for deformable and dynamically scaling surfaces, but typically at the expense of significant computational cost. (DEPRECATED/NOT FUNCTIONAL, please use AnyDrawSurfDynShape
 
 ..
 
@@ -1270,7 +1268,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1311,7 +1309,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1352,7 +1350,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1393,7 +1391,7 @@ GetVertices
 
 
 
-    { descr | indent(width=4) }
+    Function for getting vertex coordinates from a list of vertex indices.
 
 ..
 
@@ -1434,7 +1432,7 @@ GetVertices.UpdFun
 
 
 
-    { descr | indent(width=4) }
+    Update counter that counts number of function update processes.
 
 ..
 
@@ -1475,7 +1473,7 @@ GetVertices.Function
 
 
 
-    { descr | indent(width=4) }
+    Function returning vertex coordinates for a list of vertex indices.
 
 ..
 
@@ -1516,7 +1514,7 @@ GetVertices.Function.ArgList
 
 
 
-    { descr | indent(width=4) }
+    A special folder containing the argument list of the function.
 
 ..
 
@@ -1557,7 +1555,7 @@ GetVertices.Function.ArgList.Indices
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1598,7 +1596,7 @@ GetVertices.Function.Return
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

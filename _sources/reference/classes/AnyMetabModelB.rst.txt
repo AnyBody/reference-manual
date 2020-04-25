@@ -106,7 +106,7 @@ CoefBasalPower
 
 
 
-    { descr | indent(width=4) }
+    Basal heat rate per muscle mass [W/kg]. This is the Ḃ per weight.
 
 ..
 
@@ -154,7 +154,7 @@ CoefSLPowerConIso
 
 
 
-    { descr | indent(width=4) }
+    Shortening-Lengthening heat rate coefficient per isometric force in concentric case. .
 
 ..
 
@@ -202,7 +202,7 @@ CoefSLPowerCon
 
 
 
-    { descr | indent(width=4) }
+    Shortening-Lengthening heat rate coefficient per actual force in concentric case. Contributes to Ṡ.
 
 ..
 
@@ -250,7 +250,7 @@ CoefSLPowerEcc
 
 
 
-    { descr | indent(width=4) }
+    Shortening-Lengthening heat rate coefficient per actual force in eccentric case. Contributes to Ṡ.
 
 ..
 
@@ -298,7 +298,7 @@ CoefActPowerPhi0
 
 
 
-    { descr | indent(width=4) }
+    Activation heat rate ratio (constant). Used in Ȧ.
 
 ..
 
@@ -346,7 +346,7 @@ CoefActPowerSlow
 
 
 
-    { descr | indent(width=4) }
+    Activation heat rate coefficient (per mass) for slow twitch fibers. Used in Ȧ.
 
 ..
 
@@ -394,7 +394,7 @@ CoefActPowerFast
 
 
 
-    { descr | indent(width=4) }
+    Activation heat rate coefficient (per mass) for fast twitch fibers. Used in Ȧ.
 
 ..
 
@@ -442,7 +442,7 @@ CoefMaintPowerSlow
 
 
 
-    { descr | indent(width=4) }
+    Maintenance heat rate coefficient for slow twitch fibers. Used in Ṁ.
 
 ..
 
@@ -490,7 +490,7 @@ CoefMaintPowerFast
 
 
 
-    { descr | indent(width=4) }
+    Maintenance heat rate coefficient for fast twitch fibers. Used in Ṁ.
 
 ..
 
@@ -538,7 +538,7 @@ MuscleDensity
 
 
 
-    { descr | indent(width=4) }
+    Muscle density [kg/m^3].
 
 ..
 
@@ -586,7 +586,7 @@ AddMusclePowerForEcc
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether to add the muscle power to the heat production in the eccentric case.
 
 ..
 
@@ -636,7 +636,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -677,7 +677,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -718,7 +718,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -759,7 +759,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 

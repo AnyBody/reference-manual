@@ -97,7 +97,7 @@ AnyDesVar
 
 
 
-    { descr | indent(width=4) }
+    Design variables of the study are defined as AnyDesVar objects.
 
 ..
 
@@ -136,7 +136,7 @@ AnyDesMeasure
 
 
 
-    { descr | indent(width=4) }
+    Design performance measures are defined as AnyDesMeasure objects.
 
 ..
 
@@ -195,7 +195,7 @@ LogFile
 
 
 
-    { descr | indent(width=4) }
+    Optional log file for use by the numerical routines in the operations. It may not be used by all type of AnyDesStudy; the file will be empty when not used by the study.
 
 ..
 
@@ -213,8 +213,6 @@ LogFile
      </div> <!--
 ..
 
-.. _AnyDesEvalStudy.Analysis:
-
 Analysis
 ===========
 
@@ -223,10 +221,10 @@ Analysis
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis">
-    <span id="anydesevalstudy-analysis" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">This analysis operation.</span>
     </h3>
 
 ..
@@ -269,7 +267,7 @@ Analysis.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -309,7 +307,7 @@ Analysis.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -349,7 +347,7 @@ Analysis.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -389,7 +387,7 @@ Analysis.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -429,7 +427,7 @@ Analysis.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -439,7 +437,7 @@ Analysis.Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -468,7 +466,7 @@ UpdateDesign
     <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> UpdateDesign </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#UpdateDesign" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Operation that executes the analysis and updates the values of the design variables.</span>
     </h3>
 
 ..
@@ -511,7 +509,7 @@ UpdateDesign.Settings
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    General settings for the operation.
 
 ..
 
@@ -551,7 +549,7 @@ UpdateDesign.Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -591,7 +589,7 @@ UpdateDesign.Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -631,7 +629,7 @@ UpdateDesign.Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -671,7 +669,7 @@ UpdateDesign.Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -681,7 +679,7 @@ UpdateDesign.Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -731,7 +729,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -772,7 +770,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -813,7 +811,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -854,7 +852,7 @@ Output
 
 
 
-    { descr | indent(width=4) }
+    Folder that holds the result of the latest executed analysis (operation).
 
 ..
 
@@ -895,7 +893,7 @@ Output.Abscissa
 
 
 
-    { descr | indent(width=4) }
+    Folder where the values of the abscissa/input parameters are stored.
 
 ..
 
@@ -936,7 +934,7 @@ Output.Abscissa.StateCountCurrent
 
 
 
-    { descr | indent(width=4) }
+    Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).
 
 ..
 
@@ -977,7 +975,48 @@ Output.Abscissa.StateCountData
 
 
 
-    { descr | indent(width=4) }
+    Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyDesEvalStudy.Analysis:
+
+Analysis
+===========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis">
+    <span id="anydesevalstudy-analysis" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Analysis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
+    <span class="member-descr">This analysis operation.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyOperationSequence`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    This analysis operation.
 
 ..
 
@@ -1002,7 +1041,7 @@ Analysis.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
     <span id="anydesevalstudy-analysis-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1018,7 +1057,7 @@ Analysis.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1043,7 +1082,7 @@ Analysis.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
     <span id="anydesevalstudy-analysis-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1059,7 +1098,7 @@ Analysis.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1084,7 +1123,7 @@ Analysis.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
     <span id="anydesevalstudy-analysis-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1100,7 +1139,7 @@ Analysis.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1125,7 +1164,7 @@ UpdateDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdateDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdateDesign">
     <span id="anydesevalstudy-updatedesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdateDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdateDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Operation that executes the analysis and updates the values of the design variables.</span>
@@ -1141,7 +1180,7 @@ UpdateDesign
 
 
 
-    { descr | indent(width=4) }
+    Operation that executes the analysis and updates the values of the design variables.
 
 ..
 
@@ -1166,7 +1205,7 @@ UpdateDesign.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdateDesign.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdateDesign.UpdConfig">
     <span id="anydesevalstudy-updatedesign-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdateDesign.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdateDesign.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1182,7 +1221,7 @@ UpdateDesign.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1207,7 +1246,7 @@ UpdateDesign.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdateDesign.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdateDesign.UpdDesign">
     <span id="anydesevalstudy-updatedesign-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdateDesign.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdateDesign.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1223,7 +1262,7 @@ UpdateDesign.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1248,7 +1287,7 @@ UpdateDesign.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdateDesign.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdateDesign.UpdOutput">
     <span id="anydesevalstudy-updatedesign-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdateDesign.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdateDesign.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1264,7 +1303,7 @@ UpdateDesign.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

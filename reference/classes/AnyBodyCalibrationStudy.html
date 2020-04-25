@@ -160,8 +160,8 @@ the bounds of the range of motion for each muscle or ligament is used as the
 </pre></div>
 </div>
 <p> </p>
-<table class="colwidths-given plain docutils align-default" id="id10">
-<caption><span class="caption-text">Demo examples related to AnyBodyCalibrationStudy</span><a class="headerlink" href="#id10" title="Permalink to this table">¶</a></caption>
+<table class="colwidths-given plain docutils align-default" id="id12">
+<caption><span class="caption-text">Demo examples related to AnyBodyCalibrationStudy</span><a class="headerlink" href="#id12" title="Permalink to this table">¶</a></caption>
 <colgroup>
 <col style="width: 25%" />
 <col style="width: 75%" />
@@ -195,7 +195,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to mechnical objects to exclude from the study.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -213,7 +213,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Initial time.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -231,7 +231,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Final time.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -249,7 +249,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">101</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of equally spaced time steps (plus one). Both tStart and tEnd are counted as time steps.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -267,16 +267,16 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,...</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of output-time values. This provides an alternative input to the even spacing obtained by setting nStep, tStart, and tEnd.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
 <div class="section" id="referenceframe">
-<span id="anybodycalibrationstudy-referenceframe"></span><h3>ReferenceFrame<a class="headerlink" href="#referenceframe" title="Permalink to this headline">¶</a></h3>
+<h3>ReferenceFrame<a class="headerlink" href="#referenceframe" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ReferenceFrame">
-<span id="anybodycalibrationstudy-referenceframe" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> ReferenceFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ReferenceFrame" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
@@ -294,10 +294,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Pointer to the inertial reference frame. Used if a moving frame is used as basis for the model</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -309,7 +306,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
 
 <h3 class="html-toggle-button" style=""><span class="member-title"> Replay </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Operation that replay previously calculated results stored in the Output...</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="replay-settings">
 <span id="anybodycalibrationstudy-replay-settings"></span><h4>Replay.Settings<a class="headerlink" href="#replay-settings" title="Permalink to this headline">¶</a></h4>
@@ -325,7 +322,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -343,7 +340,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -361,7 +358,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -375,11 +372,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -397,7 +394,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -415,22 +412,19 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Switch that controls whether post-processing of symbolic expressions should be carried out.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
 <div class="section" id="initialconditions">
-<span id="anybodycalibrationstudy-initialconditions"></span><h3>InitialConditions<a class="headerlink" href="#initialconditions" title="Permalink to this headline">¶</a></h3>
+<h3>InitialConditions<a class="headerlink" href="#initialconditions" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions">
-<span id="anybodycalibrationstudy-initialconditions" style=""></span>
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> InitialConditions </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#InitialConditions" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Operation that sets initial conditions, i.e., assembles the mechanism etc.,...</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="initialconditions-settings">
 <span id="anybodycalibrationstudy-initialconditions-settings"></span><h4>InitialConditions.Settings<a class="headerlink" href="#initialconditions-settings" title="Permalink to this headline">¶</a></h4>
@@ -446,7 +440,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -464,7 +458,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -482,7 +476,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -496,11 +490,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -518,7 +512,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -536,7 +530,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pre-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -554,7 +548,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -572,7 +566,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -590,7 +584,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -604,11 +598,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -626,7 +620,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -644,7 +638,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Post-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -662,7 +656,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -680,7 +674,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -698,7 +692,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -712,11 +706,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -734,7 +728,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -752,7 +746,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-06</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Tolerance for the kinematic analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -770,7 +764,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">3000</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximal number of Newton iterations in the solution of the non-linear equations in the kinematic position analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -788,7 +782,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">5</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximal number of fallback iterations used by some solvers.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -806,7 +800,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Initial value of relaxation coefficient for the Newton iteration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -824,7 +818,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for the single-step analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -842,7 +836,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Zero-based index for the time step to use in the single-step analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -860,7 +854,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for for whether to use input positions as starting guess or the model’s current positions.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -878,7 +872,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for skipping velocity and acceleration analysis, i.e., running position analysis only. Velocitites and acceleration of all segments are set to zero when computations are skipped.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -896,7 +890,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Magnitude of perturbation use in finite difference differentiation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -914,7 +908,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for assumption of small steps (position or time-steps). When ‘Off’ more robust method can be applied. (REFER TO OTHER DOCUMENTATION).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -932,7 +926,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-12</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Test variable: Small floating point number (Epsilon) used by some solvers to perturb diagonal elements (DEPRECATED).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -950,7 +944,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Test variable : Maximal number of iterative refinement steps in solver (DEPRECATED).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -968,7 +962,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Test variable: Switch for selecting pivoting scheme for the MKL PARDISO solver (DEPRECATED).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -986,22 +980,19 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">KinSolDeterminate</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Solver type specification.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
 </div>
 <div class="section" id="kinematics">
-<span id="anybodycalibrationstudy-kinematics"></span><h3>Kinematics<a class="headerlink" href="#kinematics" title="Permalink to this headline">¶</a></h3>
+<h3>Kinematics<a class="headerlink" href="#kinematics" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Kinematics">
-<span id="anybodycalibrationstudy-kinematics" style=""></span>
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+
 <h3 class="html-toggle-button" style=""><span class="member-title"> Kinematics </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Kinematics" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Kinematic analysis operation that processes all time steps of the study. It...</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="kinematics-settings">
 <span id="anybodycalibrationstudy-kinematics-settings"></span><h4>Kinematics.Settings<a class="headerlink" href="#kinematics-settings" title="Permalink to this headline">¶</a></h4>
@@ -1017,7 +1008,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1035,7 +1026,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1053,7 +1044,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1067,11 +1058,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityNormal</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1089,7 +1080,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1107,7 +1098,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pre-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1125,7 +1116,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1143,7 +1134,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1161,7 +1152,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1175,11 +1166,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1197,7 +1188,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1215,7 +1206,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Post-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1233,7 +1224,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1251,7 +1242,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1269,7 +1260,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1283,11 +1274,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1305,7 +1296,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1323,7 +1314,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-06</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Tolerance for the kinematic analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1341,7 +1332,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">3000</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximal number of Newton iterations in the solution of the non-linear equations in the kinematic position analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1359,7 +1350,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">5</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Maximal number of fallback iterations used by some solvers.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1377,7 +1368,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Initial value of relaxation coefficient for the Newton iteration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1395,7 +1386,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for the single-step analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1413,7 +1404,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Zero-based index for the time step to use in the single-step analysis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1431,7 +1422,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for for whether to use input positions as starting guess or the model’s current positions.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1449,7 +1440,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for skipping velocity and acceleration analysis, i.e., running position analysis only. Velocitites and acceleration of all segments are set to zero when computations are skipped.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1467,7 +1458,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Magnitude of perturbation use in finite difference differentiation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1485,7 +1476,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for assumption of small steps (position or time-steps). When ‘Off’ more robust method can be applied. (REFER TO OTHER DOCUMENTATION).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1503,7 +1494,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-12</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Test variable: Small floating point number (Epsilon) used by some solvers to perturb diagonal elements (DEPRECATED).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1521,7 +1512,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">2</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Test variable : Maximal number of iterative refinement steps in solver (DEPRECATED).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1539,7 +1530,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Test variable: Switch for selecting pivoting scheme for the MKL PARDISO solver (DEPRECATED).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1557,10 +1548,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">KinSolDeterminate</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Solver type specification.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -1572,7 +1560,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
 
 <h3 class="html-toggle-button" style=""><span class="member-title"> FiberAndTendonLengthAdjustment </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#FiberAndTendonLengthAdjustment" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Operation for calibration of the muscles by adjustment of their fiber and...</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="fiberandtendonlengthadjustment-settings">
 <span id="anybodycalibrationstudy-fiberandtendonlengthadjustment-settings"></span><h4>FiberAndTendonLengthAdjustment.Settings<a class="headerlink" href="#fiberandtendonlengthadjustment-settings" title="Permalink to this headline">¶</a></h4>
@@ -1588,7 +1576,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1606,7 +1594,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1624,7 +1612,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1638,11 +1626,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityNormal</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1660,7 +1648,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1678,7 +1666,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pre-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1696,7 +1684,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1714,7 +1702,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1732,7 +1720,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1746,11 +1734,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1768,7 +1756,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1786,7 +1774,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Post-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1804,7 +1792,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1822,7 +1810,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1840,7 +1828,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1854,11 +1842,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1876,7 +1864,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1894,10 +1882,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Switch for whether calibration of the tendon length should account for the assumed elongation for max muscle force.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -1909,7 +1894,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
 
 <h3 class="html-toggle-button" style=""><span class="member-title"> TendonLengthAdjustment </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TendonLengthAdjustment" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Operation for calibration of the muscles by adjustment of their tendon length.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="tendonlengthadjustment-settings">
 <span id="anybodycalibrationstudy-tendonlengthadjustment-settings"></span><h4>TendonLengthAdjustment.Settings<a class="headerlink" href="#tendonlengthadjustment-settings" title="Permalink to this headline">¶</a></h4>
@@ -1925,7 +1910,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1943,7 +1928,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1961,7 +1946,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1975,11 +1960,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityNormal</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -1997,7 +1982,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2015,7 +2000,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pre-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2033,7 +2018,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2051,7 +2036,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2069,7 +2054,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2083,11 +2068,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2105,7 +2090,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2123,7 +2108,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Post-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2141,7 +2126,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2159,7 +2144,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2177,7 +2162,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2191,11 +2176,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2213,10 +2198,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -2228,7 +2210,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
 
 <h3 class="html-toggle-button" style=""><span class="member-title"> LigamentLengthAdjustment </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#LigamentLengthAdjustment" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Operation for calibration of the ligaments by adjustment of their undeformed length.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
 <!--<div class="section" id="ligamentlengthadjustment-settings">
 <span id="anybodycalibrationstudy-ligamentlengthadjustment-settings"></span><h4>LigamentLengthAdjustment.Settings<a class="headerlink" href="#ligamentlengthadjustment-settings" title="Permalink to this headline">¶</a></h4>
@@ -2244,7 +2226,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2262,7 +2244,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2280,7 +2262,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2294,11 +2276,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityNormal</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2316,7 +2298,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2334,7 +2316,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pre-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2352,7 +2334,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2370,7 +2352,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2388,7 +2370,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2402,11 +2384,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2424,7 +2406,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2442,7 +2424,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Post-process operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2460,7 +2442,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2478,7 +2460,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2496,7 +2478,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2510,11 +2492,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
 </h4><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyDisplayPriority.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anydisplaypriority"><span class="std std-ref">AnyDisplayPriority</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">PriorityLow</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2532,10 +2514,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
-</div></blockquote>
-<blockquote>
-<div><p>{ descr | indent(width=4) }</p>
+<p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -2554,7 +2533,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnyObject-pointer array of the muscles to include in the calibration. By default it is filled with all muscles in the study, but it can be initialized for limitting this set.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2572,7 +2551,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>AnyObject-pointer array of the ligaments to include in the calibration. By default it is filled with all ligaments in the study, but it can be initialized for limitting this set.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2590,7 +2569,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Specification of the actual muscle fiber length’s ratio to the optimal fiber length at the lower extreme for the given range of motion. By default this is set to 0.5, which is the typical point for muscle fibers to loose strength. Notice that the array should hold one value for each muscle in MuscleArr; if to few are given the last value will be used for all remaining muscles in the set.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2608,7 +2587,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Specification of the actual muscle fiber length’s ratio to the optimal fiber length at the upper extreme for the given range of motion. By default this is set to 1.2, which is slightly above optimal fiber length, but typically below significant passive forces. Notice that the array should hold one value for each muscle in MuscleArr; if to few are given the last value will be used for all remaining muscles in the set.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2630,7 +2609,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <p><span class="versionmodified deprecated">Deprecated since version The: </span>use of tArrayOnOff is deprecated. tArrayOnOff have no effect. Values in
  tArray will be used if it is initialized in script.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>(Deprecated) Switch for whether to use tArray as definition of output-times or to use even spacing given by nStep, tStart and tEnd.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2655,7 +2634,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
  Notice also that AnyMechStudy1 is deprecated and will be removed in a future
  version.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>(Deprecated)</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2680,7 +2659,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
  Notice also that AnyMechStudy1 is deprecated and will be removed in a future
  version.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>(Deprecated)</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2705,7 +2684,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
  Notice also that AnyMechStudy1 is deprecated and will be removed in a future
  version.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>(Deprecated)</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -2725,7 +2704,6 @@ the bounds of the range of motion for each muscle or ligament is used as the
  Notice also that AnyMechStudy1 is deprecated and will be removed in a future
  version.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -2745,7 +2723,6 @@ the bounds of the range of motion for each muscle or ligament is used as the
  Notice also that AnyMechStudy1 is deprecated and will be removed in a future
  version.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -2765,7 +2742,6 @@ the bounds of the range of motion for each muscle or ligament is used as the
  Notice also that AnyMechStudy1 is deprecated and will be removed in a future
  version.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div></div> <!--</div>
@@ -2785,7 +2761,6 @@ the bounds of the range of motion for each muscle or ligament is used as the
  Notice also that AnyMechStudy1 is deprecated and will be removed in a future
  version.</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
 </div></blockquote>
 </div>
 </div>
@@ -2806,7 +2781,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2824,7 +2799,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2842,7 +2817,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2860,7 +2835,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder that holds the result of the latest executed analysis (operation).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2878,7 +2853,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder where the values of the abscissa/input parameters are stored.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2896,7 +2871,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2914,7 +2889,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2932,7 +2907,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2950,7 +2925,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Time.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2968,7 +2943,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Index of the current time step.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -2986,7 +2961,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Update counter counting updates of tArray’s dependency of nStep, tStart and tEnd.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3004,7 +2979,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The acceleration of gravity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3022,7 +2997,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Current value of the kinematic error.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3040,7 +3015,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Current kinematic energy of the system.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3058,7 +3033,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Current potential energy of the system.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3076,7 +3051,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Current mechanical energy of the system (=Ekin+Epot).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3094,7 +3069,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Current mechanical power applied to the system.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3112,7 +3087,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Operation that replay previously calculated results stored in the Output folder. It also replays data in the Output folder if they are imported from an output storage file. Replaying means to transfer data from the Output folder back into their original value objects in the model. This restores all saved value as they were upon the time of calculation. The Replay operation executes the same number of time steps as the original simulation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3130,7 +3105,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3148,7 +3123,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3166,7 +3141,25 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="anybodycalibrationstudy-initialconditions">
+<span id="id3"></span><h3>InitialConditions<a class="headerlink" href="#anybodycalibrationstudy-initialconditions" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions">
+<span id="anybodycalibrationstudy-initialconditions" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions" title="Permalink to this headline">¶</a>
+<span class="member-descr">Operation that sets initial conditions, i.e., assembles the mechanism etc.,...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMechOprKinAnl.html#anymechoprkinanl"><span class="std std-ref">AnyMechOprKinAnl</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>Operation that sets initial conditions, i.e., assembles the mechanism etc., according to the first time step of the study.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3174,7 +3167,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-updconfig"></span><h3>InitialConditions.UpdConfig<a class="headerlink" href="#initialconditions-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.UpdConfig">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.UpdConfig">
 <span id="anybodycalibrationstudy-initialconditions-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -3184,7 +3177,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3192,7 +3185,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-upddesign"></span><h3>InitialConditions.UpdDesign<a class="headerlink" href="#initialconditions-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.UpdDesign">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.UpdDesign">
 <span id="anybodycalibrationstudy-initialconditions-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3202,7 +3195,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3210,7 +3203,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-updoutput"></span><h3>InitialConditions.UpdOutput<a class="headerlink" href="#initialconditions-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.UpdOutput">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.UpdOutput">
 <span id="anybodycalibrationstudy-initialconditions-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -3220,7 +3213,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3228,7 +3221,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-preoperation-updconfig"></span><h3>InitialConditions.PreOperation.UpdConfig<a class="headerlink" href="#initialconditions-preoperation-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdConfig">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdConfig">
 <span id="anybodycalibrationstudy-initialconditions-preoperation-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PreOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PreOperation.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -3238,7 +3231,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3246,7 +3239,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-preoperation-upddesign"></span><h3>InitialConditions.PreOperation.UpdDesign<a class="headerlink" href="#initialconditions-preoperation-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdDesign">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdDesign">
 <span id="anybodycalibrationstudy-initialconditions-preoperation-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PreOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PreOperation.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3256,7 +3249,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3264,7 +3257,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-preoperation-updoutput"></span><h3>InitialConditions.PreOperation.UpdOutput<a class="headerlink" href="#initialconditions-preoperation-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdOutput">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PreOperation.UpdOutput">
 <span id="anybodycalibrationstudy-initialconditions-preoperation-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PreOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PreOperation.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -3274,7 +3267,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3282,7 +3275,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-postoperation-updconfig"></span><h3>InitialConditions.PostOperation.UpdConfig<a class="headerlink" href="#initialconditions-postoperation-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdConfig">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdConfig">
 <span id="anybodycalibrationstudy-initialconditions-postoperation-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PostOperation.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PostOperation.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -3292,7 +3285,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3300,7 +3293,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-postoperation-upddesign"></span><h3>InitialConditions.PostOperation.UpdDesign<a class="headerlink" href="#initialconditions-postoperation-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdDesign">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdDesign">
 <span id="anybodycalibrationstudy-initialconditions-postoperation-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PostOperation.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PostOperation.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3310,7 +3303,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3318,7 +3311,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-postoperation-updoutput"></span><h3>InitialConditions.PostOperation.UpdOutput<a class="headerlink" href="#initialconditions-postoperation-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdOutput">
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.PostOperation.UpdOutput">
 <span id="anybodycalibrationstudy-initialconditions-postoperation-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.PostOperation.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.PostOperation.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -3328,7 +3321,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3336,7 +3329,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span id="anybodycalibrationstudy-initialconditions-kinematicerror"></span><h3>InitialConditions.KinematicError<a class="headerlink" href="#initialconditions-kinematicerror" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialConditions.KinematicError">
+<div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InitialConditions.KinematicError">
 <span id="anybodycalibrationstudy-initialconditions-kinematicerror" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">InitialConditions.KinematicError</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialConditions.KinematicError" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current value of the kinematic error.</span>
@@ -3346,7 +3339,25 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Current value of the kinematic error.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="anybodycalibrationstudy-kinematics">
+<span id="id4"></span><h3>Kinematics<a class="headerlink" href="#anybodycalibrationstudy-kinematics" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Kinematics">
+<span id="anybodycalibrationstudy-kinematics" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">Kinematics</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Kinematics" title="Permalink to this headline">¶</a>
+<span class="member-descr">Kinematic analysis operation that processes all time steps of the study. It...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMechOprKinAnl.html#anymechoprkinanl"><span class="std std-ref">AnyMechOprKinAnl</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
+</div>
+<p>Kinematic analysis operation that processes all time steps of the study. It uses Initial_Conditions as pre-process (only for kinematically determinate system).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3364,7 +3375,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3382,7 +3393,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3400,7 +3411,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3418,7 +3429,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3436,7 +3447,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3454,7 +3465,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3472,7 +3483,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3490,7 +3501,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3508,7 +3519,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3526,7 +3537,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3544,12 +3555,12 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Current value of the kinematic error.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anybodycalibrationstudy-fiberandtendonlengthadjustment">
-<span id="id3"></span><h3>FiberAndTendonLengthAdjustment<a class="headerlink" href="#anybodycalibrationstudy-fiberandtendonlengthadjustment" title="Permalink to this headline">¶</a></h3>
+<span id="id5"></span><h3>FiberAndTendonLengthAdjustment<a class="headerlink" href="#anybodycalibrationstudy-fiberandtendonlengthadjustment" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="FiberAndTendonLengthAdjustment">
@@ -3558,11 +3569,11 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <span class="member-descr">Operation for calibration of the muscles by adjustment of their fiber and...</span>
 </h3><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyBodyMusFibAndTenLenCalOpr.html#anybodymusfibandtenlencalopr"><span class="std std-ref">AnyBodyMusFibAndTenLenCalOpr</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anybodymusfibandtenlencalopr"><span class="std std-ref">AnyBodyMusFibAndTenLenCalOpr</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Operation for calibration of the muscles by adjustment of their fiber and tendon length.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3580,7 +3591,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3598,7 +3609,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3616,7 +3627,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3634,7 +3645,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3652,7 +3663,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3670,7 +3681,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3688,7 +3699,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3706,7 +3717,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3724,7 +3735,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3742,12 +3753,12 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anybodycalibrationstudy-tendonlengthadjustment">
-<span id="id4"></span><h3>TendonLengthAdjustment<a class="headerlink" href="#anybodycalibrationstudy-tendonlengthadjustment" title="Permalink to this headline">¶</a></h3>
+<span id="id6"></span><h3>TendonLengthAdjustment<a class="headerlink" href="#anybodycalibrationstudy-tendonlengthadjustment" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="TendonLengthAdjustment">
@@ -3760,7 +3771,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Operation for calibration of the muscles by adjustment of their tendon length.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3778,7 +3789,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3796,7 +3807,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3814,7 +3825,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3832,7 +3843,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3850,7 +3861,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3868,7 +3879,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3886,7 +3897,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3904,7 +3915,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3922,7 +3933,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3940,12 +3951,12 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anybodycalibrationstudy-ligamentlengthadjustment">
-<span id="id5"></span><h3>LigamentLengthAdjustment<a class="headerlink" href="#anybodycalibrationstudy-ligamentlengthadjustment" title="Permalink to this headline">¶</a></h3>
+<span id="id7"></span><h3>LigamentLengthAdjustment<a class="headerlink" href="#anybodycalibrationstudy-ligamentlengthadjustment" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="LigamentLengthAdjustment">
@@ -3958,7 +3969,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Operation for calibration of the ligaments by adjustment of their undeformed length.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3976,7 +3987,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -3994,7 +4005,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4012,7 +4023,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4030,7 +4041,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4048,7 +4059,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4066,7 +4077,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4084,7 +4095,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4102,7 +4113,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4120,7 +4131,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4138,7 +4149,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4156,7 +4167,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of all muscle-tendon units length in the calibration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4174,12 +4185,12 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of all ligament units length in the calibration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anybodycalibrationstudy-modelinformation">
-<span id="id6"></span><h3>ModelInformation<a class="headerlink" href="#anybodycalibrationstudy-modelinformation" title="Permalink to this headline">¶</a></h3>
+<span id="id8"></span><h3>ModelInformation<a class="headerlink" href="#anybodycalibrationstudy-modelinformation" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ModelInformation">
@@ -4192,7 +4203,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4210,7 +4221,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4228,7 +4239,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4246,12 +4257,12 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anybodycalibrationstudy-setinitialconditions">
-<span id="id7"></span><h3>SetInitialConditions<a class="headerlink" href="#anybodycalibrationstudy-setinitialconditions" title="Permalink to this headline">¶</a></h3>
+<span id="id9"></span><h3>SetInitialConditions<a class="headerlink" href="#anybodycalibrationstudy-setinitialconditions" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SetInitialConditions">
@@ -4264,7 +4275,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4282,7 +4293,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4300,7 +4311,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4318,12 +4329,12 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anybodycalibrationstudy-kinematicanalysis">
-<span id="id8"></span><h3>KinematicAnalysis<a class="headerlink" href="#anybodycalibrationstudy-kinematicanalysis" title="Permalink to this headline">¶</a></h3>
+<span id="id10"></span><h3>KinematicAnalysis<a class="headerlink" href="#anybodycalibrationstudy-kinematicanalysis" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="KinematicAnalysis">
@@ -4336,7 +4347,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4354,7 +4365,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4372,7 +4383,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4390,12 +4401,12 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
 <div class="section" id="anybodycalibrationstudy-inversedynamicanalysis">
-<span id="id9"></span><h3>InverseDynamicAnalysis<a class="headerlink" href="#anybodycalibrationstudy-inversedynamicanalysis" title="Permalink to this headline">¶</a></h3>
+<span id="id11"></span><h3>InverseDynamicAnalysis<a class="headerlink" href="#anybodycalibrationstudy-inversedynamicanalysis" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="InverseDynamicAnalysis">
@@ -4408,7 +4419,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4426,7 +4437,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4444,7 +4455,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4462,7 +4473,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -4480,7 +4491,7 @@ the bounds of the range of motion for each muscle or ligament is used as the
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 </div>
 </div>

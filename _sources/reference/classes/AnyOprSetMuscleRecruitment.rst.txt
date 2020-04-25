@@ -90,7 +90,7 @@ Type
 
 
 
-    { descr | indent(width=4) }
+    Muscle recruitment criterion type.
 
 ..
 
@@ -138,7 +138,7 @@ Power
 
 
 
-    { descr | indent(width=4) }
+    Power for the MR_Polynomial criterion.
 
 ..
 
@@ -186,7 +186,7 @@ UpperBoundOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the upper bound on muscle activity is active in the criterion.
 
 ..
 
@@ -234,7 +234,7 @@ UpperBound
 
 
 
-    { descr | indent(width=4) }
+    Value of the upper bound on muscle activity. Typically it is 1.0 implying complete saturation of the muscle capability.
 
 ..
 
@@ -282,7 +282,7 @@ LowerBoundOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the lower bound on muscle activity is active in the criterion.
 
 ..
 
@@ -330,7 +330,7 @@ LowerBound
 
 
 
-    { descr | indent(width=4) }
+    Value of the lower bound on muscle activity. Typically it is 0.0 llowing muscles to fully relax.
 
 ..
 
@@ -348,8 +348,6 @@ LowerBound
      </div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.PrimaryTerm:
-
 PrimaryTerm
 ==============
 
@@ -358,10 +356,10 @@ PrimaryTerm
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PrimaryTerm">
-    <span id="anyoprsetmusclerecruitment-primaryterm" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PrimaryTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PrimaryTerm" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Folder with settings for primary term of the muscle recruitment criterion....</span>
     </h3>
 
 ..
@@ -404,7 +402,7 @@ PrimaryTerm.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -444,7 +442,7 @@ PrimaryTerm.Weight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -484,7 +482,7 @@ PrimaryTerm.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -524,7 +522,7 @@ PrimaryTerm.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -564,7 +562,7 @@ PrimaryTerm.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -574,7 +572,7 @@ PrimaryTerm.Weight_SearchName
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -592,8 +590,6 @@ PrimaryTerm.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.AuxLinearTerm:
-
 AuxLinearTerm
 ================
 
@@ -602,10 +598,10 @@ AuxLinearTerm
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AuxLinearTerm">
-    <span id="anyoprsetmusclerecruitment-auxlinearterm" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> AuxLinearTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#AuxLinearTerm" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Folder with settings for the auxillary linear term that is appended to the...</span>
     </h3>
 
 ..
@@ -648,7 +644,7 @@ AuxLinearTerm.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -688,7 +684,7 @@ AuxLinearTerm.Weight
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -728,7 +724,7 @@ AuxLinearTerm.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -768,7 +764,7 @@ AuxLinearTerm.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -808,7 +804,7 @@ AuxLinearTerm.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -818,7 +814,7 @@ AuxLinearTerm.Weight_SearchName
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -836,8 +832,6 @@ AuxLinearTerm.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.AuxQuadraticTerm:
-
 AuxQuadraticTerm
 ===================
 
@@ -846,10 +840,10 @@ AuxQuadraticTerm
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AuxQuadraticTerm">
-    <span id="anyoprsetmusclerecruitment-auxquadraticterm" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> AuxQuadraticTerm </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#AuxQuadraticTerm" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Folder with settings for the auxillary quadratic term that is appended to...</span>
     </h3>
 
 ..
@@ -892,7 +886,7 @@ AuxQuadraticTerm.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -932,7 +926,7 @@ AuxQuadraticTerm.Weight
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -972,7 +966,7 @@ AuxQuadraticTerm.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -1012,7 +1006,7 @@ AuxQuadraticTerm.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -1052,7 +1046,7 @@ AuxQuadraticTerm.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -1062,7 +1056,7 @@ AuxQuadraticTerm.Weight_SearchName
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1080,8 +1074,6 @@ AuxQuadraticTerm.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.UpperBoundVar:
-
 UpperBoundVar
 ================
 
@@ -1090,10 +1082,10 @@ UpperBoundVar
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpperBoundVar">
-    <span id="anyoprsetmusclerecruitment-upperboundvar" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> UpperBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#UpperBoundVar" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Folder with settings for variable-scaling for the upper bounds.</span>
     </h3>
 
 ..
@@ -1136,7 +1128,7 @@ UpperBoundVar.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -1176,7 +1168,7 @@ UpperBoundVar.Weight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -1216,7 +1208,7 @@ UpperBoundVar.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -1256,7 +1248,7 @@ UpperBoundVar.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -1296,7 +1288,7 @@ UpperBoundVar.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -1306,7 +1298,7 @@ UpperBoundVar.Weight_SearchName
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1324,8 +1316,6 @@ UpperBoundVar.Weight_SearchName
      </div></div> <!--
 ..
 
-.. _AnyOprSetMuscleRecruitment.LowerBoundVar:
-
 LowerBoundVar
 ================
 
@@ -1334,10 +1324,10 @@ LowerBoundVar
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="LowerBoundVar">
-    <span id="anyoprsetmusclerecruitment-lowerboundvar" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> LowerBoundVar </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#LowerBoundVar" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Folder with settings for variable-scaling for the lower bounds.</span>
     </h3>
 
 ..
@@ -1380,7 +1370,7 @@ LowerBoundVar.Type
     | **Default:** ``MR_CurrentStrength``
         
 
-    { descr | indent(width=4) }
+    Normalization type used to define the muscle quantities entering the term.
 
 ..
 
@@ -1420,7 +1410,7 @@ LowerBoundVar.Weight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Weight (or scaling) of the term in the total criterion.
 
 ..
 
@@ -1460,7 +1450,7 @@ LowerBoundVar.LowerLimit
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Lower bound for muscle quantities entering the term.
 
 ..
 
@@ -1500,7 +1490,7 @@ LowerBoundVar.Nfactor_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional normalization factor associated with each muscle multiplied with the general factor associated with Type attribute. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -1540,7 +1530,7 @@ LowerBoundVar.Weight_SearchName
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    An additional weight factor associated with each muscle multiplied with the general Weight factor. It is given as search string that is used to locate the actual value in the muscle objects (AnyMuscle).
 
 ..
 
@@ -1550,7 +1540,7 @@ LowerBoundVar.Weight_SearchName
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1598,7 +1588,7 @@ IterativeRefinementSteps
 
 
 
-    { descr | indent(width=4) }
+    Number of iterative refinement step performed by the optimization solver. Iterative refinement increases accuracy at the cost of efficiency.
 
 ..
 
@@ -1646,7 +1636,7 @@ NewRecruitmentSolversOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for using the new generation of optimization solvers for muscle recruitment. The older version may occasionally be more efficient, but they cannot deal with all types of problems.
 
 ..
 
@@ -1694,7 +1684,7 @@ MultifrontalCholeskyOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for using multi-frontal methods in the sparse Cholesky factorization inside the muscle recruitment solvers. The multi-frontal method can be faster for larger problems, but this solver is still an experimental implementation.
 
 ..
 

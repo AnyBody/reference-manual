@@ -97,7 +97,7 @@ Value
 
 
 
-    { descr | indent(width=4) }
+    Search string for value axis (for more info. on search strings, see class AnyObjectSearchString).
 
 ..
 
@@ -153,7 +153,7 @@ Title
 
 
 
-    { descr | indent(width=4) }
+    Name string (default value is the name of the AnyChartSerie object).
 
 ..
 
@@ -201,7 +201,7 @@ Abscissa
 
 
 
-    { descr | indent(width=4) }
+    Search string for primary abscissa (for more info. on search strings, see class AnyObjectSearchString).
 
 ..
 
@@ -249,7 +249,7 @@ Abscissa2
 
 
 
-    { descr | indent(width=4) }
+    Search string for secondary abscissa (3D plots only) (for more info. on search strings, see class AnyObjectSearchString).
 
 ..
 
@@ -267,8 +267,6 @@ Abscissa2
      </div> <!--
 ..
 
-.. _AnyChartSerie.Lines:
-
 Lines
 ========
 
@@ -277,10 +275,10 @@ Lines
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Lines">
-    <span id="anychartserie-lines" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Lines </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Lines" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Line style definitions. For series with multiple value data sets, i.e.,...</span>
     </h3>
 
 ..
@@ -323,7 +321,7 @@ Lines.Visible
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for lines to be shown or not.
 
 ..
 
@@ -363,7 +361,7 @@ Lines.Style
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Line style.
 
 ..
 
@@ -403,7 +401,7 @@ Lines.RGB
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1. A matrix with 3 columns holding the RGB values and a row for each color
 
 ..
 
@@ -443,7 +441,7 @@ Lines.Thickness
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Line thickness.
 
 ..
 
@@ -453,7 +451,7 @@ Lines.Thickness
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -471,8 +469,6 @@ Lines.Thickness
      </div></div> <!--
 ..
 
-.. _AnyChartSerie.PointMarkers:
-
 PointMarkers
 ===============
 
@@ -481,10 +477,10 @@ PointMarkers
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PointMarkers">
-    <span id="anychartserie-pointmarkers" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> PointMarkers </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#PointMarkers" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Style definitions for data point markers. For series with multiple value...</span>
     </h3>
 
 ..
@@ -527,7 +523,7 @@ PointMarkers.Visible
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for markers to be shown or not.
 
 ..
 
@@ -567,7 +563,7 @@ PointMarkers.Style
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Marker style.
 
 ..
 
@@ -607,7 +603,7 @@ PointMarkers.Size
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Size of markers.
 
 ..
 
@@ -647,7 +643,7 @@ PointMarkers.SkipPoints
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Amount of points between every visible marker.
 
 ..
 
@@ -657,7 +653,7 @@ PointMarkers.SkipPoints
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -675,8 +671,6 @@ PointMarkers.SkipPoints
      </div></div> <!--
 ..
 
-.. _AnyChartSerie.Cursor:
-
 Cursor
 =========
 
@@ -685,10 +679,10 @@ Cursor
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Cursor">
-    <span id="anychartserie-cursor" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Cursor </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Cursor" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Cursor settings. Notice that the cursor position may be modified by direct...</span>
     </h3>
 
 ..
@@ -731,7 +725,7 @@ Cursor.Visible
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for visiblity.
 
 ..
 
@@ -771,7 +765,7 @@ Cursor.AbsIndex
     | **Default:** ``{0, 1}``
         
 
-    { descr | indent(width=4) }
+    Indices of the active data abscissa for which the cursor movement is associated.
 
 ..
 
@@ -811,7 +805,7 @@ Cursor.DataIndex
     | **Default:** ``{0, 0}``
         
 
-    { descr | indent(width=4) }
+    Indices of the data value for the active abscissae in AbsIndex.
 
 ..
 
@@ -851,7 +845,7 @@ Cursor.PreVisualize
     | **Default:** ``{10, 10}``
         
 
-    { descr | indent(width=4) }
+    Number of data points to be shown before actual cursor position.
 
 ..
 
@@ -891,7 +885,7 @@ Cursor.PostVisualize
     | **Default:** ``{10, 10}``
         
 
-    { descr | indent(width=4) }
+    Number of data points to be shown after actual cursor position.
 
 ..
 
@@ -901,7 +895,7 @@ Cursor.PostVisualize
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -919,8 +913,6 @@ Cursor.PostVisualize
      </div></div> <!--
 ..
 
-.. _AnyChartSerie.Surfaces:
-
 Surfaces
 ===========
 
@@ -929,10 +921,10 @@ Surfaces
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Surfaces">
-    <span id="anychartserie-surfaces" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Surfaces </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Surface style definitions. For series with multiple value data sets, i.e.,...</span>
     </h3>
 
 ..
@@ -975,7 +967,7 @@ Surfaces.RGB
     | **Default:** *Depends on other values*
         
 
-    { descr | indent(width=4) }
+    Color of the surface in RGB values between 0 and 1.
 
 ..
 
@@ -1015,7 +1007,7 @@ Surfaces.Visible
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for surface to be shown or not.
 
 ..
 
@@ -1025,7 +1017,7 @@ Surfaces.Visible
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 

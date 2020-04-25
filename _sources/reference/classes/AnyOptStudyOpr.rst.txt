@@ -80,8 +80,6 @@ Optional initialization members
       <!--
 ..
 
-.. _AnyOptStudyOpr.Settings:
-
 Settings
 ===========
 
@@ -90,10 +88,10 @@ Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Settings">
-    <span id="anyoptstudyopr-settings" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Settings" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">General settings for the operation.</span>
     </h3>
 
 ..
@@ -136,7 +134,7 @@ Settings.Echo
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -176,7 +174,7 @@ Settings.ModelSceneUpdate
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for definition of operation output to the output log and views.
 
 ..
 
@@ -216,7 +214,7 @@ Settings.DisplayPriority
     | **Default:** ``PriorityNormal``
         
 
-    { descr | indent(width=4) }
+    Value for defining the interface display priority for the Operation.
 
 ..
 
@@ -256,7 +254,7 @@ Settings.SelectOnLoad
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Value for defining if the Operation should be displayed as the default Operation for the loaded model.
 
 ..
 
@@ -266,7 +264,7 @@ Settings.SelectOnLoad
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -314,7 +312,7 @@ Solver
 
 
 
-    { descr | indent(width=4) }
+    Solver type setting.
 
 ..
 
@@ -362,7 +360,7 @@ ConvergenceObjectiveTol
 
 
 
-    { descr | indent(width=4) }
+    Absolute tolerance on objective function change in convergence criterion.
 
 ..
 
@@ -410,7 +408,7 @@ ConvergenceDesignTol
 
 
 
-    { descr | indent(width=4) }
+    Relative tolerance on design variable change in convergence criterion.
 
 ..
 
@@ -458,7 +456,7 @@ ConvergenceDesignTolArr
 
 
 
-    { descr | indent(width=4) }
+    Similar to ConvergenceDesignTol, but an array with one element for each design variable. Default is all values equal to ConvergenceDesignTol.
 
 ..
 
@@ -506,7 +504,7 @@ ConstraintActivationTol
 
 
 
-    { descr | indent(width=4) }
+    Absolute tolerance for activating constraints.
 
 ..
 
@@ -554,7 +552,7 @@ ConstraintActivationTolArr
 
 
 
-    { descr | indent(width=4) }
+    Similar to ConstraintActivationTol, but an array with one element for each constraint. Default is all values equal to ConstraintActivationTol.
 
 ..
 
@@ -602,7 +600,7 @@ NumSensitivityPerturbation
 
 
 
-    { descr | indent(width=4) }
+    Absolute perturbation use in numerical sensitivity analyses.
 
 ..
 
@@ -650,7 +648,7 @@ NumSensitivityPerturbationArr
 
 
 
-    { descr | indent(width=4) }
+    Similar to NumSensitivityPerturbation, but an array with one element for each design variable. Default is all values equal to NumSensitivityPerturbation.
 
 ..
 
@@ -698,7 +696,7 @@ PopulationSize
 
 
 
-    { descr | indent(width=4) }
+    Size of the population for population-based solvers, i.e., the number of design points in the population.
 
 ..
 
@@ -746,7 +744,7 @@ PopulationBoxSize
 
 
 
-    { descr | indent(width=4) }
+    Size of the box in the design space within which the initial population is generated. This single constant will set the same size of the box for all design variables. Alternatively, individual box dimension sizes can be set with PopulationBoxSizeArr.
 
 ..
 
@@ -794,7 +792,7 @@ PopulationBoxSizeArr
 
 
 
-    { descr | indent(width=4) }
+    Size of the box in the design space within which the initial population is generated. The vector must for each design variable hold one element, which is the size of the box for that dimension of the design space.
 
 ..
 
@@ -842,7 +840,7 @@ ComplexAlpha
 
 
 
-    { descr | indent(width=4) }
+    The Complex solver's alpha parameter, which defines how far the worst design point is moved through the design population. It must be above 1.0 and the recommended value is 1.3.
 
 ..
 
@@ -890,7 +888,7 @@ ComplexMaxNumRepeat
 
 
 
-    { descr | indent(width=4) }
+    Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
 
 ..
 
@@ -938,7 +936,7 @@ ComplexPenalty
 
 
 
-    { descr | indent(width=4) }
+    Penalty factor used in the Complex solver to convert constraint violations to added value in the objective function.
 
 ..
 
@@ -986,7 +984,7 @@ ComplexPenaltyPowerExponent
 
 
 
-    { descr | indent(width=4) }
+    Exponent used in the Complex solver to convert constraint violations to added value in the objective function..
 
 ..
 
@@ -1034,7 +1032,7 @@ ComplexAnalysisFailedPenalty
 
 
 
-    { descr | indent(width=4) }
+    Penalty constant used in the Complex solver for Analysis operations that fails. It indicates to the solver that this design point is unusable.
 
 ..
 
@@ -1084,7 +1082,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1125,7 +1123,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1166,7 +1164,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1207,7 +1205,7 @@ SolverData
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1248,7 +1246,7 @@ SolverData.Objective
 
 
 
-    { descr | indent(width=4) }
+    Objective function data.
 
 ..
 
@@ -1289,7 +1287,7 @@ SolverData.Constraints
 
 
 
-    { descr | indent(width=4) }
+    Constraint violation data.
 
 ..
 
@@ -1330,7 +1328,7 @@ SolverData.DesVars
 
 
 
-    { descr | indent(width=4) }
+    Design variable data.
 
 ..
 

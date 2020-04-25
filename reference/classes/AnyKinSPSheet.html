@@ -41,7 +41,7 @@
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="AnyKinSPSheetSolverType" href="AnyKinSPSheetSolverType.html" />
+    <link rel="next" title="AnyKinSolverType" href="AnyKinSolverType.html" />
     <link rel="prev" title="AnyKinSPLine" href="AnyKinSPLine.html" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
   </head><body>
@@ -57,7 +57,7 @@
           <a href="../../contents.html" title="Table Of Contents"
              accesskey="C">toc</a> &nbsp; &nbsp;</li>
         <li class="right" >
-          <a href="AnyKinSPSheetSolverType.html" title="AnyKinSPSheetSolverType"
+          <a href="AnyKinSolverType.html" title="AnyKinSolverType"
              accesskey="N">next</a> &nbsp; &nbsp;</li>
         <li class="right" >
           <a href="AnyKinSPLine.html" title="AnyKinSPLine"
@@ -239,7 +239,7 @@ AnyBody.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySurface.html#anysurface"><span class="std std-ref">AnySurface</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Wrapping surfaces of the sheet. The use for individual lines can be controlled with SurfacesSwitch.</p>
 </div></blockquote>
 </div>
 </div>
@@ -259,7 +259,7 @@ AnyBody.</p>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
 </div></blockquote>
 </div>
 </div>
@@ -280,7 +280,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines the number of wrapping points on each line of the sheet. If more than one part is defined in the sheet (i.e. the number of rows in RefFrames greater 2) different numbers of points for each parts of the string can be defined. Thus, the dimension of MeshLong has to be the same as the number of parts of the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -298,7 +298,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines a thickness of the sheet. The thickness defines a minimal distance between wrapping points and surface.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -316,7 +316,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines a linear spring stiffness between two wrapping points in axial direction. This can be used together with the StiffnessLong to control the shape of the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -334,7 +334,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Defines a linear spring stiffness between two wrapping points in lateral direction. This can be used together with the StiffnessLong to control the shape of the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -352,7 +352,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Matrix with factors multiplied to the longitudinal elements in the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -370,7 +370,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Matrix with update-factors for the lateral elements in the sheet. The factor multiplied with the longitudinal stiffness is added to the lateral stiffness of an element.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -388,7 +388,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Matrix containing 0 and 1 to indicate if a line is wrapping on a surface. The number of columns equals the number of lines, the number of rows equals the number of wrapping surfaces.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -406,7 +406,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line indices of the longitudinal distance constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -424,7 +424,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switches for wrapping points defining the used points in a longitudinal distance constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -442,7 +442,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Values of longitudinal distance constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -460,7 +460,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Line indeices of a distance constraint in lateral direction.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -478,7 +478,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switches for wrapping points defining the used points in a lateral distance constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -496,7 +496,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Values of lateral distance constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -514,7 +514,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Indices of wrapping points affected by a linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -532,7 +532,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Reference frame defining the position of linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -550,7 +550,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Direction of a linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -568,7 +568,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Reference frame defining the orientation for the direction of a linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -586,7 +586,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of ‘None’ is allowed, if a straight line between origin and insertion.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -604,7 +604,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -622,7 +622,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch evoking to use the inital conditions as inital guess in each time-step.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -640,7 +640,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-08</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Relative tolerance on the length change of all strings that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -658,7 +658,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1e-06</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Absolute tolerance on the change of positions of wrapping points that is used to determine whether the solution is acceptable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -676,7 +676,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0001</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Distance for activating a constraint for surface wrapping. This factor can improve speed and/or robustness.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -694,7 +694,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1000.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis. Together with SolverType this parameter can be used to change speed and robustness of the wrapping solver.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -708,11 +708,11 @@ AnyBody.</p>
 <span class="member-descr">The SolverType defines one of four solver for the wrapping problem.</span>
 </h3><blockquote>
 <div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyKinSPSheetSolverType.html#anykinspsheetsolvertype"><span class="std std-ref">AnyKinSPSheetSolverType</span></a></div>
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="../missing-references.html#anykinspsheetsolvertype"><span class="std std-ref">AnyKinSPSheetSolverType</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">SPSolverModes</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The SolverType defines one of four solver for the wrapping problem.</p>
 </div></blockquote>
 </div>
 </div>
@@ -733,7 +733,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -751,7 +751,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -769,7 +769,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -787,7 +787,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -805,7 +805,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -823,7 +823,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -841,7 +841,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -859,7 +859,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -877,7 +877,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -895,7 +895,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -913,7 +913,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -931,7 +931,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">PosVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The position vector, i.e., the current values of the measured quantity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -949,7 +949,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The velocity vector, typically the time-derivative of Pos.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -967,7 +967,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">AccVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The acceleration vector, typically the time-derivative of Vel.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -985,7 +985,7 @@ AnyBody.</p>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Matrix of points of the polyline, i.e. the mesh points.</p>
 </div></blockquote>
 </div>
 </div>
@@ -1062,7 +1062,7 @@ AnyBody.</p>
           <a href="../../contents.html" title="Table Of Contents"
              >toc</a> &nbsp; &nbsp;</li>
         <li class="right" >
-          <a href="AnyKinSPSheetSolverType.html" title="AnyKinSPSheetSolverType"
+          <a href="AnyKinSolverType.html" title="AnyKinSolverType"
              >next</a> &nbsp; &nbsp;</li>
         <li class="right" >
           <a href="AnyKinSPLine.html" title="AnyKinSPLine"

@@ -81,7 +81,7 @@ AnyKinMeasure
 
 
 
-    { descr | indent(width=4) }
+    Kinematic measures that should be used by this object.
 
 ..
 
@@ -131,7 +131,7 @@ Coef
 
 
 
-    { descr | indent(width=4) }
+    Matrix of coefficients for the linear combination. Each column corresponds to one component in the sub-measures and each row defines one of the new measures.
 
 ..
 
@@ -172,7 +172,7 @@ Type
 
 
 
-    { descr | indent(width=4) }
+    Interpolation type, please refer to AnyFunInterpol.
 
 ..
 
@@ -228,7 +228,7 @@ OutDim
 
 
 
-    { descr | indent(width=4) }
+    Dimension of the output measure. This optional setting can be used to specify the dimension that alternatively is defined by the number of rows in Coef.
 
 ..
 
@@ -276,7 +276,7 @@ Const
 
 
 
-    { descr | indent(width=4) }
+    Vector of constants.
 
 ..
 
@@ -324,7 +324,7 @@ BsplineOrder
 
 
 
-    { descr | indent(width=4) }
+    Order of B-spline interpolation, please refer to AnyFunInterpol.
 
 ..
 
@@ -372,7 +372,7 @@ T
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -420,7 +420,7 @@ Data
 
 
 
-    { descr | indent(width=4) }
+    Matrix of data points. Each row contains the data points for one component of the measure, please refer to AnyFunInterpol.
 
 ..
 
@@ -470,7 +470,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -511,7 +511,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -552,7 +552,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -593,7 +593,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -634,7 +634,7 @@ RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -675,7 +675,7 @@ Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -716,7 +716,7 @@ KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -757,7 +757,7 @@ KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -798,7 +798,7 @@ nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -839,7 +839,7 @@ RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -880,7 +880,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -921,7 +921,7 @@ RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -962,7 +962,7 @@ Pos
 
 
 
-    { descr | indent(width=4) }
+    The position vector, i.e., the current values of the measured quantity.
 
 ..
 
@@ -1003,7 +1003,7 @@ Vel
 
 
 
-    { descr | indent(width=4) }
+    The velocity vector, typically the time-derivative of Pos.
 
 ..
 
@@ -1044,7 +1044,7 @@ Acc
 
 
 
-    { descr | indent(width=4) }
+    The acceleration vector, typically the time-derivative of Vel.
 
 ..
 

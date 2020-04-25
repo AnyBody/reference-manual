@@ -106,7 +106,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Switch for visiblity.
 
 ..
 
@@ -154,7 +154,7 @@ MinData
 
 
 
-    { descr | indent(width=4) }
+    Minimum data value on the axis. It is automatically determined.
 
 ..
 
@@ -202,7 +202,7 @@ MaxData
 
 
 
-    { descr | indent(width=4) }
+    Maximum data value on the axis. It is automatically determined.
 
 ..
 
@@ -250,7 +250,7 @@ Min
 
 
 
-    { descr | indent(width=4) }
+    Minimum value on the axis. If not set, it is automatically determined.
 
 ..
 
@@ -298,7 +298,7 @@ Max
 
 
 
-    { descr | indent(width=4) }
+    Maximum value on the axis. If not set, it is automatically determined.
 
 ..
 
@@ -346,7 +346,7 @@ AutoMin
 
 
 
-    { descr | indent(width=4) }
+    Switch for automatic determination of minimum value on axis.
 
 ..
 
@@ -394,7 +394,7 @@ AutoMax
 
 
 
-    { descr | indent(width=4) }
+    Switch for automatic determination of maximum value on axis.
 
 ..
 
@@ -442,7 +442,7 @@ Margin
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -490,7 +490,7 @@ ShortenTitleOnOff
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -508,8 +508,6 @@ ShortenTitleOnOff
      </div> <!--
 ..
 
-.. _AnyChartAxis.Title:
-
 Title
 ========
 
@@ -518,10 +516,10 @@ Title
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Title">
-    <span id="anychartaxis-title" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Title </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Title" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Axis title.</span>
     </h3>
 
 ..
@@ -564,7 +562,7 @@ Title.Visible
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for visiblity.
 
 ..
 
@@ -604,7 +602,7 @@ Title.Font
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Font settings.
 
 ..
 
@@ -644,7 +642,7 @@ Title.Font.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -684,7 +682,7 @@ Title.Font.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    { descr | indent(width=4) }
+    Font name (Windows fonts).
 
 ..
 
@@ -724,7 +722,7 @@ Title.Font.Height
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph height in pixels.
 
 ..
 
@@ -764,7 +762,7 @@ Title.Font.Width
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph width in pixels.
 
 ..
 
@@ -804,7 +802,7 @@ Title.Font.Bold
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for bold face type setting.
 
 ..
 
@@ -844,7 +842,7 @@ Title.Font.Italic
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for italic type setting.
 
 ..
 
@@ -884,7 +882,7 @@ Title.Font.BillBoardView
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -924,7 +922,7 @@ Title.Font.ModelSized
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -964,7 +962,7 @@ Title.Font.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The height scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -1004,7 +1002,7 @@ Title.Font.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The width scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -1044,7 +1042,7 @@ Title.Text
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    Text string.
 
 ..
 
@@ -1054,7 +1052,7 @@ Title.Text
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1072,8 +1070,6 @@ Title.Text
      </div></div> <!--
 ..
 
-.. _AnyChartAxis.Unit1:
-
 Unit1
 ========
 
@@ -1082,10 +1078,10 @@ Unit1
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Unit1">
-    <span id="anychartaxis-unit1" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Unit1 </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Unit1" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Primary unit definition (major units).</span>
     </h3>
 
 ..
@@ -1128,7 +1124,7 @@ Unit1.Visible
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for visibility.
 
 ..
 
@@ -1168,7 +1164,7 @@ Unit1.AutoUnit
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for automatic determination of the unit size.
 
 ..
 
@@ -1208,7 +1204,7 @@ Unit1.AutoScale
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1248,7 +1244,7 @@ Unit1.Divisions
     | **Default:** ``5``
         
 
-    { descr | indent(width=4) }
+    Size of the unit specified by a requested number of divisions of the axis' data range. This is used for the automatical determination of the unit size.
 
 ..
 
@@ -1288,7 +1284,7 @@ Unit1.Unit
     | **Default:** ``0.2``
         
 
-    { descr | indent(width=4) }
+    Size of the unit. If AutoUnit is On specified, it will be automatically determined from Divisions and the data range.
 
 ..
 
@@ -1328,7 +1324,7 @@ Unit1.TickInside
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Size of tick inside the plotting area.
 
 ..
 
@@ -1368,7 +1364,7 @@ Unit1.TickOutside
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Size of tick outside the plotting area.
 
 ..
 
@@ -1408,7 +1404,7 @@ Unit1.GridLines
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for visibility of the grid lines.
 
 ..
 
@@ -1448,7 +1444,7 @@ Unit1.GridLineStyle
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Style settings for the grid lines.
 
 ..
 
@@ -1488,7 +1484,7 @@ Unit1.GridLineStyle.Style
     | **Default:** ``Line3DStyleFull``
         
 
-    { descr | indent(width=4) }
+    Line style.
 
 ..
 
@@ -1528,7 +1524,7 @@ Unit1.GridLineStyle.Thickness
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Line thickness.
 
 ..
 
@@ -1568,7 +1564,7 @@ Unit1.GridLineStyle.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -1608,7 +1604,7 @@ Unit1.Text
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for visibility of the unit text.
 
 ..
 
@@ -1648,7 +1644,7 @@ Unit1.TextFont
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Font settings for the unit text.
 
 ..
 
@@ -1688,7 +1684,7 @@ Unit1.TextFont.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -1728,7 +1724,7 @@ Unit1.TextFont.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    { descr | indent(width=4) }
+    Font name (Windows fonts).
 
 ..
 
@@ -1768,7 +1764,7 @@ Unit1.TextFont.Height
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph height in pixels.
 
 ..
 
@@ -1808,7 +1804,7 @@ Unit1.TextFont.Width
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph width in pixels.
 
 ..
 
@@ -1848,7 +1844,7 @@ Unit1.TextFont.Bold
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for bold face type setting.
 
 ..
 
@@ -1888,7 +1884,7 @@ Unit1.TextFont.Italic
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for italic type setting.
 
 ..
 
@@ -1928,7 +1924,7 @@ Unit1.TextFont.BillBoardView
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -1968,7 +1964,7 @@ Unit1.TextFont.ModelSized
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -2008,7 +2004,7 @@ Unit1.TextFont.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The height scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -2048,7 +2044,7 @@ Unit1.TextFont.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The width scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -2088,7 +2084,7 @@ Unit1.TextSpace
     | **Default:** ``0.0``
         
 
-    { descr | indent(width=4) }
+    Space between the unit text and the axis.
 
 ..
 
@@ -2128,7 +2124,7 @@ Unit1.NumberFormat
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Format settings for the unit text.
 
 ..
 
@@ -2168,7 +2164,7 @@ Unit1.NumberFormat.Digits
     | **Default:** ``8``
         
 
-    { descr | indent(width=4) }
+    Number of digits in output. Disregarded if smaller than one.
 
 ..
 
@@ -2208,7 +2204,7 @@ Unit1.NumberFormat.Style
     | **Default:** ``0``
         
 
-    { descr | indent(width=4) }
+    Style of the numeric output.
 
 ..
 
@@ -2248,7 +2244,7 @@ Unit1.NumberFormat.Scale
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for scaling.
 
 ..
 
@@ -2288,7 +2284,7 @@ Unit1.NumberFormat.ScaleVal
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    Scaling factor.
 
 ..
 
@@ -2298,7 +2294,7 @@ Unit1.NumberFormat.ScaleVal
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 

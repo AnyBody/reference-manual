@@ -124,7 +124,7 @@
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMuscle.html#anymuscle"><span class="std std-ref">AnyMuscle</span></a></div>
 <div class="line"><strong>Number:</strong> 1..18446744073709551615</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The muscle to associate the bounds with must given as a member or reference to a muscle object.</p>
 </div></blockquote>
 </div>
 </div>
@@ -144,7 +144,7 @@
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyMatrix.html#anymatrix"><span class="std std-ref">AnyMatrix</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Matrix of coefficients for the linear constraints. Each column corresponds to one muscle and each row defines one constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -161,7 +161,7 @@
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Vector of constants. The length of the vector must match the number of rows in Coef.</p>
 </div></blockquote>
 </div>
 </div>
@@ -182,7 +182,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the forces (class AnyForceBase and derived) that are basic input to the constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -200,7 +200,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -218,7 +218,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">EqualToZero</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Type of constraint. The type applies to all constraints from this object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -236,7 +236,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Number of constraints.</p>
 </div></blockquote>
 </div>
 </div>
@@ -257,7 +257,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -275,7 +275,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -293,7 +293,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -311,7 +311,7 @@
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object-time variable.</p>
 </div></blockquote>
 </div>
 </div>

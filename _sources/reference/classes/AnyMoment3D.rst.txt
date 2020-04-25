@@ -81,7 +81,7 @@ AnyRefFrame
 
 
 
-    { descr | indent(width=4) }
+    The reference frame to which the moment is applied.
 
 ..
 
@@ -140,7 +140,7 @@ M
 
 
 
-    { descr | indent(width=4) }
+    Moment vector in global coordinates (not computed when a local moment is specified).
 
 ..
 
@@ -188,7 +188,7 @@ Mlocal
 
 
 
-    { descr | indent(width=4) }
+    Moment vector in local coordinates (not computed when a global moment is specified).
 
 ..
 
@@ -238,7 +238,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -279,7 +279,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -320,7 +320,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -361,7 +361,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -402,7 +402,7 @@ RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -443,7 +443,7 @@ Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -484,7 +484,7 @@ KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -525,7 +525,7 @@ KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -566,7 +566,7 @@ nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -607,7 +607,7 @@ RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -648,7 +648,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -689,7 +689,7 @@ RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -730,7 +730,7 @@ RefFrameOutput.F
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -771,7 +771,7 @@ RefFrameOutput.M
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -812,7 +812,7 @@ Fin
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.
 
 ..
 
@@ -853,7 +853,7 @@ Fout
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.
 
 ..
 
@@ -894,7 +894,7 @@ Orientation
 
 
 
-    { descr | indent(width=4) }
+    Angular kinematic measure used to calculate the moment contribution on the mechanical system.
 
 ..
 
@@ -935,7 +935,7 @@ Orientation.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -976,7 +976,7 @@ Orientation.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1017,7 +1017,7 @@ Orientation.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1058,7 +1058,7 @@ Orientation.t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -1099,7 +1099,7 @@ Orientation.RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -1140,7 +1140,7 @@ Orientation.Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -1181,7 +1181,7 @@ Orientation.KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -1222,7 +1222,7 @@ Orientation.KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -1263,7 +1263,7 @@ Orientation.nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -1304,7 +1304,7 @@ Orientation.RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -1345,7 +1345,7 @@ Orientation.RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1386,7 +1386,7 @@ Orientation.RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1427,7 +1427,7 @@ Orientation.Pos
 
 
 
-    { descr | indent(width=4) }
+    The position vector, i.e., the current values of the measured quantity.
 
 ..
 
@@ -1468,7 +1468,7 @@ Orientation.Vel
 
 
 
-    { descr | indent(width=4) }
+    The velocity vector, typically the time-derivative of Pos.
 
 ..
 
@@ -1509,7 +1509,7 @@ Orientation.Acc
 
 
 
-    { descr | indent(width=4) }
+    The acceleration vector, typically the time-derivative of Vel.
 
 ..
 
@@ -1550,7 +1550,7 @@ Orientation.Type
 
 
 
-    { descr | indent(width=4) }
+    Coordinate type specification.
 
 ..
 
@@ -1591,7 +1591,7 @@ Orientation.Axis1
 
 
 
-    { descr | indent(width=4) }
+    First axis of rotation for RotAxesAngles and primary axis of rotation (normal to the planar motion) for PlanarAngles.
 
 ..
 
@@ -1632,7 +1632,7 @@ Orientation.Axis2
 
 
 
-    { descr | indent(width=4) }
+    Second axis of rotation for RotAxesAngles.
 
 ..
 
@@ -1673,7 +1673,7 @@ Orientation.Axis3
 
 
 
-    { descr | indent(width=4) }
+    Third axis of rotation for RotAxesAngles.
 
 ..
 
@@ -1714,7 +1714,7 @@ Orientation.DirCosineAxes
 
 
 
-    { descr | indent(width=4) }
+    Pairs of axes used for which directional cosine outputs are given when Type is DirCosines.
 
 ..
 
@@ -1755,7 +1755,7 @@ Orientation.Ref
 
 
 
-    { descr | indent(width=4) }
+    IMPORTANT: The functionality of 'Ref' has been removed, in order to avoid misunderstandings and confusion with 'Ref' in AnyKinLinear. Please modify your model to remove initialization of 'Ref'. In future versions, 'Ref' will be removed entirely. Previous description of this member was: Integer numbers that specify the reference system in which geometric vectors are measured, e.g. the angular velocity vector. '-1' is default meaning the global system, 0 or 1 mean respectively the first or the second reference system that have been added to the object.
 
 ..
 
@@ -1796,7 +1796,7 @@ Orientation.AngVelOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for using angular velocity vector at velocity and acceleration level.
 
 ..
 
@@ -1837,7 +1837,7 @@ Orientation.AngVelGlobal
 
 
 
-    { descr | indent(width=4) }
+    Switch for using angular velocity vector in global coordinates at velocity and acceleration level. This requires 'AngVelOnOff = On'.
 
 ..
 

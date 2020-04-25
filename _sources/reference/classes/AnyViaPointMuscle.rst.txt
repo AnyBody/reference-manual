@@ -99,7 +99,7 @@ AnyMuscleModel
 
 
 
-    { descr | indent(width=4) }
+    A muscle model that defines the strength and passive properties of this muscle.
 
 ..
 
@@ -138,7 +138,7 @@ AnyRefFrame
 
 
 
-    { descr | indent(width=4) }
+    Reference frames that define the via-points.
 
 ..
 
@@ -197,7 +197,7 @@ MetabModel
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -247,7 +247,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -288,7 +288,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -329,7 +329,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -370,7 +370,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -411,7 +411,7 @@ RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -452,7 +452,7 @@ Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -493,7 +493,7 @@ KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -534,7 +534,7 @@ KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -575,7 +575,7 @@ nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -616,7 +616,7 @@ RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -657,7 +657,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -698,7 +698,7 @@ RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -739,7 +739,7 @@ RefFrameOutput.F
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -780,7 +780,7 @@ RefFrameOutput.M
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -821,7 +821,7 @@ Fin
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.
 
 ..
 
@@ -862,7 +862,7 @@ Fout
 
 
 
-    { descr | indent(width=4) }
+    The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.
 
 ..
 
@@ -903,7 +903,7 @@ Lmt
 
 
 
-    { descr | indent(width=4) }
+    Length of the muscle-tendon unit.
 
 ..
 
@@ -944,7 +944,7 @@ Lm
 
 
 
-    { descr | indent(width=4) }
+    Length of the muscle fiber unit. This is not the actual fiber length when the pennation angle is different from zero, but the length of the unit along the tendon line-of-action.
 
 ..
 
@@ -985,7 +985,7 @@ Lt
 
 
 
-    { descr | indent(width=4) }
+    Length of the tendon unit.
 
 ..
 
@@ -1026,7 +1026,7 @@ LmtDot
 
 
 
-    { descr | indent(width=4) }
+    Time-derivative of the muscle-tendon unit length, Lmt.
 
 ..
 
@@ -1067,7 +1067,7 @@ LmDot
 
 
 
-    { descr | indent(width=4) }
+    Time-derivative of the muscle fiber unit length, Lm.
 
 ..
 
@@ -1108,7 +1108,7 @@ Activity
 
 
 
-    { descr | indent(width=4) }
+    Muscle activity, i.e., normalized muscle force.
 
 ..
 
@@ -1149,7 +1149,7 @@ CorrectedActivity
 
 
 
-    { descr | indent(width=4) }
+    Corrected activity, which may be slightly different from Activity for muscle models that involve linearization.
 
 ..
 
@@ -1190,7 +1190,7 @@ Fm
 
 
 
-    { descr | indent(width=4) }
+    Force in the muscle fiber unit. Not projected onto the fiber direction for pennation angles different from zero.
 
 ..
 
@@ -1231,7 +1231,7 @@ Ft
 
 
 
-    { descr | indent(width=4) }
+    Force in the tendon unit.
 
 ..
 
@@ -1272,7 +1272,7 @@ Fp
 
 
 
-    { descr | indent(width=4) }
+    Force in the parallel elastic element. Not projected onto the fiber direction for pennation angles different from zero.
 
 ..
 
@@ -1313,7 +1313,7 @@ Strength
 
 
 
-    { descr | indent(width=4) }
+    Current muscle strength.
 
 ..
 
@@ -1354,7 +1354,7 @@ Ft0
 
 
 
-    { descr | indent(width=4) }
+    Tendon force at zero activity.
 
 ..
 
@@ -1395,7 +1395,7 @@ Ft0Grad
 
 
 
-    { descr | indent(width=4) }
+    Tendon force gradient. with respect to the activity
 
 ..
 
@@ -1436,7 +1436,7 @@ PennationAngle
 
 
 
-    { descr | indent(width=4) }
+    Pennation angle.
 
 ..
 
@@ -1477,7 +1477,7 @@ EPOTt
 
 
 
-    { descr | indent(width=4) }
+    Potential energy in the tendon.
 
 ..
 
@@ -1518,7 +1518,7 @@ EPOTp
 
 
 
-    { descr | indent(width=4) }
+    Potential energy in the parallel elastic element.
 
 ..
 
@@ -1559,7 +1559,7 @@ EPOTmt
 
 
 
-    { descr | indent(width=4) }
+    Total potential energy in the muscle-tendon unit.
 
 ..
 
@@ -1600,7 +1600,7 @@ Pt
 
 
 
-    { descr | indent(width=4) }
+    Power of the tendon unit on the segments, Pt=Ft*LtDot.
 
 ..
 
@@ -1641,7 +1641,7 @@ Pm
 
 
 
-    { descr | indent(width=4) }
+    Power of the muscle fiber unit on the segments, Pm=Fm*LmDot.
 
 ..
 
@@ -1682,7 +1682,7 @@ Pmt
 
 
 
-    { descr | indent(width=4) }
+    Power of the muscle-tendon unit on the segments, Pmt=Fmt*LmtDot.
 
 ..
 
@@ -1723,7 +1723,7 @@ Pmet
 
 
 
-    { descr | indent(width=4) }
+    Metabolic power.
 
 ..
 
@@ -1764,7 +1764,7 @@ Line
 
 
 
-    { descr | indent(width=4) }
+    Kinematic measure that defines the muscle geometry to being a piecewise straigth line between the via points.
 
 ..
 
@@ -1805,7 +1805,7 @@ Line.UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1846,7 +1846,7 @@ Line.UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1887,7 +1887,7 @@ Line.UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1928,7 +1928,7 @@ Line.t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -1969,7 +1969,7 @@ Line.RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -2010,7 +2010,7 @@ Line.Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -2051,7 +2051,7 @@ Line.KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -2092,7 +2092,7 @@ Line.KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -2133,7 +2133,7 @@ Line.nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -2174,7 +2174,7 @@ Line.RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -2215,7 +2215,7 @@ Line.RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -2256,7 +2256,7 @@ Line.RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -2297,7 +2297,7 @@ Line.Pos
 
 
 
-    { descr | indent(width=4) }
+    The position vector, i.e., the current values of the measured quantity.
 
 ..
 
@@ -2338,7 +2338,7 @@ Line.Vel
 
 
 
-    { descr | indent(width=4) }
+    The velocity vector, typically the time-derivative of Pos.
 
 ..
 
@@ -2379,7 +2379,7 @@ Line.Acc
 
 
 
-    { descr | indent(width=4) }
+    The acceleration vector, typically the time-derivative of Vel.
 
 ..
 

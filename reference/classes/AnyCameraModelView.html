@@ -136,7 +136,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyScene.html#anyscene"><span class="std std-ref">AnyScene</span></a></div>
 <div class="line"><strong>Number:</strong> 0..1</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Definition of scene settings. If more than one exists, only the former is used by the camera. If none exists, default settings are used.</p>
 </div></blockquote>
 </div>
 </div>
@@ -157,7 +157,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Distance to the focal plane in (model units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -175,7 +175,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Height of the view area in focal plane (model units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -193,7 +193,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.001</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Distance from eye to the nearest clipping plane (model units). Everything closer to the eye point is not visible.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -211,7 +211,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1000.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Distance from eye to the farest??? clipping plane (model units). Everything further away from the eye point is not visible.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -229,7 +229,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Switch for perspective view. Alternatively, the view is orthographic.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -247,7 +247,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Positioning vector for the camera/eye point.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -265,7 +265,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Orientation view point reference frame given by Euler Parameters (quarternions).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -283,7 +283,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Distance from the camera/eye point to the origin point (e.g. used as rotation center).</p>
 </div></blockquote>
 </div>
 </div>
@@ -304,7 +304,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -322,7 +322,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -340,7 +340,7 @@ of the focal plane, whereas if LookAtDist is zero the camera rotates about itsel
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 </div>
 </div>

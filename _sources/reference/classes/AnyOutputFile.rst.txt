@@ -97,7 +97,7 @@ AnyValue
 
 
 
-    { descr | indent(width=4) }
+    All values (i.e. all AnyValue-derived members) can be reported in the output file depending on the file format settings.
 
 ..
 
@@ -147,7 +147,7 @@ FileName
 
 
 
-    { descr | indent(width=4) }
+    Name of the file.
 
 ..
 
@@ -173,8 +173,6 @@ Optional initialization members
       <!--
 ..
 
-.. _AnyOutputFile.NumberFormat:
-
 NumberFormat
 ===============
 
@@ -183,10 +181,10 @@ NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="NumberFormat">
-    <span id="anyoutputfile-numberformat" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Format settings for numerical values in text formatted files. Applies to...</span>
     </h3>
 
 ..
@@ -229,7 +227,7 @@ NumberFormat.Digits
     | **Default:** ``15``
         
 
-    { descr | indent(width=4) }
+    Number of digits in output. Disregarded if smaller than one.
 
 ..
 
@@ -269,7 +267,7 @@ NumberFormat.Width
     | **Default:** ``23``
         
 
-    { descr | indent(width=4) }
+    Number of character spaces reserved for the number in output. Disregarded if smaller than one.
 
 ..
 
@@ -309,7 +307,7 @@ NumberFormat.Style
     | **Default:** ``ScientificNumber``
         
 
-    { descr | indent(width=4) }
+    Style specification.
 
 ..
 
@@ -349,7 +347,7 @@ NumberFormat.FormatStr
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.
 
 ..
 
@@ -359,7 +357,7 @@ NumberFormat.FormatStr
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -407,7 +405,7 @@ Values
 
 
 
-    { descr | indent(width=4) }
+    Array of object-pointers to values, which will be included in the output data.
 
 ..
 
@@ -455,7 +453,7 @@ Search
 
 
 
-    { descr | indent(width=4) }
+    Array of objects search strings, which will be applied to find and include values in the output (for more info. on search-strings, see class AnyObjectSearchString).
 
 ..
 
@@ -503,7 +501,7 @@ Format
 
 
 
-    { descr | indent(width=4) }
+    File format options. 0: Text format (CSV format with optional header section), 1: XML format.
 
 ..
 
@@ -551,7 +549,7 @@ SepSign
 
 
 
-    { descr | indent(width=4) }
+    Separator sign for the standard format.
 
 ..
 
@@ -599,7 +597,7 @@ SepSpaceAutoOnOff
 
 
 
-    { descr | indent(width=4) }
+    Option to give preference to optimal formatting for standard CSV/TEXT readers. This option can override column width given in 'NumberFormat' so that e.g. space-separated values will only be separated by a single space. When 'On', the file conforms to standard CSV format, else it gives preference to nicely aligned columns (formatted according to 'NumberFormat').
 
 ..
 
@@ -647,7 +645,7 @@ LineSepSign
 
 
 
-    { descr | indent(width=4) }
+    Line separator sign for the standard format.
 
 ..
 
@@ -665,8 +663,6 @@ LineSepSign
      </div> <!--
 ..
 
-.. _AnyOutputFile.Header:
-
 Header
 =========
 
@@ -675,10 +671,10 @@ Header
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Header">
-    <span id="anyoutputfile-header" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Header </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Header" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Header formatting settings for the standard format.</span>
     </h3>
 
 ..
@@ -721,7 +717,7 @@ Header.TitleSectionOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for the title section.
 
 ..
 
@@ -761,7 +757,7 @@ Header.ConstSectionOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for the header section containing constant variables.
 
 ..
 
@@ -801,7 +797,7 @@ Header.ConstSectionSaveOptionsOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for class-specific parameters in the Constants section of the output file. Value 'Off' excludes all standard class members, which are irrelelvant in the output file.
 
 ..
 
@@ -841,7 +837,7 @@ Header.VarSectionOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for the variable description section.
 
 ..
 
@@ -881,7 +877,7 @@ Header.ColumnNamesOnOff
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    Switch for the row containing the column names in the data section.
 
 ..
 
@@ -921,7 +917,7 @@ Header.LinePrefix
     | **Default:** ``""``
         
 
-    { descr | indent(width=4) }
+    String containing a line prefix used for all lines of the header section.
 
 ..
 
@@ -961,7 +957,7 @@ Header.ShortenNamesOnOff
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for shortening variable names, incl. column names, in the output.
 
 ..
 
@@ -1001,7 +997,7 @@ Header.ColumnIDString
     | **Default:** ``"col"``
         
 
-    { descr | indent(width=4) }
+    String used to id columns, i.e., entered in front of column numbers to form a column identifier. If this string is empty the column identifier becomes an integer.
 
 ..
 
@@ -1011,7 +1007,7 @@ Header.ColumnIDString
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1059,7 +1055,7 @@ SuppressTimeColumnOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch to suppress time column being printed into the output file.
 
 ..
 
@@ -1113,7 +1109,7 @@ ConstSectionSaveOptionsOnOff
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) DEPRECATED. This parameter has been moved to Header folder. Switch to exclude class specific parameters in the Constants section of the output file.
 
 ..
 
@@ -1163,7 +1159,7 @@ UpdData
 
 
 
-    { descr | indent(width=4) }
+    Data update counter that counts number of data update and configuration processes.
 
 ..
 

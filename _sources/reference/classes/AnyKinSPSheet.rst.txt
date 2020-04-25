@@ -97,7 +97,7 @@ AnySurface
 
 
 
-    { descr | indent(width=4) }
+    Wrapping surfaces of the sheet. The use for individual lines can be controlled with SurfacesSwitch.
 
 ..
 
@@ -147,7 +147,7 @@ RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -203,7 +203,7 @@ MeshLong
 
 
 
-    { descr | indent(width=4) }
+    Defines the number of wrapping points on each line of the sheet. If more than one part is defined in the sheet (i.e. the number of rows in RefFrames greater 2) different numbers of points for each parts of the string can be defined. Thus, the dimension of MeshLong has to be the same as the number of parts of the sheet.
 
 ..
 
@@ -251,7 +251,7 @@ Thickness
 
 
 
-    { descr | indent(width=4) }
+    Defines a thickness of the sheet. The thickness defines a minimal distance between wrapping points and surface.
 
 ..
 
@@ -299,7 +299,7 @@ StiffnessLong
 
 
 
-    { descr | indent(width=4) }
+    Defines a linear spring stiffness between two wrapping points in axial direction. This can be used together with the StiffnessLong to control the shape of the sheet.
 
 ..
 
@@ -347,7 +347,7 @@ StiffnessLat
 
 
 
-    { descr | indent(width=4) }
+    Defines a linear spring stiffness between two wrapping points in lateral direction. This can be used together with the StiffnessLong to control the shape of the sheet.
 
 ..
 
@@ -395,7 +395,7 @@ StiffnessRatiosLong
 
 
 
-    { descr | indent(width=4) }
+    Matrix with factors multiplied to the longitudinal elements in the sheet.
 
 ..
 
@@ -443,7 +443,7 @@ StiffnessRatiosLat
 
 
 
-    { descr | indent(width=4) }
+    Matrix with update-factors for the lateral elements in the sheet. The factor multiplied with the longitudinal stiffness is added to the lateral stiffness of an element.
 
 ..
 
@@ -491,7 +491,7 @@ SurfacesSwitch
 
 
 
-    { descr | indent(width=4) }
+    Matrix containing 0 and 1 to indicate if a line is wrapping on a surface. The number of columns equals the number of lines, the number of rows equals the number of wrapping surfaces.
 
 ..
 
@@ -539,7 +539,7 @@ ConDistLongIndex
 
 
 
-    { descr | indent(width=4) }
+    Line indices of the longitudinal distance constraints.
 
 ..
 
@@ -587,7 +587,7 @@ ConDistLongPointSwitch
 
 
 
-    { descr | indent(width=4) }
+    Switches for wrapping points defining the used points in a longitudinal distance constraint.
 
 ..
 
@@ -635,7 +635,7 @@ ConDistLongValue
 
 
 
-    { descr | indent(width=4) }
+    Values of longitudinal distance constraints.
 
 ..
 
@@ -683,7 +683,7 @@ ConDistLatIndex
 
 
 
-    { descr | indent(width=4) }
+    Line indeices of a distance constraint in lateral direction.
 
 ..
 
@@ -731,7 +731,7 @@ ConDistLatPointSwitch
 
 
 
-    { descr | indent(width=4) }
+    Switches for wrapping points defining the used points in a lateral distance constraint.
 
 ..
 
@@ -779,7 +779,7 @@ ConDistLatValue
 
 
 
-    { descr | indent(width=4) }
+    Values of lateral distance constraints.
 
 ..
 
@@ -827,7 +827,7 @@ ConLinPointIndex
 
 
 
-    { descr | indent(width=4) }
+    Indices of wrapping points affected by a linear constraint.
 
 ..
 
@@ -875,7 +875,7 @@ ConLinRefFrame
 
 
 
-    { descr | indent(width=4) }
+    Reference frame defining the position of linear constraint.
 
 ..
 
@@ -923,7 +923,7 @@ ConLinDir
 
 
 
-    { descr | indent(width=4) }
+    Direction of a linear constraint.
 
 ..
 
@@ -971,7 +971,7 @@ ConLinDirRefFrame
 
 
 
-    { descr | indent(width=4) }
+    Reference frame defining the orientation for the direction of a linear constraint.
 
 ..
 
@@ -1019,7 +1019,7 @@ InitWrapPosVecArr
 
 
 
-    { descr | indent(width=4) }
+    Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
 
 ..
 
@@ -1067,7 +1067,7 @@ InitWrapPosOnlyOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
 
 ..
 
@@ -1115,7 +1115,7 @@ InitWrapPosForEachStepOnOff
 
 
 
-    { descr | indent(width=4) }
+    Switch evoking to use the inital conditions as inital guess in each time-step.
 
 ..
 
@@ -1163,7 +1163,7 @@ RelTol
 
 
 
-    { descr | indent(width=4) }
+    Relative tolerance on the length change of all strings that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
 
 ..
 
@@ -1211,7 +1211,7 @@ AbsTol
 
 
 
-    { descr | indent(width=4) }
+    Absolute tolerance on the change of positions of wrapping points that is used to determine whether the solution is acceptable.
 
 ..
 
@@ -1259,7 +1259,7 @@ ContactActivationDist
 
 
 
-    { descr | indent(width=4) }
+    Distance for activating a constraint for surface wrapping. This factor can improve speed and/or robustness.
 
 ..
 
@@ -1307,7 +1307,7 @@ AugLagCoef
 
 
 
-    { descr | indent(width=4) }
+    Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis. Together with SolverType this parameter can be used to change speed and robustness of the wrapping solver.
 
 ..
 
@@ -1355,7 +1355,7 @@ SolverType
 
 
 
-    { descr | indent(width=4) }
+    The SolverType defines one of four solver for the wrapping problem.
 
 ..
 
@@ -1405,7 +1405,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1446,7 +1446,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1487,7 +1487,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1528,7 +1528,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -1569,7 +1569,7 @@ Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -1610,7 +1610,7 @@ KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -1651,7 +1651,7 @@ KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -1692,7 +1692,7 @@ nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -1733,7 +1733,7 @@ RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -1774,7 +1774,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1815,7 +1815,7 @@ RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1856,7 +1856,7 @@ Pos
 
 
 
-    { descr | indent(width=4) }
+    The position vector, i.e., the current values of the measured quantity.
 
 ..
 
@@ -1897,7 +1897,7 @@ Vel
 
 
 
-    { descr | indent(width=4) }
+    The velocity vector, typically the time-derivative of Pos.
 
 ..
 
@@ -1938,7 +1938,7 @@ Acc
 
 
 
-    { descr | indent(width=4) }
+    The acceleration vector, typically the time-derivative of Vel.
 
 ..
 
@@ -1979,7 +1979,7 @@ P
 
 
 
-    { descr | indent(width=4) }
+    Matrix of points of the polyline, i.e. the mesh points.
 
 ..
 

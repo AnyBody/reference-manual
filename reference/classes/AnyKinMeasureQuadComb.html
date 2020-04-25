@@ -175,7 +175,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyKinMeasure.html#anykinmeasure"><span class="std std-ref">AnyKinMeasure</span></a></div>
 <div class="line"><strong>Number:</strong> 0..Inf</div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Kinematic measures that should be used by this object.</p>
 </div></blockquote>
 </div>
 </div>
@@ -195,7 +195,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Dimension of the output measure. The dimension of all coefficient matrices (named ‘Coef*’) and const vectors (named ‘Const*’) must match the the specified ‘OutDim’</p>
 </div></blockquote>
 </div>
 </div>
@@ -216,7 +216,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Matrix of coefficients for the linear combination. Each column corresponds to one component in the sub-measures and each row defines one of the new measures.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -234,7 +234,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Vector of constants.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -252,7 +252,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pointer to a parameter function that provide any time-dependent component of the ‘Coef’ matrix. The output of the function must match the dimensions of ‘Coef’ or at least have the same number of elements.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -270,7 +270,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">None</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Pointer to a parameter function that provide any time-dependent component of the ‘Const’ vector. The output of the function must have the same number of elements as ‘Const’.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -288,7 +288,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Coefficient tensor for the quadratic part. This is an array of square matrices with the dimension of the number of input measures. Each of matrix defines the quadratic term for one of the output measures, see class <a class="reference internal" href="#anykinmeasurequadcomb"><span class="std std-ref">AnyKinMeasureQuadComb</span></a>.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -310,7 +310,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <p><span class="versionmodified deprecated">Deprecated since version This: </span>member was only available during beta testing and though still functional,
  its it is recommended to use ‘CoefQuadTensor’</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>(Deprecated) Coefficient matrix for the quadratic part. Each element of this matrix contains an index referring to the input kinematic measures (similar to the <code class="docutils literal notranslate"><span class="pre">MeasureOrganizer</span></code> in class <a class="reference internal" href="AnyKinMeasureOrg.html#anykinmeasureorg"><span class="std std-ref">AnyKinMeasureOrg</span></a>). Negative index means no measure, i.e. zero element in the matrix. The format of the matrix the same as the <code class="docutils literal notranslate"><span class="pre">Coef</span></code> matrix.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -332,7 +332,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <p><span class="versionmodified deprecated">Deprecated since version This: </span>member was only available during beta testing and though still functional,
  its it is recommended to use ‘CoefQuadTensor’</p>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>(Deprecated) Coefficient matrix of constant scaling factors that are multiplied with the measure values in <code class="docutils literal notranslate"><span class="pre">CoefMeasureOrg</span></code>. The format of the matrix the same as the <code class="docutils literal notranslate"><span class="pre">CoefMeasureOrg</span></code> matrix.</p>
 </div></blockquote>
 </div>
 </div>
@@ -353,7 +353,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -371,7 +371,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -389,7 +389,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -407,7 +407,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">TimeVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -425,7 +425,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -443,7 +443,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -461,7 +461,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -479,7 +479,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -497,7 +497,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -515,7 +515,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{}</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -533,7 +533,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -551,7 +551,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -569,7 +569,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">PosVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The position vector, i.e., the current values of the measured quantity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -587,7 +587,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The velocity vector, typically the time-derivative of Pos.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
@@ -605,7 +605,7 @@ y[1] &amp;= x[2]^2 -2 x[2] + 20\end{split}\]</div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">AccVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>{ descr | indent(width=4) }</p>
+<p>The acceleration vector, typically the time-derivative of Vel.</p>
 </div></blockquote>
 </div>
 </div>

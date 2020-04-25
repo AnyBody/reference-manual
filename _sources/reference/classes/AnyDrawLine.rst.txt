@@ -81,7 +81,7 @@ AnyStyleDrawMaterial
 
 
 
-    { descr | indent(width=4) }
+    Graphical material specification, that overrides the color setting in RGB.
 
 ..
 
@@ -120,7 +120,7 @@ AnyRefFrame
 
 
 
-    { descr | indent(width=4) }
+    Definition of the reference frame the endpoints are attached to.
 
 ..
 
@@ -170,7 +170,7 @@ p0
 
 
 
-    { descr | indent(width=4) }
+    The starting point of the line.
 
 ..
 
@@ -211,7 +211,89 @@ p1
 
 
 
-    { descr | indent(width=4) }
+    The ending point of the line.
+
+..
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyDrawLine.Line:
+
+Line
+=======
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line">
+    <span id="anydrawline-line" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Line style folder.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStyleDrawLineWithCaps`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+
+
+
+    Line style folder.
+
+..
+
+
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyDrawLine.Line.Thickness:
+
+Line.Thickness
+=================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Thickness">
+    <span id="anydrawline-line-thickness" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line.Thickness</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Thickness" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Line thickness.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+
+
+
+    Line thickness.
 
 ..
 
@@ -267,7 +349,7 @@ Visible
 
 
 
-    { descr | indent(width=4) }
+    Visibility setting, which specifies default visibility of the object.
 
 ..
 
@@ -315,7 +397,7 @@ Opacity
 
 
 
-    { descr | indent(width=4) }
+    Opacity setting, which specifies default opacity of the object.
 
 ..
 
@@ -363,7 +445,7 @@ Pickable
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
 
 ..
 
@@ -411,7 +493,7 @@ PickableZOrdering
 
 
 
-    { descr | indent(width=4) }
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
 
 ..
 
@@ -459,7 +541,7 @@ Offset
 
 
 
-    { descr | indent(width=4) }
+    A vector that specifies.
 
 ..
 
@@ -507,7 +589,7 @@ GlobalCoord
 
 
 
-    { descr | indent(width=4) }
+    Specifies whether the endpoints are given in global coordinates or alternatively in local coordinates of the reference frame.
 
 ..
 
@@ -555,7 +637,7 @@ DirAxis
 
 
 
-    { descr | indent(width=4) }
+    Projection axes, i.e., visible coordinates for projections. This can be an array of multiple axes. By default all three dimensions are shown.
 
 ..
 
@@ -573,8 +655,6 @@ DirAxis
      </div> <!--
 ..
 
-.. _AnyDrawLine.Line:
-
 Line
 =======
 
@@ -583,10 +663,10 @@ Line
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line">
-    <span id="anydrawline-line" style=""></span>
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> Line </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Line style folder.</span>
     </h3>
 
 ..
@@ -629,47 +709,7 @@ Line.Style
     | **Default:** ``Line3DStyleFull``
         
 
-    { descr | indent(width=4) }
-
-..
-
-
-
-    
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyDrawLine.Line.Thickness:
-
-Line.Thickness
------------------
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Thickness">
-    <span id="anydrawline-line-thickness" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#Line.Thickness" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Line thickness.</span>
-    </h4>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.005``
-        
-
-    { descr | indent(width=4) }
+    Line style.
 
 ..
 
@@ -695,9 +735,9 @@ Line.RGB
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.RGB">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.RGB">
     <span id="anydrawline-line-rgb" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#Line.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
     </h4>
 
@@ -706,10 +746,10 @@ Line.RGB
 
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{0.0, 0.0, 1.0}``
+    | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -735,7 +775,7 @@ Line.Start
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start">
     <span id="anydrawline-line-start" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.Start" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for starting cap of line.</span>
@@ -749,7 +789,7 @@ Line.Start
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Style folder for starting cap of line.
 
 ..
 
@@ -775,7 +815,7 @@ Line.Start.Style
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Style">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Style">
     <span id="anydrawline-line-start-style" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleArrow </span><a class="headerlink" href="#Line.Start.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
@@ -789,7 +829,7 @@ Line.Start.Style
     | **Default:** ``Line3DCapStyleArrow``
         
 
-    { descr | indent(width=4) }
+    Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
 
 ..
 
@@ -815,9 +855,9 @@ Line.Start.RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.RGB">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.RGB">
     <span id="anydrawline-line-start-rgb" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#Line.Start.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.Start.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
     </h4>
 
@@ -826,10 +866,10 @@ Line.Start.RGB
 
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{0.0, 0.0, 1.0}``
+    | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -855,9 +895,9 @@ Line.Start.Thickness
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Thickness">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Thickness">
     <span id="anydrawline-line-start-thickness" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.Start.Thickness" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
     </h4>
 
@@ -866,10 +906,10 @@ Line.Start.Thickness
 
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.01``
+    | **Default:** ``2.0``
         
 
-    { descr | indent(width=4) }
+    Cap thickness (must be larger than line thickness).
 
 ..
 
@@ -895,9 +935,9 @@ Line.Start.Length
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.Start.Length">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.Start.Length">
     <span id="anydrawline-line-start-length" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.Start.Length" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Start.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.Start.Length" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap length.</span>
     </h4>
 
@@ -906,10 +946,10 @@ Line.Start.Length
 
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.01``
+    | **Default:** ``2.0``
         
 
-    { descr | indent(width=4) }
+    Cap length.
 
 ..
 
@@ -935,7 +975,7 @@ Line.End
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End">
     <span id="anydrawline-line-end" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.End" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for ending cap of line.</span>
@@ -949,7 +989,7 @@ Line.End
     | **Default:** ``{}``
         
 
-    { descr | indent(width=4) }
+    Style folder for ending cap of line.
 
 ..
 
@@ -975,7 +1015,7 @@ Line.End.Style
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Style">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Style">
     <span id="anydrawline-line-end-style" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DCapStyleArrow </span><a class="headerlink" href="#Line.End.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
@@ -989,7 +1029,7 @@ Line.End.Style
     | **Default:** ``Line3DCapStyleArrow``
         
 
-    { descr | indent(width=4) }
+    Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
 
 ..
 
@@ -1015,9 +1055,9 @@ Line.End.RGB
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.RGB">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.RGB">
     <span id="anydrawline-line-end-rgb" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#Line.End.RGB" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Line.End.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
     </h4>
 
@@ -1026,10 +1066,10 @@ Line.End.RGB
 
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{0.0, 0.0, 1.0}``
+    | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -1055,9 +1095,9 @@ Line.End.Thickness
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Thickness">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Thickness">
     <span id="anydrawline-line-end-thickness" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.End.Thickness" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
     </h4>
 
@@ -1066,10 +1106,10 @@ Line.End.Thickness
 
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.01``
+    | **Default:** ``2.0``
         
 
-    { descr | indent(width=4) }
+    Cap thickness (must be larger than line thickness).
 
 ..
 
@@ -1095,9 +1135,9 @@ Line.End.Length
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line.End.Length">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Line.End.Length">
     <span id="anydrawline-line-end-length" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Line.End.Length" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.End.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Line.End.Length" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap length.</span>
     </h4>
 
@@ -1106,10 +1146,10 @@ Line.End.Length
 
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``0.01``
+    | **Default:** ``2.0``
         
 
-    { descr | indent(width=4) }
+    Cap length.
 
 ..
 
@@ -1119,7 +1159,7 @@ Line.End.Length
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1167,7 +1207,7 @@ Text
 
 
 
-    { descr | indent(width=4) }
+    Text to be associated with the object.
 
 ..
 
@@ -1215,7 +1255,7 @@ TextRelPos
 
 
 
-    { descr | indent(width=4) }
+    Relative position of text. Typical values should be between 0 and 1, which will position the text accordingly along the line.
 
 ..
 
@@ -1233,8 +1273,6 @@ TextRelPos
      </div> <!--
 ..
 
-.. _AnyDrawLine.TextFont:
-
 TextFont
 ===========
 
@@ -1243,10 +1281,10 @@ TextFont
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextFont">
-    <span id="anydrawline-textfont" style=""></span>
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    
     <h3 class="html-toggle-button" style=""><span class="member-title"> TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#TextFont" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Font settings for text.</span>
     </h3>
 
 ..
@@ -1289,7 +1327,7 @@ TextFont.RGB
     | **Default:** ``{0.0, 0.0, 0.0}``
         
 
-    { descr | indent(width=4) }
+    Color in RGB values between 0 and 1.
 
 ..
 
@@ -1329,7 +1367,7 @@ TextFont.FontName
     | **Default:** ``"Times New Roman"``
         
 
-    { descr | indent(width=4) }
+    Font name (Windows fonts).
 
 ..
 
@@ -1369,7 +1407,7 @@ TextFont.Height
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph height in pixels.
 
 ..
 
@@ -1409,7 +1447,7 @@ TextFont.Width
     | **Default:** ``50``
         
 
-    { descr | indent(width=4) }
+    Font glyph width in pixels.
 
 ..
 
@@ -1449,7 +1487,7 @@ TextFont.Bold
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for bold face type setting.
 
 ..
 
@@ -1489,7 +1527,7 @@ TextFont.Italic
     | **Default:** ``Off``
         
 
-    { descr | indent(width=4) }
+    Switch for italic type setting.
 
 ..
 
@@ -1529,7 +1567,7 @@ TextFont.BillBoardView
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -1569,7 +1607,7 @@ TextFont.ModelSized
     | **Default:** ``On``
         
 
-    { descr | indent(width=4) }
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -1609,7 +1647,7 @@ TextFont.ModelScaleHeight
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The height scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -1649,7 +1687,7 @@ TextFont.ModelScaleWidth
     | **Default:** ``1.0``
         
 
-    { descr | indent(width=4) }
+    The width scaling of the text when ModelSized is enabled.
 
 ..
 
@@ -1659,7 +1697,7 @@ TextFont.ModelScaleWidth
 
 
 
-    { descr | indent(width=4) }
+    
 
 ..
 
@@ -1709,7 +1747,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1750,7 +1788,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -1791,7 +1829,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

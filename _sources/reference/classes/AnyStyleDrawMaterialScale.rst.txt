@@ -90,7 +90,7 @@ EnableCreasing
 
 
 
-    { descr | indent(width=4) }
+    If set to Off, the creasing angle is ignored for this material.
 
 ..
 
@@ -138,7 +138,7 @@ CreasingAngle
 
 
 
-    { descr | indent(width=4) }
+    The maximum angle (in radians) between neighboring triangle before the edge between the triangles is rendered as a hard edge.
 
 ..
 
@@ -186,7 +186,7 @@ EnableWireframe
 
 
 
-    { descr | indent(width=4) }
+    If set to On, surfaces with this material will be rendered as wireframe.
 
 ..
 
@@ -234,7 +234,7 @@ EnableSmoothing
 
 
 
-    { descr | indent(width=4) }
+    If set to On, smoothing of surfaces are enabled for this material.
 
 ..
 
@@ -282,7 +282,7 @@ Param
 
 
 
-    { descr | indent(width=4) }
+    Parameter controling the output. It must be initialized with an expression for the actual value.
 
 ..
 
@@ -330,7 +330,7 @@ ParamArray
 
 
 
-    { descr | indent(width=4) }
+    Parameter values for which corresponding RGB and opacity values are given in RGBArray and OpacityArray, respectively.
 
 ..
 
@@ -378,7 +378,7 @@ RGBArray
 
 
 
-    { descr | indent(width=4) }
+    RGB color values corresponding to parameter values in ParamArray.
 
 ..
 
@@ -426,7 +426,7 @@ OpacityArray
 
 
 
-    { descr | indent(width=4) }
+    Opacity values corresponding to parameter values in ParamArray.
 
 ..
 

@@ -97,7 +97,7 @@ AnyKinMeasure
 
 
 
-    { descr | indent(width=4) }
+    Kinematic measures that should be used by this object.
 
 ..
 
@@ -147,7 +147,7 @@ OutDim
 
 
 
-    { descr | indent(width=4) }
+    Dimension of the output measure. The dimension of all coefficient matrices (named 'Coef*') and const vectors (named 'Const*') must match the the specified 'OutDim'
 
 ..
 
@@ -203,7 +203,7 @@ Coef
 
 
 
-    { descr | indent(width=4) }
+    Matrix of coefficients for the linear combination. Each column corresponds to one component in the sub-measures and each row defines one of the new measures.
 
 ..
 
@@ -251,7 +251,7 @@ Const
 
 
 
-    { descr | indent(width=4) }
+    Vector of constants.
 
 ..
 
@@ -299,7 +299,7 @@ CoefTimeFun
 
 
 
-    { descr | indent(width=4) }
+    Pointer to a parameter function that provide any time-dependent component of the 'Coef' matrix. The output of the function must match the dimensions of 'Coef' or at least have the same number of elements.
 
 ..
 
@@ -347,7 +347,7 @@ ConstTimeFun
 
 
 
-    { descr | indent(width=4) }
+    Pointer to a parameter function that provide any time-dependent component of the 'Const' vector. The output of the function must have the same number of elements as 'Const'.
 
 ..
 
@@ -395,7 +395,7 @@ CoefQuadTensor
 
 
 
-    { descr | indent(width=4) }
+    Coefficient tensor for the quadratic part. This is an array of square matrices with the dimension of the number of input measures. Each of matrix defines the quadratic term for one of the output measures, see class :ref:`AnyKinMeasureQuadComb`.
 
 ..
 
@@ -449,7 +449,7 @@ CoefMeasureOrg
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) Coefficient matrix for the quadratic part. Each element of this matrix contains an index referring to the input kinematic measures (similar to the ``MeasureOrganizer`` in class :ref:`AnyKinMeasureOrg`). Negative index means no measure, i.e. zero element in the matrix. The format of the matrix the same as the ``Coef`` matrix.
 
 ..
 
@@ -503,7 +503,7 @@ CoefMeasureScaleFactors
 
 
 
-    { descr | indent(width=4) }
+    (Deprecated) Coefficient matrix of constant scaling factors that are multiplied with the measure values in ``CoefMeasureOrg``. The format of the matrix the same as the ``CoefMeasureOrg`` matrix.
 
 ..
 
@@ -553,7 +553,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -594,7 +594,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -635,7 +635,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -676,7 +676,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
@@ -717,7 +717,7 @@ RefFrames
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.
 
 ..
 
@@ -758,7 +758,7 @@ Surfaces
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.
 
 ..
 
@@ -799,7 +799,7 @@ KinMeasureArr
 
 
 
-    { descr | indent(width=4) }
+    Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures
 
 ..
 
@@ -840,7 +840,7 @@ KinMeasureIndexArr
 
 
 
-    { descr | indent(width=4) }
+    Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.
 
 ..
 
@@ -881,7 +881,7 @@ nDim
 
 
 
-    { descr | indent(width=4) }
+    Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the 'Pos' member (when avaialble) and related members.
 
 ..
 
@@ -922,7 +922,7 @@ RefFrameOutput
 
 
 
-    { descr | indent(width=4) }
+    Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as 'RefFrames', but also implicit dependecies via for instance surfaces (e.g. from the member 'Surfaces').
 
 ..
 
@@ -963,7 +963,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1004,7 +1004,7 @@ RefFrameOutput.Jacobians
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1045,7 +1045,7 @@ Pos
 
 
 
-    { descr | indent(width=4) }
+    The position vector, i.e., the current values of the measured quantity.
 
 ..
 
@@ -1086,7 +1086,7 @@ Vel
 
 
 
-    { descr | indent(width=4) }
+    The velocity vector, typically the time-derivative of Pos.
 
 ..
 
@@ -1127,7 +1127,7 @@ Acc
 
 
 
-    { descr | indent(width=4) }
+    The acceleration vector, typically the time-derivative of Vel.
 
 ..
 

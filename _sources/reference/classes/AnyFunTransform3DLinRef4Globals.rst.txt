@@ -106,7 +106,7 @@ PreTransforms
 
 
 
-    { descr | indent(width=4) }
+    Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.
 
 ..
 
@@ -154,7 +154,7 @@ Function_Ref2Global
 
 
 
-    { descr | indent(width=4) }
+    Transformation to global coordinates from the system given by the 'Ref' argument.
 
 ..
 
@@ -202,7 +202,7 @@ Function_Ref2RefTarget
 
 
 
-    { descr | indent(width=4) }
+    Transformation from the coordinates of the system given by the 'Ref' argument to the system given by 'RefTarget' argument.
 
 ..
 
@@ -250,7 +250,7 @@ Function_Ref2RefTargetWithOptions
 
 
 
-    { descr | indent(width=4) }
+    Transformation from the coordinates of the system given by the 'Ref' argument to the system given by 'RefTarget' argument with additional switches for whether to include/exclude translations or rotations.
 
 ..
 
@@ -300,7 +300,7 @@ Function
 
 
 
-    { descr | indent(width=4) }
+    Function for 3D vectors (of floating point values).
 
 ..
 
@@ -341,7 +341,7 @@ Function.ArgList
 
 
 
-    { descr | indent(width=4) }
+    A special folder containing the argument list of the function.
 
 ..
 
@@ -382,7 +382,7 @@ Function.ArgList.Arg
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -423,7 +423,7 @@ Function.Return
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -464,7 +464,48 @@ UpdFunData
 
 
 
-    { descr | indent(width=4) }
+    Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyFunTransform3DLinRef4Globals.Function_Ref2Global:
+
+Function_Ref2Global
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2Global">
+    <span id="anyfuntransform3dlinref4globals-function_ref2global" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2Global</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2Global" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Transformation to global coordinates from the system given by the 'Ref' argument.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMonoFunction`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Transformation to global coordinates from the system given by the 'Ref' argument.
 
 ..
 
@@ -489,7 +530,7 @@ Function_Ref2Global.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2Global.ArgList">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2Global.ArgList">
     <span id="anyfuntransform3dlinref4globals-function_ref2global-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2Global.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2Global.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -505,7 +546,7 @@ Function_Ref2Global.ArgList
 
 
 
-    { descr | indent(width=4) }
+    A special folder containing the argument list of the function.
 
 ..
 
@@ -530,7 +571,7 @@ Function_Ref2Global.ArgList.Arg
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2Global.ArgList.Arg">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2Global.ArgList.Arg">
     <span id="anyfuntransform3dlinref4globals-function_ref2global-arglist-arg" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2Global.ArgList.Arg</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2Global.ArgList.Arg" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -546,7 +587,7 @@ Function_Ref2Global.ArgList.Arg
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -571,7 +612,7 @@ Function_Ref2Global.ArgList.Ref
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2Global.ArgList.Ref">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2Global.ArgList.Ref">
     <span id="anyfuntransform3dlinref4globals-function_ref2global-arglist-ref" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2Global.ArgList.Ref</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2Global.ArgList.Ref" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -587,7 +628,7 @@ Function_Ref2Global.ArgList.Ref
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -612,7 +653,7 @@ Function_Ref2Global.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2Global.Return">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2Global.Return">
     <span id="anyfuntransform3dlinref4globals-function_ref2global-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2Global.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2Global.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -628,7 +669,48 @@ Function_Ref2Global.Return
 
 
 
-    { descr | indent(width=4) }
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyFunTransform3DLinRef4Globals.Function_Ref2RefTarget:
+
+Function_Ref2RefTarget
+=========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTarget">
+    <span id="anyfuntransform3dlinref4globals-function_ref2reftarget" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTarget</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTarget" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Transformation from the coordinates of the system given by the 'Ref'...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMonoFunction`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Transformation from the coordinates of the system given by the 'Ref' argument to the system given by 'RefTarget' argument.
 
 ..
 
@@ -669,7 +751,7 @@ Function_Ref2RefTarget.ArgList
 
 
 
-    { descr | indent(width=4) }
+    A special folder containing the argument list of the function.
 
 ..
 
@@ -710,7 +792,7 @@ Function_Ref2RefTarget.ArgList.Arg
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -751,7 +833,7 @@ Function_Ref2RefTarget.ArgList.Ref
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -792,7 +874,7 @@ Function_Ref2RefTarget.ArgList.RefTarget
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -833,7 +915,48 @@ Function_Ref2RefTarget.Return
 
 
 
-    { descr | indent(width=4) }
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyFunTransform3DLinRef4Globals.Function_Ref2RefTargetWithOptions:
+
+Function_Ref2RefTargetWithOptions
+====================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions">
+    <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Transformation from the coordinates of the system given by the 'Ref'...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyMonoFunction`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+
+
+
+    Transformation from the coordinates of the system given by the 'Ref' argument to the system given by 'RefTarget' argument with additional switches for whether to include/exclude translations or rotations.
 
 ..
 
@@ -858,7 +981,7 @@ Function_Ref2RefTargetWithOptions.ArgList
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList">
     <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -874,7 +997,7 @@ Function_Ref2RefTargetWithOptions.ArgList
 
 
 
-    { descr | indent(width=4) }
+    A special folder containing the argument list of the function.
 
 ..
 
@@ -899,7 +1022,7 @@ Function_Ref2RefTargetWithOptions.ArgList.Arg
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.Arg">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.Arg">
     <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions-arglist-arg" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions.ArgList.Arg</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions.ArgList.Arg" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -915,7 +1038,7 @@ Function_Ref2RefTargetWithOptions.ArgList.Arg
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -940,7 +1063,7 @@ Function_Ref2RefTargetWithOptions.ArgList.Ref
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.Ref">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.Ref">
     <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions-arglist-ref" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions.ArgList.Ref</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions.ArgList.Ref" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -956,7 +1079,7 @@ Function_Ref2RefTargetWithOptions.ArgList.Ref
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -981,7 +1104,7 @@ Function_Ref2RefTargetWithOptions.ArgList.RefTarget
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.RefTarget">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.RefTarget">
     <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions-arglist-reftarget" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions.ArgList.RefTarget</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions.ArgList.RefTarget" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -997,7 +1120,7 @@ Function_Ref2RefTargetWithOptions.ArgList.RefTarget
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1022,7 +1145,7 @@ Function_Ref2RefTargetWithOptions.ArgList.TranslationOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.TranslationOnOff">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.TranslationOnOff">
     <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions-arglist-translationonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions.ArgList.TranslationOnOff</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions.ArgList.TranslationOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1038,7 +1161,7 @@ Function_Ref2RefTargetWithOptions.ArgList.TranslationOnOff
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1063,7 +1186,7 @@ Function_Ref2RefTargetWithOptions.ArgList.RotationOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.RotationOnOff">
+    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.ArgList.RotationOnOff">
     <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions-arglist-rotationonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions.ArgList.RotationOnOff</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions.ArgList.RotationOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1079,7 +1202,7 @@ Function_Ref2RefTargetWithOptions.ArgList.RotationOnOff
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -1104,7 +1227,7 @@ Function_Ref2RefTargetWithOptions.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.Return">
+    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function_Ref2RefTargetWithOptions.Return">
     <span id="anyfuntransform3dlinref4globals-function_ref2reftargetwithoptions-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function_Ref2RefTargetWithOptions.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function_Ref2RefTargetWithOptions.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1120,7 +1243,7 @@ Function_Ref2RefTargetWithOptions.Return
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 

@@ -106,7 +106,7 @@ CoefActMaintPowerSlow
 
 
 
-    { descr | indent(width=4) }
+    Activation-Maintenance power coefficient (per mass) for slow twitch fibers. Contributes to Ȧ+Ṁ.
 
 ..
 
@@ -154,7 +154,7 @@ CoefActMaintPowerFast
 
 
 
-    { descr | indent(width=4) }
+    Activation-Maintenance power coefficient (per mass) for fast twitch fibers. Contributes to Ȧ+Ṁ.
 
 ..
 
@@ -202,7 +202,7 @@ CoefSLPowerEcc
 
 
 
-    { descr | indent(width=4) }
+    Shortening-Lengthening heat rate coefficient for eccentric terms. Contributes to Ṡ.
 
 ..
 
@@ -250,7 +250,7 @@ CoefActMaintPowerAer
 
 
 
-    { descr | indent(width=4) }
+    Activation-Maintenance power coefficient, that tune the model to whether the activity is mostly anaerobic or aerobic. Umberger proposes a range from 1.0 to 1.5 (from anaerobic to aerobic). The default value fits the fully aerobic work case. Contributes to Ȧ+Ṁ.
 
 ..
 
@@ -298,7 +298,7 @@ HeatPowerMinPerMass
 
 
 
-    { descr | indent(width=4) }
+    Lower threshold for the combined heat production power per muscle mass [W/kg]. Contributes to Ḃ.
 
 ..
 
@@ -346,7 +346,7 @@ MuscleDensity
 
 
 
-    { descr | indent(width=4) }
+    Muscle density [kg/m^3].
 
 ..
 
@@ -394,7 +394,7 @@ AddMusclePowerForEcc
 
 
 
-    { descr | indent(width=4) }
+    Switch for whether to add to produce external power of the muscle (the muscle power) to the heat production in the eccentric case.
 
 ..
 
@@ -444,7 +444,7 @@ UpdConfig
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -485,7 +485,7 @@ UpdDesign
 
 
 
-    { descr | indent(width=4) }
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
 
 ..
 
@@ -526,7 +526,7 @@ UpdOutput
 
 
 
-    { descr | indent(width=4) }
+    <No description>
 
 ..
 
@@ -567,7 +567,7 @@ t
 
 
 
-    { descr | indent(width=4) }
+    Object-time variable.
 
 ..
 
