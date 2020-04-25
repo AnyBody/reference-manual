@@ -58,6 +58,7 @@ Description
 
 
 
+
 *******************************
 Required initialization members
 *******************************
@@ -83,7 +84,7 @@ ScaleMat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ScaleMat">
+    <div class="html-toggle member-entries odd section collapsed" id="ScaleMat">
     <span id="anyfuntransform3dlin-scalemat" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">ScaleMat</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#ScaleMat" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling Matrix (3 x 3).</span>
@@ -124,7 +125,7 @@ Offset
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Offset">
+    <div class="html-toggle member-entries even section collapsed" id="Offset">
     <span id="anyfuntransform3dlin-offset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Offset</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Offset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Vector of offset values.</span>
@@ -152,7 +153,7 @@ Offset
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -174,7 +175,7 @@ PreTransforms
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="PreTransforms">
+    <div class="html-toggle member-entries odd section collapsed" id="PreTransforms">
     <span id="anyfuntransform3dlin-pretransforms" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PreTransforms </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#PreTransforms" title="Permalink to this headline">¶</a>
     <span class="member-descr">Transforms that have to be applied prior to the application of constructed...</span>
@@ -228,7 +229,7 @@ Function
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function">
+    <div class="html-toggle member-entries odd section collapsed" id="Function">
     <span id="anyfuntransform3dlin-function" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function" title="Permalink to this headline">¶</a>
     <span class="member-descr">Function for 3D vectors (of floating point values).</span>
@@ -269,7 +270,7 @@ Function.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.ArgList">
+    <div class="html-toggle member-entries even section collapsed" id="Function.ArgList">
     <span id="anyfuntransform3dlin-function-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -310,7 +311,7 @@ Function.ArgList.Arg
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function.ArgList.Arg">
+    <div class="html-toggle member-entries odd section collapsed" id="Function.ArgList.Arg">
     <span id="anyfuntransform3dlin-function-arglist-arg" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList.Arg</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList.Arg" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -341,47 +342,6 @@ Function.ArgList.Arg
     </div><!--
 ..
 
-.. _AnyFunTransform3DLin.Function.Return:
-
-Function.Return
-==================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.Return">
-    <span id="anyfuntransform3dlin-function-return" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Function.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.Return" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloat`
-    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyFunTransform3DLin.UpdFunData:
 
 UpdFunData
@@ -392,7 +352,7 @@ UpdFunData
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdFunData">
+    <div class="html-toggle member-entries even section collapsed" id="UpdFunData">
     <span id="anyfuntransform3dlin-updfundata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdFunData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdFunData" title="Permalink to this headline">¶</a>
     <span class="member-descr">Update counter and control variable for dependencies, for instance handling...</span>
@@ -409,6 +369,61 @@ UpdFunData
 
 
     Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.
+
+..
+
+
+
+
+
+.. rst-class:: html-toggle
+
+*********************
+Deprecated members
+*********************
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyFunTransform3DLin.Function.Return:
+
+Function.Return
+==================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Function.Return">
+    <span id="anyfuntransform3dlin-function-return" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Function.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.Return" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    |
+    | **Class type:**  :ref:`AnyFloat`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+
+    .. rst-class:: without-title
+
+    .. danger::
+        **Deprecated**: Hidden object for return-data management.
+
+
+
+
+    <No description>
 
 ..
 

@@ -62,52 +62,6 @@ Description
 
 
 
-*******************************
-Required initialization members
-*******************************
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    <!--
-..
-
-.. _AnyMechStudyBase.Gravity:
-
-Gravity
-==========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Gravity">
-    <span id="anymechstudybase-gravity" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Gravity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Gravity" title="Permalink to this headline">¶</a>
-    <span class="member-descr">The acceleration of gravity.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVec3`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-
-
-
-    The acceleration of gravity.
-
-..
-
-
-
-
 
 
 
@@ -115,7 +69,7 @@ Gravity
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -137,7 +91,7 @@ MechObjectExclude
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MechObjectExclude">
+    <div class="html-toggle member-entries odd section collapsed" id="MechObjectExclude">
     <span id="anymechstudybase-mechobjectexclude" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> MechObjectExclude </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#MechObjectExclude" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to mechnical objects to exclude from the study.</span>
@@ -163,7 +117,7 @@ MechObjectExclude
 
 
 
-
+ 
 
 
 
@@ -185,7 +139,7 @@ tStart
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="tStart">
+    <div class="html-toggle member-entries even section collapsed" id="tStart">
     <span id="anymechstudybase-tstart" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> tStart </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#tStart" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial time.</span>
@@ -211,7 +165,7 @@ tStart
 
 
 
-
+ 
 
 
 
@@ -233,7 +187,7 @@ tEnd
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="tEnd">
+    <div class="html-toggle member-entries odd section collapsed" id="tEnd">
     <span id="anymechstudybase-tend" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> tEnd </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#tEnd" title="Permalink to this headline">¶</a>
     <span class="member-descr">Final time.</span>
@@ -259,7 +213,7 @@ tEnd
 
 
 
-
+ 
 
 
 
@@ -281,7 +235,7 @@ nStep
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="nStep">
+    <div class="html-toggle member-entries even section collapsed" id="nStep">
     <span id="anymechstudybase-nstep" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> nStep </span><span class="member-title-equal">=</span><span class="member-title-default"> 101 </span><a class="headerlink" href="#nStep" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of equally spaced time steps (plus one). Both tStart and tEnd are...</span>
@@ -307,7 +261,7 @@ nStep
 
 
 
-
+ 
 
 
 
@@ -329,7 +283,7 @@ tArray
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="tArray">
+    <div class="html-toggle member-entries odd section collapsed" id="tArray">
     <span id="anymechstudybase-tarray" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> tArray </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#tArray" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of output-time values. This provides an alternative input to the even...</span>
@@ -355,7 +309,7 @@ tArray
 
 
 
-
+ 
 
 
 
@@ -375,7 +329,7 @@ ReferenceFrame
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> ReferenceFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ReferenceFrame" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -387,7 +341,7 @@ ReferenceFrame
 
     
     
-    
+     
 
 ..
 
@@ -407,7 +361,7 @@ ReferenceFrame.InertialRef
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ReferenceFrame.InertialRef">
+    <div class="html-toggle member-entries odd section collapsed" id="ReferenceFrame.InertialRef">
     <span id="anymechstudybase-referenceframe-inertialref" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InertialRef </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#ReferenceFrame.InertialRef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pointer to the inertial reference frame. Used if a moving frame is used as...</span>
@@ -419,6 +373,7 @@ ReferenceFrame.InertialRef
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+
         
 
     Pointer to the inertial reference frame. Used if a moving frame is used as basis for the model
@@ -437,7 +392,7 @@ ReferenceFrame.InertialRef
 
 
 
-
+ 
 
 
 
@@ -449,6 +404,54 @@ ReferenceFrame.InertialRef
      </div></div> <!--
 ..
 
+.. _AnyMechStudyBase.Gravity:
+
+Gravity
+==========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Gravity">
+    <span id="anymechstudybase-gravity" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Gravity </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Gravity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The acceleration of gravity.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVec3`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.0, 0.0, 0.0}``
+    
+
+    
+    
+    
+
+
+
+    The acceleration of gravity.
+
+..
+
+
+
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
 Replay
 =========
 
@@ -457,7 +460,7 @@ Replay
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Replay </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay" title="Permalink to this headline">¶</a>
     <span class="member-descr">Operation that replay previously calculated results stored in the Output...</span>
@@ -469,7 +472,7 @@ Replay
 
     
     
-    
+     
 
 ..
 
@@ -489,7 +492,7 @@ Replay.Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay.Settings">
+    <div class="html-toggle member-entries odd section collapsed" id="Replay.Settings">
     <span id="anymechstudybase-replay-settings" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
@@ -501,6 +504,7 @@ Replay.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     General settings for the operation.
@@ -509,7 +513,7 @@ Replay.Settings
 
 
 
-    
+     
 
 ..
 
@@ -529,7 +533,7 @@ Replay.Settings.Echo
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.Settings.Echo">
+    <div class="html-toggle member-entries even section collapsed" id="Replay.Settings.Echo">
     <span id="anymechstudybase-replay-settings-echo" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Replay.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -541,6 +545,7 @@ Replay.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -549,7 +554,7 @@ Replay.Settings.Echo
 
 
 
-    
+     
 
 ..
 
@@ -569,7 +574,7 @@ Replay.Settings.ModelSceneUpdate
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay.Settings.ModelSceneUpdate">
+    <div class="html-toggle member-entries odd section collapsed" id="Replay.Settings.ModelSceneUpdate">
     <span id="anymechstudybase-replay-settings-modelsceneupdate" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Replay.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -581,6 +586,7 @@ Replay.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -589,7 +595,7 @@ Replay.Settings.ModelSceneUpdate
 
 
 
-    
+     
 
 ..
 
@@ -609,7 +615,7 @@ Replay.Settings.DisplayPriority
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.Settings.DisplayPriority">
+    <div class="html-toggle member-entries even section collapsed" id="Replay.Settings.DisplayPriority">
     <span id="anymechstudybase-replay-settings-displaypriority" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityLow </span><a class="headerlink" href="#Replay.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
@@ -621,6 +627,7 @@ Replay.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityLow``
+
         
 
     Value for defining the interface display priority for the Operation.
@@ -629,7 +636,7 @@ Replay.Settings.DisplayPriority
 
 
 
-    
+     
 
 ..
 
@@ -649,7 +656,7 @@ Replay.Settings.SelectOnLoad
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay.Settings.SelectOnLoad">
+    <div class="html-toggle member-entries odd section collapsed" id="Replay.Settings.SelectOnLoad">
     <span id="anymechstudybase-replay-settings-selectonload" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Replay.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
@@ -661,6 +668,7 @@ Replay.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
@@ -669,7 +677,7 @@ Replay.Settings.SelectOnLoad
 
 
 
-    
+     
 
 ..
 
@@ -689,7 +697,7 @@ Replay.PostProcessingOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.PostProcessingOnOff">
+    <div class="html-toggle member-entries even section collapsed" id="Replay.PostProcessingOnOff">
     <span id="anymechstudybase-replay-postprocessingonoff" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PostProcessingOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Replay.PostProcessingOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch that controls whether post-processing of symbolic expressions should...</span>
@@ -701,6 +709,7 @@ Replay.PostProcessingOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch that controls whether post-processing of symbolic expressions should be carried out.
@@ -714,60 +723,6 @@ Replay.PostProcessingOnOff
 
 
     
-
-..
-
-
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-     </div></div> <!--
-..
-
-.. _AnyMechStudyBase.tArrayOnOff:
-
-tArrayOnOff
-==============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-deprecated" id="tArrayOnOff">
-    <span id="anymechstudybase-tarrayonoff" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> tArrayOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#tArrayOnOff" title="Permalink to this headline">¶</a>
-    <span class="member-descr">(Deprecated) Switch for whether to use tArray as definition of output-times...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnySwitchVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``Off``
-    
-
-    .. deprecated::
-       The use of tArrayOnOff is deprecated. tArrayOnOff have no effect. Values in
-        tArray will be used if it is initialized in script.
-
-    
-
-    
-    
-    
-
-
-
-    (Deprecated) Switch for whether to use tArray as definition of output-times or to use even spacing given by nStep, tStart and tEnd.
 
 ..
 
@@ -801,7 +756,7 @@ UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
     <span id="anymechstudybase-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -842,7 +797,7 @@ UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="UpdDesign">
     <span id="anymechstudybase-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -883,7 +838,7 @@ UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
     <span id="anymechstudybase-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -924,7 +879,7 @@ Output
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output">
+    <div class="html-toggle member-entries even section collapsed" id="Output">
     <span id="anymechstudybase-output" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder that holds the result of the latest executed analysis (operation).</span>
@@ -965,7 +920,7 @@ Output.Abscissa
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Abscissa">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Abscissa">
     <span id="anymechstudybase-output-abscissa" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder where the values of the abscissa/input parameters are stored.</span>
@@ -1006,7 +961,7 @@ Output.Abscissa.StateCountCurrent
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Abscissa.StateCountCurrent">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Abscissa.StateCountCurrent">
     <span id="anymechstudybase-output-abscissa-statecountcurrent" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.StateCountCurrent</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.StateCountCurrent" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter (integer) that indicates the number (the state) of the current data...</span>
@@ -1047,7 +1002,7 @@ Output.Abscissa.StateCountData
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Abscissa.StateCountData">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Abscissa.StateCountData">
     <span id="anymechstudybase-output-abscissa-statecountdata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.StateCountData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.StateCountData" title="Permalink to this headline">¶</a>
     <span class="member-descr">Structure of state indicators for each data point in the AnyOutputFolder...</span>
@@ -1088,7 +1043,7 @@ Output.Abscissa.t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Abscissa.t">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Abscissa.t">
     <span id="anymechstudybase-output-abscissa-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.t" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1129,7 +1084,7 @@ t
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="t">
+    <div class="html-toggle member-entries odd section collapsed" id="t">
     <span id="anymechstudybase-t_" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Time.</span>
@@ -1170,7 +1125,7 @@ iStep
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="iStep">
+    <div class="html-toggle member-entries even section collapsed" id="iStep">
     <span id="anymechstudybase-istep" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">iStep</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#iStep" title="Permalink to this headline">¶</a>
     <span class="member-descr">Index of the current time step.</span>
@@ -1211,7 +1166,7 @@ Upd_tArray
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Upd_tArray">
+    <div class="html-toggle member-entries odd section collapsed" id="Upd_tArray">
     <span id="anymechstudybase-upd_tarray" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Upd_tArray</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Upd_tArray" title="Permalink to this headline">¶</a>
     <span class="member-descr">Update counter counting updates of tArray's dependency of nStep, tStart and tEnd.</span>
@@ -1252,7 +1207,7 @@ KinematicError
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="KinematicError">
+    <div class="html-toggle member-entries even section collapsed" id="KinematicError">
     <span id="anymechstudybase-kinematicerror" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">KinematicError</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinematicError" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current value of the kinematic error.</span>
@@ -1293,7 +1248,7 @@ Ekin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Ekin">
+    <div class="html-toggle member-entries odd section collapsed" id="Ekin">
     <span id="anymechstudybase-ekin" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Ekin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ekin" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current kinematic energy of the system.</span>
@@ -1334,7 +1289,7 @@ Epot
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Epot">
+    <div class="html-toggle member-entries even section collapsed" id="Epot">
     <span id="anymechstudybase-epot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Epot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Epot" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current potential energy of the system.</span>
@@ -1375,7 +1330,7 @@ Emech
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Emech">
+    <div class="html-toggle member-entries odd section collapsed" id="Emech">
     <span id="anymechstudybase-emech" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Emech</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Emech" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current mechanical energy of the system (=Ekin+Epot).</span>
@@ -1416,7 +1371,7 @@ Pmech
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Pmech">
+    <div class="html-toggle member-entries even section collapsed" id="Pmech">
     <span id="anymechstudybase-pmech" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Pmech</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pmech" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current mechanical power applied to the system.</span>
@@ -1457,7 +1412,7 @@ Replay
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay">
+    <div class="html-toggle member-entries odd section collapsed" id="Replay">
     <span id="anymechstudybase-replay" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Replay</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Replay" title="Permalink to this headline">¶</a>
     <span class="member-descr">Operation that replay previously calculated results stored in the Output...</span>
@@ -1498,7 +1453,7 @@ Replay.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Replay.UpdConfig">
     <span id="anymechstudybase-replay-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Replay.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Replay.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1539,7 +1494,7 @@ Replay.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Replay.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Replay.UpdDesign">
     <span id="anymechstudybase-replay-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Replay.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Replay.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1580,7 +1535,7 @@ Replay.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Replay.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Replay.UpdOutput">
     <span id="anymechstudybase-replay-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Replay.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Replay.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1592,6 +1547,62 @@ Replay.UpdOutput
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`OutputVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+
+.. rst-class:: html-toggle
+
+*********************
+Deprecated members
+*********************
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyMechStudyBase.tArrayOnOff:
+
+tArrayOnOff
+==============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="tArrayOnOff">
+    <span id="anymechstudybase-tarrayonoff" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">tArrayOnOff</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#tArrayOnOff" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    |
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+
+    .. rst-class:: without-title
+
+    .. danger::
+        **Deprecated**: The use of tArrayOnOff is deprecated. tArrayOnOff have no effect. Values in
+        tArray will be used if it is initialized in script.
 
 
 

@@ -87,7 +87,7 @@ AnyDesMeasure
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnyDesMeasure">
+    <div class="html-toggle member-entries odd section collapsed" id="AnyDesMeasure">
     <span id="anyoptstudy-anydesmeasure" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyDesMeasure (1..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyDesMeasure" title="Permalink to this headline">¶</a>
     <span class="member-descr">Design performance measures are defined as AnyDesMeasure objects.</span>
@@ -126,7 +126,7 @@ AnyDesVar
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AnyDesVar">
+    <div class="html-toggle member-entries even section collapsed" id="AnyDesVar">
     <span id="anyoptstudy-anydesvar" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyDesVar (0..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyDesVar" title="Permalink to this headline">¶</a>
     <span class="member-descr">Design variables of the study are defined as AnyDesVar objects.</span>
@@ -154,10 +154,11 @@ AnyDesVar
 
 
 
+
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -179,7 +180,7 @@ LogFile
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="LogFile">
+    <div class="html-toggle member-entries odd section collapsed" id="LogFile">
     <span id="anyoptstudy-logfile" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> LogFile </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#LogFile" title="Permalink to this headline">¶</a>
     <span class="member-descr">Optional log file for use by the numerical routines in the operations. It...</span>
@@ -205,7 +206,7 @@ LogFile
 
 
 
-
+ 
 
 
 
@@ -225,7 +226,7 @@ Analysis
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
     <span class="member-descr">This analysis operation.</span>
@@ -237,7 +238,7 @@ Analysis
 
     
     
-    
+     
 
 ..
 
@@ -257,7 +258,7 @@ Analysis.Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.Settings">
     <span id="anyoptstudy-analysis-settings" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
@@ -269,6 +270,7 @@ Analysis.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     General settings for the operation.
@@ -277,7 +279,7 @@ Analysis.Settings
 
 
 
-    
+     
 
 ..
 
@@ -297,7 +299,7 @@ Analysis.Settings.Echo
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.Settings.Echo">
+    <div class="html-toggle member-entries even section collapsed" id="Analysis.Settings.Echo">
     <span id="anyoptstudy-analysis-settings-echo" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -309,6 +311,7 @@ Analysis.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -317,7 +320,7 @@ Analysis.Settings.Echo
 
 
 
-    
+     
 
 ..
 
@@ -337,7 +340,7 @@ Analysis.Settings.ModelSceneUpdate
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings.ModelSceneUpdate">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.Settings.ModelSceneUpdate">
     <span id="anyoptstudy-analysis-settings-modelsceneupdate" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -349,6 +352,7 @@ Analysis.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -357,7 +361,7 @@ Analysis.Settings.ModelSceneUpdate
 
 
 
-    
+     
 
 ..
 
@@ -377,7 +381,7 @@ Analysis.Settings.DisplayPriority
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.Settings.DisplayPriority">
+    <div class="html-toggle member-entries even section collapsed" id="Analysis.Settings.DisplayPriority">
     <span id="anyoptstudy-analysis-settings-displaypriority" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Analysis.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
@@ -389,6 +393,7 @@ Analysis.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityNormal``
+
         
 
     Value for defining the interface display priority for the Operation.
@@ -397,7 +402,7 @@ Analysis.Settings.DisplayPriority
 
 
 
-    
+     
 
 ..
 
@@ -417,7 +422,7 @@ Analysis.Settings.SelectOnLoad
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings.SelectOnLoad">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.Settings.SelectOnLoad">
     <span id="anyoptstudy-analysis-settings-selectonload" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Analysis.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
@@ -429,6 +434,7 @@ Analysis.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
@@ -447,7 +453,7 @@ Analysis.Settings.SelectOnLoad
 
 
 
-
+ 
 
 
 
@@ -469,7 +475,7 @@ MaxIterationStep
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="MaxIterationStep">
+    <div class="html-toggle member-entries odd section collapsed" id="MaxIterationStep">
     <span id="anyoptstudy-maxiterationstep" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> MaxIterationStep </span><span class="member-title-equal">=</span><span class="member-title-default"> 100 </span><a class="headerlink" href="#MaxIterationStep" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximal number of iterations allowed.</span>
@@ -495,7 +501,7 @@ MaxIterationStep
 
 
 
-
+ 
 
 
 
@@ -515,7 +521,7 @@ Optimization
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Optimization </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Optimization" title="Permalink to this headline">¶</a>
     <span class="member-descr">Operation that executes the optimization.</span>
@@ -527,7 +533,7 @@ Optimization
 
     
     
-    
+     
 
 ..
 
@@ -547,7 +553,7 @@ Optimization.Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.Settings">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.Settings">
     <span id="anyoptstudy-optimization-settings" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Optimization.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
@@ -559,6 +565,7 @@ Optimization.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     General settings for the operation.
@@ -567,7 +574,7 @@ Optimization.Settings
 
 
 
-    
+     
 
 ..
 
@@ -587,7 +594,7 @@ Optimization.Settings.Echo
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.Settings.Echo">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.Settings.Echo">
     <span id="anyoptstudy-optimization-settings-echo" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Optimization.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -599,6 +606,7 @@ Optimization.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -607,7 +615,7 @@ Optimization.Settings.Echo
 
 
 
-    
+     
 
 ..
 
@@ -627,7 +635,7 @@ Optimization.Settings.ModelSceneUpdate
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.Settings.ModelSceneUpdate">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.Settings.ModelSceneUpdate">
     <span id="anyoptstudy-optimization-settings-modelsceneupdate" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Optimization.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -639,6 +647,7 @@ Optimization.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -647,7 +656,7 @@ Optimization.Settings.ModelSceneUpdate
 
 
 
-    
+     
 
 ..
 
@@ -667,7 +676,7 @@ Optimization.Settings.DisplayPriority
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.Settings.DisplayPriority">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.Settings.DisplayPriority">
     <span id="anyoptstudy-optimization-settings-displaypriority" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Optimization.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
@@ -679,6 +688,7 @@ Optimization.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityNormal``
+
         
 
     Value for defining the interface display priority for the Operation.
@@ -687,7 +697,7 @@ Optimization.Settings.DisplayPriority
 
 
 
-    
+     
 
 ..
 
@@ -707,7 +717,7 @@ Optimization.Settings.SelectOnLoad
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.Settings.SelectOnLoad">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.Settings.SelectOnLoad">
     <span id="anyoptstudy-optimization-settings-selectonload" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Optimization.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
@@ -719,6 +729,7 @@ Optimization.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
@@ -727,7 +738,7 @@ Optimization.Settings.SelectOnLoad
 
 
 
-    
+     
 
 ..
 
@@ -747,7 +758,7 @@ Optimization.Solver
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.Solver">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.Solver">
     <span id="anyoptstudy-optimization-solver" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Solver </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Optimization.Solver" title="Permalink to this headline">¶</a>
     <span class="member-descr">Solver type setting.</span>
@@ -759,6 +770,7 @@ Optimization.Solver
     | **Class type:**  :ref:`AnyEnumOptSolver`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``OptFeasibleDirSearch1``
+
         
 
     Solver type setting.
@@ -767,7 +779,7 @@ Optimization.Solver
 
 
 
-    
+     
 
 ..
 
@@ -787,7 +799,7 @@ Optimization.ConvergenceObjectiveTol
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.ConvergenceObjectiveTol">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.ConvergenceObjectiveTol">
     <span id="anyoptstudy-optimization-convergenceobjectivetol" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ConvergenceObjectiveTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#Optimization.ConvergenceObjectiveTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Absolute tolerance on objective function change in convergence criterion.</span>
@@ -799,6 +811,7 @@ Optimization.ConvergenceObjectiveTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+
         
 
     Absolute tolerance on objective function change in convergence criterion.
@@ -807,7 +820,7 @@ Optimization.ConvergenceObjectiveTol
 
 
 
-    
+     
 
 ..
 
@@ -827,7 +840,7 @@ Optimization.ConvergenceDesignTol
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.ConvergenceDesignTol">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.ConvergenceDesignTol">
     <span id="anyoptstudy-optimization-convergencedesigntol" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ConvergenceDesignTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#Optimization.ConvergenceDesignTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Relative tolerance on design variable change in convergence criterion.</span>
@@ -839,6 +852,7 @@ Optimization.ConvergenceDesignTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+
         
 
     Relative tolerance on design variable change in convergence criterion.
@@ -847,7 +861,7 @@ Optimization.ConvergenceDesignTol
 
 
 
-    
+     
 
 ..
 
@@ -867,7 +881,7 @@ Optimization.ConvergenceDesignTolArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.ConvergenceDesignTolArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.ConvergenceDesignTolArr">
     <span id="anyoptstudy-optimization-convergencedesigntolarr" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ConvergenceDesignTolArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Optimization.ConvergenceDesignTolArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Similar to ConvergenceDesignTol, but an array with one element for each...</span>
@@ -879,6 +893,7 @@ Optimization.ConvergenceDesignTolArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     Similar to ConvergenceDesignTol, but an array with one element for each design variable. Default is all values equal to ConvergenceDesignTol.
@@ -887,7 +902,7 @@ Optimization.ConvergenceDesignTolArr
 
 
 
-    
+     
 
 ..
 
@@ -907,7 +922,7 @@ Optimization.ConstraintActivationTol
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.ConstraintActivationTol">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.ConstraintActivationTol">
     <span id="anyoptstudy-optimization-constraintactivationtol" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ConstraintActivationTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0001 </span><a class="headerlink" href="#Optimization.ConstraintActivationTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Absolute tolerance for activating constraints.</span>
@@ -919,6 +934,7 @@ Optimization.ConstraintActivationTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0001``
+
         
 
     Absolute tolerance for activating constraints.
@@ -927,7 +943,7 @@ Optimization.ConstraintActivationTol
 
 
 
-    
+     
 
 ..
 
@@ -947,7 +963,7 @@ Optimization.ConstraintActivationTolArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.ConstraintActivationTolArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.ConstraintActivationTolArr">
     <span id="anyoptstudy-optimization-constraintactivationtolarr" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ConstraintActivationTolArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Optimization.ConstraintActivationTolArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Similar to ConstraintActivationTol, but an array with one element for each...</span>
@@ -959,6 +975,7 @@ Optimization.ConstraintActivationTolArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     Similar to ConstraintActivationTol, but an array with one element for each constraint. Default is all values equal to ConstraintActivationTol.
@@ -967,7 +984,7 @@ Optimization.ConstraintActivationTolArr
 
 
 
-    
+     
 
 ..
 
@@ -987,7 +1004,7 @@ Optimization.NumSensitivityPerturbation
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.NumSensitivityPerturbation">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.NumSensitivityPerturbation">
     <span id="anyoptstudy-optimization-numsensitivityperturbation" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NumSensitivityPerturbation </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-05 </span><a class="headerlink" href="#Optimization.NumSensitivityPerturbation" title="Permalink to this headline">¶</a>
     <span class="member-descr">Absolute perturbation use in numerical sensitivity analyses.</span>
@@ -999,6 +1016,7 @@ Optimization.NumSensitivityPerturbation
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-05``
+
         
 
     Absolute perturbation use in numerical sensitivity analyses.
@@ -1007,7 +1025,7 @@ Optimization.NumSensitivityPerturbation
 
 
 
-    
+     
 
 ..
 
@@ -1027,7 +1045,7 @@ Optimization.NumSensitivityPerturbationArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.NumSensitivityPerturbationArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.NumSensitivityPerturbationArr">
     <span id="anyoptstudy-optimization-numsensitivityperturbationarr" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NumSensitivityPerturbationArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Optimization.NumSensitivityPerturbationArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Similar to NumSensitivityPerturbation, but an array with one element for...</span>
@@ -1039,6 +1057,7 @@ Optimization.NumSensitivityPerturbationArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     Similar to NumSensitivityPerturbation, but an array with one element for each design variable. Default is all values equal to NumSensitivityPerturbation.
@@ -1047,7 +1066,7 @@ Optimization.NumSensitivityPerturbationArr
 
 
 
-    
+     
 
 ..
 
@@ -1067,7 +1086,7 @@ Optimization.PopulationSize
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.PopulationSize">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.PopulationSize">
     <span id="anyoptstudy-optimization-populationsize" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PopulationSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1 </span><a class="headerlink" href="#Optimization.PopulationSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of the population for population-based solvers, i.e., the number of...</span>
@@ -1079,6 +1098,7 @@ Optimization.PopulationSize
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1``
+
         
 
     Size of the population for population-based solvers, i.e., the number of design points in the population.
@@ -1087,7 +1107,7 @@ Optimization.PopulationSize
 
 
 
-    
+     
 
 ..
 
@@ -1107,7 +1127,7 @@ Optimization.PopulationBoxSize
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.PopulationBoxSize">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.PopulationBoxSize">
     <span id="anyoptstudy-optimization-populationboxsize" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PopulationBoxSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Optimization.PopulationBoxSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of the box in the design space within which the initial population is...</span>
@@ -1119,6 +1139,7 @@ Optimization.PopulationBoxSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Size of the box in the design space within which the initial population is generated. This single constant will set the same size of the box for all design variables. Alternatively, individual box dimension sizes can be set with PopulationBoxSizeArr.
@@ -1127,7 +1148,7 @@ Optimization.PopulationBoxSize
 
 
 
-    
+     
 
 ..
 
@@ -1147,7 +1168,7 @@ Optimization.PopulationBoxSizeArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.PopulationBoxSizeArr">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.PopulationBoxSizeArr">
     <span id="anyoptstudy-optimization-populationboxsizearr" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PopulationBoxSizeArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Optimization.PopulationBoxSizeArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Size of the box in the design space within which the initial population is...</span>
@@ -1159,6 +1180,7 @@ Optimization.PopulationBoxSizeArr
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     Size of the box in the design space within which the initial population is generated. The vector must for each design variable hold one element, which is the size of the box for that dimension of the design space.
@@ -1167,7 +1189,7 @@ Optimization.PopulationBoxSizeArr
 
 
 
-    
+     
 
 ..
 
@@ -1187,7 +1209,7 @@ Optimization.ComplexAlpha
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.ComplexAlpha">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.ComplexAlpha">
     <span id="anyoptstudy-optimization-complexalpha" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexAlpha </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.3 </span><a class="headerlink" href="#Optimization.ComplexAlpha" title="Permalink to this headline">¶</a>
     <span class="member-descr">The Complex solver's alpha parameter, which defines how far the worst design...</span>
@@ -1199,6 +1221,7 @@ Optimization.ComplexAlpha
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.3``
+
         
 
     The Complex solver's alpha parameter, which defines how far the worst design point is moved through the design population. It must be above 1.0 and the recommended value is 1.3.
@@ -1207,7 +1230,7 @@ Optimization.ComplexAlpha
 
 
 
-    
+     
 
 ..
 
@@ -1227,7 +1250,7 @@ Optimization.ComplexMaxNumRepeat
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.ComplexMaxNumRepeat">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.ComplexMaxNumRepeat">
     <span id="anyoptstudy-optimization-complexmaxnumrepeat" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexMaxNumRepeat </span><span class="member-title-equal">=</span><span class="member-title-default"> 4 </span><a class="headerlink" href="#Optimization.ComplexMaxNumRepeat" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximal number of attempts in the Complex solver for moving the worst design...</span>
@@ -1239,6 +1262,7 @@ Optimization.ComplexMaxNumRepeat
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``4``
+
         
 
     Maximal number of attempts in the Complex solver for moving the worst design point, which continues to be the worst after being moved.
@@ -1247,7 +1271,7 @@ Optimization.ComplexMaxNumRepeat
 
 
 
-    
+     
 
 ..
 
@@ -1267,7 +1291,7 @@ Optimization.ComplexPenalty
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.ComplexPenalty">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.ComplexPenalty">
     <span id="anyoptstudy-optimization-complexpenalty" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexPenalty </span><span class="member-title-equal">=</span><span class="member-title-default"> 1000.0 </span><a class="headerlink" href="#Optimization.ComplexPenalty" title="Permalink to this headline">¶</a>
     <span class="member-descr">Penalty factor used in the Complex solver to convert constraint violations...</span>
@@ -1279,6 +1303,7 @@ Optimization.ComplexPenalty
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1000.0``
+
         
 
     Penalty factor used in the Complex solver to convert constraint violations to added value in the objective function.
@@ -1287,7 +1312,7 @@ Optimization.ComplexPenalty
 
 
 
-    
+     
 
 ..
 
@@ -1307,7 +1332,7 @@ Optimization.ComplexPenaltyPowerExponent
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.ComplexPenaltyPowerExponent">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.ComplexPenaltyPowerExponent">
     <span id="anyoptstudy-optimization-complexpenaltypowerexponent" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexPenaltyPowerExponent </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#Optimization.ComplexPenaltyPowerExponent" title="Permalink to this headline">¶</a>
     <span class="member-descr">Exponent used in the Complex solver to convert constraint violations to...</span>
@@ -1319,6 +1344,7 @@ Optimization.ComplexPenaltyPowerExponent
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``2.0``
+
         
 
     Exponent used in the Complex solver to convert constraint violations to added value in the objective function..
@@ -1327,7 +1353,7 @@ Optimization.ComplexPenaltyPowerExponent
 
 
 
-    
+     
 
 ..
 
@@ -1347,7 +1373,7 @@ Optimization.ComplexAnalysisFailedPenalty
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.ComplexAnalysisFailedPenalty">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.ComplexAnalysisFailedPenalty">
     <span id="anyoptstudy-optimization-complexanalysisfailedpenalty" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComplexAnalysisFailedPenalty </span><span class="member-title-equal">=</span><span class="member-title-default"> 1000000.0 </span><a class="headerlink" href="#Optimization.ComplexAnalysisFailedPenalty" title="Permalink to this headline">¶</a>
     <span class="member-descr">Penalty constant used in the Complex solver for Analysis operations that...</span>
@@ -1359,6 +1385,7 @@ Optimization.ComplexAnalysisFailedPenalty
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1000000.0``
+
         
 
     Penalty constant used in the Complex solver for Analysis operations that fails. It indicates to the solver that this design point is unusable.
@@ -1405,7 +1432,7 @@ UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
     <span id="anyoptstudy-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1446,7 +1473,7 @@ UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="UpdDesign">
     <span id="anyoptstudy-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1487,7 +1514,7 @@ UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
     <span id="anyoptstudy-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1528,7 +1555,7 @@ Output
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output">
+    <div class="html-toggle member-entries even section collapsed" id="Output">
     <span id="anyoptstudy-output" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder that holds the result of the latest executed analysis (operation).</span>
@@ -1569,7 +1596,7 @@ Output.Abscissa
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Abscissa">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Abscissa">
     <span id="anyoptstudy-output-abscissa" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder where the values of the abscissa/input parameters are stored.</span>
@@ -1610,7 +1637,7 @@ Output.Abscissa.StateCountCurrent
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Abscissa.StateCountCurrent">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Abscissa.StateCountCurrent">
     <span id="anyoptstudy-output-abscissa-statecountcurrent" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.StateCountCurrent</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.StateCountCurrent" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter (integer) that indicates the number (the state) of the current data...</span>
@@ -1651,7 +1678,7 @@ Output.Abscissa.StateCountData
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Abscissa.StateCountData">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Abscissa.StateCountData">
     <span id="anyoptstudy-output-abscissa-statecountdata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.StateCountData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.StateCountData" title="Permalink to this headline">¶</a>
     <span class="member-descr">Structure of state indicators for each data point in the AnyOutputFolder...</span>
@@ -1692,7 +1719,7 @@ Output.Abscissa.IterationStep
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Abscissa.IterationStep">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Abscissa.IterationStep">
     <span id="anyoptstudy-output-abscissa-iterationstep" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.IterationStep</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.IterationStep" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1723,47 +1750,6 @@ Output.Abscissa.IterationStep
     </div><!--
 ..
 
-.. _AnyOptStudy.Analysis:
-
-Analysis
-===========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis">
-    <span id="anyoptstudy-analysis" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Analysis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
-    <span class="member-descr">This analysis operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOperationSequence`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    This analysis operation.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyOptStudy.Analysis.UpdConfig:
 
 Analysis.UpdConfig
@@ -1774,7 +1760,7 @@ Analysis.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.UpdConfig">
     <span id="anyoptstudy-analysis-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1815,7 +1801,7 @@ Analysis.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="Analysis.UpdDesign">
     <span id="anyoptstudy-analysis-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1856,7 +1842,7 @@ Analysis.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.UpdOutput">
     <span id="anyoptstudy-analysis-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1897,7 +1883,7 @@ IterationStep
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="IterationStep">
+    <div class="html-toggle member-entries even section collapsed" id="IterationStep">
     <span id="anyoptstudy-iterationstep" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">IterationStep</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#IterationStep" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current iteration step.</span>
@@ -1938,7 +1924,7 @@ Optimization
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization">
     <span id="anyoptstudy-optimization" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization" title="Permalink to this headline">¶</a>
     <span class="member-descr">Operation that executes the optimization.</span>
@@ -1979,7 +1965,7 @@ Optimization.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.UpdConfig">
     <span id="anyoptstudy-optimization-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2020,7 +2006,7 @@ Optimization.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.UpdDesign">
     <span id="anyoptstudy-optimization-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -2061,7 +2047,7 @@ Optimization.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.UpdOutput">
     <span id="anyoptstudy-optimization-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2102,7 +2088,7 @@ Optimization.SolverData
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.SolverData">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.SolverData">
     <span id="anyoptstudy-optimization-solverdata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2143,7 +2129,7 @@ Optimization.SolverData.Objective
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.SolverData.Objective">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.SolverData.Objective">
     <span id="anyoptstudy-optimization-solverdata-objective" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData.Objective</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData.Objective" title="Permalink to this headline">¶</a>
     <span class="member-descr">Objective function data.</span>
@@ -2184,7 +2170,7 @@ Optimization.SolverData.Constraints
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Optimization.SolverData.Constraints">
+    <div class="html-toggle member-entries odd section collapsed" id="Optimization.SolverData.Constraints">
     <span id="anyoptstudy-optimization-solverdata-constraints" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData.Constraints</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData.Constraints" title="Permalink to this headline">¶</a>
     <span class="member-descr">Constraint violation data.</span>
@@ -2225,7 +2211,7 @@ Optimization.SolverData.DesVars
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Optimization.SolverData.DesVars">
+    <div class="html-toggle member-entries even section collapsed" id="Optimization.SolverData.DesVars">
     <span id="anyoptstudy-optimization-solverdata-desvars" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Optimization.SolverData.DesVars</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Optimization.SolverData.DesVars" title="Permalink to this headline">¶</a>
     <span class="member-descr">Design variable data.</span>
@@ -2244,6 +2230,7 @@ Optimization.SolverData.DesVars
     Design variable data.
 
 ..
+
 
 
 

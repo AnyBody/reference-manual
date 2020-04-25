@@ -58,6 +58,7 @@ Description
 
 
 
+
 *******************************
 Required initialization members
 *******************************
@@ -83,7 +84,7 @@ Tasks
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks">
+    <div class="html-toggle member-entries odd section collapsed" id="Tasks">
     <span id="anyproject-tasks" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Tasks</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Tasks" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of tasks.</span>
@@ -124,7 +125,7 @@ Views
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Views">
+    <div class="html-toggle member-entries even section collapsed" id="Views">
     <span id="anyproject-views" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Views</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Views" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of view.</span>
@@ -165,7 +166,7 @@ Files
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files">
+    <div class="html-toggle member-entries odd section collapsed" id="Files">
     <span id="anyproject-files" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Files</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of project file information.</span>
@@ -206,7 +207,7 @@ Output
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output">
+    <div class="html-toggle member-entries even section collapsed" id="Output">
     <span id="anyproject-output" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of project specific outputs.</span>
@@ -234,7 +235,7 @@ Output
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -254,7 +255,7 @@ Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -266,7 +267,7 @@ Description
 
     
     
-    
+     
 
 ..
 
@@ -286,7 +287,7 @@ Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.BodyText">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.BodyText">
     <span id="anyproject-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -298,6 +299,7 @@ Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -306,7 +308,7 @@ Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -326,7 +328,7 @@ Description.Title
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.Title">
+    <div class="html-toggle member-entries even section collapsed" id="Description.Title">
     <span id="anyproject-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -338,6 +340,7 @@ Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -346,7 +349,7 @@ Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -366,7 +369,7 @@ Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.BodyHTML">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.BodyHTML">
     <span id="anyproject-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -378,6 +381,7 @@ Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -386,7 +390,7 @@ Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -406,7 +410,7 @@ Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.HTMLURL">
+    <div class="html-toggle member-entries even section collapsed" id="Description.HTMLURL">
     <span id="anyproject-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -418,6 +422,7 @@ Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -426,7 +431,7 @@ Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -446,7 +451,7 @@ Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.Tooltip">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.Tooltip">
     <span id="anyproject-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -458,6 +463,7 @@ Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -466,7 +472,7 @@ Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -486,7 +492,7 @@ Description.Files
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.Files">
+    <div class="html-toggle member-entries even section collapsed" id="Description.Files">
     <span id="anyproject-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -498,6 +504,7 @@ Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -516,7 +523,7 @@ Description.Files
 
 
 
-
+ 
 
 
 
@@ -536,7 +543,7 @@ Tasks
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Tasks </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Tasks" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of tasks.</span>
@@ -548,7 +555,7 @@ Tasks
 
     
     
-    
+     
 
 ..
 
@@ -568,7 +575,7 @@ Tasks.Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description">
+    <div class="html-toggle member-entries odd section collapsed" id="Tasks.Description">
     <span id="anyproject-tasks-description" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Tasks.Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -580,6 +587,7 @@ Tasks.Description
     | **Class type:**  :ref:`AnyDescription`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     Description folder.
@@ -588,7 +596,7 @@ Tasks.Description
 
 
 
-    
+     
 
 ..
 
@@ -608,7 +616,7 @@ Tasks.Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Tasks.Description.BodyText">
+    <div class="html-toggle member-entries even section collapsed" id="Tasks.Description.BodyText">
     <span id="anyproject-tasks-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -620,6 +628,7 @@ Tasks.Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -628,7 +637,7 @@ Tasks.Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -648,7 +657,7 @@ Tasks.Description.Title
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description.Title">
+    <div class="html-toggle member-entries odd section collapsed" id="Tasks.Description.Title">
     <span id="anyproject-tasks-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -660,6 +669,7 @@ Tasks.Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -668,7 +678,7 @@ Tasks.Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -688,7 +698,7 @@ Tasks.Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Tasks.Description.BodyHTML">
+    <div class="html-toggle member-entries even section collapsed" id="Tasks.Description.BodyHTML">
     <span id="anyproject-tasks-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -700,6 +710,7 @@ Tasks.Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -708,7 +719,7 @@ Tasks.Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -728,7 +739,7 @@ Tasks.Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description.HTMLURL">
+    <div class="html-toggle member-entries odd section collapsed" id="Tasks.Description.HTMLURL">
     <span id="anyproject-tasks-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -740,6 +751,7 @@ Tasks.Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -748,7 +760,7 @@ Tasks.Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -768,7 +780,7 @@ Tasks.Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Tasks.Description.Tooltip">
+    <div class="html-toggle member-entries even section collapsed" id="Tasks.Description.Tooltip">
     <span id="anyproject-tasks-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Tasks.Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -780,6 +792,7 @@ Tasks.Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -788,7 +801,7 @@ Tasks.Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -808,7 +821,7 @@ Tasks.Description.Files
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Tasks.Description.Files">
+    <div class="html-toggle member-entries odd section collapsed" id="Tasks.Description.Files">
     <span id="anyproject-tasks-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Tasks.Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -820,6 +833,7 @@ Tasks.Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -838,7 +852,7 @@ Tasks.Description.Files
 
 
 
-
+ 
 
 
 
@@ -858,7 +872,7 @@ Views
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Views </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Views" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of view.</span>
@@ -870,7 +884,7 @@ Views
 
     
     
-    
+     
 
 ..
 
@@ -890,7 +904,7 @@ Views.Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description">
+    <div class="html-toggle member-entries odd section collapsed" id="Views.Description">
     <span id="anyproject-views-description" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Views.Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -902,6 +916,7 @@ Views.Description
     | **Class type:**  :ref:`AnyDescription`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     Description folder.
@@ -910,7 +925,7 @@ Views.Description
 
 
 
-    
+     
 
 ..
 
@@ -930,7 +945,7 @@ Views.Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Views.Description.BodyText">
+    <div class="html-toggle member-entries even section collapsed" id="Views.Description.BodyText">
     <span id="anyproject-views-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -942,6 +957,7 @@ Views.Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -950,7 +966,7 @@ Views.Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -970,7 +986,7 @@ Views.Description.Title
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description.Title">
+    <div class="html-toggle member-entries odd section collapsed" id="Views.Description.Title">
     <span id="anyproject-views-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -982,6 +998,7 @@ Views.Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -990,7 +1007,7 @@ Views.Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -1010,7 +1027,7 @@ Views.Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Views.Description.BodyHTML">
+    <div class="html-toggle member-entries even section collapsed" id="Views.Description.BodyHTML">
     <span id="anyproject-views-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -1022,6 +1039,7 @@ Views.Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -1030,7 +1048,7 @@ Views.Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -1050,7 +1068,7 @@ Views.Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description.HTMLURL">
+    <div class="html-toggle member-entries odd section collapsed" id="Views.Description.HTMLURL">
     <span id="anyproject-views-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -1062,6 +1080,7 @@ Views.Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -1070,7 +1089,7 @@ Views.Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -1090,7 +1109,7 @@ Views.Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Views.Description.Tooltip">
+    <div class="html-toggle member-entries even section collapsed" id="Views.Description.Tooltip">
     <span id="anyproject-views-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Views.Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -1102,6 +1121,7 @@ Views.Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -1110,7 +1130,7 @@ Views.Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -1130,7 +1150,7 @@ Views.Description.Files
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Views.Description.Files">
+    <div class="html-toggle member-entries odd section collapsed" id="Views.Description.Files">
     <span id="anyproject-views-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Views.Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -1142,6 +1162,7 @@ Views.Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -1160,7 +1181,7 @@ Views.Description.Files
 
 
 
-
+ 
 
 
 
@@ -1180,7 +1201,7 @@ Files
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Files </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of project file information.</span>
@@ -1192,7 +1213,7 @@ Files
 
     
     
-    
+     
 
 ..
 
@@ -1212,7 +1233,7 @@ Files.Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description">
+    <div class="html-toggle member-entries odd section collapsed" id="Files.Description">
     <span id="anyproject-files-description" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Files.Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -1224,6 +1245,7 @@ Files.Description
     | **Class type:**  :ref:`AnyDescription`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     Description folder.
@@ -1232,7 +1254,7 @@ Files.Description
 
 
 
-    
+     
 
 ..
 
@@ -1252,7 +1274,7 @@ Files.Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.Description.BodyText">
+    <div class="html-toggle member-entries even section collapsed" id="Files.Description.BodyText">
     <span id="anyproject-files-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -1264,6 +1286,7 @@ Files.Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -1272,7 +1295,7 @@ Files.Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -1292,7 +1315,7 @@ Files.Description.Title
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description.Title">
+    <div class="html-toggle member-entries odd section collapsed" id="Files.Description.Title">
     <span id="anyproject-files-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -1304,6 +1327,7 @@ Files.Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -1312,7 +1336,7 @@ Files.Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -1332,7 +1356,7 @@ Files.Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.Description.BodyHTML">
+    <div class="html-toggle member-entries even section collapsed" id="Files.Description.BodyHTML">
     <span id="anyproject-files-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -1344,6 +1368,7 @@ Files.Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -1352,7 +1377,7 @@ Files.Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -1372,7 +1397,7 @@ Files.Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description.HTMLURL">
+    <div class="html-toggle member-entries odd section collapsed" id="Files.Description.HTMLURL">
     <span id="anyproject-files-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -1384,6 +1409,7 @@ Files.Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -1392,7 +1418,7 @@ Files.Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -1412,7 +1438,7 @@ Files.Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.Description.Tooltip">
+    <div class="html-toggle member-entries even section collapsed" id="Files.Description.Tooltip">
     <span id="anyproject-files-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -1424,6 +1450,7 @@ Files.Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -1432,7 +1459,7 @@ Files.Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -1452,7 +1479,7 @@ Files.Description.Files
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.Description.Files">
+    <div class="html-toggle member-entries odd section collapsed" id="Files.Description.Files">
     <span id="anyproject-files-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Files.Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -1464,6 +1491,7 @@ Files.Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -1472,7 +1500,7 @@ Files.Description.Files
 
 
 
-    
+     
 
 ..
 
@@ -1492,7 +1520,7 @@ Files.MainFile
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.MainFile">
+    <div class="html-toggle member-entries even section collapsed" id="Files.MainFile">
     <span id="anyproject-files-mainfile" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MainFile </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.MainFile" title="Permalink to this headline">¶</a>
     <span class="member-descr">Main-file of the project.</span>
@@ -1504,6 +1532,7 @@ Files.MainFile
     | **Class type:**  :ref:`AnyFileVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     Main-file of the project.
@@ -1512,7 +1541,7 @@ Files.MainFile
 
 
 
-    
+     
 
 ..
 
@@ -1532,7 +1561,7 @@ Files.SetValueFile
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.SetValueFile">
+    <div class="html-toggle member-entries odd section collapsed" id="Files.SetValueFile">
     <span id="anyproject-files-setvaluefile" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SetValueFile </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Files.SetValueFile" title="Permalink to this headline">¶</a>
     <span class="member-descr">File name for storing modified values between project sessions.</span>
@@ -1544,6 +1573,7 @@ Files.SetValueFile
     | **Class type:**  :ref:`AnyFileVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     File name for storing modified values between project sessions.
@@ -1562,7 +1592,7 @@ Files.SetValueFile
 
 
 
-
+ 
 
 
 
@@ -1582,7 +1612,7 @@ Autos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Autos </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Autos" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of definitions controlling various automatic processes.</span>
@@ -1594,7 +1624,7 @@ Autos
 
     
     
-    
+     
 
 ..
 
@@ -1614,7 +1644,7 @@ Autos.Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Autos.Description">
+    <div class="html-toggle member-entries odd section collapsed" id="Autos.Description">
     <span id="anyproject-autos-description" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Autos.Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -1626,6 +1656,7 @@ Autos.Description
     | **Class type:**  :ref:`AnyDescription`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     Description folder.
@@ -1634,7 +1665,7 @@ Autos.Description
 
 
 
-    
+     
 
 ..
 
@@ -1654,7 +1685,7 @@ Autos.Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Autos.Description.BodyText">
+    <div class="html-toggle member-entries even section collapsed" id="Autos.Description.BodyText">
     <span id="anyproject-autos-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Autos.Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -1666,6 +1697,7 @@ Autos.Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -1674,7 +1706,7 @@ Autos.Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -1694,7 +1726,7 @@ Autos.Description.Title
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Autos.Description.Title">
+    <div class="html-toggle member-entries odd section collapsed" id="Autos.Description.Title">
     <span id="anyproject-autos-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Autos.Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -1706,6 +1738,7 @@ Autos.Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -1714,7 +1747,7 @@ Autos.Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -1734,7 +1767,7 @@ Autos.Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Autos.Description.BodyHTML">
+    <div class="html-toggle member-entries even section collapsed" id="Autos.Description.BodyHTML">
     <span id="anyproject-autos-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Autos.Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -1746,6 +1779,7 @@ Autos.Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -1754,7 +1788,7 @@ Autos.Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -1774,7 +1808,7 @@ Autos.Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Autos.Description.HTMLURL">
+    <div class="html-toggle member-entries odd section collapsed" id="Autos.Description.HTMLURL">
     <span id="anyproject-autos-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Autos.Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -1786,6 +1820,7 @@ Autos.Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -1794,7 +1829,7 @@ Autos.Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -1814,7 +1849,7 @@ Autos.Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Autos.Description.Tooltip">
+    <div class="html-toggle member-entries even section collapsed" id="Autos.Description.Tooltip">
     <span id="anyproject-autos-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Autos.Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -1826,6 +1861,7 @@ Autos.Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -1834,7 +1870,7 @@ Autos.Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -1854,7 +1890,7 @@ Autos.Description.Files
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Autos.Description.Files">
+    <div class="html-toggle member-entries odd section collapsed" id="Autos.Description.Files">
     <span id="anyproject-autos-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Autos.Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -1866,6 +1902,7 @@ Autos.Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -1874,7 +1911,7 @@ Autos.Description.Files
 
 
 
-    
+     
 
 ..
 
@@ -1894,7 +1931,7 @@ Autos.StartView
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Autos.StartView">
+    <div class="html-toggle member-entries even section collapsed" id="Autos.StartView">
     <span id="anyproject-autos-startview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.StartView </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#Autos.StartView" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object pointer to an AnyProjectModelViewDefinition, which will be applied to...</span>
@@ -1906,6 +1943,7 @@ Autos.StartView
     | **Class type:**  :ref:`AnyObjectPtrVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``None``
+
         
 
     Object pointer to an AnyProjectModelViewDefinition, which will be applied to the model at load.
@@ -1924,7 +1962,7 @@ Autos.StartView
 
 
 
-
+ 
 
 
 
@@ -1944,7 +1982,7 @@ Output
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Output </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Output" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder of project specific outputs.</span>
@@ -1956,7 +1994,7 @@ Output
 
     
     
-    
+     
 
 ..
 
@@ -1976,7 +2014,7 @@ Output.Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Description">
     <span id="anyproject-output-description" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Output.Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -1988,6 +2026,7 @@ Output.Description
     | **Class type:**  :ref:`AnyDescription`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     Description folder.
@@ -1996,7 +2035,7 @@ Output.Description
 
 
 
-    
+     
 
 ..
 
@@ -2016,7 +2055,7 @@ Output.Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Description.BodyText">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Description.BodyText">
     <span id="anyproject-output-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -2028,6 +2067,7 @@ Output.Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -2036,7 +2076,7 @@ Output.Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -2056,7 +2096,7 @@ Output.Description.Title
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description.Title">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Description.Title">
     <span id="anyproject-output-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -2068,6 +2108,7 @@ Output.Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -2076,7 +2117,7 @@ Output.Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -2096,7 +2137,7 @@ Output.Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Description.BodyHTML">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Description.BodyHTML">
     <span id="anyproject-output-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -2108,6 +2149,7 @@ Output.Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -2116,7 +2158,7 @@ Output.Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -2136,7 +2178,7 @@ Output.Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description.HTMLURL">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Description.HTMLURL">
     <span id="anyproject-output-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -2148,6 +2190,7 @@ Output.Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -2156,7 +2199,7 @@ Output.Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -2176,7 +2219,7 @@ Output.Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Description.Tooltip">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Description.Tooltip">
     <span id="anyproject-output-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Output.Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -2188,6 +2231,7 @@ Output.Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -2196,7 +2240,7 @@ Output.Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -2216,7 +2260,7 @@ Output.Description.Files
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Description.Files">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Description.Files">
     <span id="anyproject-output-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Description.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Output.Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -2228,6 +2272,7 @@ Output.Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -2264,47 +2309,6 @@ Denied-Access members
     <!--
 ..
 
-.. _AnyProject.Files:
-
-Files
-========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files">
-    <span id="anyproject-files" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Files</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Folder of project file information.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyProjectFiles`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Folder of project file information.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyProject.Files.SourceFiles:
 
 Files.SourceFiles
@@ -2315,7 +2319,7 @@ Files.SourceFiles
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Files.SourceFiles">
+    <div class="html-toggle member-entries odd section collapsed" id="Files.SourceFiles">
     <span id="anyproject-files-sourcefiles" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Files.SourceFiles</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files.SourceFiles" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of all AnyScript source files in the model (currently loaded).</span>
@@ -2356,7 +2360,7 @@ Files.DataFiles
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Files.DataFiles">
+    <div class="html-toggle member-entries even section collapsed" id="Files.DataFiles">
     <span id="anyproject-files-datafiles" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Files.DataFiles</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Files.DataFiles" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of all data files in the model (currently loaded).</span>
@@ -2375,6 +2379,7 @@ Files.DataFiles
     Array of all data files in the model (currently loaded).
 
 ..
+
 
 
 

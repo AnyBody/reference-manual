@@ -85,7 +85,7 @@ AnyDesVar
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnyDesVar">
+    <div class="html-toggle member-entries odd section collapsed" id="AnyDesVar">
     <span id="anydesstudy-anydesvar" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyDesVar (1..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyDesVar" title="Permalink to this headline">¶</a>
     <span class="member-descr">Design variables of the study are defined as AnyDesVar objects.</span>
@@ -124,7 +124,7 @@ AnyDesMeasure
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AnyDesMeasure">
+    <div class="html-toggle member-entries even section collapsed" id="AnyDesMeasure">
     <span id="anydesstudy-anydesmeasure" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyDesMeasure (1..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyDesMeasure" title="Permalink to this headline">¶</a>
     <span class="member-descr">Design performance measures are defined as AnyDesMeasure objects.</span>
@@ -152,10 +152,11 @@ AnyDesMeasure
 
 
 
+
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -177,7 +178,7 @@ LogFile
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="LogFile">
+    <div class="html-toggle member-entries odd section collapsed" id="LogFile">
     <span id="anydesstudy-logfile" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> LogFile </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#LogFile" title="Permalink to this headline">¶</a>
     <span class="member-descr">Optional log file for use by the numerical routines in the operations. It...</span>
@@ -203,7 +204,7 @@ LogFile
 
 
 
-
+ 
 
 
 
@@ -223,7 +224,7 @@ Analysis
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
     <span class="member-descr">This analysis operation.</span>
@@ -235,7 +236,7 @@ Analysis
 
     
     
-    
+     
 
 ..
 
@@ -255,7 +256,7 @@ Analysis.Settings
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.Settings">
     <span id="anydesstudy-analysis-settings" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis.Settings" title="Permalink to this headline">¶</a>
     <span class="member-descr">General settings for the operation.</span>
@@ -267,6 +268,7 @@ Analysis.Settings
     | **Class type:**  :ref:`AnyOprSetUI`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     General settings for the operation.
@@ -275,7 +277,7 @@ Analysis.Settings
 
 
 
-    
+     
 
 ..
 
@@ -295,7 +297,7 @@ Analysis.Settings.Echo
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.Settings.Echo">
+    <div class="html-toggle member-entries even section collapsed" id="Analysis.Settings.Echo">
     <span id="anydesstudy-analysis-settings-echo" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.Echo </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.Echo" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -307,6 +309,7 @@ Analysis.Settings.Echo
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -315,7 +318,7 @@ Analysis.Settings.Echo
 
 
 
-    
+     
 
 ..
 
@@ -335,7 +338,7 @@ Analysis.Settings.ModelSceneUpdate
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings.ModelSceneUpdate">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.Settings.ModelSceneUpdate">
     <span id="anydesstudy-analysis-settings-modelsceneupdate" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.ModelSceneUpdate </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Analysis.Settings.ModelSceneUpdate" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for definition of operation output to the output log and views.</span>
@@ -347,6 +350,7 @@ Analysis.Settings.ModelSceneUpdate
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for definition of operation output to the output log and views.
@@ -355,7 +359,7 @@ Analysis.Settings.ModelSceneUpdate
 
 
 
-    
+     
 
 ..
 
@@ -375,7 +379,7 @@ Analysis.Settings.DisplayPriority
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.Settings.DisplayPriority">
+    <div class="html-toggle member-entries even section collapsed" id="Analysis.Settings.DisplayPriority">
     <span id="anydesstudy-analysis-settings-displaypriority" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.DisplayPriority </span><span class="member-title-equal">=</span><span class="member-title-default"> PriorityNormal </span><a class="headerlink" href="#Analysis.Settings.DisplayPriority" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining the interface display priority for the Operation.</span>
@@ -387,6 +391,7 @@ Analysis.Settings.DisplayPriority
     | **Class type:**  :ref:`AnyDisplayPriority`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``PriorityNormal``
+
         
 
     Value for defining the interface display priority for the Operation.
@@ -395,7 +400,7 @@ Analysis.Settings.DisplayPriority
 
 
 
-    
+     
 
 ..
 
@@ -415,7 +420,7 @@ Analysis.Settings.SelectOnLoad
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.Settings.SelectOnLoad">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.Settings.SelectOnLoad">
     <span id="anydesstudy-analysis-settings-selectonload" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Settings.SelectOnLoad </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Analysis.Settings.SelectOnLoad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value for defining if the Operation should be displayed as the default...</span>
@@ -427,6 +432,7 @@ Analysis.Settings.SelectOnLoad
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Value for defining if the Operation should be displayed as the default Operation for the loaded model.
@@ -473,7 +479,7 @@ UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
     <span id="anydesstudy-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -514,7 +520,7 @@ UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="UpdDesign">
     <span id="anydesstudy-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -555,7 +561,7 @@ UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
     <span id="anydesstudy-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -596,7 +602,7 @@ Output
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output">
+    <div class="html-toggle member-entries even section collapsed" id="Output">
     <span id="anydesstudy-output" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder that holds the result of the latest executed analysis (operation).</span>
@@ -637,7 +643,7 @@ Output.Abscissa
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Abscissa">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Abscissa">
     <span id="anydesstudy-output-abscissa" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder where the values of the abscissa/input parameters are stored.</span>
@@ -678,7 +684,7 @@ Output.Abscissa.StateCountCurrent
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Output.Abscissa.StateCountCurrent">
+    <div class="html-toggle member-entries even section collapsed" id="Output.Abscissa.StateCountCurrent">
     <span id="anydesstudy-output-abscissa-statecountcurrent" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.StateCountCurrent</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.StateCountCurrent" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter (integer) that indicates the number (the state) of the current data...</span>
@@ -719,7 +725,7 @@ Output.Abscissa.StateCountData
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Output.Abscissa.StateCountData">
+    <div class="html-toggle member-entries odd section collapsed" id="Output.Abscissa.StateCountData">
     <span id="anydesstudy-output-abscissa-statecountdata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Output.Abscissa.StateCountData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Output.Abscissa.StateCountData" title="Permalink to this headline">¶</a>
     <span class="member-descr">Structure of state indicators for each data point in the AnyOutputFolder...</span>
@@ -750,47 +756,6 @@ Output.Abscissa.StateCountData
     </div><!--
 ..
 
-.. _AnyDesStudy.Analysis:
-
-Analysis
-===========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis">
-    <span id="anydesstudy-analysis" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Analysis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
-    <span class="member-descr">This analysis operation.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyOperationSequence`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    This analysis operation.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyDesStudy.Analysis.UpdConfig:
 
 Analysis.UpdConfig
@@ -801,7 +766,7 @@ Analysis.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Analysis.UpdConfig">
     <span id="anydesstudy-analysis-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -842,7 +807,7 @@ Analysis.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Analysis.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Analysis.UpdDesign">
     <span id="anydesstudy-analysis-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -883,7 +848,7 @@ Analysis.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Analysis.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Analysis.UpdOutput">
     <span id="anydesstudy-analysis-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Analysis.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Analysis.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -902,6 +867,7 @@ Analysis.UpdOutput
     <No description>
 
 ..
+
 
 
 

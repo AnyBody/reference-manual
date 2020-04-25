@@ -64,6 +64,7 @@ Description
 
 
 
+
 *******************************
 Required initialization members
 *******************************
@@ -89,7 +90,7 @@ Mass
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Mass">
+    <div class="html-toggle member-entries odd section collapsed" id="Mass">
     <span id="anyseg-mass" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Mass</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Mass" title="Permalink to this headline">¶</a>
     <span class="member-descr">The total mass of the segment.</span>
@@ -130,7 +131,7 @@ Jii
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Jii">
+    <div class="html-toggle member-entries even section collapsed" id="Jii">
     <span id="anyseg-jii" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Jii</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Jii" title="Permalink to this headline">¶</a>
     <span class="member-descr">Principal moments of inertia in a vector {Ixx,Iyy,Izz}.</span>
@@ -158,7 +159,7 @@ Jii
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -178,7 +179,7 @@ viewRefFrame
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> viewRefFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -190,7 +191,7 @@ viewRefFrame
 
     
     
-    
+     
 
 ..
 
@@ -210,7 +211,7 @@ viewRefFrame.Visible
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.Visible">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.Visible">
     <span id="anyseg-viewrefframe-visible" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewRefFrame.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
@@ -222,6 +223,7 @@ viewRefFrame.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Visibility setting, which specifies default visibility of the object.
@@ -230,7 +232,7 @@ viewRefFrame.Visible
 
 
 
-    
+     
 
 ..
 
@@ -250,7 +252,7 @@ viewRefFrame.Opacity
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.Opacity">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.Opacity">
     <span id="anyseg-viewrefframe-opacity" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewRefFrame.Opacity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
@@ -262,6 +264,7 @@ viewRefFrame.Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Opacity setting, which specifies default opacity of the object.
@@ -270,7 +273,7 @@ viewRefFrame.Opacity
 
 
 
-    
+     
 
 ..
 
@@ -290,7 +293,7 @@ viewRefFrame.Pickable
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.Pickable">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.Pickable">
     <span id="anyseg-viewrefframe-pickable" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewRefFrame.Pickable" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
@@ -302,6 +305,7 @@ viewRefFrame.Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
@@ -310,7 +314,7 @@ viewRefFrame.Pickable
 
 
 
-    
+     
 
 ..
 
@@ -330,7 +334,7 @@ viewRefFrame.PickableZOrdering
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.PickableZOrdering">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.PickableZOrdering">
     <span id="anyseg-viewrefframe-pickablezordering" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewRefFrame.PickableZOrdering" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
@@ -342,6 +346,7 @@ viewRefFrame.PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+
         
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
@@ -350,7 +355,7 @@ viewRefFrame.PickableZOrdering
 
 
 
-    
+     
 
 ..
 
@@ -370,7 +375,7 @@ viewRefFrame.RGB
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.RGB">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.RGB">
     <span id="anyseg-viewrefframe-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#viewRefFrame.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object color in RGB values between 0 and 1.</span>
@@ -382,6 +387,7 @@ viewRefFrame.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.75117188, 0.67695313, 0.32539062}``
+
         
 
     Object color in RGB values between 0 and 1.
@@ -390,7 +396,7 @@ viewRefFrame.RGB
 
 
 
-    
+     
 
 ..
 
@@ -410,7 +416,7 @@ viewRefFrame.ScaleXYZ
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.ScaleXYZ">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.ScaleXYZ">
     <span id="anyseg-viewrefframe-scalexyz" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ScaleXYZ </span><span class="member-title-equal">=</span><span class="member-title-default"> {1.0, 1.0, 1.0} </span><a class="headerlink" href="#viewRefFrame.ScaleXYZ" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factors for each reference system axis.</span>
@@ -422,6 +428,7 @@ viewRefFrame.ScaleXYZ
     | **Class type:**  :ref:`AnyVec3`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``{1.0, 1.0, 1.0}``
+
         
 
     Scaling factors for each reference system axis.
@@ -430,7 +437,7 @@ viewRefFrame.ScaleXYZ
 
 
 
-    
+     
 
 ..
 
@@ -450,7 +457,7 @@ viewRefFrame.Transparency
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.Transparency">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.Transparency">
     <span id="anyseg-viewrefframe-transparency" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Transparency </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewRefFrame.Transparency" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object transparency parameter. Values must be in the range from 0.0...</span>
@@ -462,6 +469,7 @@ viewRefFrame.Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
@@ -470,7 +478,7 @@ viewRefFrame.Transparency
 
 
 
-    
+     
 
 ..
 
@@ -490,7 +498,7 @@ viewRefFrame.TextFont
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont">
     <span id="anyseg-viewrefframe-textfont" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewRefFrame.TextFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">General font setting for the object's text.</span>
@@ -502,6 +510,7 @@ viewRefFrame.TextFont
     | **Class type:**  :ref:`AnyStyleFont3DView`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     General font setting for the object's text.
@@ -510,7 +519,7 @@ viewRefFrame.TextFont
 
 
 
-    
+     
 
 ..
 
@@ -530,7 +539,7 @@ viewRefFrame.TextFont.RGB
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.RGB">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.TextFont.RGB">
     <span id="anyseg-viewrefframe-textfont-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#viewRefFrame.TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
@@ -542,6 +551,7 @@ viewRefFrame.TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+
         
 
     Color in RGB values between 0 and 1.
@@ -550,7 +560,7 @@ viewRefFrame.TextFont.RGB
 
 
 
-    
+     
 
 ..
 
@@ -570,7 +580,7 @@ viewRefFrame.TextFont.FontName
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.FontName">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.FontName">
     <span id="anyseg-viewrefframe-textfont-fontname" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#viewRefFrame.TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
@@ -582,6 +592,7 @@ viewRefFrame.TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
+
         
 
     Font name (Windows fonts).
@@ -590,7 +601,7 @@ viewRefFrame.TextFont.FontName
 
 
 
-    
+     
 
 ..
 
@@ -610,7 +621,7 @@ viewRefFrame.TextFont.Height
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.Height">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.TextFont.Height">
     <span id="anyseg-viewrefframe-textfont-height" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewRefFrame.TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
@@ -622,6 +633,7 @@ viewRefFrame.TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
+
         
 
     Font glyph height in pixels.
@@ -630,7 +642,7 @@ viewRefFrame.TextFont.Height
 
 
 
-    
+     
 
 ..
 
@@ -650,7 +662,7 @@ viewRefFrame.TextFont.Width
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.Width">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.Width">
     <span id="anyseg-viewrefframe-textfont-width" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewRefFrame.TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
@@ -662,6 +674,7 @@ viewRefFrame.TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
+
         
 
     Font glyph width in pixels.
@@ -670,7 +683,7 @@ viewRefFrame.TextFont.Width
 
 
 
-    
+     
 
 ..
 
@@ -690,7 +703,7 @@ viewRefFrame.TextFont.Bold
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.Bold">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.TextFont.Bold">
     <span id="anyseg-viewrefframe-textfont-bold" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewRefFrame.TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
@@ -702,6 +715,7 @@ viewRefFrame.TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for bold face type setting.
@@ -710,7 +724,7 @@ viewRefFrame.TextFont.Bold
 
 
 
-    
+     
 
 ..
 
@@ -730,7 +744,7 @@ viewRefFrame.TextFont.Italic
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.Italic">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.Italic">
     <span id="anyseg-viewrefframe-textfont-italic" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewRefFrame.TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
@@ -742,6 +756,7 @@ viewRefFrame.TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for italic type setting.
@@ -750,7 +765,7 @@ viewRefFrame.TextFont.Italic
 
 
 
-    
+     
 
 ..
 
@@ -770,7 +785,7 @@ viewRefFrame.TextFont.BillBoardView
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.BillBoardView">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.TextFont.BillBoardView">
     <span id="anyseg-viewrefframe-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewRefFrame.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
@@ -782,6 +797,7 @@ viewRefFrame.TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
@@ -790,7 +806,7 @@ viewRefFrame.TextFont.BillBoardView
 
 
 
-    
+     
 
 ..
 
@@ -810,7 +826,7 @@ viewRefFrame.TextFont.ModelSized
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.ModelSized">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.ModelSized">
     <span id="anyseg-viewrefframe-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewRefFrame.TextFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
@@ -822,6 +838,7 @@ viewRefFrame.TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
@@ -830,7 +847,7 @@ viewRefFrame.TextFont.ModelSized
 
 
 
-    
+     
 
 ..
 
@@ -850,7 +867,7 @@ viewRefFrame.TextFont.ModelScaleHeight
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.ModelScaleHeight">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.TextFont.ModelScaleHeight">
     <span id="anyseg-viewrefframe-textfont-modelscaleheight" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewRefFrame.TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
@@ -862,6 +879,7 @@ viewRefFrame.TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     The height scaling of the text when ModelSized is enabled.
@@ -870,7 +888,7 @@ viewRefFrame.TextFont.ModelScaleHeight
 
 
 
-    
+     
 
 ..
 
@@ -890,7 +908,7 @@ viewRefFrame.TextFont.ModelScaleWidth
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.TextFont.ModelScaleWidth">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.ModelScaleWidth">
     <span id="anyseg-viewrefframe-textfont-modelscalewidth" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewRefFrame.TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
@@ -902,6 +920,7 @@ viewRefFrame.TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     The width scaling of the text when ModelSized is enabled.
@@ -920,7 +939,7 @@ viewRefFrame.TextFont.ModelScaleWidth
 
 
 
-
+ 
 
 
 
@@ -942,7 +961,7 @@ r0
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="r0">
+    <div class="html-toggle member-entries even section collapsed" id="r0">
     <span id="anyseg-r0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> r0 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#r0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial position.</span>
@@ -968,7 +987,7 @@ r0
 
 
 
-
+ 
 
 
 
@@ -990,7 +1009,7 @@ rDot0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="rDot0">
+    <div class="html-toggle member-entries odd section collapsed" id="rDot0">
     <span id="anyseg-rdot0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> rDot0 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#rDot0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial velocity.</span>
@@ -1016,7 +1035,7 @@ rDot0
 
 
 
-
+ 
 
 
 
@@ -1038,7 +1057,7 @@ Axes0
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Axes0">
+    <div class="html-toggle member-entries even section collapsed" id="Axes0">
     <span id="anyseg-axes0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Axes0 </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Axes0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial orientation as rotational transformation matrix (see class...</span>
@@ -1064,7 +1083,7 @@ Axes0
 
 
 
-
+ 
 
 
 
@@ -1086,7 +1105,7 @@ omega0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="omega0">
+    <div class="html-toggle member-entries odd section collapsed" id="omega0">
     <span id="anyseg-omega0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> omega0 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#omega0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Initial angular velocity.</span>
@@ -1112,7 +1131,7 @@ omega0
 
 
 
-
+ 
 
 
 
@@ -1134,7 +1153,7 @@ Jij
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Jij">
+    <div class="html-toggle member-entries even section collapsed" id="Jij">
     <span id="anyseg-jij" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Jij </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Jij" title="Permalink to this headline">¶</a>
     <span class="member-descr">Deviation moments of inertia {Ixy,Iyz,Ixz}.</span>
@@ -1160,7 +1179,7 @@ Jij
 
 
 
-
+ 
 
 
 
@@ -1182,7 +1201,7 @@ sCoM
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="sCoM">
+    <div class="html-toggle member-entries odd section collapsed" id="sCoM">
     <span id="anyseg-scom" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> sCoM </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#sCoM" title="Permalink to this headline">¶</a>
     <span class="member-descr">Relative location of the center of mass (CoM).</span>
@@ -1208,7 +1227,7 @@ sCoM
 
 
 
-
+ 
 
 
 
@@ -1230,7 +1249,7 @@ JaboutCoMOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="JaboutCoMOnOff">
+    <div class="html-toggle member-entries even section collapsed" id="JaboutCoMOnOff">
     <span id="anyseg-jaboutcomonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> JaboutCoMOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#JaboutCoMOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the inputted moments of inertia in Jii and Jij are...</span>
@@ -1256,7 +1275,7 @@ JaboutCoMOnOff
 
 
 
-
+ 
 
 
 
@@ -1276,7 +1295,7 @@ viewNodes
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> viewNodes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewNodes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing object that renders the segment's nodes.</span>
@@ -1288,7 +1307,7 @@ viewNodes
 
     
     
-    
+     
 
 ..
 
@@ -1308,7 +1327,7 @@ viewNodes.Visible
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.Visible">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.Visible">
     <span id="anyseg-viewnodes-visible" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
@@ -1320,6 +1339,7 @@ viewNodes.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Visibility setting, which specifies default visibility of the object.
@@ -1328,7 +1348,7 @@ viewNodes.Visible
 
 
 
-    
+     
 
 ..
 
@@ -1348,7 +1368,7 @@ viewNodes.Opacity
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.Opacity">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.Opacity">
     <span id="anyseg-viewnodes-opacity" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.Opacity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
@@ -1360,6 +1380,7 @@ viewNodes.Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Opacity setting, which specifies default opacity of the object.
@@ -1368,7 +1389,7 @@ viewNodes.Opacity
 
 
 
-    
+     
 
 ..
 
@@ -1388,7 +1409,7 @@ viewNodes.Pickable
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.Pickable">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.Pickable">
     <span id="anyseg-viewnodes-pickable" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.Pickable" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
@@ -1400,6 +1421,7 @@ viewNodes.Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
@@ -1408,7 +1430,7 @@ viewNodes.Pickable
 
 
 
-    
+     
 
 ..
 
@@ -1428,7 +1450,7 @@ viewNodes.PickableZOrdering
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.PickableZOrdering">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.PickableZOrdering">
     <span id="anyseg-viewnodes-pickablezordering" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewNodes.PickableZOrdering" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
@@ -1440,6 +1462,7 @@ viewNodes.PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+
         
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
@@ -1448,7 +1471,7 @@ viewNodes.PickableZOrdering
 
 
 
-    
+     
 
 ..
 
@@ -1468,7 +1491,7 @@ viewNodes.RGB
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.RGB">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.RGB">
     <span id="anyseg-viewnodes-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#viewNodes.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object color in RGB values between 0 and 1.</span>
@@ -1480,6 +1503,7 @@ viewNodes.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.75117188, 0.67695313, 0.32539062}``
+
         
 
     Object color in RGB values between 0 and 1.
@@ -1488,7 +1512,7 @@ viewNodes.RGB
 
 
 
-    
+     
 
 ..
 
@@ -1508,7 +1532,7 @@ viewNodes.Transparency
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.Transparency">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.Transparency">
     <span id="anyseg-viewnodes-transparency" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Transparency </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.Transparency" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object transparency parameter. Values must be in the range from 0.0...</span>
@@ -1520,6 +1544,7 @@ viewNodes.Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
@@ -1528,7 +1553,7 @@ viewNodes.Transparency
 
 
 
-    
+     
 
 ..
 
@@ -1548,7 +1573,7 @@ viewNodes.TextFont
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.TextFont">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont">
     <span id="anyseg-viewnodes-textfont" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewNodes.TextFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">General font setting for the object's text.</span>
@@ -1560,6 +1585,7 @@ viewNodes.TextFont
     | **Class type:**  :ref:`AnyStyleFont3DView`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     General font setting for the object's text.
@@ -1568,7 +1594,7 @@ viewNodes.TextFont
 
 
 
-    
+     
 
 ..
 
@@ -1588,7 +1614,7 @@ viewNodes.TextFont.RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.TextFont.RGB">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.RGB">
     <span id="anyseg-viewnodes-textfont-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#viewNodes.TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
@@ -1600,6 +1626,7 @@ viewNodes.TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+
         
 
     Color in RGB values between 0 and 1.
@@ -1608,7 +1635,7 @@ viewNodes.TextFont.RGB
 
 
 
-    
+     
 
 ..
 
@@ -1628,7 +1655,7 @@ viewNodes.TextFont.FontName
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.TextFont.FontName">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.FontName">
     <span id="anyseg-viewnodes-textfont-fontname" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#viewNodes.TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
@@ -1640,6 +1667,7 @@ viewNodes.TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
+
         
 
     Font name (Windows fonts).
@@ -1648,7 +1676,7 @@ viewNodes.TextFont.FontName
 
 
 
-    
+     
 
 ..
 
@@ -1668,7 +1696,7 @@ viewNodes.TextFont.Height
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.TextFont.Height">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.Height">
     <span id="anyseg-viewnodes-textfont-height" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewNodes.TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
@@ -1680,6 +1708,7 @@ viewNodes.TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
+
         
 
     Font glyph height in pixels.
@@ -1688,7 +1717,7 @@ viewNodes.TextFont.Height
 
 
 
-    
+     
 
 ..
 
@@ -1708,7 +1737,7 @@ viewNodes.TextFont.Width
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.TextFont.Width">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.Width">
     <span id="anyseg-viewnodes-textfont-width" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewNodes.TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
@@ -1720,6 +1749,7 @@ viewNodes.TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
+
         
 
     Font glyph width in pixels.
@@ -1728,7 +1758,7 @@ viewNodes.TextFont.Width
 
 
 
-    
+     
 
 ..
 
@@ -1748,7 +1778,7 @@ viewNodes.TextFont.Bold
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.TextFont.Bold">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.Bold">
     <span id="anyseg-viewnodes-textfont-bold" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
@@ -1760,6 +1790,7 @@ viewNodes.TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for bold face type setting.
@@ -1768,7 +1799,7 @@ viewNodes.TextFont.Bold
 
 
 
-    
+     
 
 ..
 
@@ -1788,7 +1819,7 @@ viewNodes.TextFont.Italic
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.TextFont.Italic">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.Italic">
     <span id="anyseg-viewnodes-textfont-italic" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
@@ -1800,6 +1831,7 @@ viewNodes.TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for italic type setting.
@@ -1808,7 +1840,7 @@ viewNodes.TextFont.Italic
 
 
 
-    
+     
 
 ..
 
@@ -1828,7 +1860,7 @@ viewNodes.TextFont.BillBoardView
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.TextFont.BillBoardView">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.BillBoardView">
     <span id="anyseg-viewnodes-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
@@ -1840,6 +1872,7 @@ viewNodes.TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
@@ -1848,7 +1881,7 @@ viewNodes.TextFont.BillBoardView
 
 
 
-    
+     
 
 ..
 
@@ -1868,7 +1901,7 @@ viewNodes.TextFont.ModelSized
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.TextFont.ModelSized">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.ModelSized">
     <span id="anyseg-viewnodes-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
@@ -1880,6 +1913,7 @@ viewNodes.TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
@@ -1888,7 +1922,7 @@ viewNodes.TextFont.ModelSized
 
 
 
-    
+     
 
 ..
 
@@ -1908,7 +1942,7 @@ viewNodes.TextFont.ModelScaleHeight
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.TextFont.ModelScaleHeight">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.ModelScaleHeight">
     <span id="anyseg-viewnodes-textfont-modelscaleheight" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
@@ -1920,6 +1954,7 @@ viewNodes.TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     The height scaling of the text when ModelSized is enabled.
@@ -1928,7 +1963,7 @@ viewNodes.TextFont.ModelScaleHeight
 
 
 
-    
+     
 
 ..
 
@@ -1948,7 +1983,7 @@ viewNodes.TextFont.ModelScaleWidth
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.TextFont.ModelScaleWidth">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.ModelScaleWidth">
     <span id="anyseg-viewnodes-textfont-modelscalewidth" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
@@ -1960,6 +1995,7 @@ viewNodes.TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     The width scaling of the text when ModelSized is enabled.
@@ -1968,7 +2004,7 @@ viewNodes.TextFont.ModelScaleWidth
 
 
 
-    
+     
 
 ..
 
@@ -1988,7 +2024,7 @@ viewNodes.InertiaScale
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.InertiaScale">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.InertiaScale">
     <span id="anyseg-viewnodes-inertiascale" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InertiaScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.InertiaScale" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2000,6 +2036,7 @@ viewNodes.InertiaScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     <No description>
@@ -2018,7 +2055,7 @@ viewNodes.InertiaScale
 
 
 
-
+ 
 
 
 
@@ -2038,7 +2075,7 @@ viewInertia
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> viewInertia </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewInertia" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing object that renders the segment's inertia distribution.</span>
@@ -2050,7 +2087,7 @@ viewInertia
 
     
     
-    
+     
 
 ..
 
@@ -2070,7 +2107,7 @@ viewInertia.Visible
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.Visible">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.Visible">
     <span id="anyseg-viewinertia-visible" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewInertia.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
@@ -2082,6 +2119,7 @@ viewInertia.Visible
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Visibility setting, which specifies default visibility of the object.
@@ -2090,7 +2128,7 @@ viewInertia.Visible
 
 
 
-    
+     
 
 ..
 
@@ -2110,7 +2148,7 @@ viewInertia.Opacity
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.Opacity">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.Opacity">
     <span id="anyseg-viewinertia-opacity" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewInertia.Opacity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
@@ -2122,6 +2160,7 @@ viewInertia.Opacity
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Opacity setting, which specifies default opacity of the object.
@@ -2130,7 +2169,7 @@ viewInertia.Opacity
 
 
 
-    
+     
 
 ..
 
@@ -2150,7 +2189,7 @@ viewInertia.Pickable
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.Pickable">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.Pickable">
     <span id="anyseg-viewinertia-pickable" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewInertia.Pickable" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
@@ -2162,6 +2201,7 @@ viewInertia.Pickable
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
@@ -2170,7 +2210,7 @@ viewInertia.Pickable
 
 
 
-    
+     
 
 ..
 
@@ -2190,7 +2230,7 @@ viewInertia.PickableZOrdering
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.PickableZOrdering">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.PickableZOrdering">
     <span id="anyseg-viewinertia-pickablezordering" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewInertia.PickableZOrdering" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
@@ -2202,6 +2242,7 @@ viewInertia.PickableZOrdering
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+
         
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
@@ -2210,7 +2251,7 @@ viewInertia.PickableZOrdering
 
 
 
-    
+     
 
 ..
 
@@ -2230,7 +2271,7 @@ viewInertia.RGB
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.RGB">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.RGB">
     <span id="anyseg-viewinertia-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#viewInertia.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object color in RGB values between 0 and 1.</span>
@@ -2242,6 +2283,7 @@ viewInertia.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.75117188, 0.67695313, 0.32539062}``
+
         
 
     Object color in RGB values between 0 and 1.
@@ -2250,7 +2292,7 @@ viewInertia.RGB
 
 
 
-    
+     
 
 ..
 
@@ -2270,7 +2312,7 @@ viewInertia.Transparency
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.Transparency">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.Transparency">
     <span id="anyseg-viewinertia-transparency" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Transparency </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewInertia.Transparency" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object transparency parameter. Values must be in the range from 0.0...</span>
@@ -2282,6 +2324,7 @@ viewInertia.Transparency
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
@@ -2290,7 +2333,7 @@ viewInertia.Transparency
 
 
 
-    
+     
 
 ..
 
@@ -2310,7 +2353,7 @@ viewInertia.TextFont
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.TextFont">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont">
     <span id="anyseg-viewinertia-textfont" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewInertia.TextFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">General font setting for the object's text.</span>
@@ -2322,6 +2365,7 @@ viewInertia.TextFont
     | **Class type:**  :ref:`AnyStyleFont3DView`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{}``
+
         
 
     General font setting for the object's text.
@@ -2330,7 +2374,7 @@ viewInertia.TextFont
 
 
 
-    
+     
 
 ..
 
@@ -2350,7 +2394,7 @@ viewInertia.TextFont.RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.TextFont.RGB">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.TextFont.RGB">
     <span id="anyseg-viewinertia-textfont-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#viewInertia.TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
@@ -2362,6 +2406,7 @@ viewInertia.TextFont.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+
         
 
     Color in RGB values between 0 and 1.
@@ -2370,7 +2415,7 @@ viewInertia.TextFont.RGB
 
 
 
-    
+     
 
 ..
 
@@ -2390,7 +2435,7 @@ viewInertia.TextFont.FontName
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.TextFont.FontName">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.FontName">
     <span id="anyseg-viewinertia-textfont-fontname" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#viewInertia.TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
@@ -2402,6 +2447,7 @@ viewInertia.TextFont.FontName
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``"Times New Roman"``
+
         
 
     Font name (Windows fonts).
@@ -2410,7 +2456,7 @@ viewInertia.TextFont.FontName
 
 
 
-    
+     
 
 ..
 
@@ -2430,7 +2476,7 @@ viewInertia.TextFont.Height
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.TextFont.Height">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.TextFont.Height">
     <span id="anyseg-viewinertia-textfont-height" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewInertia.TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
@@ -2442,6 +2488,7 @@ viewInertia.TextFont.Height
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
+
         
 
     Font glyph height in pixels.
@@ -2450,7 +2497,7 @@ viewInertia.TextFont.Height
 
 
 
-    
+     
 
 ..
 
@@ -2470,7 +2517,7 @@ viewInertia.TextFont.Width
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.TextFont.Width">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.Width">
     <span id="anyseg-viewinertia-textfont-width" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewInertia.TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
@@ -2482,6 +2529,7 @@ viewInertia.TextFont.Width
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``50``
+
         
 
     Font glyph width in pixels.
@@ -2490,7 +2538,7 @@ viewInertia.TextFont.Width
 
 
 
-    
+     
 
 ..
 
@@ -2510,7 +2558,7 @@ viewInertia.TextFont.Bold
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.TextFont.Bold">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.TextFont.Bold">
     <span id="anyseg-viewinertia-textfont-bold" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewInertia.TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
@@ -2522,6 +2570,7 @@ viewInertia.TextFont.Bold
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for bold face type setting.
@@ -2530,7 +2579,7 @@ viewInertia.TextFont.Bold
 
 
 
-    
+     
 
 ..
 
@@ -2550,7 +2599,7 @@ viewInertia.TextFont.Italic
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.TextFont.Italic">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.Italic">
     <span id="anyseg-viewinertia-textfont-italic" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewInertia.TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
@@ -2562,6 +2611,7 @@ viewInertia.TextFont.Italic
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for italic type setting.
@@ -2570,7 +2620,7 @@ viewInertia.TextFont.Italic
 
 
 
-    
+     
 
 ..
 
@@ -2590,7 +2640,7 @@ viewInertia.TextFont.BillBoardView
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.TextFont.BillBoardView">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.TextFont.BillBoardView">
     <span id="anyseg-viewinertia-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewInertia.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
@@ -2602,6 +2652,7 @@ viewInertia.TextFont.BillBoardView
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
@@ -2610,7 +2661,7 @@ viewInertia.TextFont.BillBoardView
 
 
 
-    
+     
 
 ..
 
@@ -2630,7 +2681,7 @@ viewInertia.TextFont.ModelSized
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.TextFont.ModelSized">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.ModelSized">
     <span id="anyseg-viewinertia-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewInertia.TextFont.ModelSized" title="Permalink to this headline">¶</a>
     <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
@@ -2642,6 +2693,7 @@ viewInertia.TextFont.ModelSized
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``On``
+
         
 
     AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
@@ -2650,7 +2702,7 @@ viewInertia.TextFont.ModelSized
 
 
 
-    
+     
 
 ..
 
@@ -2670,7 +2722,7 @@ viewInertia.TextFont.ModelScaleHeight
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.TextFont.ModelScaleHeight">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.TextFont.ModelScaleHeight">
     <span id="anyseg-viewinertia-textfont-modelscaleheight" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewInertia.TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
@@ -2682,6 +2734,7 @@ viewInertia.TextFont.ModelScaleHeight
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     The height scaling of the text when ModelSized is enabled.
@@ -2690,7 +2743,7 @@ viewInertia.TextFont.ModelScaleHeight
 
 
 
-    
+     
 
 ..
 
@@ -2710,7 +2763,7 @@ viewInertia.TextFont.ModelScaleWidth
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.TextFont.ModelScaleWidth">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.ModelScaleWidth">
     <span id="anyseg-viewinertia-textfont-modelscalewidth" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewInertia.TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
@@ -2722,6 +2775,7 @@ viewInertia.TextFont.ModelScaleWidth
     | **Class type:**  :ref:`AnyFloatVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     The width scaling of the text when ModelSized is enabled.
@@ -2730,7 +2784,7 @@ viewInertia.TextFont.ModelScaleWidth
 
 
 
-    
+     
 
 ..
 
@@ -2750,7 +2804,7 @@ viewInertia.InertiaScale
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.InertiaScale">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.InertiaScale">
     <span id="anyseg-viewinertia-inertiascale" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InertiaScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewInertia.InertiaScale" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factor for the graphical representation of the inertia distribution.</span>
@@ -2762,6 +2816,7 @@ viewInertia.InertiaScale
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Scaling factor for the graphical representation of the inertia distribution.
@@ -2808,7 +2863,7 @@ UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
     <span id="anyseg-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2849,7 +2904,7 @@ UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="UpdDesign">
     <span id="anyseg-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -2890,7 +2945,7 @@ UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
     <span id="anyseg-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2931,7 +2986,7 @@ t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="t">
+    <div class="html-toggle member-entries even section collapsed" id="t">
     <span id="anyseg-t_" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -2962,47 +3017,6 @@ t
     </div><!--
 ..
 
-.. _AnySeg.viewRefFrame:
-
-viewRefFrame
-===============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame">
-    <span id="anyseg-viewrefframe" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyDrawRefFrame`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnySeg.viewRefFrame.UpdConfig:
 
 viewRefFrame.UpdConfig
@@ -3013,7 +3027,7 @@ viewRefFrame.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.UpdConfig">
     <span id="anyseg-viewrefframe-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3054,7 +3068,7 @@ viewRefFrame.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.UpdDesign">
     <span id="anyseg-viewrefframe-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3095,7 +3109,7 @@ viewRefFrame.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewRefFrame.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.UpdOutput">
     <span id="anyseg-viewrefframe-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3136,7 +3150,7 @@ viewRefFrame.Face
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewRefFrame.Face">
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.Face">
     <span id="anyseg-viewrefframe-face" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewRefFrame.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewRefFrame.Face" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
@@ -3177,7 +3191,7 @@ r
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="r">
+    <div class="html-toggle member-entries odd section collapsed" id="r">
     <span id="anyseg-r" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">r</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#r" title="Permalink to this headline">¶</a>
     <span class="member-descr">Position vector of the origin.</span>
@@ -3218,7 +3232,7 @@ rDot
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="rDot">
+    <div class="html-toggle member-entries even section collapsed" id="rDot">
     <span id="anyseg-rdot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">rDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector.</span>
@@ -3259,7 +3273,7 @@ rDDot
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="rDDot">
+    <div class="html-toggle member-entries odd section collapsed" id="rDDot">
     <span id="anyseg-rddot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">rDDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector.</span>
@@ -3300,7 +3314,7 @@ Axes
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Axes">
+    <div class="html-toggle member-entries even section collapsed" id="Axes">
     <span id="anyseg-axes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Axes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Axes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational transformation matrix (see class AnyRefFrame for a mathematical...</span>
@@ -3341,7 +3355,7 @@ omega
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="omega">
+    <div class="html-toggle member-entries odd section collapsed" id="omega">
     <span id="anyseg-omega" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">omega</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#omega" title="Permalink to this headline">¶</a>
     <span class="member-descr">Angular velocity vector (global representation).</span>
@@ -3382,7 +3396,7 @@ omegaDot
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="omegaDot">
+    <div class="html-toggle member-entries even section collapsed" id="omegaDot">
     <span id="anyseg-omegadot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">omegaDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#omegaDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">Angular acceleration vector.</span>
@@ -3423,7 +3437,7 @@ Jmatrix
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Jmatrix">
+    <div class="html-toggle member-entries odd section collapsed" id="Jmatrix">
     <span id="anyseg-jmatrix" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Jmatrix</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Jmatrix" title="Permalink to this headline">¶</a>
     <span class="member-descr">The actual inertia matrix referring the body-fixed segment coordinate system.</span>
@@ -3464,7 +3478,7 @@ Ekin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Ekin">
+    <div class="html-toggle member-entries even section collapsed" id="Ekin">
     <span id="anyseg-ekin" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Ekin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ekin" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinetic energy of the segment.</span>
@@ -3505,7 +3519,7 @@ Epot
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Epot">
+    <div class="html-toggle member-entries odd section collapsed" id="Epot">
     <span id="anyseg-epot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Epot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Epot" title="Permalink to this headline">¶</a>
     <span class="member-descr">Potential energy of the segment associated with the field of gravity.</span>
@@ -3536,47 +3550,6 @@ Epot
     </div><!--
 ..
 
-.. _AnySeg.viewNodes:
-
-viewNodes
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes">
-    <span id="anyseg-viewnodes" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Drawing object that renders the segment's nodes.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyDrawSegNodes`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Drawing object that renders the segment's nodes.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnySeg.viewNodes.UpdConfig:
 
 viewNodes.UpdConfig
@@ -3587,7 +3560,7 @@ viewNodes.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.UpdConfig">
     <span id="anyseg-viewnodes-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3628,7 +3601,7 @@ viewNodes.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.UpdDesign">
     <span id="anyseg-viewnodes-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3669,7 +3642,7 @@ viewNodes.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.UpdOutput">
     <span id="anyseg-viewnodes-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3710,7 +3683,7 @@ viewNodes.ScaleXYZ
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewNodes.ScaleXYZ">
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.ScaleXYZ">
     <span id="anyseg-viewnodes-scalexyz" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.ScaleXYZ</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.ScaleXYZ" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factors for each reference system axis.</span>
@@ -3751,7 +3724,7 @@ viewNodes.Face
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewNodes.Face">
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.Face">
     <span id="anyseg-viewnodes-face" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.Face" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
@@ -3782,47 +3755,6 @@ viewNodes.Face
     </div><!--
 ..
 
-.. _AnySeg.viewInertia:
-
-viewInertia
-==============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia">
-    <span id="anyseg-viewinertia" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Drawing object that renders the segment's inertia distribution.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyDrawSegInertia`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{}``
-
-
-
-
-    Drawing object that renders the segment's inertia distribution.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnySeg.viewInertia.UpdConfig:
 
 viewInertia.UpdConfig
@@ -3833,7 +3765,7 @@ viewInertia.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.UpdConfig">
     <span id="anyseg-viewinertia-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3874,7 +3806,7 @@ viewInertia.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.UpdDesign">
     <span id="anyseg-viewinertia-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3915,7 +3847,7 @@ viewInertia.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.UpdOutput">
     <span id="anyseg-viewinertia-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3956,7 +3888,7 @@ viewInertia.ScaleXYZ
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="viewInertia.ScaleXYZ">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.ScaleXYZ">
     <span id="anyseg-viewinertia-scalexyz" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.ScaleXYZ</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.ScaleXYZ" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factors for each reference system axis.</span>
@@ -3997,7 +3929,7 @@ viewInertia.Face
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="viewInertia.Face">
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.Face">
     <span id="anyseg-viewinertia-face" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewInertia.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewInertia.Face" title="Permalink to this headline">¶</a>
     <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
@@ -4016,6 +3948,7 @@ viewInertia.Face
     Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
 
 ..
+
 
 
 

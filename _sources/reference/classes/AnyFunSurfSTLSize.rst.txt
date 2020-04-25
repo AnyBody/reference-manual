@@ -43,6 +43,7 @@ This is an abstract class implementing the function: :ref:`STL_Size()` .
 
 
 
+
 .. rst-class:: html-toggle
 
 *********************
@@ -69,7 +70,7 @@ Function
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function">
+    <div class="html-toggle member-entries odd section collapsed" id="Function">
     <span id="anyfunsurfstlsize-function" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function" title="Permalink to this headline">¶</a>
     <span class="member-descr">Function returning total vertex number of the STL.</span>
@@ -110,7 +111,7 @@ Function.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.ArgList">
+    <div class="html-toggle member-entries even section collapsed" id="Function.ArgList">
     <span id="anyfunsurfstlsize-function-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -151,7 +152,7 @@ Function.ArgList.STLFile
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function.ArgList.STLFile">
+    <div class="html-toggle member-entries odd section collapsed" id="Function.ArgList.STLFile">
     <span id="anyfunsurfstlsize-function-arglist-stlfile" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList.STLFile</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList.STLFile" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -192,7 +193,7 @@ Function.ArgList.MergeOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.ArgList.MergeOnOff">
+    <div class="html-toggle member-entries even section collapsed" id="Function.ArgList.MergeOnOff">
     <span id="anyfunsurfstlsize-function-arglist-mergeonoff" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList.MergeOnOff</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList.MergeOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -215,12 +216,21 @@ Function.ArgList.MergeOnOff
 
 
 
+
+.. rst-class:: html-toggle
+
+*********************
+Deprecated members
+*********************
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyFunSurfSTLSize.Function.Return:
@@ -233,7 +243,7 @@ Function.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function.Return">
+    <div class="html-toggle member-entries odd section collapsed" id="Function.Return">
     <span id="anyfunsurfstlsize-function-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -242,9 +252,14 @@ Function.Return
 ..
 
 
+    |
     | **Class type:**  :ref:`AnyInt`
     | **Eval moment:** :ref:`NotDefined <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+
+    .. rst-class:: without-title
+
+    .. danger::
+        **Deprecated**: Hidden object for return-data management.
 
 
 

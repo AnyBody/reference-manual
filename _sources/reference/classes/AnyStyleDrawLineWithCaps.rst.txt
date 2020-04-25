@@ -42,52 +42,6 @@ Description
 
 
 
-*******************************
-Required initialization members
-*******************************
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    <!--
-..
-
-.. _AnyStyleDrawLineWithCaps.Thickness:
-
-Thickness
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Thickness">
-    <span id="anystyledrawlinewithcaps-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Thickness</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Line thickness.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVar`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-
-
-
-    Line thickness.
-
-..
-
-
-
-
 
 
 
@@ -95,7 +49,7 @@ Thickness
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -117,7 +71,7 @@ Style
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Style">
+    <div class="html-toggle member-entries odd section collapsed" id="Style">
     <span id="anystyledrawlinewithcaps-style" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Style </span><span class="member-title-equal">=</span><span class="member-title-default"> Line3DStyleFull </span><a class="headerlink" href="#Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line style.</span>
@@ -143,7 +97,55 @@ Style
 
 
 
+ 
 
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyStyleDrawLineWithCaps.Thickness:
+
+Thickness
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Thickness">
+    <span id="anystyledrawlinewithcaps-thickness" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Line thickness.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.005``
+    
+
+    
+    
+    
+
+
+
+    Line thickness.
+
+..
+
+
+
+ 
 
 
 
@@ -165,9 +167,9 @@ RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RGB">
+    <div class="html-toggle member-entries odd section collapsed" id="RGB">
     <span id="anystyledrawlinewithcaps-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
     </h3>
 
@@ -176,7 +178,7 @@ RGB
 
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``{0.0, 0.0, 0.0}``
+    | **Default:** ``{0.0, 0.0, 1.0}``
     
 
     
@@ -191,7 +193,7 @@ RGB
 
 
 
-
+ 
 
 
 
@@ -211,7 +213,7 @@ Start
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Start </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Start" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for starting cap of line.</span>
@@ -223,7 +225,7 @@ Start
 
     
     
-    
+     
 
 ..
 
@@ -243,7 +245,7 @@ Start.Style
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Start.Style">
+    <div class="html-toggle member-entries odd section collapsed" id="Start.Style">
     <span id="anystyledrawlinewithcaps-start-style" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Start.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
@@ -255,6 +257,7 @@ Start.Style
     | **Class type:**  :ref:`AnyEnumLine3DCapStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
@@ -263,7 +266,7 @@ Start.Style
 
 
 
-    
+     
 
 ..
 
@@ -283,7 +286,7 @@ Start.RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Start.RGB">
+    <div class="html-toggle member-entries even section collapsed" id="Start.RGB">
     <span id="anystyledrawlinewithcaps-start-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Start.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
@@ -295,6 +298,7 @@ Start.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+
         
 
     Color in RGB values between 0 and 1.
@@ -303,7 +307,7 @@ Start.RGB
 
 
 
-    
+     
 
 ..
 
@@ -323,7 +327,7 @@ Start.Thickness
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Start.Thickness">
+    <div class="html-toggle member-entries odd section collapsed" id="Start.Thickness">
     <span id="anystyledrawlinewithcaps-start-thickness" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Start.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
@@ -335,6 +339,7 @@ Start.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
         
 
     Cap thickness (must be larger than line thickness).
@@ -343,7 +348,7 @@ Start.Thickness
 
 
 
-    
+     
 
 ..
 
@@ -363,7 +368,7 @@ Start.Length
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Start.Length">
+    <div class="html-toggle member-entries even section collapsed" id="Start.Length">
     <span id="anystyledrawlinewithcaps-start-length" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Start.Length" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap length.</span>
@@ -375,6 +380,7 @@ Start.Length
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
         
 
     Cap length.
@@ -393,7 +399,7 @@ Start.Length
 
 
 
-
+ 
 
 
 
@@ -413,7 +419,7 @@ End
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> End </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#End" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style folder for ending cap of line.</span>
@@ -425,7 +431,7 @@ End
 
     
     
-    
+     
 
 ..
 
@@ -445,7 +451,7 @@ End.Style
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="End.Style">
+    <div class="html-toggle member-entries odd section collapsed" id="End.Style">
     <span id="anystyledrawlinewithcaps-end-style" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#End.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap style. This can optionally be an array producing a line cap composed of...</span>
@@ -457,6 +463,7 @@ End.Style
     | **Class type:**  :ref:`AnyEnumLine3DCapStyle`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     Cap style. This can optionally be an array producing a line cap composed of multiple simple caps styles, one for each element of the array.
@@ -465,7 +472,7 @@ End.Style
 
 
 
-    
+     
 
 ..
 
@@ -485,7 +492,7 @@ End.RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="End.RGB">
+    <div class="html-toggle member-entries even section collapsed" id="End.RGB">
     <span id="anystyledrawlinewithcaps-end-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#End.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
@@ -497,6 +504,7 @@ End.RGB
     | **Class type:**  :ref:`AnyRGB`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``{0.0, 0.0, 0.0}``
+
         
 
     Color in RGB values between 0 and 1.
@@ -505,7 +513,7 @@ End.RGB
 
 
 
-    
+     
 
 ..
 
@@ -525,7 +533,7 @@ End.Thickness
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="End.Thickness">
+    <div class="html-toggle member-entries odd section collapsed" id="End.Thickness">
     <span id="anystyledrawlinewithcaps-end-thickness" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#End.Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap thickness (must be larger than line thickness).</span>
@@ -537,6 +545,7 @@ End.Thickness
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
         
 
     Cap thickness (must be larger than line thickness).
@@ -545,7 +554,7 @@ End.Thickness
 
 
 
-    
+     
 
 ..
 
@@ -565,7 +574,7 @@ End.Length
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="End.Length">
+    <div class="html-toggle member-entries even section collapsed" id="End.Length">
     <span id="anystyledrawlinewithcaps-end-length" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Length </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#End.Length" title="Permalink to this headline">¶</a>
     <span class="member-descr">Cap length.</span>
@@ -577,6 +586,7 @@ End.Length
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0.0``
+
         
 
     Cap length.
@@ -592,6 +602,7 @@ End.Length
     
 
 ..
+
 
 
 

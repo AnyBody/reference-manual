@@ -43,6 +43,7 @@ This is an abstract class implementing the function: :ref:`LAPACK_getrs()` .
 
 
 
+
 .. rst-class:: html-toggle
 
 *********************
@@ -69,7 +70,7 @@ Function
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function">
+    <div class="html-toggle member-entries odd section collapsed" id="Function">
     <span id="anyfunsolvegeneqsystem-function" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function" title="Permalink to this headline">¶</a>
     <span class="member-descr">Function computes a solution to the system of equation given by a matrix and...</span>
@@ -110,7 +111,7 @@ Function.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.ArgList">
+    <div class="html-toggle member-entries even section collapsed" id="Function.ArgList">
     <span id="anyfunsolvegeneqsystem-function-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -151,7 +152,7 @@ Function.ArgList.Amat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function.ArgList.Amat">
+    <div class="html-toggle member-entries odd section collapsed" id="Function.ArgList.Amat">
     <span id="anyfunsolvegeneqsystem-function-arglist-amat" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList.Amat</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList.Amat" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -192,7 +193,7 @@ Function.ArgList.b
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.ArgList.b">
+    <div class="html-toggle member-entries even section collapsed" id="Function.ArgList.b">
     <span id="anyfunsolvegeneqsystem-function-arglist-b" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList.b</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList.b" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -215,12 +216,21 @@ Function.ArgList.b
 
 
 
+
+.. rst-class:: html-toggle
+
+*********************
+Deprecated members
+*********************
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyFunSolveGenEqSystem.Function.Return:
@@ -233,7 +243,7 @@ Function.Return
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function.Return">
+    <div class="html-toggle member-entries odd section collapsed" id="Function.Return">
     <span id="anyfunsolvegeneqsystem-function-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -242,9 +252,14 @@ Function.Return
 ..
 
 
+    |
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`NotDefined <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+
+    .. rst-class:: without-title
+
+    .. danger::
+        **Deprecated**: Hidden object for return-data management.
 
 
 

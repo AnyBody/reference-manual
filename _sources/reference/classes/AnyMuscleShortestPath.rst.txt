@@ -83,7 +83,7 @@ AnyMuscleModel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnyMuscleModel">
+    <div class="html-toggle member-entries odd section collapsed" id="AnyMuscleModel">
     <span id="anymuscleshortestpath-anymusclemodel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyMuscleModel (1) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyMuscleModel" title="Permalink to this headline">¶</a>
     <span class="member-descr">A muscle model that defines the strength and passive properties of this muscle.</span>
@@ -122,7 +122,7 @@ AnyRefFrame
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="AnyRefFrame">
+    <div class="html-toggle member-entries even section collapsed" id="AnyRefFrame">
     <span id="anymuscleshortestpath-anyrefframe" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyRefFrame (2..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyRefFrame" title="Permalink to this headline">¶</a>
     <span class="member-descr">Reference frames that define the via-points.</span>
@@ -161,7 +161,7 @@ AnySurface
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnySurface">
+    <div class="html-toggle member-entries odd section collapsed" id="AnySurface">
     <span id="anymuscleshortestpath-anysurface" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnySurface (0..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnySurface" title="Permalink to this headline">¶</a>
     <span class="member-descr">The surfaces that may be obstacles on the muscle's path.</span>
@@ -186,6 +186,7 @@ AnySurface
 
 
 
+
 *******************************
 Required initialization members
 *******************************
@@ -201,47 +202,6 @@ Required initialization members
     <!--
 ..
 
-.. _AnyMuscleShortestPath.SPLine:
-
-SPLine
-=========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine">
-    <span id="anymuscleshortestpath-spline" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">SPLine</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Kinematic measure of the length of the muscle tendon unit.</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyKinSPLine`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-
-
-
-    Kinematic measure of the length of the muscle tendon unit.
-
-..
-
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyMuscleShortestPath.SPLine.StringMesh:
 
 SPLine.StringMesh
@@ -252,7 +212,7 @@ SPLine.StringMesh
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.StringMesh">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.StringMesh">
     <span id="anymuscleshortestpath-spline-stringmesh" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.StringMesh</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.StringMesh" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of discretization points on each string segment.</span>
@@ -280,7 +240,7 @@ SPLine.StringMesh
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -302,7 +262,7 @@ MetabModel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-detailed" id="MetabModel">
+    <div class="html-toggle member-entries odd section collapsed" id="MetabModel">
     <span id="anymuscleshortestpath-metabmodel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> MetabModel </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#MetabModel" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -328,7 +288,7 @@ MetabModel
 
 
 
-
+ 
 
 
 
@@ -348,7 +308,7 @@ SPLine
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-detailed" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> SPLine </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#SPLine" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinematic measure of the length of the muscle tendon unit.</span>
@@ -360,7 +320,7 @@ SPLine
 
     
     
-    
+     
 
 ..
 
@@ -368,6 +328,47 @@ SPLine
 
     <!-- Hack to trick sphinx into adding member target link -->
     <!--
+..
+
+.. _AnyMuscleShortestPath.SPLine.StringRadius:
+
+SPLine.StringRadius
+----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.StringRadius">
+    <span id="anymuscleshortestpath-spline-stringradius" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.StringRadius </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#SPLine.StringRadius" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.0``
+
+        
+
+    <No description>
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
 ..
 
 .. _AnyMuscleShortestPath.SPLine.InitWrapPosVectors:
@@ -380,7 +381,7 @@ SPLine.InitWrapPosVectors
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosVectors">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.InitWrapPosVectors">
     <span id="anymuscleshortestpath-spline-initwrapposvectors" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosVectors </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SPLine.InitWrapPosVectors" title="Permalink to this headline">¶</a>
     <span class="member-descr">An array of 3-D vectors that specify the initial shape of the string. The...</span>
@@ -392,6 +393,7 @@ SPLine.InitWrapPosVectors
     | **Class type:**  :ref:`AnyMatrix`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     An array of 3-D vectors that specify the initial shape of the string. The vectors are ordered as rows of a matrix. For each line segment two vectors must be specified. They are defining two points relative to the line segment's origin and insertion nodes and the curve's initial shape will be three straight lines; from the origin to the first point, then to the second, and finally to the insertion point.
@@ -400,7 +402,7 @@ SPLine.InitWrapPosVectors
 
 
 
-    
+     
 
 ..
 
@@ -420,7 +422,7 @@ SPLine.InitWrapPosVecArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosVecArr">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.InitWrapPosVecArr">
     <span id="anymuscleshortestpath-spline-initwrapposvecarr" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosVecArr </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#SPLine.InitWrapPosVecArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object pointer array that must collect pointers to the initial position...</span>
@@ -432,6 +434,7 @@ SPLine.InitWrapPosVecArr
     | **Class type:**  :ref:`AnyObjectPtr`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of 'None' is allowed, if a straight line between origin and insertion.
@@ -440,7 +443,7 @@ SPLine.InitWrapPosVecArr
 
 
 
-    
+     
 
 ..
 
@@ -460,7 +463,7 @@ SPLine.InitWrapPosOnlyOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosOnlyOnOff">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.InitWrapPosOnlyOnOff">
     <span id="anymuscleshortestpath-spline-initwrapposonlyonoff" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosOnlyOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#SPLine.InitWrapPosOnlyOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether to use initial position only or carry out the wrapping...</span>
@@ -472,6 +475,7 @@ SPLine.InitWrapPosOnlyOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.
@@ -480,7 +484,7 @@ SPLine.InitWrapPosOnlyOnOff
 
 
 
-    
+     
 
 ..
 
@@ -500,7 +504,7 @@ SPLine.InitWrapPosForEachStepOnOff
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.InitWrapPosForEachStepOnOff">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.InitWrapPosForEachStepOnOff">
     <span id="anymuscleshortestpath-spline-initwrapposforeachsteponoff" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InitWrapPosForEachStepOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#SPLine.InitWrapPosForEachStepOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch to use the initial condition vectors as starting point in each time step..</span>
@@ -512,6 +516,7 @@ SPLine.InitWrapPosForEachStepOnOff
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch to use the initial condition vectors as starting point in each time step..
@@ -520,7 +525,89 @@ SPLine.InitWrapPosForEachStepOnOff
 
 
 
-    
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleShortestPath.SPLine.SolverVersion:
+
+SPLine.SolverVersion
+-----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.SolverVersion">
+    <span id="anymuscleshortestpath-spline-solverversion" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverVersion </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#SPLine.SolverVersion" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``2.0``
+
+        
+
+    <No description>
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleShortestPath.SPLine.ContactStiffness:
+
+SPLine.ContactStiffness
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.ContactStiffness">
+    <span id="anymuscleshortestpath-spline-contactstiffness" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ContactStiffness </span><span class="member-title-equal">=</span><span class="member-title-default"> 10.0 </span><a class="headerlink" href="#SPLine.ContactStiffness" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``10.0``
+
+        
+
+    <No description>
+
+..
+
+
+
+     
 
 ..
 
@@ -540,7 +627,7 @@ SPLine.RelTol
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.RelTol">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.RelTol">
     <span id="anymuscleshortestpath-spline-reltol" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RelTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-08 </span><a class="headerlink" href="#SPLine.RelTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Relative tolerance for the change of the string that is used to determine...</span>
@@ -552,6 +639,7 @@ SPLine.RelTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-08``
+
         
 
     Relative tolerance for the change of the string that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.
@@ -560,7 +648,7 @@ SPLine.RelTol
 
 
 
-    
+     
 
 ..
 
@@ -580,7 +668,7 @@ SPLine.AbsTol
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.AbsTol">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.AbsTol">
     <span id="anymuscleshortestpath-spline-abstol" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AbsTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-06 </span><a class="headerlink" href="#SPLine.AbsTol" title="Permalink to this headline">¶</a>
     <span class="member-descr">Absolute tolerance for the change of positions of wrapping points that is...</span>
@@ -592,6 +680,7 @@ SPLine.AbsTol
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1e-06``
+
         
 
     Absolute tolerance for the change of positions of wrapping points that is used to determine whether the solution is acceptable.
@@ -600,7 +689,7 @@ SPLine.AbsTol
 
 
 
-    
+     
 
 ..
 
@@ -620,7 +709,7 @@ SPLine.AugLagCoef
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.AugLagCoef">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.AugLagCoef">
     <span id="anymuscleshortestpath-spline-auglagcoef" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AugLagCoef </span><span class="member-title-equal">=</span><span class="member-title-default"> 1000.0 </span><a class="headerlink" href="#SPLine.AugLagCoef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coefficient for penalty term in the Augmented Lagragian method. Increasing...</span>
@@ -632,6 +721,7 @@ SPLine.AugLagCoef
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1000.0``
+
         
 
     Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis.
@@ -640,7 +730,7 @@ SPLine.AugLagCoef
 
 
 
-    
+     
 
 ..
 
@@ -660,9 +750,9 @@ SPLine.MaxIteration
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.MaxIteration">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.MaxIteration">
     <span id="anymuscleshortestpath-spline-maxiteration" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 100 </span><a class="headerlink" href="#SPLine.MaxIteration" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 500 </span><a class="headerlink" href="#SPLine.MaxIteration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum number of interation in line wrapping solver. It can be increased if...</span>
     </h4>
 
@@ -671,7 +761,8 @@ SPLine.MaxIteration
 
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``100``
+    | **Default:** ``500``
+
         
 
     Maximum number of interation in line wrapping solver. It can be increased if the solver runs out of iteration step in difficult problems.
@@ -680,7 +771,7 @@ SPLine.MaxIteration
 
 
 
-    
+     
 
 ..
 
@@ -700,7 +791,7 @@ SPLine.MaxRelStepSize
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.MaxRelStepSize">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.MaxRelStepSize">
     <span id="anymuscleshortestpath-spline-maxrelstepsize" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxRelStepSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#SPLine.MaxRelStepSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum relative step size. The default of 1.0 implies full step size, but...</span>
@@ -712,6 +803,7 @@ SPLine.MaxRelStepSize
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Maximum relative step size. The default of 1.0 implies full step size, but it can be decreased to increase robustness for difficult problems.
@@ -720,7 +812,7 @@ SPLine.MaxRelStepSize
 
 
 
-    
+     
 
 ..
 
@@ -740,7 +832,7 @@ SPLine.SolverType
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.SolverType">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.SolverType">
     <span id="anymuscleshortestpath-spline-solvertype" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverType </span><span class="member-title-equal">=</span><span class="member-title-default"> SPSolverModes </span><a class="headerlink" href="#SPLine.SolverType" title="Permalink to this headline">¶</a>
     <span class="member-descr">The SolverType defines one of four solver for the wrapping problem. Possible...</span>
@@ -752,6 +844,7 @@ SPLine.SolverType
     | **Class type:**  :ref:`AnyKinSPSheetSolverType`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``SPSolverModes``
+
         
 
     The SolverType defines one of four solver for the wrapping problem. Possible Values are:
@@ -800,7 +893,7 @@ UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
     <span id="anymuscleshortestpath-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -841,7 +934,7 @@ UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="UpdDesign">
     <span id="anymuscleshortestpath-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -882,7 +975,7 @@ UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
     <span id="anymuscleshortestpath-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -923,7 +1016,7 @@ t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="t">
+    <div class="html-toggle member-entries even section collapsed" id="t">
     <span id="anymuscleshortestpath-t_" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -964,7 +1057,7 @@ RefFrames
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefFrames">
+    <div class="html-toggle member-entries odd section collapsed" id="RefFrames">
     <span id="anymuscleshortestpath-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -1005,7 +1098,7 @@ Surfaces
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Surfaces">
+    <div class="html-toggle member-entries even section collapsed" id="Surfaces">
     <span id="anymuscleshortestpath-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -1046,7 +1139,7 @@ KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="KinMeasureArr">
+    <div class="html-toggle member-entries odd section collapsed" id="KinMeasureArr">
     <span id="anymuscleshortestpath-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -1087,7 +1180,7 @@ KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="KinMeasureIndexArr">
+    <div class="html-toggle member-entries even section collapsed" id="KinMeasureIndexArr">
     <span id="anymuscleshortestpath-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -1128,7 +1221,7 @@ nDim
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="nDim">
+    <div class="html-toggle member-entries odd section collapsed" id="nDim">
     <span id="anymuscleshortestpath-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -1169,7 +1262,7 @@ RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefFrameOutput">
+    <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput">
     <span id="anymuscleshortestpath-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -1210,7 +1303,7 @@ RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
     <span id="anymuscleshortestpath-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1251,7 +1344,7 @@ RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
     <span id="anymuscleshortestpath-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1292,7 +1385,7 @@ RefFrameOutput.F
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefFrameOutput.F">
+    <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.F">
     <span id="anymuscleshortestpath-refframeoutput-f" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.F" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1333,7 +1426,7 @@ RefFrameOutput.M
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefFrameOutput.M">
+    <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.M">
     <span id="anymuscleshortestpath-refframeoutput-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.M" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1374,7 +1467,7 @@ Fin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Fin">
+    <div class="html-toggle member-entries odd section collapsed" id="Fin">
     <span id="anymuscleshortestpath-fin" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fin" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of input loads to the given type of analysis,...</span>
@@ -1415,7 +1508,7 @@ Fout
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Fout">
+    <div class="html-toggle member-entries even section collapsed" id="Fout">
     <span id="anymuscleshortestpath-fout" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fout</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fout" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of outputs from the given type of analysis....</span>
@@ -1456,7 +1549,7 @@ Lmt
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Lmt">
+    <div class="html-toggle member-entries odd section collapsed" id="Lmt">
     <span id="anymuscleshortestpath-lmt" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Lmt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Lmt" title="Permalink to this headline">¶</a>
     <span class="member-descr">Length of the muscle-tendon unit.</span>
@@ -1497,7 +1590,7 @@ Lm
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Lm">
+    <div class="html-toggle member-entries even section collapsed" id="Lm">
     <span id="anymuscleshortestpath-lm" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Lm</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Lm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Length of the muscle fiber unit. This is not the actual fiber length when...</span>
@@ -1538,7 +1631,7 @@ Lt
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Lt">
+    <div class="html-toggle member-entries odd section collapsed" id="Lt">
     <span id="anymuscleshortestpath-lt" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Lt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Lt" title="Permalink to this headline">¶</a>
     <span class="member-descr">Length of the tendon unit.</span>
@@ -1579,7 +1672,7 @@ LmtDot
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="LmtDot">
+    <div class="html-toggle member-entries even section collapsed" id="LmtDot">
     <span id="anymuscleshortestpath-lmtdot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">LmtDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#LmtDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">Time-derivative of the muscle-tendon unit length, Lmt.</span>
@@ -1620,7 +1713,7 @@ LmDot
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="LmDot">
+    <div class="html-toggle member-entries odd section collapsed" id="LmDot">
     <span id="anymuscleshortestpath-lmdot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">LmDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#LmDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">Time-derivative of the muscle fiber unit length, Lm.</span>
@@ -1661,7 +1754,7 @@ Activity
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Activity">
+    <div class="html-toggle member-entries even section collapsed" id="Activity">
     <span id="anymuscleshortestpath-activity" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Activity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Activity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Muscle activity, i.e., normalized muscle force.</span>
@@ -1702,7 +1795,7 @@ CorrectedActivity
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="CorrectedActivity">
+    <div class="html-toggle member-entries odd section collapsed" id="CorrectedActivity">
     <span id="anymuscleshortestpath-correctedactivity" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">CorrectedActivity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#CorrectedActivity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Corrected activity, which may be slightly different from Activity for muscle...</span>
@@ -1743,7 +1836,7 @@ Fm
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Fm">
+    <div class="html-toggle member-entries even section collapsed" id="Fm">
     <span id="anymuscleshortestpath-fm" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fm</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Force in the muscle fiber unit. Not projected onto the fiber direction for...</span>
@@ -1784,7 +1877,7 @@ Ft
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Ft">
+    <div class="html-toggle member-entries odd section collapsed" id="Ft">
     <span id="anymuscleshortestpath-ft" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Ft</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ft" title="Permalink to this headline">¶</a>
     <span class="member-descr">Force in the tendon unit.</span>
@@ -1825,7 +1918,7 @@ Fp
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Fp">
+    <div class="html-toggle member-entries even section collapsed" id="Fp">
     <span id="anymuscleshortestpath-fp" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fp</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fp" title="Permalink to this headline">¶</a>
     <span class="member-descr">Force in the parallel elastic element. Not projected onto the fiber...</span>
@@ -1866,7 +1959,7 @@ Strength
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Strength">
+    <div class="html-toggle member-entries odd section collapsed" id="Strength">
     <span id="anymuscleshortestpath-strength" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Strength</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Strength" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current muscle strength.</span>
@@ -1907,7 +2000,7 @@ Ft0
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Ft0">
+    <div class="html-toggle member-entries even section collapsed" id="Ft0">
     <span id="anymuscleshortestpath-ft0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Ft0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ft0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Tendon force at zero activity.</span>
@@ -1948,7 +2041,7 @@ Ft0Grad
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Ft0Grad">
+    <div class="html-toggle member-entries odd section collapsed" id="Ft0Grad">
     <span id="anymuscleshortestpath-ft0grad" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Ft0Grad</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ft0Grad" title="Permalink to this headline">¶</a>
     <span class="member-descr">Tendon force gradient. with respect to the activity</span>
@@ -1989,7 +2082,7 @@ PennationAngle
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PennationAngle">
+    <div class="html-toggle member-entries even section collapsed" id="PennationAngle">
     <span id="anymuscleshortestpath-pennationangle" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">PennationAngle</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PennationAngle" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pennation angle.</span>
@@ -2030,7 +2123,7 @@ EPOTt
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="EPOTt">
+    <div class="html-toggle member-entries odd section collapsed" id="EPOTt">
     <span id="anymuscleshortestpath-epott" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">EPOTt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#EPOTt" title="Permalink to this headline">¶</a>
     <span class="member-descr">Potential energy in the tendon.</span>
@@ -2071,7 +2164,7 @@ EPOTp
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="EPOTp">
+    <div class="html-toggle member-entries even section collapsed" id="EPOTp">
     <span id="anymuscleshortestpath-epotp" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">EPOTp</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#EPOTp" title="Permalink to this headline">¶</a>
     <span class="member-descr">Potential energy in the parallel elastic element.</span>
@@ -2112,7 +2205,7 @@ EPOTmt
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="EPOTmt">
+    <div class="html-toggle member-entries odd section collapsed" id="EPOTmt">
     <span id="anymuscleshortestpath-epotmt" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">EPOTmt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#EPOTmt" title="Permalink to this headline">¶</a>
     <span class="member-descr">Total potential energy in the muscle-tendon unit.</span>
@@ -2153,7 +2246,7 @@ Pt
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Pt">
+    <div class="html-toggle member-entries even section collapsed" id="Pt">
     <span id="anymuscleshortestpath-pt" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Pt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pt" title="Permalink to this headline">¶</a>
     <span class="member-descr">Power of the tendon unit on the segments, Pt=Ft*LtDot.</span>
@@ -2194,7 +2287,7 @@ Pm
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Pm">
+    <div class="html-toggle member-entries odd section collapsed" id="Pm">
     <span id="anymuscleshortestpath-pm" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Pm</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pm" title="Permalink to this headline">¶</a>
     <span class="member-descr">Power of the muscle fiber unit on the segments, Pm=Fm*LmDot.</span>
@@ -2235,7 +2328,7 @@ Pmt
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Pmt">
+    <div class="html-toggle member-entries even section collapsed" id="Pmt">
     <span id="anymuscleshortestpath-pmt" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Pmt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pmt" title="Permalink to this headline">¶</a>
     <span class="member-descr">Power of the muscle-tendon unit on the segments, Pmt=Fmt*LmtDot.</span>
@@ -2276,7 +2369,7 @@ Pmet
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Pmet">
+    <div class="html-toggle member-entries odd section collapsed" id="Pmet">
     <span id="anymuscleshortestpath-pmet" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Pmet</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pmet" title="Permalink to this headline">¶</a>
     <span class="member-descr">Metabolic power.</span>
@@ -2317,7 +2410,7 @@ SPLine
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine">
     <span id="anymuscleshortestpath-spline" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinematic measure of the length of the muscle tendon unit.</span>
@@ -2358,7 +2451,7 @@ SPLine.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.UpdConfig">
     <span id="anymuscleshortestpath-spline-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2399,7 +2492,7 @@ SPLine.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.UpdDesign">
     <span id="anymuscleshortestpath-spline-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -2440,7 +2533,7 @@ SPLine.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.UpdOutput">
     <span id="anymuscleshortestpath-spline-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2481,7 +2574,7 @@ SPLine.t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.t">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.t">
     <span id="anymuscleshortestpath-spline-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -2522,7 +2615,7 @@ SPLine.RefFrames
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.RefFrames">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.RefFrames">
     <span id="anymuscleshortestpath-spline-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -2563,7 +2656,7 @@ SPLine.Surfaces
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.Surfaces">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.Surfaces">
     <span id="anymuscleshortestpath-spline-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -2604,7 +2697,7 @@ SPLine.KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.KinMeasureArr">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.KinMeasureArr">
     <span id="anymuscleshortestpath-spline-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -2645,7 +2738,7 @@ SPLine.KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.KinMeasureIndexArr">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.KinMeasureIndexArr">
     <span id="anymuscleshortestpath-spline-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -2686,7 +2779,7 @@ SPLine.nDim
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.nDim">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.nDim">
     <span id="anymuscleshortestpath-spline-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -2727,7 +2820,7 @@ SPLine.RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.RefFrameOutput">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.RefFrameOutput">
     <span id="anymuscleshortestpath-spline-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -2768,7 +2861,7 @@ SPLine.RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.RefFrameOutput.RefFrameArr">
     <span id="anymuscleshortestpath-spline-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2809,7 +2902,7 @@ SPLine.RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.RefFrameOutput.Jacobians">
     <span id="anymuscleshortestpath-spline-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2850,7 +2943,7 @@ SPLine.Pos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.Pos">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.Pos">
     <span id="anymuscleshortestpath-spline-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -2891,7 +2984,7 @@ SPLine.Vel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.Vel">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.Vel">
     <span id="anymuscleshortestpath-spline-vel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.Vel" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -2932,7 +3025,7 @@ SPLine.Acc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="SPLine.Acc">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.Acc">
     <span id="anymuscleshortestpath-spline-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -2973,7 +3066,7 @@ SPLine.P
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="SPLine.P">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.P">
     <span id="anymuscleshortestpath-spline-p" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.P</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.P" title="Permalink to this headline">¶</a>
     <span class="member-descr">Matrix of points of the polyline, i.e., the mesh points.</span>
@@ -2992,6 +3085,7 @@ SPLine.P
     Matrix of points of the polyline, i.e., the mesh points.
 
 ..
+
 
 
 

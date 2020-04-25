@@ -67,7 +67,7 @@ AnyStyleDrawMaterial
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnyStyleDrawMaterial">
+    <div class="html-toggle member-entries odd section collapsed" id="AnyStyleDrawMaterial">
     <span id="anydrawkinmeasure-anystyledrawmaterial" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyStyleDrawMaterial (0..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyStyleDrawMaterial" title="Permalink to this headline">¶</a>
     <span class="member-descr">Graphical material specification, that overrides the color setting in RGB.</span>
@@ -95,10 +95,11 @@ AnyStyleDrawMaterial
 
 
 
+
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -120,7 +121,7 @@ Visible
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Visible">
+    <div class="html-toggle member-entries odd section collapsed" id="Visible">
     <span id="anydrawkinmeasure-visible" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
@@ -146,7 +147,7 @@ Visible
 
 
 
-
+ 
 
 
 
@@ -168,7 +169,7 @@ Opacity
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Opacity">
+    <div class="html-toggle member-entries even section collapsed" id="Opacity">
     <span id="anydrawkinmeasure-opacity" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Opacity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
@@ -194,7 +195,7 @@ Opacity
 
 
 
-
+ 
 
 
 
@@ -216,7 +217,7 @@ Pickable
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Pickable">
+    <div class="html-toggle member-entries odd section collapsed" id="Pickable">
     <span id="anydrawkinmeasure-pickable" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Pickable" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
@@ -242,7 +243,7 @@ Pickable
 
 
 
-
+ 
 
 
 
@@ -264,7 +265,7 @@ PickableZOrdering
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="PickableZOrdering">
+    <div class="html-toggle member-entries even section collapsed" id="PickableZOrdering">
     <span id="anydrawkinmeasure-pickablezordering" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#PickableZOrdering" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
@@ -290,7 +291,7 @@ PickableZOrdering
 
 
 
-
+ 
 
 
 
@@ -312,7 +313,7 @@ RGB1
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RGB1">
+    <div class="html-toggle member-entries odd section collapsed" id="RGB1">
     <span id="anydrawkinmeasure-rgb1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RGB1 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.8, 0.3, 0.3} </span><a class="headerlink" href="#RGB1" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F1 in RGB values between 0 and 1.</span>
@@ -322,7 +323,7 @@ RGB1
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.3, 0.3}``
     
 
@@ -338,7 +339,7 @@ RGB1
 
 
 
-
+ 
 
 
 
@@ -360,7 +361,7 @@ RGB2
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RGB2">
+    <div class="html-toggle member-entries even section collapsed" id="RGB2">
     <span id="anydrawkinmeasure-rgb2" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RGB2 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.3, 0.8, 0.3} </span><a class="headerlink" href="#RGB2" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F2 in RGB values between 0 and 1.</span>
@@ -370,7 +371,7 @@ RGB2
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.3, 0.8, 0.3}``
     
 
@@ -386,7 +387,7 @@ RGB2
 
 
 
-
+ 
 
 
 
@@ -408,7 +409,7 @@ RGB3
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RGB3">
+    <div class="html-toggle member-entries odd section collapsed" id="RGB3">
     <span id="anydrawkinmeasure-rgb3" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RGB3 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.3, 0.3, 0.8} </span><a class="headerlink" href="#RGB3" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F3 in RGB values between 0 and 1.</span>
@@ -418,7 +419,7 @@ RGB3
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.3, 0.3, 0.8}``
     
 
@@ -434,7 +435,7 @@ RGB3
 
 
 
-
+ 
 
 
 
@@ -456,7 +457,7 @@ RGB4
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RGB4">
+    <div class="html-toggle member-entries even section collapsed" id="RGB4">
     <span id="anydrawkinmeasure-rgb4" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RGB4 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.8, 0.5, 0.2} </span><a class="headerlink" href="#RGB4" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F4 in RGB values between 0 and 1.</span>
@@ -466,7 +467,7 @@ RGB4
 
 
     | **Class type:**  :ref:`AnyRGB`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
     | **Default:** ``{0.8, 0.5, 0.2}``
     
 
@@ -482,7 +483,7 @@ RGB4
 
 
 
-
+ 
 
 
 
@@ -504,7 +505,7 @@ Label
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Label">
+    <div class="html-toggle member-entries odd section collapsed" id="Label">
     <span id="anydrawkinmeasure-label" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Label </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Label" title="Permalink to this headline">¶</a>
     <span class="member-descr">On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</span>
@@ -530,7 +531,7 @@ Label
 
 
 
-
+ 
 
 
 
@@ -552,7 +553,7 @@ Size
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Size">
+    <div class="html-toggle member-entries even section collapsed" id="Size">
     <span id="anydrawkinmeasure-size" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Size </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.02 </span><a class="headerlink" href="#Size" title="Permalink to this headline">¶</a>
     <span class="member-descr">Radius size of the balls etc. of the AnyDrawKinMeasure.</span>
@@ -578,7 +579,7 @@ Size
 
 
 
-
+ 
 
 
 
@@ -600,7 +601,7 @@ Line
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Line">
+    <div class="html-toggle member-entries odd section collapsed" id="Line">
     <span id="anydrawkinmeasure-line" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Line </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
     <span class="member-descr">On/Off value indicating whether the AnyDrawKinMeasure should have a line...</span>
@@ -626,7 +627,7 @@ Line
 
 
 
-
+ 
 
 
 
@@ -648,7 +649,7 @@ Text
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Text">
+    <div class="html-toggle member-entries even section collapsed" id="Text">
     <span id="anydrawkinmeasure-text" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Text </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Text" title="Permalink to this headline">¶</a>
     <span class="member-descr">If set, this text is shown as the label.</span>
@@ -674,7 +675,7 @@ Text
 
 
 
-
+ 
 
 
 
@@ -696,7 +697,7 @@ TextSize
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="TextSize">
+    <div class="html-toggle member-entries odd section collapsed" id="TextSize">
     <span id="anydrawkinmeasure-textsize" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> TextSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 30.0 </span><a class="headerlink" href="#TextSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">The size in pixels of the Text label.</span>
@@ -722,7 +723,7 @@ TextSize
 
 
 
-
+ 
 
 
 
@@ -744,7 +745,7 @@ ShowIllustration
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ShowIllustration">
+    <div class="html-toggle member-entries even section collapsed" id="ShowIllustration">
     <span id="anydrawkinmeasure-showillustration" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ShowIllustration </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ShowIllustration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the graphical representation of the kinematic measure should be...</span>
@@ -770,7 +771,7 @@ ShowIllustration
 
 
 
-
+ 
 
 
 
@@ -792,7 +793,7 @@ ShowLabelLines
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ShowLabelLines">
+    <div class="html-toggle member-entries odd section collapsed" id="ShowLabelLines">
     <span id="anydrawkinmeasure-showlabellines" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ShowLabelLines </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ShowLabelLines" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the lines from the label to the reference frames of the...</span>
@@ -818,7 +819,7 @@ ShowLabelLines
 
 
 
-
+ 
 
 
 
@@ -840,7 +841,7 @@ ShowValue
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ShowValue">
+    <div class="html-toggle member-entries even section collapsed" id="ShowValue">
     <span id="anydrawkinmeasure-showvalue" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ShowValue </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#ShowValue" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the pos value of the kinematic measure should be shown in the label.</span>
@@ -866,7 +867,7 @@ ShowValue
 
 
 
-
+ 
 
 
 
@@ -888,7 +889,7 @@ ShowLabelBorder
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ShowLabelBorder">
+    <div class="html-toggle member-entries odd section collapsed" id="ShowLabelBorder">
     <span id="anydrawkinmeasure-showlabelborder" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ShowLabelBorder </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ShowLabelBorder" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the label of the kinematic measure should be drawn.</span>
@@ -914,7 +915,7 @@ ShowLabelBorder
 
 
 
-
+ 
 
 
 
@@ -936,7 +937,7 @@ IllustrationPositionOffset
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="IllustrationPositionOffset">
+    <div class="html-toggle member-entries even section collapsed" id="IllustrationPositionOffset">
     <span id="anydrawkinmeasure-illustrationpositionoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> IllustrationPositionOffset </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#IllustrationPositionOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Positional offset for the illustration of the kinematic measure in the...</span>
@@ -962,7 +963,7 @@ IllustrationPositionOffset
 
 
 
-
+ 
 
 
 
@@ -984,7 +985,7 @@ IllustrationRotationOffset
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="IllustrationRotationOffset">
+    <div class="html-toggle member-entries odd section collapsed" id="IllustrationRotationOffset">
     <span id="anydrawkinmeasure-illustrationrotationoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> IllustrationRotationOffset </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#IllustrationRotationOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational offset for the illustration of the kinematic measure in the...</span>
@@ -1010,7 +1011,7 @@ IllustrationRotationOffset
 
 
 
-
+ 
 
 
 
@@ -1032,7 +1033,7 @@ RefIllustration
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="RefIllustration">
+    <div class="html-toggle member-entries even section collapsed" id="RefIllustration">
     <span id="anydrawkinmeasure-refillustration" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RefIllustration </span><span class="member-title-equal">=</span><span class="member-title-default"> -2 </span><a class="headerlink" href="#RefIllustration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer number that specifies the reference system in which the illustration...</span>
@@ -1060,7 +1061,7 @@ RefIllustration
 
 
 
-
+ 
 
 
 
@@ -1082,7 +1083,7 @@ RefLabel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="RefLabel">
+    <div class="html-toggle member-entries odd section collapsed" id="RefLabel">
     <span id="anydrawkinmeasure-reflabel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> RefLabel </span><span class="member-title-equal">=</span><span class="member-title-default"> -2 </span><a class="headerlink" href="#RefLabel" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer number that specifies the reference system in which the label is...</span>
@@ -1110,7 +1111,7 @@ RefLabel
 
 
 
-
+ 
 
 
 
@@ -1132,7 +1133,7 @@ LabelPositionOffset
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="LabelPositionOffset">
+    <div class="html-toggle member-entries even section collapsed" id="LabelPositionOffset">
     <span id="anydrawkinmeasure-labelpositionoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> LabelPositionOffset </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#LabelPositionOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Positional offset for the label of the kinematic measure in the reference...</span>
@@ -1158,7 +1159,7 @@ LabelPositionOffset
 
 
 
-
+ 
 
 
 
@@ -1180,7 +1181,7 @@ ValueScaling
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ValueScaling">
+    <div class="html-toggle member-entries odd section collapsed" id="ValueScaling">
     <span id="anydrawkinmeasure-valuescaling" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ValueScaling </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#ValueScaling" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value used as a factor for the displayed pos value of the kinematic measure....</span>
@@ -1206,7 +1207,7 @@ ValueScaling
 
 
 
-
+ 
 
 
 
@@ -1226,7 +1227,7 @@ ValueStyle
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries even section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> ValueStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ValueStyle" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for the label text.</span>
@@ -1238,7 +1239,7 @@ ValueStyle
 
     
     
-    
+     
 
 ..
 
@@ -1258,7 +1259,7 @@ ValueStyle.Digits
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ValueStyle.Digits">
+    <div class="html-toggle member-entries odd section collapsed" id="ValueStyle.Digits">
     <span id="anydrawkinmeasure-valuestyle-digits" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Digits </span><span class="member-title-equal">=</span><span class="member-title-default"> 8 </span><a class="headerlink" href="#ValueStyle.Digits" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of digits in output. Disregarded if smaller than one.</span>
@@ -1270,6 +1271,7 @@ ValueStyle.Digits
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``8``
+
         
 
     Number of digits in output. Disregarded if smaller than one.
@@ -1278,7 +1280,7 @@ ValueStyle.Digits
 
 
 
-    
+     
 
 ..
 
@@ -1298,7 +1300,7 @@ ValueStyle.Style
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ValueStyle.Style">
+    <div class="html-toggle member-entries even section collapsed" id="ValueStyle.Style">
     <span id="anydrawkinmeasure-valuestyle-style" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#ValueStyle.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style of the numeric output.</span>
@@ -1310,6 +1312,7 @@ ValueStyle.Style
     | **Class type:**  :ref:`AnyIntVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``0``
+
         
 
     Style of the numeric output.
@@ -1318,7 +1321,7 @@ ValueStyle.Style
 
 
 
-    
+     
 
 ..
 
@@ -1338,7 +1341,7 @@ ValueStyle.Scale
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ValueStyle.Scale">
+    <div class="html-toggle member-entries odd section collapsed" id="ValueStyle.Scale">
     <span id="anydrawkinmeasure-valuestyle-scale" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Scale </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#ValueStyle.Scale" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for scaling.</span>
@@ -1350,6 +1353,7 @@ ValueStyle.Scale
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``Off``
+
         
 
     Switch for scaling.
@@ -1358,7 +1362,7 @@ ValueStyle.Scale
 
 
 
-    
+     
 
 ..
 
@@ -1378,7 +1382,7 @@ ValueStyle.ScaleVal
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ValueStyle.ScaleVal">
+    <div class="html-toggle member-entries even section collapsed" id="ValueStyle.ScaleVal">
     <span id="anydrawkinmeasure-valuestyle-scaleval" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ScaleVal </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#ValueStyle.ScaleVal" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factor.</span>
@@ -1390,6 +1394,7 @@ ValueStyle.ScaleVal
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** ``1.0``
+
         
 
     Scaling factor.
@@ -1436,7 +1441,7 @@ UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdConfig">
     <span id="anydrawkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1477,7 +1482,7 @@ UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="UpdDesign">
     <span id="anydrawkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1518,7 +1523,7 @@ UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="UpdOutput">
     <span id="anydrawkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1537,6 +1542,7 @@ UpdOutput
     <No description>
 
 ..
+
 
 
 

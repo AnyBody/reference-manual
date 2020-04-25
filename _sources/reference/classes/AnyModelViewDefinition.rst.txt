@@ -42,6 +42,7 @@ Description
 
 
 
+
 *******************************
 Required initialization members
 *******************************
@@ -67,7 +68,7 @@ DrawGroupSequence
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="DrawGroupSequence">
+    <div class="html-toggle member-entries odd section collapsed" id="DrawGroupSequence">
     <span id="anymodelviewdefinition-drawgroupsequence" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">DrawGroupSequence</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#DrawGroupSequence" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of the drawing groups on which the Model View actions are performed.</span>
@@ -95,7 +96,7 @@ DrawGroupSequence
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -115,7 +116,7 @@ Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -127,7 +128,7 @@ Description
 
     
     
-    
+     
 
 ..
 
@@ -147,7 +148,7 @@ Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.BodyText">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.BodyText">
     <span id="anymodelviewdefinition-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -159,6 +160,7 @@ Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -167,7 +169,7 @@ Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -187,7 +189,7 @@ Description.Title
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.Title">
+    <div class="html-toggle member-entries even section collapsed" id="Description.Title">
     <span id="anymodelviewdefinition-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -199,6 +201,7 @@ Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -207,7 +210,7 @@ Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -227,7 +230,7 @@ Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.BodyHTML">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.BodyHTML">
     <span id="anymodelviewdefinition-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -239,6 +242,7 @@ Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -247,7 +251,7 @@ Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -267,7 +271,7 @@ Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.HTMLURL">
+    <div class="html-toggle member-entries even section collapsed" id="Description.HTMLURL">
     <span id="anymodelviewdefinition-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -279,6 +283,7 @@ Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -287,7 +292,7 @@ Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -307,7 +312,7 @@ Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.Tooltip">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.Tooltip">
     <span id="anymodelviewdefinition-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -319,6 +324,7 @@ Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -327,7 +333,7 @@ Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -347,7 +353,7 @@ Description.Files
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.Files">
+    <div class="html-toggle member-entries even section collapsed" id="Description.Files">
     <span id="anymodelviewdefinition-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -359,6 +365,7 @@ Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -377,7 +384,7 @@ Description.Files
 
 
 
-
+ 
 
 
 
@@ -399,7 +406,7 @@ Reset
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Reset">
+    <div class="html-toggle member-entries even section collapsed" id="Reset">
     <span id="anymodelviewdefinition-reset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Reset </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Reset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switches for whether to perform Reset action on all drawing objects of the...</span>
@@ -425,7 +432,7 @@ Reset
 
 
 
-
+ 
 
 
 
@@ -447,7 +454,7 @@ Hide
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Hide">
+    <div class="html-toggle member-entries odd section collapsed" id="Hide">
     <span id="anymodelviewdefinition-hide" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Hide </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Hide" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switches for whether to hide all drawing objects of the drawing groups.</span>
@@ -473,7 +480,7 @@ Hide
 
 
 
-
+ 
 
 
 
@@ -495,7 +502,7 @@ ShowModelDefined
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="ShowModelDefined">
+    <div class="html-toggle member-entries even section collapsed" id="ShowModelDefined">
     <span id="anymodelviewdefinition-showmodeldefined" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ShowModelDefined </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#ShowModelDefined" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switches for whether to show model-defined drawing objects of the drawing groups.</span>
@@ -521,7 +528,7 @@ ShowModelDefined
 
 
 
-
+ 
 
 
 
@@ -543,7 +550,7 @@ ShowAutoGenerated
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="ShowAutoGenerated">
+    <div class="html-toggle member-entries odd section collapsed" id="ShowAutoGenerated">
     <span id="anymodelviewdefinition-showautogenerated" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ShowAutoGenerated </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#ShowAutoGenerated" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switches for whether to show auto-generated drawing objects of the drawing groups.</span>
@@ -569,7 +576,7 @@ ShowAutoGenerated
 
 
 
-
+ 
 
 
 
@@ -591,7 +598,7 @@ Transparent
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Transparent">
+    <div class="html-toggle member-entries even section collapsed" id="Transparent">
     <span id="anymodelviewdefinition-transparent" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Transparent </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Transparent" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switches for whether to make all visible drawing objects of the drawing...</span>
@@ -617,7 +624,7 @@ Transparent
 
 
 
-
+ 
 
 
 
@@ -639,7 +646,7 @@ Select
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Select">
+    <div class="html-toggle member-entries odd section collapsed" id="Select">
     <span id="anymodelviewdefinition-select" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Select </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Select" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switches for whether to make all visible drawing objects of the drawing...</span>
@@ -665,7 +672,7 @@ Select
 
 
 
-
+ 
 
 
 
@@ -687,7 +694,7 @@ HideAllFirst
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="HideAllFirst">
+    <div class="html-toggle member-entries even section collapsed" id="HideAllFirst">
     <span id="anymodelviewdefinition-hideallfirst" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> HideAllFirst </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#HideAllFirst" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the contents of the model view are hidden and deselected...</span>
@@ -710,6 +717,7 @@ HideAllFirst
     Switch for whether the contents of the model view are hidden and deselected before the rest of the state actions are performed.
 
 ..
+
 
 
 

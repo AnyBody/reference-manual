@@ -43,6 +43,7 @@ This is an abstract class implementing the function: :ref:`farr()` .
 
 
 
+
 .. rst-class:: html-toggle
 
 *********************
@@ -69,7 +70,7 @@ Function1
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function1">
+    <div class="html-toggle member-entries odd section collapsed" id="Function1">
     <span id="anyfunvector-function1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function1</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function1" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -110,7 +111,7 @@ Function1.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function1.ArgList">
+    <div class="html-toggle member-entries even section collapsed" id="Function1.ArgList">
     <span id="anyfunvector-function1-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function1.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function1.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -151,7 +152,7 @@ Function1.ArgList.StartVal
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function1.ArgList.StartVal">
+    <div class="html-toggle member-entries odd section collapsed" id="Function1.ArgList.StartVal">
     <span id="anyfunvector-function1-arglist-startval" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function1.ArgList.StartVal</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function1.ArgList.StartVal" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -192,7 +193,7 @@ Function1.ArgList.StepVal
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function1.ArgList.StepVal">
+    <div class="html-toggle member-entries even section collapsed" id="Function1.ArgList.StepVal">
     <span id="anyfunvector-function1-arglist-stepval" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function1.ArgList.StepVal</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function1.ArgList.StepVal" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -233,7 +234,7 @@ Function1.ArgList.ValCount
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function1.ArgList.ValCount">
+    <div class="html-toggle member-entries odd section collapsed" id="Function1.ArgList.ValCount">
     <span id="anyfunvector-function1-arglist-valcount" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function1.ArgList.ValCount</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function1.ArgList.ValCount" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -256,12 +257,21 @@ Function1.ArgList.ValCount
 
 
 
+
+.. rst-class:: html-toggle
+
+*********************
+Deprecated members
+*********************
+
+
+
 ..
 
 .. raw:: html
 
     <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
+    <!--
 ..
 
 .. _AnyFunVector.Function1.Return:
@@ -274,7 +284,7 @@ Function1.Return
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function1.Return">
+    <div class="html-toggle member-entries odd section collapsed" id="Function1.Return">
     <span id="anyfunvector-function1-return" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function1.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function1.Return" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -283,9 +293,14 @@ Function1.Return
 ..
 
 
+    |
     | **Class type:**  :ref:`AnyVector`
     | **Eval moment:** :ref:`NotDefined <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
+
+    .. rst-class:: without-title
+
+    .. danger::
+        **Deprecated**: Hidden object for return-data management.
 
 
 

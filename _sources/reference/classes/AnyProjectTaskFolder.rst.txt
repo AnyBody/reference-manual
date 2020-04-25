@@ -83,7 +83,7 @@ AnyProjectTaskBase
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="AnyProjectTaskBase">
+    <div class="html-toggle member-entries odd section collapsed" id="AnyProjectTaskBase">
     <span id="anyprojecttaskfolder-anyprojecttaskbase" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> AnyProjectTaskBase (0..Inf) </span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#AnyProjectTaskBase" title="Permalink to this headline">¶</a>
     <span class="member-descr">Tasks are defined in a task-folder (AnyProjectTaskFolder) by task objects,...</span>
@@ -111,10 +111,11 @@ AnyProjectTaskBase
 
 
 
+
 *******************************
 Optional initialization members
 *******************************
-
+ 
 
 
 
@@ -134,7 +135,7 @@ Description
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" >
+    <div class="html-toggle member-entries odd section collapsed" >
     
     <h3 class="html-toggle-button" style=""><span class="member-title"> Description </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Description" title="Permalink to this headline">¶</a>
     <span class="member-descr">Description folder.</span>
@@ -146,7 +147,7 @@ Description
 
     
     
-    
+     
 
 ..
 
@@ -166,7 +167,7 @@ Description.BodyText
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.BodyText">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.BodyText">
     <span id="anyprojecttaskfolder-description-bodytext" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BodyText </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.BodyText" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description. By using the text formatting functions,...</span>
@@ -178,6 +179,7 @@ Description.BodyText
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description. By using the text formatting functions, links can be included in the body text.
@@ -186,7 +188,7 @@ Description.BodyText
 
 
 
-    
+     
 
 ..
 
@@ -206,7 +208,7 @@ Description.Title
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.Title">
+    <div class="html-toggle member-entries even section collapsed" id="Description.Title">
     <span id="anyprojecttaskfolder-description-title" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Title </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.Title" title="Permalink to this headline">¶</a>
     <span class="member-descr">The title of the description. Shown in bold at the top of the window pane.</span>
@@ -218,6 +220,7 @@ Description.Title
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The title of the description. Shown in bold at the top of the window pane.
@@ -226,7 +229,7 @@ Description.Title
 
 
 
-    
+     
 
 ..
 
@@ -246,7 +249,7 @@ Description.BodyHTML
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.BodyHTML">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.BodyHTML">
     <span id="anyprojecttaskfolder-description-bodyhtml" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BodyHTML </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.BodyHTML" title="Permalink to this headline">¶</a>
     <span class="member-descr">The body text of the description in html format. The BodyHTML must be...</span>
@@ -258,6 +261,7 @@ Description.BodyHTML
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The body text of the description in html format. The BodyHTML must be html-formatted text and will be used inside the body-tag of a default AnyBody-formatted empty html-page. If BodyHTML is used it will take precedence over both the BodyText and HTMLURL.
@@ -266,7 +270,7 @@ Description.BodyHTML
 
 
 
-    
+     
 
 ..
 
@@ -286,7 +290,7 @@ Description.HTMLURL
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.HTMLURL">
+    <div class="html-toggle member-entries even section collapsed" id="Description.HTMLURL">
     <span id="anyprojecttaskfolder-description-htmlurl" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.HTMLURL </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.HTMLURL" title="Permalink to this headline">¶</a>
     <span class="member-descr">A URL link to a complete html page, which will be displayed as the...</span>
@@ -298,6 +302,7 @@ Description.HTMLURL
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     A URL link to a complete html page, which will be displayed as the AnyDescription contents. The URL must point to a complete html text, and if included, it will take precedence over the normal BodyText, but not the BodyHTML.
@@ -306,7 +311,7 @@ Description.HTMLURL
 
 
 
-    
+     
 
 ..
 
@@ -326,7 +331,7 @@ Description.Tooltip
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Description.Tooltip">
+    <div class="html-toggle member-entries odd section collapsed" id="Description.Tooltip">
     <span id="anyprojecttaskfolder-description-tooltip" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Tooltip </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Description.Tooltip" title="Permalink to this headline">¶</a>
     <span class="member-descr">The text of the tooltip shown when the mouse is over the object in the...</span>
@@ -338,6 +343,7 @@ Description.Tooltip
     | **Class type:**  :ref:`AnyStringVar`
     | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
     | **Default:** ``""``
+
         
 
     The text of the tooltip shown when the mouse is over the object in the Project Tree. This functionality is not implemented yet.
@@ -346,7 +352,7 @@ Description.Tooltip
 
 
 
-    
+     
 
 ..
 
@@ -366,7 +372,7 @@ Description.Files
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Description.Files">
+    <div class="html-toggle member-entries even section collapsed" id="Description.Files">
     <span id="anyprojecttaskfolder-description-files" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Files </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Description.Files" title="Permalink to this headline">¶</a>
     <span class="member-descr">User-defined list of files. Links to these files will be inserted at the...</span>
@@ -378,6 +384,7 @@ Description.Files
     | **Class type:**  :ref:`AnyFile`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
     | **Default:** *Depends on other values*
+
         
 
     User-defined list of files. Links to these files will be inserted at the bottom of the description window pane.
@@ -393,6 +400,7 @@ Description.Files
     
 
 ..
+
 
 
 

@@ -58,6 +58,7 @@ Description
 
 
 
+
 *******************************
 Required initialization members
 *******************************
@@ -83,7 +84,7 @@ InitialValues
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="InitialValues">
+    <div class="html-toggle member-entries odd section collapsed" id="InitialValues">
     <span id="anyfunsquarewave-initialvalues" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">InitialValues</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#InitialValues" title="Permalink to this headline">¶</a>
     <span class="member-descr">The initial value of the square wave function</span>
@@ -124,7 +125,7 @@ Ts
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Ts">
+    <div class="html-toggle member-entries even section collapsed" id="Ts">
     <span id="anyfunsquarewave-ts" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Ts</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ts" title="Permalink to this headline">¶</a>
     <span class="member-descr">The times at which transitions occur</span>
@@ -165,7 +166,7 @@ Values
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Values">
+    <div class="html-toggle member-entries odd section collapsed" id="Values">
     <span id="anyfunsquarewave-values" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Values</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Values" title="Permalink to this headline">¶</a>
     <span class="member-descr">The values of the diffent transitions</span>
@@ -206,7 +207,7 @@ dT
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="dT">
+    <div class="html-toggle member-entries even section collapsed" id="dT">
     <span id="anyfunsquarewave-dt" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">dT</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#dT" title="Permalink to this headline">¶</a>
     <span class="member-descr">The transition time from one state to the next</span>
@@ -257,7 +258,7 @@ Function
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function">
+    <div class="html-toggle member-entries odd section collapsed" id="Function">
     <span id="anyfunsquarewave-function" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -298,7 +299,7 @@ Function.ArgList
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.ArgList">
+    <div class="html-toggle member-entries even section collapsed" id="Function.ArgList">
     <span id="anyfunsquarewave-function-arglist" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList" title="Permalink to this headline">¶</a>
     <span class="member-descr">A special folder containing the argument list of the function.</span>
@@ -339,7 +340,7 @@ Function.ArgList.Arg
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="Function.ArgList.Arg">
+    <div class="html-toggle member-entries odd section collapsed" id="Function.ArgList.Arg">
     <span id="anyfunsquarewave-function-arglist-arg" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Function.ArgList.Arg</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.ArgList.Arg" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -370,47 +371,6 @@ Function.ArgList.Arg
     </div><!--
 ..
 
-.. _AnyFunSquareWave.Function.Return:
-
-Function.Return
-==================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed object-appearance-state-normal" id="Function.Return">
-    <span id="anyfunsquarewave-function-return" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Function.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.Return" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloat`
-    | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyFunSquareWave.UpdFunData:
 
 UpdFunData
@@ -421,7 +381,7 @@ UpdFunData
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed object-appearance-state-normal" id="UpdFunData">
+    <div class="html-toggle member-entries even section collapsed" id="UpdFunData">
     <span id="anyfunsquarewave-updfundata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">UpdFunData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#UpdFunData" title="Permalink to this headline">¶</a>
     <span class="member-descr">Data update counter that counts number of data configuration processes.</span>
@@ -438,6 +398,61 @@ UpdFunData
 
 
     Data update counter that counts number of data configuration processes.
+
+..
+
+
+
+
+
+.. rst-class:: html-toggle
+
+*********************
+Deprecated members
+*********************
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyFunSquareWave.Function.Return:
+
+Function.Return
+==================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Function.Return">
+    <span id="anyfunsquarewave-function-return" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Function.Return</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Function.Return" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    |
+    | **Class type:**  :ref:`AnyFloat`
+    | **Eval moment:** :ref:`ConfigVar <InsideAMS_EvalMoments>`
+
+    .. rst-class:: without-title
+
+    .. danger::
+        **Deprecated**: Hidden object for return-data management.
+
+
+
+
+    <No description>
 
 ..
 
