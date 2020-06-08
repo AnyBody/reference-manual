@@ -134,43 +134,6 @@
 </div></blockquote>
 </div>
 </div>
-<div class="section" id="required-initialization-members">
-<h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
-<!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="thickness">
-<span id="anydrawviapointmuscle-thickness"></span><h3>Thickness<a class="headerlink" href="#thickness" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed" id="Thickness">
-<span id="anydrawviapointmuscle-thickness" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title">Thickness</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
-<span class="member-descr">Line thickness. This must either hold one value valid for all line segments...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
-</div>
-<p>Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="rgb">
-<span id="anydrawviapointmuscle-rgb"></span><h3>RGB<a class="headerlink" href="#rgb" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries even section collapsed" id="RGB">
-<span id="anydrawviapointmuscle-rgb" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title">RGB</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
-<span class="member-descr">Color in RGB values between 0 and 1. This must either be an array with 3...</span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGBs.html#anyrgbs"><span class="std std-ref">AnyRGBs</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
-</div>
-<p>Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.</p>
-</div></blockquote>
-</div>
-</div>
 <div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
@@ -243,6 +206,42 @@
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
 </div>
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div> <!--</div>
+<div class="section" id="thickness">
+<span id="anydrawviapointmuscle-thickness"></span><h3>Thickness<a class="headerlink" href="#thickness" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="Thickness">
+<span id="anydrawviapointmuscle-thickness" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
+<span class="member-descr">Line thickness. This must either hold one value valid for all line segments...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.01</span></code></div>
+</div>
+<p>Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div> <!--</div>
+<div class="section" id="rgb">
+<span id="anydrawviapointmuscle-rgb"></span><h3>RGB<a class="headerlink" href="#rgb" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="RGB">
+<span id="anydrawviapointmuscle-rgb" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
+<span class="member-descr">Color in RGB values between 0 and 1. This must either be an array with 3...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGBs.html#anyrgbs"><span class="std std-ref">AnyRGBs</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.5546875,</span> <span class="pre">0.1015625,</span> <span class="pre">0.1171875}</span></code></div>
+</div>
+<p>Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.</p>
 </div></blockquote>
 </div>
 </div>
@@ -391,7 +390,7 @@
 
     <div class="footer" role="contentinfo">
         &#169; Copyright 2019, AnyBody Technology A/S.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.2.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

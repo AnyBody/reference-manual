@@ -101,6 +101,13 @@ this class estimated using a numerical solution of a contact problem of
 a string and the rigid surfaces.Improper definition of this contact problem
 can lead to numerical exceptions or inaccurate results.
 Therefore please study the class AnyKinSPLine for details.</p>
+<p>It is possible to enable a faster wrapping method compared to the standard one.
+The new algorithm is still experimental. To activate it, set this handle
+“System.Compatibility.AnyBody73_ExperimentalShortestPathSolver = On;” in main.
+It is inspired by, but not a one to one implementation, of the article
+“FAST AND ROBUST MUSCLE PATH WRAPPING FOR ARBITRARY SURFACES”
+(<a class="reference external" href="https://isbweb.org/~tgcs/iscsb-2019/abstracts/40_P6-3.pdf">https://isbweb.org/~tgcs/iscsb-2019/abstracts/40_P6-3.pdf</a>),
+written by John E. Lloyd, Ian Stavness and Sidney Fels.</p>
 <p> </p>
 <table class="colwidths-given plain docutils align-default" id="id3">
 <caption><span class="caption-text">Demo examples related to AnyMuscleShortestPath</span><a class="headerlink" href="#id3" title="Permalink to this table">¶</a></caption>
@@ -1524,7 +1531,7 @@ SPSolverModes - method using modes to solve the optimization problem. This metho
 
     <div class="footer" role="contentinfo">
         &#169; Copyright 2019, AnyBody Technology A/S.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.2.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 3.0.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

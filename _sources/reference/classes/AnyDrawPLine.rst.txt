@@ -109,94 +109,6 @@ AnyStyleDrawMaterial
 
 
 
-*******************************
-Required initialization members
-*******************************
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    <!--
-..
-
-.. _AnyDrawPLine.Thickness:
-
-Thickness
-============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Thickness">
-    <span id="anydrawpline-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Thickness</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Line thickness. This must either hold one value valid for all line segments...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyFloat`
-    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-
-
-
-    Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.
-
-..
-
-
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyDrawPLine.RGB:
-
-RGB
-======
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="RGB">
-    <span id="anydrawpline-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">RGB</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Color in RGB values between 0 and 1. This must either be an array with 3...</span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyRGBs`
-    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
-
-
-
-    Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.
-
-..
-
-
-
-
-
 
 
 
@@ -390,6 +302,102 @@ PickableZOrdering
 
 
     Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+
+..
+
+
+
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyDrawPLine.Thickness:
+
+Thickness
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Thickness">
+    <span id="anydrawpline-thickness" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Line thickness. This must either hold one value valid for all line segments...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloat`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.005``
+    
+
+    
+    
+    
+
+
+
+    Line thickness. This must either hold one value valid for all line segments or an array of values. For an array each element will be valid for a segment of the line and the last value will be valid for all remaining segments of the line.
+
+..
+
+
+
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyDrawPLine.RGB:
+
+RGB
+======
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="RGB">
+    <span id="anydrawpline-rgb" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color in RGB values between 0 and 1. This must either be an array with 3...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGBs`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.0, 0.0, 1.0}``
+    
+
+    
+    
+    
+
+
+
+    Color in RGB values between 0 and 1. This must either be an array with 3 values, i.e., one color for all line segments, or an array of RGB value sets, i.e., a matrix with three columns. Multiple colors are handled similarly to the multiple thickness values.
 
 ..
 
