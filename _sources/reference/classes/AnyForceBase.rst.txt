@@ -116,6 +116,627 @@ AnyKinMeasure
 
 
 
+*******************************
+Optional initialization members
+*******************************
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+      <!--
+..
+
+viewForce
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> viewForce </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewForce" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the force.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyForceBase.viewForce.Visible:
+
+viewForce.Visible
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.Visible">
+    <span id="anyforcebase-viewforce-visible" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewForce.Visible" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Visibility setting, which specifies default visibility of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.Opacity:
+
+viewForce.Opacity
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.Opacity">
+    <span id="anyforcebase-viewforce-opacity" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewForce.Opacity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Opacity setting, which specifies default opacity of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.Pickable:
+
+viewForce.Pickable
+---------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.Pickable">
+    <span id="anyforcebase-viewforce-pickable" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.Pickable" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.PickableZOrdering:
+
+viewForce.PickableZOrdering
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.PickableZOrdering">
+    <span id="anyforcebase-viewforce-pickablezordering" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewForce.PickableZOrdering" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+        
+
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.ShowTotalForces:
+
+viewForce.ShowTotalForces
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.ShowTotalForces">
+    <span id="anyforcebase-viewforce-showtotalforces" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ShowTotalForces </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.ShowTotalForces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for showing total forces at each RefFrame for the force drawing.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for showing total forces at each RefFrame for the force drawing.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.ShowComponentForces:
+
+viewForce.ShowComponentForces
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ShowComponentForces">
+    <span id="anyforcebase-viewforce-showcomponentforces" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ShowComponentForces </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewForce.ShowComponentForces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for showing component forces at each RefFrame for the force drawing.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for showing component forces at each RefFrame for the force drawing.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.ForceScale:
+
+viewForce.ForceScale
+-----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.ForceScale">
+    <span id="anyforcebase-viewforce-forcescale" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ForceScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#viewForce.ForceScale" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The scaling used for drawing forces in the modelview.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.001``
+
+        
+
+    The scaling used for drawing forces in the modelview.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.ComponentScale:
+
+viewForce.ComponentScale
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ComponentScale">
+    <span id="anyforcebase-viewforce-componentscale" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComponentScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.2 </span><a class="headerlink" href="#viewForce.ComponentScale" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The scaling used for drawing force components in the modelview.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.2``
+
+        
+
+    The scaling used for drawing force components in the modelview.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.MomentToForceScale:
+
+viewForce.MomentToForceScale
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.MomentToForceScale">
+    <span id="anyforcebase-viewforce-momenttoforcescale" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MomentToForceScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.1 </span><a class="headerlink" href="#viewForce.MomentToForceScale" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The scaling used between forces and moments in the modelview.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.1``
+
+        
+
+    The scaling used between forces and moments in the modelview.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.MaximumForceLength:
+
+viewForce.MaximumForceLength
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.MaximumForceLength">
+    <span id="anyforcebase-viewforce-maximumforcelength" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaximumForceLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.25 </span><a class="headerlink" href="#viewForce.MaximumForceLength" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The maximum length of the force drawing arrow relative to the viewport width.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.25``
+
+        
+
+    The maximum length of the force drawing arrow relative to the viewport width.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.MinimumForceLength:
+
+viewForce.MinimumForceLength
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.MinimumForceLength">
+    <span id="anyforcebase-viewforce-minimumforcelength" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MinimumForceLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.2 </span><a class="headerlink" href="#viewForce.MinimumForceLength" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The minimum length of the force drawing arrow relative to the maximum force...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.2``
+
+        
+
+    The minimum length of the force drawing arrow relative to the maximum force drawing arrow length.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.ReactionForceColor:
+
+viewForce.ReactionForceColor
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ReactionForceColor">
+    <span id="anyforcebase-viewforce-reactionforcecolor" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ReactionForceColor </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.8, 0.3, 0.3} </span><a class="headerlink" href="#viewForce.ReactionForceColor" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The color used for drawing reaction force arrowhead tips.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.8, 0.3, 0.3}``
+
+        
+
+    The color used for drawing reaction force arrowhead tips.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.AppliedForceColor:
+
+viewForce.AppliedForceColor
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.AppliedForceColor">
+    <span id="anyforcebase-viewforce-appliedforcecolor" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AppliedForceColor </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.3, 0.8, 0.3} </span><a class="headerlink" href="#viewForce.AppliedForceColor" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The color used for drawing applied force arrowhead tips.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.3, 0.8, 0.3}``
+
+        
+
+    The color used for drawing applied force arrowhead tips.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.ScaleToView:
+
+viewForce.ScaleToView
+------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ScaleToView">
+    <span id="anyforcebase-viewforce-scaletoview" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ScaleToView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.ScaleToView" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for enabling scaling of force/moment arrows to viewport size.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for enabling scaling of force/moment arrows to viewport size.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+
+
 .. rst-class:: html-toggle
 
 *********************
@@ -706,6 +1327,129 @@ RefFrameOutput.M
     </div><!--
 ..
 
+.. _AnyForceBase.viewForce.UpdConfig:
+
+viewForce.UpdConfig
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.UpdConfig">
+    <span id="anyforcebase-viewforce-updconfig" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdConfig" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.UpdDesign:
+
+viewForce.UpdDesign
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.UpdDesign">
+    <span id="anyforcebase-viewforce-upddesign" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdDesign" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyForceBase.viewForce.UpdOutput:
+
+viewForce.UpdOutput
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.UpdOutput">
+    <span id="anyforcebase-viewforce-updoutput" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdOutput" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`OutputVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyForceBase.Fin:
 
 Fin
@@ -716,7 +1460,7 @@ Fin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Fin">
+    <div class="html-toggle member-entries even section collapsed" id="Fin">
     <span id="anyforcebase-fin" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fin" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of input loads to the given type of analysis,...</span>
@@ -757,7 +1501,7 @@ Fout
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Fout">
+    <div class="html-toggle member-entries odd section collapsed" id="Fout">
     <span id="anyforcebase-fout" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fout</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fout" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of outputs from the given type of analysis....</span>

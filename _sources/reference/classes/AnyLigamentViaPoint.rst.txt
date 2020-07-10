@@ -96,6 +96,1862 @@ AnyRefFrame
 
 
 
+*******************************
+Optional initialization members
+*******************************
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+      <!--
+..
+
+viewForce
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> viewForce </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewForce" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the force.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.Visible:
+
+viewForce.Visible
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.Visible">
+    <span id="anyligamentviapoint-viewforce-visible" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewForce.Visible" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Visibility setting, which specifies default visibility of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.Opacity:
+
+viewForce.Opacity
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.Opacity">
+    <span id="anyligamentviapoint-viewforce-opacity" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewForce.Opacity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Opacity setting, which specifies default opacity of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.Pickable:
+
+viewForce.Pickable
+---------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.Pickable">
+    <span id="anyligamentviapoint-viewforce-pickable" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.Pickable" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.PickableZOrdering:
+
+viewForce.PickableZOrdering
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.PickableZOrdering">
+    <span id="anyligamentviapoint-viewforce-pickablezordering" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewForce.PickableZOrdering" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+        
+
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.ShowTotalForces:
+
+viewForce.ShowTotalForces
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.ShowTotalForces">
+    <span id="anyligamentviapoint-viewforce-showtotalforces" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ShowTotalForces </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.ShowTotalForces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for showing total forces at each RefFrame for the force drawing.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for showing total forces at each RefFrame for the force drawing.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.ShowComponentForces:
+
+viewForce.ShowComponentForces
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ShowComponentForces">
+    <span id="anyligamentviapoint-viewforce-showcomponentforces" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ShowComponentForces </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewForce.ShowComponentForces" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for showing component forces at each RefFrame for the force drawing.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for showing component forces at each RefFrame for the force drawing.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.ForceScale:
+
+viewForce.ForceScale
+-----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.ForceScale">
+    <span id="anyligamentviapoint-viewforce-forcescale" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ForceScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#viewForce.ForceScale" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The scaling used for drawing forces in the modelview.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.001``
+
+        
+
+    The scaling used for drawing forces in the modelview.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.ComponentScale:
+
+viewForce.ComponentScale
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ComponentScale">
+    <span id="anyligamentviapoint-viewforce-componentscale" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComponentScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.2 </span><a class="headerlink" href="#viewForce.ComponentScale" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The scaling used for drawing force components in the modelview.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.2``
+
+        
+
+    The scaling used for drawing force components in the modelview.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.MomentToForceScale:
+
+viewForce.MomentToForceScale
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.MomentToForceScale">
+    <span id="anyligamentviapoint-viewforce-momenttoforcescale" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MomentToForceScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.1 </span><a class="headerlink" href="#viewForce.MomentToForceScale" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The scaling used between forces and moments in the modelview.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.1``
+
+        
+
+    The scaling used between forces and moments in the modelview.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.MaximumForceLength:
+
+viewForce.MaximumForceLength
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.MaximumForceLength">
+    <span id="anyligamentviapoint-viewforce-maximumforcelength" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaximumForceLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.25 </span><a class="headerlink" href="#viewForce.MaximumForceLength" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The maximum length of the force drawing arrow relative to the viewport width.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.25``
+
+        
+
+    The maximum length of the force drawing arrow relative to the viewport width.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.MinimumForceLength:
+
+viewForce.MinimumForceLength
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.MinimumForceLength">
+    <span id="anyligamentviapoint-viewforce-minimumforcelength" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MinimumForceLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.2 </span><a class="headerlink" href="#viewForce.MinimumForceLength" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The minimum length of the force drawing arrow relative to the maximum force...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.2``
+
+        
+
+    The minimum length of the force drawing arrow relative to the maximum force drawing arrow length.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.ReactionForceColor:
+
+viewForce.ReactionForceColor
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ReactionForceColor">
+    <span id="anyligamentviapoint-viewforce-reactionforcecolor" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ReactionForceColor </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.8, 0.3, 0.3} </span><a class="headerlink" href="#viewForce.ReactionForceColor" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The color used for drawing reaction force arrowhead tips.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.8, 0.3, 0.3}``
+
+        
+
+    The color used for drawing reaction force arrowhead tips.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.AppliedForceColor:
+
+viewForce.AppliedForceColor
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.AppliedForceColor">
+    <span id="anyligamentviapoint-viewforce-appliedforcecolor" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AppliedForceColor </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.3, 0.8, 0.3} </span><a class="headerlink" href="#viewForce.AppliedForceColor" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The color used for drawing applied force arrowhead tips.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.3, 0.8, 0.3}``
+
+        
+
+    The color used for drawing applied force arrowhead tips.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.ScaleToView:
+
+viewForce.ScaleToView
+------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.ScaleToView">
+    <span id="anyligamentviapoint-viewforce-scaletoview" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ScaleToView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.ScaleToView" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for enabling scaling of force/moment arrows to viewport size.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for enabling scaling of force/moment arrows to viewport size.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div></div> <!--
+..
+
+Line
+=======
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Line </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Kinematic measure that defines the ligament geometry to being a piecewise...</span>
+    </h3>
+
+..
+
+
+
+    
+    
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure:
+
+Line.viewKinMeasure
+----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure">
+    <span id="anyligamentviapoint-line-viewkinmeasure" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.viewKinMeasure" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the kinematic measure.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDrawKinMeasure`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+        
+
+    Drawing object that renders the kinematic measure.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.Visible:
+
+Line.viewKinMeasure.Visible
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.Visible">
+    <span id="anyligamentviapoint-line-viewkinmeasure-visible" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Line.viewKinMeasure.Visible" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Visibility setting, which specifies default visibility of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.Opacity:
+
+Line.viewKinMeasure.Opacity
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.Opacity">
+    <span id="anyligamentviapoint-line-viewkinmeasure-opacity" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Line.viewKinMeasure.Opacity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Opacity setting, which specifies default opacity of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.Pickable:
+
+Line.viewKinMeasure.Pickable
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.Pickable">
+    <span id="anyligamentviapoint-line-viewkinmeasure-pickable" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Line.viewKinMeasure.Pickable" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.PickableZOrdering:
+
+Line.viewKinMeasure.PickableZOrdering
+----------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.PickableZOrdering">
+    <span id="anyligamentviapoint-line-viewkinmeasure-pickablezordering" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#Line.viewKinMeasure.PickableZOrdering" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+        
+
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.RGB1:
+
+Line.viewKinMeasure.RGB1
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.RGB1">
+    <span id="anyligamentviapoint-line-viewkinmeasure-rgb1" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.RGB1 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.8, 0.3, 0.3} </span><a class="headerlink" href="#Line.viewKinMeasure.RGB1" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color F1 in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.8, 0.3, 0.3}``
+
+        
+
+    Color F1 in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.RGB2:
+
+Line.viewKinMeasure.RGB2
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.RGB2">
+    <span id="anyligamentviapoint-line-viewkinmeasure-rgb2" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.RGB2 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.3, 0.8, 0.3} </span><a class="headerlink" href="#Line.viewKinMeasure.RGB2" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color F2 in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.3, 0.8, 0.3}``
+
+        
+
+    Color F2 in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.RGB3:
+
+Line.viewKinMeasure.RGB3
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.RGB3">
+    <span id="anyligamentviapoint-line-viewkinmeasure-rgb3" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.RGB3 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.3, 0.3, 0.8} </span><a class="headerlink" href="#Line.viewKinMeasure.RGB3" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color F3 in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.3, 0.3, 0.8}``
+
+        
+
+    Color F3 in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.RGB4:
+
+Line.viewKinMeasure.RGB4
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.RGB4">
+    <span id="anyligamentviapoint-line-viewkinmeasure-rgb4" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.RGB4 </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.8, 0.5, 0.2} </span><a class="headerlink" href="#Line.viewKinMeasure.RGB4" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color F4 in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.8, 0.5, 0.2}``
+
+        
+
+    Color F4 in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.Label:
+
+Line.viewKinMeasure.Label
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.Label">
+    <span id="anyligamentviapoint-line-viewkinmeasure-label" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.Label </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Line.viewKinMeasure.Label" title="Permalink to this headline">¶</a>
+    <span class="member-descr">On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.Size:
+
+Line.viewKinMeasure.Size
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.Size">
+    <span id="anyligamentviapoint-line-viewkinmeasure-size" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.Size </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.02 </span><a class="headerlink" href="#Line.viewKinMeasure.Size" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Radius size of the balls etc. of the AnyDrawKinMeasure.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.02``
+
+        
+
+    Radius size of the balls etc. of the AnyDrawKinMeasure.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.Line:
+
+Line.viewKinMeasure.Line
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.Line">
+    <span id="anyligamentviapoint-line-viewkinmeasure-line" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.Line </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Line.viewKinMeasure.Line" title="Permalink to this headline">¶</a>
+    <span class="member-descr">On/Off value indicating whether the AnyDrawKinMeasure should have a line...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    On/Off value indicating whether the AnyDrawKinMeasure should have a line between ball components.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.Text:
+
+Line.viewKinMeasure.Text
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.Text">
+    <span id="anyligamentviapoint-line-viewkinmeasure-text" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.Text </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Line.viewKinMeasure.Text" title="Permalink to this headline">¶</a>
+    <span class="member-descr">If set, this text is shown as the label.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``""``
+
+        
+
+    If set, this text is shown as the label.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.TextSize:
+
+Line.viewKinMeasure.TextSize
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.TextSize">
+    <span id="anyligamentviapoint-line-viewkinmeasure-textsize" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.TextSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 30.0 </span><a class="headerlink" href="#Line.viewKinMeasure.TextSize" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The size in pixels of the Text label.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``30.0``
+
+        
+
+    The size in pixels of the Text label.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ShowIllustration:
+
+Line.viewKinMeasure.ShowIllustration
+---------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.ShowIllustration">
+    <span id="anyligamentviapoint-line-viewkinmeasure-showillustration" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ShowIllustration </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Line.viewKinMeasure.ShowIllustration" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Indicates if the graphical representation of the kinematic measure should be...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Indicates if the graphical representation of the kinematic measure should be drawn if applicable.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ShowLabelLines:
+
+Line.viewKinMeasure.ShowLabelLines
+-------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.ShowLabelLines">
+    <span id="anyligamentviapoint-line-viewkinmeasure-showlabellines" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ShowLabelLines </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Line.viewKinMeasure.ShowLabelLines" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Indicates if the lines from the label to the reference frames of the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Indicates if the lines from the label to the reference frames of the kinematic measure should be drawn.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ShowValue:
+
+Line.viewKinMeasure.ShowValue
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.ShowValue">
+    <span id="anyligamentviapoint-line-viewkinmeasure-showvalue" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ShowValue </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Line.viewKinMeasure.ShowValue" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Indicates if the pos value of the kinematic measure should be shown in the label.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Indicates if the pos value of the kinematic measure should be shown in the label.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ShowLabelBorder:
+
+Line.viewKinMeasure.ShowLabelBorder
+--------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.ShowLabelBorder">
+    <span id="anyligamentviapoint-line-viewkinmeasure-showlabelborder" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ShowLabelBorder </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Line.viewKinMeasure.ShowLabelBorder" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Indicates if the label of the kinematic measure should be drawn.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Indicates if the label of the kinematic measure should be drawn.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.IllustrationPositionOffset:
+
+Line.viewKinMeasure.IllustrationPositionOffset
+-------------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.IllustrationPositionOffset">
+    <span id="anyligamentviapoint-line-viewkinmeasure-illustrationpositionoffset" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.IllustrationPositionOffset </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#Line.viewKinMeasure.IllustrationPositionOffset" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Positional offset for the illustration of the kinematic measure in the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``None``
+
+        
+
+    Positional offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.IllustrationRotationOffset:
+
+Line.viewKinMeasure.IllustrationRotationOffset
+-------------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.IllustrationRotationOffset">
+    <span id="anyligamentviapoint-line-viewkinmeasure-illustrationrotationoffset" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.IllustrationRotationOffset </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#Line.viewKinMeasure.IllustrationRotationOffset" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Rotational offset for the illustration of the kinematic measure in the...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``None``
+
+        
+
+    Rotational offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.RefIllustration:
+
+Line.viewKinMeasure.RefIllustration
+--------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.RefIllustration">
+    <span id="anyligamentviapoint-line-viewkinmeasure-refillustration" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.RefIllustration </span><span class="member-title-equal">=</span><span class="member-title-default"> -2 </span><a class="headerlink" href="#Line.viewKinMeasure.RefIllustration" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Integer number that specifies the reference system in which the illustration...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``-2``
+
+        
+
+    Integer number that specifies the reference system in which the illustration is drawn. 
+    -2 is default, meaning that the illustration will be placed depending on the type of kinematic measure.
+    -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.RefLabel:
+
+Line.viewKinMeasure.RefLabel
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.RefLabel">
+    <span id="anyligamentviapoint-line-viewkinmeasure-reflabel" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.RefLabel </span><span class="member-title-equal">=</span><span class="member-title-default"> -2 </span><a class="headerlink" href="#Line.viewKinMeasure.RefLabel" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Integer number that specifies the reference system in which the label is...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``-2``
+
+        
+
+    Integer number that specifies the reference system in which the label is drawn. 
+    -2 is default, meaning that the illustration will be placed depending on the type of kinematic measure.
+    -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.LabelPositionOffset:
+
+Line.viewKinMeasure.LabelPositionOffset
+------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.LabelPositionOffset">
+    <span id="anyligamentviapoint-line-viewkinmeasure-labelpositionoffset" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.LabelPositionOffset </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#Line.viewKinMeasure.LabelPositionOffset" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Positional offset for the label of the kinematic measure in the reference...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyObjectPtrVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``None``
+
+        
+
+    Positional offset for the label of the kinematic measure in the reference frame indicated by the ref value.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ValueScaling:
+
+Line.viewKinMeasure.ValueScaling
+-----------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.ValueScaling">
+    <span id="anyligamentviapoint-line-viewkinmeasure-valuescaling" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ValueScaling </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Line.viewKinMeasure.ValueScaling" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Value used as a factor for the displayed pos value of the kinematic measure....</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloat`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Value used as a factor for the displayed pos value of the kinematic measure. This must either be a scalar or have the same size as pos of the kinematic measure being drawn.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ValueStyle:
+
+Line.viewKinMeasure.ValueStyle
+---------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.ValueStyle">
+    <span id="anyligamentviapoint-line-viewkinmeasure-valuestyle" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ValueStyle </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Line.viewKinMeasure.ValueStyle" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Format settings for the label text.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStyleNumeric2`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+        
+
+    Format settings for the label text.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ValueStyle.Digits:
+
+Line.viewKinMeasure.ValueStyle.Digits
+----------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.ValueStyle.Digits">
+    <span id="anyligamentviapoint-line-viewkinmeasure-valuestyle-digits" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ValueStyle.Digits </span><span class="member-title-equal">=</span><span class="member-title-default"> 8 </span><a class="headerlink" href="#Line.viewKinMeasure.ValueStyle.Digits" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Number of digits in output. Disregarded if smaller than one.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``8``
+
+        
+
+    Number of digits in output. Disregarded if smaller than one.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ValueStyle.Style:
+
+Line.viewKinMeasure.ValueStyle.Style
+---------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.ValueStyle.Style">
+    <span id="anyligamentviapoint-line-viewkinmeasure-valuestyle-style" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ValueStyle.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#Line.viewKinMeasure.ValueStyle.Style" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Style of the numeric output.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+        
+
+    Style of the numeric output.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ValueStyle.Scale:
+
+Line.viewKinMeasure.ValueStyle.Scale
+---------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.ValueStyle.Scale">
+    <span id="anyligamentviapoint-line-viewkinmeasure-valuestyle-scale" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ValueStyle.Scale </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Line.viewKinMeasure.ValueStyle.Scale" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for scaling.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for scaling.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.ValueStyle.ScaleVal:
+
+Line.viewKinMeasure.ValueStyle.ScaleVal
+------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.ValueStyle.ScaleVal">
+    <span id="anyligamentviapoint-line-viewkinmeasure-valuestyle-scaleval" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.viewKinMeasure.ValueStyle.ScaleVal </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Line.viewKinMeasure.ValueStyle.ScaleVal" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Scaling factor.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Scaling factor.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+
+
 .. rst-class:: html-toggle
 
 *********************
@@ -686,6 +2542,129 @@ RefFrameOutput.M
     </div><!--
 ..
 
+.. _AnyLigamentViaPoint.viewForce.UpdConfig:
+
+viewForce.UpdConfig
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.UpdConfig">
+    <span id="anyligamentviapoint-viewforce-updconfig" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdConfig" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.UpdDesign:
+
+viewForce.UpdDesign
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewForce.UpdDesign">
+    <span id="anyligamentviapoint-viewforce-upddesign" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdDesign" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.viewForce.UpdOutput:
+
+viewForce.UpdOutput
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewForce.UpdOutput">
+    <span id="anyligamentviapoint-viewforce-updoutput" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdOutput" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`OutputVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyLigamentViaPoint.Fin:
 
 Fin
@@ -696,7 +2675,7 @@ Fin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Fin">
+    <div class="html-toggle member-entries even section collapsed" id="Fin">
     <span id="anyligamentviapoint-fin" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fin" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of input loads to the given type of analysis,...</span>
@@ -737,7 +2716,7 @@ Fout
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Fout">
+    <div class="html-toggle member-entries odd section collapsed" id="Fout">
     <span id="anyligamentviapoint-fout" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Fout</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fout" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of outputs from the given type of analysis....</span>
@@ -778,7 +2757,7 @@ Pos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Pos">
+    <div class="html-toggle member-entries even section collapsed" id="Pos">
     <span id="anyligamentviapoint-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">Generalized position of the ligament, for instance the length when a string...</span>
@@ -819,7 +2798,7 @@ Line
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line">
+    <div class="html-toggle member-entries odd section collapsed" id="Line">
     <span id="anyligamentviapoint-line" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line" title="Permalink to this headline">¶</a>
     <span class="member-descr">Kinematic measure that defines the ligament geometry to being a piecewise...</span>
@@ -860,7 +2839,7 @@ Line.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Line.UpdConfig">
     <span id="anyligamentviapoint-line-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -901,7 +2880,7 @@ Line.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.UpdDesign">
     <span id="anyligamentviapoint-line-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -942,7 +2921,7 @@ Line.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Line.UpdOutput">
     <span id="anyligamentviapoint-line-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -983,7 +2962,7 @@ Line.t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.t">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.t">
     <span id="anyligamentviapoint-line-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -1024,7 +3003,7 @@ Line.RefFrames
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrames">
+    <div class="html-toggle member-entries even section collapsed" id="Line.RefFrames">
     <span id="anyligamentviapoint-line-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -1065,7 +3044,7 @@ Line.Surfaces
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.Surfaces">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.Surfaces">
     <span id="anyligamentviapoint-line-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -1106,7 +3085,7 @@ Line.KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.KinMeasureArr">
+    <div class="html-toggle member-entries even section collapsed" id="Line.KinMeasureArr">
     <span id="anyligamentviapoint-line-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -1147,7 +3126,7 @@ Line.KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.KinMeasureIndexArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.KinMeasureIndexArr">
     <span id="anyligamentviapoint-line-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -1188,7 +3167,7 @@ Line.nDim
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.nDim">
+    <div class="html-toggle member-entries even section collapsed" id="Line.nDim">
     <span id="anyligamentviapoint-line-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -1229,7 +3208,7 @@ Line.RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.RefFrameOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrameOutput">
     <span id="anyligamentviapoint-line-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -1270,7 +3249,7 @@ Line.RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries even section collapsed" id="Line.RefFrameOutput.RefFrameArr">
     <span id="anyligamentviapoint-line-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1311,7 +3290,7 @@ Line.RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrameOutput.Jacobians">
     <span id="anyligamentviapoint-line-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -1352,7 +3331,7 @@ Line.Pos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.Pos">
+    <div class="html-toggle member-entries even section collapsed" id="Line.Pos">
     <span id="anyligamentviapoint-line-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -1393,7 +3372,7 @@ Line.Vel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.Vel">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.Vel">
     <span id="anyligamentviapoint-line-vel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Vel" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -1434,7 +3413,7 @@ Line.Acc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.Acc">
+    <div class="html-toggle member-entries even section collapsed" id="Line.Acc">
     <span id="anyligamentviapoint-line-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -1451,6 +3430,129 @@ Line.Acc
 
 
     The acceleration vector, typically the time-derivative of Vel.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.UpdConfig:
+
+Line.viewKinMeasure.UpdConfig
+================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.UpdConfig">
+    <span id="anyligamentviapoint-line-viewkinmeasure-updconfig" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line.viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.UpdDesign:
+
+Line.viewKinMeasure.UpdDesign
+================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.UpdDesign">
+    <span id="anyligamentviapoint-line-viewkinmeasure-upddesign" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line.viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyLigamentViaPoint.Line.viewKinMeasure.UpdOutput:
+
+Line.viewKinMeasure.UpdOutput
+================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.UpdOutput">
+    <span id="anyligamentviapoint-line-viewkinmeasure-updoutput" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Line.viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`OutputVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
 
 ..
 

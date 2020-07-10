@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AnyMuscle &#8212; AnyScript Reference 0.1 documentation</title>
+    <title>AnyMuscle &#8212; AnyScript Reference 7.3.0 documentation</title>
     <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
@@ -63,7 +63,7 @@
         <li class="right" >
           <a href="AnyMovingRefFrame.html" title="AnyMovingRefFrame"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -167,11 +167,273 @@ as possible (typically the default value shown in the tables below).</p>
 <div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="metabmodel">
+  <!--<div class="section" id="viewforce">
+<h3>viewForce<a class="headerlink" href="#viewforce" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" >
+
+<h3 class="html-toggle-button" style=""><span class="member-title"> viewForce </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewForce" title="Permalink to this headline">¶</a>
+<span class="member-descr">Drawing object that renders the force.</span>
+</h3><!-- Hack to trick sphinx into adding member target link -->
+<!--<div class="section" id="viewforce-visible">
+<span id="anymuscle-viewforce-visible"></span><h4>viewForce.Visible<a class="headerlink" href="#viewforce-visible" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.Visible">
+<span id="anymuscle-viewforce-visible" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewForce.Visible" title="Permalink to this headline">¶</a>
+<span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
+</div>
+<p>Visibility setting, which specifies default visibility of the object.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-opacity">
+<span id="anymuscle-viewforce-opacity"></span><h4>viewForce.Opacity<a class="headerlink" href="#viewforce-opacity" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.Opacity">
+<span id="anymuscle-viewforce-opacity" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewForce.Opacity" title="Permalink to this headline">¶</a>
+<span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1.0</span></code></div>
+</div>
+<p>Opacity setting, which specifies default opacity of the object.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-pickable">
+<span id="anymuscle-viewforce-pickable"></span><h4>viewForce.Pickable<a class="headerlink" href="#viewforce-pickable" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.Pickable">
+<span id="anymuscle-viewforce-pickable" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.Pickable" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
+</div>
+<p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-pickablezordering">
+<span id="anymuscle-viewforce-pickablezordering"></span><h4>viewForce.PickableZOrdering<a class="headerlink" href="#viewforce-pickablezordering" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.PickableZOrdering">
+<span id="anymuscle-viewforce-pickablezordering" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewForce.PickableZOrdering" title="Permalink to this headline">¶</a>
+<span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">RuntimeVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-showtotalforces">
+<span id="anymuscle-viewforce-showtotalforces"></span><h4>viewForce.ShowTotalForces<a class="headerlink" href="#viewforce-showtotalforces" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.ShowTotalForces">
+<span id="anymuscle-viewforce-showtotalforces" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ShowTotalForces </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.ShowTotalForces" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for showing total forces at each RefFrame for the force drawing.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
+</div>
+<p>Switch for showing total forces at each RefFrame for the force drawing.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-showcomponentforces">
+<span id="anymuscle-viewforce-showcomponentforces"></span><h4>viewForce.ShowComponentForces<a class="headerlink" href="#viewforce-showcomponentforces" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.ShowComponentForces">
+<span id="anymuscle-viewforce-showcomponentforces" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ShowComponentForces </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewForce.ShowComponentForces" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for showing component forces at each RefFrame for the force drawing.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
+</div>
+<p>Switch for showing component forces at each RefFrame for the force drawing.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-forcescale">
+<span id="anymuscle-viewforce-forcescale"></span><h4>viewForce.ForceScale<a class="headerlink" href="#viewforce-forcescale" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.ForceScale">
+<span id="anymuscle-viewforce-forcescale" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ForceScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#viewForce.ForceScale" title="Permalink to this headline">¶</a>
+<span class="member-descr">The scaling used for drawing forces in the modelview.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.001</span></code></div>
+</div>
+<p>The scaling used for drawing forces in the modelview.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-componentscale">
+<span id="anymuscle-viewforce-componentscale"></span><h4>viewForce.ComponentScale<a class="headerlink" href="#viewforce-componentscale" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.ComponentScale">
+<span id="anymuscle-viewforce-componentscale" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ComponentScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.2 </span><a class="headerlink" href="#viewForce.ComponentScale" title="Permalink to this headline">¶</a>
+<span class="member-descr">The scaling used for drawing force components in the modelview.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.2</span></code></div>
+</div>
+<p>The scaling used for drawing force components in the modelview.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-momenttoforcescale">
+<span id="anymuscle-viewforce-momenttoforcescale"></span><h4>viewForce.MomentToForceScale<a class="headerlink" href="#viewforce-momenttoforcescale" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.MomentToForceScale">
+<span id="anymuscle-viewforce-momenttoforcescale" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MomentToForceScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.1 </span><a class="headerlink" href="#viewForce.MomentToForceScale" title="Permalink to this headline">¶</a>
+<span class="member-descr">The scaling used between forces and moments in the modelview.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.1</span></code></div>
+</div>
+<p>The scaling used between forces and moments in the modelview.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-maximumforcelength">
+<span id="anymuscle-viewforce-maximumforcelength"></span><h4>viewForce.MaximumForceLength<a class="headerlink" href="#viewforce-maximumforcelength" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.MaximumForceLength">
+<span id="anymuscle-viewforce-maximumforcelength" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaximumForceLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.25 </span><a class="headerlink" href="#viewForce.MaximumForceLength" title="Permalink to this headline">¶</a>
+<span class="member-descr">The maximum length of the force drawing arrow relative to the viewport width.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.25</span></code></div>
+</div>
+<p>The maximum length of the force drawing arrow relative to the viewport width.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-minimumforcelength">
+<span id="anymuscle-viewforce-minimumforcelength"></span><h4>viewForce.MinimumForceLength<a class="headerlink" href="#viewforce-minimumforcelength" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.MinimumForceLength">
+<span id="anymuscle-viewforce-minimumforcelength" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MinimumForceLength </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.2 </span><a class="headerlink" href="#viewForce.MinimumForceLength" title="Permalink to this headline">¶</a>
+<span class="member-descr">The minimum length of the force drawing arrow relative to the maximum force...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.2</span></code></div>
+</div>
+<p>The minimum length of the force drawing arrow relative to the maximum force drawing arrow length.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-reactionforcecolor">
+<span id="anymuscle-viewforce-reactionforcecolor"></span><h4>viewForce.ReactionForceColor<a class="headerlink" href="#viewforce-reactionforcecolor" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.ReactionForceColor">
+<span id="anymuscle-viewforce-reactionforcecolor" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ReactionForceColor </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.8, 0.3, 0.3} </span><a class="headerlink" href="#viewForce.ReactionForceColor" title="Permalink to this headline">¶</a>
+<span class="member-descr">The color used for drawing reaction force arrowhead tips.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.8,</span> <span class="pre">0.3,</span> <span class="pre">0.3}</span></code></div>
+</div>
+<p>The color used for drawing reaction force arrowhead tips.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-appliedforcecolor">
+<span id="anymuscle-viewforce-appliedforcecolor"></span><h4>viewForce.AppliedForceColor<a class="headerlink" href="#viewforce-appliedforcecolor" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.AppliedForceColor">
+<span id="anymuscle-viewforce-appliedforcecolor" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AppliedForceColor </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.3, 0.8, 0.3} </span><a class="headerlink" href="#viewForce.AppliedForceColor" title="Permalink to this headline">¶</a>
+<span class="member-descr">The color used for drawing applied force arrowhead tips.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyRGB.html#anyrgb"><span class="std std-ref">AnyRGB</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.3,</span> <span class="pre">0.8,</span> <span class="pre">0.3}</span></code></div>
+</div>
+<p>The color used for drawing applied force arrowhead tips.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-scaletoview">
+<span id="anymuscle-viewforce-scaletoview"></span><h4>viewForce.ScaleToView<a class="headerlink" href="#viewforce-scaletoview" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.ScaleToView">
+<span id="anymuscle-viewforce-scaletoview" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ScaleToView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewForce.ScaleToView" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for enabling scaling of force/moment arrows to viewport size.</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
+</div>
+<p>Switch for enabling scaling of force/moment arrows to viewport size.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div></div> <!--</div>
+</div>
+<div class="section" id="metabmodel">
 <span id="anymuscle-metabmodel"></span><h3>MetabModel<a class="headerlink" href="#metabmodel" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="MetabModel">
+<div class="html-toggle member-entries even section collapsed" id="MetabModel">
 <span id="anymuscle-metabmodel" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> MetabModel </span><span class="member-title-equal">=</span><span class="member-title-default"> None </span><a class="headerlink" href="#MetabModel" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -440,11 +702,65 @@ as possible (typically the default value shown in the tables below).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
 </div><!--</div>
+<div class="section" id="viewforce-updconfig">
+<span id="anymuscle-viewforce-updconfig"></span><h3>viewForce.UpdConfig<a class="headerlink" href="#viewforce-updconfig" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.UpdConfig">
+<span id="anymuscle-viewforce-updconfig" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdConfig" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-upddesign">
+<span id="anymuscle-viewforce-upddesign"></span><h3>viewForce.UpdDesign<a class="headerlink" href="#viewforce-upddesign" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewForce.UpdDesign">
+<span id="anymuscle-viewforce-upddesign" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdDesign" title="Permalink to this headline">¶</a>
+<span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
+<div class="section" id="viewforce-updoutput">
+<span id="anymuscle-viewforce-updoutput"></span><h3>viewForce.UpdOutput<a class="headerlink" href="#viewforce-updoutput" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewForce.UpdOutput">
+<span id="anymuscle-viewforce-updoutput" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title">viewForce.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewForce.UpdOutput" title="Permalink to this headline">¶</a>
+<span class="member-descr"></span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyIntVar.html#anyintvar"><span class="std std-ref">AnyIntVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0</span></code></div>
+</div>
+<p>&lt;No description&gt;</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</div>
 <div class="section" id="fin">
 <span id="anymuscle-fin"></span><h3>Fin<a class="headerlink" href="#fin" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Fin">
+<div class="html-toggle member-entries even section collapsed" id="Fin">
 <span id="anymuscle-fin" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Fin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fin" title="Permalink to this headline">¶</a>
 <span class="member-descr">The generalized force vector of input loads to the given type of analysis,...</span>
@@ -462,7 +778,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-fout"></span><h3>Fout<a class="headerlink" href="#fout" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Fout">
+<div class="html-toggle member-entries odd section collapsed" id="Fout">
 <span id="anymuscle-fout" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Fout</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fout" title="Permalink to this headline">¶</a>
 <span class="member-descr">The generalized force vector of outputs from the given type of analysis....</span>
@@ -480,7 +796,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-lmt"></span><h3>Lmt<a class="headerlink" href="#lmt" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Lmt">
+<div class="html-toggle member-entries even section collapsed" id="Lmt">
 <span id="anymuscle-lmt" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Lmt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Lmt" title="Permalink to this headline">¶</a>
 <span class="member-descr">Length of the muscle-tendon unit.</span>
@@ -498,7 +814,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-lm"></span><h3>Lm<a class="headerlink" href="#lm" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Lm">
+<div class="html-toggle member-entries odd section collapsed" id="Lm">
 <span id="anymuscle-lm" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Lm</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Lm" title="Permalink to this headline">¶</a>
 <span class="member-descr">Length of the muscle fiber unit. This is not the actual fiber length when...</span>
@@ -516,7 +832,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-lt"></span><h3>Lt<a class="headerlink" href="#lt" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Lt">
+<div class="html-toggle member-entries even section collapsed" id="Lt">
 <span id="anymuscle-lt" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Lt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Lt" title="Permalink to this headline">¶</a>
 <span class="member-descr">Length of the tendon unit.</span>
@@ -534,7 +850,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-lmtdot"></span><h3>LmtDot<a class="headerlink" href="#lmtdot" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="LmtDot">
+<div class="html-toggle member-entries odd section collapsed" id="LmtDot">
 <span id="anymuscle-lmtdot" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">LmtDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#LmtDot" title="Permalink to this headline">¶</a>
 <span class="member-descr">Time-derivative of the muscle-tendon unit length, Lmt.</span>
@@ -552,7 +868,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-lmdot"></span><h3>LmDot<a class="headerlink" href="#lmdot" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="LmDot">
+<div class="html-toggle member-entries even section collapsed" id="LmDot">
 <span id="anymuscle-lmdot" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">LmDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#LmDot" title="Permalink to this headline">¶</a>
 <span class="member-descr">Time-derivative of the muscle fiber unit length, Lm.</span>
@@ -570,7 +886,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-activity"></span><h3>Activity<a class="headerlink" href="#activity" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Activity">
+<div class="html-toggle member-entries odd section collapsed" id="Activity">
 <span id="anymuscle-activity" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Activity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Activity" title="Permalink to this headline">¶</a>
 <span class="member-descr">Muscle activity, i.e., normalized muscle force.</span>
@@ -588,7 +904,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-correctedactivity"></span><h3>CorrectedActivity<a class="headerlink" href="#correctedactivity" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="CorrectedActivity">
+<div class="html-toggle member-entries even section collapsed" id="CorrectedActivity">
 <span id="anymuscle-correctedactivity" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">CorrectedActivity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#CorrectedActivity" title="Permalink to this headline">¶</a>
 <span class="member-descr">Corrected activity, which may be slightly different from Activity for muscle...</span>
@@ -606,7 +922,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-fm"></span><h3>Fm<a class="headerlink" href="#fm" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Fm">
+<div class="html-toggle member-entries odd section collapsed" id="Fm">
 <span id="anymuscle-fm" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Fm</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fm" title="Permalink to this headline">¶</a>
 <span class="member-descr">Force in the muscle fiber unit. Not projected onto the fiber direction for...</span>
@@ -624,7 +940,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-ft"></span><h3>Ft<a class="headerlink" href="#ft" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Ft">
+<div class="html-toggle member-entries even section collapsed" id="Ft">
 <span id="anymuscle-ft" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Ft</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ft" title="Permalink to this headline">¶</a>
 <span class="member-descr">Force in the tendon unit.</span>
@@ -642,7 +958,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-fp"></span><h3>Fp<a class="headerlink" href="#fp" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Fp">
+<div class="html-toggle member-entries odd section collapsed" id="Fp">
 <span id="anymuscle-fp" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Fp</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Fp" title="Permalink to this headline">¶</a>
 <span class="member-descr">Force in the parallel elastic element. Not projected onto the fiber...</span>
@@ -660,7 +976,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-strength"></span><h3>Strength<a class="headerlink" href="#strength" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Strength">
+<div class="html-toggle member-entries even section collapsed" id="Strength">
 <span id="anymuscle-strength" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Strength</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Strength" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current muscle strength.</span>
@@ -678,7 +994,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-ft0"></span><h3>Ft0<a class="headerlink" href="#ft0" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Ft0">
+<div class="html-toggle member-entries odd section collapsed" id="Ft0">
 <span id="anymuscle-ft0" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Ft0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ft0" title="Permalink to this headline">¶</a>
 <span class="member-descr">Tendon force at zero activity.</span>
@@ -696,7 +1012,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-ft0grad"></span><h3>Ft0Grad<a class="headerlink" href="#ft0grad" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Ft0Grad">
+<div class="html-toggle member-entries even section collapsed" id="Ft0Grad">
 <span id="anymuscle-ft0grad" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Ft0Grad</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Ft0Grad" title="Permalink to this headline">¶</a>
 <span class="member-descr">Tendon force gradient. with respect to the activity</span>
@@ -714,7 +1030,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-pennationangle"></span><h3>PennationAngle<a class="headerlink" href="#pennationangle" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="PennationAngle">
+<div class="html-toggle member-entries odd section collapsed" id="PennationAngle">
 <span id="anymuscle-pennationangle" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">PennationAngle</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#PennationAngle" title="Permalink to this headline">¶</a>
 <span class="member-descr">Pennation angle.</span>
@@ -732,7 +1048,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-epott"></span><h3>EPOTt<a class="headerlink" href="#epott" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="EPOTt">
+<div class="html-toggle member-entries even section collapsed" id="EPOTt">
 <span id="anymuscle-epott" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">EPOTt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#EPOTt" title="Permalink to this headline">¶</a>
 <span class="member-descr">Potential energy in the tendon.</span>
@@ -750,7 +1066,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-epotp"></span><h3>EPOTp<a class="headerlink" href="#epotp" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="EPOTp">
+<div class="html-toggle member-entries odd section collapsed" id="EPOTp">
 <span id="anymuscle-epotp" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">EPOTp</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#EPOTp" title="Permalink to this headline">¶</a>
 <span class="member-descr">Potential energy in the parallel elastic element.</span>
@@ -768,7 +1084,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-epotmt"></span><h3>EPOTmt<a class="headerlink" href="#epotmt" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="EPOTmt">
+<div class="html-toggle member-entries even section collapsed" id="EPOTmt">
 <span id="anymuscle-epotmt" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">EPOTmt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#EPOTmt" title="Permalink to this headline">¶</a>
 <span class="member-descr">Total potential energy in the muscle-tendon unit.</span>
@@ -786,7 +1102,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-pt"></span><h3>Pt<a class="headerlink" href="#pt" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Pt">
+<div class="html-toggle member-entries odd section collapsed" id="Pt">
 <span id="anymuscle-pt" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Pt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pt" title="Permalink to this headline">¶</a>
 <span class="member-descr">Power of the tendon unit on the segments, Pt=Ft*LtDot.</span>
@@ -804,7 +1120,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-pm"></span><h3>Pm<a class="headerlink" href="#pm" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Pm">
+<div class="html-toggle member-entries even section collapsed" id="Pm">
 <span id="anymuscle-pm" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Pm</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pm" title="Permalink to this headline">¶</a>
 <span class="member-descr">Power of the muscle fiber unit on the segments, Pm=Fm*LmDot.</span>
@@ -822,7 +1138,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-pmt"></span><h3>Pmt<a class="headerlink" href="#pmt" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Pmt">
+<div class="html-toggle member-entries odd section collapsed" id="Pmt">
 <span id="anymuscle-pmt" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Pmt</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pmt" title="Permalink to this headline">¶</a>
 <span class="member-descr">Power of the muscle-tendon unit on the segments, Pmt=Fmt*LmtDot.</span>
@@ -840,7 +1156,7 @@ as possible (typically the default value shown in the tables below).</p>
 <span id="anymuscle-pmet"></span><h3>Pmet<a class="headerlink" href="#pmet" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Pmet">
+<div class="html-toggle member-entries even section collapsed" id="Pmet">
 <span id="anymuscle-pmet" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Pmet</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pmet" title="Permalink to this headline">¶</a>
 <span class="member-descr">Metabolic power.</span>
@@ -933,7 +1249,7 @@ as possible (typically the default value shown in the tables below).</p>
         <li class="right" >
           <a href="AnyMovingRefFrame.html" title="AnyMovingRefFrame"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 0.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -943,8 +1259,8 @@ as possible (typically the default value shown in the tables below).</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2019, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.0.
+        &#169; Copyright 2020, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

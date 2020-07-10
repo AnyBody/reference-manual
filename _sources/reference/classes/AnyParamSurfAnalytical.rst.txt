@@ -46,6 +46,914 @@ Description
 
 
 
+*******************************
+Optional initialization members
+*******************************
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+      <!--
+..
+
+viewSurface
+==============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> viewSurface </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewSurface" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the parametric surface.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.Visible:
+
+viewSurface.Visible
+----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.Visible">
+    <span id="anyparamsurfanalytical-viewsurface-visible" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewSurface.Visible" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Visibility setting, which specifies default visibility of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.Opacity:
+
+viewSurface.Opacity
+----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.Opacity">
+    <span id="anyparamsurfanalytical-viewsurface-opacity" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewSurface.Opacity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Opacity setting, which specifies default opacity of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.Pickable:
+
+viewSurface.Pickable
+-----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.Pickable">
+    <span id="anyparamsurfanalytical-viewsurface-pickable" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewSurface.Pickable" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.PickableZOrdering:
+
+viewSurface.PickableZOrdering
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.PickableZOrdering">
+    <span id="anyparamsurfanalytical-viewsurface-pickablezordering" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewSurface.PickableZOrdering" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+        
+
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.RGB:
+
+viewSurface.RGB
+------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.RGB">
+    <span id="anyparamsurfanalytical-viewsurface-rgb" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.65, 0.65, 0.65} </span><a class="headerlink" href="#viewSurface.RGB" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Object color in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.65, 0.65, 0.65}``
+
+        
+
+    Object color in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.ScaleXYZ:
+
+viewSurface.ScaleXYZ
+-----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.ScaleXYZ">
+    <span id="anyparamsurfanalytical-viewsurface-scalexyz" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ScaleXYZ </span><span class="member-title-equal">=</span><span class="member-title-default"> {1.0, 1.0, 1.0} </span><a class="headerlink" href="#viewSurface.ScaleXYZ" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Scaling factors for each reference system axis.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVec3`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{1.0, 1.0, 1.0}``
+
+        
+
+    Scaling factors for each reference system axis.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.Transparency:
+
+viewSurface.Transparency
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.Transparency">
+    <span id="anyparamsurfanalytical-viewsurface-transparency" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Transparency </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewSurface.Transparency" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Object transparency parameter. Values must be in the range from 0.0...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.Face:
+
+viewSurface.Face
+-------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.Face">
+    <span id="anyparamsurfanalytical-viewsurface-face" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Face </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#viewSurface.Face" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``2.0``
+
+        
+
+    Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont:
+
+viewSurface.TextFont
+-----------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont">
+    <span id="anyparamsurfanalytical-viewsurface-textfont" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewSurface.TextFont" title="Permalink to this headline">¶</a>
+    <span class="member-descr">General font setting for the object's text.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStyleFont3DView`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+        
+
+    General font setting for the object's text.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.RGB:
+
+viewSurface.TextFont.RGB
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.TextFont.RGB">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-rgb" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#viewSurface.TextFont.RGB" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.0, 0.0, 0.0}``
+
+        
+
+    Color in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.FontName:
+
+viewSurface.TextFont.FontName
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont.FontName">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-fontname" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#viewSurface.TextFont.FontName" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font name (Windows fonts).</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Times New Roman"``
+
+        
+
+    Font name (Windows fonts).
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.Height:
+
+viewSurface.TextFont.Height
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.TextFont.Height">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-height" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewSurface.TextFont.Height" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font glyph height in pixels.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``50``
+
+        
+
+    Font glyph height in pixels.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.Width:
+
+viewSurface.TextFont.Width
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont.Width">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-width" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewSurface.TextFont.Width" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font glyph width in pixels.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``50``
+
+        
+
+    Font glyph width in pixels.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.Bold:
+
+viewSurface.TextFont.Bold
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.TextFont.Bold">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-bold" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewSurface.TextFont.Bold" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for bold face type setting.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for bold face type setting.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.Italic:
+
+viewSurface.TextFont.Italic
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont.Italic">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-italic" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewSurface.TextFont.Italic" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for italic type setting.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for italic type setting.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.BillBoardView:
+
+viewSurface.TextFont.BillBoardView
+-------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.TextFont.BillBoardView">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-billboardview" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewSurface.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.ModelSized:
+
+viewSurface.TextFont.ModelSized
+----------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont.ModelSized">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-modelsized" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewSurface.TextFont.ModelSized" title="Permalink to this headline">¶</a>
+    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.ModelScaleHeight:
+
+viewSurface.TextFont.ModelScaleHeight
+----------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.TextFont.ModelScaleHeight">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-modelscaleheight" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewSurface.TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    The height scaling of the text when ModelSized is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.ModelScaleWidth:
+
+viewSurface.TextFont.ModelScaleWidth
+---------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont.ModelScaleWidth">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-modelscalewidth" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewSurface.TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    The width scaling of the text when ModelSized is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.TextFont.Rotation:
+
+viewSurface.TextFont.Rotation
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.TextFont.Rotation">
+    <span id="anyparamsurfanalytical-viewsurface-textfont-rotation" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Rotation </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#viewSurface.TextFont.Rotation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The rotation (in degrees) of the text when BillBoardView is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.0``
+
+        
+
+    The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.WireFrameOnOff:
+
+viewSurface.WireFrameOnOff
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.WireFrameOnOff">
+    <span id="anyparamsurfanalytical-viewsurface-wireframeonoff" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.WireFrameOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewSurface.WireFrameOnOff" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for showing wireframe on the surface. The wire frame is shown as...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for showing wireframe on the surface. The wire frame is shown as iso-parametric curves.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+
+
 .. rst-class:: html-toggle
 
 *********************
@@ -212,6 +1120,129 @@ t
 
 
     Object-time variable.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.UpdConfig:
+
+viewSurface.UpdConfig
+========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.UpdConfig">
+    <span id="anyparamsurfanalytical-viewsurface-updconfig" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewSurface.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewSurface.UpdConfig" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.UpdDesign:
+
+viewSurface.UpdDesign
+========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.UpdDesign">
+    <span id="anyparamsurfanalytical-viewsurface-upddesign" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewSurface.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewSurface.UpdDesign" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyParamSurfAnalytical.viewSurface.UpdOutput:
+
+viewSurface.UpdOutput
+========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.UpdOutput">
+    <span id="anyparamsurfanalytical-viewsurface-updoutput" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewSurface.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewSurface.UpdOutput" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`OutputVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
 
 ..
 
