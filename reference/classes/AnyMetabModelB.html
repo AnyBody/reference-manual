@@ -6,7 +6,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AnyMetabModelB &#8212; AnyScript Reference 7.3.0 documentation</title>
     <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -92,20 +92,20 @@
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This class comprises the muscle-metabolism model presented in the paper
 Bhargava, L.J., Pandy, M.G. &amp; Anderson, F.C., J.Biomech. 37, 81-88(2004).</p>
-<p>The model by Bhargava et. al. determines the metabolic power of the muscle from to total
+<p>The model by Bhargava et. al. determines the metabolic power of the muscle from the total
 external power and the rate of heat production (the heat rate), which implies that AnyBody can find
 the metabolic power if the heat rate is known.
 In the model by Bhargava et.al., the heat rate, <span class="math notranslate nohighlight">\(\dot{H}\)</span>, is composed of four terms.</p>
 <div class="math notranslate nohighlight">
 \[\dot{H} = \dot{A} + \dot{M} +\dot{S} + \dot{B}\]</div>
-<p>respectively referred to as</p>
+<p>respectively referred to as:</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(\dot{A}\)</span>: Activation power.</p></li>
 <li><p><span class="math notranslate nohighlight">\(\dot{M}\)</span>: Maintenance power.</p></li>
 <li><p><span class="math notranslate nohighlight">\(\dot{S}\)</span>: Shortening-lengthening power.</p></li>
 <li><p><span class="math notranslate nohighlight">\(\dot{B}\)</span>: Basal power.</p></li>
 </ul>
-<p>For further details, please refer to paper and the AnyBody technical documentation on muscle modeling.</p>
+<p>For further details, please refer to the paper and the AnyBody technical documentation on muscle modeling.</p>
 <p>Related to the implementation and parameter/member naming in this class, please notice the following</p>
 <ul class="simple">
 <li><p>‘Con’ and ‘Ecc’ refer to concentric and eccentric contraction, respectively.</p></li>
@@ -118,6 +118,33 @@ eccentric case from a mechanical point of view. Therefore, this switch.
 In the original paper by Bhargava this is indeed done and the parameters in the paper must be considered as calibrated under this assumption.
 Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theoretical argumentation suggests ‘Off’.</p></li>
 </ul>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<p>Here is simple code block to include the <code class="docutils literal notranslate"><span class="pre">AnyMetabModelSimple</span></code> in a study:</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="c1">// Class template with default values shown</span>
+<span class="n">AnyMetabModelB</span> <span class="n">BhargavaMetabolicModel</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="c1">//CoefBasalPower = 0.0225;</span>
+    <span class="c1">//CoefSLPowerConIso = 0.16;</span>
+    <span class="c1">//CoefSLPowerCon = 0.18;</span>
+    <span class="c1">//CoefSLPowerEcc = 0.157;</span>
+    <span class="c1">//CoefActPowerPhi0 = 0.06;</span>
+    <span class="c1">//CoefActPowerSlow = 40.0;</span>
+    <span class="c1">//CoefActPowerFast = 133.0;</span>
+    <span class="c1">//CoefMaintPowerSlow = 74.0;</span>
+    <span class="c1">//CoefMaintPowerFast = 111.0;</span>
+    <span class="c1">//MuscleDensity = 1059.7;</span>
+    <span class="c1">//AddMusclePowerForEcc = On;</span>
+    <span class="c1">//AddMusclePowerForEccCoef = 1.0;</span>
+ <span class="p">};</span>
+
+<span class="c1">// Study in which to include the metabolic model</span>
+<span class="kt">AnyBodyStudy</span> <span class="n">Study</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="n">Gravity</span> <span class="o">=</span> <span class="p">{</span><span class="mf">0.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">9.81</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">};</span>
+   <span class="n">MetabModel</span> <span class="o">=</span> <span class="o">&amp;</span><span class="p">.</span><span class="n">BhargavaMetabolicModel</span><span class="p">;</span>
+<span class="p">};</span>
+</pre></div>
+</div>
 <p> </p>
 <table class="colwidths-given plain docutils align-default" id="id2">
 <caption><span class="caption-text">Demo examples related to AnyMetabModelB</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
@@ -503,7 +530,7 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 
     <div class="footer" role="contentinfo">
         &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.2.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>
