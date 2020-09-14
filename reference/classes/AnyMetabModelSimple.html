@@ -95,29 +95,43 @@ coefficients, one for concentric and one for eccentric work.</p>
 <p>The efficiency coefficients (<span class="math notranslate nohighlight">\(\eta=\mathrm{Eta}\)</span>) defines how much of the metabolic power (Pmet) is
 converted to actual mechanical power of the muscle (Pm). This implies that Pmet
 can be calculated as</p>
-<p>..math:</p>
-<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="n">P_met</span> <span class="o">=</span> \<span class="n">frac</span><span class="p">{</span><span class="n">P_</span><span class="p">{</span><span class="n">m</span><span class="p">}}{</span>\<span class="n">eta</span><span class="p">}.</span>
-</pre></div>
-</div>
+<div class="math notranslate nohighlight">
+\[P_{met} = \frac{P_{m}}{\eta}.\]</div>
 <p>For the concentric case, this is less than 100%, which means that the metabolic
 power is larger than produced power.
 By default, the concentric efficiency ‘EtaCon’ is set to 25%, which implies that the metabolic
 power is 4 times larger than the actual produced mechanical power output
 of the muscle (i.e. when positive power is generated).</p>
-<p>For the eccentric case, the mechanical power is negative (Pm&lt;0.0), but this still
+<p>For the eccentric case, the mechanical power is negative (<span class="math notranslate nohighlight">\(P_{m}&lt;0.0\)</span>), but this still
 cost positive metabolic power to maintain the force.
 Therefore, the efficiency coefficient must be negative to cancel the negative
-sign of Pm.
+sign of <span class="math notranslate nohighlight">\(P_{m}\)</span>.
 The default setting is that the negative (eccentric) mechanical power output of the muscle
-is 20% larger than the metabolic power required to maintain produce it.
+is 20% larger than the metabolic power required to produce and maintain it.
 This means the ‘EtaEcc’ is set to minus 120%.</p>
 <p>This default values of EtaCon and EtaEcc follows the use in Voigt et. al., J.Biomech. 28, 281-291(1995).
-This default value of EtaCon=25% concentric work is for instance supported by findings
+The default value of EtaCon=25% concentric work is for instance supported by findings
 in De Haan et.al., J.Exp.Biol. 141, 327-341(1989),
 while the default EtaEcc=-120% is derived from Asmussen, Acta Physiol.Scand. 28, 364-382(1953).
 In general, research in the field shows that these value must be assumed to be affected by many conditions,
 and therefore, it is a crude approximation to assume them to be constants as this metabolic model does.
 Thus, for more detailed studies, please consider one of the other metabolic models derived from class <a class="reference internal" href="AnyMetabModelBase.html#anymetabmodelbase"><span class="std std-ref">AnyMetabModelBase</span></a>.</p>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<p>Here is simple code block to include the <code class="docutils literal notranslate"><span class="pre">AnyMetabModelSimple</span></code> in a study:</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="n">AnyMetabModelSimple</span> <span class="n">SimpleMetabModel</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="n">EtaCon</span> <span class="o">=</span> <span class="mf">0.25</span><span class="p">;</span> <span class="c1">// default value</span>
+    <span class="n">EtaEcc</span> <span class="o">=</span> <span class="o">-</span><span class="mf">1.20</span><span class="p">;</span> <span class="c1">// default value</span>
+<span class="p">};</span>
+
+<span class="c1">// Study in which to include the metabolic model</span>
+<span class="kt">AnyBodyStudy</span> <span class="n">Study</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="n">Gravity</span> <span class="o">=</span> <span class="p">{</span><span class="mf">0.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">9.81</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">};</span>
+   <span class="n">MetabModel</span> <span class="o">=</span> <span class="o">&amp;</span><span class="p">.</span><span class="n">SimpleMetabModel</span><span class="p">;</span>
+<span class="p">};</span>
+</pre></div>
+</div>
 <p> </p>
 <table class="colwidths-given plain docutils align-default" id="id2">
 <caption><span class="caption-text">Demo examples related to AnyMetabModelSimple</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
@@ -287,6 +301,7 @@ Thus, for more detailed studies, please consider one of the other metabolic mode
 <li class="toctree-l1"><a class="reference internal" href="../../anyscript/language.html">AnyScript™ language</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../anyscript/preprocessor.html">The preprocessor</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../anyscript/inside-anybody.html">Inside the AnyBody Modeling System</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../anyscript/technical-notes.html">Technical notes</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../demos/index.html">Demo examples</a></li>
