@@ -95,6 +95,21 @@
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This is the base class of all folders, i.e., the nodes of the tree-like
 data structure.</p>
+</div>
+<div class="section" id="examples">
+<h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
+<p>Here is an example to create your own folder:</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="kt">AnyFolder</span> <span class="n">MyFolder</span> <span class="o">=</span> <span class="p">{};</span>
+</pre></div>
+</div>
+<p>Folders are excellent for structuring and it is easy to nest them for a tree-like struture.</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="kt">AnyFolder</span> <span class="n">MyParentFolder</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="kt">AnyFolder</span> <span class="n">MyChildFolder</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="c1">// You can keep nesting as much as your need.</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
+</div>
 <p> </p>
 </div>
 </div>
