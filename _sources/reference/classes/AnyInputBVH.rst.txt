@@ -136,7 +136,7 @@ CompatibilityMode_72
 
     <div class="html-toggle member-entries odd section collapsed" id="CompatibilityMode_72">
     <span id="anyinputbvh-compatibilitymode_72" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> CompatibilityMode_72 </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#CompatibilityMode_72" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> CompatibilityMode_72 </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#CompatibilityMode_72" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for enabling AnyBody v.7.2 compatibility mode.</span>
     </h3>
 
@@ -145,7 +145,7 @@ CompatibilityMode_72
 
     | **Class type:**  :ref:`AnySwitchVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``On``
+    | **Default:** ``Off``
     
 
     
@@ -2366,6 +2366,785 @@ Model.GlobalRef.viewRefFrame.TextFont.Rotation
     </div><!--
 ..
 
+.. _AnyInputBVH.Model.GlobalRef.viewNodes:
+
+Model.GlobalRef.viewNodes
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes">
+    <span id="anyinputbvh-model-globalref-viewnodes" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Model.GlobalRef.viewNodes" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the segment's nodes.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyDrawRefFrameNodes`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+        
+
+    Drawing object that renders the segment's nodes.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.Visible:
+
+Model.GlobalRef.viewNodes.Visible
+------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.Visible">
+    <span id="anyinputbvh-model-globalref-viewnodes-visible" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Visible" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Visibility setting, which specifies default visibility of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.Opacity:
+
+Model.GlobalRef.viewNodes.Opacity
+------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.Opacity">
+    <span id="anyinputbvh-model-globalref-viewnodes-opacity" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Opacity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Opacity setting, which specifies default opacity of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.Pickable:
+
+Model.GlobalRef.viewNodes.Pickable
+-------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.Pickable">
+    <span id="anyinputbvh-model-globalref-viewnodes-pickable" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Pickable" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.PickableZOrdering:
+
+Model.GlobalRef.viewNodes.PickableZOrdering
+----------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.PickableZOrdering">
+    <span id="anyinputbvh-model-globalref-viewnodes-pickablezordering" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.PickableZOrdering" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+        
+
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.RGB:
+
+Model.GlobalRef.viewNodes.RGB
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.RGB">
+    <span id="anyinputbvh-model-globalref-viewnodes-rgb" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.RGB" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Object color in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.91796875, 0.76953125, 0.06640625}``
+
+        
+
+    Object color in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.Transparency:
+
+Model.GlobalRef.viewNodes.Transparency
+-----------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.Transparency">
+    <span id="anyinputbvh-model-globalref-viewnodes-transparency" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Transparency </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Transparency" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Object transparency parameter. Values must be in the range from 0.0...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont:
+
+Model.GlobalRef.viewNodes.TextFont
+-------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont" title="Permalink to this headline">¶</a>
+    <span class="member-descr">General font setting for the object's text.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStyleFont3DView`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+        
+
+    General font setting for the object's text.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.RGB:
+
+Model.GlobalRef.viewNodes.TextFont.RGB
+-----------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.RGB">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-rgb" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.RGB" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.0, 0.0, 0.0}``
+
+        
+
+    Color in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.FontName:
+
+Model.GlobalRef.viewNodes.TextFont.FontName
+----------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.FontName">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-fontname" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.FontName" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font name (Windows fonts).</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Times New Roman"``
+
+        
+
+    Font name (Windows fonts).
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.Height:
+
+Model.GlobalRef.viewNodes.TextFont.Height
+--------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Height">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-height" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Height" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font glyph height in pixels.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``50``
+
+        
+
+    Font glyph height in pixels.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.Width:
+
+Model.GlobalRef.viewNodes.TextFont.Width
+-------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Width">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-width" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Width" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font glyph width in pixels.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``50``
+
+        
+
+    Font glyph width in pixels.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.Bold:
+
+Model.GlobalRef.viewNodes.TextFont.Bold
+------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Bold">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-bold" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Bold" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for bold face type setting.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for bold face type setting.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.Italic:
+
+Model.GlobalRef.viewNodes.TextFont.Italic
+--------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Italic">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-italic" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Italic" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for italic type setting.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for italic type setting.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.BillBoardView:
+
+Model.GlobalRef.viewNodes.TextFont.BillBoardView
+---------------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.BillBoardView">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-billboardview" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.ModelSized:
+
+Model.GlobalRef.viewNodes.TextFont.ModelSized
+------------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelSized">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-modelsized" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.ModelSized" title="Permalink to this headline">¶</a>
+    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight:
+
+Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight
+------------------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-modelscaleheight" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    The height scaling of the text when ModelSized is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth:
+
+Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth
+-----------------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-modelscalewidth" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    The width scaling of the text when ModelSized is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.Rotation:
+
+Model.GlobalRef.viewNodes.TextFont.Rotation
+----------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Rotation">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-rotation" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Rotation </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Rotation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The rotation (in degrees) of the text when BillBoardView is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.0``
+
+        
+
+    The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyInputBVH.Model.GlobalRef.Origin:
 
 Model.GlobalRef.Origin
@@ -2376,7 +3155,7 @@ Model.GlobalRef.Origin
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.Origin">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.Origin">
     <span id="anyinputbvh-model-globalref-origin" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.Origin </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Model.GlobalRef.Origin" title="Permalink to this headline">¶</a>
     <span class="member-descr">Position vector of the origin.</span>
@@ -2417,7 +3196,7 @@ Model.GlobalRef.Axes
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.Axes">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.Axes">
     <span id="anyinputbvh-model-globalref-axes" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.Axes </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Model.GlobalRef.Axes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational transformation matrix (see class AnyRefFrame for a mathematical...</span>
@@ -4113,6 +4892,211 @@ Model.GlobalRef.viewRefFrame.Face
     </div><!--
 ..
 
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.UpdConfig:
+
+Model.GlobalRef.viewNodes.UpdConfig
+======================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.UpdConfig">
+    <span id="anyinputbvh-model-globalref-viewnodes-updconfig" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewNodes.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewNodes.UpdConfig" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.UpdDesign:
+
+Model.GlobalRef.viewNodes.UpdDesign
+======================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.UpdDesign">
+    <span id="anyinputbvh-model-globalref-viewnodes-upddesign" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewNodes.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewNodes.UpdDesign" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.UpdOutput:
+
+Model.GlobalRef.viewNodes.UpdOutput
+======================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.UpdOutput">
+    <span id="anyinputbvh-model-globalref-viewnodes-updoutput" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewNodes.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewNodes.UpdOutput" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`OutputVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.ScaleXYZ:
+
+Model.GlobalRef.viewNodes.ScaleXYZ
+=====================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.ScaleXYZ">
+    <span id="anyinputbvh-model-globalref-viewnodes-scalexyz" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewNodes.ScaleXYZ</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewNodes.ScaleXYZ" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Scaling factors for each reference system axis.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVec3`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{1.0, 1.0, 1.0}``
+
+
+
+
+    Scaling factors for each reference system axis.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.Face:
+
+Model.GlobalRef.viewNodes.Face
+=================================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.Face">
+    <span id="anyinputbvh-model-globalref-viewnodes-face" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewNodes.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Face" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``2.0``
+
+
+
+
+    Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyInputBVH.Markers.Abscissa:
 
 Markers.Abscissa
@@ -4123,7 +5107,7 @@ Markers.Abscissa
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Markers.Abscissa">
+    <div class="html-toggle member-entries odd section collapsed" id="Markers.Abscissa">
     <span id="anyinputbvh-markers-abscissa" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Markers.Abscissa</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Markers.Abscissa" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder where the values of the abscissa/input parameters are stored.</span>
@@ -4164,7 +5148,7 @@ Markers.Abscissa.StateCountCurrent
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Markers.Abscissa.StateCountCurrent">
+    <div class="html-toggle member-entries even section collapsed" id="Markers.Abscissa.StateCountCurrent">
     <span id="anyinputbvh-markers-abscissa-statecountcurrent" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Markers.Abscissa.StateCountCurrent</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Markers.Abscissa.StateCountCurrent" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter (integer) that indicates the number (the state) of the current data...</span>
@@ -4205,7 +5189,7 @@ Markers.Abscissa.StateCountData
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Markers.Abscissa.StateCountData">
+    <div class="html-toggle member-entries odd section collapsed" id="Markers.Abscissa.StateCountData">
     <span id="anyinputbvh-markers-abscissa-statecountdata" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Markers.Abscissa.StateCountData</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Markers.Abscissa.StateCountData" title="Permalink to this headline">¶</a>
     <span class="member-descr">Structure of state indicators for each data point in the AnyOutputFolder...</span>
@@ -4246,7 +5230,7 @@ Markers.Abscissa.Sample
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Markers.Abscissa.Sample">
+    <div class="html-toggle member-entries even section collapsed" id="Markers.Abscissa.Sample">
     <span id="anyinputbvh-markers-abscissa-sample" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Markers.Abscissa.Sample</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Markers.Abscissa.Sample" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>

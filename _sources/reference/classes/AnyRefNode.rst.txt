@@ -882,6 +882,786 @@ viewRefFrame.TextFont.Rotation
      </div></div> <!--
 ..
 
+viewNodes
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" >
+    
+    <h3 class="html-toggle-button" style=""><span class="member-title"> viewNodes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewNodes" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Drawing object that renders the segment's nodes.</span>
+    </h3>
+
+..
+
+
+
+    
+    
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    <!--
+..
+
+.. _AnyRefNode.viewNodes.Visible:
+
+viewNodes.Visible
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.Visible">
+    <span id="anyrefnode-viewnodes-visible" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.Visible" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Visibility setting, which specifies default visibility of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.Opacity:
+
+viewNodes.Opacity
+--------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.Opacity">
+    <span id="anyrefnode-viewnodes-opacity" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.Opacity" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Opacity setting, which specifies default opacity of the object.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.Pickable:
+
+viewNodes.Pickable
+---------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.Pickable">
+    <span id="anyrefnode-viewnodes-pickable" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.Pickable" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.PickableZOrdering:
+
+viewNodes.PickableZOrdering
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.PickableZOrdering">
+    <span id="anyrefnode-viewnodes-pickablezordering" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#viewNodes.PickableZOrdering" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+        
+
+    Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.RGB:
+
+viewNodes.RGB
+----------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.RGB">
+    <span id="anyrefnode-viewnodes-rgb" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.4, 0.4, 0.95} </span><a class="headerlink" href="#viewNodes.RGB" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Object color in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`RuntimeVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.4, 0.4, 0.95}``
+
+        
+
+    Object color in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.Transparency:
+
+viewNodes.Transparency
+-------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.Transparency">
+    <span id="anyrefnode-viewnodes-transparency" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Transparency </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.Transparency" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Object transparency parameter. Values must be in the range from 0.0...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont:
+
+viewNodes.TextFont
+---------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont">
+    <span id="anyrefnode-viewnodes-textfont" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewNodes.TextFont" title="Permalink to this headline">¶</a>
+    <span class="member-descr">General font setting for the object's text.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStyleFont3DView`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{}``
+
+        
+
+    General font setting for the object's text.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.RGB:
+
+viewNodes.TextFont.RGB
+-------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.RGB">
+    <span id="anyrefnode-viewnodes-textfont-rgb" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#viewNodes.TextFont.RGB" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Color in RGB values between 0 and 1.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRGB`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``{0.0, 0.0, 0.0}``
+
+        
+
+    Color in RGB values between 0 and 1.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.FontName:
+
+viewNodes.TextFont.FontName
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.FontName">
+    <span id="anyrefnode-viewnodes-textfont-fontname" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#viewNodes.TextFont.FontName" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font name (Windows fonts).</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyStringVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Times New Roman"``
+
+        
+
+    Font name (Windows fonts).
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.Height:
+
+viewNodes.TextFont.Height
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.Height">
+    <span id="anyrefnode-viewnodes-textfont-height" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewNodes.TextFont.Height" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font glyph height in pixels.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``50``
+
+        
+
+    Font glyph height in pixels.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.Width:
+
+viewNodes.TextFont.Width
+---------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.Width">
+    <span id="anyrefnode-viewnodes-textfont-width" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#viewNodes.TextFont.Width" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Font glyph width in pixels.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``50``
+
+        
+
+    Font glyph width in pixels.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.Bold:
+
+viewNodes.TextFont.Bold
+--------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.Bold">
+    <span id="anyrefnode-viewnodes-textfont-bold" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.TextFont.Bold" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for bold face type setting.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for bold face type setting.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.Italic:
+
+viewNodes.TextFont.Italic
+----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.Italic">
+    <span id="anyrefnode-viewnodes-textfont-italic" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.TextFont.Italic" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for italic type setting.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for italic type setting.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.BillBoardView:
+
+viewNodes.TextFont.BillBoardView
+-----------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.BillBoardView">
+    <span id="anyrefnode-viewnodes-textfont-billboardview" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
+    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.ModelSized:
+
+viewNodes.TextFont.ModelSized
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.ModelSized">
+    <span id="anyrefnode-viewnodes-textfont-modelsized" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.ModelSized" title="Permalink to this headline">¶</a>
+    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``On``
+
+        
+
+    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.ModelScaleHeight:
+
+viewNodes.TextFont.ModelScaleHeight
+--------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.ModelScaleHeight">
+    <span id="anyrefnode-viewnodes-textfont-modelscaleheight" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    The height scaling of the text when ModelSized is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.ModelScaleWidth:
+
+viewNodes.TextFont.ModelScaleWidth
+-------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.ModelScaleWidth">
+    <span id="anyrefnode-viewnodes-textfont-modelscalewidth" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewNodes.TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+
+        
+
+    The width scaling of the text when ModelSized is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.TextFont.Rotation:
+
+viewNodes.TextFont.Rotation
+------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.Rotation">
+    <span id="anyrefnode-viewnodes-textfont-rotation" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Rotation </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#viewNodes.TextFont.Rotation" title="Permalink to this headline">¶</a>
+    <span class="member-descr">The rotation (in degrees) of the text when BillBoardView is enabled.</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyFloatVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0.0``
+
+        
+
+    The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+    
+
+
+
+    
+
+..
+
+
+
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div></div> <!--
+..
+
 .. _AnyRefNode.sRel:
 
 sRel
@@ -892,7 +1672,7 @@ sRel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="sRel">
+    <div class="html-toggle member-entries odd section collapsed" id="sRel">
     <span id="anyrefnode-srel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> sRel </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#sRel" title="Permalink to this headline">¶</a>
     <span class="member-descr">Relative position vector.</span>
@@ -940,7 +1720,7 @@ ARel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="ARel">
+    <div class="html-toggle member-entries even section collapsed" id="ARel">
     <span id="anyrefnode-arel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ARel </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#ARel" title="Permalink to this headline">¶</a>
     <span class="member-descr">Relative rotational transformation matrix (see class AnyRefFrame for a...</span>
@@ -1312,6 +2092,211 @@ viewRefFrame.Face
     </div><!--
 ..
 
+.. _AnyRefNode.viewNodes.UpdConfig:
+
+viewNodes.UpdConfig
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.UpdConfig">
+    <span id="anyrefnode-viewnodes-updconfig" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.UpdConfig" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.UpdDesign:
+
+viewNodes.UpdDesign
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.UpdDesign">
+    <span id="anyrefnode-viewnodes-upddesign" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.UpdDesign" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.UpdOutput:
+
+viewNodes.UpdOutput
+======================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.UpdOutput">
+    <span id="anyrefnode-viewnodes-updoutput" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.UpdOutput" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyIntVar`
+    | **Eval moment:** :ref:`OutputVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.ScaleXYZ:
+
+viewNodes.ScaleXYZ
+=====================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewNodes.ScaleXYZ">
+    <span id="anyrefnode-viewnodes-scalexyz" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.ScaleXYZ</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.ScaleXYZ" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Scaling factors for each reference system axis.</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVec3`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``{1.0, 1.0, 1.0}``
+
+
+
+
+    Scaling factors for each reference system axis.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyRefNode.viewNodes.Face:
+
+viewNodes.Face
+=================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.Face">
+    <span id="anyrefnode-viewnodes-face" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">viewNodes.Face</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewNodes.Face" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Normal direction specification. Outwards normal is defined by the surface...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``2.0``
+
+
+
+
+    Normal direction specification. Outwards normal is defined by the surface triangles' vertex numbering as '0' means clockwise, '1' means counter-clockwise, '-1' means both sides will be drawn on all object surfaces. Any other value implies automatic selection.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyRefNode.r:
 
 r
@@ -1322,7 +2307,7 @@ r
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="r">
+    <div class="html-toggle member-entries even section collapsed" id="r">
     <span id="anyrefnode-r" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">r</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#r" title="Permalink to this headline">¶</a>
     <span class="member-descr">Position vector of the origin.</span>
@@ -1363,7 +2348,7 @@ rDot
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="rDot">
+    <div class="html-toggle member-entries odd section collapsed" id="rDot">
     <span id="anyrefnode-rdot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">rDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector.</span>
@@ -1404,7 +2389,7 @@ rDDot
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="rDDot">
+    <div class="html-toggle member-entries even section collapsed" id="rDDot">
     <span id="anyrefnode-rddot" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">rDDot</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#rDDot" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector.</span>
@@ -1445,7 +2430,7 @@ Axes
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Axes">
+    <div class="html-toggle member-entries odd section collapsed" id="Axes">
     <span id="anyrefnode-axes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Axes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Axes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational transformation matrix (see class AnyRefFrame for a mathematical...</span>

@@ -593,6 +593,54 @@ AddMusclePowerForEcc
 
 
 
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyMetabModelB.AddMusclePowerForEccCoef:
+
+AddMusclePowerForEccCoef
+===========================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="AddMusclePowerForEccCoef">
+    <span id="anymetabmodelb-addmusclepowerforecccoef" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> AddMusclePowerForEccCoef </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#AddMusclePowerForEccCoef" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Fraction to the muscle power to add when 'AddMusclePowerForEcc' is 'On'....</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``1.0``
+    
+
+    
+    
+    
+
+
+
+    Fraction to the muscle power to add when 'AddMusclePowerForEcc' is 'On'. Default is '1.0' like in the paper. A values of '-1.0' will subtract the negative eccentric muscle power, i.e. add a positive value.
+
+..
+
+
+
 
 
 .. rst-class:: html-toggle

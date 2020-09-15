@@ -3004,14 +3004,14 @@ performing dynamic analysis of the musculo-skeletal system.</p>
 <div class="html-toggle member-entries odd section collapsed" id="MetabolicModel2">
 <span id="anybodystudy-metabolicmodel2" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> MetabolicModel2 </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#MetabolicModel2" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Pointer or array of pointers to metabolic models that are used to calculate...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Pointer or array of pointers to metabolic models that are used to calculate ‘Pmet2’. Each element produces one output in ‘Pmet2’.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
  </div> <!--</div>
@@ -4033,14 +4033,14 @@ performing dynamic analysis of the musculo-skeletal system.</p>
 <div class="html-toggle member-entries even section collapsed" id="Pmet2">
 <span id="anybodystudy-pmet2" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Pmet2</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Pmet2" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Alternative quantification of metabolic power useful for comparison. It...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Alternative quantification of metabolic power useful for comparison. It comprises the metabolic power of the muscles specified in ‘MetabolicMuscles2’ using the metabolsim model specified in ‘MetabolicModel2’. Notice that it, thereby, override metabolic models specified in the muscle objects and the ‘MetabolicModel’ member in this study. Notice also that ‘Pmet2’ can contain multiple values.</p>
 </div></blockquote>
 </div>
 </div>
@@ -7223,7 +7223,7 @@ version 4.x, where the functionality was moved and/or redesigned.</p>
 <li class="toctree-l1"><a class="reference internal" href="../function-overview.html"><strong>Function reference</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../globals-overview.html">Globals reference</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../environment.html">Environment variables</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../errors/index.html">Errors, warnings and messages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../messages/index.html">Errors, warnings and messages</a></li>
 </ul>
 <p class="caption"><span class="caption-text">Language</span></p>
 <ul>

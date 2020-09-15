@@ -1,0 +1,11 @@
+{% import "macros.jinja" as macros %}
+
+Settings Messages (``SET``)
+####################################################
+
+``SET.STY``
+-------------------------------------------------------
+
+{{ macros.create_messages_entries("SET.STY", anyscript_messages) }}
+
+

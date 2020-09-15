@@ -3273,7 +3273,7 @@ SPLine.SolverVersion
 
     <div class="html-toggle member-entries odd section collapsed" id="SPLine.SolverVersion">
     <span id="anymuscleshortestpath-spline-solverversion" style=""></span>
-    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverVersion </span><span class="member-title-equal">=</span><span class="member-title-default"> 2.0 </span><a class="headerlink" href="#SPLine.SolverVersion" title="Permalink to this headline">¶</a>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverVersion </span><span class="member-title-equal">=</span><span class="member-title-default"> 4.0 </span><a class="headerlink" href="#SPLine.SolverVersion" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
     </h4>
 
@@ -3282,7 +3282,7 @@ SPLine.SolverVersion
 
     | **Class type:**  :ref:`AnyVar`
     | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
-    | **Default:** ``2.0``
+    | **Default:** ``4.0``
 
         
 
@@ -3425,6 +3425,47 @@ SPLine.AbsTol
     </div><!--
 ..
 
+.. _AnyMuscleShortestPath.SPLine.AbsSurfDistTol:
+
+SPLine.AbsSurfDistTol
+------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.AbsSurfDistTol">
+    <span id="anymuscleshortestpath-spline-abssurfdisttol" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AbsSurfDistTol </span><span class="member-title-equal">=</span><span class="member-title-default"> 1e-08 </span><a class="headerlink" href="#SPLine.AbsSurfDistTol" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``1e-08``
+
+        
+
+    <No description>
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyMuscleShortestPath.SPLine.AugLagCoef:
 
 SPLine.AugLagCoef
@@ -3435,7 +3476,7 @@ SPLine.AugLagCoef
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.AugLagCoef">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.AugLagCoef">
     <span id="anymuscleshortestpath-spline-auglagcoef" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.AugLagCoef </span><span class="member-title-equal">=</span><span class="member-title-default"> 1000.0 </span><a class="headerlink" href="#SPLine.AugLagCoef" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coefficient for penalty term in the Augmented Lagragian method. Increasing...</span>
@@ -3476,7 +3517,7 @@ SPLine.MaxIteration
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.MaxIteration">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.MaxIteration">
     <span id="anymuscleshortestpath-spline-maxiteration" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxIteration </span><span class="member-title-equal">=</span><span class="member-title-default"> 500 </span><a class="headerlink" href="#SPLine.MaxIteration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum number of interation in line wrapping solver. It can be increased if...</span>
@@ -3517,7 +3558,7 @@ SPLine.MaxRelStepSize
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.MaxRelStepSize">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.MaxRelStepSize">
     <span id="anymuscleshortestpath-spline-maxrelstepsize" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxRelStepSize </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#SPLine.MaxRelStepSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">Maximum relative step size. The default of 1.0 implies full step size, but...</span>
@@ -3558,7 +3599,7 @@ SPLine.SolverType
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.SolverType">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.SolverType">
     <span id="anymuscleshortestpath-spline-solvertype" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.SolverType </span><span class="member-title-equal">=</span><span class="member-title-default"> SPSolverModes </span><a class="headerlink" href="#SPLine.SolverType" title="Permalink to this headline">¶</a>
     <span class="member-descr">The SolverType defines one of four solver for the wrapping problem. Possible...</span>
@@ -6028,6 +6069,47 @@ SPLine.Vel
     </div><!--
 ..
 
+.. _AnyMuscleShortestPath.SPLine.VelAna:
+
+SPLine.VelAna
+================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.VelAna">
+    <span id="anymuscleshortestpath-spline-velana" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.VelAna" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVector`
+    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    <No description>
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyMuscleShortestPath.SPLine.Acc:
 
 SPLine.Acc
@@ -6038,7 +6120,7 @@ SPLine.Acc
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.Acc">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.Acc">
     <span id="anymuscleshortestpath-spline-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -6079,7 +6161,7 @@ SPLine.viewKinMeasure.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.viewKinMeasure.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.viewKinMeasure.UpdConfig">
     <span id="anymuscleshortestpath-spline-viewkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -6120,7 +6202,7 @@ SPLine.viewKinMeasure.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.viewKinMeasure.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.viewKinMeasure.UpdDesign">
     <span id="anymuscleshortestpath-spline-viewkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -6161,7 +6243,7 @@ SPLine.viewKinMeasure.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.viewKinMeasure.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.viewKinMeasure.UpdOutput">
     <span id="anymuscleshortestpath-spline-viewkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -6202,7 +6284,7 @@ SPLine.P
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.P">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.P">
     <span id="anymuscleshortestpath-spline-p" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.P</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.P" title="Permalink to this headline">¶</a>
     <span class="member-descr">Matrix of points of the polyline, i.e., the mesh points.</span>

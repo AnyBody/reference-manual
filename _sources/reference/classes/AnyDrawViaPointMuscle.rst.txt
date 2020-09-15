@@ -331,7 +331,7 @@ Thickness
 
     <div class="html-toggle member-entries odd section collapsed" id="Thickness">
     <span id="anydrawviapointmuscle-thickness" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.01 </span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Thickness </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.005 </span><a class="headerlink" href="#Thickness" title="Permalink to this headline">¶</a>
     <span class="member-descr">Line thickness. This must either hold one value valid for all line segments...</span>
     </h3>
 
@@ -340,7 +340,7 @@ Thickness
 
     | **Class type:**  :ref:`AnyFloat`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
-    | **Default:** ``0.01``
+    | **Default:** ``0.005``
     
 
     
@@ -379,7 +379,7 @@ RGB
 
     <div class="html-toggle member-entries even section collapsed" id="RGB">
     <span id="anydrawviapointmuscle-rgb" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 1.0} </span><a class="headerlink" href="#RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1. This must either be an array with 3...</span>
     </h3>
 
@@ -388,7 +388,7 @@ RGB
 
     | **Class type:**  :ref:`AnyRGBs`
     | **Eval moment:** :ref:`ModelSceneVar <InsideAMS_EvalMoments>`
-    | **Default:** ``{0.5546875, 0.1015625, 0.1171875}``
+    | **Default:** ``{0.0, 0.0, 1.0}``
     
 
     
