@@ -99,23 +99,13 @@ acceleration are the same as the owner’s (global representations).</p>
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>Here is simple code block to create a node in a <a class="reference internal" href="AnyFixedRefFrame.html#anyfixedrefframe"><span class="std std-ref">AnyFixedRefFrame</span></a> which
 is typically used to define the global coordinate system. The <code class="docutils literal notranslate"><span class="pre">AnyRefNode</span></code> can
-also be embedded in any child objects of <a class="reference internal" href="AnyRefFrame.html#anyrefframe"><span class="std std-ref">AnyRefFrame</span></a>
-(e.g. <a class="reference internal" href="AnySeg.html#anyseg"><span class="std std-ref">AnySeg</span></a>, <code class="docutils literal notranslate"><span class="pre">AnyRefNode</span></code>).</p>
+also be embedded in any child objects of <a class="reference internal" href="AnyRefFrame.html#anyrefframe"><span class="std std-ref">AnyRefFrame</span></a> (e.g. <a class="reference internal" href="AnySeg.html#anyseg"><span class="std std-ref">AnySeg</span></a>, <code class="docutils literal notranslate"><span class="pre">AnyRefNode</span></code>).</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="kt">AnyFixedRefFrame</span> <span class="n">GlbRef</span> <span class="o">=</span> <span class="p">{</span>
 <span class="hll">    <span class="kt">AnyRefNode</span> <span class="n">Node</span> <span class="o">=</span> <span class="p">{</span>
 </span><span class="hll">        <span class="n">sRel</span> <span class="o">=</span> <span class="p">{</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">};</span>
+</span><span class="hll">        <span class="n">viewRefFrame</span><span class="p">.</span><span class="n">Visible</span> <span class="o">=</span> <span class="kp">On</span><span class="p">;</span>
 </span><span class="hll">    <span class="p">};</span>
 </span><span class="p">};</span>
-</pre></div>
-</div>
-<p>Here is a another example highlighting how to draw the node in the model view.
-The <a class="reference internal" href="AnyDrawNode.html#anydrawnode"><span class="std std-ref">AnyDrawNode</span></a> draws a small sphere drawing while <a class="reference internal" href="AnyDrawRefFrame.html#anydrawrefframe"><span class="std std-ref">AnyDrawRefFrame</span></a>
-creates a small reference frame drawing with x,y,z axes.</p>
-<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span> <span class="kt">AnyRefNode</span> <span class="n">Node</span> <span class="o">=</span> <span class="p">{</span>
-     <span class="n">sRel</span> <span class="o">=</span> <span class="p">{</span><span class="mf">0.1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">};</span>
-<span class="hll">     <span class="kt">AnyDrawNode</span> <span class="n">drw</span> <span class="o">=</span> <span class="p">{};</span>
-</span><span class="hll">     <span class="kt">AnyDrawRefFrame</span> <span class="n">drw</span> <span class="o">=</span> <span class="p">{};</span>
-</span> <span class="p">};</span>
 </pre></div>
 </div>
 <p> </p>
