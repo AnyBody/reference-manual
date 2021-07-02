@@ -6,22 +6,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnySeg &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>AnySeg &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
@@ -63,7 +63,7 @@
         <li class="right" >
           <a href="AnySearchFun.html" title="AnySearchFun"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +78,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="anyseg">
+  <section id="anyseg">
 <span id="id1"></span><h1>AnySeg<a class="headerlink" href="#anyseg" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -88,7 +88,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyMovingRefFrame.html#anymovingrefframe"><span class="std std-ref">AnyMovingRefFrame</span></a></p>
 </dd>
 </dl>
-<div class="section" id="description">
+<section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This class represents a rigid body in the mechanical model. This also referred to as a segment.</p>
 <p>The segment has a local (body-fixed) coordinate system and all local parameters are in principle related to this.
@@ -141,11 +141,11 @@ coordinate system. This shows result of the calculation done by the system.</p>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section" id="required-initialization-members">
+</section>
+<section id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="mass">
+<!--<section id="mass">
 <span id="anyseg-mass"></span><h3>Mass<a class="headerlink" href="#mass" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -161,28 +161,28 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The total mass of the segment.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="jii">
+</div><!--</section>
+<section id="jii">
 <span id="anyseg-jii"></span><h3>Jii<a class="headerlink" href="#jii" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="Jii">
 <span id="anyseg-jii" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Jii</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Jii" title="Permalink to this headline">¶</a>
-<span class="member-descr">Principal moments of inertia in a vector {Ixx,Iyy,Izz}.</span>
+<span class="member-descr">Vector of the diagonal elements of the inertia matrix {Ixx,Iyy,Izz}. By...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 </div>
-<p>Principal moments of inertia in a vector {Ixx,Iyy,Izz}.</p>
+<p>Vector of the diagonal elements of the inertia matrix {Ixx,Iyy,Izz}. By default, this is the principal moments of inertia (i.e. when sCoM is zero and JaboutCoMOnOff is On).</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="optional-initialization-members">
+</section>
+</section>
+<section id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="viewrefframe">
+  <!--<section id="viewrefframe">
 <h3>viewRefFrame<a class="headerlink" href="#viewrefframe" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -191,7 +191,7 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> viewRefFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewRefFrame" title="Permalink to this headline">¶</a>
 <span class="member-descr">Drawing object that renders the reference frame.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="viewrefframe-visible">
+<!--<section id="viewrefframe-visible">
 <span id="anyseg-viewrefframe-visible"></span><h4>viewRefFrame.Visible<a class="headerlink" href="#viewrefframe-visible" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -208,8 +208,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-opacity">
+</div><!--</section>
+<section id="viewrefframe-opacity">
 <span id="anyseg-viewrefframe-opacity"></span><h4>viewRefFrame.Opacity<a class="headerlink" href="#viewrefframe-opacity" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -226,8 +226,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-pickable">
+</div><!--</section>
+<section id="viewrefframe-pickable">
 <span id="anyseg-viewrefframe-pickable"></span><h4>viewRefFrame.Pickable<a class="headerlink" href="#viewrefframe-pickable" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -244,8 +244,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-pickablezordering">
+</div><!--</section>
+<section id="viewrefframe-pickablezordering">
 <span id="anyseg-viewrefframe-pickablezordering"></span><h4>viewRefFrame.PickableZOrdering<a class="headerlink" href="#viewrefframe-pickablezordering" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -262,8 +262,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-rgb">
+</div><!--</section>
+<section id="viewrefframe-rgb">
 <span id="anyseg-viewrefframe-rgb"></span><h4>viewRefFrame.RGB<a class="headerlink" href="#viewrefframe-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -280,8 +280,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Object color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-scalexyz">
+</div><!--</section>
+<section id="viewrefframe-scalexyz">
 <span id="anyseg-viewrefframe-scalexyz"></span><h4>viewRefFrame.ScaleXYZ<a class="headerlink" href="#viewrefframe-scalexyz" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -298,8 +298,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Scaling factors for each reference system axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-transparency">
+</div><!--</section>
+<section id="viewrefframe-transparency">
 <span id="anyseg-viewrefframe-transparency"></span><h4>viewRefFrame.Transparency<a class="headerlink" href="#viewrefframe-transparency" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -316,8 +316,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont">
+</div><!--</section>
+<section id="viewrefframe-textfont">
 <span id="anyseg-viewrefframe-textfont"></span><h4>viewRefFrame.TextFont<a class="headerlink" href="#viewrefframe-textfont" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -334,8 +334,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>General font setting for the object’s text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-rgb">
+</div><!--</section>
+<section id="viewrefframe-textfont-rgb">
 <span id="anyseg-viewrefframe-textfont-rgb"></span><h4>viewRefFrame.TextFont.RGB<a class="headerlink" href="#viewrefframe-textfont-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -352,8 +352,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-fontname">
+</div><!--</section>
+<section id="viewrefframe-textfont-fontname">
 <span id="anyseg-viewrefframe-textfont-fontname"></span><h4>viewRefFrame.TextFont.FontName<a class="headerlink" href="#viewrefframe-textfont-fontname" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -370,8 +370,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-height">
+</div><!--</section>
+<section id="viewrefframe-textfont-height">
 <span id="anyseg-viewrefframe-textfont-height"></span><h4>viewRefFrame.TextFont.Height<a class="headerlink" href="#viewrefframe-textfont-height" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -388,8 +388,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-width">
+</div><!--</section>
+<section id="viewrefframe-textfont-width">
 <span id="anyseg-viewrefframe-textfont-width"></span><h4>viewRefFrame.TextFont.Width<a class="headerlink" href="#viewrefframe-textfont-width" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -406,8 +406,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-bold">
+</div><!--</section>
+<section id="viewrefframe-textfont-bold">
 <span id="anyseg-viewrefframe-textfont-bold"></span><h4>viewRefFrame.TextFont.Bold<a class="headerlink" href="#viewrefframe-textfont-bold" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -424,8 +424,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-italic">
+</div><!--</section>
+<section id="viewrefframe-textfont-italic">
 <span id="anyseg-viewrefframe-textfont-italic"></span><h4>viewRefFrame.TextFont.Italic<a class="headerlink" href="#viewrefframe-textfont-italic" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -442,44 +442,44 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-billboardview">
+</div><!--</section>
+<section id="viewrefframe-textfont-billboardview">
 <span id="anyseg-viewrefframe-textfont-billboardview"></span><h4>viewRefFrame.TextFont.BillBoardView<a class="headerlink" href="#viewrefframe-textfont-billboardview" title="Permalink to this headline">¶</a></h4>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.TextFont.BillBoardView">
 <span id="anyseg-viewrefframe-textfont-billboardview" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewRefFrame.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-<span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+<span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
+<p>Switch for determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-modelsized">
+</div><!--</section>
+<section id="viewrefframe-textfont-modelsized">
 <span id="anyseg-viewrefframe-textfont-modelsized"></span><h4>viewRefFrame.TextFont.ModelSized<a class="headerlink" href="#viewrefframe-textfont-modelsized" title="Permalink to this headline">¶</a></h4>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.ModelSized">
 <span id="anyseg-viewrefframe-textfont-modelsized" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewRefFrame.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-<span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+<span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
+<p>Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-modelscaleheight">
+</div><!--</section>
+<section id="viewrefframe-textfont-modelscaleheight">
 <span id="anyseg-viewrefframe-textfont-modelscaleheight"></span><h4>viewRefFrame.TextFont.ModelScaleHeight<a class="headerlink" href="#viewrefframe-textfont-modelscaleheight" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -496,8 +496,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-modelscalewidth">
+</div><!--</section>
+<section id="viewrefframe-textfont-modelscalewidth">
 <span id="anyseg-viewrefframe-textfont-modelscalewidth"></span><h4>viewRefFrame.TextFont.ModelScaleWidth<a class="headerlink" href="#viewrefframe-textfont-modelscalewidth" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -514,8 +514,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-textfont-rotation">
+</div><!--</section>
+<section id="viewrefframe-textfont-rotation">
 <span id="anyseg-viewrefframe-textfont-rotation"></span><h4>viewRefFrame.TextFont.Rotation<a class="headerlink" href="#viewrefframe-textfont-rotation" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -532,9 +532,27 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The rotation (in degrees) of the text when BillBoardView is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</div>
+</div><!--</section>
+<section id="viewrefframe-textfont-overlay">
+<span id="anyseg-viewrefframe-textfont-overlay"></span><h4>viewRefFrame.TextFont.Overlay<a class="headerlink" href="#viewrefframe-textfont-overlay" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.Overlay">
+<span id="anyseg-viewrefframe-textfont-overlay" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewRefFrame.TextFont.Overlay" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<div class="section" id="viewnodes">
+<p>Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div></div> <!--</section>
+</section>
+<section id="viewnodes">
 <h3>viewNodes<a class="headerlink" href="#viewnodes" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -543,7 +561,7 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> viewNodes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewNodes" title="Permalink to this headline">¶</a>
 <span class="member-descr">Drawing object that renders the segment's nodes.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="viewnodes-visible">
+<!--<section id="viewnodes-visible">
 <span id="anyseg-viewnodes-visible"></span><h4>viewNodes.Visible<a class="headerlink" href="#viewnodes-visible" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -560,8 +578,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-opacity">
+</div><!--</section>
+<section id="viewnodes-opacity">
 <span id="anyseg-viewnodes-opacity"></span><h4>viewNodes.Opacity<a class="headerlink" href="#viewnodes-opacity" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -578,8 +596,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-pickable">
+</div><!--</section>
+<section id="viewnodes-pickable">
 <span id="anyseg-viewnodes-pickable"></span><h4>viewNodes.Pickable<a class="headerlink" href="#viewnodes-pickable" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -596,8 +614,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-pickablezordering">
+</div><!--</section>
+<section id="viewnodes-pickablezordering">
 <span id="anyseg-viewnodes-pickablezordering"></span><h4>viewNodes.PickableZOrdering<a class="headerlink" href="#viewnodes-pickablezordering" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -614,8 +632,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-rgb">
+</div><!--</section>
+<section id="viewnodes-rgb">
 <span id="anyseg-viewnodes-rgb"></span><h4>viewNodes.RGB<a class="headerlink" href="#viewnodes-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -632,8 +650,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Object color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-transparency">
+</div><!--</section>
+<section id="viewnodes-transparency">
 <span id="anyseg-viewnodes-transparency"></span><h4>viewNodes.Transparency<a class="headerlink" href="#viewnodes-transparency" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -650,8 +668,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont">
+</div><!--</section>
+<section id="viewnodes-textfont">
 <span id="anyseg-viewnodes-textfont"></span><h4>viewNodes.TextFont<a class="headerlink" href="#viewnodes-textfont" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -668,8 +686,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>General font setting for the object’s text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-rgb">
+</div><!--</section>
+<section id="viewnodes-textfont-rgb">
 <span id="anyseg-viewnodes-textfont-rgb"></span><h4>viewNodes.TextFont.RGB<a class="headerlink" href="#viewnodes-textfont-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -686,8 +704,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-fontname">
+</div><!--</section>
+<section id="viewnodes-textfont-fontname">
 <span id="anyseg-viewnodes-textfont-fontname"></span><h4>viewNodes.TextFont.FontName<a class="headerlink" href="#viewnodes-textfont-fontname" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -704,8 +722,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-height">
+</div><!--</section>
+<section id="viewnodes-textfont-height">
 <span id="anyseg-viewnodes-textfont-height"></span><h4>viewNodes.TextFont.Height<a class="headerlink" href="#viewnodes-textfont-height" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -722,8 +740,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-width">
+</div><!--</section>
+<section id="viewnodes-textfont-width">
 <span id="anyseg-viewnodes-textfont-width"></span><h4>viewNodes.TextFont.Width<a class="headerlink" href="#viewnodes-textfont-width" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -740,8 +758,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-bold">
+</div><!--</section>
+<section id="viewnodes-textfont-bold">
 <span id="anyseg-viewnodes-textfont-bold"></span><h4>viewNodes.TextFont.Bold<a class="headerlink" href="#viewnodes-textfont-bold" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -758,8 +776,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-italic">
+</div><!--</section>
+<section id="viewnodes-textfont-italic">
 <span id="anyseg-viewnodes-textfont-italic"></span><h4>viewNodes.TextFont.Italic<a class="headerlink" href="#viewnodes-textfont-italic" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -776,44 +794,44 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-billboardview">
+</div><!--</section>
+<section id="viewnodes-textfont-billboardview">
 <span id="anyseg-viewnodes-textfont-billboardview"></span><h4>viewNodes.TextFont.BillBoardView<a class="headerlink" href="#viewnodes-textfont-billboardview" title="Permalink to this headline">¶</a></h4>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.BillBoardView">
 <span id="anyseg-viewnodes-textfont-billboardview" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-<span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+<span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
+<p>Switch for determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-modelsized">
+</div><!--</section>
+<section id="viewnodes-textfont-modelsized">
 <span id="anyseg-viewnodes-textfont-modelsized"></span><h4>viewNodes.TextFont.ModelSized<a class="headerlink" href="#viewnodes-textfont-modelsized" title="Permalink to this headline">¶</a></h4>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.ModelSized">
 <span id="anyseg-viewnodes-textfont-modelsized" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-<span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+<span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
+<p>Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-modelscaleheight">
+</div><!--</section>
+<section id="viewnodes-textfont-modelscaleheight">
 <span id="anyseg-viewnodes-textfont-modelscaleheight"></span><h4>viewNodes.TextFont.ModelScaleHeight<a class="headerlink" href="#viewnodes-textfont-modelscaleheight" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -830,8 +848,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-modelscalewidth">
+</div><!--</section>
+<section id="viewnodes-textfont-modelscalewidth">
 <span id="anyseg-viewnodes-textfont-modelscalewidth"></span><h4>viewNodes.TextFont.ModelScaleWidth<a class="headerlink" href="#viewnodes-textfont-modelscalewidth" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -848,8 +866,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-textfont-rotation">
+</div><!--</section>
+<section id="viewnodes-textfont-rotation">
 <span id="anyseg-viewnodes-textfont-rotation"></span><h4>viewNodes.TextFont.Rotation<a class="headerlink" href="#viewnodes-textfont-rotation" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -866,9 +884,27 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The rotation (in degrees) of the text when BillBoardView is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</div>
+</div><!--</section>
+<section id="viewnodes-textfont-overlay">
+<span id="anyseg-viewnodes-textfont-overlay"></span><h4>viewNodes.TextFont.Overlay<a class="headerlink" href="#viewnodes-textfont-overlay" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.Overlay">
+<span id="anyseg-viewnodes-textfont-overlay" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.TextFont.Overlay" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
 </div>
-<div class="section" id="r0">
+<p>Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div></div> <!--</section>
+</section>
+<section id="r0">
 <span id="anyseg-r0"></span><h3>r0<a class="headerlink" href="#r0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -885,8 +921,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Initial position.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="rdot0">
+ </div> <!--</section>
+<section id="rdot0">
 <span id="anyseg-rdot0"></span><h3>rDot0<a class="headerlink" href="#rdot0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -903,8 +939,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Initial velocity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="axes0">
+ </div> <!--</section>
+<section id="axes0">
 <span id="anyseg-axes0"></span><h3>Axes0<a class="headerlink" href="#axes0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -921,8 +957,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Initial orientation as rotational transformation matrix (see class AnyRefFrame for a mathematical definition).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="omega0">
+ </div> <!--</section>
+<section id="omega0">
 <span id="anyseg-omega0"></span><h3>omega0<a class="headerlink" href="#omega0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -939,26 +975,26 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Initial angular velocity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="jij">
+ </div> <!--</section>
+<section id="jij">
 <span id="anyseg-jij"></span><h3>Jij<a class="headerlink" href="#jij" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="Jij">
 <span id="anyseg-jij" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Jij </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Jij" title="Permalink to this headline">¶</a>
-<span class="member-descr">Deviation moments of inertia {Ixy,Iyz,Ixz}.</span>
+<span class="member-descr">Vector of the off-diagonal elements of the inertia matrix, i.e. the...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVec3.html#anyvec3"><span class="std std-ref">AnyVec3</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">DesignVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">{0.0,</span> <span class="pre">0.0,</span> <span class="pre">0.0}</span></code></div>
 </div>
-<p>Deviation moments of inertia {Ixy,Iyz,Ixz}.</p>
+<p>Vector of the off-diagonal elements of the inertia matrix, i.e. the deviation moments of inertia {Ixy,Iyz,Ixz}.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="scom">
+ </div> <!--</section>
+<section id="scom">
 <span id="anyseg-scom"></span><h3>sCoM<a class="headerlink" href="#scom" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -975,8 +1011,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Relative location of the center of mass (CoM).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="jaboutcomonoff">
+ </div> <!--</section>
+<section id="jaboutcomonoff">
 <span id="anyseg-jaboutcomonoff"></span><h3>JaboutCoMOnOff<a class="headerlink" href="#jaboutcomonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -993,8 +1029,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for whether the inputted moments of inertia in Jii and Jij are related to the segment coordinate system (Off) or a parallel system located at the CoM (On).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="viewinertia">
+ </div> <!--</section>
+<section id="viewinertia">
 <h3>viewInertia<a class="headerlink" href="#viewinertia" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1003,7 +1039,7 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> viewInertia </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewInertia" title="Permalink to this headline">¶</a>
 <span class="member-descr">Drawing object that renders the segment's inertia distribution.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="viewinertia-visible">
+<!--<section id="viewinertia-visible">
 <span id="anyseg-viewinertia-visible"></span><h4>viewInertia.Visible<a class="headerlink" href="#viewinertia-visible" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1020,8 +1056,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-opacity">
+</div><!--</section>
+<section id="viewinertia-opacity">
 <span id="anyseg-viewinertia-opacity"></span><h4>viewInertia.Opacity<a class="headerlink" href="#viewinertia-opacity" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1038,8 +1074,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-pickable">
+</div><!--</section>
+<section id="viewinertia-pickable">
 <span id="anyseg-viewinertia-pickable"></span><h4>viewInertia.Pickable<a class="headerlink" href="#viewinertia-pickable" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1056,8 +1092,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-pickablezordering">
+</div><!--</section>
+<section id="viewinertia-pickablezordering">
 <span id="anyseg-viewinertia-pickablezordering"></span><h4>viewInertia.PickableZOrdering<a class="headerlink" href="#viewinertia-pickablezordering" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1074,8 +1110,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-rgb">
+</div><!--</section>
+<section id="viewinertia-rgb">
 <span id="anyseg-viewinertia-rgb"></span><h4>viewInertia.RGB<a class="headerlink" href="#viewinertia-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1092,8 +1128,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Object color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-transparency">
+</div><!--</section>
+<section id="viewinertia-transparency">
 <span id="anyseg-viewinertia-transparency"></span><h4>viewInertia.Transparency<a class="headerlink" href="#viewinertia-transparency" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1110,8 +1146,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Object transparency parameter. Values must be in the range from 0.0 (completely transparent) to 1.0 (completely opaque).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont">
+</div><!--</section>
+<section id="viewinertia-textfont">
 <span id="anyseg-viewinertia-textfont"></span><h4>viewInertia.TextFont<a class="headerlink" href="#viewinertia-textfont" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1128,8 +1164,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>General font setting for the object’s text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-rgb">
+</div><!--</section>
+<section id="viewinertia-textfont-rgb">
 <span id="anyseg-viewinertia-textfont-rgb"></span><h4>viewInertia.TextFont.RGB<a class="headerlink" href="#viewinertia-textfont-rgb" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1146,8 +1182,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Color in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-fontname">
+</div><!--</section>
+<section id="viewinertia-textfont-fontname">
 <span id="anyseg-viewinertia-textfont-fontname"></span><h4>viewInertia.TextFont.FontName<a class="headerlink" href="#viewinertia-textfont-fontname" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1164,8 +1200,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font name (Windows fonts).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-height">
+</div><!--</section>
+<section id="viewinertia-textfont-height">
 <span id="anyseg-viewinertia-textfont-height"></span><h4>viewInertia.TextFont.Height<a class="headerlink" href="#viewinertia-textfont-height" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1182,8 +1218,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font glyph height in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-width">
+</div><!--</section>
+<section id="viewinertia-textfont-width">
 <span id="anyseg-viewinertia-textfont-width"></span><h4>viewInertia.TextFont.Width<a class="headerlink" href="#viewinertia-textfont-width" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1200,8 +1236,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Font glyph width in pixels.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-bold">
+</div><!--</section>
+<section id="viewinertia-textfont-bold">
 <span id="anyseg-viewinertia-textfont-bold"></span><h4>viewInertia.TextFont.Bold<a class="headerlink" href="#viewinertia-textfont-bold" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1218,8 +1254,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for bold face type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-italic">
+</div><!--</section>
+<section id="viewinertia-textfont-italic">
 <span id="anyseg-viewinertia-textfont-italic"></span><h4>viewInertia.TextFont.Italic<a class="headerlink" href="#viewinertia-textfont-italic" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1236,44 +1272,44 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Switch for italic type setting.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-billboardview">
+</div><!--</section>
+<section id="viewinertia-textfont-billboardview">
 <span id="anyseg-viewinertia-textfont-billboardview"></span><h4>viewInertia.TextFont.BillBoardView<a class="headerlink" href="#viewinertia-textfont-billboardview" title="Permalink to this headline">¶</a></h4>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="viewInertia.TextFont.BillBoardView">
 <span id="anyseg-viewinertia-textfont-billboardview" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewInertia.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-<span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+<span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.</p>
+<p>Switch for determining if the text will always be facing the viewport. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-modelsized">
+</div><!--</section>
+<section id="viewinertia-textfont-modelsized">
 <span id="anyseg-viewinertia-textfont-modelsized"></span><h4>viewInertia.TextFont.ModelSized<a class="headerlink" href="#viewinertia-textfont-modelsized" title="Permalink to this headline">¶</a></h4>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.ModelSized">
 <span id="anyseg-viewinertia-textfont-modelsized" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewInertia.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-<span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+<span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
 </h4><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">On</span></code></div>
 </div>
-<p>AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
+<p>Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-modelscaleheight">
+</div><!--</section>
+<section id="viewinertia-textfont-modelscaleheight">
 <span id="anyseg-viewinertia-textfont-modelscaleheight"></span><h4>viewInertia.TextFont.ModelScaleHeight<a class="headerlink" href="#viewinertia-textfont-modelscaleheight" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1290,8 +1326,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The height scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-modelscalewidth">
+</div><!--</section>
+<section id="viewinertia-textfont-modelscalewidth">
 <span id="anyseg-viewinertia-textfont-modelscalewidth"></span><h4>viewInertia.TextFont.ModelScaleWidth<a class="headerlink" href="#viewinertia-textfont-modelscalewidth" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1308,8 +1344,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The width scaling of the text when ModelSized is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-textfont-rotation">
+</div><!--</section>
+<section id="viewinertia-textfont-rotation">
 <span id="anyseg-viewinertia-textfont-rotation"></span><h4>viewInertia.TextFont.Rotation<a class="headerlink" href="#viewinertia-textfont-rotation" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1326,12 +1362,30 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The rotation (in degrees) of the text when BillBoardView is enabled.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-inertiascale">
+</div><!--</section>
+<section id="viewinertia-textfont-overlay">
+<span id="anyseg-viewinertia-textfont-overlay"></span><h4>viewInertia.TextFont.Overlay<a class="headerlink" href="#viewinertia-textfont-overlay" title="Permalink to this headline">¶</a></h4>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.Overlay">
+<span id="anyseg-viewinertia-textfont-overlay" style=""></span>
+<h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewInertia.TextFont.Overlay" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+</h4><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">Const</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
+</div>
+<p>Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+</div><!--</section>
+<section id="viewinertia-inertiascale">
 <span id="anyseg-viewinertia-inertiascale"></span><h4>viewInertia.InertiaScale<a class="headerlink" href="#viewinertia-inertiascale" title="Permalink to this headline">¶</a></h4>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="viewInertia.InertiaScale">
+<div class="html-toggle member-entries even section collapsed" id="viewInertia.InertiaScale">
 <span id="anyseg-viewinertia-inertiascale" style=""></span>
 <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InertiaScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewInertia.InertiaScale" title="Permalink to this headline">¶</a>
 <span class="member-descr">Scaling factor for the graphical representation of the inertia distribution.</span>
@@ -1343,13 +1397,13 @@ coordinate system. This shows result of the calculation done by the system.</p>
 </div>
 <p>Scaling factor for the graphical representation of the inertia distribution.</p>
 </div></blockquote>
-</div>
-</div>
-</div>
-<div class="html-toggle section" id="denied-access-members">
+</section>
+</section>
+</section>
+<section class="html-toggle" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="updconfig">
+<!--<section id="updconfig">
 <span id="anyseg-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1366,8 +1420,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="upddesign">
+</div><!--</section>
+<section id="upddesign">
 <span id="anyseg-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1384,8 +1438,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="updoutput">
+</div><!--</section>
+<section id="updoutput">
 <span id="anyseg-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1402,8 +1456,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="t">
+</div><!--</section>
+<section id="t">
 <span id="anyseg-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1420,8 +1474,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-updconfig">
+</div><!--</section>
+<section id="viewrefframe-updconfig">
 <span id="anyseg-viewrefframe-updconfig"></span><h3>viewRefFrame.UpdConfig<a class="headerlink" href="#viewrefframe-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1438,8 +1492,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-upddesign">
+</div><!--</section>
+<section id="viewrefframe-upddesign">
 <span id="anyseg-viewrefframe-upddesign"></span><h3>viewRefFrame.UpdDesign<a class="headerlink" href="#viewrefframe-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1456,8 +1510,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-updoutput">
+</div><!--</section>
+<section id="viewrefframe-updoutput">
 <span id="anyseg-viewrefframe-updoutput"></span><h3>viewRefFrame.UpdOutput<a class="headerlink" href="#viewrefframe-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1474,8 +1528,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewrefframe-face">
+</div><!--</section>
+<section id="viewrefframe-face">
 <span id="anyseg-viewrefframe-face"></span><h3>viewRefFrame.Face<a class="headerlink" href="#viewrefframe-face" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1492,8 +1546,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Normal direction specification. Outwards normal is defined by the surface triangles’ vertex numbering as ‘0’ means clockwise, ‘1’ means counter-clockwise, ‘-1’ means both sides will be drawn on all object surfaces. Any other value implies automatic selection.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-updconfig">
+</div><!--</section>
+<section id="viewnodes-updconfig">
 <span id="anyseg-viewnodes-updconfig"></span><h3>viewNodes.UpdConfig<a class="headerlink" href="#viewnodes-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1510,8 +1564,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-upddesign">
+</div><!--</section>
+<section id="viewnodes-upddesign">
 <span id="anyseg-viewnodes-upddesign"></span><h3>viewNodes.UpdDesign<a class="headerlink" href="#viewnodes-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1528,8 +1582,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-updoutput">
+</div><!--</section>
+<section id="viewnodes-updoutput">
 <span id="anyseg-viewnodes-updoutput"></span><h3>viewNodes.UpdOutput<a class="headerlink" href="#viewnodes-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1546,8 +1600,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-scalexyz">
+</div><!--</section>
+<section id="viewnodes-scalexyz">
 <span id="anyseg-viewnodes-scalexyz"></span><h3>viewNodes.ScaleXYZ<a class="headerlink" href="#viewnodes-scalexyz" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1564,8 +1618,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Scaling factors for each reference system axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewnodes-face">
+</div><!--</section>
+<section id="viewnodes-face">
 <span id="anyseg-viewnodes-face"></span><h3>viewNodes.Face<a class="headerlink" href="#viewnodes-face" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1582,8 +1636,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Normal direction specification. Outwards normal is defined by the surface triangles’ vertex numbering as ‘0’ means clockwise, ‘1’ means counter-clockwise, ‘-1’ means both sides will be drawn on all object surfaces. Any other value implies automatic selection.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="r">
+</div><!--</section>
+<section id="r">
 <span id="anyseg-r"></span><h3>r<a class="headerlink" href="#r" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1600,8 +1654,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Position vector of the origin.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="rdot">
+</div><!--</section>
+<section id="rdot">
 <span id="anyseg-rdot"></span><h3>rDot<a class="headerlink" href="#rdot" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1618,8 +1672,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The velocity vector.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="rddot">
+</div><!--</section>
+<section id="rddot">
 <span id="anyseg-rddot"></span><h3>rDDot<a class="headerlink" href="#rddot" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1636,8 +1690,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The acceleration vector.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="axes">
+</div><!--</section>
+<section id="axes">
 <span id="anyseg-axes"></span><h3>Axes<a class="headerlink" href="#axes" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1654,8 +1708,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Rotational transformation matrix (see class AnyRefFrame for a mathematical definition).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="omega">
+</div><!--</section>
+<section id="omega">
 <span id="anyseg-omega"></span><h3>omega<a class="headerlink" href="#omega" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1672,8 +1726,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Angular velocity vector (global representation).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="omegadot">
+</div><!--</section>
+<section id="omegadot">
 <span id="anyseg-omegadot"></span><h3>omegaDot<a class="headerlink" href="#omegadot" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1690,8 +1744,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Angular acceleration vector.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="jmatrix">
+</div><!--</section>
+<section id="jmatrix">
 <span id="anyseg-jmatrix"></span><h3>Jmatrix<a class="headerlink" href="#jmatrix" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1708,8 +1762,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>The actual inertia matrix referring the body-fixed segment coordinate system.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="ekin">
+</div><!--</section>
+<section id="ekin">
 <span id="anyseg-ekin"></span><h3>Ekin<a class="headerlink" href="#ekin" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1726,8 +1780,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Kinetic energy of the segment.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="epot">
+</div><!--</section>
+<section id="epot">
 <span id="anyseg-epot"></span><h3>Epot<a class="headerlink" href="#epot" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1744,8 +1798,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Potential energy of the segment associated with the field of gravity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-updconfig">
+</div><!--</section>
+<section id="viewinertia-updconfig">
 <span id="anyseg-viewinertia-updconfig"></span><h3>viewInertia.UpdConfig<a class="headerlink" href="#viewinertia-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1762,8 +1816,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-upddesign">
+</div><!--</section>
+<section id="viewinertia-upddesign">
 <span id="anyseg-viewinertia-upddesign"></span><h3>viewInertia.UpdDesign<a class="headerlink" href="#viewinertia-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1780,8 +1834,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-updoutput">
+</div><!--</section>
+<section id="viewinertia-updoutput">
 <span id="anyseg-viewinertia-updoutput"></span><h3>viewInertia.UpdOutput<a class="headerlink" href="#viewinertia-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1798,8 +1852,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-scalexyz">
+</div><!--</section>
+<section id="viewinertia-scalexyz">
 <span id="anyseg-viewinertia-scalexyz"></span><h3>viewInertia.ScaleXYZ<a class="headerlink" href="#viewinertia-scalexyz" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1816,8 +1870,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
 <p>Scaling factors for each reference system axis.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewinertia-face">
+</div><!--</section>
+<section id="viewinertia-face">
 <span id="anyseg-viewinertia-face"></span><h3>viewInertia.Face<a class="headerlink" href="#viewinertia-face" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1833,9 +1887,9 @@ coordinate system. This shows result of the calculation done by the system.</p>
 </div>
 <p>Normal direction specification. Outwards normal is defined by the surface triangles’ vertex numbering as ‘0’ means clockwise, ‘1’ means counter-clockwise, ‘-1’ means both sides will be drawn on all object surfaces. Any other value implies automatic selection.</p>
 </div></blockquote>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -1915,7 +1969,7 @@ coordinate system. This shows result of the calculation done by the system.</p>
         <li class="right" >
           <a href="AnySearchFun.html" title="AnySearchFun"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -1925,8 +1979,8 @@ coordinate system. This shows result of the calculation done by the system.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

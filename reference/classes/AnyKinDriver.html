@@ -6,22 +6,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnyKinDriver &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>AnyKinDriver &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
@@ -63,7 +63,7 @@
         <li class="right" >
           <a href="AnyKinCoM.html" title="AnyKinCoM"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +78,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="anykindriver">
+  <section id="anykindriver">
 <span id="id1"></span><h1>AnyKinDriver<a class="headerlink" href="#anykindriver" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -91,7 +91,7 @@
 <dd class="field-odd"><p><a class="reference internal" href="AnyKinDriverMarker.html#anykindrivermarker"><span class="std std-ref">AnyKinDriverMarker</span></a>, <a class="reference internal" href="AnyKinMotion.html#anykinmotion"><span class="std std-ref">AnyKinMotion</span></a></p>
 </dd>
 </dl>
-<div class="section" id="description">
+<section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This kinematic driver class extends the kinematic-driver base-classes with
 a simple and a general interface for specifying a time-dependent motion for the driven
@@ -112,8 +112,8 @@ resulting driver function.</p>
 This means the driver also provides the force/moments necessary to support the motion.</p>
 <p>In some we want,  for example, muscles to provide the moments and hence we need to disable the reactions.</p>
 </div>
-</div>
-<div class="section" id="examples">
+</section>
+<section id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>Applying a simple kinematical driver by using an <code class="docutils literal notranslate"><span class="pre">AnyKinDriver</span></code> object with member variables:</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="kt">AnyKinDriver</span> <span class="n">JointDriver</span> <span class="o">=</span> <span class="p">{</span>
@@ -159,11 +159,11 @@ This means the driver also provides the force/moments necessary to support the m
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section" id="expected-members">
+</section>
+<section id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="anykinmeasure">
+<!--<section id="anykinmeasure">
 <span id="anykindriver-anykinmeasure"></span><h3>AnyKinMeasure<a class="headerlink" href="#anykinmeasure" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -179,8 +179,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Kinematic measures that should be used by this object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="anyparamfun">
+</div><!--</section>
+<section id="anyparamfun">
 <span id="anykindriver-anyparamfun"></span><h3>AnyParamFun<a class="headerlink" href="#anyparamfun" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -195,12 +195,12 @@ This means the driver also provides the force/moments necessary to support the m
 </div>
 <p>Parameter functions (single input parameter), used as time-dependent kinematical driver functions.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="optional-initialization-members">
+</section>
+</section>
+<section id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="viewkinmeasure">
+  <!--<section id="viewkinmeasure">
 <h3>viewKinMeasure<a class="headerlink" href="#viewkinmeasure" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -209,7 +209,7 @@ This means the driver also provides the force/moments necessary to support the m
 <h3 class="html-toggle-button" style=""><span class="member-title"> viewKinMeasure </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewKinMeasure" title="Permalink to this headline">¶</a>
 <span class="member-descr">Drawing object that renders the kinematic measure.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="viewkinmeasure-visible">
+<!--<section id="viewkinmeasure-visible">
 <span id="anykindriver-viewkinmeasure-visible"></span><h4>viewKinMeasure.Visible<a class="headerlink" href="#viewkinmeasure-visible" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -226,8 +226,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-opacity">
+</div><!--</section>
+<section id="viewkinmeasure-opacity">
 <span id="anykindriver-viewkinmeasure-opacity"></span><h4>viewKinMeasure.Opacity<a class="headerlink" href="#viewkinmeasure-opacity" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -244,8 +244,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-pickable">
+</div><!--</section>
+<section id="viewkinmeasure-pickable">
 <span id="anykindriver-viewkinmeasure-pickable"></span><h4>viewKinMeasure.Pickable<a class="headerlink" href="#viewkinmeasure-pickable" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -262,8 +262,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-pickablezordering">
+</div><!--</section>
+<section id="viewkinmeasure-pickablezordering">
 <span id="anykindriver-viewkinmeasure-pickablezordering"></span><h4>viewKinMeasure.PickableZOrdering<a class="headerlink" href="#viewkinmeasure-pickablezordering" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -280,8 +280,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb1">
+</div><!--</section>
+<section id="viewkinmeasure-rgb1">
 <span id="anykindriver-viewkinmeasure-rgb1"></span><h4>viewKinMeasure.RGB1<a class="headerlink" href="#viewkinmeasure-rgb1" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -298,8 +298,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Color F1 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb2">
+</div><!--</section>
+<section id="viewkinmeasure-rgb2">
 <span id="anykindriver-viewkinmeasure-rgb2"></span><h4>viewKinMeasure.RGB2<a class="headerlink" href="#viewkinmeasure-rgb2" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -316,8 +316,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Color F2 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb3">
+</div><!--</section>
+<section id="viewkinmeasure-rgb3">
 <span id="anykindriver-viewkinmeasure-rgb3"></span><h4>viewKinMeasure.RGB3<a class="headerlink" href="#viewkinmeasure-rgb3" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -334,8 +334,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Color F3 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb4">
+</div><!--</section>
+<section id="viewkinmeasure-rgb4">
 <span id="anykindriver-viewkinmeasure-rgb4"></span><h4>viewKinMeasure.RGB4<a class="headerlink" href="#viewkinmeasure-rgb4" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -352,8 +352,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Color F4 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-label">
+</div><!--</section>
+<section id="viewkinmeasure-label">
 <span id="anykindriver-viewkinmeasure-label"></span><h4>viewKinMeasure.Label<a class="headerlink" href="#viewkinmeasure-label" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -370,8 +370,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-size">
+</div><!--</section>
+<section id="viewkinmeasure-size">
 <span id="anykindriver-viewkinmeasure-size"></span><h4>viewKinMeasure.Size<a class="headerlink" href="#viewkinmeasure-size" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -388,8 +388,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Radius size of the balls etc. of the AnyDrawKinMeasure.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-line">
+</div><!--</section>
+<section id="viewkinmeasure-line">
 <span id="anykindriver-viewkinmeasure-line"></span><h4>viewKinMeasure.Line<a class="headerlink" href="#viewkinmeasure-line" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -406,8 +406,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>On/Off value indicating whether the AnyDrawKinMeasure should have a line between ball components.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-text">
+</div><!--</section>
+<section id="viewkinmeasure-text">
 <span id="anykindriver-viewkinmeasure-text"></span><h4>viewKinMeasure.Text<a class="headerlink" href="#viewkinmeasure-text" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -424,8 +424,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>If set, this text is shown as the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-textsize">
+</div><!--</section>
+<section id="viewkinmeasure-textsize">
 <span id="anykindriver-viewkinmeasure-textsize"></span><h4>viewKinMeasure.TextSize<a class="headerlink" href="#viewkinmeasure-textsize" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -442,8 +442,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The size in pixels of the Text label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showillustration">
+</div><!--</section>
+<section id="viewkinmeasure-showillustration">
 <span id="anykindriver-viewkinmeasure-showillustration"></span><h4>viewKinMeasure.ShowIllustration<a class="headerlink" href="#viewkinmeasure-showillustration" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -460,8 +460,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Indicates if the graphical representation of the kinematic measure should be drawn if applicable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showlabellines">
+</div><!--</section>
+<section id="viewkinmeasure-showlabellines">
 <span id="anykindriver-viewkinmeasure-showlabellines"></span><h4>viewKinMeasure.ShowLabelLines<a class="headerlink" href="#viewkinmeasure-showlabellines" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -478,8 +478,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Indicates if the lines from the label to the reference frames of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showvalue">
+</div><!--</section>
+<section id="viewkinmeasure-showvalue">
 <span id="anykindriver-viewkinmeasure-showvalue"></span><h4>viewKinMeasure.ShowValue<a class="headerlink" href="#viewkinmeasure-showvalue" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -496,8 +496,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Indicates if the pos value of the kinematic measure should be shown in the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showlabelborder">
+</div><!--</section>
+<section id="viewkinmeasure-showlabelborder">
 <span id="anykindriver-viewkinmeasure-showlabelborder"></span><h4>viewKinMeasure.ShowLabelBorder<a class="headerlink" href="#viewkinmeasure-showlabelborder" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -514,8 +514,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Indicates if the label of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-illustrationpositionoffset">
+</div><!--</section>
+<section id="viewkinmeasure-illustrationpositionoffset">
 <span id="anykindriver-viewkinmeasure-illustrationpositionoffset"></span><h4>viewKinMeasure.IllustrationPositionOffset<a class="headerlink" href="#viewkinmeasure-illustrationpositionoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -532,8 +532,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Positional offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-illustrationrotationoffset">
+</div><!--</section>
+<section id="viewkinmeasure-illustrationrotationoffset">
 <span id="anykindriver-viewkinmeasure-illustrationrotationoffset"></span><h4>viewKinMeasure.IllustrationRotationOffset<a class="headerlink" href="#viewkinmeasure-illustrationrotationoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -550,8 +550,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Rotational offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-refillustration">
+</div><!--</section>
+<section id="viewkinmeasure-refillustration">
 <span id="anykindriver-viewkinmeasure-refillustration"></span><h4>viewKinMeasure.RefIllustration<a class="headerlink" href="#viewkinmeasure-refillustration" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -570,8 +570,8 @@ This means the driver also provides the force/moments necessary to support the m
 -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-reflabel">
+</div><!--</section>
+<section id="viewkinmeasure-reflabel">
 <span id="anykindriver-viewkinmeasure-reflabel"></span><h4>viewKinMeasure.RefLabel<a class="headerlink" href="#viewkinmeasure-reflabel" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -590,8 +590,8 @@ This means the driver also provides the force/moments necessary to support the m
 -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-labelpositionoffset">
+</div><!--</section>
+<section id="viewkinmeasure-labelpositionoffset">
 <span id="anykindriver-viewkinmeasure-labelpositionoffset"></span><h4>viewKinMeasure.LabelPositionOffset<a class="headerlink" href="#viewkinmeasure-labelpositionoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -608,8 +608,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Positional offset for the label of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuescaling">
+</div><!--</section>
+<section id="viewkinmeasure-valuescaling">
 <span id="anykindriver-viewkinmeasure-valuescaling"></span><h4>viewKinMeasure.ValueScaling<a class="headerlink" href="#viewkinmeasure-valuescaling" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -626,8 +626,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Value used as a factor for the displayed pos value of the kinematic measure. This must either be a scalar or have the same size as pos of the kinematic measure being drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle">
 <span id="anykindriver-viewkinmeasure-valuestyle"></span><h4>viewKinMeasure.ValueStyle<a class="headerlink" href="#viewkinmeasure-valuestyle" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -644,8 +644,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Format settings for the label text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-digits">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-digits">
 <span id="anykindriver-viewkinmeasure-valuestyle-digits"></span><h4>viewKinMeasure.ValueStyle.Digits<a class="headerlink" href="#viewkinmeasure-valuestyle-digits" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -662,8 +662,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-style">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-style">
 <span id="anykindriver-viewkinmeasure-valuestyle-style"></span><h4>viewKinMeasure.ValueStyle.Style<a class="headerlink" href="#viewkinmeasure-valuestyle-style" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -680,8 +680,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Style of the numeric output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-scale">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-scale">
 <span id="anykindriver-viewkinmeasure-valuestyle-scale"></span><h4>viewKinMeasure.ValueStyle.Scale<a class="headerlink" href="#viewkinmeasure-valuestyle-scale" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -698,8 +698,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Switch for scaling.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-scaleval">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-scaleval">
 <span id="anykindriver-viewkinmeasure-valuestyle-scaleval"></span><h4>viewKinMeasure.ValueStyle.ScaleVal<a class="headerlink" href="#viewkinmeasure-valuestyle-scaleval" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -716,9 +716,9 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Scaling factor.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</div>
-</div>
-<div class="section" id="measureorganizer">
+ </div></div> <!--</section>
+</section>
+<section id="measureorganizer">
 <span id="anykindriver-measureorganizer"></span><h3>MeasureOrganizer<a class="headerlink" href="#measureorganizer" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -735,8 +735,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>List of indices of components from the assembled measures to be included in the new (organized) measure.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="ctype">
+ </div> <!--</section>
+<section id="ctype">
 <span id="anykindriver-ctype"></span><h3>CType<a class="headerlink" href="#ctype" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -753,8 +753,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Constraint type specification that specify how the kinematic solver should handle the constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="weightfun">
+ </div> <!--</section>
+<section id="weightfun">
 <span id="anykindriver-weightfun"></span><h3>WeightFun<a class="headerlink" href="#weightfun" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -771,8 +771,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Kinematic weighting functions, i.e., time-functions (AnyParamFun) which multiplied to the kinemtic measures before it is used as constraints. An array of vector functions can be entered; in case of more than one function, their outputs are stacked into one vector. The total number of elements must match the dimension of the kinematic measure.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="reaction">
+ </div> <!--</section>
+<section id="reaction">
 <h3>Reaction<a class="headerlink" href="#reaction" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -781,7 +781,7 @@ This means the driver also provides the force/moments necessary to support the m
 <h3 class="html-toggle-button" style=""><span class="member-title"> Reaction </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Reaction" title="Permalink to this headline">¶</a>
 <span class="member-descr">Reaction forces associated with the constraints.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="reaction-viewforce">
+<!--<section id="reaction-viewforce">
 <span id="anykindriver-reaction-viewforce"></span><h4>Reaction.viewForce<a class="headerlink" href="#reaction-viewforce" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -798,8 +798,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Drawing object that renders the force.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-visible">
+</div><!--</section>
+<section id="reaction-viewforce-visible">
 <span id="anykindriver-reaction-viewforce-visible"></span><h4>Reaction.viewForce.Visible<a class="headerlink" href="#reaction-viewforce-visible" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -816,8 +816,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-opacity">
+</div><!--</section>
+<section id="reaction-viewforce-opacity">
 <span id="anykindriver-reaction-viewforce-opacity"></span><h4>Reaction.viewForce.Opacity<a class="headerlink" href="#reaction-viewforce-opacity" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -834,8 +834,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-pickable">
+</div><!--</section>
+<section id="reaction-viewforce-pickable">
 <span id="anykindriver-reaction-viewforce-pickable"></span><h4>Reaction.viewForce.Pickable<a class="headerlink" href="#reaction-viewforce-pickable" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -852,8 +852,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-pickablezordering">
+</div><!--</section>
+<section id="reaction-viewforce-pickablezordering">
 <span id="anykindriver-reaction-viewforce-pickablezordering"></span><h4>Reaction.viewForce.PickableZOrdering<a class="headerlink" href="#reaction-viewforce-pickablezordering" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -870,8 +870,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-showtotalforces">
+</div><!--</section>
+<section id="reaction-viewforce-showtotalforces">
 <span id="anykindriver-reaction-viewforce-showtotalforces"></span><h4>Reaction.viewForce.ShowTotalForces<a class="headerlink" href="#reaction-viewforce-showtotalforces" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -888,8 +888,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Switch for showing total forces at each RefFrame for the force drawing.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-showcomponentforces">
+</div><!--</section>
+<section id="reaction-viewforce-showcomponentforces">
 <span id="anykindriver-reaction-viewforce-showcomponentforces"></span><h4>Reaction.viewForce.ShowComponentForces<a class="headerlink" href="#reaction-viewforce-showcomponentforces" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -906,8 +906,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Switch for showing component forces at each RefFrame for the force drawing.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-forcescale">
+</div><!--</section>
+<section id="reaction-viewforce-forcescale">
 <span id="anykindriver-reaction-viewforce-forcescale"></span><h4>Reaction.viewForce.ForceScale<a class="headerlink" href="#reaction-viewforce-forcescale" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -924,8 +924,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The scaling used for drawing forces in the modelview.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-componentscale">
+</div><!--</section>
+<section id="reaction-viewforce-componentscale">
 <span id="anykindriver-reaction-viewforce-componentscale"></span><h4>Reaction.viewForce.ComponentScale<a class="headerlink" href="#reaction-viewforce-componentscale" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -942,8 +942,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The scaling used for drawing force components in the modelview.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-momenttoforcescale">
+</div><!--</section>
+<section id="reaction-viewforce-momenttoforcescale">
 <span id="anykindriver-reaction-viewforce-momenttoforcescale"></span><h4>Reaction.viewForce.MomentToForceScale<a class="headerlink" href="#reaction-viewforce-momenttoforcescale" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -960,8 +960,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The scaling used between forces and moments in the modelview.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-maximumforcelength">
+</div><!--</section>
+<section id="reaction-viewforce-maximumforcelength">
 <span id="anykindriver-reaction-viewforce-maximumforcelength"></span><h4>Reaction.viewForce.MaximumForceLength<a class="headerlink" href="#reaction-viewforce-maximumforcelength" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -978,8 +978,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The maximum length of the force drawing arrow relative to the viewport width.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-minimumforcelength">
+</div><!--</section>
+<section id="reaction-viewforce-minimumforcelength">
 <span id="anykindriver-reaction-viewforce-minimumforcelength"></span><h4>Reaction.viewForce.MinimumForceLength<a class="headerlink" href="#reaction-viewforce-minimumforcelength" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -996,8 +996,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The minimum length of the force drawing arrow relative to the maximum force drawing arrow length.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-reactionforcecolor">
+</div><!--</section>
+<section id="reaction-viewforce-reactionforcecolor">
 <span id="anykindriver-reaction-viewforce-reactionforcecolor"></span><h4>Reaction.viewForce.ReactionForceColor<a class="headerlink" href="#reaction-viewforce-reactionforcecolor" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1014,8 +1014,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The color used for drawing reaction force arrowhead tips.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-appliedforcecolor">
+</div><!--</section>
+<section id="reaction-viewforce-appliedforcecolor">
 <span id="anykindriver-reaction-viewforce-appliedforcecolor"></span><h4>Reaction.viewForce.AppliedForceColor<a class="headerlink" href="#reaction-viewforce-appliedforcecolor" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1032,8 +1032,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The color used for drawing applied force arrowhead tips.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-scaletoview">
+</div><!--</section>
+<section id="reaction-viewforce-scaletoview">
 <span id="anykindriver-reaction-viewforce-scaletoview"></span><h4>Reaction.viewForce.ScaleToView<a class="headerlink" href="#reaction-viewforce-scaletoview" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1050,8 +1050,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Switch for enabling scaling of force/moment arrows to viewport size.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-type">
+</div><!--</section>
+<section id="reaction-type">
 <span id="anykindriver-reaction-type"></span><h4>Reaction.Type<a class="headerlink" href="#reaction-type" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -1068,9 +1068,9 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Type specification of the reaction forces. Defaults to: <code class="docutils literal notranslate"><span class="pre">repmat(nDim,</span> <span class="pre">On)</span></code></p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</div>
-</div>
-<div class="section" id="driverpos0">
+ </div></div> <!--</section>
+</section>
+<section id="driverpos0">
 <span id="anykindriver-driverpos0"></span><h3>DriverPos0<a class="headerlink" href="#driverpos0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1087,8 +1087,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Initial position at time zero.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="drivervel0">
+ </div> <!--</section>
+<section id="drivervel0">
 <span id="anykindriver-drivervel0"></span><h3>DriverVel0<a class="headerlink" href="#drivervel0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1105,8 +1105,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Initial velocity at time zero.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="driveracc0">
+ </div> <!--</section>
+<section id="driveracc0">
 <span id="anykindriver-driveracc0"></span><h3>DriverAcc0<a class="headerlink" href="#driveracc0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1122,12 +1122,12 @@ This means the driver also provides the force/moments necessary to support the m
 </div>
 <p>Initial acceleration at time zero.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="html-toggle section" id="denied-access-members">
+</section>
+</section>
+<section class="html-toggle" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="updconfig">
+<!--<section id="updconfig">
 <span id="anykindriver-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1144,8 +1144,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="upddesign">
+</div><!--</section>
+<section id="upddesign">
 <span id="anykindriver-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1162,8 +1162,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="updoutput">
+</div><!--</section>
+<section id="updoutput">
 <span id="anykindriver-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1180,8 +1180,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="t">
+</div><!--</section>
+<section id="t">
 <span id="anykindriver-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1198,8 +1198,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframes">
+</div><!--</section>
+<section id="refframes">
 <span id="anykindriver-refframes"></span><h3>RefFrames<a class="headerlink" href="#refframes" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1216,8 +1216,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="surfaces">
+</div><!--</section>
+<section id="surfaces">
 <span id="anykindriver-surfaces"></span><h3>Surfaces<a class="headerlink" href="#surfaces" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1234,8 +1234,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasurearr">
+</div><!--</section>
+<section id="kinmeasurearr">
 <span id="anykindriver-kinmeasurearr"></span><h3>KinMeasureArr<a class="headerlink" href="#kinmeasurearr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1252,8 +1252,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasureindexarr">
+</div><!--</section>
+<section id="kinmeasureindexarr">
 <span id="anykindriver-kinmeasureindexarr"></span><h3>KinMeasureIndexArr<a class="headerlink" href="#kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1270,8 +1270,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="ndim">
+</div><!--</section>
+<section id="ndim">
 <span id="anykindriver-ndim"></span><h3>nDim<a class="headerlink" href="#ndim" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1288,8 +1288,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput">
+</div><!--</section>
+<section id="refframeoutput">
 <span id="anykindriver-refframeoutput"></span><h3>RefFrameOutput<a class="headerlink" href="#refframeoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1306,44 +1306,44 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput-refframearr">
+</div><!--</section>
+<section id="refframeoutput-refframearr">
 <span id="anykindriver-refframeoutput-refframearr"></span><h3>RefFrameOutput.RefFrameArr<a class="headerlink" href="#refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
 <span id="anykindriver-refframeoutput-refframearr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Array of pointers to the reference frames that the measure depends on.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput-jacobians">
+</div><!--</section>
+<section id="refframeoutput-jacobians">
 <span id="anykindriver-refframeoutput-jacobians"></span><h3>RefFrameOutput.Jacobians<a class="headerlink" href="#refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
 <span id="anykindriver-refframeoutput-jacobians" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in ‘DepRefFrameArr’. The structure is 3-domensional. First dimension contains on item for each frame in ‘DepRefFrameArr’, second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="pos">
+</div><!--</section>
+<section id="pos">
 <span id="anykindriver-pos"></span><h3>Pos<a class="headerlink" href="#pos" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1360,8 +1360,8 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The position vector, i.e., the current values of the measured quantity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="vel">
+</div><!--</section>
+<section id="vel">
 <span id="anykindriver-vel"></span><h3>Vel<a class="headerlink" href="#vel" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1378,30 +1378,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The velocity vector, typically the time-derivative of Pos.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="velana">
-<span id="anykindriver-velana"></span><h3>VelAna<a class="headerlink" href="#velana" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed" id="VelAna">
-<span id="anykindriver-velana" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title">VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#VelAna" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
-</div>
-<p>&lt;No description&gt;</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="acc">
+</div><!--</section>
+<section id="acc">
 <span id="anykindriver-acc"></span><h3>Acc<a class="headerlink" href="#acc" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Acc">
+<div class="html-toggle member-entries odd section collapsed" id="Acc">
 <span id="anykindriver-acc" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
 <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -1414,12 +1396,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The acceleration vector, typically the time-derivative of Vel.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-updconfig">
+</div><!--</section>
+<section id="viewkinmeasure-updconfig">
 <span id="anykindriver-viewkinmeasure-updconfig"></span><h3>viewKinMeasure.UpdConfig<a class="headerlink" href="#viewkinmeasure-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdConfig">
+<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdConfig">
 <span id="anykindriver-viewkinmeasure-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1432,12 +1414,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-upddesign">
+</div><!--</section>
+<section id="viewkinmeasure-upddesign">
 <span id="anykindriver-viewkinmeasure-upddesign"></span><h3>viewKinMeasure.UpdDesign<a class="headerlink" href="#viewkinmeasure-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdDesign">
+<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdDesign">
 <span id="anykindriver-viewkinmeasure-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1450,12 +1432,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-updoutput">
+</div><!--</section>
+<section id="viewkinmeasure-updoutput">
 <span id="anykindriver-viewkinmeasure-updoutput"></span><h3>viewKinMeasure.UpdOutput<a class="headerlink" href="#viewkinmeasure-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdOutput">
+<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdOutput">
 <span id="anykindriver-viewkinmeasure-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1468,12 +1450,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="anykindriver-reaction">
+</div><!--</section>
+<section id="anykindriver-reaction">
 <span id="id2"></span><h3>Reaction<a class="headerlink" href="#anykindriver-reaction" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction">
 <span id="anykindriver-reaction" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction" title="Permalink to this headline">¶</a>
 <span class="member-descr">Reaction forces associated with the constraints.</span>
@@ -1486,12 +1468,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Reaction forces associated with the constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-updconfig">
+</div><!--</section>
+<section id="reaction-updconfig">
 <span id="anykindriver-reaction-updconfig"></span><h3>Reaction.UpdConfig<a class="headerlink" href="#reaction-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.UpdConfig">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.UpdConfig">
 <span id="anykindriver-reaction-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1504,12 +1486,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-upddesign">
+</div><!--</section>
+<section id="reaction-upddesign">
 <span id="anykindriver-reaction-upddesign"></span><h3>Reaction.UpdDesign<a class="headerlink" href="#reaction-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.UpdDesign">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.UpdDesign">
 <span id="anykindriver-reaction-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1522,12 +1504,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-updoutput">
+</div><!--</section>
+<section id="reaction-updoutput">
 <span id="anykindriver-reaction-updoutput"></span><h3>Reaction.UpdOutput<a class="headerlink" href="#reaction-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.UpdOutput">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.UpdOutput">
 <span id="anykindriver-reaction-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1540,12 +1522,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-t">
+</div><!--</section>
+<section id="reaction-t">
 <span id="anykindriver-reaction-t"></span><h3>Reaction.t<a class="headerlink" href="#reaction-t" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.t">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.t">
 <span id="anykindriver-reaction-t" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.t" title="Permalink to this headline">¶</a>
 <span class="member-descr">Object-time variable.</span>
@@ -1558,12 +1540,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-refframes">
+</div><!--</section>
+<section id="reaction-refframes">
 <span id="anykindriver-reaction-refframes"></span><h3>Reaction.RefFrames<a class="headerlink" href="#reaction-refframes" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrames">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrames">
 <span id="anykindriver-reaction-refframes" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrames" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -1576,12 +1558,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-surfaces">
+</div><!--</section>
+<section id="reaction-surfaces">
 <span id="anykindriver-reaction-surfaces"></span><h3>Reaction.Surfaces<a class="headerlink" href="#reaction-surfaces" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.Surfaces">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.Surfaces">
 <span id="anykindriver-reaction-surfaces" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.Surfaces" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -1594,12 +1576,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-kinmeasurearr">
+</div><!--</section>
+<section id="reaction-kinmeasurearr">
 <span id="anykindriver-reaction-kinmeasurearr"></span><h3>Reaction.KinMeasureArr<a class="headerlink" href="#reaction-kinmeasurearr" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.KinMeasureArr">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.KinMeasureArr">
 <span id="anykindriver-reaction-kinmeasurearr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.KinMeasureArr" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -1612,12 +1594,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-kinmeasureindexarr">
+</div><!--</section>
+<section id="reaction-kinmeasureindexarr">
 <span id="anykindriver-reaction-kinmeasureindexarr"></span><h3>Reaction.KinMeasureIndexArr<a class="headerlink" href="#reaction-kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.KinMeasureIndexArr">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.KinMeasureIndexArr">
 <span id="anykindriver-reaction-kinmeasureindexarr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
 <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -1630,12 +1612,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-ndim">
+</div><!--</section>
+<section id="reaction-ndim">
 <span id="anykindriver-reaction-ndim"></span><h3>Reaction.nDim<a class="headerlink" href="#reaction-ndim" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.nDim">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.nDim">
 <span id="anykindriver-reaction-ndim" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.nDim" title="Permalink to this headline">¶</a>
 <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -1648,12 +1630,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-refframeoutput">
+</div><!--</section>
+<section id="reaction-refframeoutput">
 <span id="anykindriver-reaction-refframeoutput"></span><h3>Reaction.RefFrameOutput<a class="headerlink" href="#reaction-refframeoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput">
 <span id="anykindriver-reaction-refframeoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -1666,84 +1648,84 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-refframeoutput-refframearr">
+</div><!--</section>
+<section id="reaction-refframeoutput-refframearr">
 <span id="anykindriver-reaction-refframeoutput-refframearr"></span><h3>Reaction.RefFrameOutput.RefFrameArr<a class="headerlink" href="#reaction-refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.RefFrameArr">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.RefFrameArr">
 <span id="anykindriver-reaction-refframeoutput-refframearr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Array of pointers to the reference frames that the measure depends on.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-refframeoutput-jacobians">
+</div><!--</section>
+<section id="reaction-refframeoutput-jacobians">
 <span id="anykindriver-reaction-refframeoutput-jacobians"></span><h3>Reaction.RefFrameOutput.Jacobians<a class="headerlink" href="#reaction-refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.Jacobians">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.Jacobians">
 <span id="anykindriver-reaction-refframeoutput-jacobians" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in ‘DepRefFrameArr’. The structure is 3-domensional. First dimension contains on item for each frame in ‘DepRefFrameArr’, second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-refframeoutput-f">
+</div><!--</section>
+<section id="reaction-refframeoutput-f">
 <span id="anykindriver-reaction-refframeoutput-f"></span><h3>Reaction.RefFrameOutput.F<a class="headerlink" href="#reaction-refframeoutput-f" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.F">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.F">
 <span id="anykindriver-reaction-refframeoutput-f" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.F" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Array of 3D force vectors (global coordinates) associated with the...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Array of 3D force vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-refframeoutput-m">
+</div><!--</section>
+<section id="reaction-refframeoutput-m">
 <span id="anykindriver-reaction-refframeoutput-m"></span><h3>Reaction.RefFrameOutput.M<a class="headerlink" href="#reaction-refframeoutput-m" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.M">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.M">
 <span id="anykindriver-reaction-refframeoutput-m" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.M" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Array of 3D moment vectors (global coordinates) associated with the...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">OutputVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Array of 3D moment vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-updconfig">
+</div><!--</section>
+<section id="reaction-viewforce-updconfig">
 <span id="anykindriver-reaction-viewforce-updconfig"></span><h3>Reaction.viewForce.UpdConfig<a class="headerlink" href="#reaction-viewforce-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.viewForce.UpdConfig">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.viewForce.UpdConfig">
 <span id="anykindriver-reaction-viewforce-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.viewForce.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.viewForce.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1756,12 +1738,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-upddesign">
+</div><!--</section>
+<section id="reaction-viewforce-upddesign">
 <span id="anykindriver-reaction-viewforce-upddesign"></span><h3>Reaction.viewForce.UpdDesign<a class="headerlink" href="#reaction-viewforce-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.viewForce.UpdDesign">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.viewForce.UpdDesign">
 <span id="anykindriver-reaction-viewforce-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.viewForce.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.viewForce.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1774,12 +1756,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-viewforce-updoutput">
+</div><!--</section>
+<section id="reaction-viewforce-updoutput">
 <span id="anykindriver-reaction-viewforce-updoutput"></span><h3>Reaction.viewForce.UpdOutput<a class="headerlink" href="#reaction-viewforce-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.viewForce.UpdOutput">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.viewForce.UpdOutput">
 <span id="anykindriver-reaction-viewforce-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.viewForce.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.viewForce.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1792,12 +1774,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-fin">
+</div><!--</section>
+<section id="reaction-fin">
 <span id="anykindriver-reaction-fin"></span><h3>Reaction.Fin<a class="headerlink" href="#reaction-fin" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Reaction.Fin">
+<div class="html-toggle member-entries odd section collapsed" id="Reaction.Fin">
 <span id="anykindriver-reaction-fin" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.Fin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.Fin" title="Permalink to this headline">¶</a>
 <span class="member-descr">The generalized force vector of input loads to the given type of analysis,...</span>
@@ -1810,12 +1792,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The generalized force vector of input loads to the given type of analysis, i.e., to the right-hand side of the equations of motion.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="reaction-fout">
+</div><!--</section>
+<section id="reaction-fout">
 <span id="anykindriver-reaction-fout"></span><h3>Reaction.Fout<a class="headerlink" href="#reaction-fout" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Reaction.Fout">
+<div class="html-toggle member-entries even section collapsed" id="Reaction.Fout">
 <span id="anykindriver-reaction-fout" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.Fout</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.Fout" title="Permalink to this headline">¶</a>
 <span class="member-descr">The generalized force vector of outputs from the given type of analysis....</span>
@@ -1828,12 +1810,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>The generalized force vector of outputs from the given type of analysis. This is the total force in the element after the analysis is executed.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="weightpos">
+</div><!--</section>
+<section id="weightpos">
 <span id="anykindriver-weightpos"></span><h3>WeightPos<a class="headerlink" href="#weightpos" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="WeightPos">
+<div class="html-toggle member-entries odd section collapsed" id="WeightPos">
 <span id="anykindriver-weightpos" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">WeightPos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#WeightPos" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current value of the kinematic weighting function.</span>
@@ -1846,12 +1828,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Current value of the kinematic weighting function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="weightvel">
+</div><!--</section>
+<section id="weightvel">
 <span id="anykindriver-weightvel"></span><h3>WeightVel<a class="headerlink" href="#weightvel" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="WeightVel">
+<div class="html-toggle member-entries even section collapsed" id="WeightVel">
 <span id="anykindriver-weightvel" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">WeightVel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#WeightVel" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current time-derivative of the kinematic weighting function.</span>
@@ -1864,12 +1846,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Current time-derivative of the kinematic weighting function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="weightacc">
+</div><!--</section>
+<section id="weightacc">
 <span id="anykindriver-weightacc"></span><h3>WeightAcc<a class="headerlink" href="#weightacc" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="WeightAcc">
+<div class="html-toggle member-entries odd section collapsed" id="WeightAcc">
 <span id="anykindriver-weightacc" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">WeightAcc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#WeightAcc" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current 2'nd order time-derivative of the kinematic weighting function.</span>
@@ -1882,12 +1864,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Current 2’nd order time-derivative of the kinematic weighting function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="driverpos">
+</div><!--</section>
+<section id="driverpos">
 <span id="anykindriver-driverpos"></span><h3>DriverPos<a class="headerlink" href="#driverpos" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="DriverPos">
+<div class="html-toggle member-entries even section collapsed" id="DriverPos">
 <span id="anykindriver-driverpos" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">DriverPos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#DriverPos" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current value of the driver function.</span>
@@ -1900,12 +1882,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Current value of the driver function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="drivervel">
+</div><!--</section>
+<section id="drivervel">
 <span id="anykindriver-drivervel"></span><h3>DriverVel<a class="headerlink" href="#drivervel" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="DriverVel">
+<div class="html-toggle member-entries odd section collapsed" id="DriverVel">
 <span id="anykindriver-drivervel" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">DriverVel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#DriverVel" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current time-derivative value of the driver function.</span>
@@ -1918,12 +1900,12 @@ This means the driver also provides the force/moments necessary to support the m
 <p>Current time-derivative value of the driver function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="driveracc">
+</div><!--</section>
+<section id="driveracc">
 <span id="anykindriver-driveracc"></span><h3>DriverAcc<a class="headerlink" href="#driveracc" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="DriverAcc">
+<div class="html-toggle member-entries even section collapsed" id="DriverAcc">
 <span id="anykindriver-driveracc" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">DriverAcc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#DriverAcc" title="Permalink to this headline">¶</a>
 <span class="member-descr">Current second time-derivative value of the driver function.</span>
@@ -1935,9 +1917,9 @@ This means the driver also provides the force/moments necessary to support the m
 </div>
 <p>Current second time-derivative value of the driver function.</p>
 </div></blockquote>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -2017,7 +1999,7 @@ This means the driver also provides the force/moments necessary to support the m
         <li class="right" >
           <a href="AnyKinCoM.html" title="AnyKinCoM"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -2027,8 +2009,8 @@ This means the driver also provides the force/moments necessary to support the m
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

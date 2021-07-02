@@ -6,22 +6,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnyForceMomentMeasure &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>AnyForceMomentMeasure &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
@@ -63,7 +63,7 @@
         <li class="right" >
           <a href="AnyForceMeasure.html" title="AnyForceMeasure"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +78,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="anyforcemomentmeasure">
+  <section id="anyforcemomentmeasure">
 <span id="id1"></span><h1>AnyForceMomentMeasure<a class="headerlink" href="#anyforcemomentmeasure" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -91,27 +91,33 @@
 <dd class="field-odd"><p><a class="reference internal" href="AnyForceMomentMeasure2.html#anyforcemomentmeasure2"><span class="std std-ref">AnyForceMomentMeasure2</span></a></p>
 </dd>
 </dl>
-<div class="section" id="description">
+<section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
-<p>This particular class “measures” forces as an equivalent point force and moment,
-i.e., geometrical vector quantities. The effect of all forces specified inside
-an instance of this class will be summed up automatically to a single force and
-moment vector.</p>
-<p>You specify the point of interest by a reference frame
-(i.e. AnyRefFrame or derived). Only forces that are applied directly to
-this reference frame will be included. This can be practical since you can
-insert forces in the measurement if you are in doubt about their precise
-application points and investigate their effect.</p>
-<p>This functionality comes from the fact that the
-summation is done by means of the principle of virtual work using virtual
-displacements of the reference frame of interest. The rest of the mechanical
-system is not moved by this displacement, which then may violate kinematic
-constraints in joints, etc.. Therefore, forces transmitted by the joints
-are neglected, unless the joint is attached to the point of interest.</p>
-<p>Notice that this does not allow you to investigate the effects of a given
-force at a point of interest far away from the application point,
-but you can investigate the reaction forces that arise due to all
-of the applied loads.</p>
+<p>This particular class “measures” forces outputs an equivalent point-force and a moment,
+i.e., two geometrical vector quantities in global coordinates.</p>
+<p>All forces specified (or referenced) inside an instance of this class
+will be summed up automatically to a single force and moment vector.
+A point-of-interest is given by a reference frame (i.e. AnyRefFrame or derived).</p>
+<p>Only forces that are applied directly to this reference frame will be included.
+Therefore, this measure is used to investigate the effect of forces applied to a specific point;
+also if you are simply in doubt about a force’s point of application.</p>
+<p>The point-of-interest and the forces to measure are specified by two member object-pointers,
+‘RefPoint’ and ‘IncludeForces’.
+Notice, that earlier versions of AnyBody found these forces and the point-of-interest from
+the members in the object (as so-called Expected Members).
+This old-style functionality is still supported, but mistakes can easily be made
+with these Expected Members input,
+so it is strongly recommended to specify the object-pointer directly.
+If ‘RefPoint’ and ‘IncludeForces’ are specified, the “Expected Members” are ignored.</p>
+<p>The force-measurement functionality is based on the principle of virtual work, using virtual
+displacements of the reference frame, i.e. the point-of-interest, and any nested frames.
+The rest of the mechanical system is not moved by this displacement.
+This displacement may violate kinematic constraints in joints, etc.,
+and therefore, forces transmitted by the joints are neglected,
+unless the joint is attached to the point-of-interest.
+Consequently, this measure does not measure the effects of any given
+force at a point-of-interest “far away” from the application point,
+i.e. if they are not directly connected.</p>
 <p> </p>
 <table class="colwidths-given plain docutils align-default" id="id2">
 <caption><span class="caption-text">Demo examples related to AnyForceMomentMeasure</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
@@ -136,11 +142,11 @@ of the applied loads.</p>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section" id="expected-members">
+</section>
+<section id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="anyforcebase">
+<!--<section id="anyforcebase">
 <span id="anyforcemomentmeasure-anyforcebase"></span><h3>AnyForceBase<a class="headerlink" href="#anyforcebase" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -156,8 +162,8 @@ of the applied loads.</p>
 <p>The generalized forces that will be added in this object. Either this or the IncludeForces vector of AnyObjectPtrs must be present.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="anyrefframe">
+</div><!--</section>
+<section id="anyrefframe">
 <span id="anyforcemomentmeasure-anyrefframe"></span><h3>AnyRefFrame<a class="headerlink" href="#anyrefframe" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -172,12 +178,12 @@ of the applied loads.</p>
 </div>
 <p>The reference frame that defines the point of interest and thereby the output. Either this or the RefPoint AnyObjectPtr must be present.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="optional-initialization-members">
+</section>
+</section>
+<section id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="includeforces">
+  <!--<section id="includeforces">
 <span id="anyforcemomentmeasure-includeforces"></span><h3>IncludeForces<a class="headerlink" href="#includeforces" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -194,8 +200,8 @@ of the applied loads.</p>
 <p>Vector of AnyObjectPtrs to the generalized forces that will be added in this object.Either this or AnyForceBase type members must be present.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="refpoint">
+ </div> <!--</section>
+<section id="refpoint">
 <span id="anyforcemomentmeasure-refpoint"></span><h3>RefPoint<a class="headerlink" href="#refpoint" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -211,12 +217,12 @@ of the applied loads.</p>
 </div>
 <p>AnyObjectPtr to the reference frame that defines the point of interest and thereby the output. Either this or an AnyRefFrame must be present.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="html-toggle section" id="denied-access-members">
+</section>
+</section>
+<section class="html-toggle" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="updconfig">
+<!--<section id="updconfig">
 <span id="anyforcemomentmeasure-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -233,8 +239,8 @@ of the applied loads.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="upddesign">
+</div><!--</section>
+<section id="upddesign">
 <span id="anyforcemomentmeasure-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -251,8 +257,8 @@ of the applied loads.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="updoutput">
+</div><!--</section>
+<section id="updoutput">
 <span id="anyforcemomentmeasure-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -269,8 +275,8 @@ of the applied loads.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="t">
+</div><!--</section>
+<section id="t">
 <span id="anyforcemomentmeasure-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -287,8 +293,8 @@ of the applied loads.</p>
 <p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="f">
+</div><!--</section>
+<section id="f">
 <span id="anyforcemomentmeasure-f"></span><h3>F<a class="headerlink" href="#f" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -305,8 +311,8 @@ of the applied loads.</p>
 <p>Equivalent point force vector in global coordinates.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="m">
+</div><!--</section>
+<section id="m">
 <span id="anyforcemomentmeasure-m"></span><h3>M<a class="headerlink" href="#m" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -322,9 +328,9 @@ of the applied loads.</p>
 </div>
 <p>Equivalent point moment/torque vector in global coordinates.</p>
 </div></blockquote>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -404,7 +410,7 @@ of the applied loads.</p>
         <li class="right" >
           <a href="AnyForceMeasure.html" title="AnyForceMeasure"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -414,8 +420,8 @@ of the applied loads.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

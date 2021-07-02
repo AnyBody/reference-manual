@@ -2174,7 +2174,7 @@ Model.GlobalRef.viewRefFrame.TextFont.BillBoardView
     <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewRefFrame.TextFont.BillBoardView">
     <span id="anyinputbvh-model-globalref-viewrefframe-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewRefFrame.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewRefFrame.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -2186,7 +2186,7 @@ Model.GlobalRef.viewRefFrame.TextFont.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -2215,7 +2215,7 @@ Model.GlobalRef.viewRefFrame.TextFont.ModelSized
     <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewRefFrame.TextFont.ModelSized">
     <span id="anyinputbvh-model-globalref-viewrefframe-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewRefFrame.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewRefFrame.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -2227,7 +2227,7 @@ Model.GlobalRef.viewRefFrame.TextFont.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -2366,6 +2366,47 @@ Model.GlobalRef.viewRefFrame.TextFont.Rotation
     </div><!--
 ..
 
+.. _AnyInputBVH.Model.GlobalRef.viewRefFrame.TextFont.Overlay:
+
+Model.GlobalRef.viewRefFrame.TextFont.Overlay
+------------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewRefFrame.TextFont.Overlay">
+    <span id="anyinputbvh-model-globalref-viewrefframe-textfont-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewRefFrame.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewRefFrame.TextFont.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyInputBVH.Model.GlobalRef.viewNodes:
 
 Model.GlobalRef.viewNodes
@@ -2376,7 +2417,7 @@ Model.GlobalRef.viewNodes
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes">
     <span id="anyinputbvh-model-globalref-viewnodes" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Model.GlobalRef.viewNodes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing object that renders the segment's nodes.</span>
@@ -2417,7 +2458,7 @@ Model.GlobalRef.viewNodes.Visible
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.Visible">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.Visible">
     <span id="anyinputbvh-model-globalref-viewnodes-visible" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Visible </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
@@ -2458,7 +2499,7 @@ Model.GlobalRef.viewNodes.Opacity
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.Opacity">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.Opacity">
     <span id="anyinputbvh-model-globalref-viewnodes-opacity" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Opacity </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Opacity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
@@ -2499,7 +2540,7 @@ Model.GlobalRef.viewNodes.Pickable
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.Pickable">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.Pickable">
     <span id="anyinputbvh-model-globalref-viewnodes-pickable" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Pickable </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Pickable" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
@@ -2540,7 +2581,7 @@ Model.GlobalRef.viewNodes.PickableZOrdering
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.PickableZOrdering">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.PickableZOrdering">
     <span id="anyinputbvh-model-globalref-viewnodes-pickablezordering" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.PickableZOrdering </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.PickableZOrdering" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
@@ -2581,7 +2622,7 @@ Model.GlobalRef.viewNodes.RGB
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.RGB">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.RGB">
     <span id="anyinputbvh-model-globalref-viewnodes-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object color in RGB values between 0 and 1.</span>
@@ -2622,7 +2663,7 @@ Model.GlobalRef.viewNodes.Transparency
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.Transparency">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.Transparency">
     <span id="anyinputbvh-model-globalref-viewnodes-transparency" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.Transparency </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.Transparency" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object transparency parameter. Values must be in the range from 0.0...</span>
@@ -2663,7 +2704,7 @@ Model.GlobalRef.viewNodes.TextFont
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont" title="Permalink to this headline">¶</a>
     <span class="member-descr">General font setting for the object's text.</span>
@@ -2704,7 +2745,7 @@ Model.GlobalRef.viewNodes.TextFont.RGB
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.RGB">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.RGB">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-rgb" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.RGB </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.RGB" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color in RGB values between 0 and 1.</span>
@@ -2745,7 +2786,7 @@ Model.GlobalRef.viewNodes.TextFont.FontName
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.FontName">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.FontName">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-fontname" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.FontName </span><span class="member-title-equal">=</span><span class="member-title-default"> "Times New Roman" </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.FontName" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font name (Windows fonts).</span>
@@ -2786,7 +2827,7 @@ Model.GlobalRef.viewNodes.TextFont.Height
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Height">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Height">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-height" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Height </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Height" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph height in pixels.</span>
@@ -2827,7 +2868,7 @@ Model.GlobalRef.viewNodes.TextFont.Width
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Width">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Width">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-width" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Width </span><span class="member-title-equal">=</span><span class="member-title-default"> 50 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Width" title="Permalink to this headline">¶</a>
     <span class="member-descr">Font glyph width in pixels.</span>
@@ -2868,7 +2909,7 @@ Model.GlobalRef.viewNodes.TextFont.Bold
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Bold">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Bold">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-bold" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Bold </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Bold" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for bold face type setting.</span>
@@ -2909,7 +2950,7 @@ Model.GlobalRef.viewNodes.TextFont.Italic
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Italic">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Italic">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-italic" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Italic </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Italic" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for italic type setting.</span>
@@ -2950,10 +2991,10 @@ Model.GlobalRef.viewNodes.TextFont.BillBoardView
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.BillBoardView">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.BillBoardView">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -2965,7 +3006,7 @@ Model.GlobalRef.viewNodes.TextFont.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -2991,10 +3032,10 @@ Model.GlobalRef.viewNodes.TextFont.ModelSized
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelSized">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelSized">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -3006,7 +3047,7 @@ Model.GlobalRef.viewNodes.TextFont.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -3032,7 +3073,7 @@ Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-modelscaleheight" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.ModelScaleHeight </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.ModelScaleHeight" title="Permalink to this headline">¶</a>
     <span class="member-descr">The height scaling of the text when ModelSized is enabled.</span>
@@ -3073,7 +3114,7 @@ Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth">
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-modelscalewidth" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.ModelScaleWidth </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.ModelScaleWidth" title="Permalink to this headline">¶</a>
     <span class="member-descr">The width scaling of the text when ModelSized is enabled.</span>
@@ -3114,7 +3155,7 @@ Model.GlobalRef.viewNodes.TextFont.Rotation
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Rotation">
+    <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Rotation">
     <span id="anyinputbvh-model-globalref-viewnodes-textfont-rotation" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Rotation </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Rotation" title="Permalink to this headline">¶</a>
     <span class="member-descr">The rotation (in degrees) of the text when BillBoardView is enabled.</span>
@@ -3130,6 +3171,47 @@ Model.GlobalRef.viewNodes.TextFont.Rotation
         
 
     The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyInputBVH.Model.GlobalRef.viewNodes.TextFont.Overlay:
+
+Model.GlobalRef.viewNodes.TextFont.Overlay
+---------------------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef.viewNodes.TextFont.Overlay">
+    <span id="anyinputbvh-model-globalref-viewnodes-textfont-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.GlobalRef.viewNodes.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Model.GlobalRef.viewNodes.TextFont.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
 
 ..
 
@@ -4126,7 +4208,7 @@ Header.BVHJointsNo
     <div class="html-toggle member-entries odd section collapsed" id="Header.BVHJointsNo">
     <span id="anyinputbvh-header-bvhjointsno" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Header.BVHJointsNo</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Header.BVHJointsNo" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Number of joints in the BVH structure.</span>
     </h3>
 
 ..
@@ -4139,7 +4221,7 @@ Header.BVHJointsNo
 
 
 
-    <No description>
+    Number of joints in the BVH structure.
 
 ..
 
@@ -4167,7 +4249,7 @@ Header.FramesNo
     <div class="html-toggle member-entries even section collapsed" id="Header.FramesNo">
     <span id="anyinputbvh-header-framesno" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Header.FramesNo</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Header.FramesNo" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Number of frames in the imported data.</span>
     </h3>
 
 ..
@@ -4180,7 +4262,7 @@ Header.FramesNo
 
 
 
-    <No description>
+    Number of frames in the imported data.
 
 ..
 
@@ -4208,7 +4290,7 @@ Header.FramesNoInFile
     <div class="html-toggle member-entries odd section collapsed" id="Header.FramesNoInFile">
     <span id="anyinputbvh-header-framesnoinfile" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Header.FramesNoInFile</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Header.FramesNoInFile" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Number of frames in the file.</span>
     </h3>
 
 ..
@@ -4221,7 +4303,7 @@ Header.FramesNoInFile
 
 
 
-    <No description>
+    Number of frames in the file.
 
 ..
 
@@ -4249,7 +4331,7 @@ Header.FrameTime
     <div class="html-toggle member-entries even section collapsed" id="Header.FrameTime">
     <span id="anyinputbvh-header-frametime" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Header.FrameTime</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Header.FrameTime" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Time of a single frame.</span>
     </h3>
 
 ..
@@ -4262,7 +4344,7 @@ Header.FrameTime
 
 
 
-    <No description>
+    Time of a single frame.
 
 ..
 
@@ -4290,7 +4372,7 @@ Header.FirstFrameNo
     <div class="html-toggle member-entries odd section collapsed" id="Header.FirstFrameNo">
     <span id="anyinputbvh-header-firstframeno" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Header.FirstFrameNo</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Header.FirstFrameNo" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Number(index) of the first imported frame (zero based).</span>
     </h3>
 
 ..
@@ -4303,7 +4385,7 @@ Header.FirstFrameNo
 
 
 
-    <No description>
+    Number(index) of the first imported frame (zero based).
 
 ..
 
@@ -4331,7 +4413,7 @@ Header.LastFrameNo
     <div class="html-toggle member-entries even section collapsed" id="Header.LastFrameNo">
     <span id="anyinputbvh-header-lastframeno" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Header.LastFrameNo</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Header.LastFrameNo" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Number(index) of the last imported frame (zero based).</span>
     </h3>
 
 ..
@@ -4344,7 +4426,7 @@ Header.LastFrameNo
 
 
 
-    <No description>
+    Number(index) of the last imported frame (zero based).
 
 ..
 
@@ -4372,7 +4454,7 @@ Header.VideoFrameRate
     <div class="html-toggle member-entries odd section collapsed" id="Header.VideoFrameRate">
     <span id="anyinputbvh-header-videoframerate" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Header.VideoFrameRate</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Header.VideoFrameRate" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Frame rate. It is called video frame rate to ressemble the header of AnyInputC3D.</span>
     </h3>
 
 ..
@@ -4385,7 +4467,7 @@ Header.VideoFrameRate
 
 
 
-    <No description>
+    Frame rate. It is called video frame rate to ressemble the header of AnyInputC3D.
 
 ..
 
@@ -4536,7 +4618,7 @@ Model.GlobalRef
     <div class="html-toggle member-entries odd section collapsed" id="Model.GlobalRef">
     <span id="anyinputbvh-model-globalref" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Global reference frame that is the origin for the BVH model's imported data...</span>
     </h3>
 
 ..
@@ -4549,7 +4631,7 @@ Model.GlobalRef
 
 
 
-    <No description>
+    Global reference frame that is the origin for the BVH model's imported data and drivers. Use GlobalRef's members to move the data in space.
 
 ..
 
@@ -4577,7 +4659,7 @@ Model.GlobalRef.UpdConfig
     <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.UpdConfig">
     <span id="anyinputbvh-model-globalref-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.UpdConfig" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Global reference frame that is the origin for the BVH model's imported data...</span>
     </h3>
 
 ..
@@ -4590,7 +4672,7 @@ Model.GlobalRef.UpdConfig
 
 
 
-    <No description>
+    Global reference frame that is the origin for the BVH model's imported data and drivers. Use GlobalRef's members to move the data in space.
 
 ..
 
@@ -4659,7 +4741,7 @@ Model.GlobalRef.UpdOutput
     <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.UpdOutput">
     <span id="anyinputbvh-model-globalref-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.UpdOutput" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Global reference frame that is the origin for the BVH model's imported data...</span>
     </h3>
 
 ..
@@ -4672,7 +4754,7 @@ Model.GlobalRef.UpdOutput
 
 
 
-    <No description>
+    Global reference frame that is the origin for the BVH model's imported data and drivers. Use GlobalRef's members to move the data in space.
 
 ..
 
@@ -4741,7 +4823,7 @@ Model.GlobalRef.viewRefFrame.UpdConfig
     <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewRefFrame.UpdConfig">
     <span id="anyinputbvh-model-globalref-viewrefframe-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewRefFrame.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewRefFrame.UpdConfig" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Global reference frame that is the origin for the BVH model's imported data...</span>
     </h3>
 
 ..
@@ -4754,7 +4836,7 @@ Model.GlobalRef.viewRefFrame.UpdConfig
 
 
 
-    <No description>
+    Global reference frame that is the origin for the BVH model's imported data and drivers. Use GlobalRef's members to move the data in space.
 
 ..
 
@@ -4823,7 +4905,7 @@ Model.GlobalRef.viewRefFrame.UpdOutput
     <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewRefFrame.UpdOutput">
     <span id="anyinputbvh-model-globalref-viewrefframe-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewRefFrame.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewRefFrame.UpdOutput" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Global reference frame that is the origin for the BVH model's imported data...</span>
     </h3>
 
 ..
@@ -4836,7 +4918,7 @@ Model.GlobalRef.viewRefFrame.UpdOutput
 
 
 
-    <No description>
+    Global reference frame that is the origin for the BVH model's imported data and drivers. Use GlobalRef's members to move the data in space.
 
 ..
 
@@ -4905,7 +4987,7 @@ Model.GlobalRef.viewNodes.UpdConfig
     <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.UpdConfig">
     <span id="anyinputbvh-model-globalref-viewnodes-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewNodes.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewNodes.UpdConfig" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Global reference frame that is the origin for the BVH model's imported data...</span>
     </h3>
 
 ..
@@ -4918,7 +5000,7 @@ Model.GlobalRef.viewNodes.UpdConfig
 
 
 
-    <No description>
+    Global reference frame that is the origin for the BVH model's imported data and drivers. Use GlobalRef's members to move the data in space.
 
 ..
 
@@ -4987,7 +5069,7 @@ Model.GlobalRef.viewNodes.UpdOutput
     <div class="html-toggle member-entries even section collapsed" id="Model.GlobalRef.viewNodes.UpdOutput">
     <span id="anyinputbvh-model-globalref-viewnodes-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Model.GlobalRef.viewNodes.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Model.GlobalRef.viewNodes.UpdOutput" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Global reference frame that is the origin for the BVH model's imported data...</span>
     </h3>
 
 ..
@@ -5000,7 +5082,7 @@ Model.GlobalRef.viewNodes.UpdOutput
 
 
 
-    <No description>
+    Global reference frame that is the origin for the BVH model's imported data and drivers. Use GlobalRef's members to move the data in space.
 
 ..
 

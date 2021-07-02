@@ -6,22 +6,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnyKinSPSheet &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>AnyKinSPSheet &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     
     
@@ -63,7 +64,7 @@
         <li class="right" >
           <a href="AnyKinSPLine.html" title="AnyKinSPLine"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +79,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="anykinspsheet">
+  <section id="anykinspsheet">
 <span id="id1"></span><h1>AnyKinSPSheet<a class="headerlink" href="#anykinspsheet" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -88,7 +89,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyKinPLine.html#anykinpline"><span class="std std-ref">AnyKinPLine</span></a></p>
 </dd>
 </dl>
-<div class="section" id="description">
+<section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This “kinematic measure” can be used to model a sheet spanned by reference frames and measures the length of shortest path (SP) lines in the sheet.
 The sheet may be in contact with surfaces (<a class="reference internal" href="AnySurface.html#anysurface"><span class="std std-ref">AnySurface</span></a>), contain linear inequality constraints to restrict positions of wrapping points and may contain
@@ -224,11 +225,11 @@ AnyBody.</p>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section" id="expected-members">
+</section>
+<section id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="anysurface">
+<!--<section id="anysurface">
 <span id="anykinspsheet-anysurface"></span><h3>AnySurface<a class="headerlink" href="#anysurface" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -243,12 +244,12 @@ AnyBody.</p>
 </div>
 <p>Wrapping surfaces of the sheet. The use for individual lines can be controlled with SurfacesSwitch.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="required-initialization-members">
+</section>
+</section>
+<section id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="refframes">
+<!--<section id="refframes">
 <span id="anykinspsheet-refframes"></span><h3>RefFrames<a class="headerlink" href="#refframes" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -263,12 +264,12 @@ AnyBody.</p>
 </div>
 <p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="optional-initialization-members">
+</section>
+</section>
+<section id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="viewkinmeasure">
+  <!--<section id="viewkinmeasure">
 <h3>viewKinMeasure<a class="headerlink" href="#viewkinmeasure" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -277,7 +278,7 @@ AnyBody.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> viewKinMeasure </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewKinMeasure" title="Permalink to this headline">¶</a>
 <span class="member-descr">Drawing object that renders the kinematic measure.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="viewkinmeasure-visible">
+<!--<section id="viewkinmeasure-visible">
 <span id="anykinspsheet-viewkinmeasure-visible"></span><h4>viewKinMeasure.Visible<a class="headerlink" href="#viewkinmeasure-visible" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -294,8 +295,8 @@ AnyBody.</p>
 <p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-opacity">
+</div><!--</section>
+<section id="viewkinmeasure-opacity">
 <span id="anykinspsheet-viewkinmeasure-opacity"></span><h4>viewKinMeasure.Opacity<a class="headerlink" href="#viewkinmeasure-opacity" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -312,8 +313,8 @@ AnyBody.</p>
 <p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-pickable">
+</div><!--</section>
+<section id="viewkinmeasure-pickable">
 <span id="anykinspsheet-viewkinmeasure-pickable"></span><h4>viewKinMeasure.Pickable<a class="headerlink" href="#viewkinmeasure-pickable" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -330,8 +331,8 @@ AnyBody.</p>
 <p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-pickablezordering">
+</div><!--</section>
+<section id="viewkinmeasure-pickablezordering">
 <span id="anykinspsheet-viewkinmeasure-pickablezordering"></span><h4>viewKinMeasure.PickableZOrdering<a class="headerlink" href="#viewkinmeasure-pickablezordering" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -348,8 +349,8 @@ AnyBody.</p>
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb1">
+</div><!--</section>
+<section id="viewkinmeasure-rgb1">
 <span id="anykinspsheet-viewkinmeasure-rgb1"></span><h4>viewKinMeasure.RGB1<a class="headerlink" href="#viewkinmeasure-rgb1" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -366,8 +367,8 @@ AnyBody.</p>
 <p>Color F1 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb2">
+</div><!--</section>
+<section id="viewkinmeasure-rgb2">
 <span id="anykinspsheet-viewkinmeasure-rgb2"></span><h4>viewKinMeasure.RGB2<a class="headerlink" href="#viewkinmeasure-rgb2" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -384,8 +385,8 @@ AnyBody.</p>
 <p>Color F2 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb3">
+</div><!--</section>
+<section id="viewkinmeasure-rgb3">
 <span id="anykinspsheet-viewkinmeasure-rgb3"></span><h4>viewKinMeasure.RGB3<a class="headerlink" href="#viewkinmeasure-rgb3" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -402,8 +403,8 @@ AnyBody.</p>
 <p>Color F3 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb4">
+</div><!--</section>
+<section id="viewkinmeasure-rgb4">
 <span id="anykinspsheet-viewkinmeasure-rgb4"></span><h4>viewKinMeasure.RGB4<a class="headerlink" href="#viewkinmeasure-rgb4" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -420,8 +421,8 @@ AnyBody.</p>
 <p>Color F4 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-label">
+</div><!--</section>
+<section id="viewkinmeasure-label">
 <span id="anykinspsheet-viewkinmeasure-label"></span><h4>viewKinMeasure.Label<a class="headerlink" href="#viewkinmeasure-label" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -438,8 +439,8 @@ AnyBody.</p>
 <p>On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-size">
+</div><!--</section>
+<section id="viewkinmeasure-size">
 <span id="anykinspsheet-viewkinmeasure-size"></span><h4>viewKinMeasure.Size<a class="headerlink" href="#viewkinmeasure-size" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -456,8 +457,8 @@ AnyBody.</p>
 <p>Radius size of the balls etc. of the AnyDrawKinMeasure.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-line">
+</div><!--</section>
+<section id="viewkinmeasure-line">
 <span id="anykinspsheet-viewkinmeasure-line"></span><h4>viewKinMeasure.Line<a class="headerlink" href="#viewkinmeasure-line" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -474,8 +475,8 @@ AnyBody.</p>
 <p>On/Off value indicating whether the AnyDrawKinMeasure should have a line between ball components.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-text">
+</div><!--</section>
+<section id="viewkinmeasure-text">
 <span id="anykinspsheet-viewkinmeasure-text"></span><h4>viewKinMeasure.Text<a class="headerlink" href="#viewkinmeasure-text" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -492,8 +493,8 @@ AnyBody.</p>
 <p>If set, this text is shown as the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-textsize">
+</div><!--</section>
+<section id="viewkinmeasure-textsize">
 <span id="anykinspsheet-viewkinmeasure-textsize"></span><h4>viewKinMeasure.TextSize<a class="headerlink" href="#viewkinmeasure-textsize" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -510,8 +511,8 @@ AnyBody.</p>
 <p>The size in pixels of the Text label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showillustration">
+</div><!--</section>
+<section id="viewkinmeasure-showillustration">
 <span id="anykinspsheet-viewkinmeasure-showillustration"></span><h4>viewKinMeasure.ShowIllustration<a class="headerlink" href="#viewkinmeasure-showillustration" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -528,8 +529,8 @@ AnyBody.</p>
 <p>Indicates if the graphical representation of the kinematic measure should be drawn if applicable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showlabellines">
+</div><!--</section>
+<section id="viewkinmeasure-showlabellines">
 <span id="anykinspsheet-viewkinmeasure-showlabellines"></span><h4>viewKinMeasure.ShowLabelLines<a class="headerlink" href="#viewkinmeasure-showlabellines" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -546,8 +547,8 @@ AnyBody.</p>
 <p>Indicates if the lines from the label to the reference frames of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showvalue">
+</div><!--</section>
+<section id="viewkinmeasure-showvalue">
 <span id="anykinspsheet-viewkinmeasure-showvalue"></span><h4>viewKinMeasure.ShowValue<a class="headerlink" href="#viewkinmeasure-showvalue" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -564,8 +565,8 @@ AnyBody.</p>
 <p>Indicates if the pos value of the kinematic measure should be shown in the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showlabelborder">
+</div><!--</section>
+<section id="viewkinmeasure-showlabelborder">
 <span id="anykinspsheet-viewkinmeasure-showlabelborder"></span><h4>viewKinMeasure.ShowLabelBorder<a class="headerlink" href="#viewkinmeasure-showlabelborder" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -582,8 +583,8 @@ AnyBody.</p>
 <p>Indicates if the label of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-illustrationpositionoffset">
+</div><!--</section>
+<section id="viewkinmeasure-illustrationpositionoffset">
 <span id="anykinspsheet-viewkinmeasure-illustrationpositionoffset"></span><h4>viewKinMeasure.IllustrationPositionOffset<a class="headerlink" href="#viewkinmeasure-illustrationpositionoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -600,8 +601,8 @@ AnyBody.</p>
 <p>Positional offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-illustrationrotationoffset">
+</div><!--</section>
+<section id="viewkinmeasure-illustrationrotationoffset">
 <span id="anykinspsheet-viewkinmeasure-illustrationrotationoffset"></span><h4>viewKinMeasure.IllustrationRotationOffset<a class="headerlink" href="#viewkinmeasure-illustrationrotationoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -618,8 +619,8 @@ AnyBody.</p>
 <p>Rotational offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-refillustration">
+</div><!--</section>
+<section id="viewkinmeasure-refillustration">
 <span id="anykinspsheet-viewkinmeasure-refillustration"></span><h4>viewKinMeasure.RefIllustration<a class="headerlink" href="#viewkinmeasure-refillustration" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -638,8 +639,8 @@ AnyBody.</p>
 -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-reflabel">
+</div><!--</section>
+<section id="viewkinmeasure-reflabel">
 <span id="anykinspsheet-viewkinmeasure-reflabel"></span><h4>viewKinMeasure.RefLabel<a class="headerlink" href="#viewkinmeasure-reflabel" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -658,8 +659,8 @@ AnyBody.</p>
 -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-labelpositionoffset">
+</div><!--</section>
+<section id="viewkinmeasure-labelpositionoffset">
 <span id="anykinspsheet-viewkinmeasure-labelpositionoffset"></span><h4>viewKinMeasure.LabelPositionOffset<a class="headerlink" href="#viewkinmeasure-labelpositionoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -676,8 +677,8 @@ AnyBody.</p>
 <p>Positional offset for the label of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuescaling">
+</div><!--</section>
+<section id="viewkinmeasure-valuescaling">
 <span id="anykinspsheet-viewkinmeasure-valuescaling"></span><h4>viewKinMeasure.ValueScaling<a class="headerlink" href="#viewkinmeasure-valuescaling" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -694,8 +695,8 @@ AnyBody.</p>
 <p>Value used as a factor for the displayed pos value of the kinematic measure. This must either be a scalar or have the same size as pos of the kinematic measure being drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle">
 <span id="anykinspsheet-viewkinmeasure-valuestyle"></span><h4>viewKinMeasure.ValueStyle<a class="headerlink" href="#viewkinmeasure-valuestyle" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -712,8 +713,8 @@ AnyBody.</p>
 <p>Format settings for the label text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-digits">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-digits">
 <span id="anykinspsheet-viewkinmeasure-valuestyle-digits"></span><h4>viewKinMeasure.ValueStyle.Digits<a class="headerlink" href="#viewkinmeasure-valuestyle-digits" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -730,8 +731,8 @@ AnyBody.</p>
 <p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-style">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-style">
 <span id="anykinspsheet-viewkinmeasure-valuestyle-style"></span><h4>viewKinMeasure.ValueStyle.Style<a class="headerlink" href="#viewkinmeasure-valuestyle-style" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -748,8 +749,8 @@ AnyBody.</p>
 <p>Style of the numeric output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-scale">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-scale">
 <span id="anykinspsheet-viewkinmeasure-valuestyle-scale"></span><h4>viewKinMeasure.ValueStyle.Scale<a class="headerlink" href="#viewkinmeasure-valuestyle-scale" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -766,8 +767,8 @@ AnyBody.</p>
 <p>Switch for scaling.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-scaleval">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-scaleval">
 <span id="anykinspsheet-viewkinmeasure-valuestyle-scaleval"></span><h4>viewKinMeasure.ValueStyle.ScaleVal<a class="headerlink" href="#viewkinmeasure-valuestyle-scaleval" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -784,9 +785,9 @@ AnyBody.</p>
 <p>Scaling factor.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</div>
-</div>
-<div class="section" id="meshlong">
+ </div></div> <!--</section>
+</section>
+<section id="meshlong">
 <span id="anykinspsheet-meshlong"></span><h3>MeshLong<a class="headerlink" href="#meshlong" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -803,8 +804,8 @@ AnyBody.</p>
 <p>Defines the number of wrapping points on each line of the sheet. If more than one part is defined in the sheet (i.e. the number of rows in RefFrames greater 2) different numbers of points for each parts of the string can be defined. Thus, the dimension of MeshLong has to be the same as the number of parts of the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="thickness">
+ </div> <!--</section>
+<section id="thickness">
 <span id="anykinspsheet-thickness"></span><h3>Thickness<a class="headerlink" href="#thickness" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -821,8 +822,8 @@ AnyBody.</p>
 <p>Defines a thickness of the sheet. The thickness defines a minimal distance between wrapping points and surface.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="stiffnesslong">
+ </div> <!--</section>
+<section id="stiffnesslong">
 <span id="anykinspsheet-stiffnesslong"></span><h3>StiffnessLong<a class="headerlink" href="#stiffnesslong" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -839,8 +840,8 @@ AnyBody.</p>
 <p>Defines a linear spring stiffness between two wrapping points in axial direction. This can be used together with the StiffnessLong to control the shape of the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="stiffnesslat">
+ </div> <!--</section>
+<section id="stiffnesslat">
 <span id="anykinspsheet-stiffnesslat"></span><h3>StiffnessLat<a class="headerlink" href="#stiffnesslat" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -857,8 +858,8 @@ AnyBody.</p>
 <p>Defines a linear spring stiffness between two wrapping points in lateral direction. This can be used together with the StiffnessLong to control the shape of the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="stiffnessratioslong">
+ </div> <!--</section>
+<section id="stiffnessratioslong">
 <span id="anykinspsheet-stiffnessratioslong"></span><h3>StiffnessRatiosLong<a class="headerlink" href="#stiffnessratioslong" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -875,8 +876,8 @@ AnyBody.</p>
 <p>Matrix with factors multiplied to the longitudinal elements in the sheet.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="stiffnessratioslat">
+ </div> <!--</section>
+<section id="stiffnessratioslat">
 <span id="anykinspsheet-stiffnessratioslat"></span><h3>StiffnessRatiosLat<a class="headerlink" href="#stiffnessratioslat" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -893,8 +894,8 @@ AnyBody.</p>
 <p>Matrix with update-factors for the lateral elements in the sheet. The factor multiplied with the longitudinal stiffness is added to the lateral stiffness of an element.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="surfacesswitch">
+ </div> <!--</section>
+<section id="surfacesswitch">
 <span id="anykinspsheet-surfacesswitch"></span><h3>SurfacesSwitch<a class="headerlink" href="#surfacesswitch" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -911,8 +912,8 @@ AnyBody.</p>
 <p>Matrix containing 0 and 1 to indicate if a line is wrapping on a surface. The number of columns equals the number of lines, the number of rows equals the number of wrapping surfaces.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="condistlongindex">
+ </div> <!--</section>
+<section id="condistlongindex">
 <span id="anykinspsheet-condistlongindex"></span><h3>ConDistLongIndex<a class="headerlink" href="#condistlongindex" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -929,8 +930,8 @@ AnyBody.</p>
 <p>Line indices of the longitudinal distance constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="condistlongpointswitch">
+ </div> <!--</section>
+<section id="condistlongpointswitch">
 <span id="anykinspsheet-condistlongpointswitch"></span><h3>ConDistLongPointSwitch<a class="headerlink" href="#condistlongpointswitch" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -947,8 +948,8 @@ AnyBody.</p>
 <p>Switches for wrapping points defining the used points in a longitudinal distance constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="condistlongvalue">
+ </div> <!--</section>
+<section id="condistlongvalue">
 <span id="anykinspsheet-condistlongvalue"></span><h3>ConDistLongValue<a class="headerlink" href="#condistlongvalue" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -965,8 +966,8 @@ AnyBody.</p>
 <p>Values of longitudinal distance constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="condistlatindex">
+ </div> <!--</section>
+<section id="condistlatindex">
 <span id="anykinspsheet-condistlatindex"></span><h3>ConDistLatIndex<a class="headerlink" href="#condistlatindex" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -983,8 +984,8 @@ AnyBody.</p>
 <p>Line indeices of a distance constraint in lateral direction.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="condistlatpointswitch">
+ </div> <!--</section>
+<section id="condistlatpointswitch">
 <span id="anykinspsheet-condistlatpointswitch"></span><h3>ConDistLatPointSwitch<a class="headerlink" href="#condistlatpointswitch" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1001,8 +1002,8 @@ AnyBody.</p>
 <p>Switches for wrapping points defining the used points in a lateral distance constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="condistlatvalue">
+ </div> <!--</section>
+<section id="condistlatvalue">
 <span id="anykinspsheet-condistlatvalue"></span><h3>ConDistLatValue<a class="headerlink" href="#condistlatvalue" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1019,8 +1020,8 @@ AnyBody.</p>
 <p>Values of lateral distance constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="conlinpointindex">
+ </div> <!--</section>
+<section id="conlinpointindex">
 <span id="anykinspsheet-conlinpointindex"></span><h3>ConLinPointIndex<a class="headerlink" href="#conlinpointindex" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1037,8 +1038,8 @@ AnyBody.</p>
 <p>Indices of wrapping points affected by a linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="conlinrefframe">
+ </div> <!--</section>
+<section id="conlinrefframe">
 <span id="anykinspsheet-conlinrefframe"></span><h3>ConLinRefFrame<a class="headerlink" href="#conlinrefframe" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1055,8 +1056,8 @@ AnyBody.</p>
 <p>Reference frame defining the position of linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="conlindir">
+ </div> <!--</section>
+<section id="conlindir">
 <span id="anykinspsheet-conlindir"></span><h3>ConLinDir<a class="headerlink" href="#conlindir" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1073,8 +1074,8 @@ AnyBody.</p>
 <p>Direction of a linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="conlindirrefframe">
+ </div> <!--</section>
+<section id="conlindirrefframe">
 <span id="anykinspsheet-conlindirrefframe"></span><h3>ConLinDirRefFrame<a class="headerlink" href="#conlindirrefframe" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1091,8 +1092,8 @@ AnyBody.</p>
 <p>Reference frame defining the orientation for the direction of a linear constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="initwrapposvecarr">
+ </div> <!--</section>
+<section id="initwrapposvecarr">
 <span id="anykinspsheet-initwrapposvecarr"></span><h3>InitWrapPosVecArr<a class="headerlink" href="#initwrapposvecarr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1109,8 +1110,8 @@ AnyBody.</p>
 <p>Object pointer array that must collect pointers to the initial position vectors. The initial position vectors are one array of 3D vector (AnyMatrix) for each line segment of the SPLine. Pointer value of ‘None’ is allowed, if a straight line between origin and insertion.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="initwrapposonlyonoff">
+ </div> <!--</section>
+<section id="initwrapposonlyonoff">
 <span id="anykinspsheet-initwrapposonlyonoff"></span><h3>InitWrapPosOnlyOnOff<a class="headerlink" href="#initwrapposonlyonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1127,8 +1128,8 @@ AnyBody.</p>
 <p>Switch for whether to use initial position only or carry out the wrapping computation. This is an option aimed at debugging initial position specification for all positions during a motion.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="initwrapposforeachsteponoff">
+ </div> <!--</section>
+<section id="initwrapposforeachsteponoff">
 <span id="anykinspsheet-initwrapposforeachsteponoff"></span><h3>InitWrapPosForEachStepOnOff<a class="headerlink" href="#initwrapposforeachsteponoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1145,8 +1146,8 @@ AnyBody.</p>
 <p>Switch evoking to use the inital conditions as inital guess in each time-step.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="reltol">
+ </div> <!--</section>
+<section id="reltol">
 <span id="anykinspsheet-reltol"></span><h3>RelTol<a class="headerlink" href="#reltol" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1163,8 +1164,8 @@ AnyBody.</p>
 <p>Relative tolerance on the length change of all strings that is used to determine whether the solution is acceptable. The string length is used for normalization of the displacement.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="abstol">
+ </div> <!--</section>
+<section id="abstol">
 <span id="anykinspsheet-abstol"></span><h3>AbsTol<a class="headerlink" href="#abstol" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1181,8 +1182,8 @@ AnyBody.</p>
 <p>Absolute tolerance on the change of positions of wrapping points that is used to determine whether the solution is acceptable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="contactactivationdist">
+ </div> <!--</section>
+<section id="contactactivationdist">
 <span id="anykinspsheet-contactactivationdist"></span><h3>ContactActivationDist<a class="headerlink" href="#contactactivationdist" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1199,8 +1200,8 @@ AnyBody.</p>
 <p>Distance for activating a constraint for surface wrapping. This factor can improve speed and/or robustness.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="auglagcoef">
+ </div> <!--</section>
+<section id="auglagcoef">
 <span id="anykinspsheet-auglagcoef"></span><h3>AugLagCoef<a class="headerlink" href="#auglagcoef" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1217,8 +1218,8 @@ AnyBody.</p>
 <p>Coefficient for penalty term in the Augmented Lagragian method. Increasing this value can in some cases remove problems of negative pivots in the velocity analysis. Together with SolverType this parameter can be used to change speed and robustness of the wrapping solver.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="solvertype">
+ </div> <!--</section>
+<section id="solvertype">
 <span id="anykinspsheet-solvertype"></span><h3>SolverType<a class="headerlink" href="#solvertype" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1234,12 +1235,12 @@ AnyBody.</p>
 </div>
 <p>The SolverType defines one of four solver for the wrapping problem.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="html-toggle section" id="denied-access-members">
+</section>
+</section>
+<section class="html-toggle" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="updconfig">
+<!--<section id="updconfig">
 <span id="anykinspsheet-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1256,8 +1257,8 @@ AnyBody.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="upddesign">
+</div><!--</section>
+<section id="upddesign">
 <span id="anykinspsheet-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1274,8 +1275,8 @@ AnyBody.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="updoutput">
+</div><!--</section>
+<section id="updoutput">
 <span id="anykinspsheet-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1292,8 +1293,8 @@ AnyBody.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="t">
+</div><!--</section>
+<section id="t">
 <span id="anykinspsheet-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1310,8 +1311,8 @@ AnyBody.</p>
 <p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="surfaces">
+</div><!--</section>
+<section id="surfaces">
 <span id="anykinspsheet-surfaces"></span><h3>Surfaces<a class="headerlink" href="#surfaces" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1328,8 +1329,8 @@ AnyBody.</p>
 <p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasurearr">
+</div><!--</section>
+<section id="kinmeasurearr">
 <span id="anykinspsheet-kinmeasurearr"></span><h3>KinMeasureArr<a class="headerlink" href="#kinmeasurearr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1346,8 +1347,8 @@ AnyBody.</p>
 <p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasureindexarr">
+</div><!--</section>
+<section id="kinmeasureindexarr">
 <span id="anykinspsheet-kinmeasureindexarr"></span><h3>KinMeasureIndexArr<a class="headerlink" href="#kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1364,8 +1365,8 @@ AnyBody.</p>
 <p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="ndim">
+</div><!--</section>
+<section id="ndim">
 <span id="anykinspsheet-ndim"></span><h3>nDim<a class="headerlink" href="#ndim" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1382,8 +1383,8 @@ AnyBody.</p>
 <p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput">
+</div><!--</section>
+<section id="refframeoutput">
 <span id="anykinspsheet-refframeoutput"></span><h3>RefFrameOutput<a class="headerlink" href="#refframeoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1400,44 +1401,44 @@ AnyBody.</p>
 <p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput-refframearr">
+</div><!--</section>
+<section id="refframeoutput-refframearr">
 <span id="anykinspsheet-refframeoutput-refframearr"></span><h3>RefFrameOutput.RefFrameArr<a class="headerlink" href="#refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.RefFrameArr">
 <span id="anykinspsheet-refframeoutput-refframearr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Array of pointers to the reference frames that the measure depends on.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput-jacobians">
+</div><!--</section>
+<section id="refframeoutput-jacobians">
 <span id="anykinspsheet-refframeoutput-jacobians"></span><h3>RefFrameOutput.Jacobians<a class="headerlink" href="#refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.Jacobians">
 <span id="anykinspsheet-refframeoutput-jacobians" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in ‘DepRefFrameArr’. The structure is 3-domensional. First dimension contains on item for each frame in ‘DepRefFrameArr’, second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="pos">
+</div><!--</section>
+<section id="pos">
 <span id="anykinspsheet-pos"></span><h3>Pos<a class="headerlink" href="#pos" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1454,8 +1455,8 @@ AnyBody.</p>
 <p>The position vector, i.e., the current values of the measured quantity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="vel">
+</div><!--</section>
+<section id="vel">
 <span id="anykinspsheet-vel"></span><h3>Vel<a class="headerlink" href="#vel" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1472,30 +1473,12 @@ AnyBody.</p>
 <p>The velocity vector, typically the time-derivative of Pos.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="velana">
-<span id="anykinspsheet-velana"></span><h3>VelAna<a class="headerlink" href="#velana" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries even section collapsed" id="VelAna">
-<span id="anykinspsheet-velana" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title">VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#VelAna" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
-</div>
-<p>&lt;No description&gt;</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="acc">
+</div><!--</section>
+<section id="acc">
 <span id="anykinspsheet-acc"></span><h3>Acc<a class="headerlink" href="#acc" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="Acc">
+<div class="html-toggle member-entries even section collapsed" id="Acc">
 <span id="anykinspsheet-acc" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
 <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -1508,12 +1491,12 @@ AnyBody.</p>
 <p>The acceleration vector, typically the time-derivative of Vel.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-updconfig">
+</div><!--</section>
+<section id="viewkinmeasure-updconfig">
 <span id="anykinspsheet-viewkinmeasure-updconfig"></span><h3>viewKinMeasure.UpdConfig<a class="headerlink" href="#viewkinmeasure-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdConfig">
+<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdConfig">
 <span id="anykinspsheet-viewkinmeasure-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1526,12 +1509,12 @@ AnyBody.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-upddesign">
+</div><!--</section>
+<section id="viewkinmeasure-upddesign">
 <span id="anykinspsheet-viewkinmeasure-upddesign"></span><h3>viewKinMeasure.UpdDesign<a class="headerlink" href="#viewkinmeasure-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdDesign">
+<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdDesign">
 <span id="anykinspsheet-viewkinmeasure-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1544,12 +1527,12 @@ AnyBody.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-updoutput">
+</div><!--</section>
+<section id="viewkinmeasure-updoutput">
 <span id="anykinspsheet-viewkinmeasure-updoutput"></span><h3>viewKinMeasure.UpdOutput<a class="headerlink" href="#viewkinmeasure-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdOutput">
+<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdOutput">
 <span id="anykinspsheet-viewkinmeasure-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1562,12 +1545,12 @@ AnyBody.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="p">
+</div><!--</section>
+<section id="p">
 <span id="anykinspsheet-p"></span><h3>P<a class="headerlink" href="#p" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="P">
+<div class="html-toggle member-entries even section collapsed" id="P">
 <span id="anykinspsheet-p" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">P</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#P" title="Permalink to this headline">¶</a>
 <span class="member-descr">Matrix of points of the polyline, i.e. the mesh points.</span>
@@ -1579,9 +1562,9 @@ AnyBody.</p>
 </div>
 <p>Matrix of points of the polyline, i.e. the mesh points.</p>
 </div></blockquote>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -1661,7 +1644,7 @@ AnyBody.</p>
         <li class="right" >
           <a href="AnyKinSPLine.html" title="AnyKinSPLine"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -1671,8 +1654,8 @@ AnyBody.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

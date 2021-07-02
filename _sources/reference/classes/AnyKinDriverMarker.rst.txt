@@ -2862,7 +2862,7 @@ RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
     <span id="anykindrivermarker-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -2875,7 +2875,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -2903,7 +2903,7 @@ RefFrameOutput.Jacobians
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
     <span id="anykindrivermarker-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -2916,7 +2916,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -3013,47 +3013,6 @@ Vel
     </div><!--
 ..
 
-.. _AnyKinDriverMarker.VelAna:
-
-VelAna
-=========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="VelAna">
-    <span id="anykindrivermarker-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyKinDriverMarker.Acc:
 
 Acc
@@ -3064,7 +3023,7 @@ Acc
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Acc">
+    <div class="html-toggle member-entries odd section collapsed" id="Acc">
     <span id="anykindrivermarker-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -3105,7 +3064,7 @@ viewKinMeasure.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdConfig">
     <span id="anykindrivermarker-viewkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3146,7 +3105,7 @@ viewKinMeasure.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdDesign">
     <span id="anykindrivermarker-viewkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3187,7 +3146,7 @@ viewKinMeasure.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdOutput">
     <span id="anykindrivermarker-viewkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3228,7 +3187,7 @@ Reaction
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction">
     <span id="anykindrivermarker-reaction" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction" title="Permalink to this headline">¶</a>
     <span class="member-descr">Reaction forces associated with the constraints.</span>
@@ -3269,7 +3228,7 @@ Reaction.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.UpdConfig">
     <span id="anykindrivermarker-reaction-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3310,7 +3269,7 @@ Reaction.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.UpdDesign">
     <span id="anykindrivermarker-reaction-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3351,7 +3310,7 @@ Reaction.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.UpdOutput">
     <span id="anykindrivermarker-reaction-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3392,7 +3351,7 @@ Reaction.t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.t">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.t">
     <span id="anykindrivermarker-reaction-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -3433,7 +3392,7 @@ Reaction.RefFrames
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrames">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrames">
     <span id="anykindrivermarker-reaction-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -3474,7 +3433,7 @@ Reaction.Surfaces
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.Surfaces">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.Surfaces">
     <span id="anykindrivermarker-reaction-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -3515,7 +3474,7 @@ Reaction.KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.KinMeasureArr">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.KinMeasureArr">
     <span id="anykindrivermarker-reaction-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -3556,7 +3515,7 @@ Reaction.KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.KinMeasureIndexArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.KinMeasureIndexArr">
     <span id="anykindrivermarker-reaction-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -3597,7 +3556,7 @@ Reaction.nDim
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.nDim">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.nDim">
     <span id="anykindrivermarker-reaction-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -3638,7 +3597,7 @@ Reaction.RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput">
     <span id="anykindrivermarker-reaction-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -3679,10 +3638,10 @@ Reaction.RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.RefFrameArr">
     <span id="anykindrivermarker-reaction-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -3695,7 +3654,7 @@ Reaction.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -3720,10 +3679,10 @@ Reaction.RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.Jacobians">
     <span id="anykindrivermarker-reaction-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -3736,7 +3695,7 @@ Reaction.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -3761,10 +3720,10 @@ Reaction.RefFrameOutput.F
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.F">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.F">
     <span id="anykindrivermarker-reaction-refframeoutput-f" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.F" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D force vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -3777,7 +3736,7 @@ Reaction.RefFrameOutput.F
 
 
 
-    <No description>
+    Array of 3D force vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -3802,10 +3761,10 @@ Reaction.RefFrameOutput.M
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.RefFrameOutput.M">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.RefFrameOutput.M">
     <span id="anykindrivermarker-reaction-refframeoutput-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.RefFrameOutput.M" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D moment vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -3818,7 +3777,7 @@ Reaction.RefFrameOutput.M
 
 
 
-    <No description>
+    Array of 3D moment vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -3843,7 +3802,7 @@ Reaction.viewForce.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.viewForce.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.viewForce.UpdConfig">
     <span id="anykindrivermarker-reaction-viewforce-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.viewForce.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.viewForce.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3884,7 +3843,7 @@ Reaction.viewForce.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.viewForce.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.viewForce.UpdDesign">
     <span id="anykindrivermarker-reaction-viewforce-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.viewForce.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.viewForce.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3925,7 +3884,7 @@ Reaction.viewForce.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.viewForce.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.viewForce.UpdOutput">
     <span id="anykindrivermarker-reaction-viewforce-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.viewForce.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.viewForce.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3966,7 +3925,7 @@ Reaction.Fin
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Reaction.Fin">
+    <div class="html-toggle member-entries odd section collapsed" id="Reaction.Fin">
     <span id="anykindrivermarker-reaction-fin" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.Fin</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.Fin" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of input loads to the given type of analysis,...</span>
@@ -4007,7 +3966,7 @@ Reaction.Fout
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Reaction.Fout">
+    <div class="html-toggle member-entries even section collapsed" id="Reaction.Fout">
     <span id="anykindrivermarker-reaction-fout" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Reaction.Fout</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Reaction.Fout" title="Permalink to this headline">¶</a>
     <span class="member-descr">The generalized force vector of outputs from the given type of analysis....</span>
@@ -4048,7 +4007,7 @@ WeightPos
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="WeightPos">
+    <div class="html-toggle member-entries odd section collapsed" id="WeightPos">
     <span id="anykindrivermarker-weightpos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">WeightPos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#WeightPos" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current value of the kinematic weighting function.</span>
@@ -4089,7 +4048,7 @@ WeightVel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="WeightVel">
+    <div class="html-toggle member-entries even section collapsed" id="WeightVel">
     <span id="anykindrivermarker-weightvel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">WeightVel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#WeightVel" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current time-derivative of the kinematic weighting function.</span>
@@ -4130,7 +4089,7 @@ WeightAcc
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="WeightAcc">
+    <div class="html-toggle member-entries odd section collapsed" id="WeightAcc">
     <span id="anykindrivermarker-weightacc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">WeightAcc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#WeightAcc" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current 2'nd order time-derivative of the kinematic weighting function.</span>
@@ -4171,7 +4130,7 @@ DriverPos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="DriverPos">
+    <div class="html-toggle member-entries even section collapsed" id="DriverPos">
     <span id="anykindrivermarker-driverpos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">DriverPos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#DriverPos" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current value of the driver function.</span>
@@ -4212,7 +4171,7 @@ DriverVel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="DriverVel">
+    <div class="html-toggle member-entries odd section collapsed" id="DriverVel">
     <span id="anykindrivermarker-drivervel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">DriverVel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#DriverVel" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current time-derivative value of the driver function.</span>
@@ -4253,7 +4212,7 @@ DriverAcc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="DriverAcc">
+    <div class="html-toggle member-entries even section collapsed" id="DriverAcc">
     <span id="anykindrivermarker-driveracc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">DriverAcc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#DriverAcc" title="Permalink to this headline">¶</a>
     <span class="member-descr">Current second time-derivative value of the driver function.</span>
@@ -4294,7 +4253,7 @@ Linear
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear">
     <span id="anykindrivermarker-linear" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear" title="Permalink to this headline">¶</a>
     <span class="member-descr">Linear kinematic measure that measure the error between the marker location...</span>
@@ -4335,7 +4294,7 @@ Linear.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Linear.UpdConfig">
     <span id="anykindrivermarker-linear-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -4376,7 +4335,7 @@ Linear.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear.UpdDesign">
     <span id="anykindrivermarker-linear-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -4417,7 +4376,7 @@ Linear.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Linear.UpdOutput">
     <span id="anykindrivermarker-linear-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -4458,7 +4417,7 @@ Linear.t
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear.t">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear.t">
     <span id="anykindrivermarker-linear-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -4499,7 +4458,7 @@ Linear.RefFrames
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.RefFrames">
+    <div class="html-toggle member-entries even section collapsed" id="Linear.RefFrames">
     <span id="anykindrivermarker-linear-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -4540,7 +4499,7 @@ Linear.Surfaces
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear.Surfaces">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear.Surfaces">
     <span id="anykindrivermarker-linear-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -4581,7 +4540,7 @@ Linear.KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.KinMeasureArr">
+    <div class="html-toggle member-entries even section collapsed" id="Linear.KinMeasureArr">
     <span id="anykindrivermarker-linear-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -4622,7 +4581,7 @@ Linear.KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear.KinMeasureIndexArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear.KinMeasureIndexArr">
     <span id="anykindrivermarker-linear-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -4663,7 +4622,7 @@ Linear.nDim
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.nDim">
+    <div class="html-toggle member-entries even section collapsed" id="Linear.nDim">
     <span id="anykindrivermarker-linear-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -4704,7 +4663,7 @@ Linear.RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear.RefFrameOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear.RefFrameOutput">
     <span id="anykindrivermarker-linear-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -4745,10 +4704,10 @@ Linear.RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries even section collapsed" id="Linear.RefFrameOutput.RefFrameArr">
     <span id="anykindrivermarker-linear-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -4761,7 +4720,7 @@ Linear.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -4786,10 +4745,10 @@ Linear.RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear.RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear.RefFrameOutput.Jacobians">
     <span id="anykindrivermarker-linear-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -4802,7 +4761,7 @@ Linear.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -4827,7 +4786,7 @@ Linear.Pos
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.Pos">
+    <div class="html-toggle member-entries even section collapsed" id="Linear.Pos">
     <span id="anykindrivermarker-linear-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -4868,7 +4827,7 @@ Linear.Vel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear.Vel">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear.Vel">
     <span id="anykindrivermarker-linear-vel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear.Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.Vel" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -4885,47 +4844,6 @@ Linear.Vel
 
 
     The velocity vector, typically the time-derivative of Pos.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyKinDriverMarker.Linear.VelAna:
-
-Linear.VelAna
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="Linear.VelAna">
-    <span id="anykindrivermarker-linear-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Linear.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear.VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
 
 ..
 

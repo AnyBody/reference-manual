@@ -136,7 +136,7 @@ Jii
     <div class="html-toggle member-entries even section collapsed" id="Jii">
     <span id="anyseg-jii" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Jii</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Jii" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Principal moments of inertia in a vector {Ixx,Iyy,Izz}.</span>
+    <span class="member-descr">Vector of the diagonal elements of the inertia matrix {Ixx,Iyy,Izz}. By...</span>
     </h3>
 
 ..
@@ -147,7 +147,7 @@ Jii
 
 
 
-    Principal moments of inertia in a vector {Ixx,Iyy,Izz}.
+    Vector of the diagonal elements of the inertia matrix {Ixx,Iyy,Izz}. By default, this is the principal moments of inertia (i.e. when sCoM is zero and JaboutCoMOnOff is On).
 
 ..
 
@@ -790,7 +790,7 @@ viewRefFrame.TextFont.BillBoardView
     <div class="html-toggle member-entries odd section collapsed" id="viewRefFrame.TextFont.BillBoardView">
     <span id="anyseg-viewrefframe-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewRefFrame.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -802,7 +802,7 @@ viewRefFrame.TextFont.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -831,7 +831,7 @@ viewRefFrame.TextFont.ModelSized
     <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.ModelSized">
     <span id="anyseg-viewrefframe-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewRefFrame.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -843,7 +843,7 @@ viewRefFrame.TextFont.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -967,6 +967,47 @@ viewRefFrame.TextFont.Rotation
         
 
     The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnySeg.viewRefFrame.TextFont.Overlay:
+
+viewRefFrame.TextFont.Overlay
+--------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="viewRefFrame.TextFont.Overlay">
+    <span id="anyseg-viewrefframe-textfont-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewRefFrame.TextFont.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
 
 ..
 
@@ -1570,7 +1611,7 @@ viewNodes.TextFont.BillBoardView
     <div class="html-toggle member-entries even section collapsed" id="viewNodes.TextFont.BillBoardView">
     <span id="anyseg-viewnodes-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -1582,7 +1623,7 @@ viewNodes.TextFont.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -1611,7 +1652,7 @@ viewNodes.TextFont.ModelSized
     <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.ModelSized">
     <span id="anyseg-viewnodes-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewNodes.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -1623,7 +1664,7 @@ viewNodes.TextFont.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -1747,6 +1788,47 @@ viewNodes.TextFont.Rotation
         
 
     The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnySeg.viewNodes.TextFont.Overlay:
+
+viewNodes.TextFont.Overlay
+-----------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewNodes.TextFont.Overlay">
+    <span id="anyseg-viewnodes-textfont-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewNodes.TextFont.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
 
 ..
 
@@ -1979,7 +2061,7 @@ Jij
     <div class="html-toggle member-entries odd section collapsed" id="Jij">
     <span id="anyseg-jij" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> Jij </span><span class="member-title-equal">=</span><span class="member-title-default"> {0.0, 0.0, 0.0} </span><a class="headerlink" href="#Jij" title="Permalink to this headline">¶</a>
-    <span class="member-descr">Deviation moments of inertia {Ixy,Iyz,Ixz}.</span>
+    <span class="member-descr">Vector of the off-diagonal elements of the inertia matrix, i.e. the...</span>
     </h3>
 
 ..
@@ -1996,7 +2078,7 @@ Jij
 
 
 
-    Deviation moments of inertia {Ixy,Iyz,Ixz}.
+    Vector of the off-diagonal elements of the inertia matrix, i.e. the deviation moments of inertia {Ixy,Iyz,Ixz}.
 
 ..
 
@@ -2686,7 +2768,7 @@ viewInertia.TextFont.BillBoardView
     <div class="html-toggle member-entries even section collapsed" id="viewInertia.TextFont.BillBoardView">
     <span id="anyseg-viewinertia-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewInertia.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -2698,7 +2780,7 @@ viewInertia.TextFont.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -2727,7 +2809,7 @@ viewInertia.TextFont.ModelSized
     <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.ModelSized">
     <span id="anyseg-viewinertia-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewInertia.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -2739,7 +2821,7 @@ viewInertia.TextFont.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -2878,6 +2960,47 @@ viewInertia.TextFont.Rotation
     </div><!--
 ..
 
+.. _AnySeg.viewInertia.TextFont.Overlay:
+
+viewInertia.TextFont.Overlay
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.TextFont.Overlay">
+    <span id="anyseg-viewinertia-textfont-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewInertia.TextFont.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnySeg.viewInertia.InertiaScale:
 
 viewInertia.InertiaScale
@@ -2888,7 +3011,7 @@ viewInertia.InertiaScale
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="viewInertia.InertiaScale">
+    <div class="html-toggle member-entries even section collapsed" id="viewInertia.InertiaScale">
     <span id="anyseg-viewinertia-inertiascale" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.InertiaScale </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#viewInertia.InertiaScale" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factor for the graphical representation of the inertia distribution.</span>

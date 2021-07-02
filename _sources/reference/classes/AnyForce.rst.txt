@@ -1223,7 +1223,7 @@ RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
     <span id="anyforce-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -1236,7 +1236,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -1264,7 +1264,7 @@ RefFrameOutput.Jacobians
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
     <span id="anyforce-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -1277,7 +1277,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -1305,7 +1305,7 @@ RefFrameOutput.F
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.F">
     <span id="anyforce-refframeoutput-f" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.F" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D force vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -1318,7 +1318,7 @@ RefFrameOutput.F
 
 
 
-    <No description>
+    Array of 3D force vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -1346,7 +1346,7 @@ RefFrameOutput.M
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.M">
     <span id="anyforce-refframeoutput-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.M" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D moment vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -1359,7 +1359,7 @@ RefFrameOutput.M
 
 
 
-    <No description>
+    Array of 3D moment vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 

@@ -880,7 +880,7 @@ Title.Font.BillBoardView
     <div class="html-toggle member-entries odd section collapsed" id="Title.Font.BillBoardView">
     <span id="anychartaxis-title-font-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Font.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -892,7 +892,7 @@ Title.Font.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -921,7 +921,7 @@ Title.Font.ModelSized
     <div class="html-toggle member-entries even section collapsed" id="Title.Font.ModelSized">
     <span id="anychartaxis-title-font-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Title.Font.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -933,7 +933,7 @@ Title.Font.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -1072,6 +1072,47 @@ Title.Font.Rotation
     </div><!--
 ..
 
+.. _AnyChartAxis.Title.Font.Overlay:
+
+Title.Font.Overlay
+---------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Title.Font.Overlay">
+    <span id="anychartaxis-title-font-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Font.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Title.Font.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyChartAxis.Title.Text:
 
 Title.Text
@@ -1082,7 +1123,7 @@ Title.Text
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Title.Text">
+    <div class="html-toggle member-entries odd section collapsed" id="Title.Text">
     <span id="anychartaxis-title-text" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Text </span><span class="member-title-equal">=</span><span class="member-title-default"> "" </span><a class="headerlink" href="#Title.Text" title="Permalink to this headline">¶</a>
     <span class="member-descr">Text string.</span>
@@ -1988,7 +2029,7 @@ Unit1.TextFont.BillBoardView
     <div class="html-toggle member-entries odd section collapsed" id="Unit1.TextFont.BillBoardView">
     <span id="anychartaxis-unit1-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Unit1.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -2000,7 +2041,7 @@ Unit1.TextFont.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -2029,7 +2070,7 @@ Unit1.TextFont.ModelSized
     <div class="html-toggle member-entries even section collapsed" id="Unit1.TextFont.ModelSized">
     <span id="anychartaxis-unit1-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Unit1.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -2041,7 +2082,7 @@ Unit1.TextFont.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -2180,6 +2221,47 @@ Unit1.TextFont.Rotation
     </div><!--
 ..
 
+.. _AnyChartAxis.Unit1.TextFont.Overlay:
+
+Unit1.TextFont.Overlay
+-------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Unit1.TextFont.Overlay">
+    <span id="anychartaxis-unit1-textfont-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Unit1.TextFont.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnyChartAxis.Unit1.TextSpace:
 
 Unit1.TextSpace
@@ -2190,7 +2272,7 @@ Unit1.TextSpace
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Unit1.TextSpace">
+    <div class="html-toggle member-entries odd section collapsed" id="Unit1.TextSpace">
     <span id="anychartaxis-unit1-textspace" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextSpace </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.0 </span><a class="headerlink" href="#Unit1.TextSpace" title="Permalink to this headline">¶</a>
     <span class="member-descr">Space between the unit text and the axis.</span>
@@ -2231,7 +2313,7 @@ Unit1.NumberFormat
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Unit1.NumberFormat">
+    <div class="html-toggle member-entries even section collapsed" id="Unit1.NumberFormat">
     <span id="anychartaxis-unit1-numberformat" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Unit1.NumberFormat" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for the unit text.</span>
@@ -2272,7 +2354,7 @@ Unit1.NumberFormat.Digits
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Unit1.NumberFormat.Digits">
+    <div class="html-toggle member-entries odd section collapsed" id="Unit1.NumberFormat.Digits">
     <span id="anychartaxis-unit1-numberformat-digits" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NumberFormat.Digits </span><span class="member-title-equal">=</span><span class="member-title-default"> 8 </span><a class="headerlink" href="#Unit1.NumberFormat.Digits" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of digits in output. Disregarded if smaller than one.</span>
@@ -2313,7 +2395,7 @@ Unit1.NumberFormat.Style
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Unit1.NumberFormat.Style">
+    <div class="html-toggle member-entries even section collapsed" id="Unit1.NumberFormat.Style">
     <span id="anychartaxis-unit1-numberformat-style" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NumberFormat.Style </span><span class="member-title-equal">=</span><span class="member-title-default"> 0 </span><a class="headerlink" href="#Unit1.NumberFormat.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style of the numeric output.</span>
@@ -2354,7 +2436,7 @@ Unit1.NumberFormat.Scale
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Unit1.NumberFormat.Scale">
+    <div class="html-toggle member-entries odd section collapsed" id="Unit1.NumberFormat.Scale">
     <span id="anychartaxis-unit1-numberformat-scale" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NumberFormat.Scale </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Unit1.NumberFormat.Scale" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for scaling.</span>
@@ -2395,7 +2477,7 @@ Unit1.NumberFormat.ScaleVal
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Unit1.NumberFormat.ScaleVal">
+    <div class="html-toggle member-entries even section collapsed" id="Unit1.NumberFormat.ScaleVal">
     <span id="anychartaxis-unit1-numberformat-scaleval" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.NumberFormat.ScaleVal </span><span class="member-title-equal">=</span><span class="member-title-default"> 1.0 </span><a class="headerlink" href="#Unit1.NumberFormat.ScaleVal" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factor.</span>

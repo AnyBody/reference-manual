@@ -414,7 +414,7 @@ Font.BillBoardView
     <div class="html-toggle member-entries odd section collapsed" id="Font.BillBoardView">
     <span id="anycharttextfield-font-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Font.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -426,7 +426,7 @@ Font.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -455,7 +455,7 @@ Font.ModelSized
     <div class="html-toggle member-entries even section collapsed" id="Font.ModelSized">
     <span id="anycharttextfield-font-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#Font.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -467,7 +467,7 @@ Font.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -591,6 +591,47 @@ Font.Rotation
         
 
     The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyChartTextField.Font.Overlay:
+
+Font.Overlay
+---------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Font.Overlay">
+    <span id="anycharttextfield-font-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Font.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
 
 ..
 

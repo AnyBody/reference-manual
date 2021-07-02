@@ -362,7 +362,7 @@ BillBoardView
     <div class="html-toggle member-entries odd section collapsed" id="BillBoardView">
     <span id="anystylefont3dview-billboardview" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h3>
 
 ..
@@ -379,7 +379,7 @@ BillBoardView
 
 
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -410,7 +410,7 @@ ModelSized
     <div class="html-toggle member-entries even section collapsed" id="ModelSized">
     <span id="anystylefont3dview-modelsized" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title"> ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h3>
 
 ..
@@ -427,7 +427,7 @@ ModelSized
 
 
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -572,6 +572,54 @@ Rotation
 
 
     The rotation (in degrees) of the text when BillBoardView is enabled.
+
+..
+
+
+
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyStyleFont3DView.Overlay:
+
+Overlay
+==========
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="Overlay">
+    <span id="anystylefont3dview-overlay" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+    
+
+    
+    
+    
+
+
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
 
 ..
 

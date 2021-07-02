@@ -6,22 +6,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnyKinRotational &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>AnyKinRotational &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
@@ -63,7 +63,7 @@
         <li class="right" >
           <a href="AnyKinPointSurface.html" title="AnyKinPointSurface"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +78,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="anykinrotational">
+  <section id="anykinrotational">
 <span id="id1"></span><h1>AnyKinRotational<a class="headerlink" href="#anykinrotational" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -88,7 +88,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyKinMeasureReal.html#anykinmeasurereal"><span class="std std-ref">AnyKinMeasureReal</span></a></p>
 </dd>
 </dl>
-<div class="section" id="description">
+<section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This “kinematic measure” measures 3-D orientation/rotations.
 It measures either the rotation of a single reference frame with respect
@@ -170,7 +170,7 @@ estimate the proper solution in case where there are multiple. This is done by
 comparing multiple values to the values in previous calculation, e.g. the prior time step.
 This way AnyKinRotational tries to output continuos values over time.</p>
 </div>
-<div class="html-toggle section" id="equivalent-forces">
+<section class="html-toggle" id="equivalent-forces">
 <h3>Equivalent forces<a class="headerlink" href="#equivalent-forces" title="Permalink to this headline">¶</a></h3>
 <p>Forces can be applied to <a class="reference internal" href="AnyKinLinear.html#anykinlinear"><span class="std std-ref">AnyKinLinear</span></a> objects by AnyForce objects, and they
 come implicitly from many other objects such kinematic constraints.
@@ -200,9 +200,9 @@ are used to measure the position vector.
 This issue is known to cause some confusion about the force applied to
 an AnyKinLinear object; however, this mechanism also makes sure that over all
 equilibrium is ensured.</p>
-</div>
-</div>
-<div class="section" id="examples">
+</section>
+</section>
+<section id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>Here is simple code block showing how to create a measure the intrinsic rotations
 (Tait–Bryan angles) between to reference frames, with the rotation sequence z-y-x:</p>
@@ -223,11 +223,11 @@ equilibrium is ensured.</p>
 </pre></div>
 </div>
 <p> </p>
-</div>
-<div class="section" id="expected-members">
+</section>
+<section id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="anyrefframe">
+<!--<section id="anyrefframe">
 <span id="anykinrotational-anyrefframe"></span><h3>AnyRefFrame<a class="headerlink" href="#anyrefframe" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -242,12 +242,12 @@ equilibrium is ensured.</p>
 </div>
 <p>The reference frames that are input for the measure.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="required-initialization-members">
+</section>
+</section>
+<section id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="type">
+<!--<section id="type">
 <span id="anykinrotational-type"></span><h3>Type<a class="headerlink" href="#type" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -262,12 +262,12 @@ equilibrium is ensured.</p>
 </div>
 <p>Coordinate type specification.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="optional-initialization-members">
+</section>
+</section>
+<section id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="viewkinmeasure">
+  <!--<section id="viewkinmeasure">
 <h3>viewKinMeasure<a class="headerlink" href="#viewkinmeasure" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -276,7 +276,7 @@ equilibrium is ensured.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> viewKinMeasure </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#viewKinMeasure" title="Permalink to this headline">¶</a>
 <span class="member-descr">Drawing object that renders the kinematic measure.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="viewkinmeasure-visible">
+<!--<section id="viewkinmeasure-visible">
 <span id="anykinrotational-viewkinmeasure-visible"></span><h4>viewKinMeasure.Visible<a class="headerlink" href="#viewkinmeasure-visible" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -293,8 +293,8 @@ equilibrium is ensured.</p>
 <p>Visibility setting, which specifies default visibility of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-opacity">
+</div><!--</section>
+<section id="viewkinmeasure-opacity">
 <span id="anykinrotational-viewkinmeasure-opacity"></span><h4>viewKinMeasure.Opacity<a class="headerlink" href="#viewkinmeasure-opacity" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -311,8 +311,8 @@ equilibrium is ensured.</p>
 <p>Opacity setting, which specifies default opacity of the object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-pickable">
+</div><!--</section>
+<section id="viewkinmeasure-pickable">
 <span id="anykinrotational-viewkinmeasure-pickable"></span><h4>viewKinMeasure.Pickable<a class="headerlink" href="#viewkinmeasure-pickable" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -329,8 +329,8 @@ equilibrium is ensured.</p>
 <p>Switch for whether the AnyDrawObject can interacted with by clicking it in a model view.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-pickablezordering">
+</div><!--</section>
+<section id="viewkinmeasure-pickablezordering">
 <span id="anykinrotational-viewkinmeasure-pickablezordering"></span><h4>viewKinMeasure.PickableZOrdering<a class="headerlink" href="#viewkinmeasure-pickablezordering" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -347,8 +347,8 @@ equilibrium is ensured.</p>
 <p>Defines the pick order sorting in the Modelview. Modelview picking order is resolved by PickableZOrdering before resolving by depth in the viewport.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb1">
+</div><!--</section>
+<section id="viewkinmeasure-rgb1">
 <span id="anykinrotational-viewkinmeasure-rgb1"></span><h4>viewKinMeasure.RGB1<a class="headerlink" href="#viewkinmeasure-rgb1" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -365,8 +365,8 @@ equilibrium is ensured.</p>
 <p>Color F1 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb2">
+</div><!--</section>
+<section id="viewkinmeasure-rgb2">
 <span id="anykinrotational-viewkinmeasure-rgb2"></span><h4>viewKinMeasure.RGB2<a class="headerlink" href="#viewkinmeasure-rgb2" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -383,8 +383,8 @@ equilibrium is ensured.</p>
 <p>Color F2 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb3">
+</div><!--</section>
+<section id="viewkinmeasure-rgb3">
 <span id="anykinrotational-viewkinmeasure-rgb3"></span><h4>viewKinMeasure.RGB3<a class="headerlink" href="#viewkinmeasure-rgb3" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -401,8 +401,8 @@ equilibrium is ensured.</p>
 <p>Color F3 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-rgb4">
+</div><!--</section>
+<section id="viewkinmeasure-rgb4">
 <span id="anykinrotational-viewkinmeasure-rgb4"></span><h4>viewKinMeasure.RGB4<a class="headerlink" href="#viewkinmeasure-rgb4" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -419,8 +419,8 @@ equilibrium is ensured.</p>
 <p>Color F4 in RGB values between 0 and 1.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-label">
+</div><!--</section>
+<section id="viewkinmeasure-label">
 <span id="anykinrotational-viewkinmeasure-label"></span><h4>viewKinMeasure.Label<a class="headerlink" href="#viewkinmeasure-label" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -437,8 +437,8 @@ equilibrium is ensured.</p>
 <p>On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-size">
+</div><!--</section>
+<section id="viewkinmeasure-size">
 <span id="anykinrotational-viewkinmeasure-size"></span><h4>viewKinMeasure.Size<a class="headerlink" href="#viewkinmeasure-size" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -455,8 +455,8 @@ equilibrium is ensured.</p>
 <p>Radius size of the balls etc. of the AnyDrawKinMeasure.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-line">
+</div><!--</section>
+<section id="viewkinmeasure-line">
 <span id="anykinrotational-viewkinmeasure-line"></span><h4>viewKinMeasure.Line<a class="headerlink" href="#viewkinmeasure-line" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -473,8 +473,8 @@ equilibrium is ensured.</p>
 <p>On/Off value indicating whether the AnyDrawKinMeasure should have a line between ball components.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-text">
+</div><!--</section>
+<section id="viewkinmeasure-text">
 <span id="anykinrotational-viewkinmeasure-text"></span><h4>viewKinMeasure.Text<a class="headerlink" href="#viewkinmeasure-text" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -491,8 +491,8 @@ equilibrium is ensured.</p>
 <p>If set, this text is shown as the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-textsize">
+</div><!--</section>
+<section id="viewkinmeasure-textsize">
 <span id="anykinrotational-viewkinmeasure-textsize"></span><h4>viewKinMeasure.TextSize<a class="headerlink" href="#viewkinmeasure-textsize" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -509,8 +509,8 @@ equilibrium is ensured.</p>
 <p>The size in pixels of the Text label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showillustration">
+</div><!--</section>
+<section id="viewkinmeasure-showillustration">
 <span id="anykinrotational-viewkinmeasure-showillustration"></span><h4>viewKinMeasure.ShowIllustration<a class="headerlink" href="#viewkinmeasure-showillustration" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -527,8 +527,8 @@ equilibrium is ensured.</p>
 <p>Indicates if the graphical representation of the kinematic measure should be drawn if applicable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showlabellines">
+</div><!--</section>
+<section id="viewkinmeasure-showlabellines">
 <span id="anykinrotational-viewkinmeasure-showlabellines"></span><h4>viewKinMeasure.ShowLabelLines<a class="headerlink" href="#viewkinmeasure-showlabellines" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -545,8 +545,8 @@ equilibrium is ensured.</p>
 <p>Indicates if the lines from the label to the reference frames of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showvalue">
+</div><!--</section>
+<section id="viewkinmeasure-showvalue">
 <span id="anykinrotational-viewkinmeasure-showvalue"></span><h4>viewKinMeasure.ShowValue<a class="headerlink" href="#viewkinmeasure-showvalue" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -563,8 +563,8 @@ equilibrium is ensured.</p>
 <p>Indicates if the pos value of the kinematic measure should be shown in the label.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-showlabelborder">
+</div><!--</section>
+<section id="viewkinmeasure-showlabelborder">
 <span id="anykinrotational-viewkinmeasure-showlabelborder"></span><h4>viewKinMeasure.ShowLabelBorder<a class="headerlink" href="#viewkinmeasure-showlabelborder" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -581,8 +581,8 @@ equilibrium is ensured.</p>
 <p>Indicates if the label of the kinematic measure should be drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-illustrationpositionoffset">
+</div><!--</section>
+<section id="viewkinmeasure-illustrationpositionoffset">
 <span id="anykinrotational-viewkinmeasure-illustrationpositionoffset"></span><h4>viewKinMeasure.IllustrationPositionOffset<a class="headerlink" href="#viewkinmeasure-illustrationpositionoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -599,8 +599,8 @@ equilibrium is ensured.</p>
 <p>Positional offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-illustrationrotationoffset">
+</div><!--</section>
+<section id="viewkinmeasure-illustrationrotationoffset">
 <span id="anykinrotational-viewkinmeasure-illustrationrotationoffset"></span><h4>viewKinMeasure.IllustrationRotationOffset<a class="headerlink" href="#viewkinmeasure-illustrationrotationoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -617,8 +617,8 @@ equilibrium is ensured.</p>
 <p>Rotational offset for the illustration of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-refillustration">
+</div><!--</section>
+<section id="viewkinmeasure-refillustration">
 <span id="anykinrotational-viewkinmeasure-refillustration"></span><h4>viewKinMeasure.RefIllustration<a class="headerlink" href="#viewkinmeasure-refillustration" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -637,8 +637,8 @@ equilibrium is ensured.</p>
 -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-reflabel">
+</div><!--</section>
+<section id="viewkinmeasure-reflabel">
 <span id="anykinrotational-viewkinmeasure-reflabel"></span><h4>viewKinMeasure.RefLabel<a class="headerlink" href="#viewkinmeasure-reflabel" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -657,8 +657,8 @@ equilibrium is ensured.</p>
 -1 is the global reference system. 0 to (n-1) means the reference systems of the reference frames in the kinematic measure</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-labelpositionoffset">
+</div><!--</section>
+<section id="viewkinmeasure-labelpositionoffset">
 <span id="anykinrotational-viewkinmeasure-labelpositionoffset"></span><h4>viewKinMeasure.LabelPositionOffset<a class="headerlink" href="#viewkinmeasure-labelpositionoffset" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -675,8 +675,8 @@ equilibrium is ensured.</p>
 <p>Positional offset for the label of the kinematic measure in the reference frame indicated by the ref value.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuescaling">
+</div><!--</section>
+<section id="viewkinmeasure-valuescaling">
 <span id="anykinrotational-viewkinmeasure-valuescaling"></span><h4>viewKinMeasure.ValueScaling<a class="headerlink" href="#viewkinmeasure-valuescaling" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -693,8 +693,8 @@ equilibrium is ensured.</p>
 <p>Value used as a factor for the displayed pos value of the kinematic measure. This must either be a scalar or have the same size as pos of the kinematic measure being drawn.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle">
 <span id="anykinrotational-viewkinmeasure-valuestyle"></span><h4>viewKinMeasure.ValueStyle<a class="headerlink" href="#viewkinmeasure-valuestyle" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -711,8 +711,8 @@ equilibrium is ensured.</p>
 <p>Format settings for the label text.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-digits">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-digits">
 <span id="anykinrotational-viewkinmeasure-valuestyle-digits"></span><h4>viewKinMeasure.ValueStyle.Digits<a class="headerlink" href="#viewkinmeasure-valuestyle-digits" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -729,8 +729,8 @@ equilibrium is ensured.</p>
 <p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-style">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-style">
 <span id="anykinrotational-viewkinmeasure-valuestyle-style"></span><h4>viewKinMeasure.ValueStyle.Style<a class="headerlink" href="#viewkinmeasure-valuestyle-style" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -747,8 +747,8 @@ equilibrium is ensured.</p>
 <p>Style of the numeric output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-scale">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-scale">
 <span id="anykinrotational-viewkinmeasure-valuestyle-scale"></span><h4>viewKinMeasure.ValueStyle.Scale<a class="headerlink" href="#viewkinmeasure-valuestyle-scale" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -765,8 +765,8 @@ equilibrium is ensured.</p>
 <p>Switch for scaling.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-valuestyle-scaleval">
+</div><!--</section>
+<section id="viewkinmeasure-valuestyle-scaleval">
 <span id="anykinrotational-viewkinmeasure-valuestyle-scaleval"></span><h4>viewKinMeasure.ValueStyle.ScaleVal<a class="headerlink" href="#viewkinmeasure-valuestyle-scaleval" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -783,9 +783,9 @@ equilibrium is ensured.</p>
 <p>Scaling factor.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</div>
-</div>
-<div class="section" id="axis1">
+ </div></div> <!--</section>
+</section>
+<section id="axis1">
 <span id="anykinrotational-axis1"></span><h3>Axis1<a class="headerlink" href="#axis1" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -802,8 +802,8 @@ equilibrium is ensured.</p>
 <p>First axis of rotation for RotAxesAngles and primary axis of rotation (normal to the planar motion) for PlanarAngles.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="axis2">
+ </div> <!--</section>
+<section id="axis2">
 <span id="anykinrotational-axis2"></span><h3>Axis2<a class="headerlink" href="#axis2" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -820,8 +820,8 @@ equilibrium is ensured.</p>
 <p>Second axis of rotation for RotAxesAngles.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="axis3">
+ </div> <!--</section>
+<section id="axis3">
 <span id="anykinrotational-axis3"></span><h3>Axis3<a class="headerlink" href="#axis3" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -838,8 +838,8 @@ equilibrium is ensured.</p>
 <p>Third axis of rotation for RotAxesAngles.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="dircosineaxes">
+ </div> <!--</section>
+<section id="dircosineaxes">
 <span id="anykinrotational-dircosineaxes"></span><h3>DirCosineAxes<a class="headerlink" href="#dircosineaxes" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -856,8 +856,8 @@ equilibrium is ensured.</p>
 <p>Pairs of axes used for which directional cosine outputs are given when Type is DirCosines.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="angvelonoff">
+ </div> <!--</section>
+<section id="angvelonoff">
 <span id="anykinrotational-angvelonoff"></span><h3>AngVelOnOff<a class="headerlink" href="#angvelonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -874,8 +874,8 @@ equilibrium is ensured.</p>
 <p>Switch for using angular velocity vector at velocity and acceleration level.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="angvelglobal">
+ </div> <!--</section>
+<section id="angvelglobal">
 <span id="anykinrotational-angvelglobal"></span><h3>AngVelGlobal<a class="headerlink" href="#angvelglobal" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -891,12 +891,12 @@ equilibrium is ensured.</p>
 </div>
 <p>Switch for using angular velocity vector in global coordinates at velocity and acceleration level. This requires ‘AngVelOnOff = On’.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="html-toggle section" id="denied-access-members">
+</section>
+</section>
+<section class="html-toggle" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="updconfig">
+<!--<section id="updconfig">
 <span id="anykinrotational-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -913,8 +913,8 @@ equilibrium is ensured.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="upddesign">
+</div><!--</section>
+<section id="upddesign">
 <span id="anykinrotational-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -931,8 +931,8 @@ equilibrium is ensured.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="updoutput">
+</div><!--</section>
+<section id="updoutput">
 <span id="anykinrotational-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -949,8 +949,8 @@ equilibrium is ensured.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="t">
+</div><!--</section>
+<section id="t">
 <span id="anykinrotational-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -967,8 +967,8 @@ equilibrium is ensured.</p>
 <p>Object-time variable.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframes">
+</div><!--</section>
+<section id="refframes">
 <span id="anykinrotational-refframes"></span><h3>RefFrames<a class="headerlink" href="#refframes" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -985,8 +985,8 @@ equilibrium is ensured.</p>
 <p>Array of pointers to the reference frames (class AnyRefFrame and derived) that are basic input to the kinematic measure. Notice that some kinematic measures also use other refernce frames implicitly.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="surfaces">
+</div><!--</section>
+<section id="surfaces">
 <span id="anykinrotational-surfaces"></span><h3>Surfaces<a class="headerlink" href="#surfaces" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1003,8 +1003,8 @@ equilibrium is ensured.</p>
 <p>Array of pointers to the surfaces (class AnySurface and derived) that are basic input to the kinematic measure. Notice that many kinematic measure do not have any surface dependency.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasurearr">
+</div><!--</section>
+<section id="kinmeasurearr">
 <span id="anykinrotational-kinmeasurearr"></span><h3>KinMeasureArr<a class="headerlink" href="#kinmeasurearr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1021,8 +1021,8 @@ equilibrium is ensured.</p>
 <p>Array of pointers to the other kinematic (class AnyKinMeasure and derived) that are basic input to the kinematic measure. This is used only for kinematic measure that combine other measure, but not for AnyKinMeasureReal-derived measures</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="kinmeasureindexarr">
+</div><!--</section>
+<section id="kinmeasureindexarr">
 <span id="anykinrotational-kinmeasureindexarr"></span><h3>KinMeasureIndexArr<a class="headerlink" href="#kinmeasureindexarr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1039,8 +1039,8 @@ equilibrium is ensured.</p>
 <p>Array of indices of the component of the associated kinematic measure in KinMeasureArr that is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="ndim">
+</div><!--</section>
+<section id="ndim">
 <span id="anykinrotational-ndim"></span><h3>nDim<a class="headerlink" href="#ndim" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1057,8 +1057,8 @@ equilibrium is ensured.</p>
 <p>Dimensions of the kinematic measure, i.e., the number of elements in the measure, e.g. the number of elements in the ‘Pos’ member (when avaialble) and related members.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput">
+</div><!--</section>
+<section id="refframeoutput">
 <span id="anykinrotational-refframeoutput"></span><h3>RefFrameOutput<a class="headerlink" href="#refframeoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1075,44 +1075,44 @@ equilibrium is ensured.</p>
 <p>Folder containing data related to all the reference frames that this measure depends on. This includes reference frames explicitly given by via members such as ‘RefFrames’, but also implicit dependecies via for instance surfaces (e.g. from the member ‘Surfaces’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput-refframearr">
+</div><!--</section>
+<section id="refframeoutput-refframearr">
 <span id="anykinrotational-refframeoutput-refframearr"></span><h3>RefFrameOutput.RefFrameArr<a class="headerlink" href="#refframeoutput-refframearr" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
 <span id="anykinrotational-refframeoutput-refframearr" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ConfigVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Array of pointers to the reference frames that the measure depends on.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="refframeoutput-jacobians">
+</div><!--</section>
+<section id="refframeoutput-jacobians">
 <span id="anykinrotational-refframeoutput-jacobians"></span><h3>RefFrameOutput.Jacobians<a class="headerlink" href="#refframeoutput-jacobians" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
 <span id="anykinrotational-refframeoutput-jacobians" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
+<span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyFloat.html#anyfloat"><span class="std std-ref">AnyFloat</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
 </div>
-<p>&lt;No description&gt;</p>
+<p>Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in ‘DepRefFrameArr’. The structure is 3-domensional. First dimension contains on item for each frame in ‘DepRefFrameArr’, second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="pos">
+</div><!--</section>
+<section id="pos">
 <span id="anykinrotational-pos"></span><h3>Pos<a class="headerlink" href="#pos" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1129,8 +1129,8 @@ equilibrium is ensured.</p>
 <p>The position vector, i.e., the current values of the measured quantity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="vel">
+</div><!--</section>
+<section id="vel">
 <span id="anykinrotational-vel"></span><h3>Vel<a class="headerlink" href="#vel" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1147,30 +1147,12 @@ equilibrium is ensured.</p>
 <p>The velocity vector, typically the time-derivative of Pos.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="velana">
-<span id="anykinrotational-velana"></span><h3>VelAna<a class="headerlink" href="#velana" title="Permalink to this headline">¶</a></h3>
--->
-
-<div class="html-toggle member-entries odd section collapsed" id="VelAna">
-<span id="anykinrotational-velana" style=""></span>
-<h3 class="html-toggle-button" style=""><span class="member-title">VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#VelAna" title="Permalink to this headline">¶</a>
-<span class="member-descr"></span>
-</h3><blockquote>
-<div><div class="line-block">
-<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVector.html#anyvector"><span class="std std-ref">AnyVector</span></a></div>
-<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">VelVar</span></a></div>
-<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">&quot;Dependent&quot;</span></code></div>
-</div>
-<p>&lt;No description&gt;</p>
-</div></blockquote>
-<!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="acc">
+</div><!--</section>
+<section id="acc">
 <span id="anykinrotational-acc"></span><h3>Acc<a class="headerlink" href="#acc" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="Acc">
+<div class="html-toggle member-entries odd section collapsed" id="Acc">
 <span id="anykinrotational-acc" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
 <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -1183,12 +1165,12 @@ equilibrium is ensured.</p>
 <p>The acceleration vector, typically the time-derivative of Vel.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-updconfig">
+</div><!--</section>
+<section id="viewkinmeasure-updconfig">
 <span id="anykinrotational-viewkinmeasure-updconfig"></span><h3>viewKinMeasure.UpdConfig<a class="headerlink" href="#viewkinmeasure-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdConfig">
+<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdConfig">
 <span id="anykinrotational-viewkinmeasure-updconfig" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1201,12 +1183,12 @@ equilibrium is ensured.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-upddesign">
+</div><!--</section>
+<section id="viewkinmeasure-upddesign">
 <span id="anykinrotational-viewkinmeasure-upddesign"></span><h3>viewKinMeasure.UpdDesign<a class="headerlink" href="#viewkinmeasure-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdDesign">
+<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdDesign">
 <span id="anykinrotational-viewkinmeasure-upddesign" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
 <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -1219,12 +1201,12 @@ equilibrium is ensured.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="viewkinmeasure-updoutput">
+</div><!--</section>
+<section id="viewkinmeasure-updoutput">
 <span id="anykinrotational-viewkinmeasure-updoutput"></span><h3>viewKinMeasure.UpdOutput<a class="headerlink" href="#viewkinmeasure-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
-<div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdOutput">
+<div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdOutput">
 <span id="anykinrotational-viewkinmeasure-updoutput" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
@@ -1236,12 +1218,12 @@ equilibrium is ensured.</p>
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</div>
-</div>
-<div class="html-toggle section" id="deprecated-members">
+</section>
+</section>
+<section class="html-toggle" id="deprecated-members">
 <h2>Deprecated members<a class="headerlink" href="#deprecated-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="ref">
+<!--<section id="ref">
 <span id="anykinrotational-ref"></span><h3>Ref<a class="headerlink" href="#ref" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -1263,9 +1245,9 @@ model to remove initialization of ‘Ref’.</p>
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -1345,7 +1327,7 @@ model to remove initialization of ‘Ref’.</p>
         <li class="right" >
           <a href="AnyKinPointSurface.html" title="AnyKinPointSurface"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -1355,8 +1337,8 @@ model to remove initialization of ‘Ref’.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

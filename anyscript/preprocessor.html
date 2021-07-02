@@ -6,22 +6,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The preprocessor &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>The preprocessor &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
-    <script src="../_static/language_data.js"></script>
     <script src="../_static/script/filter-class-list.js"></script>
     <script src="../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
@@ -63,7 +63,7 @@
         <li class="right" >
           <a href="terminology.html" title="Terminology"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">The preprocessor</a></li> 
@@ -77,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="the-preprocessor">
+  <section id="the-preprocessor">
 <h1>The preprocessor<a class="headerlink" href="#the-preprocessor" title="Permalink to this headline">¶</a></h1>
 <p>Statements like <code class="docutils literal notranslate"><span class="pre">#include</span></code>/<code class="docutils literal notranslate"><span class="pre">#define</span></code>/<code class="docutils literal notranslate"><span class="pre">#if</span></code> are part of the AnyBody pre-processor.</p>
 <p>The preprocessor runs on the source files before AnyBody reads the files and compiles the model.
@@ -91,7 +91,7 @@ This unlike the AnyScript language itself, where the order of declaration is not
 <p>The pre-processor’s role is the inclusion of other files (<code class="docutils literal notranslate"><span class="pre">#include</span></code>), macro expansion <code class="docutils literal notranslate"><span class="pre">#define</span></code>, and
 conditional compilation <code class="docutils literal notranslate"><span class="pre">#if</span></code>/<code class="docutils literal notranslate"><span class="pre">#else</span></code>. In addition the pre-processor adds few directives
 which are special to the AnyBody modeling system, like for example the <code class="docutils literal notranslate"><span class="pre">#path</span></code> and <code class="docutils literal notranslate"><span class="pre">#class_template</span></code>.</p>
-<div class="section" id="including-files">
+<section id="including-files">
 <span id="preprocessor-include"></span><h2>Including files<a class="headerlink" href="#including-files" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#include</span></code>-statement is a statement that takes the content of a
 file and inserts it at the location of the statement.</p>
@@ -100,8 +100,8 @@ file and inserts it at the location of the statement.</p>
 <span class="cp">#include</span> <span class="s">&quot;&lt;path-identifier&gt;filename.any&quot;</span>
 </pre></div>
 </div>
-</div>
-<div class="section" id="conditional-code">
+</section>
+<section id="conditional-code">
 <h2>Conditional code<a class="headerlink" href="#conditional-code" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#if</span></code> directives togehter with <code class="docutils literal notranslate"><span class="pre">#else</span></code> or <code class="docutils literal notranslate"><span class="pre">#endif</span></code> can be used to
 select between blocks AnyScript™ code. The syntax is as follows:</p>
@@ -127,8 +127,8 @@ could look like the following:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">#ifnpathexsists</span> <span class="pre">&lt;path&gt;</span></code>: test if file or directory does <em>not</em> exist</p></li>
 </ul>
 </div></blockquote>
-</div>
-<div class="section" id="path-define-statements">
+</section>
+<section id="path-define-statements">
 <h2>Path/define statements<a class="headerlink" href="#path-define-statements" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#define</span></code>-statement links a piece of code to an identifier. When
 the identifier is used later, it is substituted with the piece of code
@@ -155,8 +155,8 @@ an actual <code class="docutils literal notranslate"><span class="pre">#path</sp
 <p>It is convention to write pre-processor identifiers in all uppercase to
 emphasize that it is a macro, not a real function.</p>
 </div>
-</div>
-<div class="section" id="un-defining-statements">
+</section>
+<section id="un-defining-statements">
 <h2>Un-defining statements<a class="headerlink" href="#un-defining-statements" title="Permalink to this headline">¶</a></h2>
 <p>Identifiers or macros created using <code class="docutils literal notranslate"><span class="pre">#define</span></code> can undefined again with
 the <code class="docutils literal notranslate"><span class="pre">#undef</span> <span class="pre">&lt;identifier&gt;</span></code> statement.</p>
@@ -167,8 +167,8 @@ the <code class="docutils literal notranslate"><span class="pre">#undef</span> <
 <span class="cp">#endif</span>
 </pre></div>
 </div>
-</div>
-<div class="section" id="code-macros">
+</section>
+<section id="code-macros">
 <span id="id1"></span><h2>Code macros<a class="headerlink" href="#code-macros" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#define</span></code> statement can also be used with arguments, to
 create something like a function-like macro.</p>
@@ -190,8 +190,8 @@ correct order operation when the code is expanded. For example:
 <p class="admonition-title">See also</p>
 <p><a class="reference internal" href="../demos/index.html#macro-demos"><span class="std std-ref">Demo models</span></a> showing the macro functionality.</p>
 </div>
-</div>
-<div class="section" id="class-templates">
+</section>
+<section id="class-templates">
 <span id="id2"></span><h2>Class templates<a class="headerlink" href="#class-templates" title="Permalink to this headline">¶</a></h2>
 <p>In addition to the fairly simple code elements adopted from C/C++, a number of
 special features exist in the AnyScript™ preprocesser. In particular, the
@@ -350,8 +350,8 @@ accommodate very long argument list, where many (most) arguments have
 default values that often does not need modification. This is
 expected to be the case larger, advanced “classes” defined using
 Class Templates.</p>
-</div>
-</div>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -439,7 +439,7 @@ Class Templates.</p>
         <li class="right" >
           <a href="terminology.html" title="Terminology"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" >The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">The preprocessor</a></li> 
@@ -448,8 +448,8 @@ Class Templates.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

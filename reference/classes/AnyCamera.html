@@ -6,22 +6,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnyCamera &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>AnyCamera &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
@@ -63,7 +63,7 @@
         <li class="right" >
           <a href="AnyCamRecorder.html" title="AnyCamRecorder"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +78,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="anycamera">
+  <section id="anycamera">
 <span id="id1"></span><h1>AnyCamera<a class="headerlink" href="#anycamera" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -91,7 +91,7 @@
 <dd class="field-odd"><p><a class="reference internal" href="AnyCameraLookAt.html#anycameralookat"><span class="std std-ref">AnyCameraLookAt</span></a>, <a class="reference internal" href="AnyCameraModelView.html#anycameramodelview"><span class="std std-ref">AnyCameraModelView</span></a></p>
 </dd>
 </dl>
-<div class="section" id="description">
+<section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>AnyCamera is the base class for camera classes. Camera objects define a view point
 for the model scene.</p>
@@ -102,13 +102,26 @@ extended functionality for defining the view point reference.</p>
 It can show both perspective or orthografic points of view .</p>
 <p>The scene is bounded close to the eye and far away (typically beyond the model) by the
 so-called near and far clipping planes.
-The location of theclipping planes are specified by the distances Near and Far
+The location of the clipping planes are specified by the distances Near and Far
 in the view point reference.</p>
 <p>Feature such as zoom, perspective aspects, and the like are defined indirectly by the
-focal plane. The focal plane’s distance from the eye in given by FocalDist
+focal plane. The focal plane’s distance from the eye is given by FocalDist
 and zoom and aspect effect are given by the height of the image in this plane.
-This height is given by FocalHeight</p>
+This height is given by FocalHeight.</p>
 <p>Notice that all distances mentioned so far are in real physical model units.</p>
+<p>The camera can render the model according to three different strategies,
+depending on the values of the member variables RenderUserInterfaceViewState and
+ModelViewDefinitions.
+By default is RenderUserInterfaceViewState set to Off, which has the effect that the camera
+will render according to the current state of the Model as defined in AnyScript.
+If RenderUserInterfaceViewState is set to On, the camera will render the model as it is
+currently displayed in the Model View window in the AnyBody user interface, including any
+changes made to the visibility, opacity etc. of the drawing made through interacting with the Model View
+or through the Model Tree.
+If RenderUserInterfaceViewState is set to Off, it is possible to specify an array of
+AnyModelViewDefinition AnyObjectPtrs in the member ModelViewDefinitions. If ModelViewDefinitions
+are specified, the camera will render according to the model state but with the AnyModelViewDefinitions
+applied on top of it.</p>
 <p> </p>
 <table class="colwidths-given plain docutils align-default" id="id2">
 <caption><span class="caption-text">Demo examples related to AnyCamera</span><a class="headerlink" href="#id2" title="Permalink to this table">¶</a></caption>
@@ -127,11 +140,11 @@ This height is given by FocalHeight</p>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section" id="expected-members">
+</section>
+<section id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="anyscene">
+<!--<section id="anyscene">
 <span id="anycamera-anyscene"></span><h3>AnyScene<a class="headerlink" href="#anyscene" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -146,12 +159,12 @@ This height is given by FocalHeight</p>
 </div>
 <p>Definition of scene settings. If more than one exists, only the former is used by the camera. If none exists, default settings are used.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="optional-initialization-members">
+</section>
+</section>
+<section id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="focaldist">
+  <!--<section id="focaldist">
 <span id="anycamera-focaldist"></span><h3>FocalDist<a class="headerlink" href="#focaldist" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -168,8 +181,8 @@ This height is given by FocalHeight</p>
 <p>Distance to the focal plane in (model units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="focalheight">
+ </div> <!--</section>
+<section id="focalheight">
 <span id="anycamera-focalheight"></span><h3>FocalHeight<a class="headerlink" href="#focalheight" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -186,8 +199,8 @@ This height is given by FocalHeight</p>
 <p>Height of the view area in focal plane (model units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="near">
+ </div> <!--</section>
+<section id="near">
 <span id="anycamera-near"></span><h3>Near<a class="headerlink" href="#near" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -204,8 +217,8 @@ This height is given by FocalHeight</p>
 <p>Distance from eye to the nearest clipping plane (model units). Everything closer to the eye point is not visible.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="far">
+ </div> <!--</section>
+<section id="far">
 <span id="anycamera-far"></span><h3>Far<a class="headerlink" href="#far" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -222,8 +235,8 @@ This height is given by FocalHeight</p>
 <p>Distance from eye to the farest??? clipping plane (model units). Everything further away from the eye point is not visible.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="perspective">
+ </div> <!--</section>
+<section id="perspective">
 <span id="anycamera-perspective"></span><h3>Perspective<a class="headerlink" href="#perspective" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -239,12 +252,12 @@ This height is given by FocalHeight</p>
 </div>
 <p>Switch for perspective view. Alternatively, the view is orthographic.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="html-toggle section" id="denied-access-members">
+</section>
+</section>
+<section class="html-toggle" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="updconfig">
+<!--<section id="updconfig">
 <span id="anycamera-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -261,8 +274,8 @@ This height is given by FocalHeight</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="upddesign">
+</div><!--</section>
+<section id="upddesign">
 <span id="anycamera-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -279,8 +292,8 @@ This height is given by FocalHeight</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="updoutput">
+</div><!--</section>
+<section id="updoutput">
 <span id="anycamera-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -296,9 +309,9 @@ This height is given by FocalHeight</p>
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -378,7 +391,7 @@ This height is given by FocalHeight</p>
         <li class="right" >
           <a href="AnyCamRecorder.html" title="AnyCamRecorder"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -388,8 +401,8 @@ This height is given by FocalHeight</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

@@ -2100,7 +2100,7 @@ RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
     <span id="anyforcesurfacecontact-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -2113,7 +2113,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -2141,7 +2141,7 @@ RefFrameOutput.Jacobians
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
     <span id="anyforcesurfacecontact-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -2154,7 +2154,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -2182,7 +2182,7 @@ RefFrameOutput.F
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.F">
     <span id="anyforcesurfacecontact-refframeoutput-f" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.F" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D force vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -2195,7 +2195,7 @@ RefFrameOutput.F
 
 
 
-    <No description>
+    Array of 3D force vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -2223,7 +2223,7 @@ RefFrameOutput.M
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.M">
     <span id="anyforcesurfacecontact-refframeoutput-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.M" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D moment vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -2236,7 +2236,7 @@ RefFrameOutput.M
 
 
 
-    <No description>
+    Array of 3D moment vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -3043,7 +3043,7 @@ Linear0.RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries even section collapsed" id="Linear0.RefFrameOutput.RefFrameArr">
     <span id="anyforcesurfacecontact-linear0-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -3056,7 +3056,7 @@ Linear0.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -3084,7 +3084,7 @@ Linear0.RefFrameOutput.Jacobians
     <div class="html-toggle member-entries odd section collapsed" id="Linear0.RefFrameOutput.Jacobians">
     <span id="anyforcesurfacecontact-linear0-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -3097,7 +3097,7 @@ Linear0.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -3194,47 +3194,6 @@ Linear0.Vel
     </div><!--
 ..
 
-.. _AnyForceSurfaceContact.Linear0.VelAna:
-
-Linear0.VelAna
-=================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.VelAna">
-    <span id="anyforcesurfacecontact-linear0-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyForceSurfaceContact.Linear0.Acc:
 
 Linear0.Acc
@@ -3245,7 +3204,7 @@ Linear0.Acc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.Acc">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.Acc">
     <span id="anyforcesurfacecontact-linear0-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -3286,7 +3245,7 @@ Linear0.viewKinMeasure
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing object that renders the kinematic measure.</span>
@@ -3327,7 +3286,7 @@ Linear0.viewKinMeasure.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.UpdConfig">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3368,7 +3327,7 @@ Linear0.viewKinMeasure.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.UpdDesign">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3409,7 +3368,7 @@ Linear0.viewKinMeasure.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.UpdOutput">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3450,7 +3409,7 @@ Linear0.viewKinMeasure.Visible
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.Visible">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.Visible">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-visible" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.Visible</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
@@ -3491,7 +3450,7 @@ Linear0.viewKinMeasure.Opacity
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.Opacity">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.Opacity">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-opacity" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.Opacity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.Opacity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
@@ -3532,7 +3491,7 @@ Linear0.viewKinMeasure.Pickable
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.Pickable">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.Pickable">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-pickable" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.Pickable</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.Pickable" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
@@ -3573,7 +3532,7 @@ Linear0.viewKinMeasure.PickableZOrdering
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.PickableZOrdering">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.PickableZOrdering">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-pickablezordering" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.PickableZOrdering</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.PickableZOrdering" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
@@ -3614,7 +3573,7 @@ Linear0.viewKinMeasure.RGB1
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.RGB1">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.RGB1">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-rgb1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.RGB1</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.RGB1" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F1 in RGB values between 0 and 1.</span>
@@ -3655,7 +3614,7 @@ Linear0.viewKinMeasure.RGB2
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.RGB2">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.RGB2">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-rgb2" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.RGB2</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.RGB2" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F2 in RGB values between 0 and 1.</span>
@@ -3696,7 +3655,7 @@ Linear0.viewKinMeasure.RGB3
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.RGB3">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.RGB3">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-rgb3" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.RGB3</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.RGB3" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F3 in RGB values between 0 and 1.</span>
@@ -3737,7 +3696,7 @@ Linear0.viewKinMeasure.RGB4
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.RGB4">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.RGB4">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-rgb4" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.RGB4</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.RGB4" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F4 in RGB values between 0 and 1.</span>
@@ -3778,7 +3737,7 @@ Linear0.viewKinMeasure.Label
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.Label">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.Label">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-label" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.Label</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.Label" title="Permalink to this headline">¶</a>
     <span class="member-descr">On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</span>
@@ -3819,7 +3778,7 @@ Linear0.viewKinMeasure.Size
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.Size">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.Size">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-size" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.Size</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.Size" title="Permalink to this headline">¶</a>
     <span class="member-descr">Radius size of the balls etc. of the AnyDrawKinMeasure.</span>
@@ -3860,7 +3819,7 @@ Linear0.viewKinMeasure.Line
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.Line">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.Line">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-line" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.Line</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.Line" title="Permalink to this headline">¶</a>
     <span class="member-descr">On/Off value indicating whether the AnyDrawKinMeasure should have a line...</span>
@@ -3901,7 +3860,7 @@ Linear0.viewKinMeasure.Text
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.Text">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.Text">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-text" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.Text</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.Text" title="Permalink to this headline">¶</a>
     <span class="member-descr">If set, this text is shown as the label.</span>
@@ -3942,7 +3901,7 @@ Linear0.viewKinMeasure.TextSize
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.TextSize">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.TextSize">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-textsize" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.TextSize</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.TextSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">The size in pixels of the Text label.</span>
@@ -3983,7 +3942,7 @@ Linear0.viewKinMeasure.ShowIllustration
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ShowIllustration">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ShowIllustration">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-showillustration" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ShowIllustration</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ShowIllustration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the graphical representation of the kinematic measure should be...</span>
@@ -4024,7 +3983,7 @@ Linear0.viewKinMeasure.ShowLabelLines
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ShowLabelLines">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ShowLabelLines">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-showlabellines" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ShowLabelLines</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ShowLabelLines" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the lines from the label to the reference frames of the...</span>
@@ -4065,7 +4024,7 @@ Linear0.viewKinMeasure.ShowValue
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ShowValue">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ShowValue">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-showvalue" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ShowValue</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ShowValue" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the pos value of the kinematic measure should be shown in the label.</span>
@@ -4106,7 +4065,7 @@ Linear0.viewKinMeasure.ShowLabelBorder
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ShowLabelBorder">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ShowLabelBorder">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-showlabelborder" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ShowLabelBorder</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ShowLabelBorder" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the label of the kinematic measure should be drawn.</span>
@@ -4147,7 +4106,7 @@ Linear0.viewKinMeasure.IllustrationPositionOffset
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.IllustrationPositionOffset">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.IllustrationPositionOffset">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-illustrationpositionoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.IllustrationPositionOffset</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.IllustrationPositionOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Positional offset for the illustration of the kinematic measure in the...</span>
@@ -4188,7 +4147,7 @@ Linear0.viewKinMeasure.IllustrationRotationOffset
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.IllustrationRotationOffset">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.IllustrationRotationOffset">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-illustrationrotationoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.IllustrationRotationOffset</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.IllustrationRotationOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational offset for the illustration of the kinematic measure in the...</span>
@@ -4229,7 +4188,7 @@ Linear0.viewKinMeasure.RefIllustration
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.RefIllustration">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.RefIllustration">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-refillustration" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.RefIllustration</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.RefIllustration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer number that specifies the reference system in which the illustration...</span>
@@ -4272,7 +4231,7 @@ Linear0.viewKinMeasure.RefLabel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.RefLabel">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.RefLabel">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-reflabel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.RefLabel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.RefLabel" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer number that specifies the reference system in which the label is...</span>
@@ -4315,7 +4274,7 @@ Linear0.viewKinMeasure.LabelPositionOffset
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.LabelPositionOffset">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.LabelPositionOffset">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-labelpositionoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.LabelPositionOffset</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.LabelPositionOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Positional offset for the label of the kinematic measure in the reference...</span>
@@ -4356,7 +4315,7 @@ Linear0.viewKinMeasure.ValueScaling
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ValueScaling">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ValueScaling">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-valuescaling" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ValueScaling</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ValueScaling" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value used as a factor for the displayed pos value of the kinematic measure....</span>
@@ -4397,7 +4356,7 @@ Linear0.viewKinMeasure.ValueStyle
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ValueStyle">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ValueStyle">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-valuestyle" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ValueStyle</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ValueStyle" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for the label text.</span>
@@ -4438,7 +4397,7 @@ Linear0.viewKinMeasure.ValueStyle.Digits
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ValueStyle.Digits">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ValueStyle.Digits">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-valuestyle-digits" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ValueStyle.Digits</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ValueStyle.Digits" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of digits in output. Disregarded if smaller than one.</span>
@@ -4479,7 +4438,7 @@ Linear0.viewKinMeasure.ValueStyle.Style
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ValueStyle.Style">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ValueStyle.Style">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-valuestyle-style" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ValueStyle.Style</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ValueStyle.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style of the numeric output.</span>
@@ -4520,7 +4479,7 @@ Linear0.viewKinMeasure.ValueStyle.Scale
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ValueStyle.Scale">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ValueStyle.Scale">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-valuestyle-scale" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ValueStyle.Scale</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ValueStyle.Scale" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for scaling.</span>
@@ -4561,7 +4520,7 @@ Linear0.viewKinMeasure.ValueStyle.ScaleVal
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.viewKinMeasure.ValueStyle.ScaleVal">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.viewKinMeasure.ValueStyle.ScaleVal">
     <span id="anyforcesurfacecontact-linear0-viewkinmeasure-valuestyle-scaleval" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.viewKinMeasure.ValueStyle.ScaleVal</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.viewKinMeasure.ValueStyle.ScaleVal" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factor.</span>
@@ -4602,7 +4561,7 @@ Linear0.Type
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.Type">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.Type">
     <span id="anyforcesurfacecontact-linear0-type" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.Type</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coordinate type specification.</span>
@@ -4643,7 +4602,7 @@ Linear0.Ref
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.Ref">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.Ref">
     <span id="anyforcesurfacecontact-linear0-ref" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.Ref</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.Ref" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer numbers that specify the reference system in which the vector is...</span>
@@ -4684,7 +4643,7 @@ Linear0.LineLineDistanceAxes
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.LineLineDistanceAxes">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.LineLineDistanceAxes">
     <span id="anyforcesurfacecontact-linear0-linelinedistanceaxes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.LineLineDistanceAxes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.LineLineDistanceAxes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pairs of axes for which line-to-line distances are measured when Type is...</span>
@@ -4725,7 +4684,7 @@ Linear0.LineLineDistanceAxisLength
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear0.LineLineDistanceAxisLength">
+    <div class="html-toggle member-entries even section collapsed" id="Linear0.LineLineDistanceAxisLength">
     <span id="anyforcesurfacecontact-linear0-linelinedistanceaxislength" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.LineLineDistanceAxisLength</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.LineLineDistanceAxisLength" title="Permalink to this headline">¶</a>
     <span class="member-descr">Length of the secondary axis used for line-to-line distances when Type is...</span>
@@ -4766,7 +4725,7 @@ Linear0.AngularAxis
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear0.AngularAxis">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear0.AngularAxis">
     <span id="anyforcesurfacecontact-linear0-angularaxis" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear0.AngularAxis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear0.AngularAxis" title="Permalink to this headline">¶</a>
     <span class="member-descr">Axis of rotation for spherical and cylindrical coordinates i.e. when Type is...</span>
@@ -4807,7 +4766,7 @@ Orientation0
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0">
     <span id="anyforcesurfacecontact-orientation0" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational kinematic measure object measuring orientation of the first...</span>
@@ -4848,7 +4807,7 @@ Orientation0.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.UpdConfig">
     <span id="anyforcesurfacecontact-orientation0-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -4889,7 +4848,7 @@ Orientation0.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0.UpdDesign">
     <span id="anyforcesurfacecontact-orientation0-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -4930,7 +4889,7 @@ Orientation0.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.UpdOutput">
     <span id="anyforcesurfacecontact-orientation0-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -4971,7 +4930,7 @@ Orientation0.t
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.t">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0.t">
     <span id="anyforcesurfacecontact-orientation0-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -5012,7 +4971,7 @@ Orientation0.RefFrames
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.RefFrames">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.RefFrames">
     <span id="anyforcesurfacecontact-orientation0-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -5053,7 +5012,7 @@ Orientation0.Surfaces
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.Surfaces">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0.Surfaces">
     <span id="anyforcesurfacecontact-orientation0-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -5094,7 +5053,7 @@ Orientation0.KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.KinMeasureArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.KinMeasureArr">
     <span id="anyforcesurfacecontact-orientation0-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -5135,7 +5094,7 @@ Orientation0.KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.KinMeasureIndexArr">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0.KinMeasureIndexArr">
     <span id="anyforcesurfacecontact-orientation0-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -5176,7 +5135,7 @@ Orientation0.nDim
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.nDim">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.nDim">
     <span id="anyforcesurfacecontact-orientation0-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -5217,7 +5176,7 @@ Orientation0.RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.RefFrameOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0.RefFrameOutput">
     <span id="anyforcesurfacecontact-orientation0-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -5258,10 +5217,10 @@ Orientation0.RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.RefFrameOutput.RefFrameArr">
     <span id="anyforcesurfacecontact-orientation0-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -5274,7 +5233,7 @@ Orientation0.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -5299,10 +5258,10 @@ Orientation0.RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0.RefFrameOutput.Jacobians">
     <span id="anyforcesurfacecontact-orientation0-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -5315,7 +5274,7 @@ Orientation0.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -5340,7 +5299,7 @@ Orientation0.Pos
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.Pos">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.Pos">
     <span id="anyforcesurfacecontact-orientation0-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -5381,7 +5340,7 @@ Orientation0.Vel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation0.Vel">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation0.Vel">
     <span id="anyforcesurfacecontact-orientation0-vel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.Vel" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -5398,47 +5357,6 @@ Orientation0.Vel
 
 
     The velocity vector, typically the time-derivative of Pos.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyForceSurfaceContact.Orientation0.VelAna:
-
-Orientation0.VelAna
-======================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Orientation0.VelAna">
-    <span id="anyforcesurfacecontact-orientation0-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Orientation0.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation0.VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
 
 ..
 
@@ -7561,7 +7479,7 @@ Linear1.RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries even section collapsed" id="Linear1.RefFrameOutput.RefFrameArr">
     <span id="anyforcesurfacecontact-linear1-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -7574,7 +7492,7 @@ Linear1.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -7602,7 +7520,7 @@ Linear1.RefFrameOutput.Jacobians
     <div class="html-toggle member-entries odd section collapsed" id="Linear1.RefFrameOutput.Jacobians">
     <span id="anyforcesurfacecontact-linear1-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -7615,7 +7533,7 @@ Linear1.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -7712,47 +7630,6 @@ Linear1.Vel
     </div><!--
 ..
 
-.. _AnyForceSurfaceContact.Linear1.VelAna:
-
-Linear1.VelAna
-=================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.VelAna">
-    <span id="anyforcesurfacecontact-linear1-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyForceSurfaceContact.Linear1.Acc:
 
 Linear1.Acc
@@ -7763,7 +7640,7 @@ Linear1.Acc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.Acc">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.Acc">
     <span id="anyforcesurfacecontact-linear1-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -7804,7 +7681,7 @@ Linear1.viewKinMeasure
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure" title="Permalink to this headline">¶</a>
     <span class="member-descr">Drawing object that renders the kinematic measure.</span>
@@ -7845,7 +7722,7 @@ Linear1.viewKinMeasure.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.UpdConfig">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -7886,7 +7763,7 @@ Linear1.viewKinMeasure.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.UpdDesign">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -7927,7 +7804,7 @@ Linear1.viewKinMeasure.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.UpdOutput">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -7968,7 +7845,7 @@ Linear1.viewKinMeasure.Visible
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.Visible">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.Visible">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-visible" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.Visible</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.Visible" title="Permalink to this headline">¶</a>
     <span class="member-descr">Visibility setting, which specifies default visibility of the object.</span>
@@ -8009,7 +7886,7 @@ Linear1.viewKinMeasure.Opacity
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.Opacity">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.Opacity">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-opacity" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.Opacity</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.Opacity" title="Permalink to this headline">¶</a>
     <span class="member-descr">Opacity setting, which specifies default opacity of the object.</span>
@@ -8050,7 +7927,7 @@ Linear1.viewKinMeasure.Pickable
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.Pickable">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.Pickable">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-pickable" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.Pickable</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.Pickable" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for whether the AnyDrawObject can interacted with by clicking it in a...</span>
@@ -8091,7 +7968,7 @@ Linear1.viewKinMeasure.PickableZOrdering
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.PickableZOrdering">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.PickableZOrdering">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-pickablezordering" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.PickableZOrdering</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.PickableZOrdering" title="Permalink to this headline">¶</a>
     <span class="member-descr">Defines the pick order sorting in the Modelview. Modelview picking order is...</span>
@@ -8132,7 +8009,7 @@ Linear1.viewKinMeasure.RGB1
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.RGB1">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.RGB1">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-rgb1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.RGB1</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.RGB1" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F1 in RGB values between 0 and 1.</span>
@@ -8173,7 +8050,7 @@ Linear1.viewKinMeasure.RGB2
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.RGB2">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.RGB2">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-rgb2" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.RGB2</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.RGB2" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F2 in RGB values between 0 and 1.</span>
@@ -8214,7 +8091,7 @@ Linear1.viewKinMeasure.RGB3
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.RGB3">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.RGB3">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-rgb3" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.RGB3</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.RGB3" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F3 in RGB values between 0 and 1.</span>
@@ -8255,7 +8132,7 @@ Linear1.viewKinMeasure.RGB4
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.RGB4">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.RGB4">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-rgb4" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.RGB4</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.RGB4" title="Permalink to this headline">¶</a>
     <span class="member-descr">Color F4 in RGB values between 0 and 1.</span>
@@ -8296,7 +8173,7 @@ Linear1.viewKinMeasure.Label
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.Label">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.Label">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-label" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.Label</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.Label" title="Permalink to this headline">¶</a>
     <span class="member-descr">On/Off value indicating whether the label of the AnyDrawKinMeasure should be shown.</span>
@@ -8337,7 +8214,7 @@ Linear1.viewKinMeasure.Size
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.Size">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.Size">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-size" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.Size</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.Size" title="Permalink to this headline">¶</a>
     <span class="member-descr">Radius size of the balls etc. of the AnyDrawKinMeasure.</span>
@@ -8378,7 +8255,7 @@ Linear1.viewKinMeasure.Line
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.Line">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.Line">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-line" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.Line</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.Line" title="Permalink to this headline">¶</a>
     <span class="member-descr">On/Off value indicating whether the AnyDrawKinMeasure should have a line...</span>
@@ -8419,7 +8296,7 @@ Linear1.viewKinMeasure.Text
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.Text">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.Text">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-text" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.Text</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.Text" title="Permalink to this headline">¶</a>
     <span class="member-descr">If set, this text is shown as the label.</span>
@@ -8460,7 +8337,7 @@ Linear1.viewKinMeasure.TextSize
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.TextSize">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.TextSize">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-textsize" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.TextSize</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.TextSize" title="Permalink to this headline">¶</a>
     <span class="member-descr">The size in pixels of the Text label.</span>
@@ -8501,7 +8378,7 @@ Linear1.viewKinMeasure.ShowIllustration
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ShowIllustration">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ShowIllustration">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-showillustration" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ShowIllustration</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ShowIllustration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the graphical representation of the kinematic measure should be...</span>
@@ -8542,7 +8419,7 @@ Linear1.viewKinMeasure.ShowLabelLines
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ShowLabelLines">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ShowLabelLines">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-showlabellines" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ShowLabelLines</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ShowLabelLines" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the lines from the label to the reference frames of the...</span>
@@ -8583,7 +8460,7 @@ Linear1.viewKinMeasure.ShowValue
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ShowValue">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ShowValue">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-showvalue" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ShowValue</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ShowValue" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the pos value of the kinematic measure should be shown in the label.</span>
@@ -8624,7 +8501,7 @@ Linear1.viewKinMeasure.ShowLabelBorder
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ShowLabelBorder">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ShowLabelBorder">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-showlabelborder" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ShowLabelBorder</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ShowLabelBorder" title="Permalink to this headline">¶</a>
     <span class="member-descr">Indicates if the label of the kinematic measure should be drawn.</span>
@@ -8665,7 +8542,7 @@ Linear1.viewKinMeasure.IllustrationPositionOffset
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.IllustrationPositionOffset">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.IllustrationPositionOffset">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-illustrationpositionoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.IllustrationPositionOffset</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.IllustrationPositionOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Positional offset for the illustration of the kinematic measure in the...</span>
@@ -8706,7 +8583,7 @@ Linear1.viewKinMeasure.IllustrationRotationOffset
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.IllustrationRotationOffset">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.IllustrationRotationOffset">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-illustrationrotationoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.IllustrationRotationOffset</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.IllustrationRotationOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational offset for the illustration of the kinematic measure in the...</span>
@@ -8747,7 +8624,7 @@ Linear1.viewKinMeasure.RefIllustration
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.RefIllustration">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.RefIllustration">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-refillustration" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.RefIllustration</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.RefIllustration" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer number that specifies the reference system in which the illustration...</span>
@@ -8790,7 +8667,7 @@ Linear1.viewKinMeasure.RefLabel
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.RefLabel">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.RefLabel">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-reflabel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.RefLabel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.RefLabel" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer number that specifies the reference system in which the label is...</span>
@@ -8833,7 +8710,7 @@ Linear1.viewKinMeasure.LabelPositionOffset
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.LabelPositionOffset">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.LabelPositionOffset">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-labelpositionoffset" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.LabelPositionOffset</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.LabelPositionOffset" title="Permalink to this headline">¶</a>
     <span class="member-descr">Positional offset for the label of the kinematic measure in the reference...</span>
@@ -8874,7 +8751,7 @@ Linear1.viewKinMeasure.ValueScaling
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ValueScaling">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ValueScaling">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-valuescaling" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ValueScaling</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ValueScaling" title="Permalink to this headline">¶</a>
     <span class="member-descr">Value used as a factor for the displayed pos value of the kinematic measure....</span>
@@ -8915,7 +8792,7 @@ Linear1.viewKinMeasure.ValueStyle
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ValueStyle">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ValueStyle">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-valuestyle" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ValueStyle</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ValueStyle" title="Permalink to this headline">¶</a>
     <span class="member-descr">Format settings for the label text.</span>
@@ -8956,7 +8833,7 @@ Linear1.viewKinMeasure.ValueStyle.Digits
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ValueStyle.Digits">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ValueStyle.Digits">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-valuestyle-digits" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ValueStyle.Digits</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ValueStyle.Digits" title="Permalink to this headline">¶</a>
     <span class="member-descr">Number of digits in output. Disregarded if smaller than one.</span>
@@ -8997,7 +8874,7 @@ Linear1.viewKinMeasure.ValueStyle.Style
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ValueStyle.Style">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ValueStyle.Style">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-valuestyle-style" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ValueStyle.Style</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ValueStyle.Style" title="Permalink to this headline">¶</a>
     <span class="member-descr">Style of the numeric output.</span>
@@ -9038,7 +8915,7 @@ Linear1.viewKinMeasure.ValueStyle.Scale
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ValueStyle.Scale">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ValueStyle.Scale">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-valuestyle-scale" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ValueStyle.Scale</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ValueStyle.Scale" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for scaling.</span>
@@ -9079,7 +8956,7 @@ Linear1.viewKinMeasure.ValueStyle.ScaleVal
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.viewKinMeasure.ValueStyle.ScaleVal">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.viewKinMeasure.ValueStyle.ScaleVal">
     <span id="anyforcesurfacecontact-linear1-viewkinmeasure-valuestyle-scaleval" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.viewKinMeasure.ValueStyle.ScaleVal</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.viewKinMeasure.ValueStyle.ScaleVal" title="Permalink to this headline">¶</a>
     <span class="member-descr">Scaling factor.</span>
@@ -9120,7 +8997,7 @@ Linear1.Type
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.Type">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.Type">
     <span id="anyforcesurfacecontact-linear1-type" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.Type</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.Type" title="Permalink to this headline">¶</a>
     <span class="member-descr">Coordinate type specification.</span>
@@ -9161,7 +9038,7 @@ Linear1.Ref
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.Ref">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.Ref">
     <span id="anyforcesurfacecontact-linear1-ref" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.Ref</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.Ref" title="Permalink to this headline">¶</a>
     <span class="member-descr">Integer numbers that specify the reference system in which the vector is...</span>
@@ -9202,7 +9079,7 @@ Linear1.LineLineDistanceAxes
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.LineLineDistanceAxes">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.LineLineDistanceAxes">
     <span id="anyforcesurfacecontact-linear1-linelinedistanceaxes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.LineLineDistanceAxes</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.LineLineDistanceAxes" title="Permalink to this headline">¶</a>
     <span class="member-descr">Pairs of axes for which line-to-line distances are measured when Type is...</span>
@@ -9243,7 +9120,7 @@ Linear1.LineLineDistanceAxisLength
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Linear1.LineLineDistanceAxisLength">
+    <div class="html-toggle member-entries even section collapsed" id="Linear1.LineLineDistanceAxisLength">
     <span id="anyforcesurfacecontact-linear1-linelinedistanceaxislength" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.LineLineDistanceAxisLength</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.LineLineDistanceAxisLength" title="Permalink to this headline">¶</a>
     <span class="member-descr">Length of the secondary axis used for line-to-line distances when Type is...</span>
@@ -9284,7 +9161,7 @@ Linear1.AngularAxis
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Linear1.AngularAxis">
+    <div class="html-toggle member-entries odd section collapsed" id="Linear1.AngularAxis">
     <span id="anyforcesurfacecontact-linear1-angularaxis" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Linear1.AngularAxis</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Linear1.AngularAxis" title="Permalink to this headline">¶</a>
     <span class="member-descr">Axis of rotation for spherical and cylindrical coordinates i.e. when Type is...</span>
@@ -9325,7 +9202,7 @@ Orientation1
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1">
     <span id="anyforcesurfacecontact-orientation1" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1" title="Permalink to this headline">¶</a>
     <span class="member-descr">Rotational kinematic measure object measuring orientation of the second...</span>
@@ -9366,7 +9243,7 @@ Orientation1.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.UpdConfig">
     <span id="anyforcesurfacecontact-orientation1-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -9407,7 +9284,7 @@ Orientation1.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1.UpdDesign">
     <span id="anyforcesurfacecontact-orientation1-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -9448,7 +9325,7 @@ Orientation1.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.UpdOutput">
     <span id="anyforcesurfacecontact-orientation1-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -9489,7 +9366,7 @@ Orientation1.t
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.t">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1.t">
     <span id="anyforcesurfacecontact-orientation1-t" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.t</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.t" title="Permalink to this headline">¶</a>
     <span class="member-descr">Object-time variable.</span>
@@ -9530,7 +9407,7 @@ Orientation1.RefFrames
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.RefFrames">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.RefFrames">
     <span id="anyforcesurfacecontact-orientation1-refframes" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.RefFrames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.RefFrames" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the reference frames (class AnyRefFrame and derived)...</span>
@@ -9571,7 +9448,7 @@ Orientation1.Surfaces
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.Surfaces">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1.Surfaces">
     <span id="anyforcesurfacecontact-orientation1-surfaces" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.Surfaces</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.Surfaces" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the surfaces (class AnySurface and derived) that are...</span>
@@ -9612,7 +9489,7 @@ Orientation1.KinMeasureArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.KinMeasureArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.KinMeasureArr">
     <span id="anyforcesurfacecontact-orientation1-kinmeasurearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.KinMeasureArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.KinMeasureArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of pointers to the other kinematic (class AnyKinMeasure and derived)...</span>
@@ -9653,7 +9530,7 @@ Orientation1.KinMeasureIndexArr
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.KinMeasureIndexArr">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1.KinMeasureIndexArr">
     <span id="anyforcesurfacecontact-orientation1-kinmeasureindexarr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.KinMeasureIndexArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.KinMeasureIndexArr" title="Permalink to this headline">¶</a>
     <span class="member-descr">Array of indices of the component of the associated kinematic measure in...</span>
@@ -9694,7 +9571,7 @@ Orientation1.nDim
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.nDim">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.nDim">
     <span id="anyforcesurfacecontact-orientation1-ndim" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.nDim</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.nDim" title="Permalink to this headline">¶</a>
     <span class="member-descr">Dimensions of the kinematic measure, i.e., the number of elements in the...</span>
@@ -9735,7 +9612,7 @@ Orientation1.RefFrameOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.RefFrameOutput">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1.RefFrameOutput">
     <span id="anyforcesurfacecontact-orientation1-refframeoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.RefFrameOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.RefFrameOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr">Folder containing data related to all the reference frames that this measure...</span>
@@ -9776,10 +9653,10 @@ Orientation1.RefFrameOutput.RefFrameArr
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.RefFrameOutput.RefFrameArr">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.RefFrameOutput.RefFrameArr">
     <span id="anyforcesurfacecontact-orientation1-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -9792,7 +9669,7 @@ Orientation1.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -9817,10 +9694,10 @@ Orientation1.RefFrameOutput.Jacobians
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.RefFrameOutput.Jacobians">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1.RefFrameOutput.Jacobians">
     <span id="anyforcesurfacecontact-orientation1-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -9833,7 +9710,7 @@ Orientation1.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -9858,7 +9735,7 @@ Orientation1.Pos
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.Pos">
+    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.Pos">
     <span id="anyforcesurfacecontact-orientation1-pos" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.Pos</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.Pos" title="Permalink to this headline">¶</a>
     <span class="member-descr">The position vector, i.e., the current values of the measured quantity.</span>
@@ -9899,7 +9776,7 @@ Orientation1.Vel
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Orientation1.Vel">
+    <div class="html-toggle member-entries even section collapsed" id="Orientation1.Vel">
     <span id="anyforcesurfacecontact-orientation1-vel" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.Vel</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.Vel" title="Permalink to this headline">¶</a>
     <span class="member-descr">The velocity vector, typically the time-derivative of Pos.</span>
@@ -9916,47 +9793,6 @@ Orientation1.Vel
 
 
     The velocity vector, typically the time-derivative of Pos.
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
-.. _AnyForceSurfaceContact.Orientation1.VelAna:
-
-Orientation1.VelAna
-======================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Orientation1.VelAna">
-    <span id="anyforcesurfacecontact-orientation1-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Orientation1.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Orientation1.VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
 
 ..
 

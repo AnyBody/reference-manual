@@ -3622,6 +3622,47 @@ SPLine.SolverType
 
 
 
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleShortestPath.SPLine.MaxAngle:
+
+SPLine.MaxAngle
+------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.MaxAngle">
+    <span id="anymuscleshortestpath-spline-maxangle" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.MaxAngle </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.34906585 </span><a class="headerlink" href="#SPLine.MaxAngle" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``0.34906585``
+
+        
+
+    <No description>
+
+..
+
+
+
     
 
 
@@ -4073,7 +4114,7 @@ RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
     <span id="anymuscleshortestpath-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -4086,7 +4127,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -4114,7 +4155,7 @@ RefFrameOutput.Jacobians
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
     <span id="anymuscleshortestpath-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -4127,7 +4168,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -4155,7 +4196,7 @@ RefFrameOutput.F
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.F">
     <span id="anymuscleshortestpath-refframeoutput-f" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.F" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D force vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -4168,7 +4209,7 @@ RefFrameOutput.F
 
 
 
-    <No description>
+    Array of 3D force vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -4196,7 +4237,7 @@ RefFrameOutput.M
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.M">
     <span id="anymuscleshortestpath-refframeoutput-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.M" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D moment vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -4209,7 +4250,7 @@ RefFrameOutput.M
 
 
 
-    <No description>
+    Array of 3D moment vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -5918,7 +5959,7 @@ SPLine.RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries even section collapsed" id="SPLine.RefFrameOutput.RefFrameArr">
     <span id="anymuscleshortestpath-spline-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -5931,7 +5972,7 @@ SPLine.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -5959,7 +6000,7 @@ SPLine.RefFrameOutput.Jacobians
     <div class="html-toggle member-entries odd section collapsed" id="SPLine.RefFrameOutput.Jacobians">
     <span id="anymuscleshortestpath-spline-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -5972,7 +6013,7 @@ SPLine.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -6069,47 +6110,6 @@ SPLine.Vel
     </div><!--
 ..
 
-.. _AnyMuscleShortestPath.SPLine.VelAna:
-
-SPLine.VelAna
-================
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.VelAna">
-    <span id="anymuscleshortestpath-spline-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyMuscleShortestPath.SPLine.Acc:
 
 SPLine.Acc
@@ -6120,7 +6120,7 @@ SPLine.Acc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.Acc">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.Acc">
     <span id="anymuscleshortestpath-spline-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -6161,7 +6161,7 @@ SPLine.viewKinMeasure.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.viewKinMeasure.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.viewKinMeasure.UpdConfig">
     <span id="anymuscleshortestpath-spline-viewkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -6202,7 +6202,7 @@ SPLine.viewKinMeasure.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.viewKinMeasure.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.viewKinMeasure.UpdDesign">
     <span id="anymuscleshortestpath-spline-viewkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -6243,7 +6243,7 @@ SPLine.viewKinMeasure.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="SPLine.viewKinMeasure.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.viewKinMeasure.UpdOutput">
     <span id="anymuscleshortestpath-spline-viewkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -6284,7 +6284,7 @@ SPLine.P
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SPLine.P">
+    <div class="html-toggle member-entries even section collapsed" id="SPLine.P">
     <span id="anymuscleshortestpath-spline-p" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.P</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.P" title="Permalink to this headline">¶</a>
     <span class="member-descr">Matrix of points of the polyline, i.e., the mesh points.</span>
@@ -6301,6 +6301,47 @@ SPLine.P
 
 
     Matrix of points of the polyline, i.e., the mesh points.
+
+..
+
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
+.. _AnyMuscleShortestPath.SPLine.Ap:
+
+SPLine.Ap
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="SPLine.Ap">
+    <span id="anymuscleshortestpath-spline-ap" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title">SPLine.Ap</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SPLine.Ap" title="Permalink to this headline">¶</a>
+    <span class="member-descr"></span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyVector`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``"Dependent"``
+
+
+
+
+    <No description>
 
 ..
 

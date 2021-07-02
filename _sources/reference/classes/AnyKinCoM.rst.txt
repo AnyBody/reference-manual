@@ -1990,7 +1990,7 @@ RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
     <span id="anykincom-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -2003,7 +2003,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -2031,7 +2031,7 @@ RefFrameOutput.Jacobians
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
     <span id="anykincom-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -2044,7 +2044,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -2141,47 +2141,6 @@ Vel
     </div><!--
 ..
 
-.. _AnyKinCoM.VelAna:
-
-VelAna
-=========
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries odd section collapsed" id="VelAna">
-    <span id="anykincom-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyKinCoM.Acc:
 
 Acc
@@ -2192,7 +2151,7 @@ Acc
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Acc">
+    <div class="html-toggle member-entries odd section collapsed" id="Acc">
     <span id="anykincom-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -2233,7 +2192,7 @@ viewKinMeasure.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdConfig">
+    <div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdConfig">
     <span id="anykincom-viewkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2274,7 +2233,7 @@ viewKinMeasure.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdDesign">
+    <div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdDesign">
     <span id="anykincom-viewkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -2315,7 +2274,7 @@ viewKinMeasure.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="viewKinMeasure.UpdOutput">
+    <div class="html-toggle member-entries even section collapsed" id="viewKinMeasure.UpdOutput">
     <span id="anykincom-viewkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -2356,7 +2315,7 @@ MassTotal
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="MassTotal">
+    <div class="html-toggle member-entries odd section collapsed" id="MassTotal">
     <span id="anykincom-masstotal" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">MassTotal</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#MassTotal" title="Permalink to this headline">¶</a>
     <span class="member-descr">The total mass of all the segments.</span>
@@ -2397,7 +2356,7 @@ SegNames
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="SegNames">
+    <div class="html-toggle member-entries even section collapsed" id="SegNames">
     <span id="anykincom-segnames" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">SegNames</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#SegNames" title="Permalink to this headline">¶</a>
     <span class="member-descr">A string array containing the names of the segments the measure uses.</span>

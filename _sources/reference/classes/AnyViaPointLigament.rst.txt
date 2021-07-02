@@ -2391,7 +2391,7 @@ RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.RefFrameArr">
     <span id="anyviapointligament-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -2404,7 +2404,7 @@ RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -2432,7 +2432,7 @@ RefFrameOutput.Jacobians
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.Jacobians">
     <span id="anyviapointligament-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -2445,7 +2445,7 @@ RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -2473,7 +2473,7 @@ RefFrameOutput.F
     <div class="html-toggle member-entries odd section collapsed" id="RefFrameOutput.F">
     <span id="anyviapointligament-refframeoutput-f" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.F</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.F" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D force vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -2486,7 +2486,7 @@ RefFrameOutput.F
 
 
 
-    <No description>
+    Array of 3D force vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -2514,7 +2514,7 @@ RefFrameOutput.M
     <div class="html-toggle member-entries even section collapsed" id="RefFrameOutput.M">
     <span id="anyviapointligament-refframeoutput-m" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">RefFrameOutput.M</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#RefFrameOutput.M" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of 3D moment vectors (global coordinates) associated with the...</span>
     </h3>
 
 ..
@@ -2527,7 +2527,7 @@ RefFrameOutput.M
 
 
 
-    <No description>
+    Array of 3D moment vectors (global coordinates) associated with the references frames used by the force object (i.e. by the underlying kinematic measure).
 
 ..
 
@@ -3252,7 +3252,7 @@ Line.RefFrameOutput.RefFrameArr
     <div class="html-toggle member-entries even section collapsed" id="Line.RefFrameOutput.RefFrameArr">
     <span id="anyviapointligament-line-refframeoutput-refframearr" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput.RefFrameArr</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput.RefFrameArr" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Array of pointers to the reference frames that the measure depends on.</span>
     </h3>
 
 ..
@@ -3265,7 +3265,7 @@ Line.RefFrameOutput.RefFrameArr
 
 
 
-    <No description>
+    Array of pointers to the reference frames that the measure depends on.
 
 ..
 
@@ -3293,7 +3293,7 @@ Line.RefFrameOutput.Jacobians
     <div class="html-toggle member-entries odd section collapsed" id="Line.RefFrameOutput.Jacobians">
     <span id="anyviapointligament-line-refframeoutput-jacobians" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.RefFrameOutput.Jacobians</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.RefFrameOutput.Jacobians" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
+    <span class="member-descr">Data structure for holding Jacobian elements of the measure with respect to...</span>
     </h3>
 
 ..
@@ -3306,7 +3306,7 @@ Line.RefFrameOutput.Jacobians
 
 
 
-    <No description>
+    Data structure for holding Jacobian elements of the measure with respect to the degrees of freedom of the reference frames in 'DepRefFrameArr'. The structure is 3-domensional. First dimension contains on item for each frame in 'DepRefFrameArr', second dimension one for each dimension of the measure, and finally, in the third dimension, 6 jacobian elements (3 translations and 3 rotations refering to global axes).
 
 ..
 
@@ -3403,47 +3403,6 @@ Line.Vel
     </div><!--
 ..
 
-.. _AnyViaPointLigament.Line.VelAna:
-
-Line.VelAna
-==============
-
-
-.. raw:: html
-
-    -->
-
-    <div class="html-toggle member-entries even section collapsed" id="Line.VelAna">
-    <span id="anyviapointligament-line-velana" style=""></span>
-    <h3 class="html-toggle-button" style=""><span class="member-title">Line.VelAna</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.VelAna" title="Permalink to this headline">¶</a>
-    <span class="member-descr"></span>
-    </h3>
-
-..
-
-
-    | **Class type:**  :ref:`AnyVector`
-    | **Eval moment:** :ref:`VelVar <InsideAMS_EvalMoments>`
-    | **Default:** ``"Dependent"``
-
-
-
-
-    <No description>
-
-..
-
-
-
-
-..
-
-.. raw:: html
-
-    <!-- Hack to trick sphinx into adding member target link -->
-    </div><!--
-..
-
 .. _AnyViaPointLigament.Line.Acc:
 
 Line.Acc
@@ -3454,7 +3413,7 @@ Line.Acc
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.Acc">
+    <div class="html-toggle member-entries even section collapsed" id="Line.Acc">
     <span id="anyviapointligament-line-acc" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.Acc</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.Acc" title="Permalink to this headline">¶</a>
     <span class="member-descr">The acceleration vector, typically the time-derivative of Vel.</span>
@@ -3495,7 +3454,7 @@ Line.viewKinMeasure.UpdConfig
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.UpdConfig">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.UpdConfig">
     <span id="anyviapointligament-line-viewkinmeasure-updconfig" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.viewKinMeasure.UpdConfig</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.viewKinMeasure.UpdConfig" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>
@@ -3536,7 +3495,7 @@ Line.viewKinMeasure.UpdDesign
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.UpdDesign">
+    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.UpdDesign">
     <span id="anyviapointligament-line-viewkinmeasure-upddesign" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.viewKinMeasure.UpdDesign</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.viewKinMeasure.UpdDesign" title="Permalink to this headline">¶</a>
     <span class="member-descr">Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</span>
@@ -3577,7 +3536,7 @@ Line.viewKinMeasure.UpdOutput
 
     -->
 
-    <div class="html-toggle member-entries even section collapsed" id="Line.viewKinMeasure.UpdOutput">
+    <div class="html-toggle member-entries odd section collapsed" id="Line.viewKinMeasure.UpdOutput">
     <span id="anyviapointligament-line-viewkinmeasure-updoutput" style=""></span>
     <h3 class="html-toggle-button" style=""><span class="member-title">Line.viewKinMeasure.UpdOutput</span><span class="member-title-equal"></span><span class="member-title-default"></span><a class="headerlink" href="#Line.viewKinMeasure.UpdOutput" title="Permalink to this headline">¶</a>
     <span class="member-descr"></span>

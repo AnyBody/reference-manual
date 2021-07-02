@@ -437,6 +437,102 @@ IncludeInertiaForces
 
 
 
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyForceMomentMeasure2.CutSystem:
+
+CutSystem
+============
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries even section collapsed" id="CutSystem">
+    <span id="anyforcemomentmeasure2-cutsystem" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> CutSystem </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#CutSystem" title="Permalink to this headline">¶</a>
+    <span class="member-descr">When set to 'On', the mechanical system is cut by a plane through the...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+    
+
+    
+    
+    
+
+
+
+    When set to 'On', the mechanical system is cut by a plane through the 'point-of-interest' given by 'RefPoint' and one of its axes defined 'CutSystemNormal'.
+
+..
+
+
+
+ 
+
+
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+     </div> <!--
+..
+
+.. _AnyForceMomentMeasure2.CutSystemNormal:
+
+CutSystemNormal
+==================
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="CutSystemNormal">
+    <span id="anyforcemomentmeasure2-cutsystemnormal" style=""></span>
+    <h3 class="html-toggle-button" style=""><span class="member-title"> CutSystemNormal </span><span class="member-title-equal">=</span><span class="member-title-default"> z </span><a class="headerlink" href="#CutSystemNormal" title="Permalink to this headline">¶</a>
+    <span class="member-descr">This normal of the cutting plane. The axis refers to reference system of the...</span>
+    </h3>
+
+..
+
+
+    | **Class type:**  :ref:`AnyRefFrameAxis`
+    | **Eval moment:** :ref:`DesignVar <InsideAMS_EvalMoments>`
+    | **Default:** ``z``
+    
+
+    
+    
+    
+
+
+
+    This normal of the cutting plane. The axis refers to reference system of the 'point-of-interest' given by 'RefPoint'.
+
+..
+
+
+
 
 
 .. rst-class:: html-toggle

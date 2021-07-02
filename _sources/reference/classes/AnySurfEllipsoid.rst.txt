@@ -766,7 +766,7 @@ viewSurface.TextFont.BillBoardView
     <div class="html-toggle member-entries even section collapsed" id="viewSurface.TextFont.BillBoardView">
     <span id="anysurfellipsoid-viewsurface-textfont-billboardview" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.BillBoardView </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewSurface.TextFont.BillBoardView" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text will always be facing the viewport. Set...</span>
+    <span class="member-descr">Switch for determining if the text will always be facing the viewport. Set...</span>
     </h4>
 
 ..
@@ -778,7 +778,7 @@ viewSurface.TextFont.BillBoardView
 
         
 
-    AnySwitchVar determining if the text will always be facing the viewport. Set to On by default.
+    Switch for determining if the text will always be facing the viewport. Set to On by default.
 
 ..
 
@@ -807,7 +807,7 @@ viewSurface.TextFont.ModelSized
     <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont.ModelSized">
     <span id="anysurfellipsoid-viewsurface-textfont-modelsized" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.ModelSized </span><span class="member-title-equal">=</span><span class="member-title-default"> On </span><a class="headerlink" href="#viewSurface.TextFont.ModelSized" title="Permalink to this headline">¶</a>
-    <span class="member-descr">AnySwitchVar determining if the text is scaled with the model, or using...</span>
+    <span class="member-descr">Switch for determining if the text is scaled with the model, or using...</span>
     </h4>
 
 ..
@@ -819,7 +819,7 @@ viewSurface.TextFont.ModelSized
 
         
 
-    AnySwitchVar determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
+    Switch for determining if the text is scaled with the model, or using pixel-space sizing. Set to On by default.
 
 ..
 
@@ -958,6 +958,47 @@ viewSurface.TextFont.Rotation
     </div><!--
 ..
 
+.. _AnySurfEllipsoid.viewSurface.TextFont.Overlay:
+
+viewSurface.TextFont.Overlay
+-------------------------------
+
+
+.. raw:: html
+
+    -->
+
+    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.TextFont.Overlay">
+    <span id="anysurfellipsoid-viewsurface-textfont-overlay" style=""></span>
+    <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.TextFont.Overlay </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewSurface.TextFont.Overlay" title="Permalink to this headline">¶</a>
+    <span class="member-descr">Switch for setting the text to be rendered as an overlay on top of other...</span>
+    </h4>
+
+..
+
+
+    | **Class type:**  :ref:`AnySwitchVar`
+    | **Eval moment:** :ref:`Const <InsideAMS_EvalMoments>`
+    | **Default:** ``Off``
+
+        
+
+    Switch for setting the text to be rendered as an overlay on top of other objects, regardless of position in 3D space.
+
+..
+
+
+
+     
+
+..
+
+.. raw:: html
+
+    <!-- Hack to trick sphinx into adding member target link -->
+    </div><!--
+..
+
 .. _AnySurfEllipsoid.viewSurface.WireFrameOnOff:
 
 viewSurface.WireFrameOnOff
@@ -968,7 +1009,7 @@ viewSurface.WireFrameOnOff
 
     -->
 
-    <div class="html-toggle member-entries odd section collapsed" id="viewSurface.WireFrameOnOff">
+    <div class="html-toggle member-entries even section collapsed" id="viewSurface.WireFrameOnOff">
     <span id="anysurfellipsoid-viewsurface-wireframeonoff" style=""></span>
     <h4 class="html-toggle-button" style=""><span class="member-title"> &nbsp;&nbsp;.WireFrameOnOff </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#viewSurface.WireFrameOnOff" title="Permalink to this headline">¶</a>
     <span class="member-descr">Switch for showing wireframe on the surface. The wire frame is shown as...</span>

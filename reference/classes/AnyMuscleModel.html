@@ -6,22 +6,23 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AnyMuscleModel &#8212; AnyScript Reference 7.3.0 documentation</title>
-    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
-    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<meta content="noindex" name="robots" />
+
+    <title>AnyMuscleModel &#8212; AnyScript Reference 7.3.1 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
-    <script src="../../_static/language_data.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     
     
@@ -63,7 +64,7 @@
         <li class="right" >
           <a href="AnyMuscleActivityConstraint.html" title="AnyMuscleActivityConstraint"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +79,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="anymusclemodel">
+  <section id="anymusclemodel">
 <span id="id1"></span><h1>AnyMuscleModel<a class="headerlink" href="#anymusclemodel" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -91,7 +92,7 @@
 <dd class="field-odd"><p><a class="reference internal" href="AnyMuscleModel2ELin.html#anymusclemodel2elin"><span class="std std-ref">AnyMuscleModel2ELin</span></a>, <a class="reference internal" href="AnyMuscleModel3E.html#anymusclemodel3e"><span class="std std-ref">AnyMuscleModel3E</span></a>, <a class="reference internal" href="AnyMuscleModelUsr1.html#anymusclemodelusr1"><span class="std std-ref">AnyMuscleModelUsr1</span></a></p>
 </dd>
 </dl>
-<div class="section" id="description">
+<section id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>Simple muscle model class.</p>
 <p>This is the base class for all muscle models, i.e., the constitutive
@@ -113,8 +114,8 @@ times PCSA (physiological cross sectional area), which again could be calculated
 Such explicit implementation of the relationship between the input, enable the muscle strength
 to be updated by the system as part of for instance model scaling and calibration steps.</p>
 <p>More details on muscle models and calibration can be found the tutorial about muscle modeling.</p>
-</div>
-<div class="section" id="examples">
+</section>
+<section id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>Here is simple example of a muscle with the basic parameters defined.</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="kt">AnyMuscleModel</span> <span class="n">MyMuscle</span> <span class="o">=</span> <span class="p">{</span>
@@ -151,11 +152,11 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 </tr>
 </tbody>
 </table>
-</div>
-<div class="section" id="required-initialization-members">
+</section>
+<section id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="f0">
+<!--<section id="f0">
 <span id="anymusclemodel-f0"></span><h3>F0<a class="headerlink" href="#f0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -170,12 +171,12 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 </div>
 <p>The nominal strength, i.e., the maximal isometric muscle force.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="section" id="optional-initialization-members">
+</section>
+</section>
+<section id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<div class="section" id="lf0">
+  <!--<section id="lf0">
 <span id="anymusclemodel-lf0"></span><h3>Lf0<a class="headerlink" href="#lf0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -192,8 +193,8 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 <p>Muscle fiber length. In muscle models with length-varying strength, this is the optimal fiber length. Zero or negative lengths are ignored.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</div>
-<div class="section" id="vol0">
+ </div> <!--</section>
+<section id="vol0">
 <span id="anymusclemodel-vol0"></span><h3>Vol0<a class="headerlink" href="#vol0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -209,12 +210,12 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 </div>
 <p>Volume of the muscle fibers, which is used during muscle recruitment. Zero or negative volumes are ignored.</p>
 </div></blockquote>
-</div>
-</div>
-<div class="html-toggle section" id="denied-access-members">
+</section>
+</section>
+<section class="html-toggle" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<div class="section" id="updconfig">
+<!--<section id="updconfig">
 <span id="anymusclemodel-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -231,8 +232,8 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="upddesign">
+</div><!--</section>
+<section id="upddesign">
 <span id="anymusclemodel-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -249,8 +250,8 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="updoutput">
+</div><!--</section>
+<section id="updoutput">
 <span id="anymusclemodel-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -267,8 +268,8 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</div>
-<div class="section" id="t">
+</div><!--</section>
+<section id="t">
 <span id="anymusclemodel-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -284,9 +285,9 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
 </div>
 <p>Object-time variable.</p>
 </div></blockquote>
-</div>
-</div>
-</div>
+</section>
+</section>
+</section>
 
 
             <div class="clearer"></div>
@@ -366,7 +367,7 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
         <li class="right" >
           <a href="AnyMuscleActivityConstraint.html" title="AnyMuscleActivityConstraint"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.0 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -376,8 +377,8 @@ use the <code class="docutils literal notranslate"><span class="pre">Vol0</span>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2020, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.2.1.
+        &#169; Copyright 2021, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>
