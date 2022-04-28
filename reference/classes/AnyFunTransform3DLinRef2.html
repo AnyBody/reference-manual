@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyFunTransform3DLinRef2 &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyFunTransform3DLinRef2 &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="AnyFunTransform3DLinRef.html" title="AnyFunTransform3DLinRef"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anyfuntransform3dlinref2">
+  <div class="section" id="anyfuntransform3dlinref2">
 <span id="id1"></span><h1>AnyFunTransform3DLinRef2<a class="headerlink" href="#anyfuntransform3dlinref2" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -88,7 +87,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyFunTransform3DLinRef.html#anyfuntransform3dlinref"><span class="std std-ref">AnyFunTransform3DLinRef</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>Linear 3D transformation based on reference frames given by mechanical objects (AnyMechObject and derived classes).</p>
 <p>This class is basically identical to AnyFunTransform3DLinRef except that it can transform to global coordinates, and not only to the root-frame like AnyFunTransform3DLinRef.
@@ -118,11 +117,11 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 </tr>
 </tbody>
 </table>
-</section>
-<section id="optional-initialization-members">
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="pretransforms">
+  <!--<div class="section" id="pretransforms">
 <span id="anyfuntransform3dlinref2-pretransforms"></span><h3>PreTransforms<a class="headerlink" href="#pretransforms" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -139,8 +138,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="ref">
+ </div> <!--</div>
+<div class="section" id="ref">
 <span id="anyfuntransform3dlinref2-ref"></span><h3>Ref<a class="headerlink" href="#ref" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -157,8 +156,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Object that defines the reference frame of the function input.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="reftarget">
+ </div> <!--</div>
+<div class="section" id="reftarget">
 <span id="anyfuntransform3dlinref2-reftarget"></span><h3>RefTarget<a class="headerlink" href="#reftarget" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -175,8 +174,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Object that defines the reference frame for the function output. If empty or ‘None’ then output will be given in the root reference frame for ‘Ref’.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="translationonoff">
+ </div> <!--</div>
+<div class="section" id="translationonoff">
 <span id="anyfuntransform3dlinref2-translationonoff"></span><h3>TranslationOnOff<a class="headerlink" href="#translationonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -193,8 +192,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Switch for whether positions of the reference frames are included or ignored.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="rotationonoff">
+ </div> <!--</div>
+<div class="section" id="rotationonoff">
 <span id="anyfuntransform3dlinref2-rotationonoff"></span><h3>RotationOnOff<a class="headerlink" href="#rotationonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -211,8 +210,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Switch for whether relative rotation of the reference frames are included or ignored. If ignored all vectors are assumed to refer to the global axes and only positions are included in the transform.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="function-ref2global">
+ </div> <!--</div>
+<div class="section" id="function-ref2global">
 <span id="anyfuntransform3dlinref2-function-ref2global"></span><h3>Function_Ref2Global<a class="headerlink" href="#function-ref2global" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -229,8 +228,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Mono-function with additional argument for overriding the ‘Ref’ member transforming to global coordinates.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="function-ref2reftarget">
+ </div> <!--</div>
+<div class="section" id="function-ref2reftarget">
 <span id="anyfuntransform3dlinref2-function-ref2reftarget"></span><h3>Function_Ref2RefTarget<a class="headerlink" href="#function-ref2reftarget" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -246,12 +245,12 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 </div>
 <p>Mono-function with additional arguments for overriding the ‘Ref’ and ‘RefTarget’ members.</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="function">
+<!--<div class="section" id="function">
 <span id="anyfuntransform3dlinref2-function"></span><h3>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -268,8 +267,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Function for 3D vectors (of floating point values).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-arglist">
+</div><!--</div>
+<div class="section" id="function-arglist">
 <span id="anyfuntransform3dlinref2-function-arglist"></span><h3>Function.ArgList<a class="headerlink" href="#function-arglist" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -286,8 +285,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>A special folder containing the argument list of the function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-arglist-arg">
+</div><!--</div>
+<div class="section" id="function-arglist-arg">
 <span id="anyfuntransform3dlinref2-function-arglist-arg"></span><h3>Function.ArgList.Arg<a class="headerlink" href="#function-arglist-arg" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -304,8 +303,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updfundata">
+</div><!--</div>
+<div class="section" id="updfundata">
 <span id="anyfuntransform3dlinref2-updfundata"></span><h3>UpdFunData<a class="headerlink" href="#updfundata" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -322,8 +321,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2global-arglist">
+</div><!--</div>
+<div class="section" id="function-ref2global-arglist">
 <span id="anyfuntransform3dlinref2-function-ref2global-arglist"></span><h3>Function_Ref2Global.ArgList<a class="headerlink" href="#function-ref2global-arglist" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -340,8 +339,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>A special folder containing the argument list of the function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2global-arglist-arg">
+</div><!--</div>
+<div class="section" id="function-ref2global-arglist-arg">
 <span id="anyfuntransform3dlinref2-function-ref2global-arglist-arg"></span><h3>Function_Ref2Global.ArgList.Arg<a class="headerlink" href="#function-ref2global-arglist-arg" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -358,8 +357,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2global-arglist-ref">
+</div><!--</div>
+<div class="section" id="function-ref2global-arglist-ref">
 <span id="anyfuntransform3dlinref2-function-ref2global-arglist-ref"></span><h3>Function_Ref2Global.ArgList.Ref<a class="headerlink" href="#function-ref2global-arglist-ref" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -376,8 +375,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2reftarget-arglist">
+</div><!--</div>
+<div class="section" id="function-ref2reftarget-arglist">
 <span id="anyfuntransform3dlinref2-function-ref2reftarget-arglist"></span><h3>Function_Ref2RefTarget.ArgList<a class="headerlink" href="#function-ref2reftarget-arglist" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -394,8 +393,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>A special folder containing the argument list of the function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2reftarget-arglist-arg">
+</div><!--</div>
+<div class="section" id="function-ref2reftarget-arglist-arg">
 <span id="anyfuntransform3dlinref2-function-ref2reftarget-arglist-arg"></span><h3>Function_Ref2RefTarget.ArgList.Arg<a class="headerlink" href="#function-ref2reftarget-arglist-arg" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -412,8 +411,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2reftarget-arglist-ref">
+</div><!--</div>
+<div class="section" id="function-ref2reftarget-arglist-ref">
 <span id="anyfuntransform3dlinref2-function-ref2reftarget-arglist-ref"></span><h3>Function_Ref2RefTarget.ArgList.Ref<a class="headerlink" href="#function-ref2reftarget-arglist-ref" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -430,8 +429,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2reftarget-arglist-reftarget">
+</div><!--</div>
+<div class="section" id="function-ref2reftarget-arglist-reftarget">
 <span id="anyfuntransform3dlinref2-function-ref2reftarget-arglist-reftarget"></span><h3>Function_Ref2RefTarget.ArgList.RefTarget<a class="headerlink" href="#function-ref2reftarget-arglist-reftarget" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -447,12 +446,12 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="deprecated-members">
+</div>
+</div>
+<div class="html-toggle section" id="deprecated-members">
 <h2>Deprecated members<a class="headerlink" href="#deprecated-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="function-return">
+<!--<div class="section" id="function-return">
 <span id="anyfuntransform3dlinref2-function-return"></span><h3>Function.Return<a class="headerlink" href="#function-return" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -473,8 +472,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2global-return">
+</div><!--</div>
+<div class="section" id="function-ref2global-return">
 <span id="anyfuntransform3dlinref2-function-ref2global-return"></span><h3>Function_Ref2Global.Return<a class="headerlink" href="#function-ref2global-return" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -495,8 +494,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-ref2reftarget-return">
+</div><!--</div>
+<div class="section" id="function-ref2reftarget-return">
 <span id="anyfuntransform3dlinref2-function-ref2reftarget-return"></span><h3>Function_Ref2RefTarget.Return<a class="headerlink" href="#function-ref2reftarget-return" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -516,9 +515,9 @@ and thus cannot be used for typical scaling of model design (design scaling is e
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -598,7 +597,7 @@ and thus cannot be used for typical scaling of model design (design scaling is e
         <li class="right" >
           <a href="AnyFunTransform3DLinRef.html" title="AnyFunTransform3DLinRef"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -608,8 +607,8 @@ and thus cannot be used for typical scaling of model design (design scaling is e
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

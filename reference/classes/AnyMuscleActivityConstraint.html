@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyMuscleActivityConstraint &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyMuscleActivityConstraint &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="AnyMuscleActivityBound.html" title="AnyMuscleActivityBound"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anymuscleactivityconstraint">
+  <div class="section" id="anymuscleactivityconstraint">
 <span id="id1"></span><h1>AnyMuscleActivityConstraint<a class="headerlink" href="#anymuscleactivityconstraint" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -88,7 +87,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyForceConOnMuscleActivity.html#anyforcecononmuscleactivity"><span class="std std-ref">AnyForceConOnMuscleActivity</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>With this class you can make general linear constraints between different muscles’ activity.</p>
 <p> </p>
@@ -109,11 +108,11 @@
 </tr>
 </tbody>
 </table>
-</section>
-<section id="expected-members">
+</div>
+<div class="section" id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="anymuscle">
+<!--<div class="section" id="anymuscle">
 <span id="anymuscleactivityconstraint-anymuscle"></span><h3>AnyMuscle<a class="headerlink" href="#anymuscle" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -128,12 +127,12 @@
 </div>
 <p>The muscle to associate the bounds with must given as a member or reference to a muscle object.</p>
 </div></blockquote>
-</section>
-</section>
-<section id="required-initialization-members">
+</div>
+</div>
+<div class="section" id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="coef">
+<!--<div class="section" id="coef">
 <span id="anymuscleactivityconstraint-coef"></span><h3>Coef<a class="headerlink" href="#coef" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -149,8 +148,8 @@
 <p>Matrix of coefficients for the linear constraints. Each column corresponds to one muscle and each row defines one constraints.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="const">
+</div><!--</div>
+<div class="section" id="const">
 <span id="anymuscleactivityconstraint-const"></span><h3>Const<a class="headerlink" href="#const" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -165,12 +164,12 @@
 </div>
 <p>Vector of constants. The length of the vector must match the number of rows in Coef.</p>
 </div></blockquote>
-</section>
-</section>
-<section id="optional-initialization-members">
+</div>
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="forcearr">
+  <!--<div class="section" id="forcearr">
 <span id="anymuscleactivityconstraint-forcearr"></span><h3>ForceArr<a class="headerlink" href="#forcearr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -187,8 +186,8 @@
 <p>Array of pointers to the forces (class AnyForceBase and derived) that are basic input to the constraint.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="forceindexarr">
+ </div> <!--</div>
+<div class="section" id="forceindexarr">
 <span id="anymuscleactivityconstraint-forceindexarr"></span><h3>ForceIndexArr<a class="headerlink" href="#forceindexarr" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -205,8 +204,8 @@
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="ctype">
+ </div> <!--</div>
+<div class="section" id="ctype">
 <span id="anymuscleactivityconstraint-ctype"></span><h3>CType<a class="headerlink" href="#ctype" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -223,8 +222,8 @@
 <p>Type of constraint. The type applies to all constraints from this object.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="ncon">
+ </div> <!--</div>
+<div class="section" id="ncon">
 <span id="anymuscleactivityconstraint-ncon"></span><h3>nCon<a class="headerlink" href="#ncon" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -240,12 +239,12 @@
 </div>
 <p>Number of constraints.</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="updconfig">
+<!--<div class="section" id="updconfig">
 <span id="anymuscleactivityconstraint-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -262,8 +261,8 @@
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="upddesign">
+</div><!--</div>
+<div class="section" id="upddesign">
 <span id="anymuscleactivityconstraint-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -280,8 +279,8 @@
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updoutput">
+</div><!--</div>
+<div class="section" id="updoutput">
 <span id="anymuscleactivityconstraint-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -298,8 +297,8 @@
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="t">
+</div><!--</div>
+<div class="section" id="t">
 <span id="anymuscleactivityconstraint-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -315,9 +314,9 @@
 </div>
 <p>Object-time variable.</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -397,7 +396,7 @@
         <li class="right" >
           <a href="AnyMuscleActivityBound.html" title="AnyMuscleActivityBound"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -407,8 +406,8 @@
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

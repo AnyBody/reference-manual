@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyFunTransform3DSTL &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyFunTransform3DSTL &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="AnyFunTransform3DRBFdyn.html" title="AnyFunTransform3DRBFdyn"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anyfuntransform3dstl">
+  <div class="section" id="anyfuntransform3dstl">
 <span id="id1"></span><h1>AnyFunTransform3DSTL<a class="headerlink" href="#anyfuntransform3dstl" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -88,7 +87,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyFunTransform3D.html#anyfuntransform3d"><span class="std std-ref">AnyFunTransform3D</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>3D transformation function based on two STL files using Radial Basis Functions (RBF).</p>
 <p>Please see <a class="reference internal" href="AnyFunTransform3DRBF.html#anyfuntransform3drbf"><span class="std std-ref">AnyFunTransform3DRBF</span></a> for more detailed explanation of the RBF transform construction principles.</p>
@@ -104,8 +103,8 @@ where these transforms can be any of AMS-transforms, e.g. <a class="reference in
 <a class="reference internal" href="AnyFunTransform3DLin2.html#anyfuntransform3dlin2"><span class="std std-ref">AnyFunTransform3DLin2</span></a>. Furthermore, a number of points (<code class="docutils literal notranslate"><span class="pre">NumPoints</span></code>) is seeded on the source surface and corresponding
 landmarks are found on the target surface by identifying closest vertices.
 These landmarks define an RBF transform in combination with RBF specific variables.</p>
-</section>
-<section id="examples">
+</div>
+<div class="section" id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>This particular example morphs a source thigh STL to a target thigh STL with the same topology. However if the STLs you are using do not have the same topology,
 adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatchingOnOff.</p>
@@ -156,11 +155,11 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 </tr>
 </tbody>
 </table>
-</section>
-<section id="required-initialization-members">
+</div>
+<div class="section" id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="numpoints">
+<!--<div class="section" id="numpoints">
 <span id="anyfuntransform3dstl-numpoints"></span><h3>NumPoints<a class="headerlink" href="#numpoints" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -175,12 +174,12 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 </div>
 <p>Number of landmark points to construct RBF transform.</p>
 </div></blockquote>
-</section>
-</section>
-<section id="optional-initialization-members">
+</div>
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="pretransforms">
+  <!--<div class="section" id="pretransforms">
 <span id="anyfuntransform3dstl-pretransforms"></span><h3>PreTransforms<a class="headerlink" href="#pretransforms" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -197,8 +196,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Transforms that have to be applied prior to the application of constructed transform, i.e. a rigid/non-rigid surface registration.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="rbfdef">
+ </div> <!--</div>
+<div class="section" id="rbfdef">
 <h3>RBFDef<a class="headerlink" href="#rbfdef" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -207,7 +206,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <h3 class="html-toggle-button" style=""><span class="member-title"> RBFDef </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#RBFDef" title="Permalink to this headline">¶</a>
 <span class="member-descr">Folder with RBF settings.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="rbfdef-type">
+<!--<div class="section" id="rbfdef-type">
 <span id="anyfuntransform3dstl-rbfdef-type"></span><h4>RBFDef.Type<a class="headerlink" href="#rbfdef-type" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -224,8 +223,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Type of the radial basis function to use.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="rbfdef-param">
+</div><!--</div>
+<div class="section" id="rbfdef-param">
 <span id="anyfuntransform3dstl-rbfdef-param"></span><h4>RBFDef.Param<a class="headerlink" href="#rbfdef-param" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -242,9 +241,9 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Parameter used in the given radial basis function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</section>
-</section>
-<section id="filename0">
+ </div></div> <!--</div>
+</div>
+<div class="section" id="filename0">
 <span id="anyfuntransform3dstl-filename0"></span><h3>FileName0<a class="headerlink" href="#filename0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -261,8 +260,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Source geometry filename, either STL or AnySurf file.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="scalexyz0">
+ </div> <!--</div>
+<div class="section" id="scalexyz0">
 <span id="anyfuntransform3dstl-scalexyz0"></span><h3>ScaleXYZ0<a class="headerlink" href="#scalexyz0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -279,8 +278,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Scaling law (3D vector) for the source surface.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="surfaceobjects0">
+ </div> <!--</div>
+<div class="section" id="surfaceobjects0">
 <span id="anyfuntransform3dstl-surfaceobjects0"></span><h3>SurfaceObjects0<a class="headerlink" href="#surfaceobjects0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -297,8 +296,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="filename1">
+ </div> <!--</div>
+<div class="section" id="filename1">
 <span id="anyfuntransform3dstl-filename1"></span><h3>FileName1<a class="headerlink" href="#filename1" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -315,8 +314,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Target geometry filename, either STL or AnySurf file.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="scalexyz1">
+ </div> <!--</div>
+<div class="section" id="scalexyz1">
 <span id="anyfuntransform3dstl-scalexyz1"></span><h3>ScaleXYZ1<a class="headerlink" href="#scalexyz1" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -333,8 +332,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Scaling law (3D vector) for the target surface.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="surfaceobjects1">
+ </div> <!--</div>
+<div class="section" id="surfaceobjects1">
 <span id="anyfuntransform3dstl-surfaceobjects1"></span><h3>SurfaceObjects1<a class="headerlink" href="#surfaceobjects1" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -351,8 +350,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="useclosestpointmatchingonoff">
+ </div> <!--</div>
+<div class="section" id="useclosestpointmatchingonoff">
 <span id="anyfuntransform3dstl-useclosestpointmatchingonoff"></span><h3>UseClosestPointMatchingOnOff<a class="headerlink" href="#useclosestpointmatchingonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -369,8 +368,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>A switch for using closest-point matching; alternatively vertex-to-vertex matching is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="usesurfacecorrespondence">
+ </div> <!--</div>
+<div class="section" id="usesurfacecorrespondence">
 <span id="anyfuntransform3dstl-usesurfacecorrespondence"></span><h3>UseSurfaceCorrespondence<a class="headerlink" href="#usesurfacecorrespondence" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -387,8 +386,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>A switch to notify the system whether it should use matched surface-couples from the source and target sets or search closest points on all surfaces.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="polynomdegree">
+ </div> <!--</div>
+<div class="section" id="polynomdegree">
 <span id="anyfuntransform3dstl-polynomdegree"></span><h3>PolynomDegree<a class="headerlink" href="#polynomdegree" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -405,8 +404,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Degree of the polynomial. Negative values mean that no polynomial term is used.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="polynomcoefs">
+ </div> <!--</div>
+<div class="section" id="polynomcoefs">
 <span id="anyfuntransform3dstl-polynomcoefs"></span><h3>PolynomCoefs<a class="headerlink" href="#polynomcoefs" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -423,8 +422,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Coefficients for the polynomial function. Each term of the polynomial must be given by three parameters, one for each direction in space, i.e., the PolynomCoefs are given as a (m x 3) matrix. The number of rows, m, must match PolynomDegree; degree zero means m=1 (the constant term), positive degrees mean m=1+3*degree, and negative degrees mean m=0.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="boundingbox">
+ </div> <!--</div>
+<div class="section" id="boundingbox">
 <h3>BoundingBox<a class="headerlink" href="#boundingbox" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -433,7 +432,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <h3 class="html-toggle-button" style=""><span class="member-title"> BoundingBox </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#BoundingBox" title="Permalink to this headline">¶</a>
 <span class="member-descr">Folder with bounding box settings.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="boundingbox-type">
+<!--<div class="section" id="boundingbox-type">
 <span id="anyfuntransform3dstl-boundingbox-type"></span><h4>BoundingBox.Type<a class="headerlink" href="#boundingbox-type" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -450,8 +449,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Defines a way to compute the bounding box.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="boundingbox-scalexyz">
+</div><!--</div>
+<div class="section" id="boundingbox-scalexyz">
 <span id="anyfuntransform3dstl-boundingbox-scalexyz"></span><h4>BoundingBox.ScaleXYZ<a class="headerlink" href="#boundingbox-scalexyz" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -468,8 +467,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Defines a scale factor vector in selected axes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="boundingbox-divisionfactorxyz">
+</div><!--</div>
+<div class="section" id="boundingbox-divisionfactorxyz">
 <span id="anyfuntransform3dstl-boundingbox-divisionfactorxyz"></span><h4>BoundingBox.DivisionFactorXYZ<a class="headerlink" href="#boundingbox-divisionfactorxyz" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -486,9 +485,9 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Defines a number of bounding box subdivisions in selected axes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</section>
-</section>
-<section id="boundingboxonoff">
+ </div></div> <!--</div>
+</div>
+<div class="section" id="boundingboxonoff">
 <span id="anyfuntransform3dstl-boundingboxonoff"></span><h3>BoundingBoxOnOff<a class="headerlink" href="#boundingboxonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -504,12 +503,12 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 </div>
 <p>A switch to use bounding box points for the RBF transform construction. Please note that the source and target surfaces have to be registered for intended use (please use AnyFunTransform3DLin2 or other as a pretransform).</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="function">
+<!--<div class="section" id="function">
 <span id="anyfuntransform3dstl-function"></span><h3>Function<a class="headerlink" href="#function" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -526,8 +525,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Function for 3D vectors (of floating point values).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-arglist">
+</div><!--</div>
+<div class="section" id="function-arglist">
 <span id="anyfuntransform3dstl-function-arglist"></span><h3>Function.ArgList<a class="headerlink" href="#function-arglist" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -544,8 +543,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>A special folder containing the argument list of the function.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="function-arglist-arg">
+</div><!--</div>
+<div class="section" id="function-arglist-arg">
 <span id="anyfuntransform3dstl-function-arglist-arg"></span><h3>Function.ArgList.Arg<a class="headerlink" href="#function-arglist-arg" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -562,8 +561,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updfundata">
+</div><!--</div>
+<div class="section" id="updfundata">
 <span id="anyfuntransform3dstl-updfundata"></span><h3>UpdFunData<a class="headerlink" href="#updfundata" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -580,8 +579,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>Update counter and control variable for dependencies, for instance handling dependencies in PreTransforms.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updsurfaces">
+</div><!--</div>
+<div class="section" id="updsurfaces">
 <span id="anyfuntransform3dstl-updsurfaces"></span><h3>_UpdSurfaces<a class="headerlink" href="#updsurfaces" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -598,8 +597,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="boundingboxpoints">
+</div><!--</div>
+<div class="section" id="boundingboxpoints">
 <span id="anyfuntransform3dstl-boundingboxpoints"></span><h3>BoundingBoxPoints<a class="headerlink" href="#boundingboxpoints" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -615,12 +614,12 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 </div>
 <p>Positions of points defining the bounding box.</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="deprecated-members">
+</div>
+</div>
+<div class="html-toggle section" id="deprecated-members">
 <h2>Deprecated members<a class="headerlink" href="#deprecated-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="function-return">
+<!--<div class="section" id="function-return">
 <span id="anyfuntransform3dstl-function-return"></span><h3>Function.Return<a class="headerlink" href="#function-return" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -640,9 +639,9 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -722,7 +721,7 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
         <li class="right" >
           <a href="AnyFunTransform3DRBFdyn.html" title="AnyFunTransform3DRBFdyn"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -732,8 +731,8 @@ adjust the following settings RBFDef.Type, RBFDef.Param, and UseClosestPointMatc
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

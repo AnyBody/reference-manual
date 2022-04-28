@@ -6,23 +6,22 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyMetabModelB &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyMetabModelB &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/script/filter-class-list.js"></script>
     <script src="../../_static/fa/all.js"></script>
-    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
     
     
@@ -64,7 +63,7 @@
         <li class="right" >
           <a href="AnyMessage.html" title="AnyMessage"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -79,7 +78,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anymetabmodelb">
+  <div class="section" id="anymetabmodelb">
 <span id="id1"></span><h1>AnyMetabModelB<a class="headerlink" href="#anymetabmodelb" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -89,7 +88,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyMetabModelBase.html#anymetabmodelbase"><span class="std std-ref">AnyMetabModelBase</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This class comprises the muscle-metabolism model presented in the paper
 Bhargava, L.J., Pandy, M.G. &amp; Anderson, F.C., J.Biomech. 37, 81-88(2004).</p>
@@ -119,8 +118,8 @@ eccentric case from a mechanical point of view. Therefore, this switch.
 In the original paper by Bhargava this is indeed done and the parameters in the paper must be considered as calibrated under this assumption.
 Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theoretical argumentation suggests ‘Off’.</p></li>
 </ul>
-</section>
-<section id="examples">
+</div>
+<div class="section" id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>Here is simple code block to include the <code class="docutils literal notranslate"><span class="pre">AnyMetabModelSimple</span></code> in a study:</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="c1">// Class template with default values shown</span>
@@ -164,11 +163,11 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 </tr>
 </tbody>
 </table>
-</section>
-<section id="optional-initialization-members">
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="coefbasalpower">
+  <!--<div class="section" id="coefbasalpower">
 <span id="anymetabmodelb-coefbasalpower"></span><h3>CoefBasalPower<a class="headerlink" href="#coefbasalpower" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -185,8 +184,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Basal heat rate per muscle mass [W/kg]. This is the Ḃ per weight.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefslpowerconiso">
+ </div> <!--</div>
+<div class="section" id="coefslpowerconiso">
 <span id="anymetabmodelb-coefslpowerconiso"></span><h3>CoefSLPowerConIso<a class="headerlink" href="#coefslpowerconiso" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -203,8 +202,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Shortening-Lengthening heat rate coefficient per isometric force in concentric case. .</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefslpowercon">
+ </div> <!--</div>
+<div class="section" id="coefslpowercon">
 <span id="anymetabmodelb-coefslpowercon"></span><h3>CoefSLPowerCon<a class="headerlink" href="#coefslpowercon" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -221,8 +220,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Shortening-Lengthening heat rate coefficient per actual force in concentric case. Contributes to Ṡ.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefslpowerecc">
+ </div> <!--</div>
+<div class="section" id="coefslpowerecc">
 <span id="anymetabmodelb-coefslpowerecc"></span><h3>CoefSLPowerEcc<a class="headerlink" href="#coefslpowerecc" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -239,8 +238,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Shortening-Lengthening heat rate coefficient per actual force in eccentric case. Contributes to Ṡ.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefactpowerphi0">
+ </div> <!--</div>
+<div class="section" id="coefactpowerphi0">
 <span id="anymetabmodelb-coefactpowerphi0"></span><h3>CoefActPowerPhi0<a class="headerlink" href="#coefactpowerphi0" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -257,8 +256,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Activation heat rate ratio (constant). Used in Ȧ.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefactpowerslow">
+ </div> <!--</div>
+<div class="section" id="coefactpowerslow">
 <span id="anymetabmodelb-coefactpowerslow"></span><h3>CoefActPowerSlow<a class="headerlink" href="#coefactpowerslow" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -275,8 +274,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Activation heat rate coefficient (per mass) for slow twitch fibers. Used in Ȧ.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefactpowerfast">
+ </div> <!--</div>
+<div class="section" id="coefactpowerfast">
 <span id="anymetabmodelb-coefactpowerfast"></span><h3>CoefActPowerFast<a class="headerlink" href="#coefactpowerfast" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -293,8 +292,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Activation heat rate coefficient (per mass) for fast twitch fibers. Used in Ȧ.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefmaintpowerslow">
+ </div> <!--</div>
+<div class="section" id="coefmaintpowerslow">
 <span id="anymetabmodelb-coefmaintpowerslow"></span><h3>CoefMaintPowerSlow<a class="headerlink" href="#coefmaintpowerslow" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -311,8 +310,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Maintenance heat rate coefficient for slow twitch fibers. Used in Ṁ.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="coefmaintpowerfast">
+ </div> <!--</div>
+<div class="section" id="coefmaintpowerfast">
 <span id="anymetabmodelb-coefmaintpowerfast"></span><h3>CoefMaintPowerFast<a class="headerlink" href="#coefmaintpowerfast" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -329,8 +328,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Maintenance heat rate coefficient for fast twitch fibers. Used in Ṁ.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="muscledensity">
+ </div> <!--</div>
+<div class="section" id="muscledensity">
 <span id="anymetabmodelb-muscledensity"></span><h3>MuscleDensity<a class="headerlink" href="#muscledensity" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -347,8 +346,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Muscle density [kg/m^3].</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="addmusclepowerforecc">
+ </div> <!--</div>
+<div class="section" id="addmusclepowerforecc">
 <span id="anymetabmodelb-addmusclepowerforecc"></span><h3>AddMusclePowerForEcc<a class="headerlink" href="#addmusclepowerforecc" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -365,8 +364,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Switch for whether to add the muscle power to the heat production in the eccentric case.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="addmusclepowerforecccoef">
+ </div> <!--</div>
+<div class="section" id="addmusclepowerforecccoef">
 <span id="anymetabmodelb-addmusclepowerforecccoef"></span><h3>AddMusclePowerForEccCoef<a class="headerlink" href="#addmusclepowerforecccoef" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -382,12 +381,12 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 </div>
 <p>Fraction to the muscle power to add when ‘AddMusclePowerForEcc’ is ‘On’. Default is ‘1.0’ like in the paper. A values of ‘-1.0’ will subtract the negative eccentric muscle power, i.e. add a positive value.</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="updconfig">
+<!--<div class="section" id="updconfig">
 <span id="anymetabmodelb-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -404,8 +403,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="upddesign">
+</div><!--</div>
+<div class="section" id="upddesign">
 <span id="anymetabmodelb-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -422,8 +421,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updoutput">
+</div><!--</div>
+<div class="section" id="updoutput">
 <span id="anymetabmodelb-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -440,8 +439,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="t">
+</div><!--</div>
+<div class="section" id="t">
 <span id="anymetabmodelb-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -457,9 +456,9 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
 </div>
 <p>Object-time variable.</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -539,7 +538,7 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
         <li class="right" >
           <a href="AnyMessage.html" title="AnyMessage"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -549,8 +548,8 @@ Therefore, ‘AddMusclePowerForEcc’ is ‘On’ by default, even though theore
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

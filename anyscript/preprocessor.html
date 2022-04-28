@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>The preprocessor &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/cloud.css" />
+    <title>The preprocessor &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="terminology.html" title="Terminology"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">The preprocessor</a></li> 
@@ -77,7 +76,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="the-preprocessor">
+  <div class="section" id="the-preprocessor">
 <h1>The preprocessor<a class="headerlink" href="#the-preprocessor" title="Permalink to this headline">¶</a></h1>
 <p>Statements like <code class="docutils literal notranslate"><span class="pre">#include</span></code>/<code class="docutils literal notranslate"><span class="pre">#define</span></code>/<code class="docutils literal notranslate"><span class="pre">#if</span></code> are part of the AnyBody pre-processor.</p>
 <p>The preprocessor runs on the source files before AnyBody reads the files and compiles the model.
@@ -91,7 +90,7 @@ This unlike the AnyScript language itself, where the order of declaration is not
 <p>The pre-processor’s role is the inclusion of other files (<code class="docutils literal notranslate"><span class="pre">#include</span></code>), macro expansion <code class="docutils literal notranslate"><span class="pre">#define</span></code>, and
 conditional compilation <code class="docutils literal notranslate"><span class="pre">#if</span></code>/<code class="docutils literal notranslate"><span class="pre">#else</span></code>. In addition the pre-processor adds few directives
 which are special to the AnyBody modeling system, like for example the <code class="docutils literal notranslate"><span class="pre">#path</span></code> and <code class="docutils literal notranslate"><span class="pre">#class_template</span></code>.</p>
-<section id="including-files">
+<div class="section" id="including-files">
 <span id="preprocessor-include"></span><h2>Including files<a class="headerlink" href="#including-files" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#include</span></code>-statement is a statement that takes the content of a
 file and inserts it at the location of the statement.</p>
@@ -100,8 +99,8 @@ file and inserts it at the location of the statement.</p>
 <span class="cp">#include</span> <span class="s">&quot;&lt;path-identifier&gt;filename.any&quot;</span>
 </pre></div>
 </div>
-</section>
-<section id="conditional-code">
+</div>
+<div class="section" id="conditional-code">
 <h2>Conditional code<a class="headerlink" href="#conditional-code" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#if</span></code> directives togehter with <code class="docutils literal notranslate"><span class="pre">#else</span></code> or <code class="docutils literal notranslate"><span class="pre">#endif</span></code> can be used to
 select between blocks AnyScript™ code. The syntax is as follows:</p>
@@ -127,12 +126,17 @@ could look like the following:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">#ifnpathexsists</span> <span class="pre">&lt;path&gt;</span></code>: test if file or directory does <em>not</em> exist</p></li>
 </ul>
 </div></blockquote>
-</section>
-<section id="path-define-statements">
+</div>
+<div class="section" id="path-define-statements">
 <h2>Path/define statements<a class="headerlink" href="#path-define-statements" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#define</span></code>-statement links a piece of code to an identifier. When
 the identifier is used later, it is substituted with the piece of code
 by the preprocessor.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It is convention to write pre-processor identifiers in all uppercase to
+emphasize that it is a macro, not a real function.</p>
+</div>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="cp">#define</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">single</span><span class="o">-</span><span class="n">line</span><span class="o">-</span><span class="n">code</span><span class="o">&gt;</span>
 
 <span class="c1">//For multi-line code use a backslash at the end of each line except the last.</span>
@@ -150,13 +154,17 @@ an actual <code class="docutils literal notranslate"><span class="pre">#path</sp
 <span class="cp">#path</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="s">&quot;&lt;other-path-identfier&gt;relative-path&quot;</span>
 </pre></div>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>It is convention to write pre-processor identifiers in all uppercase to
-emphasize that it is a macro, not a real function.</p>
+<p>Notice that the “life” of preprocessor identifiers defined by <code class="docutils literal notranslate"><span class="pre">#define</span></code>
+and <code class="docutils literal notranslate"><span class="pre">#path</span></code> follows the sequence of the code so they exist after the
+statement appear, but not before, and only until undefined by <code class="docutils literal notranslate"><span class="pre">#undef</span></code>.
+Only <code class="docutils literal notranslate"><span class="pre">#define</span></code>-statements can be undefined.</p>
+<p>A <code class="docutils literal notranslate"><span class="pre">#path</span></code>-statement creates an AnyScript™ variable with the same name as the <code class="docutils literal notranslate"><span class="pre">#path</span></code>
+identifier in the global Path folder, and notice that this variable is
+accessible from all parts of the model, even from code before the
+<code class="docutils literal notranslate"><span class="pre">#path</span></code>-statement. This is the reason why <code class="docutils literal notranslate"><span class="pre">#path</span></code> variables cannot be
+undefined.</p>
 </div>
-</section>
-<section id="un-defining-statements">
+<div class="section" id="un-defining-statements">
 <h2>Un-defining statements<a class="headerlink" href="#un-defining-statements" title="Permalink to this headline">¶</a></h2>
 <p>Identifiers or macros created using <code class="docutils literal notranslate"><span class="pre">#define</span></code> can undefined again with
 the <code class="docutils literal notranslate"><span class="pre">#undef</span> <span class="pre">&lt;identifier&gt;</span></code> statement.</p>
@@ -167,8 +175,8 @@ the <code class="docutils literal notranslate"><span class="pre">#undef</span> <
 <span class="cp">#endif</span>
 </pre></div>
 </div>
-</section>
-<section id="code-macros">
+</div>
+<div class="section" id="code-macros">
 <span id="id1"></span><h2>Code macros<a class="headerlink" href="#code-macros" title="Permalink to this headline">¶</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">#define</span></code> statement can also be used with arguments, to
 create something like a function-like macro.</p>
@@ -190,29 +198,51 @@ correct order operation when the code is expanded. For example:
 <p class="admonition-title">See also</p>
 <p><a class="reference internal" href="../demos/index.html#macro-demos"><span class="std std-ref">Demo models</span></a> showing the macro functionality.</p>
 </div>
-</section>
-<section id="class-templates">
+</div>
+<div class="section" id="class-templates">
 <span id="id2"></span><h2>Class templates<a class="headerlink" href="#class-templates" title="Permalink to this headline">¶</a></h2>
 <p>In addition to the fairly simple code elements adopted from C/C++, a number of
 special features exist in the AnyScript™ preprocesser. In particular, the
 concept of Class Templates.</p>
-<dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">#class_template</span></code>:</dt><dd><p>Class Template declaration specifier.</p>
-</dd>
-</dl>
 <p>A Class Template is an advanced form of code macros that upon usage, i.e. when
-expanded by the preprocessor, will work almost like declaration of a object of a
-built-in AnyScript™ class. A Class Template does, like a macro, have a name and
-this is used almost like built-in AnyScript™ class names during declaration of
-instances (instantiation) of a Class Template. The following section provides a
-more detailed description of Class Templates.</p>
-<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="cp">#class_template</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="p">(</span><span class="o">&lt;</span><span class="n">arg_list</span><span class="o">&gt;</span><span class="p">)</span> <span class="p">{</span> <span class="o">&lt;</span><span class="n">multi</span><span class="o">-</span><span class="n">line</span><span class="o">-</span><span class="n">code</span><span class="o">&gt;</span> <span class="p">};</span>
+expanded by the preprocessor, will work almost like declaration of an object of a
+built-in AnyScript™ class. Here is an example of class template defining a custom
+<cite>AnyRefNode</cite> which has an option to draw a sphere.</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="cp">#class_template</span> <span class="n">CustomRefNode</span> <span class="p">(</span><span class="n">__CLASS__</span><span class="o">=</span><span class="kt">AnyRefNode</span><span class="p">,</span> <span class="n">DRAW_SPHERE</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+  <span class="cp">#if</span> <span class="n">DRAW_SPHERE</span>
+  <span class="kt">AnyDrawNode</span> <span class="n">drw</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="cp">#var</span> <span class="n">RGB</span> <span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">};</span>
+  <span class="p">};</span>
+  <span class="cp">#endif</span>
+<span class="p">};</span>
 </pre></div>
 </div>
-<p>where <code class="docutils literal notranslate"><span class="pre">&lt;arg_list&gt;</span></code> is a comma-separated list of optional arguments.
-Each argument in the list can have either of the following forms</p>
+<p>A Class Template does, like a macro, have a name and
+this is used almost like built-in AnyScript™ class names during declaration of
+instances (instantiation) of a Class Template. Using the class template above would look like this:</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span>  <span class="n">CustomRefNode</span> <span class="n">MyNode</span><span class="p">(</span><span class="n">DRAW_SPHERE</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> <span class="o">=</span> <span class="p">{</span>
+     <span class="n">sRel</span> <span class="o">=</span> <span class="p">{</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">};</span>
+  <span class="p">};</span>
+
+<span class="p">};</span>
+</pre></div>
+</div>
+<p>The following section provides a more detailed description of Class Templates.</p>
+<div class="section" id="syntax-and-arguments">
+<h3>Syntax and arguments<a class="headerlink" href="#syntax-and-arguments" title="Permalink to this headline">¶</a></h3>
+<p>Class template are created with <code class="docutils literal notranslate"><span class="pre">#class_template</span></code> keyword, and must defined before the first <code class="docutils literal notranslate"><span class="pre">Main={</span></code>.</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="cp">#class_template</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="p">(</span><span class="n">__CLASS__</span><span class="o">=</span><span class="kt">AnyFolder</span><span class="p">,</span> <span class="o">&lt;</span><span class="n">Other_Arg_list</span><span class="o">&gt;</span><span class="p">)</span> <span class="p">{</span> <span class="o">&lt;</span><span class="n">multi</span><span class="o">-</span><span class="n">line</span><span class="o">-</span><span class="n">code</span><span class="o">&gt;</span> <span class="p">};</span>
+</pre></div>
+</div>
+<p>where <code class="docutils literal notranslate"><span class="pre">&lt;Other_Arg_list&gt;</span></code> is a comma-separated list of optional arguments.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A special optional <code class="docutils literal notranslate"><span class="pre">__CLASS__</span> <span class="pre">=</span> <span class="pre">&lt;class</span> <span class="pre">name&gt;</span></code> argument is used specify the class generated by the template.
+It defaults to <code class="docutils literal notranslate"><span class="pre">AnyFolder</span></code> if it is not given.</p>
+</div>
+<p>Each extra optional argument can have either of the following forms</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span>
-<span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;=&lt;</span><span class="n">value</span><span class="o">&gt;</span>
+<span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">value</span><span class="o">&gt;</span>
 <span class="o">&lt;</span><span class="n">class_name</span><span class="o">&gt;&amp;&lt;</span><span class="n">identifier</span><span class="o">&gt;</span>
 </pre></div>
 </div>
@@ -220,25 +250,38 @@ Each argument in the list can have either of the following forms</p>
 value, and <code class="docutils literal notranslate"><span class="pre">&lt;class_name&gt;</span></code> is a AnyScript™ class name. This implies that
 arguments can either be simple arguments, i.e., preprocessor
 values, or object references.</p>
-<dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">#default</span></code>:</dt><dd><p>The #default-specifier indicates that existing default values should
-be maintained upon instantiation of a Class Template; please refer to
-the <code class="docutils literal notranslate"><span class="pre">#var</span></code>-specifier for further details on usage of the
-#default-specifier.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Notice that template arguments can be listed in any sequence, not
+matching the Class Template definition, but you must specify the
+argument name in the list. This syntax has been chosen in order to
+accommodate very long argument list, where many (most) arguments have
+default values that often does not need modification. This is
+expected to be the case larger, advanced “classes” defined using
+Class Templates.</p>
+</div>
+</div>
+<div class="section" id="template-body">
+<h3>Template body<a class="headerlink" href="#template-body" title="Permalink to this headline">¶</a></h3>
+<p>The body of the class template will look like normal AnyScript code. However, there are some
+special identifies available which are only allowed inside class templates:</p>
+<dl>
+<dt><code class="docutils literal notranslate"><span class="pre">__NAME__</span></code>:</dt><dd><p>An implicitly defined identifier which holds the name class template object.</p>
 </dd>
-<dt><code class="docutils literal notranslate"><span class="pre">#var</span></code>:</dt><dd><p>The <code class="docutils literal notranslate"><span class="pre">#var</span></code>-specifier specifies that a value member in a Class Template
+<dt><code class="docutils literal notranslate"><span class="pre">#var</span></code>/<code class="docutils literal notranslate"><span class="pre">#default</span></code>:</dt><dd><p>The <code class="docutils literal notranslate"><span class="pre">#var</span></code>-specifier specifies that a value member in a Class Template
 shall be treated as a member that can be initialized upon
 instantiation of the Class Template by the user. The <code class="docutils literal notranslate"><span class="pre">#var</span></code>-specifier
 is placed before the declaration of a member value or before
-initialization of existing members. The <code class="docutils literal notranslate"><span class="pre">#var</span></code>-specifier is only
-allowed inside the scope of a Class Template.</p>
-</dd>
-</dl>
+initialization of existing members. The <code class="docutils literal notranslate"><span class="pre">#default</span></code>-specifier indicates
+that existing default values should
+be maintained upon instantiation of a Class Template</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="cp">#var</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span><span class="p">;</span>
 <span class="cp">#var</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="o">=</span> <span class="o">&lt;</span><span class="n">value</span><span class="o">&gt;</span><span class="p">;</span>
 <span class="cp">#var</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="o">=</span> #<span class="n">default</span><span class="p">;</span>
 </pre></div>
 </div>
+</dd>
+</dl>
 <p>where <code class="docutils literal notranslate"><span class="pre">&lt;identifier&gt;</span></code> is an existing member, i.e., a member that is
 declared implicitly as a default member of another object via its
 declaration.</p>
@@ -259,15 +302,6 @@ new value members:</p>
 </div>
 <p>where &lt;class_name&gt; is a valid name of a value-class, i.e., a class
 derived from AnyValue</p>
-<p>Notice that the “life” of preprocessor identifiers defined by #define
-and <code class="docutils literal notranslate"><span class="pre">#path</span></code> follows the sequence of the code so they exist after the
-statement appear, but not before, and only until undefined by <code class="docutils literal notranslate"><span class="pre">#undef</span></code>.
-Only <code class="docutils literal notranslate"><span class="pre">#define</span></code>-statements can be undefined.</p>
-<p>A <code class="docutils literal notranslate"><span class="pre">#path</span></code>-statement creates an AnyScript™ variable with the same name as the <code class="docutils literal notranslate"><span class="pre">#path</span></code>
-identifier in the global Path folder, and notice that this variable is
-accessible from all parts of the model, even from code before the
-<code class="docutils literal notranslate"><span class="pre">#path</span></code>-statement. This is the reason why <code class="docutils literal notranslate"><span class="pre">#path</span></code> variables cannot be
-undefined.</p>
 <p>Class Templates are in principle not real classes, like the AnyScript™ built-in
 classes, but they do indeed work almost like the real classes. Class
 Templates are on the contrary to built-in classes defined in the AnyScript™ code
@@ -292,10 +326,6 @@ form that looks and feels like a normal class.</p>
 algorithmic functionality, like member functions, as you might expect
 knowing other object-oriented programming language. Also at this
 point, AnyScript™ is merely a declarative language.</p>
-</dd>
-<dt>Instances of Class Templates</dt><dd><p>are in principle folder-object, i.e., object of class AnyFolder. This
-AnyFolder will contain all the members that have been defined as
-members in the Class Template.</p>
 </dd>
 <dt>Member initialization control:</dt><dd><p>Class Templates offers encapsulation of the members, similar to the
 functionality known from the normal built-in classes. All members are
@@ -329,29 +359,10 @@ control active paths of the code. This is done by preprocesser
 #if-statements. This is powerful feature for building advanced
 “user-defined classes” by means of Class Templates.</p>
 </dd>
-<dt>Instantiation of Class Templates</dt><dd><p>(or declaration of Class Template objects) are in principle like
-built-in classes, except that Class Template may need the template
-arguments to be specified. This is in principle done like</p>
-</dd>
 </dl>
-<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">class_template_name</span><span class="o">&gt;</span> <span class="o">&lt;</span><span class="n">identifier</span><span class="o">&gt;</span> <span class="p">(</span><span class="o">&lt;</span><span class="n">identifier1</span><span class="o">&gt;=&lt;</span><span class="n">value</span><span class="o">&gt;</span><span class="p">,...)</span> <span class="o">=</span> <span class="p">{</span>
-<span class="p">...</span>
-<span class="o">&lt;</span><span class="n">multi</span><span class="o">-</span><span class="n">line</span><span class="o">-</span><span class="n">code</span><span class="o">&gt;</span>
-<span class="p">...</span>
-<span class="p">};</span>
-</pre></div>
 </div>
-<p>where &lt;identifier&gt; is the object name, and &lt;identifier1&gt; is a
-template argument name.</p>
-<p>Notice that template arguments can be listed in any sequence, not
-matching the Class Template definition, but you must specify the
-argument name in the list. This syntax has been chosen in order to
-accommodate very long argument list, where many (most) arguments have
-default values that often does not need modification. This is
-expected to be the case larger, advanced “classes” defined using
-Class Templates.</p>
-</section>
-</section>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -439,7 +450,7 @@ Class Templates.</p>
         <li class="right" >
           <a href="terminology.html" title="Terminology"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" >The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">The preprocessor</a></li> 
@@ -448,8 +459,8 @@ Class Templates.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

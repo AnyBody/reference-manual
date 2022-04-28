@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyScript™ language &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/cloud.css" />
+    <title>AnyScript™ language &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
     <script src="../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="../index.html" title="The AnyScript Reference manual!"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">AnyScript™ language</a></li> 
@@ -77,7 +76,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anyscript-language">
+  <div class="section" id="anyscript-language">
 <h1>AnyScript™ language<a class="headerlink" href="#anyscript-language" title="Permalink to this headline">¶</a></h1>
 <p class="rubric">Content</p>
 <ul class="simple">
@@ -86,7 +85,7 @@
 </ul>
 <div class="toctree-wrapper compound">
 </div>
-<section id="introduction">
+<div class="section" id="introduction">
 <span id="language-intro"></span><h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
 <p>AnyScript™ is an object-oriented language with a fixed set of available data
 types (classes). This means that you cannot define your own types and you
@@ -105,8 +104,8 @@ sections of the model from each other and the fact that each declaration
 is terminated by a semicolon. The main difference is that AnyScript™ does not
 contain any executable statements, so you cannot specify a sequence of
 events, i.e., write algorithms; AnyScript™ is purely declarative contrary to C++ and Java.</p>
-</section>
-<section id="the-main-folder-and-scopes">
+</div>
+<div class="section" id="the-main-folder-and-scopes">
 <h2>The Main folder and scopes<a class="headerlink" href="#the-main-folder-and-scopes" title="Permalink to this headline">¶</a></h2>
 <p>As we have already mentioned briefly, the Main folder plays a special
 role as a container of the entire model. This means that a basic AnyScript™ file
@@ -162,8 +161,8 @@ file.</p>
 they are properly designed for coexistence inside the Main scope. For
 this case however, it may be advisable to design the models each as separate
 building blocks (i.e. non-Main include files).</p>
-</section>
-<section id="declarations">
+</div>
+<div class="section" id="declarations">
 <h2>Declarations<a class="headerlink" href="#declarations" title="Permalink to this headline">¶</a></h2>
 <p>A declaration of an object is made by writing the class name followed by
 the name you want for the object.</p>
@@ -182,8 +181,8 @@ be simple values or expressions.</p>
 <span class="kt">AnyVar</span> <span class="n">MyVal</span> <span class="o">=</span> <span class="mf">1.0</span><span class="p">;</span>
 </pre></div>
 </div>
-</section>
-<section id="initializing-objects">
+</div>
+<div class="section" id="initializing-objects">
 <h2>Initializing objects<a class="headerlink" href="#initializing-objects" title="Permalink to this headline">¶</a></h2>
 <p>Some objects are not declared directly in the script; they come into the
 model as predefined members of others, their owner. Most folder classes
@@ -230,8 +229,8 @@ computations.</p>
 inside a single folder initialization scope because the sequence of the
 members then becomes the same as the sequence in the code.</p>
 </div>
-</section>
-<section id="references-and-expressions">
+</div>
+<div class="section" id="references-and-expressions">
 <span id="section-syntax-references-and-expressions"></span><h2>References and Expressions<a class="headerlink" href="#references-and-expressions" title="Permalink to this headline">¶</a></h2>
 <p>You can refer to objects by their names. Inside the scope of a given
 folder, the members’ names are unique, i.e., no two objects can have the
@@ -279,7 +278,7 @@ on the right hand side for specification of the value.</p>
 <p>All value objects
 (derived from <a class="reference internal" href="../reference/classes/AnyValue.html#anyvalue"><span class="std std-ref">AnyValue</span></a>) can be initialized as equal to another value of
 the same type.</p>
-<section id="the-reference-operator">
+<div class="section" id="the-reference-operator">
 <h3>The reference <code class="docutils literal notranslate"><span class="pre">&amp;</span></code> operator<a class="headerlink" href="#the-reference-operator" title="Permalink to this headline">¶</a></h3>
 <p>Folders cannot be initialized with another object. So you cannot copy everything
 from one folder to another by initializing one folder by another.</p>
@@ -324,9 +323,9 @@ whether it is folder class, a value class, or some much more specific
 class. This means that you lose the information about the special
 features of a class, if you refer to it with a parent class as class
 specifier.</p>
-</section>
-</section>
-<section id="mathematical-expression-and-operators">
+</div>
+</div>
+<div class="section" id="mathematical-expression-and-operators">
 <h2>Mathematical expression and operators<a class="headerlink" href="#mathematical-expression-and-operators" title="Permalink to this headline">¶</a></h2>
 <p>This section  contains the descriptions of the value classes of AnyScript and the
 expressions that are possible on these classes. The value classes are
@@ -373,8 +372,8 @@ the type <a class="reference internal" href="../reference/classes/AnyMonoFunctio
 provide polymorphism. From practical user point of view, these
 “MonoFunctions” do not have any significance and they are typically
 implemented as Hidden classes.</p>
-</section>
-<section id="comments-and-model-documentation">
+</div>
+<div class="section" id="comments-and-model-documentation">
 <h2>Comments and model documentation<a class="headerlink" href="#comments-and-model-documentation" title="Permalink to this headline">¶</a></h2>
 <p>To make your AnyScript™ file more legible you can benefit from making comments and
 splitting your model into several files. Both can be realized by
@@ -422,8 +421,8 @@ GUI such collected presentations of Documentation Comments typically
 contains links to the code for each comments. This can be a powerful
 tool for navigating the AnyScript™ code of “large” objects being initialized in
 many places.</p>
-</section>
-</section>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -512,7 +511,7 @@ many places.</p>
         <li class="right" >
           <a href="../index.html" title="The AnyScript Reference manual!"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" >The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">AnyScript™ language</a></li> 
@@ -521,8 +520,8 @@ many places.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyDesStudy &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyDesStudy &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="AnyDesMeasureType.html" title="AnyDesMeasureType"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anydesstudy">
+  <div class="section" id="anydesstudy">
 <span id="id1"></span><h1>AnyDesStudy<a class="headerlink" href="#anydesstudy" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -91,7 +90,7 @@
 <dd class="field-odd"><p><a class="reference internal" href="AnyDesEvalStudy.html#anydesevalstudy"><span class="std std-ref">AnyDesEvalStudy</span></a>, <a class="reference internal" href="AnyOptStudy.html#anyoptstudy"><span class="std std-ref">AnyOptStudy</span></a>, <a class="reference internal" href="AnyParamStudyBase.html#anyparamstudybase"><span class="std std-ref">AnyParamStudyBase</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This class is the(abstract) base class of all “design studies”.
 A design study is a study that systematically changes parameters(design variables)
@@ -152,11 +151,11 @@ about proper matching between the definitions in the files and studies.</p>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="expected-members">
+</div>
+<div class="section" id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="anydesvar">
+<!--<div class="section" id="anydesvar">
 <span id="anydesstudy-anydesvar"></span><h3>AnyDesVar<a class="headerlink" href="#anydesvar" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -172,8 +171,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Design variables of the study are defined as AnyDesVar objects.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="anydesmeasure">
+</div><!--</div>
+<div class="section" id="anydesmeasure">
 <span id="anydesstudy-anydesmeasure"></span><h3>AnyDesMeasure<a class="headerlink" href="#anydesmeasure" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -188,12 +187,12 @@ about proper matching between the definitions in the files and studies.</p>
 </div>
 <p>Design performance measures are defined as AnyDesMeasure objects.</p>
 </div></blockquote>
-</section>
-</section>
-<section id="optional-initialization-members">
+</div>
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="logfile">
+  <!--<div class="section" id="logfile">
 <span id="anydesstudy-logfile"></span><h3>LogFile<a class="headerlink" href="#logfile" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -210,8 +209,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Optional log file for use by the numerical routines in the operations. It may not be used by all type of AnyDesStudy; the file will be empty when not used by the study.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="analysis">
+ </div> <!--</div>
+<div class="section" id="analysis">
 <h3>Analysis<a class="headerlink" href="#analysis" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -220,7 +219,7 @@ about proper matching between the definitions in the files and studies.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Analysis </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Analysis" title="Permalink to this headline">¶</a>
 <span class="member-descr">This analysis operation.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="analysis-settings">
+<!--<div class="section" id="analysis-settings">
 <span id="anydesstudy-analysis-settings"></span><h4>Analysis.Settings<a class="headerlink" href="#analysis-settings" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -237,8 +236,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="analysis-settings-echo">
+</div><!--</div>
+<div class="section" id="analysis-settings-echo">
 <span id="anydesstudy-analysis-settings-echo"></span><h4>Analysis.Settings.Echo<a class="headerlink" href="#analysis-settings-echo" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -255,8 +254,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="analysis-settings-modelsceneupdate">
+</div><!--</div>
+<div class="section" id="analysis-settings-modelsceneupdate">
 <span id="anydesstudy-analysis-settings-modelsceneupdate"></span><h4>Analysis.Settings.ModelSceneUpdate<a class="headerlink" href="#analysis-settings-modelsceneupdate" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -273,8 +272,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="analysis-settings-displaypriority">
+</div><!--</div>
+<div class="section" id="analysis-settings-displaypriority">
 <span id="anydesstudy-analysis-settings-displaypriority"></span><h4>Analysis.Settings.DisplayPriority<a class="headerlink" href="#analysis-settings-displaypriority" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -291,8 +290,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="analysis-settings-selectonload">
+</div><!--</div>
+<div class="section" id="analysis-settings-selectonload">
 <span id="anydesstudy-analysis-settings-selectonload"></span><h4>Analysis.Settings.SelectOnLoad<a class="headerlink" href="#analysis-settings-selectonload" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -308,13 +307,13 @@ about proper matching between the definitions in the files and studies.</p>
 </div>
 <p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
-</section>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+</div>
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="updconfig">
+<!--<div class="section" id="updconfig">
 <span id="anydesstudy-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -331,8 +330,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="upddesign">
+</div><!--</div>
+<div class="section" id="upddesign">
 <span id="anydesstudy-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -349,8 +348,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updoutput">
+</div><!--</div>
+<div class="section" id="updoutput">
 <span id="anydesstudy-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -367,8 +366,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output">
+</div><!--</div>
+<div class="section" id="output">
 <span id="anydesstudy-output"></span><h3>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -385,8 +384,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Folder that holds the result of the latest executed analysis (operation).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output-abscissa">
+</div><!--</div>
+<div class="section" id="output-abscissa">
 <span id="anydesstudy-output-abscissa"></span><h3>Output.Abscissa<a class="headerlink" href="#output-abscissa" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -403,8 +402,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Folder where the values of the abscissa/input parameters are stored.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output-abscissa-statecountcurrent">
+</div><!--</div>
+<div class="section" id="output-abscissa-statecountcurrent">
 <span id="anydesstudy-output-abscissa-statecountcurrent"></span><h3>Output.Abscissa.StateCountCurrent<a class="headerlink" href="#output-abscissa-statecountcurrent" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -421,8 +420,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output-abscissa-statecountdata">
+</div><!--</div>
+<div class="section" id="output-abscissa-statecountdata">
 <span id="anydesstudy-output-abscissa-statecountdata"></span><h3>Output.Abscissa.StateCountData<a class="headerlink" href="#output-abscissa-statecountdata" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -439,8 +438,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="analysis-updconfig">
+</div><!--</div>
+<div class="section" id="analysis-updconfig">
 <span id="anydesstudy-analysis-updconfig"></span><h3>Analysis.UpdConfig<a class="headerlink" href="#analysis-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -457,8 +456,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="analysis-upddesign">
+</div><!--</div>
+<div class="section" id="analysis-upddesign">
 <span id="anydesstudy-analysis-upddesign"></span><h3>Analysis.UpdDesign<a class="headerlink" href="#analysis-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -475,8 +474,8 @@ about proper matching between the definitions in the files and studies.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="analysis-updoutput">
+</div><!--</div>
+<div class="section" id="analysis-updoutput">
 <span id="anydesstudy-analysis-updoutput"></span><h3>Analysis.UpdOutput<a class="headerlink" href="#analysis-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -492,9 +491,9 @@ about proper matching between the definitions in the files and studies.</p>
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -574,7 +573,7 @@ about proper matching between the definitions in the files and studies.</p>
         <li class="right" >
           <a href="AnyDesMeasureType.html" title="AnyDesMeasureType"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -584,8 +583,8 @@ about proper matching between the definitions in the files and studies.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

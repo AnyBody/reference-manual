@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyOutputBVH &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyOutputBVH &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="AnyOptStudyOprSolverData.html" title="AnyOptStudyOprSolverData"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anyoutputbvh">
+  <div class="section" id="anyoutputbvh">
 <span id="id1"></span><h1>AnyOutputBVH<a class="headerlink" href="#anyoutputbvh" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -88,7 +87,7 @@
 <dd class="field-even"><p><a class="reference internal" href="AnyOutputFile.html#anyoutputfile"><span class="std std-ref">AnyOutputFile</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>Class to save data from a BVH structured model in the BVH format or other text formats.</p>
 <p>The class saves data from af BVH model defined by an <code class="docutils literal notranslate"><span class="pre">AnyInputBVH</span></code> object to a new file.
@@ -104,8 +103,8 @@ while the Motion section is written specifically using e.g. number format specif
 If this object is requested to output data with varying time step size, it leads to an error.
 The data can, however, be written on other formats.</p></li>
 </ul>
-</section>
-<section id="examples">
+</div>
+<div class="section" id="examples">
 <h2>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h2>
 <p>Here is simple code block of an <code class="docutils literal notranslate"><span class="pre">AnyOutputBVH</span></code> object that could be defined inside a study</p>
 <div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="n">AnyOutputBVH</span> <span class="n">OutFileBVH</span> <span class="o">=</span> <span class="p">{</span>
@@ -124,11 +123,11 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 </pre></div>
 </div>
 <p> </p>
-</section>
-<section id="required-initialization-members">
+</div>
+<div class="section" id="required-initialization-members">
 <h2>Required initialization members<a class="headerlink" href="#required-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="filename">
+<!--<div class="section" id="filename">
 <span id="anyoutputbvh-filename"></span><h3>FileName<a class="headerlink" href="#filename" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -144,8 +143,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Name of the file.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="bvhreader">
+</div><!--</div>
+<div class="section" id="bvhreader">
 <span id="anyoutputbvh-bvhreader"></span><h3>BVHReader<a class="headerlink" href="#bvhreader" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -160,12 +159,12 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 </div>
 <p>Pointer to the BVH reader (AnyInputBVH) that contains the BVH model to save data from.</p>
 </div></blockquote>
-</section>
-</section>
-<section id="optional-initialization-members">
+</div>
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="numberformat">
+  <!--<div class="section" id="numberformat">
 <h3>NumberFormat<a class="headerlink" href="#numberformat" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -174,7 +173,7 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <h3 class="html-toggle-button" style=""><span class="member-title"> NumberFormat </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#NumberFormat" title="Permalink to this headline">¶</a>
 <span class="member-descr">Format settings for numerical values in text formatted files. Applies to...</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="numberformat-digits">
+<!--<div class="section" id="numberformat-digits">
 <span id="anyoutputbvh-numberformat-digits"></span><h4>NumberFormat.Digits<a class="headerlink" href="#numberformat-digits" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -191,8 +190,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Number of digits in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="numberformat-width">
+</div><!--</div>
+<div class="section" id="numberformat-width">
 <span id="anyoutputbvh-numberformat-width"></span><h4>NumberFormat.Width<a class="headerlink" href="#numberformat-width" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -209,8 +208,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Number of character spaces reserved for the number in output. Disregarded if smaller than one.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="numberformat-style">
+</div><!--</div>
+<div class="section" id="numberformat-style">
 <span id="anyoutputbvh-numberformat-style"></span><h4>NumberFormat.Style<a class="headerlink" href="#numberformat-style" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -227,8 +226,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Style specification.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="numberformat-formatstr">
+</div><!--</div>
+<div class="section" id="numberformat-formatstr">
 <span id="anyoutputbvh-numberformat-formatstr"></span><h4>NumberFormat.FormatStr<a class="headerlink" href="#numberformat-formatstr" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -245,9 +244,9 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Complete format specification using C-style character specification known from the printf() function. This overrides the any other specification. If not specified by the user it is determined automatically from the other specification.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</section>
-</section>
-<section id="format">
+ </div></div> <!--</div>
+</div>
+<div class="section" id="format">
 <span id="anyoutputbvh-format"></span><h3>Format<a class="headerlink" href="#format" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -264,8 +263,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>File format options. 0: Text format (CSV format with optional header section), 1: XML format.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="sepsign">
+ </div> <!--</div>
+<div class="section" id="sepsign">
 <span id="anyoutputbvh-sepsign"></span><h3>SepSign<a class="headerlink" href="#sepsign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -282,8 +281,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Separator sign for the standard format.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="sepspaceautoonoff">
+ </div> <!--</div>
+<div class="section" id="sepspaceautoonoff">
 <span id="anyoutputbvh-sepspaceautoonoff"></span><h3>SepSpaceAutoOnOff<a class="headerlink" href="#sepspaceautoonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -300,8 +299,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Option to give preference to optimal formatting for standard CSV/TEXT readers. This option can override column width given in ‘NumberFormat’ so that e.g. space-separated values will only be separated by a single space. When ‘On’, the file conforms to standard CSV format, else it gives preference to nicely aligned columns (formatted according to ‘NumberFormat’).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="linesepsign">
+ </div> <!--</div>
+<div class="section" id="linesepsign">
 <span id="anyoutputbvh-linesepsign"></span><h3>LineSepSign<a class="headerlink" href="#linesepsign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -318,8 +317,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Line separator sign for the standard format.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="header">
+ </div> <!--</div>
+<div class="section" id="header">
 <h3>Header<a class="headerlink" href="#header" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -328,7 +327,7 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <h3 class="html-toggle-button" style=""><span class="member-title"> Header </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Header" title="Permalink to this headline">¶</a>
 <span class="member-descr">Header formatting settings for the standard format.</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="header-titlesectiononoff">
+<!--<div class="section" id="header-titlesectiononoff">
 <span id="anyoutputbvh-header-titlesectiononoff"></span><h4>Header.TitleSectionOnOff<a class="headerlink" href="#header-titlesectiononoff" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -345,8 +344,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Switch for the title section.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="header-constsectiononoff">
+</div><!--</div>
+<div class="section" id="header-constsectiononoff">
 <span id="anyoutputbvh-header-constsectiononoff"></span><h4>Header.ConstSectionOnOff<a class="headerlink" href="#header-constsectiononoff" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -363,8 +362,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Switch for the header section containing constant variables.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="header-constsectionsaveoptionsonoff">
+</div><!--</div>
+<div class="section" id="header-constsectionsaveoptionsonoff">
 <span id="anyoutputbvh-header-constsectionsaveoptionsonoff"></span><h4>Header.ConstSectionSaveOptionsOnOff<a class="headerlink" href="#header-constsectionsaveoptionsonoff" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -381,8 +380,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Switch for class-specific parameters in the Constants section of the output file. Value ‘Off’ excludes all standard class members, which are irrelelvant in the output file.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="header-varsectiononoff">
+</div><!--</div>
+<div class="section" id="header-varsectiononoff">
 <span id="anyoutputbvh-header-varsectiononoff"></span><h4>Header.VarSectionOnOff<a class="headerlink" href="#header-varsectiononoff" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -399,8 +398,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Switch for the variable description section.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="header-columnnamesonoff">
+</div><!--</div>
+<div class="section" id="header-columnnamesonoff">
 <span id="anyoutputbvh-header-columnnamesonoff"></span><h4>Header.ColumnNamesOnOff<a class="headerlink" href="#header-columnnamesonoff" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -417,8 +416,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Switch for the row containing the column names in the data section.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="header-lineprefix">
+</div><!--</div>
+<div class="section" id="header-lineprefix">
 <span id="anyoutputbvh-header-lineprefix"></span><h4>Header.LinePrefix<a class="headerlink" href="#header-lineprefix" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -435,8 +434,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>String containing a line prefix used for all lines of the header section.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="header-shortennamesonoff">
+</div><!--</div>
+<div class="section" id="header-shortennamesonoff">
 <span id="anyoutputbvh-header-shortennamesonoff"></span><h4>Header.ShortenNamesOnOff<a class="headerlink" href="#header-shortennamesonoff" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -453,8 +452,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Switch for shortening variable names, incl. column names, in the output.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="header-columnidstring">
+</div><!--</div>
+<div class="section" id="header-columnidstring">
 <span id="anyoutputbvh-header-columnidstring"></span><h4>Header.ColumnIDString<a class="headerlink" href="#header-columnidstring" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -471,9 +470,9 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>String used to id columns, i.e., entered in front of column numbers to form a column identifier. If this string is empty the column identifier becomes an integer.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</section>
-</section>
-<section id="suppresstimecolumnonoff">
+ </div></div> <!--</div>
+</div>
+<div class="section" id="suppresstimecolumnonoff">
 <span id="anyoutputbvh-suppresstimecolumnonoff"></span><h3>SuppressTimeColumnOnOff<a class="headerlink" href="#suppresstimecolumnonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -490,8 +489,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Switch to suppress time column being printed into the output file.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="bvhformatonoff">
+ </div> <!--</div>
+<div class="section" id="bvhformatonoff">
 <span id="anyoutputbvh-bvhformatonoff"></span><h3>BVHFormatOnOff<a class="headerlink" href="#bvhformatonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -507,12 +506,12 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 </div>
 <p>Switch for On (default): selecting BVH formatted file, or Off: using format inherited from base class AnyOutputFile.</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="upddata">
+<!--<div class="section" id="upddata">
 <span id="anyoutputbvh-upddata"></span><h3>UpdData<a class="headerlink" href="#upddata" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -529,8 +528,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Data update counter that counts number of data update and configuration processes.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="values">
+</div><!--</div>
+<div class="section" id="values">
 <span id="anyoutputbvh-values"></span><h3>Values<a class="headerlink" href="#values" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -547,8 +546,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 <p>Array of object-pointers to values, which will be included in the output data.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="search">
+</div><!--</div>
+<div class="section" id="search">
 <span id="anyoutputbvh-search"></span><h3>Search<a class="headerlink" href="#search" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -564,12 +563,12 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 </div>
 <p>Array of objects search strings, which will be applied to find and include values in the output (for more info. on search-strings, see class AnyObjectSearchString).</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="deprecated-members">
+</div>
+</div>
+<div class="html-toggle section" id="deprecated-members">
 <h2>Deprecated members<a class="headerlink" href="#deprecated-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="constsectionsaveoptionsonoff">
+<!--<div class="section" id="constsectionsaveoptionsonoff">
 <span id="anyoutputbvh-constsectionsaveoptionsonoff"></span><h3>ConstSectionSaveOptionsOnOff<a class="headerlink" href="#constsectionsaveoptionsonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -590,9 +589,9 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -672,7 +671,7 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
         <li class="right" >
           <a href="AnyOptStudyOprSolverData.html" title="AnyOptStudyOprSolverData"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -682,8 +681,8 @@ parent class <code class="docutils literal notranslate"><span class="pre">AnyOut
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

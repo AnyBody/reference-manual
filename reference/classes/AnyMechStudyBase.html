@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyMechStudyBase &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyMechStudyBase &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="AnyMechStudy.html" title="AnyMechStudy"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anymechstudybase">
+  <div class="section" id="anymechstudybase">
 <span id="id1"></span><h1>AnyMechStudyBase<a class="headerlink" href="#anymechstudybase" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -91,7 +90,7 @@
 <dd class="field-odd"><p><a class="reference internal" href="AnyKinStudy.html#anykinstudy"><span class="std std-ref">AnyKinStudy</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>This is the base class from which all mechanical models (studies) are derived.</p>
 <p>Notice that the Object Description is extended with Mechanical System Information
@@ -121,11 +120,11 @@ constraints.</p>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="optional-initialization-members">
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="mechobjectexclude">
+  <!--<div class="section" id="mechobjectexclude">
 <span id="anymechstudybase-mechobjectexclude"></span><h3>MechObjectExclude<a class="headerlink" href="#mechobjectexclude" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -142,8 +141,8 @@ constraints.</p>
 <p>Array of pointers to mechnical objects to exclude from the study.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="tstart">
+ </div> <!--</div>
+<div class="section" id="tstart">
 <span id="anymechstudybase-tstart"></span><h3>tStart<a class="headerlink" href="#tstart" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -160,8 +159,8 @@ constraints.</p>
 <p>Initial time.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="tend">
+ </div> <!--</div>
+<div class="section" id="tend">
 <span id="anymechstudybase-tend"></span><h3>tEnd<a class="headerlink" href="#tend" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -178,8 +177,8 @@ constraints.</p>
 <p>Final time.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="nstep">
+ </div> <!--</div>
+<div class="section" id="nstep">
 <span id="anymechstudybase-nstep"></span><h3>nStep<a class="headerlink" href="#nstep" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -196,8 +195,8 @@ constraints.</p>
 <p>Number of equally spaced time steps (plus one). Both tStart and tEnd are counted as time steps.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="tarray">
+ </div> <!--</div>
+<div class="section" id="tarray">
 <span id="anymechstudybase-tarray"></span><h3>tArray<a class="headerlink" href="#tarray" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -214,8 +213,8 @@ constraints.</p>
 <p>Array of output-time values. This provides an alternative input to the even spacing obtained by setting nStep, tStart, and tEnd.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="referenceframe">
+ </div> <!--</div>
+<div class="section" id="referenceframe">
 <h3>ReferenceFrame<a class="headerlink" href="#referenceframe" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -224,7 +223,7 @@ constraints.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> ReferenceFrame </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#ReferenceFrame" title="Permalink to this headline">¶</a>
 <span class="member-descr"></span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="referenceframe-inertialref">
+<!--<div class="section" id="referenceframe-inertialref">
 <span id="anymechstudybase-referenceframe-inertialref"></span><h4>ReferenceFrame.InertialRef<a class="headerlink" href="#referenceframe-inertialref" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -241,9 +240,9 @@ constraints.</p>
 <p>Pointer to the inertial reference frame. Used if a moving frame is used as basis for the model</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div></div> <!--</section>
-</section>
-<section id="gravity">
+ </div></div> <!--</div>
+</div>
+<div class="section" id="gravity">
 <span id="anymechstudybase-gravity"></span><h3>Gravity<a class="headerlink" href="#gravity" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -260,8 +259,8 @@ constraints.</p>
 <p>The acceleration of gravity.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="replay">
+ </div> <!--</div>
+<div class="section" id="replay">
 <h3>Replay<a class="headerlink" href="#replay" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -270,7 +269,7 @@ constraints.</p>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Replay </span><span class="member-title-equal">=</span><span class="member-title-default"> {} </span><a class="headerlink" href="#Replay" title="Permalink to this headline">¶</a>
 <span class="member-descr">Operation that replay previously calculated results stored in the Output...</span>
 </h3><!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="replay-settings">
+<!--<div class="section" id="replay-settings">
 <span id="anymechstudybase-replay-settings"></span><h4>Replay.Settings<a class="headerlink" href="#replay-settings" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -287,8 +286,8 @@ constraints.</p>
 <p>General settings for the operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-settings-echo">
+</div><!--</div>
+<div class="section" id="replay-settings-echo">
 <span id="anymechstudybase-replay-settings-echo"></span><h4>Replay.Settings.Echo<a class="headerlink" href="#replay-settings-echo" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -305,8 +304,8 @@ constraints.</p>
 <p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-settings-modelsceneupdate">
+</div><!--</div>
+<div class="section" id="replay-settings-modelsceneupdate">
 <span id="anymechstudybase-replay-settings-modelsceneupdate"></span><h4>Replay.Settings.ModelSceneUpdate<a class="headerlink" href="#replay-settings-modelsceneupdate" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -323,8 +322,8 @@ constraints.</p>
 <p>Switch for definition of operation output to the output log and views.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-settings-displaypriority">
+</div><!--</div>
+<div class="section" id="replay-settings-displaypriority">
 <span id="anymechstudybase-replay-settings-displaypriority"></span><h4>Replay.Settings.DisplayPriority<a class="headerlink" href="#replay-settings-displaypriority" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -341,8 +340,8 @@ constraints.</p>
 <p>Value for defining the interface display priority for the Operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-settings-selectonload">
+</div><!--</div>
+<div class="section" id="replay-settings-selectonload">
 <span id="anymechstudybase-replay-settings-selectonload"></span><h4>Replay.Settings.SelectOnLoad<a class="headerlink" href="#replay-settings-selectonload" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -359,8 +358,8 @@ constraints.</p>
 <p>Value for defining if the Operation should be displayed as the default Operation for the loaded model.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-postprocessingonoff">
+</div><!--</div>
+<div class="section" id="replay-postprocessingonoff">
 <span id="anymechstudybase-replay-postprocessingonoff"></span><h4>Replay.PostProcessingOnOff<a class="headerlink" href="#replay-postprocessingonoff" title="Permalink to this headline">¶</a></h4>
 -->
 
@@ -376,13 +375,13 @@ constraints.</p>
 </div>
 <p>Switch that controls whether post-processing of symbolic expressions should be carried out.</p>
 </div></blockquote>
-</section>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+</div>
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="updconfig">
+<!--<div class="section" id="updconfig">
 <span id="anymechstudybase-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -399,8 +398,8 @@ constraints.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="upddesign">
+</div><!--</div>
+<div class="section" id="upddesign">
 <span id="anymechstudybase-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -417,8 +416,8 @@ constraints.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updoutput">
+</div><!--</div>
+<div class="section" id="updoutput">
 <span id="anymechstudybase-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -435,8 +434,8 @@ constraints.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output">
+</div><!--</div>
+<div class="section" id="output">
 <span id="anymechstudybase-output"></span><h3>Output<a class="headerlink" href="#output" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -453,8 +452,8 @@ constraints.</p>
 <p>Folder that holds the result of the latest executed analysis (operation).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output-abscissa">
+</div><!--</div>
+<div class="section" id="output-abscissa">
 <span id="anymechstudybase-output-abscissa"></span><h3>Output.Abscissa<a class="headerlink" href="#output-abscissa" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -471,8 +470,8 @@ constraints.</p>
 <p>Folder where the values of the abscissa/input parameters are stored.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output-abscissa-statecountcurrent">
+</div><!--</div>
+<div class="section" id="output-abscissa-statecountcurrent">
 <span id="anymechstudybase-output-abscissa-statecountcurrent"></span><h3>Output.Abscissa.StateCountCurrent<a class="headerlink" href="#output-abscissa-statecountcurrent" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -489,8 +488,8 @@ constraints.</p>
 <p>Counter (integer) that indicates the number (the state) of the current data save operation of the abscissae data and thereby for the AnyOutputFolder (the owner).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output-abscissa-statecountdata">
+</div><!--</div>
+<div class="section" id="output-abscissa-statecountdata">
 <span id="anymechstudybase-output-abscissa-statecountdata"></span><h3>Output.Abscissa.StateCountData<a class="headerlink" href="#output-abscissa-statecountdata" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -507,8 +506,8 @@ constraints.</p>
 <p>Structure of state indicators for each data point in the AnyOutputFolder data structure. Values equal to StateCountCurrent indicates that the data point is updated, whereas lower values implies that the data point was stored during an earlier operation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="output-abscissa-t">
+</div><!--</div>
+<div class="section" id="output-abscissa-t">
 <span id="anymechstudybase-output-abscissa-t"></span><h3>Output.Abscissa.t<a class="headerlink" href="#output-abscissa-t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -525,8 +524,8 @@ constraints.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="t">
+</div><!--</div>
+<div class="section" id="t">
 <span id="anymechstudybase-t"></span><h3>t<a class="headerlink" href="#t" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -543,8 +542,8 @@ constraints.</p>
 <p>Time.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="istep">
+</div><!--</div>
+<div class="section" id="istep">
 <span id="anymechstudybase-istep"></span><h3>iStep<a class="headerlink" href="#istep" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -561,8 +560,8 @@ constraints.</p>
 <p>Index of the current time step.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="upd-tarray">
+</div><!--</div>
+<div class="section" id="upd-tarray">
 <span id="anymechstudybase-upd-tarray"></span><h3>Upd_tArray<a class="headerlink" href="#upd-tarray" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -579,8 +578,8 @@ constraints.</p>
 <p>Update counter counting updates of tArray’s dependency of nStep, tStart and tEnd.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="kinematicerror">
+</div><!--</div>
+<div class="section" id="kinematicerror">
 <span id="anymechstudybase-kinematicerror"></span><h3>KinematicError<a class="headerlink" href="#kinematicerror" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -597,8 +596,8 @@ constraints.</p>
 <p>Current value of the kinematic error.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="ekin">
+</div><!--</div>
+<div class="section" id="ekin">
 <span id="anymechstudybase-ekin"></span><h3>Ekin<a class="headerlink" href="#ekin" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -615,8 +614,8 @@ constraints.</p>
 <p>Current kinematic energy of the system.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="epot">
+</div><!--</div>
+<div class="section" id="epot">
 <span id="anymechstudybase-epot"></span><h3>Epot<a class="headerlink" href="#epot" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -633,8 +632,8 @@ constraints.</p>
 <p>Current potential energy of the system.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="emech">
+</div><!--</div>
+<div class="section" id="emech">
 <span id="anymechstudybase-emech"></span><h3>Emech<a class="headerlink" href="#emech" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -651,8 +650,8 @@ constraints.</p>
 <p>Current mechanical energy of the system (=Ekin+Epot).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="pmech">
+</div><!--</div>
+<div class="section" id="pmech">
 <span id="anymechstudybase-pmech"></span><h3>Pmech<a class="headerlink" href="#pmech" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -669,8 +668,8 @@ constraints.</p>
 <p>Current mechanical power applied to the system.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="anymechstudybase-replay">
+</div><!--</div>
+<div class="section" id="anymechstudybase-replay">
 <span id="id2"></span><h3>Replay<a class="headerlink" href="#anymechstudybase-replay" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -687,8 +686,8 @@ constraints.</p>
 <p>Operation that replay previously calculated results stored in the Output folder. It also replays data in the Output folder if they are imported from an output storage file. Replaying means to transfer data from the Output folder back into their original value objects in the model. This restores all saved value as they were upon the time of calculation. The Replay operation executes the same number of time steps as the original simulation.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-updconfig">
+</div><!--</div>
+<div class="section" id="replay-updconfig">
 <span id="anymechstudybase-replay-updconfig"></span><h3>Replay.UpdConfig<a class="headerlink" href="#replay-updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -705,8 +704,8 @@ constraints.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-upddesign">
+</div><!--</div>
+<div class="section" id="replay-upddesign">
 <span id="anymechstudybase-replay-upddesign"></span><h3>Replay.UpdDesign<a class="headerlink" href="#replay-upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -723,8 +722,8 @@ constraints.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="replay-updoutput">
+</div><!--</div>
+<div class="section" id="replay-updoutput">
 <span id="anymechstudybase-replay-updoutput"></span><h3>Replay.UpdOutput<a class="headerlink" href="#replay-updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -740,12 +739,12 @@ constraints.</p>
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="deprecated-members">
+</div>
+</div>
+<div class="html-toggle section" id="deprecated-members">
 <h2>Deprecated members<a class="headerlink" href="#deprecated-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="tarrayonoff">
+<!--<div class="section" id="tarrayonoff">
 <span id="anymechstudybase-tarrayonoff"></span><h3>tArrayOnOff<a class="headerlink" href="#tarrayonoff" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -766,9 +765,9 @@ tArray will be used if it is initialized in script.</p>
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -848,7 +847,7 @@ tArray will be used if it is initialized in script.</p>
         <li class="right" >
           <a href="AnyMechStudy.html" title="AnyMechStudy"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -858,8 +857,8 @@ tArray will be used if it is initialized in script.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>

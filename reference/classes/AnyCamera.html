@@ -6,17 +6,16 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
-<meta content="noindex" name="robots" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyCamera &#8212; AnyScript Reference 7.3.1 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/cloud.css" />
+    <title>AnyCamera &#8212; AnyScript Reference 7.3.2 documentation</title>
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/css/custom.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/table_styling.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
-    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
     <script src="../../_static/doctools.js"></script>
@@ -63,7 +62,7 @@
         <li class="right" >
           <a href="AnyCamRecorder.html" title="AnyCamRecorder"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" accesskey="U"><strong>Class reference</strong></a> &#187;</li>
@@ -78,7 +77,7 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <section id="anycamera">
+  <div class="section" id="anycamera">
 <span id="id1"></span><h1>AnyCamera<a class="headerlink" href="#anycamera" title="Permalink to this headline">¶</a></h1>
 <dl class="field-list simple">
 <dt class="field-odd">Type</dt>
@@ -91,7 +90,7 @@
 <dd class="field-odd"><p><a class="reference internal" href="AnyCameraLookAt.html#anycameralookat"><span class="std std-ref">AnyCameraLookAt</span></a>, <a class="reference internal" href="AnyCameraModelView.html#anycameramodelview"><span class="std std-ref">AnyCameraModelView</span></a></p>
 </dd>
 </dl>
-<section id="description">
+<div class="section" id="description">
 <h2>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h2>
 <p>AnyCamera is the base class for camera classes. Camera objects define a view point
 for the model scene.</p>
@@ -140,11 +139,11 @@ applied on top of it.</p>
 </tr>
 </tbody>
 </table>
-</section>
-<section id="expected-members">
+</div>
+<div class="section" id="expected-members">
 <h2>Expected members<a class="headerlink" href="#expected-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="anyscene">
+<!--<div class="section" id="anyscene">
 <span id="anycamera-anyscene"></span><h3>AnyScene<a class="headerlink" href="#anyscene" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -159,12 +158,12 @@ applied on top of it.</p>
 </div>
 <p>Definition of scene settings. If more than one exists, only the former is used by the camera. If none exists, default settings are used.</p>
 </div></blockquote>
-</section>
-</section>
-<section id="optional-initialization-members">
+</div>
+</div>
+<div class="section" id="optional-initialization-members">
 <h2>Optional initialization members<a class="headerlink" href="#optional-initialization-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-  <!--<section id="focaldist">
+  <!--<div class="section" id="focaldist">
 <span id="anycamera-focaldist"></span><h3>FocalDist<a class="headerlink" href="#focaldist" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -181,8 +180,8 @@ applied on top of it.</p>
 <p>Distance to the focal plane in (model units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="focalheight">
+ </div> <!--</div>
+<div class="section" id="focalheight">
 <span id="anycamera-focalheight"></span><h3>FocalHeight<a class="headerlink" href="#focalheight" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -199,44 +198,44 @@ applied on top of it.</p>
 <p>Height of the view area in focal plane (model units).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="near">
+ </div> <!--</div>
+<div class="section" id="near">
 <span id="anycamera-near"></span><h3>Near<a class="headerlink" href="#near" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries odd section collapsed" id="Near">
 <span id="anycamera-near" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Near </span><span class="member-title-equal">=</span><span class="member-title-default"> 0.001 </span><a class="headerlink" href="#Near" title="Permalink to this headline">¶</a>
-<span class="member-descr">Distance from eye to the nearest clipping plane (model units). Everything...</span>
+<span class="member-descr">Distance from eye to the near clipping plane (model units). Everything...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">0.001</span></code></div>
 </div>
-<p>Distance from eye to the nearest clipping plane (model units). Everything closer to the eye point is not visible.</p>
+<p>Distance from eye to the near clipping plane (model units). Everything closer to the eye point is not visible.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="far">
+ </div> <!--</div>
+<div class="section" id="far">
 <span id="anycamera-far"></span><h3>Far<a class="headerlink" href="#far" title="Permalink to this headline">¶</a></h3>
 -->
 
 <div class="html-toggle member-entries even section collapsed" id="Far">
 <span id="anycamera-far" style=""></span>
 <h3 class="html-toggle-button" style=""><span class="member-title"> Far </span><span class="member-title-equal">=</span><span class="member-title-default"> 1000.0 </span><a class="headerlink" href="#Far" title="Permalink to this headline">¶</a>
-<span class="member-descr">Distance from eye to the farest??? clipping plane (model units). Everything...</span>
+<span class="member-descr">Distance from eye to the far clipping plane (model units). Everything...</span>
 </h3><blockquote>
 <div><div class="line-block">
 <div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyVar.html#anyvar"><span class="std std-ref">AnyVar</span></a></div>
 <div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
 <div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">1000.0</span></code></div>
 </div>
-<p>Distance from eye to the farest??? clipping plane (model units). Everything further away from the eye point is not visible.</p>
+<p>Distance from eye to the far clipping plane (model units). Everything further away from the eye point is not visible.</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
- </div> <!--</section>
-<section id="perspective">
+ </div> <!--</div>
+<div class="section" id="perspective">
 <span id="anycamera-perspective"></span><h3>Perspective<a class="headerlink" href="#perspective" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -252,12 +251,48 @@ applied on top of it.</p>
 </div>
 <p>Switch for perspective view. Alternatively, the view is orthographic.</p>
 </div></blockquote>
-</section>
-</section>
-<section class="html-toggle" id="denied-access-members">
+<!-- Hack to trick sphinx into adding member target link -->
+ </div> <!--</div>
+<div class="section" id="renderuserinterfaceviewstate">
+<span id="anycamera-renderuserinterfaceviewstate"></span><h3>RenderUserInterfaceViewState<a class="headerlink" href="#renderuserinterfaceviewstate" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries even section collapsed" id="RenderUserInterfaceViewState">
+<span id="anycamera-renderuserinterfaceviewstate" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> RenderUserInterfaceViewState </span><span class="member-title-equal">=</span><span class="member-title-default"> Off </span><a class="headerlink" href="#RenderUserInterfaceViewState" title="Permalink to this headline">¶</a>
+<span class="member-descr">Switch for using the state set by the user in the AnyBody user interface,...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnySwitchVar.html#anyswitchvar"><span class="std std-ref">AnySwitchVar</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <code class="docutils literal notranslate"><span class="pre">Off</span></code></div>
+</div>
+<p>Switch for using the state set by the user in the AnyBody user interface, i.e., what you see in Model View. When set to ‘Off’, the model defined state is rendered</p>
+</div></blockquote>
+<!-- Hack to trick sphinx into adding member target link -->
+ </div> <!--</div>
+<div class="section" id="modelviewdefinitions">
+<span id="anycamera-modelviewdefinitions"></span><h3>ModelViewDefinitions<a class="headerlink" href="#modelviewdefinitions" title="Permalink to this headline">¶</a></h3>
+-->
+
+<div class="html-toggle member-entries odd section collapsed" id="ModelViewDefinitions">
+<span id="anycamera-modelviewdefinitions" style=""></span>
+<h3 class="html-toggle-button" style=""><span class="member-title"> ModelViewDefinitions </span><span class="member-title-equal">=</span><span class="member-title-default"> ... </span><a class="headerlink" href="#ModelViewDefinitions" title="Permalink to this headline">¶</a>
+<span class="member-descr">Array of view definitions (class AnyModelViewDefinition) applied on top of...</span>
+</h3><blockquote>
+<div><div class="line-block">
+<div class="line"><strong>Class type:</strong>  <a class="reference internal" href="AnyObjectPtrArray.html#anyobjectptrarray"><span class="std std-ref">AnyObjectPtrArray</span></a></div>
+<div class="line"><strong>Eval moment:</strong> <a class="reference internal" href="../../anyscript/inside-anybody.html#insideams-evalmoments"><span class="std std-ref">ModelSceneVar</span></a></div>
+<div class="line"><strong>Default:</strong> <em>Depends on other values</em></div>
+</div>
+<p>Array of view definitions (class AnyModelViewDefinition) applied on top of the model defined state when rendering for the camera.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="html-toggle section" id="denied-access-members">
 <h2>Denied-Access members<a class="headerlink" href="#denied-access-members" title="Permalink to this headline">¶</a></h2>
 <!-- Hack to trick sphinx into adding member target link -->
-<!--<section id="updconfig">
+<!--<div class="section" id="updconfig">
 <span id="anycamera-updconfig"></span><h3>UpdConfig<a class="headerlink" href="#updconfig" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -274,8 +309,8 @@ applied on top of it.</p>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="upddesign">
+</div><!--</div>
+<div class="section" id="upddesign">
 <span id="anycamera-upddesign"></span><h3>UpdDesign<a class="headerlink" href="#upddesign" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -292,8 +327,8 @@ applied on top of it.</p>
 <p>Counter of updates of design variable (i.e. the DesignVar Evaluation Moment).</p>
 </div></blockquote>
 <!-- Hack to trick sphinx into adding member target link -->
-</div><!--</section>
-<section id="updoutput">
+</div><!--</div>
+<div class="section" id="updoutput">
 <span id="anycamera-updoutput"></span><h3>UpdOutput<a class="headerlink" href="#updoutput" title="Permalink to this headline">¶</a></h3>
 -->
 
@@ -309,9 +344,9 @@ applied on top of it.</p>
 </div>
 <p>&lt;No description&gt;</p>
 </div></blockquote>
-</section>
-</section>
-</section>
+</div>
+</div>
+</div>
 
 
             <div class="clearer"></div>
@@ -391,7 +426,7 @@ applied on top of it.</p>
         <li class="right" >
           <a href="AnyCamRecorder.html" title="AnyCamRecorder"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../../index.html">AnyScript Reference 7.3.1 documentation</a> &#187;</li>
+    <li><a href="../../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >The AnyScript Reference manual!</a> &#187;</li>
           <li class="nav-item nav-item-2"><a href="../class-overview.html" ><strong>Class reference</strong></a> &#187;</li>
@@ -401,8 +436,8 @@ applied on top of it.</p>
     </div>
 
     <div class="footer" role="contentinfo">
-        &#169; Copyright 2021, AnyBody Technology A/S.
-      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 4.0.2.
+        &#169; Copyright 2022, AnyBody Technology A/S.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.5.4.
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>
