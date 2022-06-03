@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta content="noindex" name="robots" />
 
-    <title>AnyScript™ language &#8212; AnyScript Reference 7.4.0 documentation</title>
+    <title>AnyScript™ language &#8212; AnyScript Reference 7.3.2 documentation</title>
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../_static/cloud.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
@@ -62,7 +62,7 @@
         <li class="right" >
           <a href="../index.html" title="The AnyScript Reference manual!"
              accesskey="P">previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.4.0 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">AnyScript™ language</a></li> 
@@ -228,6 +228,34 @@ computations.</p>
 <p>In such case, it is advisable to declare such sequence sensitive members
 inside a single folder initialization scope because the sequence of the
 members then becomes the same as the sequence in the code.</p>
+</div>
+</div>
+<div class="section" id="optional-initialization-and-declaration-with">
+<h2>Optional initialization and declaration with <code class="docutils literal notranslate"><span class="pre">??=</span></code><a class="headerlink" href="#optional-initialization-and-declaration-with" title="Permalink to this headline">¶</a></h2>
+<p>A special assignment operator <code class="docutils literal notranslate"><span class="pre">??=</span></code> can be used to declare or initialize objects.
+This has the effect of asssigning a default value to the object, and allowing the value to reassigned somewhere else in the script.</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="c1">// MyValue defaults to `1` if not initilized elsewhere</span>
+<span class="kt">AnyVar</span> <span class="n">MyValue</span> ??<span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+<span class="c1">// This initiize `MyValue` to 10, hence overwriting the default</span>
+<span class="n">MyValue</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>This also works for class members which are not explicitly decalared.</p>
+<div class="highlight-AnyScriptDoc notranslate"><div class="highlight"><pre><span></span><span class="kt">AnySeg</span> <span class="n">MySeg</span> <span class="o">=</span> <span class="p">{</span>
+   <span class="n">Mass</span> ??<span class="o">=</span> <span class="mf">1.0</span><span class="p">;</span>
+   <span class="n">Jii</span> ??<span class="o">=</span> <span class="p">{</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">};</span>
+<span class="p">};</span>
+
+<span class="c1">// This overwrites the default mass value</span>
+<span class="n">MySeg</span><span class="p">.</span><span class="n">Mass</span> <span class="o">=</span> <span class="mi">5</span><span class="p">;</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">??=</span></code> is an advanced script feature, which is usefull when
+creating resuable model componemts. It allows the user of the the
+component to redefine inputs without needing to modify the code directly.</p>
 </div>
 </div>
 <div class="section" id="references-and-expressions">
@@ -460,6 +488,7 @@ many places.</p>
 <li class="toctree-l2"><a class="reference internal" href="#the-main-folder-and-scopes">The Main folder and scopes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#declarations">Declarations</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#initializing-objects">Initializing objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#optional-initialization-and-declaration-with">Optional initialization and declaration with <code class="docutils literal notranslate"><span class="pre">??=</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="#references-and-expressions">References and Expressions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#mathematical-expression-and-operators">Mathematical expression and operators</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#comments-and-model-documentation">Comments and model documentation</a></li>
@@ -511,7 +540,7 @@ many places.</p>
         <li class="right" >
           <a href="../index.html" title="The AnyScript Reference manual!"
              >previous</a> &nbsp; &nbsp;</li>
-    <li><a href="../index.html">AnyScript Reference 7.4.0 documentation</a> &#187;</li>
+    <li><a href="../index.html">AnyScript Reference 7.3.2 documentation</a> &#187;</li>
 
           <li class="nav-item nav-item-1"><a href="../index.html" >The AnyScript Reference manual!</a> &#187;</li>
         <li class="nav-item nav-item-this"><a href="">AnyScript™ language</a></li> 
